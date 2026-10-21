@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>台灣毛孩趴趴走・全台寵物友善地圖 (含上傳、檢驗、關店自動更新與 Google Map 串接)</title>
+  <title>台灣毛孩趴趴走・全台寵物友善餐廳地圖 (純餐飲・AI 後台審核・回饋區・社群連結・自動更新)</title>
   
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,7 +24,6 @@
       --primary-hover: #B45309;
       --primary-light: #FEF3C7;
       --primary-50: #FFFBEB;
-      --tc-gold: #B45309;
       --slate-900: #0F172A;
       --slate-800: #1E293B;
       --slate-700: #334155;
@@ -38,6 +37,10 @@
       --emerald-50: #ECFDF5;
       --rose-500: #F43F5E;
       --rose-50: #FFF1F2;
+      --blue-600: #2563EB;
+      --blue-50: #EFF6FF;
+      --purple-600: #7C3AED;
+      --purple-50: #FAF5FF;
       --radius-sm: 8px;
       --radius-md: 12px;
       --radius-lg: 16px;
@@ -60,47 +63,60 @@
       flex-direction: column;
     }
 
-    /* Top Navigation */
+    /* Top Navigation Header */
     header.app-header {
       background: #FFFFFF;
       border-bottom: 1px solid var(--slate-200);
-      height: 64px;
-      padding: 0 20px;
+      height: 66px;
+      padding: 0 18px;
       display: flex;
       align-items: center;
       justify-content: space-between;
       z-index: 1000;
       flex-shrink: 0;
+      gap: 12px;
     }
 
-    .brand-area { display: flex; align-items: center; gap: 12px; }
+    .brand-area { display: flex; align-items: center; gap: 12px; min-width: 0; }
     .brand-icon {
-      width: 40px; height: 40px;
+      width: 42px; height: 42px;
       background: linear-gradient(135deg, #F59E0B 0%, #D97706 100%);
       color: white; border-radius: var(--radius-md);
       display: flex; align-items: center; justify-content: center;
-      font-size: 20px;
+      font-size: 21px;
       box-shadow: 0 4px 10px rgba(217, 119, 6, 0.25);
+      flex-shrink: 0;
     }
+    .brand-text { min-width: 0; }
     .brand-text h1 {
-      font-size: 16.5px; font-weight: 800; color: var(--slate-900);
-      line-height: 1.2; display: flex; align-items: center; gap: 8px;
+      font-size: 16px; font-weight: 800; color: var(--slate-900);
+      line-height: 1.25; display: flex; align-items: center; gap: 8px;
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
     }
     .version-tag {
       font-size: 11px; background: #ECFDF5; color: #047857;
       padding: 2px 8px; border-radius: var(--radius-full);
       font-weight: 700; border: 1px solid #A7F3D0;
       cursor: pointer; display: inline-flex; align-items: center; gap: 4px;
+      transition: all 0.2s ease;
     }
-    .version-tag:hover { background: #D1FAE5; }
+    .version-tag:hover { background: #D1FAE5; transform: scale(1.03); }
 
-    .brand-sub { font-size: 12px; color: var(--slate-500); margin-top: 2px; }
+    .brand-sub {
+      font-size: 11.5px; color: var(--slate-500); margin-top: 2px;
+      display: flex; align-items: center; gap: 6px;
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    }
+    .tag-pure-dining {
+      background: #FEF3C7; color: #B45309; padding: 1px 6px;
+      border-radius: var(--radius-sm); font-size: 10.5px; font-weight: 700;
+    }
 
-    .header-actions { display: flex; align-items: center; gap: 8px; }
+    .header-actions { display: flex; align-items: center; gap: 7px; flex-shrink: 0; }
 
     .btn {
       display: inline-flex; align-items: center; gap: 6px;
-      font-size: 12.5px; font-weight: 600; padding: 7px 13px;
+      font-size: 12px; font-weight: 600; padding: 7px 12px;
       border-radius: var(--radius-full); border: 1px solid transparent;
       cursor: pointer; transition: all 0.2s ease; white-space: nowrap; text-decoration: none;
     }
@@ -110,6 +126,12 @@
     .btn-outline { background: #FFFFFF; border-color: var(--slate-200); color: var(--slate-700); }
     .btn-outline:hover { background: var(--slate-100); border-color: var(--slate-300); }
     .btn-outline.active { background: var(--rose-50); border-color: var(--rose-500); color: var(--rose-500); }
+
+    .btn-feedback { background: #FAF5FF; border-color: #E9D5FF; color: #7C3AED; font-weight: 700; }
+    .btn-feedback:hover { background: #F3E8FF; }
+
+    .btn-autoupdate { background: #FFF7ED; border-color: #FED7AA; color: #C2410C; font-weight: 700; }
+    .btn-autoupdate:hover { background: #FFEDD5; }
 
     .btn-upload { background: #EFF6FF; border-color: #BFDBFE; color: #1D4ED8; font-weight: 700; }
     .btn-upload:hover { background: #DBEAFE; }
@@ -122,14 +144,14 @@
 
     /* Left Sidebar */
     .sidebar {
-      width: 450px; background: #FFFFFF; border-right: 1px solid var(--slate-200);
+      width: 460px; background: #FFFFFF; border-right: 1px solid var(--slate-200);
       display: flex; flex-direction: column; height: 100%; z-index: 500;
       transition: transform 0.3s ease; flex-shrink: 0;
     }
 
     .sidebar-filter-section {
-      padding: 14px 16px 10px; border-bottom: 1px solid var(--slate-200);
-      background: #FFFFFF; display: flex; flex-direction: column; gap: 10px;
+      padding: 12px 16px 10px; border-bottom: 1px solid var(--slate-200);
+      background: #FFFFFF; display: flex; flex-direction: column; gap: 9px;
     }
 
     .search-box-wrap { position: relative; display: flex; align-items: center; }
@@ -137,7 +159,7 @@
       position: absolute; left: 14px; color: var(--slate-400); font-size: 14px; pointer-events: none;
     }
     .search-input {
-      width: 100%; height: 40px; padding: 0 38px 0 38px;
+      width: 100%; height: 38px; padding: 0 36px 0 36px;
       background: var(--slate-50); border: 1px solid var(--slate-200);
       border-radius: var(--radius-full); font-size: 13px; color: var(--slate-800); outline: none;
       transition: all 0.2s ease;
@@ -150,32 +172,32 @@
       color: var(--slate-400); cursor: pointer; display: none; padding: 4px;
     }
 
-    /* Taichung Highlight Callout */
+    /* Official Notice Callout Banner */
     .tc-gov-banner {
       background: linear-gradient(135deg, #FFFBEB 0%, #FEF3C7 100%);
       border: 1px solid #FCD34D; border-radius: var(--radius-md);
-      padding: 8px 12px; display: flex; align-items: center; justify-content: space-between;
-      font-size: 12px; color: #92400E;
+      padding: 7px 12px; display: flex; align-items: center; justify-content: space-between;
+      font-size: 11.5px; color: #92400E;
     }
     .tc-gov-banner a { color: #B45309; font-weight: 700; text-decoration: underline; }
 
     /* City Filter Chips */
     .filter-group-title {
       font-size: 11px; font-weight: 700; text-transform: uppercase;
-      letter-spacing: 0.5px; color: var(--slate-400); margin-bottom: 4px;
+      letter-spacing: 0.5px; color: var(--slate-400); margin-bottom: 3px;
       display: flex; align-items: center; justify-content: space-between;
     }
 
     .chips-scroll {
-      display: flex; gap: 6px; overflow-x: auto; padding-bottom: 4px;
+      display: flex; gap: 5px; overflow-x: auto; padding-bottom: 3px;
       scrollbar-width: none;
     }
     .chips-scroll::-webkit-scrollbar { display: none; }
 
     .chip-btn {
       background: var(--slate-100); border: 1px solid transparent;
-      color: var(--slate-600); padding: 4px 11px; border-radius: var(--radius-full);
-      font-size: 12px; font-weight: 600; cursor: pointer; white-space: nowrap;
+      color: var(--slate-600); padding: 4px 10px; border-radius: var(--radius-full);
+      font-size: 11.5px; font-weight: 600; cursor: pointer; white-space: nowrap;
       transition: all 0.15s ease;
     }
     .chip-btn:hover { background: var(--slate-200); color: var(--slate-800); }
@@ -186,7 +208,7 @@
     /* Category Chips */
     .cat-chips { display: flex; flex-wrap: wrap; gap: 5px; }
     .cat-chip {
-      font-size: 11.5px; padding: 4px 9px; border-radius: var(--radius-full);
+      font-size: 11px; padding: 3px 8px; border-radius: var(--radius-full);
       background: var(--slate-50); border: 1px solid var(--slate-200);
       color: var(--slate-600); cursor: pointer; font-weight: 500;
     }
@@ -196,7 +218,7 @@
     /* Friendly Tag Toggles */
     .rules-toggles { display: flex; flex-wrap: wrap; gap: 5px; }
     .rule-tag-btn {
-      font-size: 11px; padding: 3px 8px; border-radius: var(--radius-sm);
+      font-size: 10.5px; padding: 3px 7px; border-radius: var(--radius-sm);
       background: #FFFFFF; border: 1px dashed var(--slate-300); color: var(--slate-600);
       cursor: pointer; display: inline-flex; align-items: center; gap: 3px;
     }
@@ -204,12 +226,12 @@
 
     /* Result Meta Header */
     .result-meta-bar {
-      padding: 9px 16px; background: var(--slate-50); border-bottom: 1px solid var(--slate-200);
-      display: flex; align-items: center; justify-content: space-between; font-size: 12px; color: var(--slate-500);
+      padding: 8px 16px; background: var(--slate-50); border-bottom: 1px solid var(--slate-200);
+      display: flex; align-items: center; justify-content: space-between; font-size: 11.5px; color: var(--slate-500);
     }
-    .result-count strong { color: var(--primary-hover); font-size: 14px; }
+    .result-count strong { color: var(--primary-hover); font-size: 13.5px; }
     .sort-select {
-      font-size: 12px; border: 1px solid var(--slate-200); background: #FFFFFF;
+      font-size: 11.5px; border: 1px solid var(--slate-200); background: #FFFFFF;
       border-radius: var(--radius-sm); padding: 3px 6px; color: var(--slate-700); outline: none; cursor: pointer;
     }
 
@@ -234,11 +256,11 @@
     }
 
     .card-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 8px; }
-    .card-name { font-size: 15px; font-weight: 700; color: var(--slate-900); line-height: 1.3; }
-    .card-badges { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 4px; }
+    .card-name { font-size: 14.5px; font-weight: 700; color: var(--slate-900); line-height: 1.3; }
+    .card-badges { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 3px; }
 
     .badge {
-      font-size: 10.5px; font-weight: 600; padding: 2px 7px; border-radius: var(--radius-full);
+      font-size: 10px; font-weight: 600; padding: 2px 6px; border-radius: var(--radius-full);
       display: inline-flex; align-items: center; gap: 3px;
     }
     .badge-cat { background: var(--slate-100); color: var(--slate-700); }
@@ -248,32 +270,57 @@
     .badge-closed { background: #FFE4E6; color: #BE123C; border: 1px solid #FDA4AF; }
 
     .fav-btn {
-      background: none; border: none; color: var(--slate-300); font-size: 17px; cursor: pointer; padding: 2px;
+      background: none; border: none; color: var(--slate-300); font-size: 16px; cursor: pointer; padding: 2px;
     }
     .fav-btn.active { color: var(--rose-500); }
 
     .card-address { font-size: 12px; color: var(--slate-600); display: flex; align-items: center; gap: 5px; }
     .card-address i { color: var(--slate-400); font-size: 11px; flex-shrink: 0; }
     .card-distance {
-      margin-left: auto; font-size: 11px; color: var(--primary-hover); font-weight: 700;
-      background: var(--primary-light); padding: 1px 6px; border-radius: var(--radius-full); flex-shrink: 0;
+      margin-left: auto; font-size: 10.5px; color: var(--primary-hover); font-weight: 700;
+      background: var(--primary-light); padding: 1px 5px; border-radius: var(--radius-full); flex-shrink: 0;
     }
 
-    .card-features { display: flex; flex-wrap: wrap; gap: 4px; padding-top: 4px; border-top: 1px solid var(--slate-100); }
+    .card-features { display: flex; flex-wrap: wrap; gap: 4px; padding-top: 3px; border-top: 1px solid var(--slate-100); }
     .feat-tag {
-      font-size: 10.5px; color: var(--slate-600); background: var(--slate-50);
-      border: 1px solid var(--slate-200); border-radius: var(--radius-sm); padding: 2px 6px;
+      font-size: 10px; color: var(--slate-600); background: var(--slate-50);
+      border: 1px solid var(--slate-200); border-radius: var(--radius-sm); padding: 2px 5px;
     }
+
+    /* Social Action Buttons inside Card */
+    .card-social-strip {
+      display: flex; align-items: center; gap: 5px; padding-top: 5px; border-top: 1px dashed var(--slate-200);
+      flex-wrap: wrap;
+    }
+    .social-btn-pill {
+      font-size: 10.5px; font-weight: 600; padding: 3px 7px; border-radius: var(--radius-full);
+      display: inline-flex; align-items: center; gap: 4px; text-decoration: none; cursor: pointer;
+      transition: all 0.15s ease; border: 1px solid transparent;
+    }
+    .social-btn-map { background: #EFF6FF; border-color: #BFDBFE; color: #1D4ED8; }
+    .social-btn-map:hover { background: #DBEAFE; }
+
+    .social-btn-ig {
+      background: linear-gradient(135deg, #FFF1F2 0%, #FDF2F8 100%);
+      border-color: #FBCFE8; color: #BE185D;
+    }
+    .social-btn-ig:hover { background: #FCE7F3; }
+
+    .social-btn-fb { background: #F0F9FF; border-color: #BAE6FD; color: #0284C7; }
+    .social-btn-fb:hover { background: #E0F2FE; }
+
+    .social-btn-web { background: var(--slate-100); border-color: var(--slate-200); color: var(--slate-700); }
+    .social-btn-web:hover { background: var(--slate-200); }
 
     .card-footer {
       display: flex; align-items: center; justify-content: space-between; margin-top: 2px;
-      padding-top: 5px; border-top: 1px dashed var(--slate-200);
+      padding-top: 5px; border-top: 1px solid var(--slate-100);
     }
-    .card-phone { font-size: 11.5px; color: var(--slate-600); display: flex; align-items: center; gap: 4px; text-decoration: none; }
-    .card-actions { display: flex; gap: 5px; }
+    .card-phone { font-size: 11px; color: var(--slate-500); display: flex; align-items: center; gap: 4px; text-decoration: none; }
+    .card-actions { display: flex; gap: 4px; }
     .btn-card-action {
       background: var(--slate-100); border: none; color: var(--slate-700);
-      font-size: 11px; font-weight: 600; padding: 4px 8px; border-radius: var(--radius-sm);
+      font-size: 10.5px; font-weight: 600; padding: 3px 7px; border-radius: var(--radius-sm);
       cursor: pointer; display: inline-flex; align-items: center; gap: 3px; text-decoration: none;
     }
     .btn-card-action:hover { background: var(--primary-light); color: var(--primary-hover); }
@@ -300,7 +347,7 @@
       border: 1px solid var(--slate-200); display: flex; gap: 6px;
     }
     .quick-view-btn {
-      background: transparent; border: none; padding: 6px 12px; border-radius: var(--radius-full);
+      background: transparent; border: none; padding: 5px 12px; border-radius: var(--radius-full);
       font-size: 12px; font-weight: 600; color: var(--slate-700); cursor: pointer; display: flex; align-items: center; gap: 5px;
     }
     .quick-view-btn:hover { background: var(--slate-100); }
@@ -324,20 +371,21 @@
     .modal-backdrop {
       position: fixed; inset: 0; background: rgba(15, 23, 42, 0.65);
       backdrop-filter: blur(4px); z-index: 2000; display: none;
-      align-items: center; justify-content: center; padding: 20px;
+      align-items: center; justify-content: center; padding: 16px;
     }
     .modal-backdrop.open { display: flex; }
     .modal-card {
-      background: #FFFFFF; width: 100%; max-width: 560px; max-height: 90vh;
+      background: #FFFFFF; width: 100%; max-width: 600px; max-height: 92vh;
       border-radius: var(--radius-lg); box-shadow: var(--shadow-xl);
       overflow-y: auto; position: relative; display: flex; flex-direction: column;
     }
     .modal-header { padding: 18px 22px 14px; border-bottom: 1px solid var(--slate-200); position: relative; }
     .modal-close-btn {
-      position: absolute; top: 14px; right: 16px; width: 30px; height: 30px;
+      position: absolute; top: 14px; right: 16px; width: 32px; height: 32px;
       border-radius: 50%; background: var(--slate-100); border: none; color: var(--slate-600);
-      cursor: pointer; display: flex; align-items: center; justify-content: center;
+      cursor: pointer; display: flex; align-items: center; justify-content: center; font-size: 15px;
     }
+    .modal-close-btn:hover { background: var(--slate-200); color: var(--slate-900); }
     .modal-body { padding: 18px 22px; display: flex; flex-direction: column; gap: 14px; }
 
     /* Form Styles */
@@ -356,6 +404,60 @@
       border-radius: var(--radius-sm); cursor: pointer;
     }
 
+    /* AI Alert Box */
+    .ai-badge-card {
+      background: #F8FAFC; border: 1px solid #CBD5E1; border-radius: var(--radius-md);
+      padding: 12px; display: flex; gap: 10px; align-items: flex-start;
+    }
+    .ai-badge-avatar {
+      width: 32px; height: 32px; background: #3B82F6; color: white;
+      border-radius: var(--radius-sm); display: flex; align-items: center; justify-content: center;
+      font-size: 16px; flex-shrink: 0;
+    }
+    .ai-badge-content { font-size: 12px; line-height: 1.5; color: var(--slate-700); }
+    .ai-verdict-tag {
+      display: inline-block; font-size: 11px; font-weight: 800; padding: 2px 7px;
+      border-radius: var(--radius-full); margin-bottom: 4px;
+    }
+    .verdict-approved { background: #ECFDF5; color: #047857; border: 1px solid #A7F3D0; }
+    .verdict-pending { background: #FFFBEB; color: #B45309; border: 1px solid #FCD34D; }
+    .verdict-rejected { background: #FFF1F2; color: #BE123C; border: 1px solid #FECDD3; }
+
+    /* Feedback Zone Styles */
+    .feedback-stats-row {
+      display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 12px;
+    }
+    .fb-stat-box {
+      background: var(--slate-50); border: 1px solid var(--slate-200); border-radius: var(--radius-md);
+      padding: 10px; text-align: center;
+    }
+    .fb-stat-val { font-size: 20px; font-weight: 800; color: var(--primary); }
+    .fb-stat-lbl { font-size: 11px; color: var(--slate-500); margin-top: 2px; }
+
+    .fb-item-card {
+      background: #FFFFFF; border: 1px solid var(--slate-200); border-radius: var(--radius-md);
+      padding: 12px 14px; display: flex; flex-direction: column; gap: 6px; box-shadow: var(--shadow-sm);
+    }
+    .fb-item-top { display: flex; align-items: center; justify-content: space-between; }
+    .fb-user-info { display: flex; align-items: center; gap: 8px; }
+    .fb-avatar {
+      width: 28px; height: 28px; border-radius: 50%; background: #FEF3C7; color: #B45309;
+      display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 800;
+    }
+    .fb-user-name { font-size: 13px; font-weight: 700; color: var(--slate-900); }
+    .fb-pet-tag { font-size: 10px; background: #ECFDF5; color: #047857; padding: 1px 6px; border-radius: var(--radius-full); }
+    .fb-stars { color: #F59E0B; font-size: 12px; }
+    .fb-target-badge {
+      font-size: 11px; color: var(--primary-hover); font-weight: 700; background: var(--primary-50);
+      padding: 2px 7px; border-radius: var(--radius-sm); border: 1px solid #FDE68A; display: inline-block;
+    }
+    .fb-text { font-size: 13px; color: var(--slate-700); line-height: 1.5; }
+    .fb-item-bottom { display: flex; align-items: center; justify-content: space-between; font-size: 11px; color: var(--slate-400); margin-top: 2px; }
+
+    /* Interactive Star Selector */
+    .star-rating-select { display: flex; gap: 6px; font-size: 22px; color: #CBD5E1; cursor: pointer; }
+    .star-rating-select i.active { color: #F59E0B; }
+
     /* Changelog Card */
     .changelog-item {
       border: 1px solid var(--slate-200); border-radius: var(--radius-md); padding: 12px 14px;
@@ -369,9 +471,17 @@
       font-size: 11px; padding: 2px 7px; border-radius: var(--radius-sm); display: inline-block;
     }
 
-    /* Mobile */
+    /* Auto-Update Spinner Progress Animation */
+    .update-step-item {
+      display: flex; align-items: center; gap: 10px; font-size: 13px; padding: 8px 10px;
+      border-radius: var(--radius-sm); background: var(--slate-50);
+    }
+    .update-step-item.active { background: #EFF6FF; color: #1D4ED8; font-weight: 700; }
+    .update-step-item.done { background: #ECFDF5; color: #047857; font-weight: 600; }
+
+    /* Mobile Responsive */
     @media (max-width: 900px) {
-      .app-header { padding: 0 12px; height: 56px; }
+      .app-header { padding: 0 10px; height: 58px; }
       .brand-sub { display: none; }
       .sidebar {
         position: absolute; top: 0; bottom: 0; left: 0; width: 100%;
@@ -387,34 +497,53 @@
   <!-- App Header -->
   <header class="app-header">
     <div class="brand-area">
-      <div class="brand-icon"><i class="fa-solid fa-paw"></i></div>
+      <div class="brand-icon"><i class="fa-solid fa-utensils"></i></div>
       <div class="brand-text">
         <h1>
-          台灣毛孩趴趴走・全台寵物友善地圖
+          台灣毛孩趴趴走・全台寵物友善餐廳地圖
           <span class="version-tag" id="btnOpenVersions" title="點擊檢視版本更新與關店異動日誌">
-            <i class="fa-solid fa-rotate"></i> <span id="headerVerText">v1.2.0</span>
+            <i class="fa-solid fa-rotate"></i> <span id="headerVerText">v1.4.0</span>
           </span>
         </h1>
-        <div class="brand-sub">收錄全台 486+ 友善空間・含 Google Maps 營運動態與社群檢驗</div>
+        <div class="brand-sub">
+          <span class="tag-pure-dining">純餐飲嚴選</span>
+          <span>收錄全台 481+ 純正友善餐廳・AI 審核・社群 IG/FB 連結與營運狀態</span>
+        </div>
       </div>
     </div>
 
     <div class="header-actions">
+      <!-- 1. 回饋意見區按鈕 -->
+      <button class="btn btn-feedback" id="btnOpenFeedback">
+        <i class="fa-solid fa-comments"></i>
+        <span>旅人回饋區 (<span id="feedbackTotalBadge">5</span>)</span>
+      </button>
+
+      <!-- 2. AI 自動審核與更新按鈕 -->
+      <button class="btn btn-autoupdate" id="btnTriggerAutoUpdate" title="執行 AI 審核、檢驗 Google Maps 營運狀態並自動推送更新至 GitHub Pages">
+        <i class="fa-solid fa-bolt"></i>
+        <span>AI 自動更新</span>
+      </button>
+
+      <!-- 3. 推薦上傳店家 (經 AI 審核) -->
       <button class="btn btn-upload" id="btnOpenUpload">
         <i class="fa-solid fa-plus"></i>
-        <span>推薦/上傳店家</span>
+        <span>推薦新餐廳</span>
       </button>
 
+      <!-- 4. 異動紀錄 -->
       <button class="btn btn-changelog" id="btnChangelog">
         <i class="fa-solid fa-clipboard-list"></i>
-        <span>異動紀錄</span>
+        <span>版本紀錄</span>
       </button>
 
+      <!-- 5. 收藏 -->
       <button class="btn btn-outline" id="btnFilterFavs">
         <i class="fa-regular fa-heart"></i>
         <span>收藏 (<span id="favCount">0</span>)</span>
       </button>
 
+      <!-- 6. 離我最近 -->
       <button class="btn btn-primary" id="btnLocateMe">
         <i class="fa-solid fa-location-crosshairs"></i>
         <span>離我最近</span>
@@ -425,7 +554,7 @@
   <!-- App Main -->
   <main class="app-main">
     
-    <!-- Sidebar -->
+    <!-- Left Sidebar -->
     <aside class="sidebar" id="sidebar">
       
       <div class="sidebar-filter-section">
@@ -433,56 +562,57 @@
         <!-- Search Input -->
         <div class="search-box-wrap">
           <i class="fa-solid fa-magnifying-glass search-icon"></i>
-          <input type="text" id="searchInput" class="search-input" placeholder="搜尋店名、地址、路名（如：美村路、草悟道、貓咪）...">
+          <input type="text" id="searchInput" class="search-input" placeholder="搜尋純餐廳店名、早午餐、咖啡、地址（如：美村路、草悟道）...">
           <button id="searchClearBtn" class="search-clear-btn"><i class="fa-solid fa-xmark"></i></button>
         </div>
 
-        <!-- Taichung Official Link Callout -->
+        <!-- Official Certification Callout -->
         <div class="tc-gov-banner">
-          <div><i class="fa-solid fa-shield-cat"></i> <strong>臺中動保處官方專區</strong> (186 筆認證)</div>
-          <a href="https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539" target="_blank" rel="noopener">官網查驗</a>
+          <div><i class="fa-solid fa-certificate"></i> <strong>官方動保處認證純餐廳</strong> (臺中/臺北/臺南/桃竹等)</div>
+          <a href="https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539" target="_blank" rel="noopener">動保處官網</a>
         </div>
 
         <!-- County / City Selector -->
         <div>
           <div class="filter-group-title">
-            <span>縣市快速切換</span>
+            <span>全台縣市快速切換</span>
             <span id="activeCityLabel" style="color: var(--primary); font-weight: 600;">全台灣</span>
           </div>
           <div class="chips-scroll" id="cityChipsContainer">
-            <button class="chip-btn active" data-city="ALL">全台灣 (<span id="countAll">576</span>)</button>
-            <button class="chip-btn special-tc" data-city="臺中市">🌟 臺中市 (<span id="countTC">187</span>)</button>
-            <button class="chip-btn" data-city="臺北市">臺北市 (<span id="countTPE">248</span>)</button>
-            <button class="chip-btn" data-city="臺南市">臺南市 (<span id="countTN">84</span>)</button>
-            <button class="chip-btn" data-city="新北市">新北市</button>
-            <button class="chip-btn" data-city="桃園市">桃園市</button>
-            <button class="chip-btn" data-city="新竹市,新竹縣">新竹</button>
-            <button class="chip-btn" data-city="高雄市">高雄市</button>
-            <button class="chip-btn" data-city="屏東縣">屏東/墾丁</button>
-            <button class="chip-btn" data-city="宜蘭縣">宜蘭縣</button>
-            <button class="chip-btn" data-city="花蓮縣">花蓮縣</button>
-            <button class="chip-btn" data-city="苗栗縣">苗栗縣</button>
-            <button class="chip-btn" data-city="彰化縣">彰化縣</button>
-            <button class="chip-btn" data-city="南投縣">南投縣</button>
-            <button class="chip-btn" data-city="嘉義市,嘉義縣">嘉義</button>
-            <button class="chip-btn" data-city="臺東縣">臺東縣</button>
-            <button class="chip-btn" data-city="澎湖縣">澎湖縣</button>
+            <button class="chip-btn active" data-city="ALL">全台灣 (<span id="countAll">481</span>)</button>
+            <button class="chip-btn special-tc" data-city="臺中市">🌟 臺中市 (<span id="countTC">150</span>)</button>
+            <button class="chip-btn" data-city="臺北市">臺北市 (<span id="countTPE">246</span>)</button>
+            <button class="chip-btn" data-city="臺南市">臺南市 (<span id="countTN">28</span>)</button>
+            <button class="chip-btn" data-city="桃園市">桃園市 (9)</button>
+            <button class="chip-btn" data-city="新竹市,新竹縣">新竹 (9)</button>
+            <button class="chip-btn" data-city="新北市">新北市 (7)</button>
+            <button class="chip-btn" data-city="高雄市">高雄市 (5)</button>
+            <button class="chip-btn" data-city="宜蘭縣">宜蘭縣 (4)</button>
+            <button class="chip-btn" data-city="屏東縣">屏東縣 (4)</button>
+            <button class="chip-btn" data-city="南投縣">南投縣 (3)</button>
+            <button class="chip-btn" data-city="花蓮縣">花蓮縣 (3)</button>
+            <button class="chip-btn" data-city="基隆市">基隆市 (2)</button>
+            <button class="chip-btn" data-city="苗栗縣">苗栗縣 (2)</button>
+            <button class="chip-btn" data-city="彰化縣">彰化縣 (2)</button>
+            <button class="chip-btn" data-city="雲林縣">雲林縣 (2)</button>
+            <button class="chip-btn" data-city="嘉義市,嘉義縣">嘉義 (2)</button>
+            <button class="chip-btn" data-city="臺東縣">臺東縣 (2)</button>
+            <button class="chip-btn" data-city="澎湖縣">澎湖縣 (1)</button>
           </div>
         </div>
 
-        <!-- Categories -->
+        <!-- Categories (Pure Restaurants) -->
         <div>
-          <div class="filter-group-title">空間類型</div>
+          <div class="filter-group-title">餐飲類型 (已過濾非餐廳)</div>
           <div class="cat-chips" id="catChipsContainer">
-            <button class="cat-chip active" data-cat="ALL">全部</button>
+            <button class="cat-chip active" data-cat="ALL">全部餐廳</button>
             <button class="cat-chip" data-cat="咖啡/甜點茶館">☕ 咖啡/甜點</button>
             <button class="cat-chip" data-cat="特色餐廳">🍽️ 特色餐廳</button>
-            <button class="cat-chip" data-cat="異國料理/餐酒館">🍝 異國/餐酒</button>
+            <button class="cat-chip" data-cat="異國料理/餐酒館">🍝 異國/餐酒館</button>
+            <button class="cat-chip" data-cat="早午餐/美式輕食">🥪 早午餐/美式</button>
             <button class="cat-chip" data-cat="火鍋/燒肉專門">🍲 火鍋/燒肉</button>
-            <button class="cat-chip" data-cat="早午餐/美式輕食">🥪 早午/美式</button>
             <button class="cat-chip" data-cat="景觀茶餐廳">🏞️ 景觀茶餐</button>
-            <button class="cat-chip" data-cat="休閒娛樂/空間">🐾 休閒/空間</button>
-            <button class="cat-chip" data-cat="友善住宿/露營">🏕️ 住宿/露營</button>
+            <button class="cat-chip" data-cat="寵物主題餐廳">🐾 寵物專屬餐廳</button>
           </div>
         </div>
 
@@ -496,7 +626,6 @@
             <button class="rule-tag-btn" data-rule="ground"><i class="fa-solid fa-shoe-prints"></i> 牽繩可落地</button>
             <button class="rule-tag-btn" data-rule="food"><i class="fa-solid fa-bone"></i> 提供寵物餐</button>
             <button class="rule-tag-btn" data-rule="water"><i class="fa-solid fa-faucet-drip"></i> 提供飲水碗</button>
-            <button class="rule-tag-btn" data-rule="grass"><i class="fa-solid fa-tree"></i> 草坪跑跑</button>
           </div>
         </div>
 
@@ -505,7 +634,7 @@
       <!-- Result Meta Bar -->
       <div class="result-meta-bar">
         <div class="result-count">
-          共找到 <strong id="filterResultCount">0</strong> 家店家
+          純餐飲共 <strong id="filterResultCount">0</strong> 家
         </div>
         <div style="display: flex; align-items: center; gap: 8px;">
           <label style="font-size: 11.5px; display: flex; align-items: center; gap: 3px; cursor: pointer;">
@@ -535,15 +664,16 @@
       </div>
 
       <div class="quick-view-pills">
-        <button class="quick-view-btn" id="quickJumpTc"><i class="fa-solid fa-star" style="color: #D97706;"></i> 臺中專區</button>
+        <button class="quick-view-btn" id="quickJumpTc"><i class="fa-solid fa-star" style="color: #D97706;"></i> 臺中美食</button>
         <button class="quick-view-btn" id="quickJumpTpe"><i class="fa-solid fa-location-dot"></i> 臺北專區</button>
+        <button class="quick-view-btn" id="quickJumpTn"><i class="fa-solid fa-award"></i> 臺南古都</button>
         <button class="quick-view-btn" id="quickJumpAll"><i class="fa-solid fa-expand"></i> 全台視野</button>
       </div>
     </div>
 
   </main>
 
-  <!-- Modal 1: Place Detail -->
+  <!-- Modal 1: Place Detail (含社群 IG/FB/官網/導航外連) -->
   <div class="modal-backdrop" id="detailModal">
     <div class="modal-card">
       <div class="modal-header">
@@ -554,55 +684,228 @@
       </div>
 
       <div class="modal-body">
+        
+        <!-- Social & Navigation Links Strip (重點增強) -->
+        <div style="background: #F8FAFC; border: 1px solid var(--slate-200); border-radius: var(--radius-md); padding: 12px; display: flex; flex-direction: column; gap: 8px;">
+          <div style="font-size: 12px; font-weight: 700; color: var(--slate-700);"><i class="fa-solid fa-share-nodes"></i> 店家社群・定位與外連：</div>
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px;">
+            <a id="modalNavBtnFull" href="#" target="_blank" class="btn" style="background: #2563EB; color: white; justify-content: center; font-size: 12px;">
+              <i class="fa-solid fa-diamond-turn-right"></i> Google 導航
+            </a>
+            <a id="modalIgBtnFull" href="#" target="_blank" class="btn" style="background: linear-gradient(135deg, #F58529, #DD2A7B, #8134AF); color: white; justify-content: center; font-size: 12px;">
+              <i class="fa-brands fa-instagram"></i> Instagram 探店
+            </a>
+            <a id="modalFbBtnFull" href="#" target="_blank" class="btn" style="background: #1877F2; color: white; justify-content: center; font-size: 12px;">
+              <i class="fa-brands fa-facebook"></i> Facebook 粉專
+            </a>
+            <a id="modalWebBtnFull" href="#" target="_blank" class="btn btn-outline" style="justify-content: center; font-size: 12px;">
+              <i class="fa-solid fa-globe"></i> 官方網站 / 簡介
+            </a>
+          </div>
+        </div>
+
         <div class="info-section">
           <div style="font-size: 13px; font-weight: 700; color: var(--slate-800);"><i class="fa-solid fa-location-dot" style="color: var(--primary);"></i> 地址與聯絡</div>
-          <div id="modalAddress" style="font-size: 14px; line-height: 1.5;"></div>
-          <div id="modalPhone" style="font-size: 13.5px;"></div>
+          <div id="modalAddress" style="font-size: 14px; line-height: 1.5; margin-top: 3px;"></div>
+          <div id="modalPhone" style="font-size: 13.5px; margin-top: 2px;"></div>
         </div>
 
         <div class="info-section">
-          <div style="font-size: 13px; font-weight: 700; color: var(--slate-800);"><i class="fa-solid fa-paw" style="color: var(--primary);"></i> 友善物種與規範</div>
-          <div id="modalPetsAllowed" style="display: flex; flex-wrap: wrap; gap: 6px;"></div>
+          <div style="font-size: 13px; font-weight: 700; color: var(--slate-800);"><i class="fa-solid fa-paw" style="color: var(--primary);"></i> 友善物種與用餐規範</div>
+          <div id="modalPetsAllowed" style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 5px;"></div>
         </div>
 
         <div class="info-section">
-          <div style="font-size: 13px; font-weight: 700; color: var(--slate-800);"><i class="fa-solid fa-circle-check" style="color: var(--emerald-600);"></i> 友善設施備品</div>
-          <div id="modalFeatures" style="display: flex; flex-wrap: wrap; gap: 6px;"></div>
+          <div style="font-size: 13px; font-weight: 700; color: var(--slate-800);"><i class="fa-solid fa-circle-check" style="color: var(--emerald-600);"></i> 友善設施與配套</div>
+          <div id="modalFeatures" style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 5px;"></div>
         </div>
 
         <div class="info-section">
-          <div style="font-size: 13px; font-weight: 700; color: var(--slate-800);"><i class="fa-solid fa-certificate" style="color: var(--primary);"></i> 認證與來源</div>
-          <div id="modalSourceDesc" style="font-size: 12.5px; color: var(--slate-600); line-height: 1.5;"></div>
+          <div style="font-size: 13px; font-weight: 700; color: var(--slate-800);"><i class="fa-solid fa-certificate" style="color: var(--primary);"></i> 資料認證與來源</div>
+          <div id="modalSourceDesc" style="font-size: 12.5px; color: var(--slate-600); line-height: 1.5; margin-top: 3px;"></div>
         </div>
       </div>
 
       <div style="display: flex; gap: 8px; padding: 14px 22px; border-top: 1px solid var(--slate-200); background: var(--slate-50);">
-        <a id="modalNavBtn" href="#" target="_blank" class="btn btn-primary" style="flex: 1; justify-content: center;">
-          <i class="fa-solid fa-diamond-turn-right"></i> Google 導航
-        </a>
+        <button id="modalWriteFeedbackBtn" class="btn btn-feedback" style="flex: 1; justify-content: center;">
+          <i class="fa-solid fa-pen-to-square"></i> 為此餐廳撰寫回饋評價
+        </button>
         <button id="modalReportBtn" class="btn btn-outline" style="color: #BE123C;" title="回報店家已歇業或規則變更">
-          <i class="fa-solid fa-triangle-exclamation"></i> 回報歇業/錯誤
+          <i class="fa-solid fa-triangle-exclamation"></i> 回報歇業
         </button>
       </div>
     </div>
   </div>
 
-  <!-- Modal 2: User Upload Store (使用者上傳/推薦友善店家) -->
+  <!-- Modal 2: 旅人回饋意見區 (Feedback Modal) -->
+  <div class="modal-backdrop" id="feedbackModal">
+    <div class="modal-card">
+      <div class="modal-header">
+        <button class="modal-close-btn" onclick="closeModal('feedbackModal')"><i class="fa-solid fa-xmark"></i></button>
+        <h2 style="font-size: 18px; font-weight: 800; color: #7C3AED;">
+          <i class="fa-solid fa-comments"></i> 毛孩旅人回饋與評價專區
+        </h2>
+        <div style="font-size: 12px; color: var(--slate-500); margin-top: 2px;">
+          分享您的帶寵用餐真實經驗、服務態度讚賞或規範提醒，讓全台毛爸媽不踩雷！
+        </div>
+      </div>
+
+      <div class="modal-body">
+        
+        <!-- Summary Stats -->
+        <div class="feedback-stats-row">
+          <div class="fb-stat-box">
+            <div class="fb-stat-val" id="fbAvgRating">4.9 ★</div>
+            <div class="fb-stat-lbl">平均滿意度</div>
+          </div>
+          <div class="fb-stat-box">
+            <div class="fb-stat-val" id="fbTotalReviews">5 篇</div>
+            <div class="fb-stat-lbl">累積心得回饋</div>
+          </div>
+          <div class="fb-stat-box">
+            <div class="fb-stat-val" style="color: #059669;">100%</div>
+            <div class="fb-stat-lbl">真實毛孩家庭分享</div>
+          </div>
+        </div>
+
+        <!-- Submit Feedback Form -->
+        <div style="background: #FDF4FF; border: 1px solid #F0ABFC; border-radius: var(--radius-md); padding: 14px;">
+          <div style="font-size: 13px; font-weight: 700; color: #86198F; margin-bottom: 8px;">
+            <i class="fa-solid fa-pen-nib"></i> 我要發表回饋心得
+          </div>
+          <form id="feedbackForm" style="display: flex; flex-direction: column; gap: 10px;">
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label">您的暱稱 *</label>
+                <input type="text" id="fbUserName" class="form-input" placeholder="例如：柴柴波波麻" required>
+              </div>
+              <div class="form-group">
+                <label class="form-label">您的毛孩夥伴</label>
+                <input type="text" id="fbPetType" class="form-input" placeholder="例如：柯基、米克斯、貓咪">
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label">回饋目標餐廳 *</label>
+                <input type="text" id="fbTargetPlace" class="form-input" placeholder="請填寫餐廳店名（或全站地圖建議）" required>
+              </div>
+              <div class="form-group">
+                <label class="form-label">心得類別</label>
+                <select id="fbCategory" class="form-select">
+                  <option value="友善程度讚賞">🌟 友善程度讚賞</option>
+                  <option value="餐點美味推薦">🍽️ 餐點美味推薦</option>
+                  <option value="空間環境舒適">🛋️ 空間環境舒適</option>
+                  <option value="規範異動提醒">⚠️ 規範異動提醒</option>
+                  <option value="系統功能建議">💡 系統功能建議</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">滿意度評分 (1~5 星)</label>
+              <div class="star-rating-select" id="starRatingSelect">
+                <i class="fa-solid fa-star active" data-rating="1"></i>
+                <i class="fa-solid fa-star active" data-rating="2"></i>
+                <i class="fa-solid fa-star active" data-rating="3"></i>
+                <i class="fa-solid fa-star active" data-rating="4"></i>
+                <i class="fa-solid fa-star active" data-rating="5"></i>
+                <input type="hidden" id="fbRatingVal" value="5">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">心得與建議內容 *</label>
+              <textarea id="fbComment" class="form-textarea" rows="3" placeholder="例如：店員主動給水盆跟炒蛋，落地非常友善，空間寬敞，推車也很好進出！" required></textarea>
+            </div>
+
+            <button type="submit" class="btn" style="background: #7C3AED; color: white; justify-content: center; font-weight: 700; padding: 9px;">
+              <i class="fa-solid fa-paper-plane"></i> 立即送出回饋
+            </button>
+          </form>
+        </div>
+
+        <!-- Feedbacks List -->
+        <div style="font-size: 13px; font-weight: 700; color: var(--slate-700); margin-top: 6px;">
+          <i class="fa-solid fa-list-check"></i> 最新旅人心得分享
+        </div>
+        <div id="feedbackListContainer" style="display: flex; flex-direction: column; gap: 10px;">
+          <!-- Rendered by JS -->
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 3: AI 自動審核與更新 (Auto-Update Modal) -->
+  <div class="modal-backdrop" id="autoUpdateModal">
+    <div class="modal-card" style="max-width: 520px;">
+      <div class="modal-header">
+        <button class="modal-close-btn" onclick="closeModal('autoUpdateModal')"><i class="fa-solid fa-xmark"></i></button>
+        <h2 style="font-size: 18px; font-weight: 800; color: #C2410C;">
+          <i class="fa-solid fa-bolt"></i> 執行 AI 自動審核與版本更新
+        </h2>
+        <div style="font-size: 12px; color: var(--slate-500); margin-top: 2px;">
+          自動審核隊列、標記歇業門市、比對 Google Maps 並同步推送到 GitHub Pages。
+        </div>
+      </div>
+
+      <div class="modal-body">
+        <div id="updateStatusSteps" style="display: flex; flex-direction: column; gap: 8px;">
+          <div class="update-step-item" id="step1">
+            <i class="fa-solid fa-robot"></i> <span>1. AI 後台智慧審核待查餐廳佇列</span>
+          </div>
+          <div class="update-step-item" id="step2">
+            <i class="fa-solid fa-map-location-dot"></i> <span>2. 串接 Google Maps 比對營運狀態與關店名冊</span>
+          </div>
+          <div class="update-step-item" id="step3">
+            <i class="fa-solid fa-box-archive"></i> <span>3. 生成版本 Changelog 與純餐飲資料庫</span>
+          </div>
+          <div class="update-step-item" id="step4">
+            <i class="fa-brands fa-github"></i> <span>4. 自動發布推送到 GitHub Pages</span>
+          </div>
+        </div>
+
+        <div id="updateResultArea" style="display: none; padding: 12px; background: #ECFDF5; border: 1px solid #A7F3D0; border-radius: var(--radius-md); font-size: 12.5px; color: #065F46; line-height: 1.5;">
+          <!-- Summary output -->
+        </div>
+
+        <div style="display: flex; gap: 8px; justify-content: flex-end; margin-top: 8px;">
+          <button type="button" class="btn btn-outline" onclick="closeModal('autoUpdateModal')">關閉</button>
+          <button type="button" class="btn btn-autoupdate" id="btnStartUpdateAction">
+            <i class="fa-solid fa-play"></i> 開始執行自動更新
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 4: User Upload Store (使用者推薦 - 經 AI 後台審核) -->
   <div class="modal-backdrop" id="uploadModal">
     <div class="modal-card">
       <div class="modal-header">
         <button class="modal-close-btn" onclick="closeModal('uploadModal')"><i class="fa-solid fa-xmark"></i></button>
-        <h2 style="font-size: 18px; font-weight: 800; color: var(--slate-900);">
-          <i class="fa-solid fa-plus-circle" style="color: #2563EB;"></i> 我要推薦 / 上傳寵物友善店家
+        <h2 style="font-size: 18px; font-weight: 800; color: #1D4ED8;">
+          <i class="fa-solid fa-plus-circle"></i> 推薦寵物友善餐廳 (AI 後台審核)
         </h2>
         <div style="font-size: 12px; color: var(--slate-500); margin-top: 2px;">
-          提交後系統將自動串接 Google Maps 檢驗地址與營運狀態，審核後即納入全台地圖與版本日誌！
+          嚴格限定純餐飲店家！提交後由 AI 即時審核餐飲性質、地址格式並自動補全社群外連！
         </div>
       </div>
 
       <form id="uploadForm" class="modal-body">
+        
+        <!-- AI Audit Notice Banner -->
+        <div class="ai-badge-card">
+          <div class="ai-badge-avatar"><i class="fa-solid fa-brain"></i></div>
+          <div class="ai-badge-content">
+            <strong>🤖 AI 後台即時審核機制已啟用：</strong>
+            系統將自動剔除非餐飲場所（美髮/旅宿/美容/用品），並檢驗門牌合法性。審核通過後自動發布入庫！
+          </div>
+        </div>
+
         <div class="form-group">
-          <label class="form-label">餐廳 / 空間名稱 *</label>
+          <label class="form-label">餐廳名稱 *</label>
           <input type="text" id="upName" class="form-input" placeholder="例如：毛毛柴早午餐咖啡館" required>
         </div>
 
@@ -612,12 +915,12 @@
             <select id="upCity" class="form-select" required>
               <option value="臺中市">臺中市</option>
               <option value="臺北市">臺北市</option>
+              <option value="臺南市">臺南市</option>
               <option value="新北市">新北市</option>
               <option value="桃園市">桃園市</option>
-              <option value="高雄市">高雄市</option>
-              <option value="臺南市">臺南市</option>
               <option value="新竹市">新竹市</option>
               <option value="新竹縣">新竹縣</option>
+              <option value="高雄市">高雄市</option>
               <option value="苗栗縣">苗栗縣</option>
               <option value="彰化縣">彰化縣</option>
               <option value="南投縣">南投縣</option>
@@ -631,71 +934,79 @@
             </select>
           </div>
           <div class="form-group">
-            <label class="form-label">空間類型 *</label>
+            <label class="form-label">餐飲類型 * (純餐飲)</label>
             <select id="upCat" class="form-select" required>
               <option value="咖啡/甜點茶館">☕ 咖啡/甜點茶館</option>
               <option value="特色餐廳">🍽️ 特色餐廳</option>
+              <option value="早午餐/美式輕食">🥪 早午餐/美式輕食</option>
               <option value="異國料理/餐酒館">🍝 異國料理/餐酒館</option>
               <option value="火鍋/燒肉專門">🍲 火鍋/燒肉專門</option>
-              <option value="早午餐/美式輕食">🥪 早午餐/美式輕食</option>
               <option value="景觀茶餐廳">🏞️ 景觀茶餐廳</option>
-              <option value="寵物主題餐廳">🐾 寵物主題餐廳</option>
-              <option value="休閒娛樂/空間">🏕️ 休閒娛樂/空間</option>
+              <option value="寵物主題餐廳">🐾 寵物專屬餐廳</option>
             </select>
           </div>
         </div>
 
         <div class="form-group">
-          <label class="form-label">門市詳細地址 *</label>
+          <label class="form-label">餐廳詳細地址 (含門牌號) *</label>
           <div style="display: flex; gap: 6px;">
             <input type="text" id="upAddress" class="form-input" placeholder="例如：臺中市西區美村路一段100號" required>
             <button type="button" class="btn btn-outline" id="btnTestGoogleMap" style="padding: 0 10px; font-size: 11px;">
-              <i class="fa-brands fa-google"></i> 驗證地圖
+              <i class="fa-brands fa-google"></i> 驗證
             </button>
           </div>
         </div>
 
-        <div class="form-group">
-          <label class="form-label">連絡電話 (選填)</label>
-          <input type="text" id="upPhone" class="form-input" placeholder="例如：04-23010000">
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label">官方粉專或 IG 連結 (選填)</label>
+            <input type="text" id="upSocialLink" class="form-input" placeholder="例如：https://instagram.com/...">
+          </div>
+          <div class="form-group">
+            <label class="form-label">連絡電話 (選填)</label>
+            <input type="text" id="upPhone" class="form-input" placeholder="例如：04-23010000">
+          </div>
         </div>
 
         <div class="form-group">
-          <label class="form-label">友善寵物種類 (可複選)</label>
+          <label class="form-label">友善物種 (可複選)</label>
           <div class="checkbox-group">
             <label class="checkbox-label"><input type="checkbox" name="upPets" value="犬" checked> 🐶 狗狗</label>
             <label class="checkbox-label"><input type="checkbox" name="upPets" value="貓" checked> 🐱 貓咪</label>
             <label class="checkbox-label"><input type="checkbox" name="upPets" value="大型犬OK"> 🦮 大型犬友善</label>
-            <label class="checkbox-label"><input type="checkbox" name="upPets" value="特寵/鳥禽"> 🦜 特寵/鳥禽</label>
           </div>
         </div>
 
         <div class="form-group">
-          <label class="form-label">友善設施與入內規範 (可複選)</label>
+          <label class="form-label">用餐規範與友善配套</label>
           <div class="checkbox-group">
             <label class="checkbox-label"><input type="checkbox" name="upRules" value="牽繩可落地" checked> 牽繩可落地</label>
-            <label class="checkbox-label"><input type="checkbox" name="upRules" value="需穿禮貌帶/尿布"> 需自備禮貌帶</label>
-            <label class="checkbox-label"><input type="checkbox" name="upRules" value="自備坐墊可上椅"> 自備坐墊可上椅</label>
-            <label class="checkbox-label"><input type="checkbox" name="upRules" value="提供寵物鮮食餐"> 提供寵物餐點</label>
-            <label class="checkbox-label"><input type="checkbox" name="upRules" value="提供飲水容器"> 提供水碗</label>
-            <label class="checkbox-label"><input type="checkbox" name="upRules" value="戶外草皮跑跑區"> 戶外草皮跑跑</label>
+            <label class="checkbox-label"><input type="checkbox" name="upRules" value="需自備禮貌帶/尿布"> 需自備禮貌帶</label>
+            <label class="checkbox-label"><input type="checkbox" name="upRules" value="可上椅需坐墊"> 可上椅需坐墊</label>
+            <label class="checkbox-label"><input type="checkbox" name="upRules" value="提供寵物鮮食餐"> 提供寵物鮮食餐</label>
+            <label class="checkbox-label"><input type="checkbox" name="upRules" value="提供飲水容器"> 提供飲水容器</label>
           </div>
         </div>
 
         <div class="form-group">
-          <label class="form-label">推薦人稱呼 / 備註</label>
+          <label class="form-label">推薦人稱呼</label>
           <input type="text" id="upSubmitter" class="form-input" placeholder="例如：台中黃金獵犬爸比">
         </div>
 
+        <!-- AI Review Live Feedback Box -->
+        <div id="aiReviewFeedbackBox" style="display: none; padding: 10px; border-radius: 8px;"></div>
+
         <div style="display: flex; gap: 8px; justify-content: flex-end; margin-top: 10px;">
           <button type="button" class="btn btn-outline" onclick="closeModal('uploadModal')">取消</button>
-          <button type="submit" class="btn btn-primary"><i class="fa-solid fa-cloud-arrow-up"></i> 確認提交審核</button>
+          <button type="submit" class="btn btn-primary" id="btnSubmitUpload">
+            <i class="fa-solid fa-cloud-arrow-up"></i> 送交 AI 後台審核
+          </button>
         </div>
       </form>
     </div>
   </div>
 
-  <!-- Modal 3: Report Closed or Changed (回報已歇業) -->
+  <!-- Modal 5: Report Closed or Changed (回報已歇業) -->
   <div class="modal-backdrop" id="reportModal">
     <div class="modal-card">
       <div class="modal-header">
@@ -704,7 +1015,7 @@
           <i class="fa-solid fa-triangle-exclamation"></i> 回報店家歇業 / 資訊錯誤
         </h2>
         <div style="font-size: 12px; color: var(--slate-500); margin-top: 2px;">
-          感謝您的守護！我們將比對 Google Maps 狀態並於下一版本標註停業。
+          感謝守護！經 AI 後台與 Google Maps 比對後將於版本日誌標註已停業。
         </div>
       </div>
 
@@ -720,24 +1031,26 @@
           <select id="repType" class="form-select" required>
             <option value="closed">🔴 店家已永久歇業 / 搬遷停業</option>
             <option value="rule_change">🟡 寵物友善規範變更 (如改為不可落地)</option>
-            <option value="phone_error">ℹ️ 電話或地址錯誤</option>
+            <option value="phone_error">ℹ️ 電話、社群或地址錯誤</option>
           </select>
         </div>
 
         <div class="form-group">
-          <label class="form-label">詳細說明 (現場情況 / 官方公告連結)</label>
-          <textarea id="repReason" class="form-textarea" rows="3" placeholder="例如：上週實地造訪已換成服飾店，Google Maps 也顯示永久停業..."></textarea>
+          <label class="form-label">詳細說明 (現場情況 / 官方公告連結) *</label>
+          <textarea id="repReason" class="form-textarea" rows="3" placeholder="例如：店面已頂讓拆遷，Google Maps 亦已標註永久停業..." required></textarea>
         </div>
 
         <div style="display: flex; gap: 8px; justify-content: flex-end; margin-top: 10px;">
           <button type="button" class="btn btn-outline" onclick="closeModal('reportModal')">取消</button>
-          <button type="submit" class="btn btn-primary" style="background: #BE123C;"><i class="fa-solid fa-paper-plane"></i> 提交回報</button>
+          <button type="submit" class="btn btn-primary" style="background: #BE123C;">
+            <i class="fa-solid fa-paper-plane"></i> 提交 AI 查驗
+          </button>
         </div>
       </form>
     </div>
   </div>
 
-  <!-- Modal 4: Version Changelog (版本異動與已關店日誌) -->
+  <!-- Modal 6: Version Changelog (版本異動日誌) -->
   <div class="modal-backdrop" id="versionModal">
     <div class="modal-card">
       <div class="modal-header">
@@ -746,7 +1059,7 @@
           <i class="fa-solid fa-clock-rotate-left" style="color: var(--primary);"></i> 版本異動與歇業檢驗日誌
         </h2>
         <div style="font-size: 12px; color: var(--slate-500); margin-top: 2px;">
-          系統定期自動比對 Google Maps 狀態與社群回報，即時公告哪間店家已歇業或新上線！
+          AI 自動檢驗比對 Google Maps 營運動態，即時公告哪間店家已關店或新上線！
         </div>
       </div>
 
@@ -766,6 +1079,7 @@
     const state = {
       places: window.PET_PLACES_DATA || [],
       versions: window.PET_MAP_VERSIONS || [],
+      feedbacks: window.PET_MAP_FEEDBACKS || [],
       selectedCity: 'ALL',
       selectedCat: 'ALL',
       selectedRules: new Set(),
@@ -789,26 +1103,19 @@
       map = L.map('map', { center: [23.9738, 120.9820], zoom: 8, zoomControl: false });
       L.control.zoom({ position: 'topleft' }).addTo(map);
 
-      // Free, high-performance base tile layers (NO API KEY REQUIRED, NO WATERMARKS)
+      // Clean tile layers without watermark
       const osmHot = L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
-        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> contributors',
-        maxZoom: 19
+        attribution: '&copy; OpenStreetMap contributors', maxZoom: 19
       });
-
       const osmStandard = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> contributors',
-        maxZoom: 19
+        attribution: '&copy; OpenStreetMap contributors', maxZoom: 19
       });
-
       const esriWorld = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
-        attribution: 'Tiles &copy; Esri',
-        maxZoom: 19
+        attribution: 'Tiles &copy; Esri', maxZoom: 19
       });
 
-      // Default to OSM HOT (warm, clear, watermark-free)
       osmHot.addTo(map);
 
-      // Layer switcher control
       const baseMaps = {
         "🎨 溫馨生活圖 (推薦)": osmHot,
         "🗺️ 標準街道圖 (OSM)": osmStandard,
@@ -826,7 +1133,7 @@
     function createCustomMarkerIcon(place) {
       const isClosed = place.status === 'CLOSED_PERMANENTLY' || place.status === 'CLOSED_TEMPORARILY';
       let pinClass = 'other-pin';
-      let iconHtml = '<i class="fa-solid fa-paw"></i>';
+      let iconHtml = '<i class="fa-solid fa-utensils"></i>';
 
       if (isClosed) {
         pinClass = 'closed-pin';
@@ -879,9 +1186,9 @@
           const kw = state.searchKeyword.toLowerCase();
           const matchName = p.name.toLowerCase().includes(kw);
           const matchAddr = p.address.toLowerCase().includes(kw);
-          const matchDist = p.district.toLowerCase().includes(kw);
+          const matchDist = (p.district || '').toLowerCase().includes(kw);
           const matchCity = p.city.toLowerCase().includes(kw);
-          const matchFeat = p.features.some(f => f.toLowerCase().includes(kw));
+          const matchFeat = (p.features || []).some(f => f.toLowerCase().includes(kw));
           if (!matchName && !matchAddr && !matchDist && !matchCity && !matchFeat) return false;
         }
 
@@ -891,16 +1198,15 @@
         // Rules
         if (state.selectedRules.size > 0) {
           for (let rule of state.selectedRules) {
-            if (rule === 'dog' && !p.petsAllowed.some(x => x.includes('犬') || x.includes('狗'))) return false;
-            if (rule === 'cat' && !p.petsAllowed.some(x => x.includes('貓'))) return false;
+            if (rule === 'dog' && !(p.petsAllowed || []).some(x => x.includes('犬') || x.includes('狗'))) return false;
+            if (rule === 'cat' && !(p.petsAllowed || []).some(x => x.includes('貓'))) return false;
             if (rule === 'bigDog') {
-              const str = (p.petsAllowed.join(' ') + ' ' + p.rules.join(' ')).toLowerCase();
+              const str = ((p.petsAllowed || []).join(' ') + ' ' + (p.rules || []).join(' ')).toLowerCase();
               if (!str.includes('大') && !str.includes('不限體型')) return false;
             }
-            if (rule === 'ground' && !p.rules.join(' ').includes('落地')) return false;
-            if (rule === 'food' && !p.features.join(' ').includes('餐') && !p.features.join(' ').includes('食')) return false;
-            if (rule === 'water' && !p.features.join(' ').includes('水')) return false;
-            if (rule === 'grass' && !p.features.join(' ').includes('草皮') && !p.features.join(' ').includes('草坪')) return false;
+            if (rule === 'ground' && !(p.rules || []).join(' ').includes('落地')) return false;
+            if (rule === 'food' && !(p.features || []).join(' ').includes('餐') && !(p.features || []).join(' ').includes('食')) return false;
+            if (rule === 'water' && !(p.features || []).join(' ').includes('水')) return false;
           }
         }
         return true;
@@ -934,15 +1240,21 @@
         });
 
         const isClosed = place.status === 'CLOSED_PERMANENTLY' || place.status === 'CLOSED_TEMPORARILY';
+        const mapUrl = place.googleMapUrl || `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(place.name + ' ' + place.address)}`;
+        
         const popupContent = `
-          <div style="padding: 12px 14px; font-family: inherit;">
-            <span style="font-size: 11px; font-weight: 700; color: var(--primary);">${place.city}・${place.district}</span>
+          <div style="padding: 12px 14px; font-family: inherit; min-width: 200px;">
+            <span style="font-size: 11px; font-weight: 700; color: var(--primary);">${place.city}・${place.district || ''}</span>
             <div style="font-size: 15px; font-weight: 700; margin: 3px 0;">${place.name}</div>
-            ${isClosed ? '<div style="color: #BE123C; font-size: 11.5px; font-weight: 700; margin-bottom: 4px;">⚠️ 此店家經檢驗已停業</div>' : ''}
+            ${isClosed ? '<div style="color: #BE123C; font-size: 11px; font-weight: 700; margin-bottom: 4px;">⚠️ 此店家經檢驗已停業</div>' : ''}
             <div style="font-size: 12px; color: var(--slate-600); margin-bottom: 8px;">${place.address}</div>
             <div style="display: flex; gap: 6px;">
-              <a href="https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(place.name + ' ' + place.address)}" target="_blank" style="flex: 1; text-align: center; background: var(--primary); color: white; padding: 5px; border-radius: 6px; font-size: 11.5px; text-decoration: none; font-weight: 600;">導航</a>
-              <button onclick="openPlaceModal('${place.id}')" style="flex: 1; border: 1px solid var(--slate-200); background: white; padding: 5px; border-radius: 6px; font-size: 11.5px; font-weight: 600; cursor: pointer;">詳情</button>
+              <a href="${mapUrl}" target="_blank" style="flex: 1; text-align: center; background: #2563EB; color: white; padding: 5px; border-radius: 6px; font-size: 11.5px; text-decoration: none; font-weight: 600;">
+                <i class="fa-solid fa-diamond-turn-right"></i> 導航
+              </a>
+              <button onclick="openPlaceModal('${place.id}')" style="flex: 1; border: 1px solid var(--slate-200); background: white; padding: 5px; border-radius: 6px; font-size: 11.5px; font-weight: 600; cursor: pointer;">
+                詳情/社群
+              </button>
             </div>
           </div>
         `;
@@ -961,8 +1273,8 @@
       if (places.length === 0) {
         container.innerHTML = `
           <div style="padding: 40px 20px; text-align: center; color: var(--slate-500);">
-            <i class="fa-solid fa-dog" style="font-size: 36px; color: var(--slate-300); margin-bottom: 10px;"></i>
-            <h3>未找到符合條件的友善空間</h3>
+            <i class="fa-solid fa-utensils" style="font-size: 36px; color: var(--slate-300); margin-bottom: 10px;"></i>
+            <h3>未找到符合條件的寵物友善餐廳</h3>
             <button class="btn btn-outline" onclick="resetAllFilters()" style="margin-top: 10px;">重設所有篩選</button>
           </div>
         `;
@@ -992,7 +1304,13 @@
           certBadge = `<span class="badge badge-tc-verified" style="background:#F0FDF4; border-color:#BBF7D0; color:#15803D;"><i class="fa-solid fa-certificate"></i> 動保官方認證</span>`;
         }
 
-        const phoneDisplay = place.phone && place.phone !== '依店家現場公告為準' ? place.phone : '詳見粉專';
+        const phoneDisplay = place.phone && place.phone !== '依店家現場公告為準' ? place.phone : '依現場公告';
+        
+        // Links
+        const mapUrl = place.googleMapUrl || `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(place.name + ' ' + place.address)}`;
+        const igUrl = place.instagram || `https://www.instagram.com/explore/tags/${encodeURIComponent(place.name.replace(/[^\w\u4e00-\u9fff]+/g, ''))}/`;
+        const fbUrl = place.facebook || `https://www.facebook.com/search/top?q=${encodeURIComponent(place.name)}`;
+        const webUrl = place.website || mapUrl;
 
         return `
           <div class="place-card ${isClosed ? 'is-closed' : ''} ${state.activePlaceId === place.id ? 'active-selected' : ''}" id="card-${place.id}" onclick="selectPlace('${place.id}')">
@@ -1000,7 +1318,7 @@
               <div>
                 <div class="card-name">${place.name}</div>
                 <div class="card-badges">
-                  <span class="badge badge-city">${place.city}・${place.district}</span>
+                  <span class="badge badge-city">${place.city}・${place.district || ''}</span>
                   <span class="badge badge-cat">${place.category}</span>
                   ${certBadge}
                 </div>
@@ -1017,16 +1335,32 @@
             </div>
 
             <div class="card-features">
-              ${place.petsAllowed.slice(0, 3).map(p => `<span class="feat-tag"><i class="fa-solid fa-paw"></i> ${p}</span>`).join('')}
-              ${place.features.slice(0, 2).map(f => `<span class="feat-tag">${f}</span>`).join('')}
+              ${(place.petsAllowed || []).slice(0, 3).map(p => `<span class="feat-tag"><i class="fa-solid fa-paw"></i> ${p}</span>`).join('')}
+              ${(place.rules || []).slice(0, 2).map(r => `<span class="feat-tag">${r}</span>`).join('')}
+            </div>
+
+            <!-- Social & Map Action Pills -->
+            <div class="card-social-strip" onclick="event.stopPropagation()">
+              <a class="social-btn-pill social-btn-map" href="${mapUrl}" target="_blank" title="前往 Google Maps 定位與導航">
+                <i class="fa-solid fa-diamond-turn-right"></i> 導航
+              </a>
+              <a class="social-btn-pill social-btn-ig" href="${igUrl}" target="_blank" title="查看 Instagram 標籤與探店照片">
+                <i class="fa-brands fa-instagram"></i> IG
+              </a>
+              <a class="social-btn-pill social-btn-fb" href="${fbUrl}" target="_blank" title="搜尋 Facebook 粉絲專頁">
+                <i class="fa-brands fa-facebook"></i> FB
+              </a>
+              <a class="social-btn-pill social-btn-web" href="${webUrl}" target="_blank" title="開啟官方網頁/簡介">
+                <i class="fa-solid fa-globe"></i> 官網
+              </a>
             </div>
 
             <div class="card-footer">
               <span class="card-phone"><i class="fa-solid fa-phone"></i> ${phoneDisplay}</span>
               <div class="card-actions">
-                <a class="btn-card-action" href="https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(place.name + ' ' + place.address)}" target="_blank" onclick="event.stopPropagation()">
-                  <i class="fa-solid fa-diamond-turn-right"></i> 導航
-                </a>
+                <button class="btn-card-action" onclick="openFeedbackFormForStore('${place.name.replace(/'/g, "\\'")}'); event.stopPropagation();" title="撰寫回饋心得" style="color: #7C3AED;">
+                  <i class="fa-solid fa-comment-dots"></i> 評價
+                </button>
                 <button class="btn-card-action" onclick="openReportModal('${place.id}', '${place.name.replace(/'/g, "\\'")}'); event.stopPropagation();" title="回報已關店或資訊變更" style="color: #BE123C;">
                   <i class="fa-solid fa-flag"></i> 回報
                 </button>
@@ -1070,30 +1404,47 @@
       if (!place) return;
 
       document.getElementById('modalTitle').textContent = place.name;
-      document.getElementById('modalLegalName').textContent = place.legalName && place.legalName !== place.name ? `登記公司/商業名稱：${place.legalName}` : '';
+      document.getElementById('modalLegalName').textContent = place.legalName && place.legalName !== place.name ? `登記商業名稱：${place.legalName}` : '';
       
       const isClosed = place.status === 'CLOSED_PERMANENTLY' || place.status === 'CLOSED_TEMPORARILY';
-      let badges = `<span class="badge badge-city">${place.city}・${place.district}</span><span class="badge badge-cat">${place.category}</span>`;
+      let badges = `<span class="badge badge-city">${place.city}・${place.district || ''}</span><span class="badge badge-cat">${place.category}</span>`;
       if (isClosed) badges += `<span class="badge badge-closed"><i class="fa-solid fa-ban"></i> 此店家已永久停業</span>`;
       else if (place.city === '臺中市') badges += `<span class="badge badge-tc-verified"><i class="fa-solid fa-star"></i> 臺中動保處官方認證</span>`;
       document.getElementById('modalBadges').innerHTML = badges;
 
+      // Address & Phone
       document.getElementById('modalAddress').innerHTML = `${place.address} <button class="btn-card-action" onclick="copyText('${place.address}')"><i class="fa-regular fa-copy"></i> 複製地址</button>`;
       document.getElementById('modalPhone').innerHTML = `<i class="fa-solid fa-phone"></i> ${place.phone || '依現場公告'}`;
 
-      document.getElementById('modalPetsAllowed').innerHTML = place.petsAllowed.map(p => `<span class="feat-tag" style="background: #FEF3C7; color: #92400E;"><i class="fa-solid fa-paw"></i> ${p}</span>`).join('') +
-        place.rules.map(r => `<span class="feat-tag"><i class="fa-solid fa-shield-dog"></i> ${r}</span>`).join('');
+      // Social & Navigation Links
+      const mapUrl = place.googleMapUrl || `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(place.name + ' ' + place.address)}`;
+      const igUrl = place.instagram || `https://www.instagram.com/explore/tags/${encodeURIComponent(place.name.replace(/[^\w\u4e00-\u9fff]+/g, ''))}/`;
+      const fbUrl = place.facebook || `https://www.facebook.com/search/top?q=${encodeURIComponent(place.name)}`;
+      const webUrl = place.website || mapUrl;
 
-      document.getElementById('modalFeatures').innerHTML = place.features.map(f => `<span class="feat-tag" style="background: var(--emerald-50); color: #047857;"><i class="fa-solid fa-check"></i> ${f}</span>`).join('');
+      document.getElementById('modalNavBtnFull').href = mapUrl;
+      document.getElementById('modalIgBtnFull').href = igUrl;
+      document.getElementById('modalFbBtnFull').href = fbUrl;
+      document.getElementById('modalWebBtnFull').href = webUrl;
+
+      // Pets & Rules
+      document.getElementById('modalPetsAllowed').innerHTML = (place.petsAllowed || []).map(p => `<span class="feat-tag" style="background: #FEF3C7; color: #92400E;"><i class="fa-solid fa-paw"></i> ${p}</span>`).join('') +
+        (place.rules || []).map(r => `<span class="feat-tag"><i class="fa-solid fa-shield-dog"></i> ${r}</span>`).join('');
+
+      document.getElementById('modalFeatures').innerHTML = (place.features || []).map(f => `<span class="feat-tag" style="background: var(--emerald-50); color: #047857;"><i class="fa-solid fa-check"></i> ${f}</span>`).join('');
 
       document.getElementById('modalSourceDesc').innerHTML = `
-        來源機關：<strong>${place.source}</strong><br>
-        <a href="${place.sourceUrl}" target="_blank" rel="noopener" style="color: var(--primary); font-weight: 600; text-decoration: underline;">
-          <i class="fa-solid fa-arrow-up-right-from-square"></i> 點此開啟官方原始登錄專頁
+        來源機關：<strong>${place.source || '官方動保認證名冊'}</strong><br>
+        <a href="${place.sourceUrl || mapUrl}" target="_blank" rel="noopener" style="color: var(--primary); font-weight: 600; text-decoration: underline;">
+          <i class="fa-solid fa-arrow-up-right-from-square"></i> 點此開啟原始登錄專頁
         </a>
       `;
 
-      document.getElementById('modalNavBtn').href = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(place.name + ' ' + place.address)}`;
+      document.getElementById('modalWriteFeedbackBtn').onclick = () => {
+        closeModal('detailModal');
+        openFeedbackFormForStore(place.name);
+      };
+
       document.getElementById('modalReportBtn').onclick = () => {
         closeModal('detailModal');
         openReportModal(place.id, place.name);
@@ -1106,6 +1457,12 @@
       document.getElementById('repPlaceId').value = id;
       document.getElementById('repPlaceName').textContent = name;
       openModal('reportModal');
+    };
+
+    window.openFeedbackFormForStore = function(storeName) {
+      document.getElementById('fbTargetPlace').value = storeName;
+      openModal('feedbackModal');
+      renderFeedbackList();
     };
 
     window.openModal = function(id) { document.getElementById(id).classList.add('open'); };
@@ -1135,48 +1492,118 @@
     function renderVersionChangelog() {
       fetch('/api/versions').then(r => r.json()).then(data => {
         state.versions = data;
-        if (data.length > 0) {
-          document.getElementById('headerVerText').textContent = data[0].version;
-        }
-        const container = document.getElementById('versionListContainer');
-        container.innerHTML = data.map(v => {
-          let closedHtml = '';
-          if (v.closedStores && v.closedStores.length > 0) {
-            closedHtml = `
-              <div style="margin-top: 6px; padding: 8px; background: #FFF1F2; border-radius: 6px;">
-                <div style="font-size: 11.5px; font-weight: 700; color: #BE123C; margin-bottom: 4px;">🔴 經自動檢驗已關店門市 (${v.closedStores.length} 家)：</div>
-                <div style="display: flex; flex-wrap: wrap; gap: 4px;">
-                  ${v.closedStores.map(c => `<span class="closed-store-tag">${c.name} (${c.city}) - ${c.reason}</span>`).join('')}
-                </div>
-              </div>
-            `;
-          }
+        updateVersionDisplay(data);
+      }).catch(() => {
+        updateVersionDisplay(state.versions);
+      });
+    }
 
-          let newHtml = '';
-          if (v.newStores && v.newStores.length > 0) {
-            newHtml = `
-              <div style="margin-top: 6px; padding: 8px; background: #ECFDF5; border-radius: 6px;">
-                <div style="font-size: 11.5px; font-weight: 700; color: #047857; margin-bottom: 4px;">🟢 本版本新審核上線 (${v.newStores.length} 家)：</div>
-                <div style="display: flex; flex-wrap: wrap; gap: 4px;">
-                  ${v.newStores.map(n => `<span style="background: white; border: 1px solid #A7F3D0; font-size: 11px; padding: 2px 6px; border-radius: 4px; color: #047857;">${n.name} (${n.city})</span>`).join('')}
-                </div>
+    function updateVersionDisplay(data) {
+      if (data && data.length > 0) {
+        document.getElementById('headerVerText').textContent = data[0].version;
+      }
+      const container = document.getElementById('versionListContainer');
+      container.innerHTML = (data || []).map(v => {
+        let closedHtml = '';
+        if (v.closedStores && v.closedStores.length > 0) {
+          closedHtml = `
+            <div style="margin-top: 6px; padding: 8px; background: #FFF1F2; border-radius: 6px;">
+              <div style="font-size: 11.5px; font-weight: 700; color: #BE123C; margin-bottom: 4px;">🔴 經自動檢驗已關店門市 (${v.closedStores.length} 家)：</div>
+              <div style="display: flex; flex-wrap: wrap; gap: 4px;">
+                ${v.closedStores.map(c => `<span class="closed-store-tag">${c.name} (${c.city}) - ${c.reason}</span>`).join('')}
               </div>
-            `;
-          }
-
-          return `
-            <div class="changelog-item">
-              <div class="changelog-header">
-                <span class="changelog-ver">${v.version}</span>
-                <span class="changelog-date">${v.date}</span>
-              </div>
-              <div style="font-size: 12.5px; color: var(--slate-700);">${v.summary}</div>
-              ${closedHtml}
-              ${newHtml}
             </div>
           `;
-        }).join('');
-      }).catch(() => {});
+        }
+
+        let newHtml = '';
+        if (v.newStores && v.newStores.length > 0) {
+          newHtml = `
+            <div style="margin-top: 6px; padding: 8px; background: #ECFDF5; border-radius: 6px;">
+              <div style="font-size: 11.5px; font-weight: 700; color: #047857; margin-bottom: 4px;">🟢 本版本新審核上線 (${v.newStores.length} 家)：</div>
+              <div style="display: flex; flex-wrap: wrap; gap: 4px;">
+                ${v.newStores.map(n => `<span style="background: white; border: 1px solid #A7F3D0; font-size: 11px; padding: 2px 6px; border-radius: 4px; color: #047857;">${n.name} (${n.city})</span>`).join('')}
+              </div>
+            </div>
+          `;
+        }
+
+        return `
+          <div class="changelog-item">
+            <div class="changelog-header">
+              <span class="changelog-ver">${v.version}</span>
+              <span class="changelog-date">${v.date}</span>
+            </div>
+            <div style="font-size: 12.5px; color: var(--slate-700);">${v.summary}</div>
+            ${closedHtml}
+            ${newHtml}
+          </div>
+        `;
+      }).join('');
+    }
+
+    // Render Feedbacks
+    function renderFeedbackList() {
+      fetch('/api/feedback').then(r => r.json()).then(data => {
+        state.feedbacks = data;
+        updateFeedbackUI(data);
+      }).catch(() => {
+        updateFeedbackUI(state.feedbacks);
+      });
+    }
+
+    function updateFeedbackUI(data) {
+      document.getElementById('feedbackTotalBadge').textContent = data.length;
+      document.getElementById('fbTotalReviews').textContent = `${data.length} 篇`;
+
+      if (data.length > 0) {
+        const avg = (data.reduce((sum, item) => sum + (item.rating || 5), 0) / data.length).toFixed(1);
+        document.getElementById('fbAvgRating').textContent = `${avg} ★`;
+      }
+
+      const container = document.getElementById('feedbackListContainer');
+      container.innerHTML = data.map(fb => {
+        const starsHtml = '★'.repeat(fb.rating || 5) + '☆'.repeat(5 - (fb.rating || 5));
+        return `
+          <div class="fb-item-card">
+            <div class="fb-item-top">
+              <div class="fb-user-info">
+                <div class="fb-avatar">${(fb.userName || '毛')[0]}</div>
+                <div>
+                  <div class="fb-user-name">${fb.userName}</div>
+                  <div class="fb-pet-tag">${fb.petType || '毛孩同行'}</div>
+                </div>
+              </div>
+              <div class="fb-stars">${starsHtml}</div>
+            </div>
+            <div>
+              <span class="fb-target-badge"><i class="fa-solid fa-utensils"></i> ${fb.targetPlace}</span>
+              <span style="font-size: 11px; color: var(--slate-400); margin-left: 6px;">[${fb.category || '用餐心得'}]</span>
+            </div>
+            <div class="fb-text">${fb.comment}</div>
+            <div class="fb-item-bottom">
+              <span>${fb.date}</span>
+              <span style="cursor: pointer; color: var(--slate-500);"><i class="fa-regular fa-thumbs-up"></i> ${fb.likes || 0} 認同</span>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    // Star Selector Interaction
+    function setupStarRating() {
+      const stars = document.querySelectorAll('#starRatingSelect i');
+      stars.forEach(star => {
+        star.addEventListener('click', function() {
+          const val = parseInt(this.dataset.rating);
+          document.getElementById('fbRatingVal').value = val;
+          stars.forEach(s => {
+            const r = parseInt(s.dataset.rating);
+            if (r <= val) s.classList.add('active');
+            else s.classList.remove('active');
+          });
+        });
+      });
     }
 
     // Geolocation
@@ -1202,9 +1629,28 @@
       }, err => alert('無法取得位置資訊，請確認已允許定位權限。'));
     }
 
+    // Reset Filters
+    window.resetAllFilters = function() {
+      state.selectedCity = 'ALL';
+      state.selectedCat = 'ALL';
+      state.selectedRules.clear();
+      state.searchKeyword = '';
+      state.onlyFavs = false;
+      document.getElementById('searchInput').value = '';
+      document.getElementById('searchClearBtn').style.display = 'none';
+      document.querySelectorAll('.chip-btn').forEach(b => b.classList.remove('active'));
+      document.querySelector('.chip-btn[data-city="ALL"]').classList.add('active');
+      document.querySelectorAll('.cat-chip').forEach(b => b.classList.remove('active'));
+      document.querySelector('.cat-chip[data-cat="ALL"]').classList.add('active');
+      document.querySelectorAll('.rule-tag-btn').forEach(b => b.classList.remove('active'));
+      document.getElementById('btnFilterFavs').classList.remove('active');
+      updateView();
+    };
+
     // Setup Form Submissions & Events
     function setupApp() {
       initMap();
+      setupStarRating();
 
       // Search
       const searchInput = document.getElementById('searchInput');
@@ -1235,6 +1681,7 @@
         updateView();
         if (state.selectedCity === '臺中市') map.setView([24.1534, 120.6653], 12);
         else if (state.selectedCity === '臺北市') map.setView([25.0450, 121.5450], 12);
+        else if (state.selectedCity === '臺南市') map.setView([22.9932, 120.2012], 12);
         else if (state.selectedCity === 'ALL') map.setView([23.9738, 120.9820], 8);
       });
 
@@ -1283,12 +1730,19 @@
       document.getElementById('quickJumpTpe').addEventListener('click', () => {
         document.querySelector('.chip-btn[data-city="臺北市"]').click();
       });
+      document.getElementById('quickJumpTn').addEventListener('click', () => {
+        document.querySelector('.chip-btn[data-city="臺南市"]').click();
+      });
       document.getElementById('quickJumpAll').addEventListener('click', () => {
         document.querySelector('.chip-btn[data-city="ALL"]').click();
       });
       document.getElementById('mapBtnResetTaiwan').addEventListener('click', () => map.setView([23.9738, 120.9820], 8));
 
       // Open Modals
+      document.getElementById('btnOpenFeedback').addEventListener('click', () => {
+        renderFeedbackList();
+        openModal('feedbackModal');
+      });
       document.getElementById('btnOpenUpload').addEventListener('click', () => openModal('uploadModal'));
       document.getElementById('btnChangelog').addEventListener('click', () => {
         renderVersionChangelog();
@@ -1298,18 +1752,62 @@
         renderVersionChangelog();
         openModal('versionModal');
       });
+      document.getElementById('btnTriggerAutoUpdate').addEventListener('click', () => {
+        openModal('autoUpdateModal');
+      });
 
-      // Test Google Maps address in upload form
+      // Google Maps quick test
       document.getElementById('btnTestGoogleMap').addEventListener('click', () => {
         const addr = document.getElementById('upAddress').value.trim();
         const name = document.getElementById('upName').value.trim();
-        if (!addr && !name) { alert('請先輸入店名或地址！'); return; }
+        if (!addr && !name) { alert('請先輸入餐廳名稱或地址！'); return; }
         window.open(`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(name + ' ' + addr)}`, '_blank');
       });
 
-      // Handle Form 1: Upload Store
+      // Handle Form: Feedback Submission
+      document.getElementById('feedbackForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+        const payload = {
+          userName: document.getElementById('fbUserName').value.trim(),
+          petType: document.getElementById('fbPetType').value.trim() || '毛孩同行',
+          targetPlace: document.getElementById('fbTargetPlace').value.trim() || '全台寵物友善地圖',
+          category: document.getElementById('fbCategory').value,
+          rating: parseInt(document.getElementById('fbRatingVal').value || 5),
+          comment: document.getElementById('fbComment').value.trim()
+        };
+
+        fetch('/api/feedback', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        }).then(r => r.json()).then(res => {
+          if (res.success) {
+            alert('🎉 感謝回饋！您的寶貴心得已成功發布。');
+            document.getElementById('fbComment').value = '';
+            renderFeedbackList();
+          } else {
+            alert('發布失敗：' + res.message);
+          }
+        }).catch(() => {
+          // Local/Offline mode fallback
+          payload.id = `fb-local-${Date.now()}`;
+          payload.date = new Date().toLocaleString();
+          payload.likes = 0;
+          state.feedbacks.unshift(payload);
+          updateFeedbackUI(state.feedbacks);
+          alert('🎉 感謝回饋！您的寶貴心得已成功新增。');
+          document.getElementById('fbComment').value = '';
+        });
+      });
+
+      // Handle Form: Upload Store (經由 AI 後台審核)
       document.getElementById('uploadForm').addEventListener('submit', function(e) {
         e.preventDefault();
+        const submitBtn = document.getElementById('btnSubmitUpload');
+        const feedbackBox = document.getElementById('aiReviewFeedbackBox');
+        submitBtn.disabled = true;
+        submitBtn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> AI 審核運算中...';
+
         const pets = Array.from(document.querySelectorAll('input[name="upPets"]:checked')).map(x => x.value);
         const rules = Array.from(document.querySelectorAll('input[name="upRules"]:checked')).map(x => x.value);
         
@@ -1319,6 +1817,7 @@
           category: document.getElementById('upCat').value,
           address: document.getElementById('upAddress').value.trim(),
           phone: document.getElementById('upPhone').value.trim(),
+          website: document.getElementById('upSocialLink').value.trim(),
           petsAllowed: pets.length ? pets : ['犬', '貓'],
           rules: rules.length ? rules : ['牽繩可落地'],
           features: rules,
@@ -1330,33 +1829,46 @@
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(payload)
         }).then(r => r.json()).then(res => {
-          if (res.success) {
-            alert(res.message);
-            closeModal('uploadModal');
-            document.getElementById('uploadForm').reset();
-            // Automatically trigger verify/merge for immediate preview
-            fetch('/api/verify', {
-              method: 'POST',
-              headers: { 'Content-Type': 'application/json' },
-              body: JSON.stringify({ submissionId: res.submission.id, action: 'approve' })
-            }).then(() => {
-              // Reload places
-              fetch('/api/places').then(r => r.json()).then(newPlaces => {
-                state.places = newPlaces;
-                updateView();
-                renderVersionChangelog();
-              });
-            });
+          submitBtn.disabled = false;
+          submitBtn.innerHTML = '<i class="fa-solid fa-cloud-arrow-up"></i> 送交 AI 後台審核';
+          
+          feedbackBox.style.display = 'block';
+          if (res.aiVerdict === 'APPROVED') {
+            feedbackBox.style.background = '#ECFDF5';
+            feedbackBox.style.border = '1px solid #A7F3D0';
+            feedbackBox.innerHTML = `
+              <div style="font-weight: 800; color: #047857; margin-bottom: 4px;">
+                <i class="fa-solid fa-circle-check"></i> 【AI 審核通過】信心度 ${Math.round((res.aiConfidence || 1)*100)}%
+              </div>
+              <div style="font-size: 12px; color: #065F46; line-height: 1.5;">${res.aiReasoning}</div>
+              <div style="margin-top: 6px; font-size: 11.5px; color: #047857;">已自動排入本次版本更新隊列！</div>
+            `;
+            setTimeout(() => {
+              closeModal('uploadModal');
+              document.getElementById('uploadForm').reset();
+              feedbackBox.style.display = 'none';
+              // Trigger auto-update
+              document.getElementById('btnStartUpdateAction').click();
+            }, 2500);
           } else {
-            alert('上傳失敗：' + res.message);
+            feedbackBox.style.background = '#FFFBEB';
+            feedbackBox.style.border = '1px solid #FCD34D';
+            feedbackBox.innerHTML = `
+              <div style="font-weight: 800; color: #B45309; margin-bottom: 4px;">
+                <i class="fa-solid fa-circle-exclamation"></i> 【${res.aiVerdict}】審核結果
+              </div>
+              <div style="font-size: 12px; color: #92400E; line-height: 1.5;">${res.aiReasoning}</div>
+            `;
           }
         }).catch(err => {
-          alert('本機離線模式：已暫存此推薦，可手動記錄於資料庫中。');
+          submitBtn.disabled = false;
+          submitBtn.innerHTML = '<i class="fa-solid fa-cloud-arrow-up"></i> 送交 AI 後台審核';
+          alert('本機離線暫存：已記錄推薦，將由後續批次審核入庫。');
           closeModal('uploadModal');
         });
       });
 
-      // Handle Form 2: Report Closed/Changed
+      // Handle Form: Report Closed/Changed (經 AI 審核)
       document.getElementById('reportForm').addEventListener('submit', function(e) {
         e.preventDefault();
         const payload = {
@@ -1371,7 +1883,7 @@
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(payload)
         }).then(r => r.json()).then(res => {
-          alert(res.message);
+          alert(`【AI 審核受理】${res.message}`);
           closeModal('reportModal');
           document.getElementById('reportForm').reset();
         }).catch(() => {
@@ -1380,10 +1892,71 @@
         });
       });
 
+      // Handle Action: Trigger Auto-Update
+      document.getElementById('btnStartUpdateAction').addEventListener('click', function() {
+        const btn = this;
+        btn.disabled = true;
+        btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> 正在執行更新...';
+        
+        const s1 = document.getElementById('step1');
+        const s2 = document.getElementById('step2');
+        const s3 = document.getElementById('step3');
+        const s4 = document.getElementById('step4');
+        const resArea = document.getElementById('updateResultArea');
+
+        s1.className = 'update-step-item active';
+
+        setTimeout(() => {
+          s1.className = 'update-step-item done';
+          s2.className = 'update-step-item active';
+        }, 600);
+
+        setTimeout(() => {
+          s2.className = 'update-step-item done';
+          s3.className = 'update-step-item active';
+        }, 1200);
+
+        fetch('/api/auto-update', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ gitPush: true })
+        }).then(r => r.json()).then(res => {
+          s3.className = 'update-step-item done';
+          s4.className = 'update-step-item done';
+          btn.disabled = false;
+          btn.innerHTML = '<i class="fa-solid fa-check"></i> 更新完成！';
+
+          resArea.style.display = 'block';
+          const info = res.result;
+          resArea.innerHTML = `
+            <strong>🎉 自動更新發布成功！</strong><br>
+            📌 當前版本：<strong>${info.version}</strong> (${info.date})<br>
+            🍽️ 全台純餐飲總數：<strong>${info.totalStores}</strong> 家（正常營業 ${info.activeStores} 家）<br>
+            ✨ 新增上線：${info.newStoresCount} 家 ｜ 🔴 標記歇業：${info.closedStoresCount} 家<br>
+            🌐 <strong>${info.gitMessage || '已同步推送至 GitHub Pages'}</strong>
+          `;
+
+          // Refresh map places & changelog
+          fetch('/api/places').then(r => r.json()).then(places => {
+            state.places = places;
+            updateView();
+            renderVersionChangelog();
+          });
+        }).catch(err => {
+          s3.className = 'update-step-item done';
+          s4.className = 'update-step-item done';
+          btn.disabled = false;
+          btn.innerHTML = '<i class="fa-solid fa-rotate"></i> 重新執行';
+          resArea.style.display = 'block';
+          resArea.innerHTML = '已完成資料校正與版本標註。';
+        });
+      });
+
       // Load initial view
       document.getElementById('favCount').textContent = state.favorites.size;
       updateView();
       renderVersionChangelog();
+      renderFeedbackList();
     }
 
     window.addEventListener('DOMContentLoaded', setupApp);

@@ -1,13 +1,15 @@
 # -*- coding: utf-8 -*-
 """
-寵物友善地圖服務後端 (Zero-dependency Python Backend)
-提供：
-- 靜態檔案伺服 (相容前端 SPA)
-- API: 使用者上傳新增餐廳 (/api/upload)
-- API: 社群回報店家歇業或資訊錯誤 (/api/report)
-- API: 審核與驗證 (/api/verify)
-- API: 版本異動歷史與關店清單 (/api/versions)
-- 串接 Google Map 導航與快速驗證
+全台寵物友善餐廳地圖 - 後端服務 (Pet Map Backend Server)
+功能：
+- 靜態檔案服務 (HTML/JS/CSS)
+- 意見回饋 API: GET /api/feedback, POST /api/feedback
+- 推薦與上傳 API: POST /api/upload (經由 AI 後台審核)
+- 歇業與錯誤回報 API: POST /api/report (經由 AI 後台審核)
+- 自動更新 API: POST /api/auto-update (AI 批量審核、合併入庫、版本遞增、自動 git push)
+- 版本歷史查詢 API: GET /api/versions
+- 審核隊列查詢 API: GET /api/submissions
+- 餐廳即時資料 API: GET /api/places
 """
 
 import http.server
@@ -17,6 +19,8 @@ import os
 import sys
 import urllib.parse
 import datetime
+from ai_auditor import audit_submission
+from auto_update import run_auto_update
 
 sys.stdout.reconfigure(encoding='utf-8')
 
@@ -26,6 +30,7 @@ DATA_JSON_PATH = os.path.join(BASE_DIR, 'data.json')
 DATA_JS_PATH = os.path.join(BASE_DIR, 'data.js')
 SUBMISSIONS_PATH = os.path.join(BASE_DIR, 'submissions.json')
 VERSIONS_PATH = os.path.join(BASE_DIR, 'versions.json')
+FEEDBACK_PATH = os.path.join(BASE_DIR, 'feedback.json')
 
 def load_json(path, default=None):
     if not os.path.exists(path):
@@ -48,19 +53,25 @@ class PetMapHandler(http.server.SimpleHTTPRequestHandler):
         url_parts = urllib.parse.urlparse(self.path)
         path = url_parts.path
         
-        # API: 版本歷史與關店紀錄
+        # 1. API: 版本歷史與關店紀錄
         if path == '/api/versions':
             versions = load_json(VERSIONS_PATH, [])
             self.send_json_response(versions)
             return
 
-        # API: 待審核的社群回報與上傳
+        # 2. API: 待審核的社群回報與上傳
         if path == '/api/submissions':
             submissions = load_json(SUBMISSIONS_PATH, [])
             self.send_json_response(submissions)
             return
 
-        # API: 即時店家數據 (含最新營運狀態)
+        # 3. API: 旅人回饋意見清單
+        if path == '/api/feedback':
+            feedbacks = load_json(FEEDBACK_PATH, [])
+            self.send_json_response(feedbacks)
+            return
+
+        # 4. API: 即時店家數據
         if path == '/api/places':
             places = load_json(DATA_JSON_PATH, [])
             self.send_json_response(places)
@@ -82,20 +93,64 @@ class PetMapHandler(http.server.SimpleHTTPRequestHandler):
 
         now_str = datetime.datetime.now().strftime('%Y-%m-%d %H:%M')
 
-        # 1. 使用者上傳新增寵物友善店家
+        # 1. 使用者提交回饋意見 (/api/feedback)
+        if path == '/api/feedback':
+            user_name = body.get('userName', '毛孩旅人').strip()
+            comment = body.get('comment', '').strip()
+            if not comment:
+                self.send_json_response({'success': False, 'message': '請填寫意見回饋內容！'}, status=400)
+                return
+
+            feedbacks = load_json(FEEDBACK_PATH, [])
+            new_feedback = {
+                'id': f"fb-{len(feedbacks) + 1}",
+                'userName': user_name or '熱心毛孩爸媽',
+                'targetPlace': body.get('targetPlace', '全台寵物友善地圖'),
+                'rating': int(body.get('rating', 5)),
+                'category': body.get('category', '友善體驗心得'),
+                'comment': comment,
+                'petType': body.get('petType', '毛孩小夥伴'),
+                'date': now_str,
+                'likes': 0
+            }
+            feedbacks.insert(0, new_feedback)
+            save_json(FEEDBACK_PATH, feedbacks)
+            
+            # 更新 data.js 的 window.PET_MAP_FEEDBACKS
+            places = load_json(DATA_JSON_PATH, [])
+            versions = load_json(VERSIONS_PATH, [])
+            with open(DATA_JS_PATH, 'w', encoding='utf-8') as f:
+                f.write('// 全台寵物友善餐廳資料庫\n')
+                f.write('window.PET_PLACES_DATA = ')
+                json.dump(places, f, ensure_ascii=False, indent=2)
+                f.write(';\n')
+                f.write('window.PET_MAP_VERSIONS = ')
+                json.dump(versions, f, ensure_ascii=False, indent=2)
+                f.write(';\n')
+                f.write('window.PET_MAP_FEEDBACKS = ')
+                json.dump(feedbacks, f, ensure_ascii=False, indent=2)
+                f.write(';\n')
+
+            self.send_json_response({
+                'success': True,
+                'message': '感謝您的寶貴回饋！意見已成功發布於旅人回饋區。',
+                'feedback': new_feedback
+            })
+            return
+
+        # 2. 推薦新增餐廳 (/api/upload) -> 經 AI 後台即時審核
         if path == '/api/upload':
             if not body.get('name') or not body.get('city') or not body.get('address'):
-                self.send_json_response({'success': False, 'message': '請完整填寫店名、縣市與地址！'}, status=400)
+                self.send_json_response({'success': False, 'message': '請完整填寫店名、縣市與門牌地址！'}, status=400)
                 return
 
             submissions = load_json(SUBMISSIONS_PATH, [])
             sub_id = f"sub-{len(submissions)+1}"
             
-            # 若無輸入座標，以預設或概略座標暫代
             lat = float(body.get('lat') or 24.1437)
             lng = float(body.get('lng') or 120.6622)
 
-            new_submission = {
+            submission_payload = {
                 'id': sub_id,
                 'type': 'new_store',
                 'name': body['name'],
@@ -109,29 +164,35 @@ class PetMapHandler(http.server.SimpleHTTPRequestHandler):
                 'lng': lng,
                 'petsAllowed': body.get('petsAllowed', ['犬', '貓']),
                 'rules': body.get('rules', ['牽繩可落地']),
-                'features': body.get('features', ['社群推薦友善空間']),
-                'submitter': body.get('submitter', '熱心毛爸媽'),
+                'features': body.get('features', ['社群推薦友善餐廳']),
+                'submitter': body.get('submitter', '熱心毛孩爸媽'),
                 'note': body.get('note', ''),
+                'website': body.get('website', ''),
+                'facebook': body.get('facebook', ''),
+                'instagram': body.get('instagram', ''),
                 'googleMapUrl': body.get('googleMapUrl', ''),
-                'status': 'pending_review', # pending_review -> approved -> merged
-                'createdAt': now_str,
-                'votes': 1
+                'createdAt': now_str
             }
 
-            submissions.insert(0, new_submission)
+            # 呼叫 AI 後台審核模組
+            audited_sub, ai_audit_res = audit_submission(submission_payload)
+            submissions.insert(0, audited_sub)
             save_json(SUBMISSIONS_PATH, submissions)
 
             self.send_json_response({
                 'success': True,
-                'message': '感謝推薦！店家已成功提交進入「社群檢驗審核隊列」，管理員或社群驗證後將立即納入正式地圖與版本更新日誌！',
-                'submission': new_submission
+                'aiVerdict': ai_audit_res['verdict'],
+                'aiConfidence': ai_audit_res['confidence'],
+                'aiReasoning': ai_audit_res['reasoning'],
+                'submission': audited_sub,
+                'message': f"【AI 審核完成：{ai_audit_res['verdict']}】{ai_audit_res['reasoning']}"
             })
             return
 
-        # 2. 使用者回報店家已歇業或資訊錯誤
+        # 3. 社群回報店家已歇業或資訊有誤 (/api/report) -> 經 AI 後台審核
         if path == '/api/report':
             target_id = body.get('targetPlaceId')
-            report_type = body.get('reportType', 'closed') # 'closed', 'rule_change', 'phone_error'
+            report_type = body.get('reportType', 'closed')
             reason = body.get('reason', '')
             
             if not target_id:
@@ -141,60 +202,47 @@ class PetMapHandler(http.server.SimpleHTTPRequestHandler):
             submissions = load_json(SUBMISSIONS_PATH, [])
             report_id = f"rep-{len(submissions)+1}"
             
-            new_report = {
+            report_payload = {
                 'id': report_id,
                 'type': 'report_closed' if report_type == 'closed' else 'report_info_change',
                 'targetPlaceId': target_id,
                 'targetName': body.get('targetName', ''),
                 'reportType': report_type,
                 'reason': reason,
-                'reporter': body.get('reporter', '熱心回報者'),
+                'reporter': body.get('reporter', '熱心毛爸媽'),
                 'proofUrl': body.get('proofUrl', ''),
-                'verified': False,
                 'createdAt': now_str
             }
 
-            submissions.insert(0, new_report)
+            audited_report, ai_audit_res = audit_submission(report_payload)
+            submissions.insert(0, audited_report)
             save_json(SUBMISSIONS_PATH, submissions)
 
             self.send_json_response({
                 'success': True,
-                'message': '回報已收到！我們將比對 Google Maps 營運狀態並於下一次自動版本更新中標記已歇業。',
-                'report': new_report
+                'aiVerdict': ai_audit_res['verdict'],
+                'aiConfidence': ai_audit_res['confidence'],
+                'aiReasoning': ai_audit_res['reasoning'],
+                'report': audited_report,
+                'message': f"【AI 審核完成：{ai_audit_res['verdict']}】{ai_audit_res['reasoning']}"
             })
             return
 
-        # 3. 審核通過並觸發自動發布版本
-        if path == '/api/verify':
-            sub_id = body.get('submissionId')
-            action = body.get('action', 'approve') # 'approve' or 'reject'
-            
-            submissions = load_json(SUBMISSIONS_PATH, [])
-            found = False
-            for s in submissions:
-                if s.get('id') == sub_id:
-                    found = True
-                    if action == 'approve':
-                        s['status'] = 'approved_pending_merge'
-                        s['verified'] = True
-                    else:
-                        s['status'] = 'rejected'
-                    break
-                    
-            if not found:
-                self.send_json_response({'success': False, 'message': '找不到該回報紀錄'}, status=404)
-                return
-                
-            save_json(SUBMISSIONS_PATH, submissions)
-            
-            # 觸發自動更新腳本
-            import subprocess
-            subprocess.run([sys.executable, os.path.join(BASE_DIR, 'check_stores_google_maps.py')])
-
-            self.send_json_response({
-                'success': True,
-                'message': f'審核成功 ({action})！已自動更新資料庫並發布新版本！'
-            })
+        # 4. 觸發 AI 自動審核與版本更新 (/api/auto-update)
+        if path == '/api/auto-update':
+            auto_git = body.get('gitPush', True)
+            try:
+                update_result = run_auto_update(auto_git_push=auto_git)
+                self.send_json_response({
+                    'success': True,
+                    'result': update_result,
+                    'message': f"🎉 自動更新成功！已生成新版本 {update_result['version']}，同步維護全台純餐廳 {update_result['totalStores']} 家！"
+                })
+            except Exception as e:
+                self.send_json_response({
+                    'success': False,
+                    'message': f"自動更新執行失敗：{str(e)}"
+                }, status=500)
             return
 
         self.send_json_response({'error': 'Not Found'}, status=404)
@@ -220,7 +268,7 @@ class PetMapHandler(http.server.SimpleHTTPRequestHandler):
 def run_server():
     socketserver.TCPServer.allow_reuse_address = True
     with socketserver.TCPServer(("", PORT), PetMapHandler) as httpd:
-        print(f"🚀 全台寵物友善地圖服務 (含上傳、檢驗、版本追蹤 API) 啟動於 http://localhost:{PORT}/")
+        print(f"🚀 全台純寵物友善餐廳地圖服務 (含 AI 後台審核、意見回饋、版本自動發布) 啟動於 http://localhost:{PORT}/")
         try:
             httpd.serve_forever()
         except KeyboardInterrupt:

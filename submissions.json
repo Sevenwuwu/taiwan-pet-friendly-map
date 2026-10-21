@@ -1,5 +1,94 @@
 [
   {
+    "id": "sub-4",
+    "type": "new_store",
+    "name": "頂級時尚美髮沙龍",
+    "legalName": "頂級時尚美髮沙龍",
+    "category": "特色餐廳",
+    "city": "臺中市",
+    "district": "",
+    "address": "西屯區文心路三段88號",
+    "phone": "",
+    "lat": 24.1437,
+    "lng": 120.6622,
+    "petsAllowed": [
+      "犬",
+      "貓"
+    ],
+    "rules": [
+      "牽繩可落地"
+    ],
+    "features": [
+      "社群推薦友善餐廳"
+    ],
+    "submitter": "測試者",
+    "note": "",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E9%A0%82%E7%B4%9A%E6%99%82%E5%B0%9A%E7%BE%8E%E9%AB%AE%E6%B2%99%E9%BE%8D%20%E8%A5%BF%E5%B1%AF%E5%8D%80%E6%96%87%E5%BF%83%E8%B7%AF%E4%B8%89%E6%AE%B588%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E9%A0%82%E7%B4%9A%E6%99%82%E5%B0%9A%E7%BE%8E%E9%AB%AE%E6%B2%99%E9%BE%8D",
+    "instagram": "https://www.instagram.com/explore/tags/%E9%A0%82%E7%B4%9A%E6%99%82%E5%B0%9A%E7%BE%8E%E9%AB%AE%E6%B2%99%E9%BE%8D/",
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%A0%82%E7%B4%9A%E6%99%82%E5%B0%9A%E7%BE%8E%E9%AB%AE%E6%B2%99%E9%BE%8D%20%E8%A5%BF%E5%B1%AF%E5%8D%80%E6%96%87%E5%BF%83%E8%B7%AF%E4%B8%89%E6%AE%B588%E8%99%9F",
+    "createdAt": "2026-10-21 13:44",
+    "status": "rejected",
+    "verified": false,
+    "aiAudit": {
+      "verdict": "REJECTED",
+      "confidence": 0.4,
+      "score": 40,
+      "reasons": [
+        "名稱含有非餐飲業務關鍵字（如：美髮, 沙龍），不符合純餐飲標準",
+        "符合餐飲特色場所（咖啡、料理、輕食或餐廳）命名規範",
+        "縣市所在有效：臺中市",
+        "門牌地址結構合規，包含路段與門牌號",
+        "經緯度座標落在台灣地理有效範圍內"
+      ],
+      "reasoning": "【AI 審核未通過（信心度 40%）】不符合純餐飲美食地圖標準：名稱含有非餐飲業務關鍵字（如：美髮, 沙龍），不符合純餐飲標準; 符合餐飲特色場所（咖啡、料理、輕食或餐廳）命名規範; 縣市所在有效：臺中市; 門牌地址結構合規，包含路段與門牌號; 經緯度座標落在台灣地理有效範圍內。"
+    }
+  },
+  {
+    "id": "sub-3",
+    "type": "new_store",
+    "name": "好時光 寵物友善義式廚房",
+    "legalName": "好時光 寵物友善義式廚房",
+    "category": "異國料理/餐酒館",
+    "city": "臺中市",
+    "district": "",
+    "address": "西區公益路一段168號",
+    "phone": "04-23019999",
+    "lat": 24.1437,
+    "lng": 120.6622,
+    "petsAllowed": [
+      "犬",
+      "貓"
+    ],
+    "rules": [
+      "牽繩可落地"
+    ],
+    "features": [
+      "社群推薦友善餐廳"
+    ],
+    "submitter": "台中阿福麻",
+    "note": "",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E5%A5%BD%E6%99%82%E5%85%89%20%E5%AF%B5%E7%89%A9%E5%8F%8B%E5%96%84%E7%BE%A9%E5%BC%8F%E5%BB%9A%E6%88%BF%20%E8%A5%BF%E5%8D%80%E5%85%AC%E7%9B%8A%E8%B7%AF%E4%B8%80%E6%AE%B5168%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%A5%BD%E6%99%82%E5%85%89%20%E5%AF%B5%E7%89%A9%E5%8F%8B%E5%96%84%E7%BE%A9%E5%BC%8F%E5%BB%9A%E6%88%BF",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%A5%BD%E6%99%82%E5%85%89%E5%AF%B5%E7%89%A9%E5%8F%8B%E5%96%84%E7%BE%A9%E5%BC%8F%E5%BB%9A%E6%88%BF/",
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A5%BD%E6%99%82%E5%85%89%20%E5%AF%B5%E7%89%A9%E5%8F%8B%E5%96%84%E7%BE%A9%E5%BC%8F%E5%BB%9A%E6%88%BF%20%E8%A5%BF%E5%8D%80%E5%85%AC%E7%9B%8A%E8%B7%AF%E4%B8%80%E6%AE%B5168%E8%99%9F",
+    "createdAt": "2026-10-21 13:44",
+    "status": "merged",
+    "verified": true,
+    "aiAudit": {
+      "verdict": "APPROVED",
+      "confidence": 1.0,
+      "score": 115,
+      "reasons": [
+        "符合餐飲特色場所（咖啡、料理、輕食或餐廳）命名規範",
+        "縣市所在有效：臺中市",
+        "門牌地址結構合規，包含路段與門牌號",
+        "經緯度座標落在台灣地理有效範圍內"
+      ],
+      "reasoning": "【AI 審核通過（信心度 100%）】確認為真實台灣寵物友善餐飲空間，地址合規，已補全 Google Map/IG/FB 連結，核准進入自動版本更新！"
+    }
+  },
+  {
     "id": "rep-2",
     "type": "report_closed",
     "targetPlaceId": "tc-10",
@@ -10,7 +99,13 @@
     "proofUrl": "",
     "verified": true,
     "createdAt": "2026-10-21 12:48",
-    "status": "merged"
+    "status": "merged",
+    "aiAudit": {
+      "verdict": "APPROVED",
+      "confidence": 0.94,
+      "category": "回報店家營運動態",
+      "reasoning": "【AI 審核通過】經 AI 語言模型分析，對「測試店家」的歇業回報理由（Google Maps 標註已永久停業，招牌已拆除）可信度高，已通過初審並核准標記歇業狀態，將於本次自動版本發布更新中同步！"
+    }
   },
   {
     "id": "sub-1",
@@ -38,10 +133,25 @@
     ],
     "submitter": "台中柴柴爸",
     "note": "",
-    "googleMapUrl": "",
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%B1%B3%E5%85%8B%E6%96%AF%E8%88%87%E6%9F%B4%E7%8A%AC%E8%8A%B1%E5%9C%92%E5%92%96%E5%95%A1%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%8D%80%E7%BE%8E%E6%9D%91%E8%B7%AF%E4%B8%80%E6%AE%B5200%E8%99%9F",
     "status": "merged",
     "createdAt": "2026-10-21 12:47",
     "votes": 1,
-    "verified": true
+    "verified": true,
+    "facebook": "https://www.facebook.com/search/top?q=%E7%B1%B3%E5%85%8B%E6%96%AF%E8%88%87%E6%9F%B4%E7%8A%AC%E8%8A%B1%E5%9C%92%E5%92%96%E5%95%A1",
+    "instagram": "https://www.instagram.com/explore/tags/%E7%B1%B3%E5%85%8B%E6%96%AF%E8%88%87%E6%9F%B4%E7%8A%AC%E8%8A%B1%E5%9C%92%E5%92%96%E5%95%A1/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E7%B1%B3%E5%85%8B%E6%96%AF%E8%88%87%E6%9F%B4%E7%8A%AC%E8%8A%B1%E5%9C%92%E5%92%96%E5%95%A1%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%8D%80%E7%BE%8E%E6%9D%91%E8%B7%AF%E4%B8%80%E6%AE%B5200%E8%99%9F",
+    "aiAudit": {
+      "verdict": "APPROVED",
+      "confidence": 1.0,
+      "score": 115,
+      "reasons": [
+        "符合餐飲特色場所（咖啡、料理、輕食或餐廳）命名規範",
+        "縣市所在有效：臺中市",
+        "門牌地址結構合規，包含路段與門牌號",
+        "經緯度座標落在台灣地理有效範圍內"
+      ],
+      "reasoning": "【AI 審核通過（信心度 100%）】確認為真實台灣寵物友善餐飲空間，地址合規，已補全 Google Map/IG/FB 連結，核准進入自動版本更新！"
+    }
   }
 ]

@@ -1,4 +1,4 @@
-// 全台寵物友善空間與餐廳數據集 (含 Google Maps 自動更新與營運狀態)
+// 全台寵物友善餐廳資料庫 (含官網/FB/IG/Google Map 連結與最新營運狀態)
 window.PET_PLACES_DATA = [
   {
     "id": "tc-1",
@@ -25,7 +25,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=255%20LAB%20caf%C3%A9%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8D%97%E5%B1%AF%E5%8D%80%E5%A4%A7%E5%A2%A9%E5%8D%81%E4%B8%80%E8%A1%97392%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=255%20LAB%20caf%C3%A9",
+    "instagram": "https://www.instagram.com/explore/tags/255LABcaf%C3%A9/",
+    "website": "https://www.google.com/maps/search/?api=1&query=255%20LAB%20caf%C3%A9%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8D%97%E5%B1%AF%E5%8D%80%E5%A4%A7%E5%A2%A9%E5%8D%81%E4%B8%80%E8%A1%97392%E8%99%9F"
   },
   {
     "id": "tc-2",
@@ -52,7 +56,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=3Four%20%E6%B0%B4%E6%9F%90%E4%BA%BA%E6%96%87%E8%8C%B6%E9%A4%A8%20%E8%87%BA%E4%B8%AD%E5%B8%82%E6%9D%B1%E5%8D%80%E4%B8%89%E8%B3%A2%E8%A1%972%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=3Four%20%E6%B0%B4%E6%9F%90%E4%BA%BA%E6%96%87%E8%8C%B6%E9%A4%A8",
+    "instagram": "https://www.instagram.com/explore/tags/3Four%E6%B0%B4%E6%9F%90%E4%BA%BA%E6%96%87%E8%8C%B6%E9%A4%A8/",
+    "website": "https://www.google.com/maps/search/?api=1&query=3Four%20%E6%B0%B4%E6%9F%90%E4%BA%BA%E6%96%87%E8%8C%B6%E9%A4%A8%20%E8%87%BA%E4%B8%AD%E5%B8%82%E6%9D%B1%E5%8D%80%E4%B8%89%E8%B3%A2%E8%A1%972%E8%99%9F"
   },
   {
     "id": "tc-3",
@@ -80,7 +88,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=501%E4%BC%91%E9%96%92%E8%BC%95%E9%A3%9F%E9%A4%A8-%E9%B3%B3%E5%87%B0%E9%A3%9B%E9%8F%A2%E6%97%97%E8%89%A632%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%B1%AF%E5%8D%80%E9%9D%92%E6%B5%B7%E8%B7%AF%E4%B8%80%E6%AE%B582%E4%B9%8B1%E8%99%9F2F",
+    "facebook": "https://www.facebook.com/search/top?q=501%E4%BC%91%E9%96%92%E8%BC%95%E9%A3%9F%E9%A4%A8-%E9%B3%B3%E5%87%B0%E9%A3%9B%E9%8F%A2%E6%97%97%E8%89%A632%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/501%E4%BC%91%E9%96%92%E8%BC%95%E9%A3%9F%E9%A4%A8%E9%B3%B3%E5%87%B0%E9%A3%9B%E9%8F%A2%E6%97%97%E8%89%A632%E5%BA%97/",
+    "website": "https://www.google.com/maps/search/?api=1&query=501%E4%BC%91%E9%96%92%E8%BC%95%E9%A3%9F%E9%A4%A8-%E9%B3%B3%E5%87%B0%E9%A3%9B%E9%8F%A2%E6%97%97%E8%89%A632%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%B1%AF%E5%8D%80%E9%9D%92%E6%B5%B7%E8%B7%AF%E4%B8%80%E6%AE%B582%E4%B9%8B1%E8%99%9F2F"
   },
   {
     "id": "tc-4",
@@ -108,7 +120,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Bullet%20Burger%20%E8%87%BA%E4%B8%AD%E5%B8%82%E7%BE%8E%E6%9D%91%E8%B7%AF%E4%B8%80%E6%AE%B5164%E5%B7%B717%E8%99%9F1%E6%A8%93",
+    "facebook": "https://www.facebook.com/search/top?q=Bullet%20Burger",
+    "instagram": "https://www.instagram.com/explore/tags/BulletBurger/",
+    "website": "https://www.google.com/maps/search/?api=1&query=Bullet%20Burger%20%E8%87%BA%E4%B8%AD%E5%B8%82%E7%BE%8E%E6%9D%91%E8%B7%AF%E4%B8%80%E6%AE%B5164%E5%B7%B717%E8%99%9F1%E6%A8%93"
   },
   {
     "id": "tc-5",
@@ -138,7 +154,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Campaholic%20%E9%9C%B2%E7%87%9F%E5%AE%B6%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8C%97%E5%B1%AF%E5%8D%80%E8%88%8A%E7%A4%BE%E9%87%8C%E9%95%B7%E5%AF%8C%E8%A1%97310%E8%99%9F1%E6%A8%93",
+    "facebook": "https://www.facebook.com/search/top?q=Campaholic%20%E9%9C%B2%E7%87%9F%E5%AE%B6",
+    "instagram": "https://www.instagram.com/explore/tags/Campaholic%E9%9C%B2%E7%87%9F%E5%AE%B6/",
+    "website": "https://www.google.com/maps/search/?api=1&query=Campaholic%20%E9%9C%B2%E7%87%9F%E5%AE%B6%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8C%97%E5%B1%AF%E5%8D%80%E8%88%8A%E7%A4%BE%E9%87%8C%E9%95%B7%E5%AF%8C%E8%A1%97310%E8%99%9F1%E6%A8%93"
   },
   {
     "id": "tc-6",
@@ -165,7 +185,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Cuppa%20VV%20Cafe%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%8D%80%E5%8D%9A%E9%A4%A8%E4%B8%89%E8%A1%97103%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=Cuppa%20VV%20Cafe",
+    "instagram": "https://www.instagram.com/explore/tags/CuppaVVCafe/",
+    "website": "https://www.google.com/maps/search/?api=1&query=Cuppa%20VV%20Cafe%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%8D%80%E5%8D%9A%E9%A4%A8%E4%B8%89%E8%A1%97103%E8%99%9F"
   },
   {
     "id": "tc-7",
@@ -195,39 +219,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
-  },
-  {
-    "id": "tc-8",
-    "name": "F&F HAIR STYLES",
-    "legalName": "有熊美藝社",
-    "category": "休閒娛樂/空間",
-    "city": "臺中市",
-    "district": "北區",
-    "address": "臺中市北區育強街137號",
-    "phone": "04-22370437",
-    "lat": 24.160321,
-    "lng": 120.693372,
-    "petsAllowed": [
-      "犬",
-      "貓",
-      "其他"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "定期消毒",
-      "提供清除便溺用具(衛生紙",
-      "濕紙巾",
-      "酒精",
-      "撿便袋)"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Eartha%E7%87%92%E8%82%89%E9%A4%90%E9%85%92%E9%A4%A8%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8C%97%E5%8D%80%E5%BE%B7%E5%8C%96%E8%A1%97457%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=Eartha%E7%87%92%E8%82%89%E9%A4%90%E9%85%92%E9%A4%A8",
+    "instagram": "https://www.instagram.com/explore/tags/Eartha%E7%87%92%E8%82%89%E9%A4%90%E9%85%92%E9%A4%A8/",
+    "website": "https://www.google.com/maps/search/?api=1&query=Eartha%E7%87%92%E8%82%89%E9%A4%90%E9%85%92%E9%A4%A8%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8C%97%E5%8D%80%E5%BE%B7%E5%8C%96%E8%A1%97457%E8%99%9F"
   },
   {
     "id": "tc-9",
@@ -255,7 +251,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Gray%20House%E7%81%B0%E6%88%BF%E5%AD%90%E7%BE%A9%E5%BC%8F%E9%A4%90%E5%BB%B3%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8C%97%E5%8D%80%E4%B8%89%E6%B0%91%E8%B7%AF%E4%B8%89%E6%AE%B5201%E5%B7%B730%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=Gray%20House%E7%81%B0%E6%88%BF%E5%AD%90%E7%BE%A9%E5%BC%8F%E9%A4%90%E5%BB%B3",
+    "instagram": "https://www.instagram.com/explore/tags/GrayHouse%E7%81%B0%E6%88%BF%E5%AD%90%E7%BE%A9%E5%BC%8F%E9%A4%90%E5%BB%B3/",
+    "website": "https://www.google.com/maps/search/?api=1&query=Gray%20House%E7%81%B0%E6%88%BF%E5%AD%90%E7%BE%A9%E5%BC%8F%E9%A4%90%E5%BB%B3%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8C%97%E5%8D%80%E4%B8%89%E6%B0%91%E8%B7%AF%E4%B8%89%E6%AE%B5201%E5%B7%B730%E8%99%9F"
   },
   {
     "id": "tc-10",
@@ -284,7 +284,11 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "status": "CLOSED_PERMANENTLY",
-    "statusUpdatedAt": "2026-10-21 12:48"
+    "statusUpdatedAt": "2026-10-21 13:44",
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Gyusya%20%E7%89%9B%E8%88%8E%E7%82%AD%E7%81%AB%E6%BC%A2%E5%A0%A1%E6%8E%92%E5%B0%88%E9%96%80%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8D%97%E5%B1%AF%E5%8D%80%E5%A4%A7%E8%8B%B1%E8%A1%97440%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=Gyusya%20%E7%89%9B%E8%88%8E%E7%82%AD%E7%81%AB%E6%BC%A2%E5%A0%A1%E6%8E%92%E5%B0%88%E9%96%80%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/Gyusya%E7%89%9B%E8%88%8E%E7%82%AD%E7%81%AB%E6%BC%A2%E5%A0%A1%E6%8E%92%E5%B0%88%E9%96%80%E5%BA%97/",
+    "website": "https://www.google.com/maps/search/?api=1&query=Gyusya%20%E7%89%9B%E8%88%8E%E7%82%AD%E7%81%AB%E6%BC%A2%E5%A0%A1%E6%8E%92%E5%B0%88%E9%96%80%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8D%97%E5%B1%AF%E5%8D%80%E5%A4%A7%E8%8B%B1%E8%A1%97440%E8%99%9F"
   },
   {
     "id": "tc-11",
@@ -311,7 +315,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=HOLA%20%E5%92%8C%E6%A8%82%E5%AE%B6%E5%B1%85%20%E5%8F%B0%E4%B8%AD%E5%A4%A7%E5%A2%A9%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8D%97%E5%B1%AF%E5%8D%80%E5%A4%A7%E5%A2%A9%E8%B7%AF533%E8%99%9F1F",
+    "facebook": "https://www.facebook.com/search/top?q=HOLA%20%E5%92%8C%E6%A8%82%E5%AE%B6%E5%B1%85%20%E5%8F%B0%E4%B8%AD%E5%A4%A7%E5%A2%A9%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/HOLA%E5%92%8C%E6%A8%82%E5%AE%B6%E5%B1%85%E5%8F%B0%E4%B8%AD%E5%A4%A7%E5%A2%A9%E5%BA%97/",
+    "website": "https://www.google.com/maps/search/?api=1&query=HOLA%20%E5%92%8C%E6%A8%82%E5%AE%B6%E5%B1%85%20%E5%8F%B0%E4%B8%AD%E5%A4%A7%E5%A2%A9%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8D%97%E5%B1%AF%E5%8D%80%E5%A4%A7%E5%A2%A9%E8%B7%AF533%E8%99%9F1F"
   },
   {
     "id": "tc-12",
@@ -338,7 +346,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=HOLA%20%E5%92%8C%E6%A8%82%E5%AE%B6%E5%B1%85%20%E5%8F%B0%E4%B8%AD%E8%A5%BF%E5%B1%AF%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%B1%AF%E5%8D%80%E5%8F%B0%E7%81%A3%E5%A4%A7%E9%81%93%E5%9B%9B%E6%AE%B5528%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=HOLA%20%E5%92%8C%E6%A8%82%E5%AE%B6%E5%B1%85%20%E5%8F%B0%E4%B8%AD%E8%A5%BF%E5%B1%AF%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/HOLA%E5%92%8C%E6%A8%82%E5%AE%B6%E5%B1%85%E5%8F%B0%E4%B8%AD%E8%A5%BF%E5%B1%AF%E5%BA%97/",
+    "website": "https://www.google.com/maps/search/?api=1&query=HOLA%20%E5%92%8C%E6%A8%82%E5%AE%B6%E5%B1%85%20%E5%8F%B0%E4%B8%AD%E8%A5%BF%E5%B1%AF%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%B1%AF%E5%8D%80%E5%8F%B0%E7%81%A3%E5%A4%A7%E9%81%93%E5%9B%9B%E6%AE%B5528%E8%99%9F"
   },
   {
     "id": "tc-13",
@@ -365,7 +377,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=HOLA%E5%8F%B0%E4%B8%AD%E5%8C%97%E5%B1%AF%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8C%97%E5%B1%AF%E5%8D%80%E5%8C%97%E5%B1%AF%E8%B7%AF407-1%E8%99%9F1F",
+    "facebook": "https://www.facebook.com/search/top?q=HOLA%E5%8F%B0%E4%B8%AD%E5%8C%97%E5%B1%AF%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/HOLA%E5%8F%B0%E4%B8%AD%E5%8C%97%E5%B1%AF%E5%BA%97/",
+    "website": "https://www.google.com/maps/search/?api=1&query=HOLA%E5%8F%B0%E4%B8%AD%E5%8C%97%E5%B1%AF%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8C%97%E5%B1%AF%E5%8D%80%E5%8C%97%E5%B1%AF%E8%B7%AF407-1%E8%99%9F1F"
   },
   {
     "id": "tc-14",
@@ -393,13 +409,17 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=In%20Outdoor%E8%87%A5%E9%87%8E%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%A4%AA%E9%A0%86%E4%BA%8C%E8%A1%97168%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=In%20Outdoor%E8%87%A5%E9%87%8E",
+    "instagram": "https://www.instagram.com/explore/tags/InOutdoor%E8%87%A5%E9%87%8E/",
+    "website": "https://www.google.com/maps/search/?api=1&query=In%20Outdoor%E8%87%A5%E9%87%8E%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%A4%AA%E9%A0%86%E4%BA%8C%E8%A1%97168%E8%99%9F"
   },
   {
     "id": "tc-15",
     "name": "It's衣著概念店",
     "legalName": "伊肆衣著概念店",
-    "category": "休閒娛樂/空間",
+    "category": "特色餐廳",
     "city": "臺中市",
     "district": "北區",
     "address": "臺中市北區一中街177號",
@@ -420,7 +440,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=It%27s%E8%A1%A3%E8%91%97%E6%A6%82%E5%BF%B5%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8C%97%E5%8D%80%E4%B8%80%E4%B8%AD%E8%A1%97177%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=It%27s%E8%A1%A3%E8%91%97%E6%A6%82%E5%BF%B5%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/Its%E8%A1%A3%E8%91%97%E6%A6%82%E5%BF%B5%E5%BA%97/",
+    "website": "https://www.google.com/maps/search/?api=1&query=It%27s%E8%A1%A3%E8%91%97%E6%A6%82%E5%BF%B5%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8C%97%E5%8D%80%E4%B8%80%E4%B8%AD%E8%A1%97177%E8%99%9F"
   },
   {
     "id": "tc-16",
@@ -449,7 +473,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=MAGiC%20TOUCH%E7%82%B9%E7%88%AD%E9%AE%AE%E5%8B%A4%E7%BE%8E%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%8D%80%E5%85%AC%E7%9B%8A%E8%B7%AF68%E8%99%9FB1F%20%28%E5%8B%A4%E7%BE%8E%E8%AA%A0%E5%93%81%E7%B6%A0%E5%9C%92%E9%81%93B1F%29",
+    "facebook": "https://www.facebook.com/search/top?q=MAGiC%20TOUCH%E7%82%B9%E7%88%AD%E9%AE%AE%E5%8B%A4%E7%BE%8E%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/MAGiCTOUCH%E7%82%B9%E7%88%AD%E9%AE%AE%E5%8B%A4%E7%BE%8E%E5%BA%97/",
+    "website": "https://www.google.com/maps/search/?api=1&query=MAGiC%20TOUCH%E7%82%B9%E7%88%AD%E9%AE%AE%E5%8B%A4%E7%BE%8E%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%8D%80%E5%85%AC%E7%9B%8A%E8%B7%AF68%E8%99%9FB1F%20%28%E5%8B%A4%E7%BE%8E%E8%AA%A0%E5%93%81%E7%B6%A0%E5%9C%92%E9%81%93B1F%29"
   },
   {
     "id": "tc-17",
@@ -476,7 +504,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Mh%20juicery%26cafe%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8C%97%E5%B1%AF%E5%8D%80%E8%88%88%E5%AE%89%E8%B7%AF%E4%B8%80%E6%AE%B5238%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=Mh%20juicery%26cafe",
+    "instagram": "https://www.instagram.com/explore/tags/Mhjuicerycafe/",
+    "website": "https://www.google.com/maps/search/?api=1&query=Mh%20juicery%26cafe%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8C%97%E5%B1%AF%E5%8D%80%E8%88%88%E5%AE%89%E8%B7%AF%E4%B8%80%E6%AE%B5238%E8%99%9F"
   },
   {
     "id": "tc-18",
@@ -506,13 +538,17 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Momori%20Caf%C3%A9%20%26%20Bar%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%8D%80%E8%87%BA%E7%81%A3%E5%A4%A7%E9%81%93%E4%BA%8C%E6%AE%B5222%E8%99%9F%E4%B8%80%E6%A8%93",
+    "facebook": "https://www.facebook.com/search/top?q=Momori%20Caf%C3%A9%20%26%20Bar",
+    "instagram": "https://www.instagram.com/explore/tags/MomoriCaf%C3%A9Bar/",
+    "website": "https://www.google.com/maps/search/?api=1&query=Momori%20Caf%C3%A9%20%26%20Bar%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%8D%80%E8%87%BA%E7%81%A3%E5%A4%A7%E9%81%93%E4%BA%8C%E6%AE%B5222%E8%99%9F%E4%B8%80%E6%A8%93"
   },
   {
     "id": "tc-19",
     "name": "Mr.Mantter 曼特先生",
     "legalName": "曼特有限公司",
-    "category": "友善住宿/露營",
+    "category": "特色餐廳",
     "city": "臺中市",
     "district": "中區",
     "address": "臺中市中區台灣大道一段271號",
@@ -535,7 +571,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Mr.Mantter%20%E6%9B%BC%E7%89%B9%E5%85%88%E7%94%9F%20%E8%87%BA%E4%B8%AD%E5%B8%82%E4%B8%AD%E5%8D%80%E5%8F%B0%E7%81%A3%E5%A4%A7%E9%81%93%E4%B8%80%E6%AE%B5271%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=Mr.Mantter%20%E6%9B%BC%E7%89%B9%E5%85%88%E7%94%9F",
+    "instagram": "https://www.instagram.com/explore/tags/MrMantter%E6%9B%BC%E7%89%B9%E5%85%88%E7%94%9F/",
+    "website": "https://www.google.com/maps/search/?api=1&query=Mr.Mantter%20%E6%9B%BC%E7%89%B9%E5%85%88%E7%94%9F%20%E8%87%BA%E4%B8%AD%E5%B8%82%E4%B8%AD%E5%8D%80%E5%8F%B0%E7%81%A3%E5%A4%A7%E9%81%93%E4%B8%80%E6%AE%B5271%E8%99%9F"
   },
   {
     "id": "tc-20",
@@ -563,7 +603,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=NO.19%20Restaurant%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%B1%AF%E5%8D%80%E4%BD%95%E5%8E%9D%E8%A1%97146%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=NO.19%20Restaurant",
+    "instagram": "https://www.instagram.com/explore/tags/NO19Restaurant/",
+    "website": "https://www.google.com/maps/search/?api=1&query=NO.19%20Restaurant%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%B1%AF%E5%8D%80%E4%BD%95%E5%8E%9D%E8%A1%97146%E8%99%9F"
   },
   {
     "id": "tc-21",
@@ -592,7 +636,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=NanBoo%20%E5%8D%97%E9%83%A8%E4%BA%BA%E8%A3%BD%E8%8F%93%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%8D%80%E5%A4%A7%E5%92%8C%E8%B7%AF63%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=NanBoo%20%E5%8D%97%E9%83%A8%E4%BA%BA%E8%A3%BD%E8%8F%93",
+    "instagram": "https://www.instagram.com/explore/tags/NanBoo%E5%8D%97%E9%83%A8%E4%BA%BA%E8%A3%BD%E8%8F%93/",
+    "website": "https://www.google.com/maps/search/?api=1&query=NanBoo%20%E5%8D%97%E9%83%A8%E4%BA%BA%E8%A3%BD%E8%8F%93%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%8D%80%E5%A4%A7%E5%92%8C%E8%B7%AF63%E8%99%9F"
   },
   {
     "id": "tc-22",
@@ -622,13 +670,17 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=PANO%2024%20%E8%87%BA%E4%B8%AD%E5%B8%82%E4%B8%AD%E5%8D%80%E7%B6%A0%E5%B7%9D%E9%87%8C%E5%BB%BA%E5%9C%8B%E8%B7%AF111%E8%99%9F24%E6%A8%93",
+    "facebook": "https://www.facebook.com/search/top?q=PANO%2024",
+    "instagram": "https://www.instagram.com/explore/tags/PANO24/",
+    "website": "https://www.google.com/maps/search/?api=1&query=PANO%2024%20%E8%87%BA%E4%B8%AD%E5%B8%82%E4%B8%AD%E5%8D%80%E7%B6%A0%E5%B7%9D%E9%87%8C%E5%BB%BA%E5%9C%8B%E8%B7%AF111%E8%99%9F24%E6%A8%93"
   },
   {
     "id": "tc-23",
     "name": "PARK2草悟廣場",
     "legalName": "行草悟道股份有限公司",
-    "category": "休閒娛樂/空間",
+    "category": "特色餐廳",
     "city": "臺中市",
     "district": "西區",
     "address": "臺中市英才路534號",
@@ -655,35 +707,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
-  },
-  {
-    "id": "tc-24",
-    "name": "PARNI柏納髮型沙龍",
-    "legalName": "PARNI柏納髮型沙龍",
-    "category": "休閒娛樂/空間",
-    "city": "臺中市",
-    "district": "北區",
-    "address": "臺中市北區太原四街28號",
-    "phone": "04-22985888",
-    "lat": 24.156895,
-    "lng": 120.685,
-    "petsAllowed": [
-      "犬",
-      "貓",
-      "其他"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "定期消毒"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=PARK2%E8%8D%89%E6%82%9F%E5%BB%A3%E5%A0%B4%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%8B%B1%E6%89%8D%E8%B7%AF534%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=PARK2%E8%8D%89%E6%82%9F%E5%BB%A3%E5%A0%B4",
+    "instagram": "https://www.instagram.com/explore/tags/PARK2%E8%8D%89%E6%82%9F%E5%BB%A3%E5%A0%B4/",
+    "website": "https://www.google.com/maps/search/?api=1&query=PARK2%E8%8D%89%E6%82%9F%E5%BB%A3%E5%A0%B4%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%8B%B1%E6%89%8D%E8%B7%AF534%E8%99%9F"
   },
   {
     "id": "tc-25",
@@ -710,7 +738,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Roundabout%20Cafe%20%E5%9C%93%E7%92%B0%E5%92%96%E5%95%A1%EF%BC%8E%E5%A4%A7%E5%92%8C%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%A4%A7%E5%92%8C%E8%B7%AF73%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=Roundabout%20Cafe%20%E5%9C%93%E7%92%B0%E5%92%96%E5%95%A1%EF%BC%8E%E5%A4%A7%E5%92%8C%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/RoundaboutCafe%E5%9C%93%E7%92%B0%E5%92%96%E5%95%A1%E5%A4%A7%E5%92%8C%E5%BA%97/",
+    "website": "https://www.google.com/maps/search/?api=1&query=Roundabout%20Cafe%20%E5%9C%93%E7%92%B0%E5%92%96%E5%95%A1%EF%BC%8E%E5%A4%A7%E5%92%8C%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%A4%A7%E5%92%8C%E8%B7%AF73%E8%99%9F"
   },
   {
     "id": "tc-26",
@@ -737,7 +769,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Roundabout%20Cafe%20%E5%9C%93%E7%92%B0%E5%92%96%E5%95%A1%EF%BC%8E%E6%A2%85%E5%B7%9D%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E6%A2%85%E5%B7%9D%E6%9D%B1%E8%B7%AF%E4%B8%89%E6%AE%B5207%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=Roundabout%20Cafe%20%E5%9C%93%E7%92%B0%E5%92%96%E5%95%A1%EF%BC%8E%E6%A2%85%E5%B7%9D%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/RoundaboutCafe%E5%9C%93%E7%92%B0%E5%92%96%E5%95%A1%E6%A2%85%E5%B7%9D%E5%BA%97/",
+    "website": "https://www.google.com/maps/search/?api=1&query=Roundabout%20Cafe%20%E5%9C%93%E7%92%B0%E5%92%96%E5%95%A1%EF%BC%8E%E6%A2%85%E5%B7%9D%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E6%A2%85%E5%B7%9D%E6%9D%B1%E8%B7%AF%E4%B8%89%E6%AE%B5207%E8%99%9F"
   },
   {
     "id": "tc-27",
@@ -765,7 +801,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Tamp%20Temper%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%8D%80%E6%B0%91%E6%AC%8A%E8%B7%AF286%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=Tamp%20Temper",
+    "instagram": "https://www.instagram.com/explore/tags/TampTemper/",
+    "website": "https://www.google.com/maps/search/?api=1&query=Tamp%20Temper%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%8D%80%E6%B0%91%E6%AC%8A%E8%B7%AF286%E8%99%9F"
   },
   {
     "id": "tc-28",
@@ -792,7 +832,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=UZO%20%E8%87%BA%E4%B8%AD%E5%B8%82%E7%B2%BE%E8%AA%A0%E4%BA%94%E8%A1%9722%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=UZO",
+    "instagram": "https://www.instagram.com/explore/tags/UZO/",
+    "website": "https://www.google.com/maps/search/?api=1&query=UZO%20%E8%87%BA%E4%B8%AD%E5%B8%82%E7%B2%BE%E8%AA%A0%E4%BA%94%E8%A1%9722%E8%99%9F"
   },
   {
     "id": "tc-29",
@@ -819,7 +863,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Uni%20caf%C3%A9%20%E8%88%87%E4%BD%A0%E5%92%96%E5%95%A1%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%B1%AF%E5%8D%80%E6%BC%A2%E7%BF%94%E5%8C%97%E8%A1%9737%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=Uni%20caf%C3%A9%20%E8%88%87%E4%BD%A0%E5%92%96%E5%95%A1",
+    "instagram": "https://www.instagram.com/explore/tags/Unicaf%C3%A9%E8%88%87%E4%BD%A0%E5%92%96%E5%95%A1/",
+    "website": "https://www.google.com/maps/search/?api=1&query=Uni%20caf%C3%A9%20%E8%88%87%E4%BD%A0%E5%92%96%E5%95%A1%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%B1%AF%E5%8D%80%E6%BC%A2%E7%BF%94%E5%8C%97%E8%A1%9737%E8%99%9F"
   },
   {
     "id": "tc-30",
@@ -849,7 +897,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=WensCO%E6%96%87%E5%BF%83%E6%9C%83%E8%AD%B0%E5%AE%A4-%E5%85%B1%E5%90%8C%E5%B7%A5%E4%BD%9C%E7%A9%BA%E9%96%93%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8C%97%E5%B1%AF%E5%8D%80%E6%96%87%E5%BF%83%E8%B7%AF%E5%9B%9B%E6%AE%B5936%E4%B9%8B1%E8%99%9F2%E6%A8%93",
+    "facebook": "https://www.facebook.com/search/top?q=WensCO%E6%96%87%E5%BF%83%E6%9C%83%E8%AD%B0%E5%AE%A4-%E5%85%B1%E5%90%8C%E5%B7%A5%E4%BD%9C%E7%A9%BA%E9%96%93",
+    "instagram": "https://www.instagram.com/explore/tags/WensCO%E6%96%87%E5%BF%83%E6%9C%83%E8%AD%B0%E5%AE%A4%E5%85%B1%E5%90%8C%E5%B7%A5%E4%BD%9C%E7%A9%BA%E9%96%93/",
+    "website": "https://www.google.com/maps/search/?api=1&query=WensCO%E6%96%87%E5%BF%83%E6%9C%83%E8%AD%B0%E5%AE%A4-%E5%85%B1%E5%90%8C%E5%B7%A5%E4%BD%9C%E7%A9%BA%E9%96%93%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8C%97%E5%B1%AF%E5%8D%80%E6%96%87%E5%BF%83%E8%B7%AF%E5%9B%9B%E6%AE%B5936%E4%B9%8B1%E8%99%9F2%E6%A8%93"
   },
   {
     "id": "tc-31",
@@ -876,7 +928,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%89%E6%BE%A7%E4%BC%81%E6%A5%AD%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%20%E5%8F%B0%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%8D%80%E8%8B%B1%E6%89%8D%E8%B7%AF534%E8%99%9FB1%E6%A8%93%28%E6%AB%83%E8%99%9FB102%29",
+    "facebook": "https://www.facebook.com/search/top?q=%E4%B8%89%E6%BE%A7%E4%BC%81%E6%A5%AD%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+    "instagram": "https://www.instagram.com/explore/tags/%E4%B8%89%E6%BE%A7%E4%BC%81%E6%A5%AD%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E4%B8%89%E6%BE%A7%E4%BC%81%E6%A5%AD%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%20%E5%8F%B0%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%8D%80%E8%8B%B1%E6%89%8D%E8%B7%AF534%E8%99%9FB1%E6%A8%93%28%E6%AB%83%E8%99%9FB102%29"
   },
   {
     "id": "tc-32",
@@ -903,36 +959,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
-  },
-  {
-    "id": "tc-33",
-    "name": "九天民俗技藝工作室",
-    "legalName": "九天民俗技藝工作室",
-    "category": "休閒娛樂/空間",
-    "city": "臺中市",
-    "district": "大雅區",
-    "address": "臺中市大雅區清泉路99號",
-    "phone": "04-25653150",
-    "lat": 24.22453,
-    "lng": 120.64496,
-    "petsAllowed": [
-      "犬",
-      "貓",
-      "其他"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "遊戲區",
-      "提供飲水盆"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%B8%E6%96%87%E9%A3%9F%E5%93%81%20%E8%87%BA%E4%B8%AD%E5%B8%82%E4%B8%AD%E5%8D%80%E5%85%89%E5%BE%A9%E8%B7%AF30-1%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E4%B8%B8%E6%96%87%E9%A3%9F%E5%93%81",
+    "instagram": "https://www.instagram.com/explore/tags/%E4%B8%B8%E6%96%87%E9%A3%9F%E5%93%81/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E4%B8%B8%E6%96%87%E9%A3%9F%E5%93%81%20%E8%87%BA%E4%B8%AD%E5%B8%82%E4%B8%AD%E5%8D%80%E5%85%89%E5%BE%A9%E8%B7%AF30-1%E8%99%9F"
   },
   {
     "id": "tc-34",
@@ -960,7 +991,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BA%95%E9%96%A3%E9%8D%8B%E7%89%A9%20%E8%87%BA%E4%B8%AD%E5%B8%82%E7%BE%8E%E6%9D%91%E8%B7%AF%E4%B8%80%E6%AE%B525%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E4%BA%95%E9%96%A3%E9%8D%8B%E7%89%A9",
+    "instagram": "https://www.instagram.com/explore/tags/%E4%BA%95%E9%96%A3%E9%8D%8B%E7%89%A9/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E4%BA%95%E9%96%A3%E9%8D%8B%E7%89%A9%20%E8%87%BA%E4%B8%AD%E5%B8%82%E7%BE%8E%E6%9D%91%E8%B7%AF%E4%B8%80%E6%AE%B525%E8%99%9F"
   },
   {
     "id": "tc-35",
@@ -993,7 +1028,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BA%A4%E9%80%9A%E9%83%A8%E8%A7%80%E5%85%89%E7%BD%B2%E5%8F%83%E5%B1%B1%E5%9C%8B%E5%AE%B6%E9%A2%A8%E6%99%AF%E5%8D%80%E7%AE%A1%E7%90%86%E8%99%95%20%E8%87%BA%E4%B8%AD%E5%B8%82%E9%9C%A7%E5%B3%B0%E5%8D%80%E4%B8%AD%E6%AD%A3%E8%B7%AF738%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E4%BA%A4%E9%80%9A%E9%83%A8%E8%A7%80%E5%85%89%E7%BD%B2%E5%8F%83%E5%B1%B1%E5%9C%8B%E5%AE%B6%E9%A2%A8%E6%99%AF%E5%8D%80%E7%AE%A1%E7%90%86%E8%99%95",
+    "instagram": "https://www.instagram.com/explore/tags/%E4%BA%A4%E9%80%9A%E9%83%A8%E8%A7%80%E5%85%89%E7%BD%B2%E5%8F%83%E5%B1%B1%E5%9C%8B%E5%AE%B6%E9%A2%A8%E6%99%AF%E5%8D%80%E7%AE%A1%E7%90%86%E8%99%95/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E4%BA%A4%E9%80%9A%E9%83%A8%E8%A7%80%E5%85%89%E7%BD%B2%E5%8F%83%E5%B1%B1%E5%9C%8B%E5%AE%B6%E9%A2%A8%E6%99%AF%E5%8D%80%E7%AE%A1%E7%90%86%E8%99%95%20%E8%87%BA%E4%B8%AD%E5%B8%82%E9%9C%A7%E5%B3%B0%E5%8D%80%E4%B8%AD%E6%AD%A3%E8%B7%AF738%E8%99%9F"
   },
   {
     "id": "tc-36",
@@ -1021,7 +1060,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BB%81%E5%B0%87%E5%92%96%E5%95%A1%E9%A4%A8%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%8D%80%E4%BA%94%E6%AC%8A%E8%A5%BF%E4%BA%94%E8%A1%9761%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E4%BB%81%E5%B0%87%E5%92%96%E5%95%A1%E9%A4%A8",
+    "instagram": "https://www.instagram.com/explore/tags/%E4%BB%81%E5%B0%87%E5%92%96%E5%95%A1%E9%A4%A8/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E4%BB%81%E5%B0%87%E5%92%96%E5%95%A1%E9%A4%A8%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%8D%80%E4%BA%94%E6%AC%8A%E8%A5%BF%E4%BA%94%E8%A1%9761%E8%99%9F"
   },
   {
     "id": "tc-37",
@@ -1049,39 +1092,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
-  },
-  {
-    "id": "tc-38",
-    "name": "全國大飯店股份有限公司",
-    "legalName": "全國大飯店股份有限公司",
-    "category": "友善住宿/露營",
-    "city": "臺中市",
-    "district": "西區",
-    "address": "臺中市西區館前路57號",
-    "phone": "04-23213111",
-    "lat": 24.141165,
-    "lng": 120.666835,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "1.限定樓層的寵物房間",
-      "2.提供飲食碗",
-      "尿布墊或貓砂盆組",
-      "睡墊",
-      "3.住客及毛孩可於大廳空間走動",
-      "需繫牽繩或裝籠"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%80%AB%E5%AE%B6Caf%C3%A9%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%A4%AA%E5%B9%B3%E5%8D%80%E4%B8%AD%E5%B1%B1%E8%B7%AF%E4%BA%8C%E6%AE%B5138%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%80%AB%E5%AE%B6Caf%C3%A9",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%80%AB%E5%AE%B6Caf%C3%A9/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E5%80%AB%E5%AE%B6Caf%C3%A9%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%A4%AA%E5%B9%B3%E5%8D%80%E4%B8%AD%E5%B1%B1%E8%B7%AF%E4%BA%8C%E6%AE%B5138%E8%99%9F"
   },
   {
     "id": "tc-39",
@@ -1109,7 +1124,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%87%A1%E6%97%A5bread%20%26%20meal%20%E8%87%BA%E4%B8%AD%E5%B8%82%E6%98%87%E5%B9%B3%E8%A1%9775%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%87%A1%E6%97%A5bread%20%26%20meal",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%87%A1%E6%97%A5breadmeal/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E5%87%A1%E6%97%A5bread%20%26%20meal%20%E8%87%BA%E4%B8%AD%E5%B8%82%E6%98%87%E5%B9%B3%E8%A1%9775%E8%99%9F"
   },
   {
     "id": "tc-40",
@@ -1136,41 +1155,17 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
-  },
-  {
-    "id": "tc-41",
-    "name": "創意時尚飯店- i Deal Hotel",
-    "legalName": "創意時尚飯店- i Deal Hotel",
-    "category": "友善住宿/露營",
-    "city": "臺中市",
-    "district": "北區",
-    "address": "臺中市北區五權路334號",
-    "phone": "04-22022666",
-    "lat": 24.160075,
-    "lng": 120.680785,
-    "petsAllowed": [
-      "犬",
-      "貓",
-      "其他"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "定期消毒"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%87%BD%E9%A4%A8%E5%92%8C%E9%A2%A8%E7%81%AB%E9%8D%8B%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%B1%AF%E5%8D%80%E7%A6%8F%E7%A7%91%E8%B7%AF591%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%87%BD%E9%A4%A8%E5%92%8C%E9%A2%A8%E7%81%AB%E9%8D%8B%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%87%BD%E9%A4%A8%E5%92%8C%E9%A2%A8%E7%81%AB%E9%8D%8B%E5%BA%97/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E5%87%BD%E9%A4%A8%E5%92%8C%E9%A2%A8%E7%81%AB%E9%8D%8B%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%B1%AF%E5%8D%80%E7%A6%8F%E7%A7%91%E8%B7%AF591%E8%99%9F"
   },
   {
     "id": "tc-42",
     "name": "勤美 誠品綠園道",
     "legalName": "勤美股份有限公司台中分公司",
-    "category": "休閒娛樂/空間",
+    "category": "特色餐廳",
     "city": "臺中市",
     "district": "西區",
     "address": "臺中市公益路68號底二層至三樓",
@@ -1192,7 +1187,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8B%A4%E7%BE%8E%20%E8%AA%A0%E5%93%81%E7%B6%A0%E5%9C%92%E9%81%93%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%85%AC%E7%9B%8A%E8%B7%AF68%E8%99%9F%E5%BA%95%E4%BA%8C%E5%B1%A4%E8%87%B3%E4%B8%89%E6%A8%93",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%8B%A4%E7%BE%8E%20%E8%AA%A0%E5%93%81%E7%B6%A0%E5%9C%92%E9%81%93",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%8B%A4%E7%BE%8E%E8%AA%A0%E5%93%81%E7%B6%A0%E5%9C%92%E9%81%93/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E5%8B%A4%E7%BE%8E%20%E8%AA%A0%E5%93%81%E7%B6%A0%E5%9C%92%E9%81%93%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%85%AC%E7%9B%8A%E8%B7%AF68%E8%99%9F%E5%BA%95%E4%BA%8C%E5%B1%A4%E8%87%B3%E4%B8%89%E6%A8%93"
   },
   {
     "id": "tc-43",
@@ -1222,13 +1221,17 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8C%97%E7%B7%AF%E4%BA%8C%E5%8D%81%E5%9B%9B%20Latitude%2024%20%E8%87%BA%E4%B8%AD%E5%B8%82%E4%B8%AD%E5%8D%80%E5%BB%BA%E5%9C%8B%E8%B7%AF111%E8%99%9F1%E6%A8%93",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%8C%97%E7%B7%AF%E4%BA%8C%E5%8D%81%E5%9B%9B%20Latitude%2024",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%8C%97%E7%B7%AF%E4%BA%8C%E5%8D%81%E5%9B%9BLatitude24/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E5%8C%97%E7%B7%AF%E4%BA%8C%E5%8D%81%E5%9B%9B%20Latitude%2024%20%E8%87%BA%E4%B8%AD%E5%B8%82%E4%B8%AD%E5%8D%80%E5%BB%BA%E5%9C%8B%E8%B7%AF111%E8%99%9F1%E6%A8%93"
   },
   {
     "id": "tc-44",
     "name": "匯眾租賃有限公司",
     "legalName": "匯眾租賃有限公司",
-    "category": "休閒娛樂/空間",
+    "category": "特色餐廳",
     "city": "臺中市",
     "district": "西屯區",
     "address": "臺中市西屯區環中路三段762號",
@@ -1249,7 +1252,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8C%AF%E7%9C%BE%E7%A7%9F%E8%B3%83%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%B1%AF%E5%8D%80%E7%92%B0%E4%B8%AD%E8%B7%AF%E4%B8%89%E6%AE%B5762%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%8C%AF%E7%9C%BE%E7%A7%9F%E8%B3%83%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%8C%AF%E7%9C%BE%E7%A7%9F%E8%B3%83%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E5%8C%AF%E7%9C%BE%E7%A7%9F%E8%B3%83%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%B1%AF%E5%8D%80%E7%92%B0%E4%B8%AD%E8%B7%AF%E4%B8%89%E6%AE%B5762%E8%99%9F"
   },
   {
     "id": "tc-45",
@@ -1281,7 +1288,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8D%83%E6%B1%8C%E6%97%A5%E6%9C%AC%E6%96%99%E7%90%86%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%8D%80%E5%AD%98%E4%B8%AD%E8%A1%9761%E5%B7%B71%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%8D%83%E6%B1%8C%E6%97%A5%E6%9C%AC%E6%96%99%E7%90%86",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%8D%83%E6%B1%8C%E6%97%A5%E6%9C%AC%E6%96%99%E7%90%86/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E5%8D%83%E6%B1%8C%E6%97%A5%E6%9C%AC%E6%96%99%E7%90%86%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%8D%80%E5%AD%98%E4%B8%AD%E8%A1%9761%E5%B7%B71%E8%99%9F"
   },
   {
     "id": "tc-46",
@@ -1308,7 +1319,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8F%A4%E5%85%B8%E5%B0%8F%E7%86%8A%E5%B1%8B%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8C%97%E5%8D%80%E4%B8%89%E6%B0%91%E8%B7%AF%E4%B8%89%E6%AE%B5201%E5%B7%B729%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%8F%A4%E5%85%B8%E5%B0%8F%E7%86%8A%E5%B1%8B",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%8F%A4%E5%85%B8%E5%B0%8F%E7%86%8A%E5%B1%8B/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E5%8F%A4%E5%85%B8%E5%B0%8F%E7%86%8A%E5%B1%8B%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8C%97%E5%8D%80%E4%B8%89%E6%B0%91%E8%B7%AF%E4%B8%89%E6%AE%B5201%E5%B7%B729%E8%99%9F"
   },
   {
     "id": "tc-47",
@@ -1336,72 +1351,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
-  },
-  {
-    "id": "tc-48",
-    "name": "台中幻覺博物館",
-    "legalName": "佳貝有限公司",
-    "category": "休閒娛樂/空間",
-    "city": "臺中市",
-    "district": "西區",
-    "address": "臺中市精誠路64、66號",
-    "phone": "04-23295008",
-    "lat": 24.14562,
-    "lng": 120.664855,
-    "petsAllowed": [
-      "犬",
-      "貓",
-      "其他"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "定期消毒"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true
-  },
-  {
-    "id": "tc-49",
-    "name": "台中李方艾美酒店",
-    "legalName": "台中李方艾美酒店",
-    "category": "友善住宿/露營",
-    "city": "臺中市",
-    "district": "中區",
-    "address": "臺中市中區綠川里建國路111號",
-    "phone": "04-22240888",
-    "lat": 24.13478,
-    "lng": 120.68717,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "寵物飲水",
-      "寵物餐",
-      "寵物專用餐具",
-      "提供尿墊",
-      "定期消毒",
-      "其他:寵物玩具",
-      "毛巾",
-      "寵物窩",
-      "寵物軟墊",
-      "貓砂",
-      "貓抓板"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8F%B0%E4%B8%AD%E4%BF%9D%E6%99%82%E6%8D%B7%E4%B8%AD%E5%BF%83%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8D%97%E5%8D%80%E6%96%87%E5%BF%83%E5%8D%97%E8%B7%AF545%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%8F%B0%E4%B8%AD%E4%BF%9D%E6%99%82%E6%8D%B7%E4%B8%AD%E5%BF%83",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%8F%B0%E4%B8%AD%E4%BF%9D%E6%99%82%E6%8D%B7%E4%B8%AD%E5%BF%83/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E5%8F%B0%E4%B8%AD%E4%BF%9D%E6%99%82%E6%8D%B7%E4%B8%AD%E5%BF%83%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8D%97%E5%8D%80%E6%96%87%E5%BF%83%E5%8D%97%E8%B7%AF545%E8%99%9F"
   },
   {
     "id": "tc-50",
@@ -1430,36 +1384,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
-  },
-  {
-    "id": "tc-51",
-    "name": "合樂商務設計旅店",
-    "legalName": "合樂商務設計旅店",
-    "category": "友善住宿/露營",
-    "city": "臺中市",
-    "district": "西屯區",
-    "address": "臺中市朝馬路21號",
-    "phone": "04-22555633",
-    "lat": 24.169259,
-    "lng": 120.630535,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "飼料碗",
-      "撿便袋",
-      "毯子"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%90%88%E4%BD%9C%E5%92%96%E5%95%A1%E5%95%86%E8%A1%8C%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8D%97%E5%8D%80%E7%A6%8F%E7%94%B0%E4%B8%89%E8%A1%97165%E8%99%9F1%E6%A8%93",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%90%88%E4%BD%9C%E5%92%96%E5%95%A1%E5%95%86%E8%A1%8C",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%90%88%E4%BD%9C%E5%92%96%E5%95%A1%E5%95%86%E8%A1%8C/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E5%90%88%E4%BD%9C%E5%92%96%E5%95%A1%E5%95%86%E8%A1%8C%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8D%97%E5%8D%80%E7%A6%8F%E7%94%B0%E4%B8%89%E8%A1%97165%E8%99%9F1%E6%A8%93"
   },
   {
     "id": "tc-52",
@@ -1487,7 +1416,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%92%95%E5%92%95morning%E6%97%A9%E5%8D%88%E9%A4%90%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%A4%A7%E9%87%8C%E5%8D%80%E5%9C%8B%E5%85%89%E9%87%8C%E6%96%87%E9%9A%86%E8%A1%9725%E8%99%9F1%E6%A8%93",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%92%95%E5%92%95morning%E6%97%A9%E5%8D%88%E9%A4%90",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%92%95%E5%92%95morning%E6%97%A9%E5%8D%88%E9%A4%90/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E5%92%95%E5%92%95morning%E6%97%A9%E5%8D%88%E9%A4%90%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%A4%A7%E9%87%8C%E5%8D%80%E5%9C%8B%E5%85%89%E9%87%8C%E6%96%87%E9%9A%86%E8%A1%9725%E8%99%9F1%E6%A8%93"
   },
   {
     "id": "tc-53",
@@ -1515,7 +1448,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%92%96%E5%95%A1%E7%BD%B5%E5%93%A5%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8C%97%E5%8D%80%E4%B8%89%E6%B0%91%E8%B7%AF%E4%B8%89%E6%AE%B5295%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%92%96%E5%95%A1%E7%BD%B5%E5%93%A5",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%92%96%E5%95%A1%E7%BD%B5%E5%93%A5/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E5%92%96%E5%95%A1%E7%BD%B5%E5%93%A5%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8C%97%E5%8D%80%E4%B8%89%E6%B0%91%E8%B7%AF%E4%B8%89%E6%AE%B5295%E8%99%9F"
   },
   {
     "id": "tc-54",
@@ -1543,7 +1480,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%92%96%E5%95%A1%E8%91%89%E7%83%98%E7%84%99%E5%9D%8A%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%B1%90%E5%8E%9F%E5%8D%80%E8%A5%BF%E5%AE%89%E8%A1%9795-5%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%92%96%E5%95%A1%E8%91%89%E7%83%98%E7%84%99%E5%9D%8A",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%92%96%E5%95%A1%E8%91%89%E7%83%98%E7%84%99%E5%9D%8A/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E5%92%96%E5%95%A1%E8%91%89%E7%83%98%E7%84%99%E5%9D%8A%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%B1%90%E5%8E%9F%E5%8D%80%E8%A5%BF%E5%AE%89%E8%A1%9795-5%E8%99%9F"
   },
   {
     "id": "tc-55",
@@ -1571,7 +1512,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%92%96%E8%90%83%E5%92%96%E5%95%A1%E5%BB%9A%E6%88%BF%20%E5%8F%B0%E4%B8%AD%E8%A5%BF%E5%B1%AF%E5%AF%B5%E7%89%A9%E5%8F%8B%E5%96%84%E9%A4%90%E5%BB%B3%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%B1%AF%E5%8D%80%E5%A4%A7%E5%A2%A9%E4%BA%8C%E5%8D%81%E8%A1%97128%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%92%96%E8%90%83%E5%92%96%E5%95%A1%E5%BB%9A%E6%88%BF%20%E5%8F%B0%E4%B8%AD%E8%A5%BF%E5%B1%AF%E5%AF%B5%E7%89%A9%E5%8F%8B%E5%96%84%E9%A4%90%E5%BB%B3",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%92%96%E8%90%83%E5%92%96%E5%95%A1%E5%BB%9A%E6%88%BF%E5%8F%B0%E4%B8%AD%E8%A5%BF%E5%B1%AF%E5%AF%B5%E7%89%A9%E5%8F%8B%E5%96%84%E9%A4%90%E5%BB%B3/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E5%92%96%E8%90%83%E5%92%96%E5%95%A1%E5%BB%9A%E6%88%BF%20%E5%8F%B0%E4%B8%AD%E8%A5%BF%E5%B1%AF%E5%AF%B5%E7%89%A9%E5%8F%8B%E5%96%84%E9%A4%90%E5%BB%B3%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%B1%AF%E5%8D%80%E5%A4%A7%E5%A2%A9%E4%BA%8C%E5%8D%81%E8%A1%97128%E8%99%9F"
   },
   {
     "id": "tc-56",
@@ -1598,13 +1543,17 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%98%89%E5%AF%80%E8%90%8C%E5%95%86%E5%8B%99%E4%B8%AD%E5%BF%83%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8C%97%E5%8D%80%E4%B8%AD%E6%B8%85%E8%B7%AF%E4%B8%80%E6%AE%B589%E8%99%9F15%E6%A8%93",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%98%89%E5%AF%80%E8%90%8C%E5%95%86%E5%8B%99%E4%B8%AD%E5%BF%83",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%98%89%E5%AF%80%E8%90%8C%E5%95%86%E5%8B%99%E4%B8%AD%E5%BF%83/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E5%98%89%E5%AF%80%E8%90%8C%E5%95%86%E5%8B%99%E4%B8%AD%E5%BF%83%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8C%97%E5%8D%80%E4%B8%AD%E6%B8%85%E8%B7%AF%E4%B8%80%E6%AE%B589%E8%99%9F15%E6%A8%93"
   },
   {
     "id": "tc-57",
     "name": "國家自然公園管理處臺中都會公園",
     "legalName": "國家自然公園管理處臺中都會公園",
-    "category": "休閒娛樂/空間",
+    "category": "特色餐廳",
     "city": "臺中市",
     "district": "西屯區",
     "address": "臺中市西屯區都會園路1215巷140號",
@@ -1625,7 +1574,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%9C%8B%E5%AE%B6%E8%87%AA%E7%84%B6%E5%85%AC%E5%9C%92%E7%AE%A1%E7%90%86%E8%99%95%E8%87%BA%E4%B8%AD%E9%83%BD%E6%9C%83%E5%85%AC%E5%9C%92%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%B1%AF%E5%8D%80%E9%83%BD%E6%9C%83%E5%9C%92%E8%B7%AF1215%E5%B7%B7140%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%9C%8B%E5%AE%B6%E8%87%AA%E7%84%B6%E5%85%AC%E5%9C%92%E7%AE%A1%E7%90%86%E8%99%95%E8%87%BA%E4%B8%AD%E9%83%BD%E6%9C%83%E5%85%AC%E5%9C%92",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%9C%8B%E5%AE%B6%E8%87%AA%E7%84%B6%E5%85%AC%E5%9C%92%E7%AE%A1%E7%90%86%E8%99%95%E8%87%BA%E4%B8%AD%E9%83%BD%E6%9C%83%E5%85%AC%E5%9C%92/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E5%9C%8B%E5%AE%B6%E8%87%AA%E7%84%B6%E5%85%AC%E5%9C%92%E7%AE%A1%E7%90%86%E8%99%95%E8%87%BA%E4%B8%AD%E9%83%BD%E6%9C%83%E5%85%AC%E5%9C%92%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%B1%AF%E5%8D%80%E9%83%BD%E6%9C%83%E5%9C%92%E8%B7%AF1215%E5%B7%B7140%E8%99%9F"
   },
   {
     "id": "tc-58",
@@ -1653,7 +1606,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%9C%A8%E4%BE%86%E9%A3%B2%E9%A3%9F%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%90%91%E4%B8%8A%E8%B7%AF%E4%B8%80%E6%AE%B5231%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%9C%A8%E4%BE%86%E9%A3%B2%E9%A3%9F%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%9C%A8%E4%BE%86%E9%A3%B2%E9%A3%9F%E5%BA%97/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E5%9C%A8%E4%BE%86%E9%A3%B2%E9%A3%9F%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%90%91%E4%B8%8A%E8%B7%AF%E4%B8%80%E6%AE%B5231%E8%99%9F"
   },
   {
     "id": "tc-59",
@@ -1681,37 +1638,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
-  },
-  {
-    "id": "tc-60",
-    "name": "大樹寵物 愛買復興店",
-    "legalName": "大樹寵物股份有限公司台中復興分公司",
-    "category": "特色餐廳",
-    "city": "臺中市",
-    "district": "南區",
-    "address": "臺中市南區復興路一段359號2樓",
-    "phone": "04-22636665",
-    "lat": 24.117705,
-    "lng": 120.658865,
-    "petsAllowed": [
-      "犬",
-      "貓",
-      "其他"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "免費提供禮貌帶",
-      "寵物推車",
-      "提供動物美容及動物用品販售"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%9C%B0%E8%8A%8B%E6%B7%BB%E7%B3%96%26%E5%8C%85%E5%BF%83%E7%B2%89%E5%9C%93%E5%B0%88%E8%B3%A3%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8C%97%E5%B1%AF%E5%8D%80%E6%97%85%E9%A0%86%E8%B7%AF%E4%BA%8C%E6%AE%B5143%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%9C%B0%E8%8A%8B%E6%B7%BB%E7%B3%96%26%E5%8C%85%E5%BF%83%E7%B2%89%E5%9C%93%E5%B0%88%E8%B3%A3",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%9C%B0%E8%8A%8B%E6%B7%BB%E7%B3%96%E5%8C%85%E5%BF%83%E7%B2%89%E5%9C%93%E5%B0%88%E8%B3%A3/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E5%9C%B0%E8%8A%8B%E6%B7%BB%E7%B3%96%26%E5%8C%85%E5%BF%83%E7%B2%89%E5%9C%93%E5%B0%88%E8%B3%A3%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8C%97%E5%B1%AF%E5%8D%80%E6%97%85%E9%A0%86%E8%B7%AF%E4%BA%8C%E6%AE%B5143%E8%99%9F"
   },
   {
     "id": "tc-61",
@@ -1738,63 +1669,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
-  },
-  {
-    "id": "tc-62",
-    "name": "天月人文休閒汽車旅館",
-    "legalName": "天月人文休閒汽車旅館",
-    "category": "友善住宿/露營",
-    "city": "臺中市",
-    "district": "西屯區",
-    "address": "臺中市西屯區朝馬三街18號",
-    "phone": "04-22582000",
-    "lat": 24.17183,
-    "lng": 120.63693,
-    "petsAllowed": [
-      "犬",
-      "貓",
-      "其他"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "定期消毒"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true
-  },
-  {
-    "id": "tc-63",
-    "name": "奇異果快捷旅店-中正店",
-    "legalName": "奇異果快捷旅店-中正店",
-    "category": "友善住宿/露營",
-    "city": "臺中市",
-    "district": "中區",
-    "address": "臺中市中區台灣大道一段441號",
-    "phone": "04-22294466",
-    "lat": 24.141155,
-    "lng": 120.690275,
-    "petsAllowed": [
-      "犬",
-      "貓",
-      "其他"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "定期消毒"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E8%8A%B1%E6%9C%B5%E6%9C%B5%E4%B8%BB%E9%A1%8C%E9%A4%90%E5%BB%B3-%E5%AD%B8%E5%A3%AB%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8C%97%E5%8D%80%E5%AD%B8%E5%A3%AB%E8%B7%AF98%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%A4%A7%E8%8A%B1%E6%9C%B5%E6%9C%B5%E4%B8%BB%E9%A1%8C%E9%A4%90%E5%BB%B3-%E5%AD%B8%E5%A3%AB%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%A4%A7%E8%8A%B1%E6%9C%B5%E6%9C%B5%E4%B8%BB%E9%A1%8C%E9%A4%90%E5%BB%B3%E5%AD%B8%E5%A3%AB%E5%BA%97/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E8%8A%B1%E6%9C%B5%E6%9C%B5%E4%B8%BB%E9%A1%8C%E9%A4%90%E5%BB%B3-%E5%AD%B8%E5%A3%AB%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8C%97%E5%8D%80%E5%AD%B8%E5%A3%AB%E8%B7%AF98%E8%99%9F"
   },
   {
     "id": "tc-64",
@@ -1823,7 +1702,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A5%BD%E6%9E%9C%E5%AF%A6%E5%95%86%E8%A1%8C%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8D%97%E5%8D%80%E5%BF%A0%E6%98%8E%E5%8D%97%E8%B7%AF1160%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%A5%BD%E6%9E%9C%E5%AF%A6%E5%95%86%E8%A1%8C",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%A5%BD%E6%9E%9C%E5%AF%A6%E5%95%86%E8%A1%8C/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E5%A5%BD%E6%9E%9C%E5%AF%A6%E5%95%86%E8%A1%8C%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8D%97%E5%8D%80%E5%BF%A0%E6%98%8E%E5%8D%97%E8%B7%AF1160%E8%99%9F"
   },
   {
     "id": "tc-65",
@@ -1852,7 +1735,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A5%BD%E7%8B%97%E5%91%BD%E5%AF%B5%E7%89%A9%E5%B9%B8%E7%A6%8F%E7%94%9F%E6%B4%BB%E5%9F%8E-%E5%A4%A7%E5%A2%A9%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8D%97%E5%B1%AF%E5%8D%80%E6%96%87%E5%BF%83%E8%B7%AF%E4%B8%80%E6%AE%B5385%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%A5%BD%E7%8B%97%E5%91%BD%E5%AF%B5%E7%89%A9%E5%B9%B8%E7%A6%8F%E7%94%9F%E6%B4%BB%E5%9F%8E-%E5%A4%A7%E5%A2%A9%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%A5%BD%E7%8B%97%E5%91%BD%E5%AF%B5%E7%89%A9%E5%B9%B8%E7%A6%8F%E7%94%9F%E6%B4%BB%E5%9F%8E%E5%A4%A7%E5%A2%A9%E5%BA%97/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E5%A5%BD%E7%8B%97%E5%91%BD%E5%AF%B5%E7%89%A9%E5%B9%B8%E7%A6%8F%E7%94%9F%E6%B4%BB%E5%9F%8E-%E5%A4%A7%E5%A2%A9%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8D%97%E5%B1%AF%E5%8D%80%E6%96%87%E5%BF%83%E8%B7%AF%E4%B8%80%E6%AE%B5385%E8%99%9F"
   },
   {
     "id": "tc-66",
@@ -1881,7 +1768,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A5%BD%E7%8B%97%E9%81%8B%E8%B2%93%E7%8B%97%E7%A6%8F%E5%88%A9%E4%B8%AD%E5%BF%83-%E4%B8%8A%E7%9F%B3%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%B1%AF%E5%8D%80%E4%B8%8A%E7%9F%B3%E8%B7%AF190-2%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%A5%BD%E7%8B%97%E9%81%8B%E8%B2%93%E7%8B%97%E7%A6%8F%E5%88%A9%E4%B8%AD%E5%BF%83-%E4%B8%8A%E7%9F%B3%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%A5%BD%E7%8B%97%E9%81%8B%E8%B2%93%E7%8B%97%E7%A6%8F%E5%88%A9%E4%B8%AD%E5%BF%83%E4%B8%8A%E7%9F%B3%E5%BA%97/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E5%A5%BD%E7%8B%97%E9%81%8B%E8%B2%93%E7%8B%97%E7%A6%8F%E5%88%A9%E4%B8%AD%E5%BF%83-%E4%B8%8A%E7%9F%B3%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%B1%AF%E5%8D%80%E4%B8%8A%E7%9F%B3%E8%B7%AF190-2%E8%99%9F"
   },
   {
     "id": "tc-67",
@@ -1910,7 +1801,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A5%BD%E7%8B%97%E9%81%8B%E8%B2%93%E7%8B%97%E7%A6%8F%E5%88%A9%E4%B8%AD%E5%BF%83-%E5%85%AD%E9%A0%86%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E6%9D%B1%E5%8D%80%E7%92%B0%E4%B8%AD%E6%9D%B1%E8%B7%AF%E4%BA%94%E6%AE%B5130%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%A5%BD%E7%8B%97%E9%81%8B%E8%B2%93%E7%8B%97%E7%A6%8F%E5%88%A9%E4%B8%AD%E5%BF%83-%E5%85%AD%E9%A0%86%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%A5%BD%E7%8B%97%E9%81%8B%E8%B2%93%E7%8B%97%E7%A6%8F%E5%88%A9%E4%B8%AD%E5%BF%83%E5%85%AD%E9%A0%86%E5%BA%97/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E5%A5%BD%E7%8B%97%E9%81%8B%E8%B2%93%E7%8B%97%E7%A6%8F%E5%88%A9%E4%B8%AD%E5%BF%83-%E5%85%AD%E9%A0%86%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E6%9D%B1%E5%8D%80%E7%92%B0%E4%B8%AD%E6%9D%B1%E8%B7%AF%E4%BA%94%E6%AE%B5130%E8%99%9F"
   },
   {
     "id": "tc-68",
@@ -1939,7 +1834,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A5%BD%E7%8B%97%E9%81%8B%E8%B2%93%E7%8B%97%E7%A6%8F%E5%88%A9%E4%B8%AD%E5%BF%83-%E5%8D%81%E7%94%B2%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E6%9D%B1%E5%8D%80%E5%8D%81%E7%94%B2%E6%9D%B1%E8%B7%AF616%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%A5%BD%E7%8B%97%E9%81%8B%E8%B2%93%E7%8B%97%E7%A6%8F%E5%88%A9%E4%B8%AD%E5%BF%83-%E5%8D%81%E7%94%B2%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%A5%BD%E7%8B%97%E9%81%8B%E8%B2%93%E7%8B%97%E7%A6%8F%E5%88%A9%E4%B8%AD%E5%BF%83%E5%8D%81%E7%94%B2%E5%BA%97/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E5%A5%BD%E7%8B%97%E9%81%8B%E8%B2%93%E7%8B%97%E7%A6%8F%E5%88%A9%E4%B8%AD%E5%BF%83-%E5%8D%81%E7%94%B2%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E6%9D%B1%E5%8D%80%E5%8D%81%E7%94%B2%E6%9D%B1%E8%B7%AF616%E8%99%9F"
   },
   {
     "id": "tc-69",
@@ -1968,7 +1867,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A5%BD%E7%8B%97%E9%81%8B%E8%B2%93%E7%8B%97%E7%A6%8F%E5%88%A9%E4%B8%AD%E5%BF%83-%E5%BB%BA%E6%88%90%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E6%9D%B1%E5%8D%80%E5%BB%BA%E6%88%90%E8%B7%AF669%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%A5%BD%E7%8B%97%E9%81%8B%E8%B2%93%E7%8B%97%E7%A6%8F%E5%88%A9%E4%B8%AD%E5%BF%83-%E5%BB%BA%E6%88%90%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%A5%BD%E7%8B%97%E9%81%8B%E8%B2%93%E7%8B%97%E7%A6%8F%E5%88%A9%E4%B8%AD%E5%BF%83%E5%BB%BA%E6%88%90%E5%BA%97/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E5%A5%BD%E7%8B%97%E9%81%8B%E8%B2%93%E7%8B%97%E7%A6%8F%E5%88%A9%E4%B8%AD%E5%BF%83-%E5%BB%BA%E6%88%90%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E6%9D%B1%E5%8D%80%E5%BB%BA%E6%88%90%E8%B7%AF669%E8%99%9F"
   },
   {
     "id": "tc-70",
@@ -1997,7 +1900,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A5%BD%E7%8B%97%E9%81%8B%E8%B2%93%E7%8B%97%E7%A6%8F%E5%88%A9%E4%B8%AD%E5%BF%83-%E6%BD%AD%E9%80%9A%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E6%BD%AD%E5%AD%90%E5%8D%80%E5%9C%93%E9%80%9A%E5%8D%97%E8%B7%AF176%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%A5%BD%E7%8B%97%E9%81%8B%E8%B2%93%E7%8B%97%E7%A6%8F%E5%88%A9%E4%B8%AD%E5%BF%83-%E6%BD%AD%E9%80%9A%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%A5%BD%E7%8B%97%E9%81%8B%E8%B2%93%E7%8B%97%E7%A6%8F%E5%88%A9%E4%B8%AD%E5%BF%83%E6%BD%AD%E9%80%9A%E5%BA%97/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E5%A5%BD%E7%8B%97%E9%81%8B%E8%B2%93%E7%8B%97%E7%A6%8F%E5%88%A9%E4%B8%AD%E5%BF%83-%E6%BD%AD%E9%80%9A%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E6%BD%AD%E5%AD%90%E5%8D%80%E5%9C%93%E9%80%9A%E5%8D%97%E8%B7%AF176%E8%99%9F"
   },
   {
     "id": "tc-71",
@@ -2026,7 +1933,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A5%BD%E7%8B%97%E9%81%8B%E8%B2%93%E7%8B%97%E7%A6%8F%E5%88%A9%E4%B8%AD%E5%BF%83%E2%80%93%E5%B6%BA%E6%9D%B1%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8D%97%E5%B1%AF%E5%8D%80%E6%B0%B8%E6%98%A5%E5%8D%97%E8%B7%AF1-20%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%A5%BD%E7%8B%97%E9%81%8B%E8%B2%93%E7%8B%97%E7%A6%8F%E5%88%A9%E4%B8%AD%E5%BF%83%E2%80%93%E5%B6%BA%E6%9D%B1%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%A5%BD%E7%8B%97%E9%81%8B%E8%B2%93%E7%8B%97%E7%A6%8F%E5%88%A9%E4%B8%AD%E5%BF%83%E5%B6%BA%E6%9D%B1%E5%BA%97/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E5%A5%BD%E7%8B%97%E9%81%8B%E8%B2%93%E7%8B%97%E7%A6%8F%E5%88%A9%E4%B8%AD%E5%BF%83%E2%80%93%E5%B6%BA%E6%9D%B1%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8D%97%E5%B1%AF%E5%8D%80%E6%B0%B8%E6%98%A5%E5%8D%97%E8%B7%AF1-20%E8%99%9F"
   },
   {
     "id": "tc-72",
@@ -2055,7 +1966,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A5%BD%E7%8B%97%E9%81%8B%E8%B2%93%E7%8B%97%E7%A6%8F%E5%88%A9%E4%B8%AD%E5%BF%83%E2%80%93%E8%B1%90%E6%9D%B1%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%B1%90%E5%8E%9F%E5%8D%80%E5%9C%93%E7%92%B0%E6%9D%B1%E8%B7%AF%20528%20%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%A5%BD%E7%8B%97%E9%81%8B%E8%B2%93%E7%8B%97%E7%A6%8F%E5%88%A9%E4%B8%AD%E5%BF%83%E2%80%93%E8%B1%90%E6%9D%B1%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%A5%BD%E7%8B%97%E9%81%8B%E8%B2%93%E7%8B%97%E7%A6%8F%E5%88%A9%E4%B8%AD%E5%BF%83%E8%B1%90%E6%9D%B1%E5%BA%97/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E5%A5%BD%E7%8B%97%E9%81%8B%E8%B2%93%E7%8B%97%E7%A6%8F%E5%88%A9%E4%B8%AD%E5%BF%83%E2%80%93%E8%B1%90%E6%9D%B1%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%B1%90%E5%8E%9F%E5%8D%80%E5%9C%93%E7%92%B0%E6%9D%B1%E8%B7%AF%20528%20%E8%99%9F"
   },
   {
     "id": "tc-73",
@@ -2084,7 +1999,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A5%BD%E7%8B%97%E9%81%8B%E8%B2%93%E7%8B%97%E7%A6%8F%E5%88%A9%E4%B8%AD%E5%BF%83%E2%80%93%E9%9B%85%E6%BD%AD%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E6%BD%AD%E5%AD%90%E5%8D%80%E5%B4%87%E5%BE%B7%E8%B7%AF%E5%9B%9B%E6%AE%B5467-1%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%A5%BD%E7%8B%97%E9%81%8B%E8%B2%93%E7%8B%97%E7%A6%8F%E5%88%A9%E4%B8%AD%E5%BF%83%E2%80%93%E9%9B%85%E6%BD%AD%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%A5%BD%E7%8B%97%E9%81%8B%E8%B2%93%E7%8B%97%E7%A6%8F%E5%88%A9%E4%B8%AD%E5%BF%83%E9%9B%85%E6%BD%AD%E5%BA%97/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E5%A5%BD%E7%8B%97%E9%81%8B%E8%B2%93%E7%8B%97%E7%A6%8F%E5%88%A9%E4%B8%AD%E5%BF%83%E2%80%93%E9%9B%85%E6%BD%AD%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E6%BD%AD%E5%AD%90%E5%8D%80%E5%B4%87%E5%BE%B7%E8%B7%AF%E5%9B%9B%E6%AE%B5467-1%E8%99%9F"
   },
   {
     "id": "tc-74",
@@ -2113,13 +2032,17 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%AD%94%E9%9B%80%E5%92%96%E5%95%A1%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%A4%A7%E8%AA%A0%E8%A1%975%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%AD%94%E9%9B%80%E5%92%96%E5%95%A1",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%AD%94%E9%9B%80%E5%92%96%E5%95%A1/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E5%AD%94%E9%9B%80%E5%92%96%E5%95%A1%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%A4%A7%E8%AA%A0%E8%A1%975%E8%99%9F"
   },
   {
     "id": "tc-75",
     "name": "安妮公主花園餐廳",
     "legalName": "安妮公主花園有限公司",
-    "category": "休閒娛樂/空間",
+    "category": "特色餐廳",
     "city": "臺中市",
     "district": "新社區",
     "address": "臺中市新社區中興街223號",
@@ -2141,7 +2064,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%AE%89%E5%A6%AE%E5%85%AC%E4%B8%BB%E8%8A%B1%E5%9C%92%E9%A4%90%E5%BB%B3%20%E8%87%BA%E4%B8%AD%E5%B8%82%E6%96%B0%E7%A4%BE%E5%8D%80%E4%B8%AD%E8%88%88%E8%A1%97223%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%AE%89%E5%A6%AE%E5%85%AC%E4%B8%BB%E8%8A%B1%E5%9C%92%E9%A4%90%E5%BB%B3",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%AE%89%E5%A6%AE%E5%85%AC%E4%B8%BB%E8%8A%B1%E5%9C%92%E9%A4%90%E5%BB%B3/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E5%AE%89%E5%A6%AE%E5%85%AC%E4%B8%BB%E8%8A%B1%E5%9C%92%E9%A4%90%E5%BB%B3%20%E8%87%BA%E4%B8%AD%E5%B8%82%E6%96%B0%E7%A4%BE%E5%8D%80%E4%B8%AD%E8%88%88%E8%A1%97223%E8%99%9F"
   },
   {
     "id": "tc-76",
@@ -2168,7 +2095,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%AE%89%E5%A6%AE%E5%BB%9A%E6%88%BF%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%A4%A7%E9%87%8C%E5%8D%80%E5%A4%A7%E9%87%8C%E8%B7%AF107%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%AE%89%E5%A6%AE%E5%BB%9A%E6%88%BF",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%AE%89%E5%A6%AE%E5%BB%9A%E6%88%BF/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E5%AE%89%E5%A6%AE%E5%BB%9A%E6%88%BF%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%A4%A7%E9%87%8C%E5%8D%80%E5%A4%A7%E9%87%8C%E8%B7%AF107%E8%99%9F"
   },
   {
     "id": "tc-77",
@@ -2197,7 +2128,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%AE%B9%E7%87%92%E5%B1%85%E9%85%92%E5%B1%8B%EF%BC%8D%E5%8C%97%E5%B1%AF%E4%BA%8C%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8C%97%E5%B1%AF%E5%8D%80%E6%96%87%E5%BF%83%E8%B7%AF%E5%9B%9B%E6%AE%B5504%E4%B9%8B1%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%AE%B9%E7%87%92%E5%B1%85%E9%85%92%E5%B1%8B%EF%BC%8D%E5%8C%97%E5%B1%AF%E4%BA%8C%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%AE%B9%E7%87%92%E5%B1%85%E9%85%92%E5%B1%8B%E5%8C%97%E5%B1%AF%E4%BA%8C%E5%BA%97/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E5%AE%B9%E7%87%92%E5%B1%85%E9%85%92%E5%B1%8B%EF%BC%8D%E5%8C%97%E5%B1%AF%E4%BA%8C%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8C%97%E5%B1%AF%E5%8D%80%E6%96%87%E5%BF%83%E8%B7%AF%E5%9B%9B%E6%AE%B5504%E4%B9%8B1%E8%99%9F"
   },
   {
     "id": "tc-78",
@@ -2226,34 +2161,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
-  },
-  {
-    "id": "tc-79",
-    "name": "寶飛寵物用品專賣店",
-    "legalName": "寶飛寵物用品專賣店",
-    "category": "特色餐廳",
-    "city": "臺中市",
-    "district": "新社區",
-    "address": "臺中市中和街457巷41號",
-    "phone": "0985-161541",
-    "lat": 24.235255,
-    "lng": 120.80961,
-    "petsAllowed": [
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範",
-      "貓咪友善空間"
-    ],
-    "features": [
-      "提物食物和水(貓)"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%AE%B9%E7%87%92%E5%B1%85%E9%85%92%E5%B1%8B%EF%BC%8D%E5%8D%97%E5%B1%AF%E6%96%87%E5%BF%83%E7%B8%BD%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8D%97%E5%B1%AF%E5%8D%80%E6%96%87%E5%BF%83%E8%B7%AF%E4%B8%80%E6%AE%B5530%E8%99%9F1%E6%A8%93",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%AE%B9%E7%87%92%E5%B1%85%E9%85%92%E5%B1%8B%EF%BC%8D%E5%8D%97%E5%B1%AF%E6%96%87%E5%BF%83%E7%B8%BD%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%AE%B9%E7%87%92%E5%B1%85%E9%85%92%E5%B1%8B%E5%8D%97%E5%B1%AF%E6%96%87%E5%BF%83%E7%B8%BD%E5%BA%97/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E5%AE%B9%E7%87%92%E5%B1%85%E9%85%92%E5%B1%8B%EF%BC%8D%E5%8D%97%E5%B1%AF%E6%96%87%E5%BF%83%E7%B8%BD%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8D%97%E5%B1%AF%E5%8D%80%E6%96%87%E5%BF%83%E8%B7%AF%E4%B8%80%E6%AE%B5530%E8%99%9F1%E6%A8%93"
   },
   {
     "id": "tc-80",
@@ -2282,7 +2194,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B0%8F%E7%8E%8B%E5%AD%90%E7%9A%84%E8%8A%B1%E5%9C%92%E9%A4%90%E5%BB%B3%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%B1%AF%E5%8D%80%E4%B8%AD%E5%B9%B3%E8%B7%AF178%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%B0%8F%E7%8E%8B%E5%AD%90%E7%9A%84%E8%8A%B1%E5%9C%92%E9%A4%90%E5%BB%B3",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%B0%8F%E7%8E%8B%E5%AD%90%E7%9A%84%E8%8A%B1%E5%9C%92%E9%A4%90%E5%BB%B3/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E5%B0%8F%E7%8E%8B%E5%AD%90%E7%9A%84%E8%8A%B1%E5%9C%92%E9%A4%90%E5%BB%B3%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%B1%AF%E5%8D%80%E4%B8%AD%E5%B9%B3%E8%B7%AF178%E8%99%9F"
   },
   {
     "id": "tc-81",
@@ -2309,7 +2225,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B0%9A%E5%93%81%E6%B8%AF%E5%BC%8F%E7%94%9C%E6%B9%AF%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%B1%AF%E5%8D%80%E5%A4%A7%E5%A2%A9%E8%B7%AF1001%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%B0%9A%E5%93%81%E6%B8%AF%E5%BC%8F%E7%94%9C%E6%B9%AF",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%B0%9A%E5%93%81%E6%B8%AF%E5%BC%8F%E7%94%9C%E6%B9%AF/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E5%B0%9A%E5%93%81%E6%B8%AF%E5%BC%8F%E7%94%9C%E6%B9%AF%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%B1%AF%E5%8D%80%E5%A4%A7%E5%A2%A9%E8%B7%AF1001%E8%99%9F"
   },
   {
     "id": "tc-82",
@@ -2337,7 +2257,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B1%8B%E4%B8%83%E5%92%96%E5%95%A1%E6%89%80%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%8D%80%E5%90%91%E4%B8%8A%E5%8D%97%E8%B7%AF%E4%B8%80%E6%AE%B532%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%B1%8B%E4%B8%83%E5%92%96%E5%95%A1%E6%89%80",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%B1%8B%E4%B8%83%E5%92%96%E5%95%A1%E6%89%80/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E5%B1%8B%E4%B8%83%E5%92%96%E5%95%A1%E6%89%80%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%8D%80%E5%90%91%E4%B8%8A%E5%8D%97%E8%B7%AF%E4%B8%80%E6%AE%B532%E8%99%9F"
   },
   {
     "id": "tc-83",
@@ -2364,7 +2288,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B8%8C%E7%90%AA%E7%94%9F%E6%B4%BB%E9%A4%A8%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8D%97%E5%B1%AF%E5%8D%80%E5%A4%A7%E6%A5%AD%E8%B7%AF361%E8%99%9F1%E6%A8%93",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%B8%8C%E7%90%AA%E7%94%9F%E6%B4%BB%E9%A4%A8",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%B8%8C%E7%90%AA%E7%94%9F%E6%B4%BB%E9%A4%A8/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E5%B8%8C%E7%90%AA%E7%94%9F%E6%B4%BB%E9%A4%A8%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8D%97%E5%B1%AF%E5%8D%80%E5%A4%A7%E6%A5%AD%E8%B7%AF361%E8%99%9F1%E6%A8%93"
   },
   {
     "id": "tc-84",
@@ -2391,7 +2319,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B9%B8%E7%A6%8F%E5%A5%BD%E9%A3%9F%E5%92%96%E5%95%A1Homecafe%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8C%97%E5%8D%80%E8%88%88%E9%80%B2%E8%B7%AF58%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%B9%B8%E7%A6%8F%E5%A5%BD%E9%A3%9F%E5%92%96%E5%95%A1Homecafe",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%B9%B8%E7%A6%8F%E5%A5%BD%E9%A3%9F%E5%92%96%E5%95%A1Homecafe/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E5%B9%B8%E7%A6%8F%E5%A5%BD%E9%A3%9F%E5%92%96%E5%95%A1Homecafe%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8C%97%E5%8D%80%E8%88%88%E9%80%B2%E8%B7%AF58%E8%99%9F"
   },
   {
     "id": "tc-85",
@@ -2419,63 +2351,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
-  },
-  {
-    "id": "tc-86",
-    "name": "彼岸森林寵物紀念園區",
-    "legalName": "彼岸森林寵物紀念園區",
-    "category": "特色餐廳",
-    "city": "臺中市",
-    "district": "豐原區",
-    "address": "臺中市豐原區東陽路獅座巷7號",
-    "phone": "04-25280013",
-    "lat": 24.255205,
-    "lng": 120.7143,
-    "petsAllowed": [
-      "犬",
-      "貓",
-      "其他"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "寵物餐點",
-      "拾便袋"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true
-  },
-  {
-    "id": "tc-87",
-    "name": "心媞SPA休閒旅館",
-    "legalName": "心媞有限公司",
-    "category": "友善住宿/露營",
-    "city": "臺中市",
-    "district": "北區",
-    "address": "臺中市北區北平路一段2號",
-    "phone": "04-22970177",
-    "lat": 24.16756,
-    "lng": 120.68449,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "定期消毒"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%BA%AB%E5%85%8B%E7%BE%8E%E5%BC%8F%E7%87%92%E7%83%A4Bar%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8C%97%E5%8D%80%E6%BC%A2%E5%8F%A3%E8%B7%AF%E4%B8%89%E6%AE%B546%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%BA%AB%E5%85%8B%E7%BE%8E%E5%BC%8F%E7%87%92%E7%83%A4Bar",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%BA%AB%E5%85%8B%E7%BE%8E%E5%BC%8F%E7%87%92%E7%83%A4Bar/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E5%BA%AB%E5%85%8B%E7%BE%8E%E5%BC%8F%E7%87%92%E7%83%A4Bar%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8C%97%E5%8D%80%E6%BC%A2%E5%8F%A3%E8%B7%AF%E4%B8%89%E6%AE%B546%E8%99%9F"
   },
   {
     "id": "tc-88",
@@ -2503,7 +2383,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%80%A1%20%E5%96%B5%E6%97%85%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%B1%AF%E5%8D%80%E6%96%87%E5%BF%83%E8%B7%AF%E4%B8%89%E6%AE%B5120%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%80%A1%20%E5%96%B5%E6%97%85",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%80%A1%E5%96%B5%E6%97%85/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E6%80%A1%20%E5%96%B5%E6%97%85%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%B1%AF%E5%8D%80%E6%96%87%E5%BF%83%E8%B7%AF%E4%B8%89%E6%AE%B5120%E8%99%9F"
   },
   {
     "id": "tc-89",
@@ -2532,7 +2416,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%8B%89%E4%BA%9E%E6%BC%A2%E5%A0%A1%E5%8F%B0%E4%B8%AD%E7%BE%8E%E6%9D%91%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8D%97%E5%8D%80%E7%A6%8F%E5%B9%B3%E9%87%8C%E7%BE%8E%E6%9D%91%E8%B7%AF%E4%BA%8C%E6%AE%B599%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%8B%89%E4%BA%9E%E6%BC%A2%E5%A0%A1%E5%8F%B0%E4%B8%AD%E7%BE%8E%E6%9D%91%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%8B%89%E4%BA%9E%E6%BC%A2%E5%A0%A1%E5%8F%B0%E4%B8%AD%E7%BE%8E%E6%9D%91%E5%BA%97/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E6%8B%89%E4%BA%9E%E6%BC%A2%E5%A0%A1%E5%8F%B0%E4%B8%AD%E7%BE%8E%E6%9D%91%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8D%97%E5%8D%80%E7%A6%8F%E5%B9%B3%E9%87%8C%E7%BE%8E%E6%9D%91%E8%B7%AF%E4%BA%8C%E6%AE%B599%E8%99%9F"
   },
   {
     "id": "tc-90",
@@ -2563,7 +2451,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%94%9C%E6%97%BAcafe%E5%8F%B0%E4%B8%AD%E5%AF%B5%E7%89%A9%E5%8F%8B%E5%96%84%E9%A4%90%E5%BB%B3%EF%BC%86%E6%B5%AA%E6%B5%AA%E4%B8%AD%E9%80%94%E5%AD%B8%E6%A0%A1%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8C%97%E5%B1%AF%E5%8D%80%E8%88%88%E5%AE%89%E8%B7%AF%E4%B8%80%E6%AE%B5128%E5%B7%B713%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%94%9C%E6%97%BAcafe%E5%8F%B0%E4%B8%AD%E5%AF%B5%E7%89%A9%E5%8F%8B%E5%96%84%E9%A4%90%E5%BB%B3%EF%BC%86%E6%B5%AA%E6%B5%AA%E4%B8%AD%E9%80%94%E5%AD%B8%E6%A0%A1",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%94%9C%E6%97%BAcafe%E5%8F%B0%E4%B8%AD%E5%AF%B5%E7%89%A9%E5%8F%8B%E5%96%84%E9%A4%90%E5%BB%B3%E6%B5%AA%E6%B5%AA%E4%B8%AD%E9%80%94%E5%AD%B8%E6%A0%A1/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E6%94%9C%E6%97%BAcafe%E5%8F%B0%E4%B8%AD%E5%AF%B5%E7%89%A9%E5%8F%8B%E5%96%84%E9%A4%90%E5%BB%B3%EF%BC%86%E6%B5%AA%E6%B5%AA%E4%B8%AD%E9%80%94%E5%AD%B8%E6%A0%A1%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8C%97%E5%B1%AF%E5%8D%80%E8%88%88%E5%AE%89%E8%B7%AF%E4%B8%80%E6%AE%B5128%E5%B7%B713%E8%99%9F"
   },
   {
     "id": "tc-91",
@@ -2590,7 +2482,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%96%90%E6%AF%94%E6%A8%82%E6%96%AF%E5%92%96%E5%95%A1%E7%94%9C%E9%BB%9E%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%A4%A7%E9%87%8C%E5%8D%80%E7%A7%91%E6%8A%80%E8%B7%AF1%E8%99%9F2%E6%A8%93%E4%B9%8B26",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%96%90%E6%AF%94%E6%A8%82%E6%96%AF%E5%92%96%E5%95%A1%E7%94%9C%E9%BB%9E",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%96%90%E6%AF%94%E6%A8%82%E6%96%AF%E5%92%96%E5%95%A1%E7%94%9C%E9%BB%9E/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E6%96%90%E6%AF%94%E6%A8%82%E6%96%AF%E5%92%96%E5%95%A1%E7%94%9C%E9%BB%9E%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%A4%A7%E9%87%8C%E5%8D%80%E7%A7%91%E6%8A%80%E8%B7%AF1%E8%99%9F2%E6%A8%93%E4%B9%8B26"
   },
   {
     "id": "tc-92",
@@ -2617,7 +2513,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%96%B9%E5%90%90%E5%8F%B8%E6%97%A9%E9%A4%90%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8D%97%E5%B1%AF%E5%8D%80%E5%A4%A7%E5%A2%A911%E8%A1%97348-1%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%96%B9%E5%90%90%E5%8F%B8%E6%97%A9%E9%A4%90",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%96%B9%E5%90%90%E5%8F%B8%E6%97%A9%E9%A4%90/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E6%96%B9%E5%90%90%E5%8F%B8%E6%97%A9%E9%A4%90%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8D%97%E5%B1%AF%E5%8D%80%E5%A4%A7%E5%A2%A911%E8%A1%97348-1%E8%99%9F"
   },
   {
     "id": "tc-93",
@@ -2644,7 +2544,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%96%B9%E6%AD%A3%E8%B0%B7%E7%9C%B7%E6%9D%91%E5%91%B3%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8C%97%E5%B1%AF%E5%8D%80%E5%A4%A9%E7%A5%A5%E8%A1%9719%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%96%B9%E6%AD%A3%E8%B0%B7%E7%9C%B7%E6%9D%91%E5%91%B3",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%96%B9%E6%AD%A3%E8%B0%B7%E7%9C%B7%E6%9D%91%E5%91%B3/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E6%96%B9%E6%AD%A3%E8%B0%B7%E7%9C%B7%E6%9D%91%E5%91%B3%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8C%97%E5%B1%AF%E5%8D%80%E5%A4%A9%E7%A5%A5%E8%A1%9719%E8%99%9F"
   },
   {
     "id": "tc-94",
@@ -2671,7 +2575,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%97%A5%E5%AE%8987-9%20Good%20Day%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%B1%90%E5%8E%9F%E5%8D%80%E5%BA%9C%E5%89%8D%E8%A1%9787-9%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%97%A5%E5%AE%8987-9%20Good%20Day",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%97%A5%E5%AE%89879GoodDay/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E6%97%A5%E5%AE%8987-9%20Good%20Day%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%B1%90%E5%8E%9F%E5%8D%80%E5%BA%9C%E5%89%8D%E8%A1%9787-9%E8%99%9F"
   },
   {
     "id": "tc-95",
@@ -2698,62 +2606,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
-  },
-  {
-    "id": "tc-96",
-    "name": "明高溫泉會館",
-    "legalName": "明高溫泉會館",
-    "category": "友善住宿/露營",
-    "city": "臺中市",
-    "district": "和平區",
-    "address": "臺中市和平區東關路一段92號",
-    "phone": "04-25951117",
-    "lat": 24.200645,
-    "lng": 120.9888,
-    "petsAllowed": [
-      "犬",
-      "貓",
-      "其他"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "可與主人同床"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true
-  },
-  {
-    "id": "tc-97",
-    "name": "晨熹社 ASAHIKARI繪本書店",
-    "legalName": "晨熹社",
-    "category": "休閒娛樂/空間",
-    "city": "臺中市",
-    "district": "西區",
-    "address": "臺中市西區博館路234號",
-    "phone": "04-23150001",
-    "lat": 24.13992,
-    "lng": 120.665155,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "定期清潔消毒"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%97%A5%E6%8B%93%E4%B8%8D%E5%8B%95%E7%94%A2%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%20%E8%87%BA%E4%B8%AD%E5%B8%82%E7%83%8F%E6%97%A5%E5%8D%80%E4%B8%AD%E5%B1%B1%E8%B7%AF%E4%B8%89%E6%AE%B5546-28%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%97%A5%E6%8B%93%E4%B8%8D%E5%8B%95%E7%94%A2%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%97%A5%E6%8B%93%E4%B8%8D%E5%8B%95%E7%94%A2%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E6%97%A5%E6%8B%93%E4%B8%8D%E5%8B%95%E7%94%A2%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%20%E8%87%BA%E4%B8%AD%E5%B8%82%E7%83%8F%E6%97%A5%E5%8D%80%E4%B8%AD%E5%B1%B1%E8%B7%AF%E4%B8%89%E6%AE%B5546-28%E8%99%9F"
   },
   {
     "id": "tc-98",
@@ -2780,7 +2637,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9C%9B%E9%AB%98%E8%8E%8A%E5%9C%92%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8D%97%E5%B1%AF%E5%8D%80%E4%B8%AD%E5%8F%B0%E8%B7%AF398%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%9C%9B%E9%AB%98%E8%8E%8A%E5%9C%92",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%9C%9B%E9%AB%98%E8%8E%8A%E5%9C%92/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E6%9C%9B%E9%AB%98%E8%8E%8A%E5%9C%92%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8D%97%E5%B1%AF%E5%8D%80%E4%B8%AD%E5%8F%B0%E8%B7%AF398%E8%99%9F"
   },
   {
     "id": "tc-99",
@@ -2808,7 +2669,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%A3%AE%E6%9E%97%E5%B0%8F%E5%BE%91-%E6%96%87%E5%BF%83%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8C%97%E5%B1%AF%E5%8D%80%E6%96%87%E5%BF%83%E8%B7%AF%E5%9B%9B%E6%AE%B5131%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%A3%AE%E6%9E%97%E5%B0%8F%E5%BE%91-%E6%96%87%E5%BF%83%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%A3%AE%E6%9E%97%E5%B0%8F%E5%BE%91%E6%96%87%E5%BF%83%E5%BA%97/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E6%A3%AE%E6%9E%97%E5%B0%8F%E5%BE%91-%E6%96%87%E5%BF%83%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8C%97%E5%B1%AF%E5%8D%80%E6%96%87%E5%BF%83%E8%B7%AF%E5%9B%9B%E6%AE%B5131%E8%99%9F"
   },
   {
     "id": "tc-100",
@@ -2837,7 +2702,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%A3%AE%E6%9E%97%E5%B0%8F%E5%BE%91%E9%A4%90%E9%A3%B2%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E5%A4%A7%E5%A2%A9%E5%88%86%E5%85%AC%E5%8F%B8%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%B1%AF%E5%8D%80%E5%A4%A7%E5%AE%B9%E8%A5%BF%E8%A1%9753%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%A3%AE%E6%9E%97%E5%B0%8F%E5%BE%91%E9%A4%90%E9%A3%B2%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E5%A4%A7%E5%A2%A9%E5%88%86%E5%85%AC%E5%8F%B8",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%A3%AE%E6%9E%97%E5%B0%8F%E5%BE%91%E9%A4%90%E9%A3%B2%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E5%A4%A7%E5%A2%A9%E5%88%86%E5%85%AC%E5%8F%B8/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E6%A3%AE%E6%9E%97%E5%B0%8F%E5%BE%91%E9%A4%90%E9%A3%B2%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E5%A4%A7%E5%A2%A9%E5%88%86%E5%85%AC%E5%8F%B8%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%B1%AF%E5%8D%80%E5%A4%A7%E5%AE%B9%E8%A5%BF%E8%A1%9753%E8%99%9F"
   },
   {
     "id": "tc-101",
@@ -2864,7 +2733,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%A3%AE%E6%AD%90%E7%BE%8E%E9%A3%9F%E5%9D%8A%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%8D%80%E6%A8%A1%E7%AF%84%E8%A1%9719-4%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%A3%AE%E6%AD%90%E7%BE%8E%E9%A3%9F%E5%9D%8A",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%A3%AE%E6%AD%90%E7%BE%8E%E9%A3%9F%E5%9D%8A/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E6%A3%AE%E6%AD%90%E7%BE%8E%E9%A3%9F%E5%9D%8A%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%8D%80%E6%A8%A1%E7%AF%84%E8%A1%9719-4%E8%99%9F"
   },
   {
     "id": "tc-102",
@@ -2891,7 +2764,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%A3%AE%E6%B2%90%20Sun%20Moon%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8C%97%E5%8D%80%E7%9B%8A%E8%8F%AF%E8%A1%9779%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%A3%AE%E6%B2%90%20Sun%20Moon",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%A3%AE%E6%B2%90SunMoon/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E6%A3%AE%E6%B2%90%20Sun%20Moon%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8C%97%E5%8D%80%E7%9B%8A%E8%8F%AF%E8%A1%9779%E8%99%9F"
   },
   {
     "id": "tc-103",
@@ -2920,7 +2797,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%A8%82%E6%B9%9Ccafe%E6%97%A9%E5%8D%88%E9%A4%90%E6%89%8B%E4%BD%9C%E6%96%99%E7%90%86%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8D%97%E5%8D%80%E5%B7%A5%E5%AD%B8%E5%8C%97%E8%B7%AF376%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%A8%82%E6%B9%9Ccafe%E6%97%A9%E5%8D%88%E9%A4%90%E6%89%8B%E4%BD%9C%E6%96%99%E7%90%86",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%A8%82%E6%B9%9Ccafe%E6%97%A9%E5%8D%88%E9%A4%90%E6%89%8B%E4%BD%9C%E6%96%99%E7%90%86/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E6%A8%82%E6%B9%9Ccafe%E6%97%A9%E5%8D%88%E9%A4%90%E6%89%8B%E4%BD%9C%E6%96%99%E7%90%86%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8D%97%E5%8D%80%E5%B7%A5%E5%AD%B8%E5%8C%97%E8%B7%AF376%E8%99%9F"
   },
   {
     "id": "tc-104",
@@ -2947,7 +2828,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%A8%A1%E7%AF%84%E8%B2%9D%E6%9E%9C%20%E8%87%BA%E4%B8%AD%E5%B8%82%E6%A8%A1%E7%AF%84%E8%A1%971%E5%B7%B71%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%A8%A1%E7%AF%84%E8%B2%9D%E6%9E%9C",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%A8%A1%E7%AF%84%E8%B2%9D%E6%9E%9C/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E6%A8%A1%E7%AF%84%E8%B2%9D%E6%9E%9C%20%E8%87%BA%E4%B8%AD%E5%B8%82%E6%A8%A1%E7%AF%84%E8%A1%971%E5%B7%B71%E8%99%9F"
   },
   {
     "id": "tc-105",
@@ -2981,7 +2866,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%A9%98%E5%85%89%E5%91%BC%E5%9A%95%EF%BD%98%E8%83%8C%E5%8C%85Cat%E5%92%96%E5%95%A1%E9%A4%A8%20%E8%87%BA%E4%B8%AD%E5%B8%82%E9%BE%8D%E4%BA%95%E5%8D%80%E6%9D%B1%E6%B5%B7%E9%87%8C%E8%97%9D%E8%A1%93%E8%A1%9785%E8%99%9F1%E6%A8%93",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%A9%98%E5%85%89%E5%91%BC%E5%9A%95%EF%BD%98%E8%83%8C%E5%8C%85Cat%E5%92%96%E5%95%A1%E9%A4%A8",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%A9%98%E5%85%89%E5%91%BC%E5%9A%95%EF%BD%98%E8%83%8C%E5%8C%85Cat%E5%92%96%E5%95%A1%E9%A4%A8/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E6%A9%98%E5%85%89%E5%91%BC%E5%9A%95%EF%BD%98%E8%83%8C%E5%8C%85Cat%E5%92%96%E5%95%A1%E9%A4%A8%20%E8%87%BA%E4%B8%AD%E5%B8%82%E9%BE%8D%E4%BA%95%E5%8D%80%E6%9D%B1%E6%B5%B7%E9%87%8C%E8%97%9D%E8%A1%93%E8%A1%9785%E8%99%9F1%E6%A8%93"
   },
   {
     "id": "tc-106",
@@ -3009,40 +2898,17 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
-  },
-  {
-    "id": "tc-107",
-    "name": "水雲端旗艦概念旅館",
-    "legalName": "水雲端旗艦概念旅館",
-    "category": "友善住宿/露營",
-    "city": "臺中市",
-    "district": "西屯區",
-    "address": "臺中市西屯區青海南街159號",
-    "phone": "0424525678",
-    "lat": 24.162455,
-    "lng": 120.637425,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "定期消毒"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%AD%A4%E6%9C%A8%E4%BA%8C%E6%B0%B4%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%8D%80%E9%95%B7%E6%98%A5%E8%A1%9749%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%AD%A4%E6%9C%A8%E4%BA%8C%E6%B0%B4",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%AD%A4%E6%9C%A8%E4%BA%8C%E6%B0%B4/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E6%AD%A4%E6%9C%A8%E4%BA%8C%E6%B0%B4%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%8D%80%E9%95%B7%E6%98%A5%E8%A1%9749%E8%99%9F"
   },
   {
     "id": "tc-108",
     "name": "沐心泉休閒農場",
     "legalName": "沁心泉休閒農場",
-    "category": "休閒娛樂/空間",
+    "category": "特色餐廳",
     "city": "臺中市",
     "district": "新社區",
     "address": "臺中市新社區中和里中興街60號",
@@ -3066,7 +2932,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B2%90%E5%BF%83%E6%B3%89%E4%BC%91%E9%96%92%E8%BE%B2%E5%A0%B4%20%E8%87%BA%E4%B8%AD%E5%B8%82%E6%96%B0%E7%A4%BE%E5%8D%80%E4%B8%AD%E5%92%8C%E9%87%8C%E4%B8%AD%E8%88%88%E8%A1%9760%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%B2%90%E5%BF%83%E6%B3%89%E4%BC%91%E9%96%92%E8%BE%B2%E5%A0%B4",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%B2%90%E5%BF%83%E6%B3%89%E4%BC%91%E9%96%92%E8%BE%B2%E5%A0%B4/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E6%B2%90%E5%BF%83%E6%B3%89%E4%BC%91%E9%96%92%E8%BE%B2%E5%A0%B4%20%E8%87%BA%E4%B8%AD%E5%B8%82%E6%96%B0%E7%A4%BE%E5%8D%80%E4%B8%AD%E5%92%8C%E9%87%8C%E4%B8%AD%E8%88%88%E8%A1%9760%E8%99%9F"
   },
   {
     "id": "tc-109",
@@ -3095,35 +2965,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
-  },
-  {
-    "id": "tc-110",
-    "name": "流星花園民宿",
-    "legalName": "流星花園休閒農場",
-    "category": "特色餐廳",
-    "city": "臺中市",
-    "district": "豐原區",
-    "address": "臺中市豐原區水源路坪頂巷8號",
-    "phone": "04-25151456",
-    "lat": 24.25228,
-    "lng": 120.71091,
-    "petsAllowed": [
-      "犬",
-      "貓",
-      "其他"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "僅提供戶外區域"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B4%84%E6%B5%81%E9%A4%90%E9%A3%9F%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8C%97%E5%8D%80%E9%9B%99%E5%8D%81%E8%B7%AF%E4%BA%8C%E6%AE%B521%E5%B7%B716%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%B4%84%E6%B5%81%E9%A4%90%E9%A3%9F",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%B4%84%E6%B5%81%E9%A4%90%E9%A3%9F/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E6%B4%84%E6%B5%81%E9%A4%90%E9%A3%9F%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8C%97%E5%8D%80%E9%9B%99%E5%8D%81%E8%B7%AF%E4%BA%8C%E6%AE%B521%E5%B7%B716%E8%99%9F"
   },
   {
     "id": "tc-111",
@@ -3150,43 +2996,17 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
-  },
-  {
-    "id": "tc-112",
-    "name": "浮雲客棧股份有限公司",
-    "legalName": "浮雲客棧股份有限公司",
-    "category": "友善住宿/露營",
-    "city": "臺中市",
-    "district": "西屯區",
-    "address": "臺中市西屯區西安街277巷59號",
-    "phone": "04-27065855",
-    "lat": 24.167315,
-    "lng": 120.640605,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "1.定期消毒：每月定期請專業清潔消毒公司",
-      "2.庭院種植無毒植物",
-      "無危險物品",
-      "種植大面積樹林提供遮蔽空間避免寵物散步時中暑"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B5%AA%E6%B5%AA%E5%88%A5%E5%93%AD%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%B9%B2%E5%9F%8E%E8%A1%97214%E5%B7%B71%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%B5%AA%E6%B5%AA%E5%88%A5%E5%93%AD",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%B5%AA%E6%B5%AA%E5%88%A5%E5%93%AD/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E6%B5%AA%E6%B5%AA%E5%88%A5%E5%93%AD%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%B9%B2%E5%9F%8E%E8%A1%97214%E5%B7%B71%E8%99%9F"
   },
   {
     "id": "tc-113",
     "name": "海灣樂世界 HiONE 啵比星球",
     "legalName": "海灣樂世界股份有限公司",
-    "category": "休閒娛樂/空間",
+    "category": "特色餐廳",
     "city": "臺中市",
     "district": "北屯區",
     "address": "臺中市北屯區東山路二段151-2號",
@@ -3212,35 +3032,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
-  },
-  {
-    "id": "tc-114",
-    "name": "深耕寵物森林園區",
-    "legalName": "深耕寵物森林園區",
-    "category": "特色餐廳",
-    "city": "臺中市",
-    "district": "太平區",
-    "address": "臺中市太平區山田路26巷5號",
-    "phone": "04-22759189",
-    "lat": 24.115901,
-    "lng": 120.790549,
-    "petsAllowed": [
-      "犬",
-      "貓",
-      "其他"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "允許寵物進入營業場所"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B5%B7%E7%81%A3%E6%A8%82%E4%B8%96%E7%95%8C%20HiONE%20%E5%95%B5%E6%AF%94%E6%98%9F%E7%90%83%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8C%97%E5%B1%AF%E5%8D%80%E6%9D%B1%E5%B1%B1%E8%B7%AF%E4%BA%8C%E6%AE%B5151-2%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%B5%B7%E7%81%A3%E6%A8%82%E4%B8%96%E7%95%8C%20HiONE%20%E5%95%B5%E6%AF%94%E6%98%9F%E7%90%83",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%B5%B7%E7%81%A3%E6%A8%82%E4%B8%96%E7%95%8CHiONE%E5%95%B5%E6%AF%94%E6%98%9F%E7%90%83/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E6%B5%B7%E7%81%A3%E6%A8%82%E4%B8%96%E7%95%8C%20HiONE%20%E5%95%B5%E6%AF%94%E6%98%9F%E7%90%83%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8C%97%E5%B1%AF%E5%8D%80%E6%9D%B1%E5%B1%B1%E8%B7%AF%E4%BA%8C%E6%AE%B5151-2%E8%99%9F"
   },
   {
     "id": "tc-115",
@@ -3268,7 +3064,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B7%B3%E5%9E%9A%E9%8D%8B%E7%89%A9%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8D%97%E5%B1%AF%E5%8D%80%E5%A4%A7%E5%A2%A913%E8%A1%972%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%B7%B3%E5%9E%9A%E9%8D%8B%E7%89%A9",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%B7%B3%E5%9E%9A%E9%8D%8B%E7%89%A9/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E6%B7%B3%E5%9E%9A%E9%8D%8B%E7%89%A9%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8D%97%E5%B1%AF%E5%8D%80%E5%A4%A7%E5%A2%A913%E8%A1%972%E8%99%9F"
   },
   {
     "id": "tc-116",
@@ -3296,7 +3096,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%BA%AB%E4%B9%85%E7%86%AC%E8%80%81%E7%81%AB%E9%8D%8B%E9%A4%A8%20%E8%87%BA%E4%B8%AD%E5%B8%82%E4%B8%AD%E5%8D%80%E5%8F%B0%E7%81%A3%E5%A4%A7%E9%81%93%E4%B8%80%E6%AE%B5138%E8%99%9F1%E6%A8%93",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%BA%AB%E4%B9%85%E7%86%AC%E8%80%81%E7%81%AB%E9%8D%8B%E9%A4%A8",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%BA%AB%E4%B9%85%E7%86%AC%E8%80%81%E7%81%AB%E9%8D%8B%E9%A4%A8/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E6%BA%AB%E4%B9%85%E7%86%AC%E8%80%81%E7%81%AB%E9%8D%8B%E9%A4%A8%20%E8%87%BA%E4%B8%AD%E5%B8%82%E4%B8%AD%E5%8D%80%E5%8F%B0%E7%81%A3%E5%A4%A7%E9%81%93%E4%B8%80%E6%AE%B5138%E8%99%9F1%E6%A8%93"
   },
   {
     "id": "tc-117",
@@ -3329,88 +3133,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
-  },
-  {
-    "id": "tc-118",
-    "name": "特力屋台中北屯店",
-    "legalName": "特力屋股份有限公司北屯分公司",
-    "category": "特色餐廳",
-    "city": "臺中市",
-    "district": "北屯區",
-    "address": "臺中市北屯路407之1號",
-    "phone": "04-22471000",
-    "lat": 24.179585,
-    "lng": 120.69848,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "寵物推車"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true
-  },
-  {
-    "id": "tc-119",
-    "name": "特力屋台中西屯店",
-    "legalName": "特力屋股份有限公司西屯分公司",
-    "category": "特色餐廳",
-    "city": "臺中市",
-    "district": "西屯區",
-    "address": "臺中市西屯區臺灣大道四段528號",
-    "phone": "04-24629333",
-    "lat": 24.1673,
-    "lng": 120.64053,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "寵物推車"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true
-  },
-  {
-    "id": "tc-120",
-    "name": "特力屋台中豐原店",
-    "legalName": "特力屋股份有限公司豐原分公司",
-    "category": "特色餐廳",
-    "city": "臺中市",
-    "district": "豐原區",
-    "address": "臺中市豐原區南村里水源路420號",
-    "phone": "0425132200",
-    "lat": 24.257905,
-    "lng": 120.724575,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "寵物推車"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%84%A1%E7%90%86%20WULI%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%85%AC%E6%AD%A3%E8%B7%AF156%E5%B7%B74%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E7%84%A1%E7%90%86%20WULI",
+    "instagram": "https://www.instagram.com/explore/tags/%E7%84%A1%E7%90%86WULI/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E7%84%A1%E7%90%86%20WULI%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%85%AC%E6%AD%A3%E8%B7%AF156%E5%B7%B74%E8%99%9F"
   },
   {
     "id": "tc-121",
@@ -3437,7 +3164,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%8E%A9%E5%85%B7%E8%BB%8A%E5%BA%AB%E5%92%96%E5%95%A1%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E9%95%B7%E5%A3%BD%E8%B7%AF%E5%8C%97%E4%B8%89%E5%B7%B719%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E7%8E%A9%E5%85%B7%E8%BB%8A%E5%BA%AB%E5%92%96%E5%95%A1%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E7%8E%A9%E5%85%B7%E8%BB%8A%E5%BA%AB%E5%92%96%E5%95%A1%E5%BA%97/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E7%8E%A9%E5%85%B7%E8%BB%8A%E5%BA%AB%E5%92%96%E5%95%A1%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E9%95%B7%E5%A3%BD%E8%B7%AF%E5%8C%97%E4%B8%89%E5%B7%B719%E8%99%9F"
   },
   {
     "id": "tc-122",
@@ -3466,7 +3197,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%94%9C%E7%BD%84%E5%B7%A5%E4%BD%9C%E5%9D%8A%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%90%8E%E9%87%8C%E5%8D%80%E6%B0%91%E7%94%9F%E8%B7%AF57%E5%B7%B71%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E7%94%9C%E7%BD%84%E5%B7%A5%E4%BD%9C%E5%9D%8A",
+    "instagram": "https://www.instagram.com/explore/tags/%E7%94%9C%E7%BD%84%E5%B7%A5%E4%BD%9C%E5%9D%8A/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E7%94%9C%E7%BD%84%E5%B7%A5%E4%BD%9C%E5%9D%8A%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%90%8E%E9%87%8C%E5%8D%80%E6%B0%91%E7%94%9F%E8%B7%AF57%E5%B7%B71%E8%99%9F"
   },
   {
     "id": "tc-123",
@@ -3493,7 +3228,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%94%A8%E4%B8%8A%E8%87%AA%E7%84%B6%E8%86%B3%E9%A3%9F%E5%A0%82%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%A4%A7%E8%82%9A%E5%8D%80%E5%A4%A7%E8%82%9A%E8%97%8D%E8%89%B2%E5%85%AC%E8%B7%AF51%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E7%94%A8%E4%B8%8A%E8%87%AA%E7%84%B6%E8%86%B3%E9%A3%9F%E5%A0%82",
+    "instagram": "https://www.instagram.com/explore/tags/%E7%94%A8%E4%B8%8A%E8%87%AA%E7%84%B6%E8%86%B3%E9%A3%9F%E5%A0%82/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E7%94%A8%E4%B8%8A%E8%87%AA%E7%84%B6%E8%86%B3%E9%A3%9F%E5%A0%82%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%A4%A7%E8%82%9A%E5%8D%80%E5%A4%A7%E8%82%9A%E8%97%8D%E8%89%B2%E5%85%AC%E8%B7%AF51%E8%99%9F"
   },
   {
     "id": "tc-124",
@@ -3523,41 +3262,17 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
-  },
-  {
-    "id": "tc-125",
-    "name": "糧薪客棧",
-    "legalName": "糧薪商行沙鹿分部",
-    "category": "特色餐廳",
-    "city": "臺中市",
-    "district": "沙鹿區",
-    "address": "臺中市沙鹿區沙田路30-1號",
-    "phone": "0928-798899",
-    "lat": 24.24122,
-    "lng": 120.553035,
-    "petsAllowed": [
-      "犬",
-      "貓",
-      "其他"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "提供寵物飲水"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%B1%B3%E5%85%8BC%E6%88%BF%20C%2BKitchen%20%E6%B8%AF%E5%BC%8F%E7%A7%81%E6%88%BF%E6%96%99%E7%90%86%20%E8%87%BA%E4%B8%AD%E5%B8%82%E7%A5%A5%E9%A0%86%E8%B7%AF%E4%B8%80%E6%AE%B591%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E7%B1%B3%E5%85%8BC%E6%88%BF%20C%2BKitchen%20%E6%B8%AF%E5%BC%8F%E7%A7%81%E6%88%BF%E6%96%99%E7%90%86",
+    "instagram": "https://www.instagram.com/explore/tags/%E7%B1%B3%E5%85%8BC%E6%88%BFCKitchen%E6%B8%AF%E5%BC%8F%E7%A7%81%E6%88%BF%E6%96%99%E7%90%86/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E7%B1%B3%E5%85%8BC%E6%88%BF%20C%2BKitchen%20%E6%B8%AF%E5%BC%8F%E7%A7%81%E6%88%BF%E6%96%99%E7%90%86%20%E8%87%BA%E4%B8%AD%E5%B8%82%E7%A5%A5%E9%A0%86%E8%B7%AF%E4%B8%80%E6%AE%B591%E8%99%9F"
   },
   {
     "id": "tc-126",
     "name": "紙箱王創意園區",
     "legalName": "紙箱王有限公司",
-    "category": "休閒娛樂/空間",
+    "category": "特色餐廳",
     "city": "臺中市",
     "district": "北屯區",
     "address": "臺中市北屯區東山路二段二巷2號",
@@ -3578,13 +3293,17 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%B4%99%E7%AE%B1%E7%8E%8B%E5%89%B5%E6%84%8F%E5%9C%92%E5%8D%80%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8C%97%E5%B1%AF%E5%8D%80%E6%9D%B1%E5%B1%B1%E8%B7%AF%E4%BA%8C%E6%AE%B5%E4%BA%8C%E5%B7%B72%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E7%B4%99%E7%AE%B1%E7%8E%8B%E5%89%B5%E6%84%8F%E5%9C%92%E5%8D%80",
+    "instagram": "https://www.instagram.com/explore/tags/%E7%B4%99%E7%AE%B1%E7%8E%8B%E5%89%B5%E6%84%8F%E5%9C%92%E5%8D%80/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E7%B4%99%E7%AE%B1%E7%8E%8B%E5%89%B5%E6%84%8F%E5%9C%92%E5%8D%80%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8C%97%E5%B1%AF%E5%8D%80%E6%9D%B1%E5%B1%B1%E8%B7%AF%E4%BA%8C%E6%AE%B5%E4%BA%8C%E5%B7%B72%E8%99%9F"
   },
   {
     "id": "tc-127",
     "name": "綠光計畫",
     "legalName": "范特喜微創文化股份有限公司",
-    "category": "休閒娛樂/空間",
+    "category": "特色餐廳",
     "city": "臺中市",
     "district": "西區",
     "address": "臺中市中興一巷19號",
@@ -3605,34 +3324,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
-  },
-  {
-    "id": "tc-128",
-    "name": "緣橋汽車旅館",
-    "legalName": "緣橋汽車旅館",
-    "category": "友善住宿/露營",
-    "city": "臺中市",
-    "district": "南屯區",
-    "address": "臺中市南屯區大墩11街433號",
-    "phone": "0422521868",
-    "lat": 24.1359,
-    "lng": 120.6402,
-    "petsAllowed": [
-      "犬"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "定期消毒",
-      "寵物墊"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%B6%A0%E5%85%89%E8%A8%88%E7%95%AB%20%E8%87%BA%E4%B8%AD%E5%B8%82%E4%B8%AD%E8%88%88%E4%B8%80%E5%B7%B719%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E7%B6%A0%E5%85%89%E8%A8%88%E7%95%AB",
+    "instagram": "https://www.instagram.com/explore/tags/%E7%B6%A0%E5%85%89%E8%A8%88%E7%95%AB/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E7%B6%A0%E5%85%89%E8%A8%88%E7%95%AB%20%E8%87%BA%E4%B8%AD%E5%B8%82%E4%B8%AD%E8%88%88%E4%B8%80%E5%B7%B719%E8%99%9F"
   },
   {
     "id": "tc-129",
@@ -3662,230 +3358,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
-  },
-  {
-    "id": "tc-130",
-    "name": "翔仔居家",
-    "legalName": "寬承實業有限公司",
-    "category": "特色餐廳",
-    "city": "臺中市",
-    "district": "北屯區",
-    "address": "臺中市瀋陽北路30號",
-    "phone": "04-22912328",
-    "lat": 24.169655,
-    "lng": 120.69104,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "定期環境消毒"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true
-  },
-  {
-    "id": "tc-131",
-    "name": "老地方寵物生活館 - 十甲店",
-    "legalName": "好地方寵物用品有限公司",
-    "category": "特色餐廳",
-    "city": "臺中市",
-    "district": "東區",
-    "address": "臺中市東區十甲東路622號1樓",
-    "phone": "04-22136126",
-    "lat": 24.138735,
-    "lng": 120.69986,
-    "petsAllowed": [
-      "犬",
-      "貓",
-      "其他"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "定期消毒"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true
-  },
-  {
-    "id": "tc-132",
-    "name": "老地方寵物生活館 - 南屯一店",
-    "legalName": "老地方南屯有限公司",
-    "category": "特色餐廳",
-    "city": "臺中市",
-    "district": "南屯區",
-    "address": "臺中市南屯區五權西路二段82號",
-    "phone": "04-24715683",
-    "lat": 24.136035,
-    "lng": 120.63888,
-    "petsAllowed": [
-      "犬",
-      "貓",
-      "其他"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "定期消毒"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true
-  },
-  {
-    "id": "tc-133",
-    "name": "老地方寵物生活館 - 南屯二店",
-    "legalName": "老地方五權有限公司",
-    "category": "特色餐廳",
-    "city": "臺中市",
-    "district": "南屯區",
-    "address": "臺中市南屯區五權西路二段207號",
-    "phone": "04-24710918",
-    "lat": 24.13407,
-    "lng": 120.639855,
-    "petsAllowed": [
-      "犬",
-      "貓",
-      "其他"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "定期消毒"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true
-  },
-  {
-    "id": "tc-134",
-    "name": "老地方寵物生活館 - 大里旗艦店",
-    "legalName": "老地方大里有限公司",
-    "category": "特色餐廳",
-    "city": "臺中市",
-    "district": "大里區",
-    "address": "臺中市大里區大明路415號",
-    "phone": "04-24060936",
-    "lat": 24.098515,
-    "lng": 120.675565,
-    "petsAllowed": [
-      "犬",
-      "貓",
-      "其他"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "定期消毒"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true
-  },
-  {
-    "id": "tc-135",
-    "name": "老地方寵物生活館 - 天津店",
-    "legalName": "老地方國際有限公司",
-    "category": "特色餐廳",
-    "city": "臺中市",
-    "district": "北屯區",
-    "address": "臺中市北屯區天津路三段45號",
-    "phone": "04-22341405",
-    "lat": 24.181805,
-    "lng": 120.702425,
-    "petsAllowed": [
-      "犬",
-      "貓",
-      "其他"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "定期消毒"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true
-  },
-  {
-    "id": "tc-136",
-    "name": "老地方寵物生活館 - 福科店",
-    "legalName": "老地方五權有限公司福科分公司",
-    "category": "特色餐廳",
-    "city": "臺中市",
-    "district": "西屯區",
-    "address": "臺中市西屯區福林里福科路635號",
-    "phone": "04-24636183",
-    "lat": 24.175925,
-    "lng": 120.639405,
-    "petsAllowed": [
-      "犬",
-      "貓",
-      "其他"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "定期消毒"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true
-  },
-  {
-    "id": "tc-137",
-    "name": "老地方寵物生活館 - 西屯旗艦店",
-    "legalName": "老地方國際行銷有限公司",
-    "category": "特色餐廳",
-    "city": "臺中市",
-    "district": "西屯區",
-    "address": "臺中市西屯區成都路319號",
-    "phone": "04-22956136",
-    "lat": 24.172655,
-    "lng": 120.666437,
-    "petsAllowed": [
-      "犬",
-      "貓",
-      "其他"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "定期消毒"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%BE%8E%E5%A5%BD%E5%B9%B4%E4%BB%A3%E9%A4%90%E9%A3%B2%E9%A1%A7%E5%95%8F%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%8D%80%E6%A8%A1%E7%AF%84%E8%A1%9731%E5%B7%B77%E5%BC%847%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E7%BE%8E%E5%A5%BD%E5%B9%B4%E4%BB%A3%E9%A4%90%E9%A3%B2%E9%A1%A7%E5%95%8F%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+    "instagram": "https://www.instagram.com/explore/tags/%E7%BE%8E%E5%A5%BD%E5%B9%B4%E4%BB%A3%E9%A4%90%E9%A3%B2%E9%A1%A7%E5%95%8F%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E7%BE%8E%E5%A5%BD%E5%B9%B4%E4%BB%A3%E9%A4%90%E9%A3%B2%E9%A1%A7%E5%95%8F%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%8D%80%E6%A8%A1%E7%AF%84%E8%A1%9731%E5%B7%B77%E5%BC%847%E8%99%9F"
   },
   {
     "id": "tc-138",
@@ -3914,7 +3391,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%82%89%E8%82%89%E7%87%92%E8%82%89%E4%BA%94%E6%AC%8A%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8D%97%E5%B1%AF%E5%8D%80%E4%BA%94%E6%AC%8A%E8%A5%BF%E8%B7%AF%E4%BA%8C%E6%AE%B5223%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E8%82%89%E8%82%89%E7%87%92%E8%82%89%E4%BA%94%E6%AC%8A%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E8%82%89%E8%82%89%E7%87%92%E8%82%89%E4%BA%94%E6%AC%8A%E5%BA%97/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E8%82%89%E8%82%89%E7%87%92%E8%82%89%E4%BA%94%E6%AC%8A%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8D%97%E5%B1%AF%E5%8D%80%E4%BA%94%E6%AC%8A%E8%A5%BF%E8%B7%AF%E4%BA%8C%E6%AE%B5223%E8%99%9F"
   },
   {
     "id": "tc-139",
@@ -3943,7 +3424,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%82%89%E8%82%89%E7%87%92%E8%82%89%E6%9C%9D%E9%A6%AC%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%B1%AF%E5%8D%80%E6%9C%9D%E9%A6%AC%E8%B7%AF70%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E8%82%89%E8%82%89%E7%87%92%E8%82%89%E6%9C%9D%E9%A6%AC%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E8%82%89%E8%82%89%E7%87%92%E8%82%89%E6%9C%9D%E9%A6%AC%E5%BA%97/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E8%82%89%E8%82%89%E7%87%92%E8%82%89%E6%9C%9D%E9%A6%AC%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%B1%AF%E5%8D%80%E6%9C%9D%E9%A6%AC%E8%B7%AF70%E8%99%9F"
   },
   {
     "id": "tc-140",
@@ -3970,34 +3455,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
-  },
-  {
-    "id": "tc-141",
-    "name": "自己印紙膠帶",
-    "legalName": "豐鵬商標膠帶股份有限公司",
-    "category": "休閒娛樂/空間",
-    "city": "臺中市",
-    "district": "南屯區",
-    "address": "臺中市永春東路195號",
-    "phone": "04-24739873",
-    "lat": 24.135529,
-    "lng": 120.637864,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "定期消毒"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%83%8C%E5%8C%85%E5%AE%A2%E9%A5%9E%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8D%97%E5%B1%AF%E5%8D%80%E6%96%87%E5%BF%83%E5%8D%97%E4%BA%8C%E8%B7%AF396%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E8%83%8C%E5%8C%85%E5%AE%A2%E9%A5%9E",
+    "instagram": "https://www.instagram.com/explore/tags/%E8%83%8C%E5%8C%85%E5%AE%A2%E9%A5%9E/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E8%83%8C%E5%8C%85%E5%AE%A2%E9%A5%9E%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8D%97%E5%B1%AF%E5%8D%80%E6%96%87%E5%BF%83%E5%8D%97%E4%BA%8C%E8%B7%AF396%E8%99%9F"
   },
   {
     "id": "tc-142",
@@ -4024,7 +3486,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%87%BA%E4%B8%AD%E5%B8%82%E5%A4%A7%E9%9B%85%E5%8D%80%E5%85%AC%E6%89%80%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%A4%A7%E9%9B%85%E5%8D%80%E9%9B%85%E7%92%B0%E8%B7%AF%E4%BA%8C%E6%AE%B5301%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E8%87%BA%E4%B8%AD%E5%B8%82%E5%A4%A7%E9%9B%85%E5%8D%80%E5%85%AC%E6%89%80",
+    "instagram": "https://www.instagram.com/explore/tags/%E8%87%BA%E4%B8%AD%E5%B8%82%E5%A4%A7%E9%9B%85%E5%8D%80%E5%85%AC%E6%89%80/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E8%87%BA%E4%B8%AD%E5%B8%82%E5%A4%A7%E9%9B%85%E5%8D%80%E5%85%AC%E6%89%80%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%A4%A7%E9%9B%85%E5%8D%80%E9%9B%85%E7%92%B0%E8%B7%AF%E4%BA%8C%E6%AE%B5301%E8%99%9F"
   },
   {
     "id": "tc-143",
@@ -4051,34 +3517,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
-  },
-  {
-    "id": "tc-144",
-    "name": "艸聲手碟工作室",
-    "legalName": "艸聲手碟工作室",
-    "category": "休閒娛樂/空間",
-    "city": "臺中市",
-    "district": "西區",
-    "address": "臺中市向上北路106號",
-    "phone": "0932-502333",
-    "lat": 24.142515,
-    "lng": 120.666745,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "提供寵物食物(貓)"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%87%BA%E4%B8%AD%E5%B8%82%E9%9C%A7%E5%B3%B0%E5%8D%80%E5%85%AC%E6%89%80%20%E8%87%BA%E4%B8%AD%E5%B8%82%E9%9C%A7%E5%B3%B0%E5%8D%80%E6%9C%AC%E5%A0%82%E9%87%8C%E5%A4%A7%E5%90%8C%E8%B7%AF20%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E8%87%BA%E4%B8%AD%E5%B8%82%E9%9C%A7%E5%B3%B0%E5%8D%80%E5%85%AC%E6%89%80",
+    "instagram": "https://www.instagram.com/explore/tags/%E8%87%BA%E4%B8%AD%E5%B8%82%E9%9C%A7%E5%B3%B0%E5%8D%80%E5%85%AC%E6%89%80/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E8%87%BA%E4%B8%AD%E5%B8%82%E9%9C%A7%E5%B3%B0%E5%8D%80%E5%85%AC%E6%89%80%20%E8%87%BA%E4%B8%AD%E5%B8%82%E9%9C%A7%E5%B3%B0%E5%8D%80%E6%9C%AC%E5%A0%82%E9%87%8C%E5%A4%A7%E5%90%8C%E8%B7%AF20%E8%99%9F"
   },
   {
     "id": "tc-145",
@@ -4105,7 +3548,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%8C%B6%E9%A6%AC%E5%8F%B8%E8%A8%AA%E5%B1%B1%E8%8C%B6%E5%BA%97%3A%20TEAMARS%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8D%97%E5%B1%AF%E5%8D%80%E6%83%A0%E6%96%87%E8%B7%AF536%E8%99%9F1%E6%A8%93",
+    "facebook": "https://www.facebook.com/search/top?q=%E8%8C%B6%E9%A6%AC%E5%8F%B8%E8%A8%AA%E5%B1%B1%E8%8C%B6%E5%BA%97%3A%20TEAMARS",
+    "instagram": "https://www.instagram.com/explore/tags/%E8%8C%B6%E9%A6%AC%E5%8F%B8%E8%A8%AA%E5%B1%B1%E8%8C%B6%E5%BA%97TEAMARS/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E8%8C%B6%E9%A6%AC%E5%8F%B8%E8%A8%AA%E5%B1%B1%E8%8C%B6%E5%BA%97%3A%20TEAMARS%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8D%97%E5%B1%AF%E5%8D%80%E6%83%A0%E6%96%87%E8%B7%AF536%E8%99%9F1%E6%A8%93"
   },
   {
     "id": "tc-146",
@@ -4132,13 +3579,17 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%8E%AB%E5%B0%BC%E6%97%A9%E9%A4%90%E5%8C%97%E5%B1%AF%E5%92%8C%E9%A0%86%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8C%97%E5%B1%AF%E5%8D%80%E5%92%8C%E9%A0%86%E8%B7%AF497%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E8%8E%AB%E5%B0%BC%E6%97%A9%E9%A4%90%E5%8C%97%E5%B1%AF%E5%92%8C%E9%A0%86%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E8%8E%AB%E5%B0%BC%E6%97%A9%E9%A4%90%E5%8C%97%E5%B1%AF%E5%92%8C%E9%A0%86%E5%BA%97/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E8%8E%AB%E5%B0%BC%E6%97%A9%E9%A4%90%E5%8C%97%E5%B1%AF%E5%92%8C%E9%A0%86%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8C%97%E5%B1%AF%E5%8D%80%E5%92%8C%E9%A0%86%E8%B7%AF497%E8%99%9F"
   },
   {
     "id": "tc-147",
     "name": "薰衣草森林",
     "legalName": "新社森林股份有限公司",
-    "category": "休閒娛樂/空間",
+    "category": "特色餐廳",
     "city": "臺中市",
     "district": "新社區",
     "address": "臺中市新社區中興街20號",
@@ -4160,7 +3611,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%96%B0%E8%A1%A3%E8%8D%89%E6%A3%AE%E6%9E%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E6%96%B0%E7%A4%BE%E5%8D%80%E4%B8%AD%E8%88%88%E8%A1%9720%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E8%96%B0%E8%A1%A3%E8%8D%89%E6%A3%AE%E6%9E%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E8%96%B0%E8%A1%A3%E8%8D%89%E6%A3%AE%E6%9E%97/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E8%96%B0%E8%A1%A3%E8%8D%89%E6%A3%AE%E6%9E%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E6%96%B0%E7%A4%BE%E5%8D%80%E4%B8%AD%E8%88%88%E8%A1%9720%E8%99%9F"
   },
   {
     "id": "tc-148",
@@ -4190,7 +3645,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%A3%BD%E9%A4%83%E7%A0%94%E6%89%80%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%8D%80%E4%B8%AD%E8%88%88%E4%B8%80%E5%B7%B712%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E8%A3%BD%E9%A4%83%E7%A0%94%E6%89%80",
+    "instagram": "https://www.instagram.com/explore/tags/%E8%A3%BD%E9%A4%83%E7%A0%94%E6%89%80/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E8%A3%BD%E9%A4%83%E7%A0%94%E6%89%80%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%8D%80%E4%B8%AD%E8%88%88%E4%B8%80%E5%B7%B712%E8%99%9F"
   },
   {
     "id": "tc-149",
@@ -4217,7 +3676,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%B2%93%E8%80%81%E9%97%86%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%A4%A7%E9%87%8C%E5%8D%80%E5%A4%A7%E9%87%8C%E8%B7%AF109%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E8%B2%93%E8%80%81%E9%97%86",
+    "instagram": "https://www.instagram.com/explore/tags/%E8%B2%93%E8%80%81%E9%97%86/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E8%B2%93%E8%80%81%E9%97%86%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%A4%A7%E9%87%8C%E5%8D%80%E5%A4%A7%E9%87%8C%E8%B7%AF109%E8%99%9F"
   },
   {
     "id": "tc-150",
@@ -4245,7 +3708,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%B2%93%E8%B5%B7%E4%BE%86%E5%90%83%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%8D%80%E5%8F%B0%E7%81%A3%E5%A4%A7%E9%81%93%E4%BA%8C%E6%AE%B5522%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E8%B2%93%E8%B5%B7%E4%BE%86%E5%90%83",
+    "instagram": "https://www.instagram.com/explore/tags/%E8%B2%93%E8%B5%B7%E4%BE%86%E5%90%83/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E8%B2%93%E8%B5%B7%E4%BE%86%E5%90%83%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%8D%80%E5%8F%B0%E7%81%A3%E5%A4%A7%E9%81%93%E4%BA%8C%E6%AE%B5522%E8%99%9F"
   },
   {
     "id": "tc-151",
@@ -4273,7 +3740,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%B2%93%E9%82%B8%E8%80%81%E5%92%96%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8C%97%E5%8D%80%E6%9D%B1%E5%85%89%E4%B8%80%E8%A1%9721%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E8%B2%93%E9%82%B8%E8%80%81%E5%92%96%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+    "instagram": "https://www.instagram.com/explore/tags/%E8%B2%93%E9%82%B8%E8%80%81%E5%92%96%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E8%B2%93%E9%82%B8%E8%80%81%E5%92%96%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8C%97%E5%8D%80%E6%9D%B1%E5%85%89%E4%B8%80%E8%A1%9721%E8%99%9F"
   },
   {
     "id": "tc-152",
@@ -4301,13 +3772,17 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%80%97%E6%88%B6%E9%9B%9E%E8%9B%8B%E7%B3%95%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%8D%80%E7%B2%BE%E8%AA%A0%E5%8D%81%E4%BA%94%E8%A1%9736%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E9%80%97%E6%88%B6%E9%9B%9E%E8%9B%8B%E7%B3%95",
+    "instagram": "https://www.instagram.com/explore/tags/%E9%80%97%E6%88%B6%E9%9B%9E%E8%9B%8B%E7%B3%95/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E9%80%97%E6%88%B6%E9%9B%9E%E8%9B%8B%E7%B3%95%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%8D%80%E7%B2%BE%E8%AA%A0%E5%8D%81%E4%BA%94%E8%A1%9736%E8%99%9F"
   },
   {
     "id": "tc-153",
     "name": "運通機車出租",
     "legalName": "鑫運通小客車租賃有限公司",
-    "category": "休閒娛樂/空間",
+    "category": "特色餐廳",
     "city": "臺中市",
     "district": "中區",
     "address": "臺中市中區建國路212號",
@@ -4329,7 +3804,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%81%8B%E9%80%9A%E6%A9%9F%E8%BB%8A%E5%87%BA%E7%A7%9F%20%E8%87%BA%E4%B8%AD%E5%B8%82%E4%B8%AD%E5%8D%80%E5%BB%BA%E5%9C%8B%E8%B7%AF212%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E9%81%8B%E9%80%9A%E6%A9%9F%E8%BB%8A%E5%87%BA%E7%A7%9F",
+    "instagram": "https://www.instagram.com/explore/tags/%E9%81%8B%E9%80%9A%E6%A9%9F%E8%BB%8A%E5%87%BA%E7%A7%9F/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E9%81%8B%E9%80%9A%E6%A9%9F%E8%BB%8A%E5%87%BA%E7%A7%9F%20%E8%87%BA%E4%B8%AD%E5%B8%82%E4%B8%AD%E5%8D%80%E5%BB%BA%E5%9C%8B%E8%B7%AF212%E8%99%9F"
   },
   {
     "id": "tc-154",
@@ -4358,7 +3837,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%87%8E%E6%B2%90%E7%A7%81%E6%88%BF%E8%8F%9C%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8C%97%E5%B1%AF%E5%8D%80%E5%8D%97%E8%88%88%E5%8C%97%E4%BA%8C%E8%B7%AF111%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E9%87%8E%E6%B2%90%E7%A7%81%E6%88%BF%E8%8F%9C",
+    "instagram": "https://www.instagram.com/explore/tags/%E9%87%8E%E6%B2%90%E7%A7%81%E6%88%BF%E8%8F%9C/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E9%87%8E%E6%B2%90%E7%A7%81%E6%88%BF%E8%8F%9C%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8C%97%E5%B1%AF%E5%8D%80%E5%8D%97%E8%88%88%E5%8C%97%E4%BA%8C%E8%B7%AF111%E8%99%9F"
   },
   {
     "id": "tc-155",
@@ -4385,13 +3868,17 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%87%8E%E8%8F%9C%E5%85%B1%E5%92%8C%E5%9C%8B%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%8D%80%E5%8D%9A%E9%A4%A8%E8%B7%AF111%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E9%87%8E%E8%8F%9C%E5%85%B1%E5%92%8C%E5%9C%8B",
+    "instagram": "https://www.instagram.com/explore/tags/%E9%87%8E%E8%8F%9C%E5%85%B1%E5%92%8C%E5%9C%8B/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E9%87%8E%E8%8F%9C%E5%85%B1%E5%92%8C%E5%9C%8B%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%8D%80%E5%8D%9A%E9%A4%A8%E8%B7%AF111%E8%99%9F"
   },
   {
     "id": "tc-156",
     "name": "金典 綠園道商場",
     "legalName": "日華金典國際酒店股份有限公司中港分公司",
-    "category": "休閒娛樂/空間",
+    "category": "特色餐廳",
     "city": "臺中市",
     "district": "西區",
     "address": "臺中市健行路1049號",
@@ -4413,13 +3900,17 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%87%91%E5%85%B8%20%E7%B6%A0%E5%9C%92%E9%81%93%E5%95%86%E5%A0%B4%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%81%A5%E8%A1%8C%E8%B7%AF1049%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E9%87%91%E5%85%B8%20%E7%B6%A0%E5%9C%92%E9%81%93%E5%95%86%E5%A0%B4",
+    "instagram": "https://www.instagram.com/explore/tags/%E9%87%91%E5%85%B8%E7%B6%A0%E5%9C%92%E9%81%93%E5%95%86%E5%A0%B4/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E9%87%91%E5%85%B8%20%E7%B6%A0%E5%9C%92%E9%81%93%E5%95%86%E5%A0%B4%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%81%A5%E8%A1%8C%E8%B7%AF1049%E8%99%9F"
   },
   {
     "id": "tc-157",
     "name": "金沙時尚有限公司",
     "legalName": "金沙時尚有限公司",
-    "category": "友善住宿/露營",
+    "category": "特色餐廳",
     "city": "臺中市",
     "district": "北區",
     "address": "臺中市北區太平路201號",
@@ -4440,39 +3931,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
-  },
-  {
-    "id": "tc-158",
-    "name": "閒情驛棧民宿",
-    "legalName": "閒情驛站民宿",
-    "category": "友善住宿/露營",
-    "city": "臺中市",
-    "district": "石岡區",
-    "address": "臺中市石岡區梅子里豐勢路梅子巷17-10號",
-    "phone": "0910-541317",
-    "lat": 24.279965,
-    "lng": 120.774,
-    "petsAllowed": [
-      "犬"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "床組",
-      "罐頭",
-      "環保碗",
-      "生理褲",
-      "戶外溜達區",
-      "撿便袋",
-      "禮貌帶"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%87%91%E6%B2%99%E6%99%82%E5%B0%9A%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8C%97%E5%8D%80%E5%A4%AA%E5%B9%B3%E8%B7%AF201%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E9%87%91%E6%B2%99%E6%99%82%E5%B0%9A%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+    "instagram": "https://www.instagram.com/explore/tags/%E9%87%91%E6%B2%99%E6%99%82%E5%B0%9A%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E9%87%91%E6%B2%99%E6%99%82%E5%B0%9A%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8C%97%E5%8D%80%E5%A4%AA%E5%B9%B3%E8%B7%AF201%E8%99%9F"
   },
   {
     "id": "tc-159",
@@ -4499,7 +3962,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%98%BF%E5%88%A9%E7%8F%88%E5%A4%9A%E5%92%96%E5%95%A1%E9%A4%A8%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8C%97%E5%8D%80%E6%B0%B8%E8%88%88%E8%A1%9798%E5%B7%B714%E8%99%9F1%E6%A8%93",
+    "facebook": "https://www.facebook.com/search/top?q=%E9%98%BF%E5%88%A9%E7%8F%88%E5%A4%9A%E5%92%96%E5%95%A1%E9%A4%A8",
+    "instagram": "https://www.instagram.com/explore/tags/%E9%98%BF%E5%88%A9%E7%8F%88%E5%A4%9A%E5%92%96%E5%95%A1%E9%A4%A8/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E9%98%BF%E5%88%A9%E7%8F%88%E5%A4%9A%E5%92%96%E5%95%A1%E9%A4%A8%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8C%97%E5%8D%80%E6%B0%B8%E8%88%88%E8%A1%9798%E5%B7%B714%E8%99%9F1%E6%A8%93"
   },
   {
     "id": "tc-160",
@@ -4527,7 +3994,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%98%BF%E7%BE%A9%E9%B3%B3%E6%A2%A8%E5%86%B0-%E6%A2%A7%E6%A3%B2%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E6%A2%A7%E6%A3%B2%E5%8D%80%E6%B0%91%E7%94%9F%E8%A1%9728%E8%99%9F1%E6%A8%93",
+    "facebook": "https://www.facebook.com/search/top?q=%E9%98%BF%E7%BE%A9%E9%B3%B3%E6%A2%A8%E5%86%B0-%E6%A2%A7%E6%A3%B2%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E9%98%BF%E7%BE%A9%E9%B3%B3%E6%A2%A8%E5%86%B0%E6%A2%A7%E6%A3%B2%E5%BA%97/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E9%98%BF%E7%BE%A9%E9%B3%B3%E6%A2%A8%E5%86%B0-%E6%A2%A7%E6%A3%B2%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E6%A2%A7%E6%A3%B2%E5%8D%80%E6%B0%91%E7%94%9F%E8%A1%9728%E8%99%9F1%E6%A8%93"
   },
   {
     "id": "tc-161",
@@ -4559,13 +4030,17 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%98%BF%E9%87%91%E9%A3%9F%E5%A0%82%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%A4%A7%E9%9B%85%E5%8D%80%E9%9B%85%E7%92%B0%E8%B7%AF%E4%B8%80%E6%AE%B5154%E5%B7%B718%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E9%98%BF%E9%87%91%E9%A3%9F%E5%A0%82",
+    "instagram": "https://www.instagram.com/explore/tags/%E9%98%BF%E9%87%91%E9%A3%9F%E5%A0%82/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E9%98%BF%E9%87%91%E9%A3%9F%E5%A0%82%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%A4%A7%E9%9B%85%E5%8D%80%E9%9B%85%E7%92%B0%E8%B7%AF%E4%B8%80%E6%AE%B5154%E5%B7%B718%E8%99%9F"
   },
   {
     "id": "tc-162",
     "name": "露達寵物生活工坊",
     "legalName": "露達寵物工坊",
-    "category": "休閒娛樂/空間",
+    "category": "特色餐廳",
     "city": "臺中市",
     "district": "霧峰區",
     "address": "臺中市霧峰區中正路750號1樓",
@@ -4588,7 +4063,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%9C%B2%E9%81%94%E5%AF%B5%E7%89%A9%E7%94%9F%E6%B4%BB%E5%B7%A5%E5%9D%8A%20%E8%87%BA%E4%B8%AD%E5%B8%82%E9%9C%A7%E5%B3%B0%E5%8D%80%E4%B8%AD%E6%AD%A3%E8%B7%AF750%E8%99%9F1%E6%A8%93",
+    "facebook": "https://www.facebook.com/search/top?q=%E9%9C%B2%E9%81%94%E5%AF%B5%E7%89%A9%E7%94%9F%E6%B4%BB%E5%B7%A5%E5%9D%8A",
+    "instagram": "https://www.instagram.com/explore/tags/%E9%9C%B2%E9%81%94%E5%AF%B5%E7%89%A9%E7%94%9F%E6%B4%BB%E5%B7%A5%E5%9D%8A/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E9%9C%B2%E9%81%94%E5%AF%B5%E7%89%A9%E7%94%9F%E6%B4%BB%E5%B7%A5%E5%9D%8A%20%E8%87%BA%E4%B8%AD%E5%B8%82%E9%9C%A7%E5%B3%B0%E5%8D%80%E4%B8%AD%E6%AD%A3%E8%B7%AF750%E8%99%9F1%E6%A8%93"
   },
   {
     "id": "tc-163",
@@ -4615,7 +4094,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%A0%86%E5%92%96%E5%95%A1%20%E8%87%BA%E4%B8%AD%E5%B8%82%E4%B8%AD%E5%8D%80%E5%B8%82%E5%BA%9C%E8%B7%AF107%E5%B7%B71-2%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E9%A0%86%E5%92%96%E5%95%A1",
+    "instagram": "https://www.instagram.com/explore/tags/%E9%A0%86%E5%92%96%E5%95%A1/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E9%A0%86%E5%92%96%E5%95%A1%20%E8%87%BA%E4%B8%AD%E5%B8%82%E4%B8%AD%E5%8D%80%E5%B8%82%E5%BA%9C%E8%B7%AF107%E5%B7%B71-2%E8%99%9F"
   },
   {
     "id": "tc-164",
@@ -4646,7 +4129,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%A3%AA%E5%AE%A4%E5%92%96%E5%93%A9-%E5%85%AC%E6%AD%A3%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%85%AC%E6%AD%A3%E8%B7%AF168%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E9%A3%AA%E5%AE%A4%E5%92%96%E5%93%A9-%E5%85%AC%E6%AD%A3%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E9%A3%AA%E5%AE%A4%E5%92%96%E5%93%A9%E5%85%AC%E6%AD%A3%E5%BA%97/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E9%A3%AA%E5%AE%A4%E5%92%96%E5%93%A9-%E5%85%AC%E6%AD%A3%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%85%AC%E6%AD%A3%E8%B7%AF168%E8%99%9F"
   },
   {
     "id": "tc-165",
@@ -4677,36 +4164,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
-  },
-  {
-    "id": "tc-166",
-    "name": "飽屋寵物美容鮮食館",
-    "legalName": "飽屋寵物美容鮮食館",
-    "category": "休閒娛樂/空間",
-    "city": "臺中市",
-    "district": "西屯區",
-    "address": "臺中市西屯區大隆路72號2樓",
-    "phone": "0966-293606",
-    "lat": 24.157295,
-    "lng": 120.654442,
-    "petsAllowed": [
-      "犬"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "提供寵物食物",
-      "遊戲區",
-      "便溺區",
-      "定期消毒"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%A3%AA%E5%AE%A4%E5%92%96%E5%93%A9-%E5%8B%A4%E7%BE%8E%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E7%BE%8E%E6%9D%91%E8%B7%AF%E4%B8%80%E6%AE%B5149%E5%B7%B719%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E9%A3%AA%E5%AE%A4%E5%92%96%E5%93%A9-%E5%8B%A4%E7%BE%8E%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E9%A3%AA%E5%AE%A4%E5%92%96%E5%93%A9%E5%8B%A4%E7%BE%8E%E5%BA%97/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E9%A3%AA%E5%AE%A4%E5%92%96%E5%93%A9-%E5%8B%A4%E7%BE%8E%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E7%BE%8E%E6%9D%91%E8%B7%AF%E4%B8%80%E6%AE%B5149%E5%B7%B719%E8%99%9F"
   },
   {
     "id": "tc-167",
@@ -4735,7 +4197,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%A4%8A%E9%8D%8B%E4%B8%AD%E7%A7%91%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%B1%AF%E5%8D%80%E8%A5%BF%E5%B1%AF%E8%B7%AF%E4%B8%89%E6%AE%B595-1%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E9%A4%8A%E9%8D%8B%E4%B8%AD%E7%A7%91%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E9%A4%8A%E9%8D%8B%E4%B8%AD%E7%A7%91%E5%BA%97/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E9%A4%8A%E9%8D%8B%E4%B8%AD%E7%A7%91%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%B1%AF%E5%8D%80%E8%A5%BF%E5%B1%AF%E8%B7%AF%E4%B8%89%E6%AE%B595-1%E8%99%9F"
   },
   {
     "id": "tc-168",
@@ -4762,7 +4228,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%A4%8A%E9%8D%8B%E5%8D%97%E5%B1%AF%E9%BB%8E%E6%98%8E%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8D%97%E5%B1%AF%E5%8D%80%E5%B9%B2%E5%9F%8E%E8%A1%97309%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E9%A4%8A%E9%8D%8B%E5%8D%97%E5%B1%AF%E9%BB%8E%E6%98%8E%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E9%A4%8A%E9%8D%8B%E5%8D%97%E5%B1%AF%E9%BB%8E%E6%98%8E%E5%BA%97/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E9%A4%8A%E9%8D%8B%E5%8D%97%E5%B1%AF%E9%BB%8E%E6%98%8E%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8D%97%E5%B1%AF%E5%8D%80%E5%B9%B2%E5%9F%8E%E8%A1%97309%E8%99%9F"
   },
   {
     "id": "tc-169",
@@ -4791,7 +4261,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%A4%8A%E9%8D%8B%E5%A4%A7%E9%87%8C%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%A4%A7%E9%87%8C%E5%8D%80%E5%A4%A7%E6%98%8E%E8%B7%AF242%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E9%A4%8A%E9%8D%8B%E5%A4%A7%E9%87%8C%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E9%A4%8A%E9%8D%8B%E5%A4%A7%E9%87%8C%E5%BA%97/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E9%A4%8A%E9%8D%8B%E5%A4%A7%E9%87%8C%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%A4%A7%E9%87%8C%E5%8D%80%E5%A4%A7%E6%98%8E%E8%B7%AF242%E8%99%9F"
   },
   {
     "id": "tc-170",
@@ -4820,7 +4294,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%A4%8A%E9%8D%8B%E5%A4%A7%E9%9B%85%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%A4%A7%E9%9B%85%E5%8D%80%E4%B8%AD%E6%B8%85%E6%9D%B1%E8%B7%AF271%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E9%A4%8A%E9%8D%8B%E5%A4%A7%E9%9B%85%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E9%A4%8A%E9%8D%8B%E5%A4%A7%E9%9B%85%E5%BA%97/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E9%A4%8A%E9%8D%8B%E5%A4%A7%E9%9B%85%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%A4%A7%E9%9B%85%E5%8D%80%E4%B8%AD%E6%B8%85%E6%9D%B1%E8%B7%AF271%E8%99%9F"
   },
   {
     "id": "tc-171",
@@ -4849,7 +4327,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%A4%8A%E9%8D%8B%E5%BF%A0%E5%AD%9D%E5%A4%9C%E5%B8%82%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8D%97%E5%8D%80%E5%BF%A0%E5%AD%9D%E8%B7%AF208%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E9%A4%8A%E9%8D%8B%E5%BF%A0%E5%AD%9D%E5%A4%9C%E5%B8%82%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E9%A4%8A%E9%8D%8B%E5%BF%A0%E5%AD%9D%E5%A4%9C%E5%B8%82%E5%BA%97/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E9%A4%8A%E9%8D%8B%E5%BF%A0%E5%AD%9D%E5%A4%9C%E5%B8%82%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8D%97%E5%8D%80%E5%BF%A0%E5%AD%9D%E8%B7%AF208%E8%99%9F"
   },
   {
     "id": "tc-172",
@@ -4876,7 +4358,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%A4%8A%E9%8D%8B%E6%96%87%E5%BF%83%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8C%97%E5%B1%AF%E5%8D%80%E6%96%87%E5%BF%83%E8%B7%AF%E5%9B%9B%E6%AE%B5679%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E9%A4%8A%E9%8D%8B%E6%96%87%E5%BF%83%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E9%A4%8A%E9%8D%8B%E6%96%87%E5%BF%83%E5%BA%97/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E9%A4%8A%E9%8D%8B%E6%96%87%E5%BF%83%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8C%97%E5%B1%AF%E5%8D%80%E6%96%87%E5%BF%83%E8%B7%AF%E5%9B%9B%E6%AE%B5679%E8%99%9F"
   },
   {
     "id": "tc-173",
@@ -4905,13 +4391,17 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%A4%8A%E9%8D%8B%E6%B0%B4%E6%B9%B3%E7%B6%93%E8%B2%BF%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%B1%AF%E5%8D%80%E4%B8%AD%E5%B9%B3%E8%B7%AF161%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E9%A4%8A%E9%8D%8B%E6%B0%B4%E6%B9%B3%E7%B6%93%E8%B2%BF%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E9%A4%8A%E9%8D%8B%E6%B0%B4%E6%B9%B3%E7%B6%93%E8%B2%BF%E5%BA%97/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E9%A4%8A%E9%8D%8B%E6%B0%B4%E6%B9%B3%E7%B6%93%E8%B2%BF%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%B1%AF%E5%8D%80%E4%B8%AD%E5%B9%B3%E8%B7%AF161%E8%99%9F"
   },
   {
     "id": "tc-174",
     "name": "魔技健康運動休閒用品有限公司",
     "legalName": "魔技健康運動休閒用品有限公司",
-    "category": "休閒娛樂/空間",
+    "category": "特色餐廳",
     "city": "臺中市",
     "district": "西屯區",
     "address": "臺中市西屯區福星北路31號",
@@ -4933,7 +4423,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AD%94%E6%8A%80%E5%81%A5%E5%BA%B7%E9%81%8B%E5%8B%95%E4%BC%91%E9%96%92%E7%94%A8%E5%93%81%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%B1%AF%E5%8D%80%E7%A6%8F%E6%98%9F%E5%8C%97%E8%B7%AF31%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E9%AD%94%E6%8A%80%E5%81%A5%E5%BA%B7%E9%81%8B%E5%8B%95%E4%BC%91%E9%96%92%E7%94%A8%E5%93%81%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+    "instagram": "https://www.instagram.com/explore/tags/%E9%AD%94%E6%8A%80%E5%81%A5%E5%BA%B7%E9%81%8B%E5%8B%95%E4%BC%91%E9%96%92%E7%94%A8%E5%93%81%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E9%AD%94%E6%8A%80%E5%81%A5%E5%BA%B7%E9%81%8B%E5%8B%95%E4%BC%91%E9%96%92%E7%94%A8%E5%93%81%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%B1%AF%E5%8D%80%E7%A6%8F%E6%98%9F%E5%8C%97%E8%B7%AF31%E8%99%9F"
   },
   {
     "id": "tc-175",
@@ -4962,7 +4456,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AD%9A%E4%B8%AD%E9%AD%9A%E8%B2%93%E7%8B%97%E6%B0%B4%E6%97%8F%E5%A4%A7%E8%B3%A3%E5%A0%B4-%E5%8C%97%E5%B1%AF%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8C%97%E5%B1%AF%E5%8D%80%E6%96%87%E5%BF%83%E8%B7%AF%E5%9B%9B%E6%AE%B5%20319%20%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E9%AD%9A%E4%B8%AD%E9%AD%9A%E8%B2%93%E7%8B%97%E6%B0%B4%E6%97%8F%E5%A4%A7%E8%B3%A3%E5%A0%B4-%E5%8C%97%E5%B1%AF%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E9%AD%9A%E4%B8%AD%E9%AD%9A%E8%B2%93%E7%8B%97%E6%B0%B4%E6%97%8F%E5%A4%A7%E8%B3%A3%E5%A0%B4%E5%8C%97%E5%B1%AF%E5%BA%97/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E9%AD%9A%E4%B8%AD%E9%AD%9A%E8%B2%93%E7%8B%97%E6%B0%B4%E6%97%8F%E5%A4%A7%E8%B3%A3%E5%A0%B4-%E5%8C%97%E5%B1%AF%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8C%97%E5%B1%AF%E5%8D%80%E6%96%87%E5%BF%83%E8%B7%AF%E5%9B%9B%E6%AE%B5%20319%20%E8%99%9F"
   },
   {
     "id": "tc-176",
@@ -4991,7 +4489,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AD%9A%E4%B8%AD%E9%AD%9A%E8%B2%93%E7%8B%97%E6%B0%B4%E6%97%8F%E5%A4%A7%E8%B3%A3%E5%A0%B4-%E5%8D%97%E5%B1%AF%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8D%97%E5%B1%AF%E5%8D%80%E4%BA%94%E6%AC%8A%E8%A5%BF%E8%B7%AF%E4%BA%8C%E6%AE%B580%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E9%AD%9A%E4%B8%AD%E9%AD%9A%E8%B2%93%E7%8B%97%E6%B0%B4%E6%97%8F%E5%A4%A7%E8%B3%A3%E5%A0%B4-%E5%8D%97%E5%B1%AF%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E9%AD%9A%E4%B8%AD%E9%AD%9A%E8%B2%93%E7%8B%97%E6%B0%B4%E6%97%8F%E5%A4%A7%E8%B3%A3%E5%A0%B4%E5%8D%97%E5%B1%AF%E5%BA%97/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E9%AD%9A%E4%B8%AD%E9%AD%9A%E8%B2%93%E7%8B%97%E6%B0%B4%E6%97%8F%E5%A4%A7%E8%B3%A3%E5%A0%B4-%E5%8D%97%E5%B1%AF%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8D%97%E5%B1%AF%E5%8D%80%E4%BA%94%E6%AC%8A%E8%A5%BF%E8%B7%AF%E4%BA%8C%E6%AE%B580%E8%99%9F"
   },
   {
     "id": "tc-177",
@@ -5020,7 +4522,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AD%9A%E4%B8%AD%E9%AD%9A%E8%B2%93%E7%8B%97%E6%B0%B4%E6%97%8F%E5%A4%A7%E8%B3%A3%E5%A0%B4-%E5%A4%A7%E9%87%8C%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%A4%A7%E9%87%8C%E5%8D%80%E5%9C%8B%E5%85%89%E8%B7%AF%E4%BA%8C%E6%AE%B5505%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E9%AD%9A%E4%B8%AD%E9%AD%9A%E8%B2%93%E7%8B%97%E6%B0%B4%E6%97%8F%E5%A4%A7%E8%B3%A3%E5%A0%B4-%E5%A4%A7%E9%87%8C%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E9%AD%9A%E4%B8%AD%E9%AD%9A%E8%B2%93%E7%8B%97%E6%B0%B4%E6%97%8F%E5%A4%A7%E8%B3%A3%E5%A0%B4%E5%A4%A7%E9%87%8C%E5%BA%97/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E9%AD%9A%E4%B8%AD%E9%AD%9A%E8%B2%93%E7%8B%97%E6%B0%B4%E6%97%8F%E5%A4%A7%E8%B3%A3%E5%A0%B4-%E5%A4%A7%E9%87%8C%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%A4%A7%E9%87%8C%E5%8D%80%E5%9C%8B%E5%85%89%E8%B7%AF%E4%BA%8C%E6%AE%B5505%E8%99%9F"
   },
   {
     "id": "tc-178",
@@ -5049,7 +4555,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AD%9A%E4%B8%AD%E9%AD%9A%E8%B2%93%E7%8B%97%E6%B0%B4%E6%97%8F%E5%A4%A7%E8%B3%A3%E5%A0%B4-%E6%96%87%E5%BF%83%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8D%97%E5%B1%AF%E5%8D%80%E6%96%87%E5%BF%83%E8%B7%AF%E4%B8%80%E6%AE%B5372%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E9%AD%9A%E4%B8%AD%E9%AD%9A%E8%B2%93%E7%8B%97%E6%B0%B4%E6%97%8F%E5%A4%A7%E8%B3%A3%E5%A0%B4-%E6%96%87%E5%BF%83%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E9%AD%9A%E4%B8%AD%E9%AD%9A%E8%B2%93%E7%8B%97%E6%B0%B4%E6%97%8F%E5%A4%A7%E8%B3%A3%E5%A0%B4%E6%96%87%E5%BF%83%E5%BA%97/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E9%AD%9A%E4%B8%AD%E9%AD%9A%E8%B2%93%E7%8B%97%E6%B0%B4%E6%97%8F%E5%A4%A7%E8%B3%A3%E5%A0%B4-%E6%96%87%E5%BF%83%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8D%97%E5%B1%AF%E5%8D%80%E6%96%87%E5%BF%83%E8%B7%AF%E4%B8%80%E6%AE%B5372%E8%99%9F"
   },
   {
     "id": "tc-179",
@@ -5078,7 +4588,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AD%9A%E4%B8%AD%E9%AD%9A%E8%B2%93%E7%8B%97%E6%B0%B4%E6%97%8F%E5%A4%A7%E8%B3%A3%E5%A0%B4-%E6%96%87%E6%98%8C%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8C%97%E5%B1%AF%E5%8D%80%E6%96%87%E5%BF%83%E8%B7%AF%E5%9B%9B%E6%AE%B5%20806%20%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E9%AD%9A%E4%B8%AD%E9%AD%9A%E8%B2%93%E7%8B%97%E6%B0%B4%E6%97%8F%E5%A4%A7%E8%B3%A3%E5%A0%B4-%E6%96%87%E6%98%8C%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E9%AD%9A%E4%B8%AD%E9%AD%9A%E8%B2%93%E7%8B%97%E6%B0%B4%E6%97%8F%E5%A4%A7%E8%B3%A3%E5%A0%B4%E6%96%87%E6%98%8C%E5%BA%97/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E9%AD%9A%E4%B8%AD%E9%AD%9A%E8%B2%93%E7%8B%97%E6%B0%B4%E6%97%8F%E5%A4%A7%E8%B3%A3%E5%A0%B4-%E6%96%87%E6%98%8C%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8C%97%E5%B1%AF%E5%8D%80%E6%96%87%E5%BF%83%E8%B7%AF%E5%9B%9B%E6%AE%B5%20806%20%E8%99%9F"
   },
   {
     "id": "tc-180",
@@ -5108,7 +4622,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AD%9A%E4%B8%AD%E9%AD%9A%E8%B2%93%E7%8B%97%E6%B0%B4%E6%97%8F%E5%A4%A7%E8%B3%A3%E5%A0%B4-%E6%B8%85%E6%B0%B4%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E6%B8%85%E6%B0%B4%E5%8D%80%E6%AD%A6%E9%B9%BF%E9%87%8C%E4%BA%94%E6%AC%8A%E8%B7%AF63%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E9%AD%9A%E4%B8%AD%E9%AD%9A%E8%B2%93%E7%8B%97%E6%B0%B4%E6%97%8F%E5%A4%A7%E8%B3%A3%E5%A0%B4-%E6%B8%85%E6%B0%B4%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E9%AD%9A%E4%B8%AD%E9%AD%9A%E8%B2%93%E7%8B%97%E6%B0%B4%E6%97%8F%E5%A4%A7%E8%B3%A3%E5%A0%B4%E6%B8%85%E6%B0%B4%E5%BA%97/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E9%AD%9A%E4%B8%AD%E9%AD%9A%E8%B2%93%E7%8B%97%E6%B0%B4%E6%97%8F%E5%A4%A7%E8%B3%A3%E5%A0%B4-%E6%B8%85%E6%B0%B4%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E6%B8%85%E6%B0%B4%E5%8D%80%E6%AD%A6%E9%B9%BF%E9%87%8C%E4%BA%94%E6%AC%8A%E8%B7%AF63%E8%99%9F"
   },
   {
     "id": "tc-181",
@@ -5137,7 +4655,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%AD%9A%E4%B8%AD%E9%AD%9A%E8%B2%93%E7%8B%97%E6%B0%B4%E6%97%8F%E5%A4%A7%E8%B3%A3%E5%A0%B4%E2%80%93%E8%B1%90%E5%8E%9F%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%B1%90%E5%8E%9F%E5%8D%80%E8%B1%90%E5%8E%9F%E5%A4%A7%E9%81%93%E5%85%AD%E6%AE%B5%20835%20%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E9%AD%9A%E4%B8%AD%E9%AD%9A%E8%B2%93%E7%8B%97%E6%B0%B4%E6%97%8F%E5%A4%A7%E8%B3%A3%E5%A0%B4%E2%80%93%E8%B1%90%E5%8E%9F%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E9%AD%9A%E4%B8%AD%E9%AD%9A%E8%B2%93%E7%8B%97%E6%B0%B4%E6%97%8F%E5%A4%A7%E8%B3%A3%E5%A0%B4%E8%B1%90%E5%8E%9F%E5%BA%97/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E9%AD%9A%E4%B8%AD%E9%AD%9A%E8%B2%93%E7%8B%97%E6%B0%B4%E6%97%8F%E5%A4%A7%E8%B3%A3%E5%A0%B4%E2%80%93%E8%B1%90%E5%8E%9F%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%B1%90%E5%8E%9F%E5%8D%80%E8%B1%90%E5%8E%9F%E5%A4%A7%E9%81%93%E5%85%AD%E6%AE%B5%20835%20%E8%99%9F"
   },
   {
     "id": "tc-182",
@@ -5165,13 +4687,17 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%B5%9D%E7%89%8C%E6%B0%A3%E5%AF%86%E7%AA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E6%B2%99%E9%B9%BF%E5%8D%80%E6%9D%B1%E5%A4%A7%E8%B7%AF%E4%BA%8C%E6%AE%B51536%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E9%B5%9D%E7%89%8C%E6%B0%A3%E5%AF%86%E7%AA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E9%B5%9D%E7%89%8C%E6%B0%A3%E5%AF%86%E7%AA%97/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E9%B5%9D%E7%89%8C%E6%B0%A3%E5%AF%86%E7%AA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E6%B2%99%E9%B9%BF%E5%8D%80%E6%9D%B1%E5%A4%A7%E8%B7%AF%E4%BA%8C%E6%AE%B51536%E8%99%9F"
   },
   {
     "id": "tc-183",
     "name": "麗寶OutletMall",
     "legalName": "麗鑫綜合百貨股份有限公司",
-    "category": "休閒娛樂/空間",
+    "category": "特色餐廳",
     "city": "臺中市",
     "district": "后里區",
     "address": "臺中市后里區福容路201號",
@@ -5194,13 +4720,17 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%BA%97%E5%AF%B6OutletMall%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%90%8E%E9%87%8C%E5%8D%80%E7%A6%8F%E5%AE%B9%E8%B7%AF201%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E9%BA%97%E5%AF%B6OutletMall",
+    "instagram": "https://www.instagram.com/explore/tags/%E9%BA%97%E5%AF%B6OutletMall/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E9%BA%97%E5%AF%B6OutletMall%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%90%8E%E9%87%8C%E5%8D%80%E7%A6%8F%E5%AE%B9%E8%B7%AF201%E8%99%9F"
   },
   {
     "id": "tc-184",
     "name": "麗都賓館",
     "legalName": "麗都企業社",
-    "category": "友善住宿/露營",
+    "category": "特色餐廳",
     "city": "臺中市",
     "district": "西屯區",
     "address": "臺中市西屯區中康街81號",
@@ -5221,7 +4751,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%BA%97%E9%83%BD%E8%B3%93%E9%A4%A8%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%B1%AF%E5%8D%80%E4%B8%AD%E5%BA%B7%E8%A1%9781%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E9%BA%97%E9%83%BD%E8%B3%93%E9%A4%A8",
+    "instagram": "https://www.instagram.com/explore/tags/%E9%BA%97%E9%83%BD%E8%B3%93%E9%A4%A8/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E9%BA%97%E9%83%BD%E8%B3%93%E9%A4%A8%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%B1%AF%E5%8D%80%E4%B8%AD%E5%BA%B7%E8%A1%9781%E8%99%9F"
   },
   {
     "id": "tc-185",
@@ -5250,7 +4784,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%BB%91%E8%99%8E%E7%9A%84%E8%82%89%E8%82%89%E9%A3%9F%E5%A0%82%20%E8%87%BA%E4%B8%AD%E5%B8%82%E6%A2%A7%E6%A3%B2%E5%8D%80%E5%BB%BA%E5%9C%8B%E5%8C%97%E8%A1%97259%E5%B7%B770%E8%99%9F1%E6%A8%93",
+    "facebook": "https://www.facebook.com/search/top?q=%E9%BB%91%E8%99%8E%E7%9A%84%E8%82%89%E8%82%89%E9%A3%9F%E5%A0%82",
+    "instagram": "https://www.instagram.com/explore/tags/%E9%BB%91%E8%99%8E%E7%9A%84%E8%82%89%E8%82%89%E9%A3%9F%E5%A0%82/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E9%BB%91%E8%99%8E%E7%9A%84%E8%82%89%E8%82%89%E9%A3%9F%E5%A0%82%20%E8%87%BA%E4%B8%AD%E5%B8%82%E6%A2%A7%E6%A3%B2%E5%8D%80%E5%BB%BA%E5%9C%8B%E5%8C%97%E8%A1%97259%E5%B7%B770%E8%99%9F1%E6%A8%93"
   },
   {
     "id": "tc-186",
@@ -5280,7 +4818,11 @@ window.PET_PLACES_DATA = [
     "source": "臺中市動物保護防疫處 (官方認證)",
     "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
     "verified": true,
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%F0%9D%90%87%F0%9D%90%8E%F0%9D%90%96%F0%9D%90%96%F0%9D%90%8E%F0%9D%90%96%20%E1%B5%95%CC%88%20%E5%A5%BD%E5%96%94%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8C%97%E5%B1%AF%E5%8D%80%E8%BB%8D%E7%A6%8F%E5%8D%81%E5%85%AD%E8%B7%AF177%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%F0%9D%90%87%F0%9D%90%8E%F0%9D%90%96%F0%9D%90%96%F0%9D%90%8E%F0%9D%90%96%20%E1%B5%95%CC%88%20%E5%A5%BD%E5%96%94",
+    "instagram": "https://www.instagram.com/explore/tags/%F0%9D%90%87%F0%9D%90%8E%F0%9D%90%96%F0%9D%90%96%F0%9D%90%8E%F0%9D%90%96%E1%B5%95%E5%A5%BD%E5%96%94/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%F0%9D%90%87%F0%9D%90%8E%F0%9D%90%96%F0%9D%90%96%F0%9D%90%8E%F0%9D%90%96%20%E1%B5%95%CC%88%20%E5%A5%BD%E5%96%94%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8C%97%E5%B1%AF%E5%8D%80%E8%BB%8D%E7%A6%8F%E5%8D%81%E5%85%AD%E8%B7%AF177%E8%99%9F"
   },
   {
     "id": "tpe-1",
@@ -5312,7 +4854,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Well%20Done%20Space%20%E8%87%BA%E5%8C%97%E5%B8%82%E6%9D%BE%E5%B1%B1%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=Well%20Done%20Space",
+    "instagram": "https://www.instagram.com/explore/tags/WellDoneSpace/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-2",
@@ -5340,7 +4886,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=BaganHood%20%E8%94%AC%E9%A3%9F%E9%A4%90%E9%85%92%E9%A4%A8-%E5%B8%82%E6%94%BF%E5%BA%9C%E7%AB%99%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%BF%A1%E7%BE%A9%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=BaganHood%20%E8%94%AC%E9%A3%9F%E9%A4%90%E9%85%92%E9%A4%A8-%E5%B8%82%E6%94%BF%E5%BA%9C%E7%AB%99",
+    "instagram": "https://www.instagram.com/explore/tags/BaganHood%E8%94%AC%E9%A3%9F%E9%A4%90%E9%85%92%E9%A4%A8%E5%B8%82%E6%94%BF%E5%BA%9C%E7%AB%99/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-3",
@@ -5369,7 +4919,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9C%88%E5%85%89%E8%B3%9E%E8%8C%B6%E6%95%85%E4%BA%8B%E9%A4%A8%20%E8%87%BA%E5%8C%97%E5%B8%82%E6%96%87%E5%B1%B1%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%9C%88%E5%85%89%E8%B3%9E%E8%8C%B6%E6%95%85%E4%BA%8B%E9%A4%A8",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%9C%88%E5%85%89%E8%B3%9E%E8%8C%B6%E6%95%85%E4%BA%8B%E9%A4%A8/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-4",
@@ -5399,7 +4953,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%98%BF%E7%BE%A9%E5%B8%AB%E7%9A%84%E5%A4%A7%E8%8C%B6%E5%A3%BA%E8%8C%B6%E9%A4%90%E5%BB%B3%20%E8%87%BA%E5%8C%97%E5%B8%82%E6%96%87%E5%B1%B1%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E9%98%BF%E7%BE%A9%E5%B8%AB%E7%9A%84%E5%A4%A7%E8%8C%B6%E5%A3%BA%E8%8C%B6%E9%A4%90%E5%BB%B3",
+    "instagram": "https://www.instagram.com/explore/tags/%E9%98%BF%E7%BE%A9%E5%B8%AB%E7%9A%84%E5%A4%A7%E8%8C%B6%E5%A3%BA%E8%8C%B6%E9%A4%90%E5%BB%B3/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-5",
@@ -5426,7 +4984,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%B2%93%E7%A9%BA%E9%96%92%E5%92%96%E5%95%A1%20%E8%87%BA%E5%8C%97%E5%B8%82%E6%96%87%E5%B1%B1%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E8%B2%93%E7%A9%BA%E9%96%92%E5%92%96%E5%95%A1",
+    "instagram": "https://www.instagram.com/explore/tags/%E8%B2%93%E7%A9%BA%E9%96%92%E5%92%96%E5%95%A1/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-6",
@@ -5454,7 +5016,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%B2%93%E7%A9%BA%E6%B8%85%E6%B3%89%E5%BB%A3%E5%A0%B4%20%E8%87%BA%E5%8C%97%E5%B8%82%E6%96%87%E5%B1%B1%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E8%B2%93%E7%A9%BA%E6%B8%85%E6%B3%89%E5%BB%A3%E5%A0%B4",
+    "instagram": "https://www.instagram.com/explore/tags/%E8%B2%93%E7%A9%BA%E6%B8%85%E6%B3%89%E5%BB%A3%E5%A0%B4/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-7",
@@ -5483,7 +5049,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Purrson%20%E5%91%BC%E5%9A%95%E5%B0%8F%E9%85%92%E9%A4%A8%20%E8%87%BA%E5%8C%97%E5%B8%82%E6%96%87%E5%B1%B1%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=Purrson%20%E5%91%BC%E5%9A%95%E5%B0%8F%E9%85%92%E9%A4%A8",
+    "instagram": "https://www.instagram.com/explore/tags/Purrson%E5%91%BC%E5%9A%95%E5%B0%8F%E9%85%92%E9%A4%A8/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-8",
@@ -5514,7 +5084,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%AD%A3%E5%A4%A7%E4%BC%91%E9%96%92%E8%8C%B6%E5%9C%92%20%E8%87%BA%E5%8C%97%E5%B8%82%E6%96%87%E5%B1%B1%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%AD%A3%E5%A4%A7%E4%BC%91%E9%96%92%E8%8C%B6%E5%9C%92",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%AD%A3%E5%A4%A7%E4%BC%91%E9%96%92%E8%8C%B6%E5%9C%92/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-9",
@@ -5543,7 +5117,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%B2%93%E7%A9%BA%E9%9B%99%E6%A9%A1%E5%9C%92%E8%8C%B6%E5%9D%8A%20%E8%87%BA%E5%8C%97%E5%B8%82%E6%96%87%E5%B1%B1%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E8%B2%93%E7%A9%BA%E9%9B%99%E6%A9%A1%E5%9C%92%E8%8C%B6%E5%9D%8A",
+    "instagram": "https://www.instagram.com/explore/tags/%E8%B2%93%E7%A9%BA%E9%9B%99%E6%A9%A1%E5%9C%92%E8%8C%B6%E5%9D%8A/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-10",
@@ -5570,37 +5148,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
-  },
-  {
-    "id": "tpe-11",
-    "name": "貓空龍門客棧 Longmen Restaurant",
-    "legalName": "貓空龍門客棧 Longmen Restaurant",
-    "category": "景觀茶餐廳",
-    "city": "臺北市",
-    "district": "文山區",
-    "address": "臺北市文山區（台北動保處登錄動物友善空間）",
-    "phone": "依店家現場公告為準",
-    "lat": 24.967214,
-    "lng": 121.586853,
-    "petsAllowed": [
-      "家犬，大型(>23公斤)",
-      "家犬，中型(9-23公斤)",
-      "家犬，小型(<9公斤)",
-      "家貓"
-    ],
-    "rules": [
-      "可落地"
-    ],
-    "features": [
-      "提供寵物飲水",
-      "提供酒精或乾洗手",
-      "協助清潔便溺物"
-    ],
-    "source": "臺北市動物保護處 (官方認證)",
-    "sourceUrl": "https://www.tcapo.gov.taipei/",
-    "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%BF%83%E4%B8%B0%E5%BE%A1%E8%86%B3%E6%97%A5%E5%BC%8F%E6%96%99%E7%90%86%20%E8%87%BA%E5%8C%97%E5%B8%82%E8%90%AC%E8%8F%AF%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%BF%83%E4%B8%B0%E5%BE%A1%E8%86%B3%E6%97%A5%E5%BC%8F%E6%96%99%E7%90%86",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%BF%83%E4%B8%B0%E5%BE%A1%E8%86%B3%E6%97%A5%E5%BC%8F%E6%96%99%E7%90%86/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-12",
@@ -5627,7 +5179,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Verona%E5%89%B5%E7%BE%A9%E5%BB%9A%E6%88%BF%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%BF%A1%E7%BE%A9%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=Verona%E5%89%B5%E7%BE%A9%E5%BB%9A%E6%88%BF",
+    "instagram": "https://www.instagram.com/explore/tags/Verona%E5%89%B5%E7%BE%A9%E5%BB%9A%E6%88%BF/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-13",
@@ -5654,7 +5210,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%90%90%E5%8F%B8%E8%82%A1%E9%95%B7%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%BF%A1%E7%BE%A9%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%90%90%E5%8F%B8%E8%82%A1%E9%95%B7",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%90%90%E5%8F%B8%E8%82%A1%E9%95%B7/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-14",
@@ -5683,7 +5243,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8A%A0%E7%88%BE%E7%AC%AC%E5%92%96%E5%95%A1%20%E8%8E%8A%E6%95%AC%E5%BA%97%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%BF%A1%E7%BE%A9%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%8A%A0%E7%88%BE%E7%AC%AC%E5%92%96%E5%95%A1%20%E8%8E%8A%E6%95%AC%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%8A%A0%E7%88%BE%E7%AC%AC%E5%92%96%E5%95%A1%E8%8E%8A%E6%95%AC%E5%BA%97/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-15",
@@ -5712,7 +5276,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8A%A0%E7%88%BE%E7%AC%AC%E5%92%96%E5%95%A1%20%E5%90%B3%E8%88%88%E5%BA%97%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%BF%A1%E7%BE%A9%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%8A%A0%E7%88%BE%E7%AC%AC%E5%92%96%E5%95%A1%20%E5%90%B3%E8%88%88%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%8A%A0%E7%88%BE%E7%AC%AC%E5%92%96%E5%95%A1%E5%90%B3%E8%88%88%E5%BA%97/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-16",
@@ -5741,7 +5309,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=MJ%27s%20Pizza%20Bar%20%E7%91%AA%E8%8E%89%E7%8F%8D%E6%8A%AB%E8%96%A9-%E4%BF%A1%E7%BE%A9%E5%BA%97%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%BF%A1%E7%BE%A9%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=MJ%27s%20Pizza%20Bar%20%E7%91%AA%E8%8E%89%E7%8F%8D%E6%8A%AB%E8%96%A9-%E4%BF%A1%E7%BE%A9%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/MJsPizzaBar%E7%91%AA%E8%8E%89%E7%8F%8D%E6%8A%AB%E8%96%A9%E4%BF%A1%E7%BE%A9%E5%BA%97/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-17",
@@ -5769,7 +5341,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9B%B0%E6%9B%B0cafe%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%BF%A1%E7%BE%A9%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%9B%B0%E6%9B%B0cafe",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%9B%B0%E6%9B%B0cafe/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-18",
@@ -5797,7 +5373,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8D%88%E5%90%8E%2C%E6%97%A5%E5%85%89drink%26food%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%BF%A1%E7%BE%A9%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%8D%88%E5%90%8E%2C%E6%97%A5%E5%85%89drink%26food",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%8D%88%E5%90%8E%E6%97%A5%E5%85%89drinkfood/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-19",
@@ -5824,7 +5404,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=June%20Burger%20%E5%95%BE%E6%BC%A2%E5%A0%A1%E5%BA%97%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%BF%A1%E7%BE%A9%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=June%20Burger%20%E5%95%BE%E6%BC%A2%E5%A0%A1%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/JuneBurger%E5%95%BE%E6%BC%A2%E5%A0%A1%E5%BA%97/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-20",
@@ -5851,7 +5435,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%98%BF%E5%85%AC%E7%9A%84%E6%B1%AA%E5%96%B5%E5%8E%9D-%E5%AF%B5%E7%89%A9%E5%8F%8B%E5%96%84%E9%A4%90%E5%BB%B3%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%BF%A1%E7%BE%A9%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E9%98%BF%E5%85%AC%E7%9A%84%E6%B1%AA%E5%96%B5%E5%8E%9D-%E5%AF%B5%E7%89%A9%E5%8F%8B%E5%96%84%E9%A4%90%E5%BB%B3",
+    "instagram": "https://www.instagram.com/explore/tags/%E9%98%BF%E5%85%AC%E7%9A%84%E6%B1%AA%E5%96%B5%E5%8E%9D%E5%AF%B5%E7%89%A9%E5%8F%8B%E5%96%84%E9%A4%90%E5%BB%B3/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-21",
@@ -5879,7 +5467,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%83%96%E8%80%81%E7%88%B9%E7%BE%8E%E5%BC%8F%E7%82%B8%E9%9B%9E%20%E5%8F%B0%E5%8C%97%E6%9D%BE%E5%B1%B1%E5%BA%97%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%BF%A1%E7%BE%A9%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E8%83%96%E8%80%81%E7%88%B9%E7%BE%8E%E5%BC%8F%E7%82%B8%E9%9B%9E%20%E5%8F%B0%E5%8C%97%E6%9D%BE%E5%B1%B1%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E8%83%96%E8%80%81%E7%88%B9%E7%BE%8E%E5%BC%8F%E7%82%B8%E9%9B%9E%E5%8F%B0%E5%8C%97%E6%9D%BE%E5%B1%B1%E5%BA%97/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-22",
@@ -5910,7 +5502,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%A6%95%20RON%20Xinyi%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%BF%A1%E7%BE%A9%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%A6%95%20RON%20Xinyi",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%A6%95RONXinyi/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-23",
@@ -5943,7 +5539,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B0%8F%E6%98%A5%E6%97%A5%E5%92%8C%20%E5%8B%95%E7%89%A9%E9%9B%9C%E8%B2%A8%E2%80%A7%E7%8F%88%E7%90%B2%20%E8%87%BA%E5%8C%97%E5%B8%82%E6%9D%BE%E5%B1%B1%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%B0%8F%E6%98%A5%E6%97%A5%E5%92%8C%20%E5%8B%95%E7%89%A9%E9%9B%9C%E8%B2%A8%E2%80%A7%E7%8F%88%E7%90%B2",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%B0%8F%E6%98%A5%E6%97%A5%E5%92%8C%E5%8B%95%E7%89%A9%E9%9B%9C%E8%B2%A8%E7%8F%88%E7%90%B2/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-24",
@@ -5970,7 +5570,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B6%BC%E4%BA%BACaf%C3%A9-%E6%9D%BE%E5%B1%B1%E5%BF%85%E5%96%9D%E5%92%96%E5%95%A1%7C%E6%89%93%E5%8D%A1%E5%92%96%E5%95%A1%7C%E6%89%8B%E4%BD%9C%E7%94%9C%E9%BB%9E%7C%E5%BF%85%E5%90%83%E7%94%9C%E9%BB%9E%7C%E4%BA%BA%E6%B0%A3%E6%96%99%E7%90%86%7C%E8%94%AC%E9%A3%9F%E5%92%96%E5%95%A1%E5%BB%B3%20%E8%87%BA%E5%8C%97%E5%B8%82%E6%9D%BE%E5%B1%B1%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%B6%BC%E4%BA%BACaf%C3%A9-%E6%9D%BE%E5%B1%B1%E5%BF%85%E5%96%9D%E5%92%96%E5%95%A1%7C%E6%89%93%E5%8D%A1%E5%92%96%E5%95%A1%7C%E6%89%8B%E4%BD%9C%E7%94%9C%E9%BB%9E%7C%E5%BF%85%E5%90%83%E7%94%9C%E9%BB%9E%7C%E4%BA%BA%E6%B0%A3%E6%96%99%E7%90%86%7C%E8%94%AC%E9%A3%9F%E5%92%96%E5%95%A1%E5%BB%B3",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%B6%BC%E4%BA%BACaf%C3%A9%E6%9D%BE%E5%B1%B1%E5%BF%85%E5%96%9D%E5%92%96%E5%95%A1%E6%89%93%E5%8D%A1%E5%92%96%E5%95%A1%E6%89%8B%E4%BD%9C%E7%94%9C%E9%BB%9E%E5%BF%85%E5%90%83%E7%94%9C%E9%BB%9E%E4%BA%BA%E6%B0%A3%E6%96%99%E7%90%86%E8%94%AC%E9%A3%9F%E5%92%96%E5%95%A1%E5%BB%B3/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-25",
@@ -5997,7 +5601,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%A7%92%E8%90%BD%E9%85%92%E5%90%A7The%20Corner%20One%20%E8%87%BA%E5%8C%97%E5%B8%82%E6%9D%BE%E5%B1%B1%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E8%A7%92%E8%90%BD%E9%85%92%E5%90%A7The%20Corner%20One",
+    "instagram": "https://www.instagram.com/explore/tags/%E8%A7%92%E8%90%BD%E9%85%92%E5%90%A7TheCornerOne/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-26",
@@ -6031,7 +5639,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%9B%9B%E7%9B%AE%E5%92%96%E5%95%A1%E5%AF%B5%E7%89%A9%E7%BE%8E%E5%AD%B8%20%E8%87%BA%E5%8C%97%E5%B8%82%E6%9D%BE%E5%B1%B1%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%9B%9B%E7%9B%AE%E5%92%96%E5%95%A1%E5%AF%B5%E7%89%A9%E7%BE%8E%E5%AD%B8",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%9B%9B%E7%9B%AE%E5%92%96%E5%95%A1%E5%AF%B5%E7%89%A9%E7%BE%8E%E5%AD%B8/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-27",
@@ -6062,7 +5674,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Style%20Steak%20%E4%B8%96%E4%BB%A3%E6%AD%90%E9%99%B8%E7%89%9B%E6%8E%92%E8%A5%BF%E9%A4%90%E5%BB%B3%20%E8%87%BA%E5%8C%97%E5%B8%82%E6%9D%BE%E5%B1%B1%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=Style%20Steak%20%E4%B8%96%E4%BB%A3%E6%AD%90%E9%99%B8%E7%89%9B%E6%8E%92%E8%A5%BF%E9%A4%90%E5%BB%B3",
+    "instagram": "https://www.instagram.com/explore/tags/StyleSteak%E4%B8%96%E4%BB%A3%E6%AD%90%E9%99%B8%E7%89%9B%E6%8E%92%E8%A5%BF%E9%A4%90%E5%BB%B3/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-28",
@@ -6090,7 +5706,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E7%83%B9%E5%B0%8F%E9%A5%8C%20%E8%83%96%E5%AD%90%E5%85%AB%E5%BE%B7%20%E5%8F%B0%E8%8F%9C%20%E7%86%B1%E7%82%92%20%E8%81%9A%E9%A4%90%20%E8%87%BA%E5%8C%97%E5%B8%82%E6%9D%BE%E5%B1%B1%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%A4%A7%E7%83%B9%E5%B0%8F%E9%A5%8C%20%E8%83%96%E5%AD%90%E5%85%AB%E5%BE%B7%20%E5%8F%B0%E8%8F%9C%20%E7%86%B1%E7%82%92%20%E8%81%9A%E9%A4%90",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%A4%A7%E7%83%B9%E5%B0%8F%E9%A5%8C%E8%83%96%E5%AD%90%E5%85%AB%E5%BE%B7%E5%8F%B0%E8%8F%9C%E7%86%B1%E7%82%92%E8%81%9A%E9%A4%90/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-29",
@@ -6120,7 +5740,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%8D%BA%E7%A9%BA%E9%96%93%20Aotter%20Space%20%E8%87%BA%E5%8C%97%E5%B8%82%E6%9D%BE%E5%B1%B1%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E7%8D%BA%E7%A9%BA%E9%96%93%20Aotter%20Space",
+    "instagram": "https://www.instagram.com/explore/tags/%E7%8D%BA%E7%A9%BA%E9%96%93AotterSpace/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-30",
@@ -6150,7 +5774,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%87%91%E5%B1%8B%E8%97%8F%E8%BB%8A%E9%A3%9F%E5%A0%82%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A3%AB%E6%9E%97%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E9%87%91%E5%B1%8B%E8%97%8F%E8%BB%8A%E9%A3%9F%E5%A0%82",
+    "instagram": "https://www.instagram.com/explore/tags/%E9%87%91%E5%B1%8B%E8%97%8F%E8%BB%8A%E9%A3%9F%E5%A0%82/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-31",
@@ -6179,7 +5807,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=BRICK%20YARD%2033%201%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%8C%97%E6%8A%95%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=BRICK%20YARD%2033%201",
+    "instagram": "https://www.instagram.com/explore/tags/BRICKYARD331/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-32",
@@ -6207,7 +5839,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=AN58%E8%A5%BF%E7%8F%AD%E7%89%99%E5%89%B5%E6%84%8F%E6%96%99%E7%90%86%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A3%AB%E6%9E%97%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=AN58%E8%A5%BF%E7%8F%AD%E7%89%99%E5%89%B5%E6%84%8F%E6%96%99%E7%90%86",
+    "instagram": "https://www.instagram.com/explore/tags/AN58%E8%A5%BF%E7%8F%AD%E7%89%99%E5%89%B5%E6%84%8F%E6%96%99%E7%90%86/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-33",
@@ -6237,7 +5873,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%A3%AE%E6%9E%97%E6%B4%BE%E5%B0%8D%E5%92%96%E5%95%A1%E9%A4%A8%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A3%AB%E6%9E%97%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%A3%AE%E6%9E%97%E6%B4%BE%E5%B0%8D%E5%92%96%E5%95%A1%E9%A4%A8",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%A3%AE%E6%9E%97%E6%B4%BE%E5%B0%8D%E5%92%96%E5%95%A1%E9%A4%A8/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-34",
@@ -6265,7 +5905,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%8C%B6%E5%92%96%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A3%AB%E6%9E%97%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E8%8C%B6%E5%92%96",
+    "instagram": "https://www.instagram.com/explore/tags/%E8%8C%B6%E5%92%96/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-35",
@@ -6292,7 +5936,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%92%A6%E7%9A%84%E5%B0%8F%E5%BB%9A%20Ann%27s%20Kitchen%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A3%AB%E6%9E%97%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E7%92%A6%E7%9A%84%E5%B0%8F%E5%BB%9A%20Ann%27s%20Kitchen",
+    "instagram": "https://www.instagram.com/explore/tags/%E7%92%A6%E7%9A%84%E5%B0%8F%E5%BB%9AAnnsKitchen/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-36",
@@ -6319,7 +5967,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%B2%B3%E6%A8%93%E9%A4%90%E5%BB%B3Second%20Floor%20Cafe%20%E5%B8%AB%E5%A4%A7%E5%BA%97%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E8%B2%B3%E6%A8%93%E9%A4%90%E5%BB%B3Second%20Floor%20Cafe%20%E5%B8%AB%E5%A4%A7%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E8%B2%B3%E6%A8%93%E9%A4%90%E5%BB%B3SecondFloorCafe%E5%B8%AB%E5%A4%A7%E5%BA%97/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-37",
@@ -6347,7 +5999,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%B2%B3%E6%A8%93%E9%A4%90%E5%BB%B3Second%20Floor%20Cafe%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E8%B2%B3%E6%A8%93%E9%A4%90%E5%BB%B3Second%20Floor%20Cafe",
+    "instagram": "https://www.instagram.com/explore/tags/%E8%B2%B3%E6%A8%93%E9%A4%90%E5%BB%B3SecondFloorCafe/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-38",
@@ -6375,7 +6031,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%90%90%E5%8F%B8%E5%88%A9%E4%BA%9ETOASTERiA%20Cafe-%E6%B0%B8%E5%BA%B7%E5%BA%97%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%90%90%E5%8F%B8%E5%88%A9%E4%BA%9ETOASTERiA%20Cafe-%E6%B0%B8%E5%BA%B7%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%90%90%E5%8F%B8%E5%88%A9%E4%BA%9ETOASTERiACafe%E6%B0%B8%E5%BA%B7%E5%BA%97/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-39",
@@ -6406,7 +6066,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%90%90%E5%8F%B8%E5%88%A9%E4%BA%9ETOASTERiA%20Cafe-%E4%B8%89%E8%99%9F%E6%95%A6%E5%8D%97%E5%BA%97%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%BF%A1%E7%BE%A9%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%90%90%E5%8F%B8%E5%88%A9%E4%BA%9ETOASTERiA%20Cafe-%E4%B8%89%E8%99%9F%E6%95%A6%E5%8D%97%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%90%90%E5%8F%B8%E5%88%A9%E4%BA%9ETOASTERiACafe%E4%B8%89%E8%99%9F%E6%95%A6%E5%8D%97%E5%BA%97/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-40",
@@ -6437,7 +6101,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=yoh%E6%9B%9C%E6%97%A5%E7%BE%A9%E5%BC%8F%E9%A4%90%E9%85%92%E9%A4%A8%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=yoh%E6%9B%9C%E6%97%A5%E7%BE%A9%E5%BC%8F%E9%A4%90%E9%85%92%E9%A4%A8",
+    "instagram": "https://www.instagram.com/explore/tags/yoh%E6%9B%9C%E6%97%A5%E7%BE%A9%E5%BC%8F%E9%A4%90%E9%85%92%E9%A4%A8/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-41",
@@ -6465,7 +6133,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=MissGreen%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=MissGreen",
+    "instagram": "https://www.instagram.com/explore/tags/MissGreen/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-42",
@@ -6493,7 +6165,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=TakeOut%20Burger%26Cafe%20%E9%80%9A%E5%8C%96%E5%BA%97%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%BF%A1%E7%BE%A9%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=TakeOut%20Burger%26Cafe%20%E9%80%9A%E5%8C%96%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/TakeOutBurgerCafe%E9%80%9A%E5%8C%96%E5%BA%97/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-43",
@@ -6520,7 +6196,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%A4%B5%E6%88%91%E6%97%A9%E9%A4%90%20The%20Whale%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E9%A4%B5%E6%88%91%E6%97%A9%E9%A4%90%20The%20Whale",
+    "instagram": "https://www.instagram.com/explore/tags/%E9%A4%B5%E6%88%91%E6%97%A9%E9%A4%90TheWhale/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-44",
@@ -6553,7 +6233,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Woodid%20%EC%9A%B0%EB%A6%AC%E6%89%8B%E4%BD%9C%E9%9F%93%E9%A3%9F%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%BF%A1%E7%BE%A9%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=Woodid%20%EC%9A%B0%EB%A6%AC%E6%89%8B%E4%BD%9C%E9%9F%93%E9%A3%9F",
+    "instagram": "https://www.instagram.com/explore/tags/Woodid%EC%9A%B0%EB%A6%AC%E6%89%8B%E4%BD%9C%E9%9F%93%E9%A3%9F/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-45",
@@ -6580,7 +6264,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Maryjane%20Pizza%20%E7%91%AA%E8%8E%89%E7%8F%8D%E6%AF%94%E8%96%A9%20%E5%8F%B0%E5%A4%A7%E5%BA%97%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=Maryjane%20Pizza%20%E7%91%AA%E8%8E%89%E7%8F%8D%E6%AF%94%E8%96%A9%20%E5%8F%B0%E5%A4%A7%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/MaryjanePizza%E7%91%AA%E8%8E%89%E7%8F%8D%E6%AF%94%E8%96%A9%E5%8F%B0%E5%A4%A7%E5%BA%97/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-46",
@@ -6609,7 +6297,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Maryjane%20Pizza%20%E7%91%AA%E8%8E%89%E7%8F%8D%E6%AF%94%E8%96%A9%20%E5%B8%AB%E5%A4%A7%E5%BA%97%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=Maryjane%20Pizza%20%E7%91%AA%E8%8E%89%E7%8F%8D%E6%AF%94%E8%96%A9%20%E5%B8%AB%E5%A4%A7%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/MaryjanePizza%E7%91%AA%E8%8E%89%E7%8F%8D%E6%AF%94%E8%96%A9%E5%B8%AB%E5%A4%A7%E5%BA%97/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-47",
@@ -6637,7 +6329,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Ooh%20Cha%20Cha%20%E8%87%AA%E7%84%B6%E9%A3%9F%E7%A7%91%E6%8A%80%E5%A4%A7%E6%A8%93%20%26%20Hooch%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=Ooh%20Cha%20Cha%20%E8%87%AA%E7%84%B6%E9%A3%9F%E7%A7%91%E6%8A%80%E5%A4%A7%E6%A8%93%20%26%20Hooch",
+    "instagram": "https://www.instagram.com/explore/tags/OohChaCha%E8%87%AA%E7%84%B6%E9%A3%9F%E7%A7%91%E6%8A%80%E5%A4%A7%E6%A8%93Hooch/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-48",
@@ -6668,7 +6364,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=PORCO%20%E5%92%96%E5%95%A1%E3%80%81%E8%88%8A%E7%89%A9%E3%80%81%E5%AF%B5%E7%89%A9%E8%A1%8C%E7%82%BA%E6%95%99%E5%AE%A4%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=PORCO%20%E5%92%96%E5%95%A1%E3%80%81%E8%88%8A%E7%89%A9%E3%80%81%E5%AF%B5%E7%89%A9%E8%A1%8C%E7%82%BA%E6%95%99%E5%AE%A4",
+    "instagram": "https://www.instagram.com/explore/tags/PORCO%E5%92%96%E5%95%A1%E8%88%8A%E7%89%A9%E5%AF%B5%E7%89%A9%E8%A1%8C%E7%82%BA%E6%95%99%E5%AE%A4/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-49",
@@ -6697,7 +6397,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Plants%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=Plants",
+    "instagram": "https://www.instagram.com/explore/tags/Plants/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-50",
@@ -6726,7 +6430,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BE%86%E5%90%A7Cafe%27%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E4%BE%86%E5%90%A7Cafe%27",
+    "instagram": "https://www.instagram.com/explore/tags/%E4%BE%86%E5%90%A7Cafe/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-51",
@@ -6757,7 +6465,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Mianto%20%E8%89%BE%E6%9E%9C%E8%B1%90%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=Mianto%20%E8%89%BE%E6%9E%9C%E8%B1%90",
+    "instagram": "https://www.instagram.com/explore/tags/Mianto%E8%89%BE%E6%9E%9C%E8%B1%90/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-52",
@@ -6784,7 +6496,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%85%89%E4%B8%80%E8%82%86%E8%99%9F%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%85%89%E4%B8%80%E8%82%86%E8%99%9F",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%85%89%E4%B8%80%E8%82%86%E8%99%9F/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-53",
@@ -6812,7 +6528,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=NoName%E7%84%A1%E5%90%8D%E5%92%96%E5%93%A9%20%E5%8F%B0%E5%A4%A7%E5%BA%97%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=NoName%E7%84%A1%E5%90%8D%E5%92%96%E5%93%A9%20%E5%8F%B0%E5%A4%A7%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/NoName%E7%84%A1%E5%90%8D%E5%92%96%E5%93%A9%E5%8F%B0%E5%A4%A7%E5%BA%97/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-54",
@@ -6840,7 +6560,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%92%9E%E8%B1%86%E5%92%96%E5%95%A1.%E6%97%A5%E5%B8%B8%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E7%92%9E%E8%B1%86%E5%92%96%E5%95%A1.%E6%97%A5%E5%B8%B8",
+    "instagram": "https://www.instagram.com/explore/tags/%E7%92%9E%E8%B1%86%E5%92%96%E5%95%A1%E6%97%A5%E5%B8%B8/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-55",
@@ -6867,7 +6591,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%85%A2%E6%AD%A5%E8%AA%BF%20%E5%92%96%E5%95%A1%E9%A4%A8%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%85%A2%E6%AD%A5%E8%AA%BF%20%E5%92%96%E5%95%A1%E9%A4%A8",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%85%A2%E6%AD%A5%E8%AA%BF%E5%92%96%E5%95%A1%E9%A4%A8/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-56",
@@ -6893,7 +6621,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%86%B0%E6%B7%87%E6%B7%8B%E6%A9%9F%E5%A0%B4%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%86%B0%E6%B7%87%E6%B7%8B%E6%A9%9F%E5%A0%B4",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%86%B0%E6%B7%87%E6%B7%8B%E6%A9%9F%E5%A0%B4/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-57",
@@ -6922,7 +6654,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=dee%20%E5%A5%BD%E5%BE%97%E7%94%9F%E6%B4%BB%20%E9%A4%90%E9%85%92%E9%A4%A8%20%E8%87%BA%E5%8C%97%E5%B8%82%E6%9D%BE%E5%B1%B1%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=dee%20%E5%A5%BD%E5%BE%97%E7%94%9F%E6%B4%BB%20%E9%A4%90%E9%85%92%E9%A4%A8",
+    "instagram": "https://www.instagram.com/explore/tags/dee%E5%A5%BD%E5%BE%97%E7%94%9F%E6%B4%BB%E9%A4%90%E9%85%92%E9%A4%A8/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-58",
@@ -6953,7 +6689,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Loving%20Hut%20%E6%84%9B%E5%AE%B6%E5%9C%8B%E9%9A%9B%E9%A4%90%E9%A3%B2%20%E5%8F%B0%E5%8C%97%20%E5%92%8C%E5%B9%B3%E5%BA%97%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=Loving%20Hut%20%E6%84%9B%E5%AE%B6%E5%9C%8B%E9%9A%9B%E9%A4%90%E9%A3%B2%20%E5%8F%B0%E5%8C%97%20%E5%92%8C%E5%B9%B3%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/LovingHut%E6%84%9B%E5%AE%B6%E5%9C%8B%E9%9A%9B%E9%A4%90%E9%A3%B2%E5%8F%B0%E5%8C%97%E5%92%8C%E5%B9%B3%E5%BA%97/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-59",
@@ -6983,7 +6723,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%85%9C%E5%91%B3%E5%92%96%E5%95%A1%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A4%A7%E5%90%8C%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%85%9C%E5%91%B3%E5%92%96%E5%95%A1",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%85%9C%E5%91%B3%E5%92%96%E5%95%A1/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-60",
@@ -7017,7 +6761,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Her%20Rose%20%E7%8E%AB%E7%91%B0%E7%B3%BB%E7%94%9C%E9%BB%9E%E5%B0%88%E8%B3%A3%E5%BA%97%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A4%A7%E5%90%8C%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=Her%20Rose%20%E7%8E%AB%E7%91%B0%E7%B3%BB%E7%94%9C%E9%BB%9E%E5%B0%88%E8%B3%A3%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/HerRose%E7%8E%AB%E7%91%B0%E7%B3%BB%E7%94%9C%E9%BB%9E%E5%B0%88%E8%B3%A3%E5%BA%97/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-61",
@@ -7043,7 +6791,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=21%E5%B7%A5%E6%88%BF%E6%89%8B%E5%B7%A5%E9%85%B5%E7%B4%A0%E6%B6%BC%E9%BA%B5%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A4%A7%E5%90%8C%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=21%E5%B7%A5%E6%88%BF%E6%89%8B%E5%B7%A5%E9%85%B5%E7%B4%A0%E6%B6%BC%E9%BA%B5",
+    "instagram": "https://www.instagram.com/explore/tags/21%E5%B7%A5%E6%88%BF%E6%89%8B%E5%B7%A5%E9%85%B5%E7%B4%A0%E6%B6%BC%E9%BA%B5/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-62",
@@ -7077,7 +6829,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=A.K.12%20%E7%BE%8E%E5%BC%8F%E5%B0%8F%E9%A4%A8%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=A.K.12%20%E7%BE%8E%E5%BC%8F%E5%B0%8F%E9%A4%A8",
+    "instagram": "https://www.instagram.com/explore/tags/AK12%E7%BE%8E%E5%BC%8F%E5%B0%8F%E9%A4%A8/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-63",
@@ -7104,7 +6860,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8F%B0%E5%8C%97%E5%9F%8E%E4%BA%BA%E6%96%87%E8%8C%B6%E9%A4%A8%20%E8%87%BA%E5%8C%97%E5%B8%82%E8%90%AC%E8%8F%AF%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%8F%B0%E5%8C%97%E5%9F%8E%E4%BA%BA%E6%96%87%E8%8C%B6%E9%A4%A8",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%8F%B0%E5%8C%97%E5%9F%8E%E4%BA%BA%E6%96%87%E8%8C%B6%E9%A4%A8/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-64",
@@ -7133,7 +6893,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Flux%20%E5%AF%8C%E6%A8%82%E5%B8%82%20%E8%87%BA%E5%8C%97%E5%B8%82%E8%90%AC%E8%8F%AF%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=Flux%20%E5%AF%8C%E6%A8%82%E5%B8%82",
+    "instagram": "https://www.instagram.com/explore/tags/Flux%E5%AF%8C%E6%A8%82%E5%B8%82/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-65",
@@ -7162,7 +6926,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%87%91%E8%BC%AA%E8%BD%89%E7%94%9C%E6%B0%B4%E5%A0%82%20%E8%87%BA%E5%8C%97%E5%B8%82%E8%90%AC%E8%8F%AF%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E9%87%91%E8%BC%AA%E8%BD%89%E7%94%9C%E6%B0%B4%E5%A0%82",
+    "instagram": "https://www.instagram.com/explore/tags/%E9%87%91%E8%BC%AA%E8%BD%89%E7%94%9C%E6%B0%B4%E5%A0%82/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-66",
@@ -7189,7 +6957,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9C%AC%E9%A1%98%E8%B1%86%E8%8A%B1%E5%BA%97%20Origin%20Tofu%20Pudding%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%9C%AC%E9%A1%98%E8%B1%86%E8%8A%B1%E5%BA%97%20Origin%20Tofu%20Pudding",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%9C%AC%E9%A1%98%E8%B1%86%E8%8A%B1%E5%BA%97OriginTofuPudding/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-67",
@@ -7218,7 +6990,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%85%A9%E5%96%9C%E8%99%9F%20Liang%20Xi%20Hao%20-%20%E7%B8%BD%E5%BA%97%20%E8%87%BA%E5%8C%97%E5%B8%82%E8%90%AC%E8%8F%AF%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%85%A9%E5%96%9C%E8%99%9F%20Liang%20Xi%20Hao%20-%20%E7%B8%BD%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%85%A9%E5%96%9C%E8%99%9FLiangXiHao%E7%B8%BD%E5%BA%97/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-68",
@@ -7247,7 +7023,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%85%A9%E5%96%9C%E8%99%9F%20Liang%20Xi%20Hao%20-%20%E8%A5%BF%E5%9C%92%E5%BA%97%20%E8%87%BA%E5%8C%97%E5%B8%82%E8%90%AC%E8%8F%AF%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%85%A9%E5%96%9C%E8%99%9F%20Liang%20Xi%20Hao%20-%20%E8%A5%BF%E5%9C%92%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%85%A9%E5%96%9C%E8%99%9FLiangXiHao%E8%A5%BF%E5%9C%92%E5%BA%97/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-69",
@@ -7276,7 +7056,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B0%8F%E7%8E%8B%E7%85%AE%E7%93%9C%20%E8%87%BA%E5%8C%97%E5%B8%82%E8%90%AC%E8%8F%AF%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%B0%8F%E7%8E%8B%E7%85%AE%E7%93%9C",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%B0%8F%E7%8E%8B%E7%85%AE%E7%93%9C/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-70",
@@ -7305,7 +7089,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=THE%20garden%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=THE%20garden",
+    "instagram": "https://www.instagram.com/explore/tags/THEgarden/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-71",
@@ -7334,7 +7122,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%96%9C%E8%88%8D%E5%B1%85%E9%85%92%E5%B1%8B%20%E8%87%BA%E5%8C%97%E5%B8%82%E8%90%AC%E8%8F%AF%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%96%9C%E8%88%8D%E5%B1%85%E9%85%92%E5%B1%8B",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%96%9C%E8%88%8D%E5%B1%85%E9%85%92%E5%B1%8B/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-72",
@@ -7362,7 +7154,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%B2%B3%E6%A8%93%E9%A4%90%E5%BB%B3%20Second%20Floor%20Cafe%20%E5%BE%AE%E9%A2%A8%E5%8F%B0%E5%8C%97%E8%BB%8A%E7%AB%99%E5%BA%97%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E8%B2%B3%E6%A8%93%E9%A4%90%E5%BB%B3%20Second%20Floor%20Cafe%20%E5%BE%AE%E9%A2%A8%E5%8F%B0%E5%8C%97%E8%BB%8A%E7%AB%99%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E8%B2%B3%E6%A8%93%E9%A4%90%E5%BB%B3SecondFloorCafe%E5%BE%AE%E9%A2%A8%E5%8F%B0%E5%8C%97%E8%BB%8A%E7%AB%99%E5%BA%97/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-73",
@@ -7389,7 +7185,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%B2%B3%E6%A8%93%E9%A4%90%E5%BB%B3%20Second%20Floor%20Cafe%20%E5%85%AC%E9%A4%A8%E5%BA%97%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E8%B2%B3%E6%A8%93%E9%A4%90%E5%BB%B3%20Second%20Floor%20Cafe%20%E5%85%AC%E9%A4%A8%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E8%B2%B3%E6%A8%93%E9%A4%90%E5%BB%B3SecondFloorCafe%E5%85%AC%E9%A4%A8%E5%BA%97/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-74",
@@ -7417,7 +7217,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Mr.%20%E9%9B%AA%E8%85%90%20%E5%85%AC%E9%A4%A8%E5%BA%97%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=Mr.%20%E9%9B%AA%E8%85%90%20%E5%85%AC%E9%A4%A8%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/Mr%E9%9B%AA%E8%85%90%E5%85%AC%E9%A4%A8%E5%BA%97/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-75",
@@ -7443,7 +7247,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B2%90%E6%A8%82%E5%92%96%E5%95%A1%20%E6%96%B0%E7%94%9F%E5%BA%97%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%B2%90%E6%A8%82%E5%92%96%E5%95%A1%20%E6%96%B0%E7%94%9F%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%B2%90%E6%A8%82%E5%92%96%E5%95%A1%E6%96%B0%E7%94%9F%E5%BA%97/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-76",
@@ -7470,7 +7278,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=OOH%20CHA%20CHA%E8%87%AA%E7%84%B6%E9%A3%9F-%E5%8D%97%E6%98%8C%E5%BA%97%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=OOH%20CHA%20CHA%E8%87%AA%E7%84%B6%E9%A3%9F-%E5%8D%97%E6%98%8C%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/OOHCHACHA%E8%87%AA%E7%84%B6%E9%A3%9F%E5%8D%97%E6%98%8C%E5%BA%97/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-77",
@@ -7497,7 +7309,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%B2%B3%E6%A8%93%E9%A4%90%E5%BB%B3%20Second%20Floor%20Cafe%20%E4%BB%81%E6%84%9B%E5%BA%97%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E8%B2%B3%E6%A8%93%E9%A4%90%E5%BB%B3%20Second%20Floor%20Cafe%20%E4%BB%81%E6%84%9B%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E8%B2%B3%E6%A8%93%E9%A4%90%E5%BB%B3SecondFloorCafe%E4%BB%81%E6%84%9B%E5%BA%97/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-78",
@@ -7524,7 +7340,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Easy%20coffee%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=Easy%20coffee",
+    "instagram": "https://www.instagram.com/explore/tags/Easycoffee/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-79",
@@ -7551,7 +7371,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%95%BC%E5%B2%B8VeganResort%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%95%BC%E5%B2%B8VeganResort",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%95%BC%E5%B2%B8VeganResort/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-80",
@@ -7581,7 +7405,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8F%B0%E5%8C%97%E5%8C%97%E6%8A%95%E9%9B%85%E6%A8%82%E8%BB%92%20Aloft%20Taipei%20Beitou%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%8C%97%E6%8A%95%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%8F%B0%E5%8C%97%E5%8C%97%E6%8A%95%E9%9B%85%E6%A8%82%E8%BB%92%20Aloft%20Taipei%20Beitou",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%8F%B0%E5%8C%97%E5%8C%97%E6%8A%95%E9%9B%85%E6%A8%82%E8%BB%92AloftTaipeiBeitou/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-81",
@@ -7610,7 +7438,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%AD%A3%E7%95%B6%E5%86%B0%20%E5%8C%97%E6%8A%95%E5%AE%B6%E6%97%81%E5%BA%97%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%8C%97%E6%8A%95%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%AD%A3%E7%95%B6%E5%86%B0%20%E5%8C%97%E6%8A%95%E5%AE%B6%E6%97%81%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%AD%A3%E7%95%B6%E5%86%B0%E5%8C%97%E6%8A%95%E5%AE%B6%E6%97%81%E5%BA%97/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-82",
@@ -7637,7 +7469,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9C%89%E9%96%93%E9%90%B5%E6%9D%BF%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%8C%97%E6%8A%95%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%9C%89%E9%96%93%E9%90%B5%E6%9D%BF",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%9C%89%E9%96%93%E9%90%B5%E6%9D%BF/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-83",
@@ -7670,7 +7506,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%99%BD%E6%98%8E%E5%B1%B1%E7%AB%B9%E5%AD%90%E6%B9%96%E6%95%85%E9%84%89%E6%B5%B7%E8%8A%8B%E8%BE%B2%E5%9C%92-%E9%99%84%E8%A8%AD%E9%A4%90%E5%BB%B3%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%8C%97%E6%8A%95%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E9%99%BD%E6%98%8E%E5%B1%B1%E7%AB%B9%E5%AD%90%E6%B9%96%E6%95%85%E9%84%89%E6%B5%B7%E8%8A%8B%E8%BE%B2%E5%9C%92-%E9%99%84%E8%A8%AD%E9%A4%90%E5%BB%B3",
+    "instagram": "https://www.instagram.com/explore/tags/%E9%99%BD%E6%98%8E%E5%B1%B1%E7%AB%B9%E5%AD%90%E6%B9%96%E6%95%85%E9%84%89%E6%B5%B7%E8%8A%8B%E8%BE%B2%E5%9C%92%E9%99%84%E8%A8%AD%E9%A4%90%E5%BB%B3/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-84",
@@ -7701,7 +7541,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Slipper%20Cafe%20%E6%8B%96%E9%9E%8B%E5%92%96%E5%95%A1%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%8C%97%E6%8A%95%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=Slipper%20Cafe%20%E6%8B%96%E9%9E%8B%E5%92%96%E5%95%A1",
+    "instagram": "https://www.instagram.com/explore/tags/SlipperCafe%E6%8B%96%E9%9E%8B%E5%92%96%E5%95%A1/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-85",
@@ -7727,7 +7571,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%88%90%E9%8D%8B%E5%92%96%E5%95%A1%20Luguo%20Cafe%E5%B0%8F%E8%97%9D%E5%9F%95artyard%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A4%A7%E5%90%8C%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E7%88%90%E9%8D%8B%E5%92%96%E5%95%A1%20Luguo%20Cafe%E5%B0%8F%E8%97%9D%E5%9F%95artyard",
+    "instagram": "https://www.instagram.com/explore/tags/%E7%88%90%E9%8D%8B%E5%92%96%E5%95%A1LuguoCafe%E5%B0%8F%E8%97%9D%E5%9F%95artyard/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-86",
@@ -7756,7 +7604,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%92%B2%E5%9B%89%E5%92%96%E5%95%A1%E5%BB%B3%20Procaffeinating%20Cafe%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%8D%97%E6%B8%AF%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%92%B2%E5%9B%89%E5%92%96%E5%95%A1%E5%BB%B3%20Procaffeinating%20Cafe",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%92%B2%E5%9B%89%E5%92%96%E5%95%A1%E5%BB%B3ProcaffeinatingCafe/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-87",
@@ -7784,7 +7636,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%92%95%E5%92%95%E5%92%95%E5%9A%95%20%E6%97%A5%E5%BC%8F%E6%98%86%E5%B8%83%E7%81%AB%E9%8D%8B%20%7C%20%E9%9F%93%E5%BC%8F%E9%8A%85%E7%9B%A4%E7%83%A4%E8%82%89%20-%20%E5%8D%97%E6%B8%AF%E5%BA%97%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%8D%97%E6%B8%AF%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%92%95%E5%92%95%E5%92%95%E5%9A%95%20%E6%97%A5%E5%BC%8F%E6%98%86%E5%B8%83%E7%81%AB%E9%8D%8B%20%7C%20%E9%9F%93%E5%BC%8F%E9%8A%85%E7%9B%A4%E7%83%A4%E8%82%89%20-%20%E5%8D%97%E6%B8%AF%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%92%95%E5%92%95%E5%92%95%E5%9A%95%E6%97%A5%E5%BC%8F%E6%98%86%E5%B8%83%E7%81%AB%E9%8D%8B%E9%9F%93%E5%BC%8F%E9%8A%85%E7%9B%A4%E7%83%A4%E8%82%89%E5%8D%97%E6%B8%AF%E5%BA%97/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-88",
@@ -7814,7 +7670,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Real%20caf%C3%A9%E5%8D%97%E6%B8%AF%E5%B1%95%E8%A6%BD%E9%A4%A8%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%8D%97%E6%B8%AF%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=Real%20caf%C3%A9%E5%8D%97%E6%B8%AF%E5%B1%95%E8%A6%BD%E9%A4%A8",
+    "instagram": "https://www.instagram.com/explore/tags/Realcaf%C3%A9%E5%8D%97%E6%B8%AF%E5%B1%95%E8%A6%BD%E9%A4%A8/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-89",
@@ -7844,7 +7704,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%99%B6%E8%86%B3%E6%97%A5%E6%9C%AC%E6%96%99%E7%90%86%20%E5%95%86%E6%A5%AD%E5%8D%88%E6%99%9A%E9%A4%90%20%E5%AE%B5%E5%A4%9C%E5%A0%B4%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%8D%97%E6%B8%AF%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E9%99%B6%E8%86%B3%E6%97%A5%E6%9C%AC%E6%96%99%E7%90%86%20%E5%95%86%E6%A5%AD%E5%8D%88%E6%99%9A%E9%A4%90%20%E5%AE%B5%E5%A4%9C%E5%A0%B4",
+    "instagram": "https://www.instagram.com/explore/tags/%E9%99%B6%E8%86%B3%E6%97%A5%E6%9C%AC%E6%96%99%E7%90%86%E5%95%86%E6%A5%AD%E5%8D%88%E6%99%9A%E9%A4%90%E5%AE%B5%E5%A4%9C%E5%A0%B4/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-90",
@@ -7874,7 +7738,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=TUMAZ%20%E9%BB%91%E7%86%8A%E5%92%96%E5%95%A1%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%8D%97%E6%B8%AF%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=TUMAZ%20%E9%BB%91%E7%86%8A%E5%92%96%E5%95%A1",
+    "instagram": "https://www.instagram.com/explore/tags/TUMAZ%E9%BB%91%E7%86%8A%E5%92%96%E5%95%A1/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-91",
@@ -7901,7 +7769,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%85%94%E5%85%94%E6%97%A5%E5%AD%90%20Tu%27s%20Day%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%85%A7%E6%B9%96%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%85%94%E5%85%94%E6%97%A5%E5%AD%90%20Tu%27s%20Day",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%85%94%E5%85%94%E6%97%A5%E5%AD%90TusDay/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-92",
@@ -7928,7 +7800,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%B2%B3%E6%A8%93%E9%A4%90%E5%BB%B3Second%20Floor%20Cafe%E8%A5%BF%E6%B9%96%E5%BA%97%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%85%A7%E6%B9%96%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E8%B2%B3%E6%A8%93%E9%A4%90%E5%BB%B3Second%20Floor%20Cafe%E8%A5%BF%E6%B9%96%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E8%B2%B3%E6%A8%93%E9%A4%90%E5%BB%B3SecondFloorCafe%E8%A5%BF%E6%B9%96%E5%BA%97/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-93",
@@ -7957,7 +7833,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%87%91%E9%8D%8B%E7%9B%83%E5%B0%8F%E7%81%AB%E9%8D%8B-%E8%81%B7%E4%BA%BA%20%E8%82%89%E5%93%81%20%E6%B5%B7%E9%AE%AE%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%85%A7%E6%B9%96%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E9%87%91%E9%8D%8B%E7%9B%83%E5%B0%8F%E7%81%AB%E9%8D%8B-%E8%81%B7%E4%BA%BA%20%E8%82%89%E5%93%81%20%E6%B5%B7%E9%AE%AE",
+    "instagram": "https://www.instagram.com/explore/tags/%E9%87%91%E9%8D%8B%E7%9B%83%E5%B0%8F%E7%81%AB%E9%8D%8B%E8%81%B7%E4%BA%BA%E8%82%89%E5%93%81%E6%B5%B7%E9%AE%AE/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-94",
@@ -7990,7 +7870,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%87%91%E7%83%A4%E7%9B%83%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%85%A7%E6%B9%96%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E9%87%91%E7%83%A4%E7%9B%83",
+    "instagram": "https://www.instagram.com/explore/tags/%E9%87%91%E7%83%A4%E7%9B%83/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-95",
@@ -8023,7 +7907,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%82%A5%E5%A9%86%20Cafe%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%85%A7%E6%B9%96%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E8%82%A5%E5%A9%86%20Cafe",
+    "instagram": "https://www.instagram.com/explore/tags/%E8%82%A5%E5%A9%86Cafe/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-96",
@@ -8050,7 +7938,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%99%BD%E8%8F%9C%E5%B0%8F%E5%A7%90%E7%BE%A9%E5%BC%8F%E5%9D%8A%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%85%A7%E6%B9%96%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E7%99%BD%E8%8F%9C%E5%B0%8F%E5%A7%90%E7%BE%A9%E5%BC%8F%E5%9D%8A",
+    "instagram": "https://www.instagram.com/explore/tags/%E7%99%BD%E8%8F%9C%E5%B0%8F%E5%A7%90%E7%BE%A9%E5%BC%8F%E5%9D%8A/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-97",
@@ -8077,7 +7969,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Coffee%20lndustry-Caf%C3%A9%20champ%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%85%A7%E6%B9%96%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=Coffee%20lndustry-Caf%C3%A9%20champ",
+    "instagram": "https://www.instagram.com/explore/tags/CoffeelndustryCaf%C3%A9champ/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-98",
@@ -8109,7 +8005,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Bombay%201987%20%E5%8D%B0%E5%BA%A6%E5%92%96%E5%93%A9%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%85%A7%E6%B9%96%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=Bombay%201987%20%E5%8D%B0%E5%BA%A6%E5%92%96%E5%93%A9",
+    "instagram": "https://www.instagram.com/explore/tags/Bombay1987%E5%8D%B0%E5%BA%A6%E5%92%96%E5%93%A9/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-99",
@@ -8136,7 +8036,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%A6%8F%E5%AE%B9%E7%87%92%E8%82%89%E4%B8%BC%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%85%A7%E6%B9%96%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E7%A6%8F%E5%AE%B9%E7%87%92%E8%82%89%E4%B8%BC",
+    "instagram": "https://www.instagram.com/explore/tags/%E7%A6%8F%E5%AE%B9%E7%87%92%E8%82%89%E4%B8%BC/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-100",
@@ -8165,7 +8069,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%B2%B3%E6%A8%93%E9%A4%90%E5%BB%B3%20Second%20Floor%20Cafe%20%E5%8D%97%E6%B8%AF%E8%BB%8A%E7%AB%99%E5%BA%97%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%8D%97%E6%B8%AF%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E8%B2%B3%E6%A8%93%E9%A4%90%E5%BB%B3%20Second%20Floor%20Cafe%20%E5%8D%97%E6%B8%AF%E8%BB%8A%E7%AB%99%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E8%B2%B3%E6%A8%93%E9%A4%90%E5%BB%B3SecondFloorCafe%E5%8D%97%E6%B8%AF%E8%BB%8A%E7%AB%99%E5%BA%97/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-101",
@@ -8194,7 +8102,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%B6%8A%E7%95%8C%E8%8C%B6%20YUE%20JIE%20CHA%E7%B2%BE%E5%93%81%E6%89%8B%E6%90%96%E9%A3%B2%E8%8C%B6%E5%93%81%E9%A3%B2%E6%96%99%E5%BA%97%EF%BC%8C%E5%A5%BD%E8%AA%BF%E9%85%92%E4%B9%9F%E8%83%BD%E5%A4%96%E5%B8%B6%EF%BC%81%E7%B6%B2%E7%BE%8E%E6%8B%8D%E7%85%A7%E5%9A%B4%E9%81%B8%E5%A0%B4%E5%9C%B0%EF%BC%8C%E8%81%9A%E6%9C%83%E8%AB%87%E5%BF%83%E9%A6%96%E9%81%B8%E5%BA%97%E5%AE%B6%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%8D%97%E6%B8%AF%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E8%B6%8A%E7%95%8C%E8%8C%B6%20YUE%20JIE%20CHA%E7%B2%BE%E5%93%81%E6%89%8B%E6%90%96%E9%A3%B2%E8%8C%B6%E5%93%81%E9%A3%B2%E6%96%99%E5%BA%97%EF%BC%8C%E5%A5%BD%E8%AA%BF%E9%85%92%E4%B9%9F%E8%83%BD%E5%A4%96%E5%B8%B6%EF%BC%81%E7%B6%B2%E7%BE%8E%E6%8B%8D%E7%85%A7%E5%9A%B4%E9%81%B8%E5%A0%B4%E5%9C%B0%EF%BC%8C%E8%81%9A%E6%9C%83%E8%AB%87%E5%BF%83%E9%A6%96%E9%81%B8%E5%BA%97%E5%AE%B6",
+    "instagram": "https://www.instagram.com/explore/tags/%E8%B6%8A%E7%95%8C%E8%8C%B6YUEJIECHA%E7%B2%BE%E5%93%81%E6%89%8B%E6%90%96%E9%A3%B2%E8%8C%B6%E5%93%81%E9%A3%B2%E6%96%99%E5%BA%97%E5%A5%BD%E8%AA%BF%E9%85%92%E4%B9%9F%E8%83%BD%E5%A4%96%E5%B8%B6%E7%B6%B2%E7%BE%8E%E6%8B%8D%E7%85%A7%E5%9A%B4%E9%81%B8%E5%A0%B4%E5%9C%B0%E8%81%9A%E6%9C%83%E8%AB%87%E5%BF%83%E9%A6%96%E9%81%B8%E5%BA%97%E5%AE%B6/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-102",
@@ -8221,7 +8133,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Uncles%20two%20%E5%85%A9%E4%BD%8D%E5%A4%A7%E5%8F%94%20%E7%84%A1%E8%A8%82%E4%BD%8D%E6%9C%8D%E5%8B%99%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%8D%97%E6%B8%AF%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=Uncles%20two%20%E5%85%A9%E4%BD%8D%E5%A4%A7%E5%8F%94%20%E7%84%A1%E8%A8%82%E4%BD%8D%E6%9C%8D%E5%8B%99",
+    "instagram": "https://www.instagram.com/explore/tags/Unclestwo%E5%85%A9%E4%BD%8D%E5%A4%A7%E5%8F%94%E7%84%A1%E8%A8%82%E4%BD%8D%E6%9C%8D%E5%8B%99/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-103",
@@ -8252,7 +8168,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%8B%92%E5%86%89%E5%B0%8F%E9%A3%9F%E5%85%89%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%8D%97%E6%B8%AF%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E8%8B%92%E5%86%89%E5%B0%8F%E9%A3%9F%E5%85%89",
+    "instagram": "https://www.instagram.com/explore/tags/%E8%8B%92%E5%86%89%E5%B0%8F%E9%A3%9F%E5%85%89/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-104",
@@ -8281,7 +8201,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Hungry%20Dogs%20%E4%BA%8C%E7%8A%AC%E5%BB%9A%E6%88%BF%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%8D%97%E6%B8%AF%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=Hungry%20Dogs%20%E4%BA%8C%E7%8A%AC%E5%BB%9A%E6%88%BF",
+    "instagram": "https://www.instagram.com/explore/tags/HungryDogs%E4%BA%8C%E7%8A%AC%E5%BB%9A%E6%88%BF/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-105",
@@ -8311,7 +8235,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B6%93%E9%82%B8%E5%B1%85%E9%85%92%E5%B1%8B%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%8D%97%E6%B8%AF%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%B6%93%E9%82%B8%E5%B1%85%E9%85%92%E5%B1%8B",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%B6%93%E9%82%B8%E5%B1%85%E9%85%92%E5%B1%8B/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-106",
@@ -8338,7 +8266,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%A3%A7-%E7%9B%B4%E7%81%AB%E5%BB%9A%E6%88%BF%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A4%A7%E5%90%8C%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%A3%A7-%E7%9B%B4%E7%81%AB%E5%BB%9A%E6%88%BF",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%A3%A7%E7%9B%B4%E7%81%AB%E5%BB%9A%E6%88%BF/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-107",
@@ -8373,7 +8305,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=HOUSE%20CAFE%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A4%A7%E5%90%8C%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=HOUSE%20CAFE",
+    "instagram": "https://www.instagram.com/explore/tags/HOUSECAFE/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-108",
@@ -8401,7 +8337,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%96%9D%E4%BB%80%E9%BA%BCKa%20Pi%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A4%A7%E5%90%8C%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%96%9D%E4%BB%80%E9%BA%BCKa%20Pi",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%96%9D%E4%BB%80%E9%BA%BCKaPi/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-109",
@@ -8429,7 +8369,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=TakeOut%20Burger%26Cafe%20%E5%BF%A0%E5%AD%9D%E6%96%B0%E7%94%9F%E5%BA%97%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=TakeOut%20Burger%26Cafe%20%E5%BF%A0%E5%AD%9D%E6%96%B0%E7%94%9F%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/TakeOutBurgerCafe%E5%BF%A0%E5%AD%9D%E6%96%B0%E7%94%9F%E5%BA%97/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-110",
@@ -8456,7 +8400,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%9D%A2%E5%B0%8D%E9%9D%A2Face%20to%20Face%20Noodle%20House%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%B8%AD%E5%B1%B1%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E9%9D%A2%E5%B0%8D%E9%9D%A2Face%20to%20Face%20Noodle%20House",
+    "instagram": "https://www.instagram.com/explore/tags/%E9%9D%A2%E5%B0%8D%E9%9D%A2FacetoFaceNoodleHouse/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-111",
@@ -8483,7 +8431,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Ol%C3%A1%20C.C.%20Cafe%20%26%20Eatery%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%B8%AD%E5%B1%B1%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=Ol%C3%A1%20C.C.%20Cafe%20%26%20Eatery",
+    "instagram": "https://www.instagram.com/explore/tags/Ol%C3%A1CCCafeEatery/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-112",
@@ -8510,7 +8462,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%88%B6%E6%AF%8D%20-%20FuMu%20-%20COME%20TO%20MAMA%20%26%20PAPA%20%E8%87%BA%E5%8C%97%E5%B8%82%E6%9D%BE%E5%B1%B1%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E7%88%B6%E6%AF%8D%20-%20FuMu%20-%20COME%20TO%20MAMA%20%26%20PAPA",
+    "instagram": "https://www.instagram.com/explore/tags/%E7%88%B6%E6%AF%8DFuMuCOMETOMAMAPAPA/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-113",
@@ -8537,7 +8493,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=TUTUKAKI%20%E5%8F%B8%E5%BA%B7%E5%B0%8F%E5%A3%B2%E6%89%80%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A4%A7%E5%90%8C%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=TUTUKAKI%20%E5%8F%B8%E5%BA%B7%E5%B0%8F%E5%A3%B2%E6%89%80",
+    "instagram": "https://www.instagram.com/explore/tags/TUTUKAKI%E5%8F%B8%E5%BA%B7%E5%B0%8F%E5%A3%B2%E6%89%80/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-114",
@@ -8564,7 +8524,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=OSKAFE%20Coffee%20Wine%20Sandwich%20%E8%87%BA%E5%8C%97%E5%B8%82%E6%9D%BE%E5%B1%B1%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=OSKAFE%20Coffee%20Wine%20Sandwich",
+    "instagram": "https://www.instagram.com/explore/tags/OSKAFECoffeeWineSandwich/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-115",
@@ -8590,7 +8554,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=HUKI%E5%AF%8C%E6%B0%A3%E6%B0%B4%E7%94%A2%20%E4%B8%BC%E9%A3%AF%20%E8%87%BA%E5%8C%97%E5%B8%82%E6%9D%BE%E5%B1%B1%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=HUKI%E5%AF%8C%E6%B0%A3%E6%B0%B4%E7%94%A2%20%E4%B8%BC%E9%A3%AF",
+    "instagram": "https://www.instagram.com/explore/tags/HUKI%E5%AF%8C%E6%B0%A3%E6%B0%B4%E7%94%A2%E4%B8%BC%E9%A3%AF/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-116",
@@ -8617,7 +8585,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%AC%89%E7%9A%AE%E9%BA%B5%E5%8C%85%20HIP%20PUN%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%B8%AD%E5%B1%B1%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%AC%89%E7%9A%AE%E9%BA%B5%E5%8C%85%20HIP%20PUN",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%AC%89%E7%9A%AE%E9%BA%B5%E5%8C%85HIPPUN/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-117",
@@ -8644,7 +8616,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%87%9F%E9%A4%8A%E6%80%9D%E5%BB%9A%C2%B7%E9%A4%90%E7%9B%92%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%B8%AD%E5%B1%B1%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E7%87%9F%E9%A4%8A%E6%80%9D%E5%BB%9A%C2%B7%E9%A4%90%E7%9B%92",
+    "instagram": "https://www.instagram.com/explore/tags/%E7%87%9F%E9%A4%8A%E6%80%9D%E5%BB%9A%E9%A4%90%E7%9B%92/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-118",
@@ -8680,7 +8656,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%99%95%E6%96%B9%E6%A0%AA%E5%BC%8F%E6%9C%83%E7%A4%BE%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A4%A7%E5%90%8C%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E8%99%95%E6%96%B9%E6%A0%AA%E5%BC%8F%E6%9C%83%E7%A4%BE",
+    "instagram": "https://www.instagram.com/explore/tags/%E8%99%95%E6%96%B9%E6%A0%AA%E5%BC%8F%E6%9C%83%E7%A4%BE/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-119",
@@ -8706,7 +8686,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%82%80%E6%9C%88%E8%8C%B6%E5%9D%8AYaoyue%20Teahouse%20%E8%87%BA%E5%8C%97%E5%B8%82%E6%96%87%E5%B1%B1%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E9%82%80%E6%9C%88%E8%8C%B6%E5%9D%8AYaoyue%20Teahouse",
+    "instagram": "https://www.instagram.com/explore/tags/%E9%82%80%E6%9C%88%E8%8C%B6%E5%9D%8AYaoyueTeahouse/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-120",
@@ -8733,7 +8717,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%B1%90%E5%91%B3%E4%BA%AD%E7%95%B0%E5%9C%8B%E7%B4%A0%E9%A3%9F%E9%A4%90%E5%BB%B3%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%B8%AD%E5%B1%B1%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E8%B1%90%E5%91%B3%E4%BA%AD%E7%95%B0%E5%9C%8B%E7%B4%A0%E9%A3%9F%E9%A4%90%E5%BB%B3",
+    "instagram": "https://www.instagram.com/explore/tags/%E8%B1%90%E5%91%B3%E4%BA%AD%E7%95%B0%E5%9C%8B%E7%B4%A0%E9%A3%9F%E9%A4%90%E5%BB%B3/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-121",
@@ -8762,7 +8750,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=HBJ%20kitchen%20%E8%88%92%E8%82%A5%E5%81%A5%E5%BA%B7%E9%A4%90%20%E8%87%BA%E5%8C%97%E5%B8%82%E6%9D%BE%E5%B1%B1%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=HBJ%20kitchen%20%E8%88%92%E8%82%A5%E5%81%A5%E5%BA%B7%E9%A4%90",
+    "instagram": "https://www.instagram.com/explore/tags/HBJkitchen%E8%88%92%E8%82%A5%E5%81%A5%E5%BA%B7%E9%A4%90/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-122",
@@ -8793,7 +8785,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B0%8F%E6%9C%9D%E6%97%A5%E5%92%8C%20%E8%87%BA%E5%8C%97%E5%B8%82%E6%9D%BE%E5%B1%B1%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%B0%8F%E6%9C%9D%E6%97%A5%E5%92%8C",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%B0%8F%E6%9C%9D%E6%97%A5%E5%92%8C/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-123",
@@ -8819,7 +8815,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%99%BD%E5%85%89%E5%BB%9A%E5%9D%8A%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%85%A7%E6%B9%96%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E9%99%BD%E5%85%89%E5%BB%9A%E5%9D%8A",
+    "instagram": "https://www.instagram.com/explore/tags/%E9%99%BD%E5%85%89%E5%BB%9A%E5%9D%8A/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-124",
@@ -8847,7 +8847,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%8B%BE%E7%B1%B3%E5%B1%8B%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%8C%97%E6%8A%95%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%8B%BE%E7%B1%B3%E5%B1%8B",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%8B%BE%E7%B1%B3%E5%B1%8B/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-125",
@@ -8876,7 +8880,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=TMJ_TAIPEI%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=TMJ_TAIPEI",
+    "instagram": "https://www.instagram.com/explore/tags/TMJ_TAIPEI/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-126",
@@ -8905,7 +8913,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Nekko%20Bar%20%E8%B2%93%E5%90%A7%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=Nekko%20Bar%20%E8%B2%93%E5%90%A7",
+    "instagram": "https://www.instagram.com/explore/tags/NekkoBar%E8%B2%93%E5%90%A7/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-127",
@@ -8938,7 +8950,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Breakfirst%20Cafe%26Studio%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%B8%AD%E5%B1%B1%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=Breakfirst%20Cafe%26Studio",
+    "instagram": "https://www.instagram.com/explore/tags/BreakfirstCafeStudio/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-128",
@@ -8969,7 +8985,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%9C%E9%85%8C%E5%B1%85%E9%85%92%E5%B1%8B%20%E8%87%BA%E5%8C%97%E5%B8%82%E6%9D%BE%E5%B1%B1%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%A4%9C%E9%85%8C%E5%B1%85%E9%85%92%E5%B1%8B",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%A4%9C%E9%85%8C%E5%B1%85%E9%85%92%E5%B1%8B/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-129",
@@ -9002,7 +9022,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B2%90%E6%B2%90%E5%AE%B6%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A4%A7%E5%90%8C%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%B2%90%E6%B2%90%E5%AE%B6",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%B2%90%E6%B2%90%E5%AE%B6/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-130",
@@ -9038,7 +9062,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Lazzy%20cafe%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%BF%A1%E7%BE%A9%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=Lazzy%20cafe",
+    "instagram": "https://www.instagram.com/explore/tags/Lazzycafe/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-131",
@@ -9068,7 +9096,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E3%84%89%E3%84%A7%E3%84%A2%CB%87%E3%84%89%E3%84%A7%E3%84%A2%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%8C%97%E6%8A%95%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E3%84%89%E3%84%A7%E3%84%A2%CB%87%E3%84%89%E3%84%A7%E3%84%A2",
+    "instagram": "https://www.instagram.com/explore/tags/%E3%84%89%E3%84%A7%E3%84%A2%CB%87%E3%84%89%E3%84%A7%E3%84%A2/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-132",
@@ -9098,7 +9130,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=AL%20REV%C3%89S%20%E9%A1%9B%E5%80%92%E9%A4%90%E5%BB%B3%20%E8%87%BA%E5%8C%97%E5%B8%82%E8%90%AC%E8%8F%AF%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=AL%20REV%C3%89S%20%E9%A1%9B%E5%80%92%E9%A4%90%E5%BB%B3",
+    "instagram": "https://www.instagram.com/explore/tags/ALREV%C3%89S%E9%A1%9B%E5%80%92%E9%A4%90%E5%BB%B3/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-133",
@@ -9130,7 +9166,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%89%BE%E8%BF%AA%E7%93%A6%E5%B1%8B%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%BF%A1%E7%BE%A9%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E8%89%BE%E8%BF%AA%E7%93%A6%E5%B1%8B",
+    "instagram": "https://www.instagram.com/explore/tags/%E8%89%BE%E8%BF%AA%E7%93%A6%E5%B1%8B/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-134",
@@ -9157,7 +9197,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Haooyun%20Station%20%E5%A5%BD%E9%81%8B%E7%AB%99%20%E8%87%BA%E5%8C%97%E5%B8%82%E8%90%AC%E8%8F%AF%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=Haooyun%20Station%20%E5%A5%BD%E9%81%8B%E7%AB%99",
+    "instagram": "https://www.instagram.com/explore/tags/HaooyunStation%E5%A5%BD%E9%81%8B%E7%AB%99/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-135",
@@ -9191,7 +9235,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9D%AF%E5%AD%90%E8%A3%A1%E7%9A%84%E8%B2%93%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%BF%A1%E7%BE%A9%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%9D%AF%E5%AD%90%E8%A3%A1%E7%9A%84%E8%B2%93",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%9D%AF%E5%AD%90%E8%A3%A1%E7%9A%84%E8%B2%93/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-136",
@@ -9220,7 +9268,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E9%A2%A8%E9%A5%8C%E9%BA%BB%E8%BE%A3%E7%87%99%E5%A4%A7%E7%9B%B4%E5%BA%97%20%E8%87%BA%E5%8C%97%E5%B8%82%E6%9D%BE%E5%B1%B1%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%9D%B1%E9%A2%A8%E9%A5%8C%E9%BA%BB%E8%BE%A3%E7%87%99%E5%A4%A7%E7%9B%B4%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%9D%B1%E9%A2%A8%E9%A5%8C%E9%BA%BB%E8%BE%A3%E7%87%99%E5%A4%A7%E7%9B%B4%E5%BA%97/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-137",
@@ -9250,7 +9302,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%A8%82%E9%87%8E%E9%A3%9F%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%A8%82%E9%87%8E%E9%A3%9F",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%A8%82%E9%87%8E%E9%A3%9F/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-138",
@@ -9280,7 +9336,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%80%9D%E6%B2%90%E5%92%96%E5%95%A1%20%E8%87%BA%E5%8C%97%E5%B8%82%E8%90%AC%E8%8F%AF%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%80%9D%E6%B2%90%E5%92%96%E5%95%A1",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%80%9D%E6%B2%90%E5%92%96%E5%95%A1/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-139",
@@ -9309,7 +9369,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Bear%20Junkies%E7%86%8A%E9%A3%B2%20%E8%87%BA%E5%8C%97%E5%B8%82%E8%90%AC%E8%8F%AF%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=Bear%20Junkies%E7%86%8A%E9%A3%B2",
+    "instagram": "https://www.instagram.com/explore/tags/BearJunkies%E7%86%8A%E9%A3%B2/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-140",
@@ -9336,7 +9400,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%97%AD%E7%89%A7%E9%AB%98%E7%BA%96%E6%B2%99%E6%8B%89%E8%BC%95%E9%A3%9F-%E5%8F%B0%E5%8C%97%E6%9D%BE%E6%B1%9F%E5%BA%97%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%B8%AD%E5%B1%B1%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%97%AD%E7%89%A7%E9%AB%98%E7%BA%96%E6%B2%99%E6%8B%89%E8%BC%95%E9%A3%9F-%E5%8F%B0%E5%8C%97%E6%9D%BE%E6%B1%9F%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%97%AD%E7%89%A7%E9%AB%98%E7%BA%96%E6%B2%99%E6%8B%89%E8%BC%95%E9%A3%9F%E5%8F%B0%E5%8C%97%E6%9D%BE%E6%B1%9F%E5%BA%97/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-141",
@@ -9363,7 +9431,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%97%A9%E6%A8%82%E5%AD%90%E6%89%8B%E4%BD%9C%E6%97%A9%E5%8D%88%E9%A4%90%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%85%A7%E6%B9%96%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%97%A9%E6%A8%82%E5%AD%90%E6%89%8B%E4%BD%9C%E6%97%A9%E5%8D%88%E9%A4%90",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%97%A9%E6%A8%82%E5%AD%90%E6%89%8B%E4%BD%9C%E6%97%A9%E5%8D%88%E9%A4%90/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-142",
@@ -9390,7 +9462,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=CHOiCE%20Gelato%E7%BE%A9%E5%BC%8F%E6%89%8B%E5%B7%A5%E5%86%B0%E6%B7%87%E6%B7%8B%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%B8%AD%E5%B1%B1%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=CHOiCE%20Gelato%E7%BE%A9%E5%BC%8F%E6%89%8B%E5%B7%A5%E5%86%B0%E6%B7%87%E6%B7%8B",
+    "instagram": "https://www.instagram.com/explore/tags/CHOiCEGelato%E7%BE%A9%E5%BC%8F%E6%89%8B%E5%B7%A5%E5%86%B0%E6%B7%87%E6%B7%8B/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-143",
@@ -9417,7 +9493,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B0%8F%E7%8F%8A%E9%A3%9F%E5%A0%82%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A4%A7%E5%90%8C%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%B0%8F%E7%8F%8A%E9%A3%9F%E5%A0%82",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%B0%8F%E7%8F%8A%E9%A3%9F%E5%A0%82/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-144",
@@ -9444,7 +9524,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8B%BA%E6%97%A5%E6%97%A5%E5%A5%BD%E7%A9%BA%E9%96%93%E5%BA%97%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%8B%BA%E6%97%A5%E6%97%A5%E5%A5%BD%E7%A9%BA%E9%96%93%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%8B%BA%E6%97%A5%E6%97%A5%E5%A5%BD%E7%A9%BA%E9%96%93%E5%BA%97/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-145",
@@ -9472,7 +9556,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=JB%E2%80%99S%20Diner%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A3%AB%E6%9E%97%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=JB%E2%80%99S%20Diner",
+    "instagram": "https://www.instagram.com/explore/tags/JBSDiner/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-146",
@@ -9502,7 +9590,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=MUY%20%E8%8E%AF%E4%BB%A5%E5%92%96%E5%95%A1%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%B8%AD%E5%B1%B1%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=MUY%20%E8%8E%AF%E4%BB%A5%E5%92%96%E5%95%A1",
+    "instagram": "https://www.instagram.com/explore/tags/MUY%E8%8E%AF%E4%BB%A5%E5%92%96%E5%95%A1/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-147",
@@ -9529,7 +9621,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=WOYAO%20Burger%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%8C%97%E6%8A%95%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=WOYAO%20Burger",
+    "instagram": "https://www.instagram.com/explore/tags/WOYAOBurger/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-148",
@@ -9558,7 +9654,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Yellow%20Lemon%20%E8%87%BA%E5%8C%97%E5%B8%82%E6%9D%BE%E5%B1%B1%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=Yellow%20Lemon",
+    "instagram": "https://www.instagram.com/explore/tags/YellowLemon/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-149",
@@ -9587,7 +9687,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Labu%20cafe%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=Labu%20cafe",
+    "instagram": "https://www.instagram.com/explore/tags/Labucafe/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-150",
@@ -9615,7 +9719,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%85%8B%E7%88%BE%E5%92%96%E5%95%A1%E5%85%A7%E6%B9%96%E5%BA%97%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%85%A7%E6%B9%96%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%85%8B%E7%88%BE%E5%92%96%E5%95%A1%E5%85%A7%E6%B9%96%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%85%8B%E7%88%BE%E5%92%96%E5%95%A1%E5%85%A7%E6%B9%96%E5%BA%97/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-151",
@@ -9644,7 +9752,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%89%B5%E7%BE%A9%E9%BA%B5%20%E8%90%AC%E8%8A%B3%E5%BA%97%20%E8%87%BA%E5%8C%97%E5%B8%82%E6%96%87%E5%B1%B1%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%89%B5%E7%BE%A9%E9%BA%B5%20%E8%90%AC%E8%8A%B3%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%89%B5%E7%BE%A9%E9%BA%B5%E8%90%AC%E8%8A%B3%E5%BA%97/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-152",
@@ -9673,7 +9785,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%89%B5%E7%BE%A9%E9%BA%B5%20%E4%BF%A1%E7%BE%A9%E5%BA%97%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%BF%A1%E7%BE%A9%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%89%B5%E7%BE%A9%E9%BA%B5%20%E4%BF%A1%E7%BE%A9%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%89%B5%E7%BE%A9%E9%BA%B5%E4%BF%A1%E7%BE%A9%E5%BA%97/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-153",
@@ -9702,7 +9818,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%89%B5%E7%BE%A9%E9%BA%B5%20%E9%8C%A6%E5%B7%9E%E5%BA%97%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%B8%AD%E5%B1%B1%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%89%B5%E7%BE%A9%E9%BA%B5%20%E9%8C%A6%E5%B7%9E%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%89%B5%E7%BE%A9%E9%BA%B5%E9%8C%A6%E5%B7%9E%E5%BA%97/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-154",
@@ -9731,7 +9851,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%89%B5%E7%BE%A9%E9%BA%B5%20%E5%BF%A0%E5%AD%9D%E5%BA%97%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%89%B5%E7%BE%A9%E9%BA%B5%20%E5%BF%A0%E5%AD%9D%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%89%B5%E7%BE%A9%E9%BA%B5%E5%BF%A0%E5%AD%9D%E5%BA%97/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-155",
@@ -9760,7 +9884,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%89%B5%E7%BE%A9%E9%BA%B5%20%E6%9D%BE%E5%B1%B1%E5%BA%97%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%BF%A1%E7%BE%A9%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%89%B5%E7%BE%A9%E9%BA%B5%20%E6%9D%BE%E5%B1%B1%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%89%B5%E7%BE%A9%E9%BA%B5%E6%9D%BE%E5%B1%B1%E5%BA%97/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-156",
@@ -9789,7 +9917,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%89%B5%E7%BE%A9%E9%BA%B5%20%E7%9F%B3%E7%89%8C%E5%BA%97%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%8C%97%E6%8A%95%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%89%B5%E7%BE%A9%E9%BA%B5%20%E7%9F%B3%E7%89%8C%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%89%B5%E7%BE%A9%E9%BA%B5%E7%9F%B3%E7%89%8C%E5%BA%97/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-157",
@@ -9818,7 +9950,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%89%B5%E7%BE%A9%E9%BA%B5%20%E6%9D%B1%E6%B9%96%E5%BA%97%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%85%A7%E6%B9%96%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%89%B5%E7%BE%A9%E9%BA%B5%20%E6%9D%B1%E6%B9%96%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%89%B5%E7%BE%A9%E9%BA%B5%E6%9D%B1%E6%B9%96%E5%BA%97/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-158",
@@ -9847,7 +9983,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%89%B5%E7%BE%A9%E9%BA%B5%20%E5%A3%AB%E6%9E%97%E5%BA%97%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A3%AB%E6%9E%97%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%89%B5%E7%BE%A9%E9%BA%B5%20%E5%A3%AB%E6%9E%97%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%89%B5%E7%BE%A9%E9%BA%B5%E5%A3%AB%E6%9E%97%E5%BA%97/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-159",
@@ -9877,7 +10017,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=cafe%20BOMBOM%20%E8%87%BA%E5%8C%97%E5%B8%82%E6%9D%BE%E5%B1%B1%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=cafe%20BOMBOM",
+    "instagram": "https://www.instagram.com/explore/tags/cafeBOMBOM/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-160",
@@ -9906,7 +10050,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%88%B2%E5%92%96%E5%95%A1%20%E2%80%A7%20Cine%20cafe%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%8C%97%E6%8A%95%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%88%B2%E5%92%96%E5%95%A1%20%E2%80%A7%20Cine%20cafe",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%88%B2%E5%92%96%E5%95%A1Cinecafe/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-161",
@@ -9935,7 +10083,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%8F%E7%B6%A0%E8%92%82%20%C2%B7%20%E5%B0%8F%E7%A7%81%E5%BB%9A%20%7C%20%E7%A7%81%E6%88%BF%E7%BE%A9%E9%BA%B5%E7%87%89%E9%A3%AF%20%7C%20%E7%94%9C%E9%BB%9E%E4%B8%8B%E5%8D%88%E8%8C%B6%20%7C%20%E5%AF%B5%E7%89%A9%E5%8F%8B%E5%96%84%20%7C%20%E5%8F%B0%E5%8C%97%E6%9D%BE%E5%B1%B1%E6%A9%9F%E5%A0%B4%E7%BE%8E%E9%A3%9F%20Charlotte%20%7C%20Taipei%20Airport%20Cuisine%20%7C%20Pasta%20Spaghetti%20Risotto%20Bistro%E5%8F%B0%E5%8C%97%E3%81%AE%E6%96%99%E7%90%86%20%ED%83%80%EC%9D%B4%EB%B2%A0%EC%9D%B4%20%EC%9A%94%EB%A6%AC%20%E8%87%BA%E5%8C%97%E5%B8%82%E6%9D%BE%E5%B1%B1%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%A4%8F%E7%B6%A0%E8%92%82%20%C2%B7%20%E5%B0%8F%E7%A7%81%E5%BB%9A%20%7C%20%E7%A7%81%E6%88%BF%E7%BE%A9%E9%BA%B5%E7%87%89%E9%A3%AF%20%7C%20%E7%94%9C%E9%BB%9E%E4%B8%8B%E5%8D%88%E8%8C%B6%20%7C%20%E5%AF%B5%E7%89%A9%E5%8F%8B%E5%96%84%20%7C%20%E5%8F%B0%E5%8C%97%E6%9D%BE%E5%B1%B1%E6%A9%9F%E5%A0%B4%E7%BE%8E%E9%A3%9F%20Charlotte%20%7C%20Taipei%20Airport%20Cuisine%20%7C%20Pasta%20Spaghetti%20Risotto%20Bistro%E5%8F%B0%E5%8C%97%E3%81%AE%E6%96%99%E7%90%86%20%ED%83%80%EC%9D%B4%EB%B2%A0%EC%9D%B4%20%EC%9A%94%EB%A6%AC",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%A4%8F%E7%B6%A0%E8%92%82%E5%B0%8F%E7%A7%81%E5%BB%9A%E7%A7%81%E6%88%BF%E7%BE%A9%E9%BA%B5%E7%87%89%E9%A3%AF%E7%94%9C%E9%BB%9E%E4%B8%8B%E5%8D%88%E8%8C%B6%E5%AF%B5%E7%89%A9%E5%8F%8B%E5%96%84%E5%8F%B0%E5%8C%97%E6%9D%BE%E5%B1%B1%E6%A9%9F%E5%A0%B4%E7%BE%8E%E9%A3%9FCharlotteTaipeiAirportCuisinePastaSpaghettiRisottoBistro%E5%8F%B0%E5%8C%97%E3%81%AE%E6%96%99%E7%90%86%ED%83%80%EC%9D%B4%EB%B2%A0%EC%9D%B4%EC%9A%94%EB%A6%AC/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-162",
@@ -9963,7 +10115,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E5%B1%B1%E6%98%86%E9%99%BD%E5%92%96%E5%95%A1%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%8D%97%E6%B8%AF%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%A4%A7%E5%B1%B1%E6%98%86%E9%99%BD%E5%92%96%E5%95%A1",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%A4%A7%E5%B1%B1%E6%98%86%E9%99%BD%E5%92%96%E5%95%A1/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-163",
@@ -9994,7 +10150,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Pap%C3%A0Roy%20%E7%BE%A9%E5%BC%8F%E6%89%8B%E4%BD%9C%E6%96%99%E7%90%86%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%BF%A1%E7%BE%A9%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=Pap%C3%A0Roy%20%E7%BE%A9%E5%BC%8F%E6%89%8B%E4%BD%9C%E6%96%99%E7%90%86",
+    "instagram": "https://www.instagram.com/explore/tags/Pap%C3%A0Roy%E7%BE%A9%E5%BC%8F%E6%89%8B%E4%BD%9C%E6%96%99%E7%90%86/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-164",
@@ -10022,7 +10182,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9C%A8%E5%92%96%20Horoka%20%E8%87%BA%E5%8C%97%E5%B8%82%E8%90%AC%E8%8F%AF%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%9C%A8%E5%92%96%20Horoka",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%9C%A8%E5%92%96Horoka/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-165",
@@ -10049,7 +10213,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%99%82%E3%80%85%E7%8F%88%E7%90%B2%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%99%82%E3%80%85%E7%8F%88%E7%90%B2",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%99%82%E3%80%85%E7%8F%88%E7%90%B2/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-166",
@@ -10079,7 +10247,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Compas%20Pasta%20House%20%E5%BA%B7%E5%B8%95%E6%96%AF%E7%BE%A9%E9%BA%B5%E5%B1%8B%20%7C%20%E6%89%8B%E5%B7%A5%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%BF%A1%E7%BE%A9%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=Compas%20Pasta%20House%20%E5%BA%B7%E5%B8%95%E6%96%AF%E7%BE%A9%E9%BA%B5%E5%B1%8B%20%7C%20%E6%89%8B%E5%B7%A5%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5",
+    "instagram": "https://www.instagram.com/explore/tags/CompasPastaHouse%E5%BA%B7%E5%B8%95%E6%96%AF%E7%BE%A9%E9%BA%B5%E5%B1%8B%E6%89%8B%E5%B7%A5%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-167",
@@ -10106,7 +10278,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%BC%A0%E7%9A%AEsoopi%20cafe%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A4%A7%E5%90%8C%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E9%BC%A0%E7%9A%AEsoopi%20cafe",
+    "instagram": "https://www.instagram.com/explore/tags/%E9%BC%A0%E7%9A%AEsoopicafe/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-168",
@@ -10144,7 +10320,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9C%B1%E9%87%8C%E6%98%82%E5%BB%9A%E6%88%BF%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%8C%97%E6%8A%95%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%9C%B1%E9%87%8C%E6%98%82%E5%BB%9A%E6%88%BF",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%9C%B1%E9%87%8C%E6%98%82%E5%BB%9A%E6%88%BF/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-169",
@@ -10177,7 +10357,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%84%A1%E7%9C%A0workshop%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%8C%97%E6%8A%95%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E7%84%A1%E7%9C%A0workshop",
+    "instagram": "https://www.instagram.com/explore/tags/%E7%84%A1%E7%9C%A0workshop/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-170",
@@ -10212,7 +10396,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BB%96%E3%80%82%E6%A4%8D%E7%89%A9%E5%92%96%E5%95%A1%20%E8%87%BA%E5%8C%97%E5%B8%82%E6%9D%BE%E5%B1%B1%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E4%BB%96%E3%80%82%E6%A4%8D%E7%89%A9%E5%92%96%E5%95%A1",
+    "instagram": "https://www.instagram.com/explore/tags/%E4%BB%96%E6%A4%8D%E7%89%A9%E5%92%96%E5%95%A1/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-171",
@@ -10248,7 +10436,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%86%AC%E6%B9%96%E7%81%AB%E9%8D%8B%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%85%A7%E6%B9%96%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%86%AC%E6%B9%96%E7%81%AB%E9%8D%8B",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%86%AC%E6%B9%96%E7%81%AB%E9%8D%8B/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-172",
@@ -10281,7 +10473,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%A3%AE%E6%9E%97%E5%96%84%E6%84%8F%E5%BB%9A%E6%88%BF%20%E5%85%A7%E6%B9%96%E5%BA%97%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%85%A7%E6%B9%96%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%A3%AE%E6%9E%97%E5%96%84%E6%84%8F%E5%BB%9A%E6%88%BF%20%E5%85%A7%E6%B9%96%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%A3%AE%E6%9E%97%E5%96%84%E6%84%8F%E5%BB%9A%E6%88%BF%E5%85%A7%E6%B9%96%E5%BA%97/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-173",
@@ -10308,7 +10504,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%A3%B2%E9%A3%BD%E9%A3%9F%E9%86%89%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%8D%97%E6%B8%AF%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E9%A3%B2%E9%A3%BD%E9%A3%9F%E9%86%89",
+    "instagram": "https://www.instagram.com/explore/tags/%E9%A3%B2%E9%A3%BD%E9%A3%9F%E9%86%89/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-174",
@@ -10335,7 +10535,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%BB%9E%E5%85%AB%E5%B0%8F%E9%A3%9F%20%E8%87%BA%E5%8C%97%E8%BB%8A%E7%AB%99%E5%BA%97%20K%E5%8D%80%E5%9C%B0%E4%B8%8B%E8%A1%97%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E9%BB%9E%E5%85%AB%E5%B0%8F%E9%A3%9F%20%E8%87%BA%E5%8C%97%E8%BB%8A%E7%AB%99%E5%BA%97%20K%E5%8D%80%E5%9C%B0%E4%B8%8B%E8%A1%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E9%BB%9E%E5%85%AB%E5%B0%8F%E9%A3%9F%E8%87%BA%E5%8C%97%E8%BB%8A%E7%AB%99%E5%BA%97K%E5%8D%80%E5%9C%B0%E4%B8%8B%E8%A1%97/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-175",
@@ -10362,7 +10566,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%AE%B6%E9%A6%99%E5%91%B3%E9%A3%9F%E5%A0%82%20%E8%87%BA%E5%8C%97%E5%B8%82%E8%90%AC%E8%8F%AF%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%AE%B6%E9%A6%99%E5%91%B3%E9%A3%9F%E5%A0%82",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%AE%B6%E9%A6%99%E5%91%B3%E9%A3%9F%E5%A0%82/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-176",
@@ -10389,7 +10597,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Cafejiasong%20%E5%92%96%E5%A4%AE%20%7C%20%E6%9D%B1%E5%8D%80%E5%92%96%E5%95%A1%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=Cafejiasong%20%E5%92%96%E5%A4%AE%20%7C%20%E6%9D%B1%E5%8D%80%E5%92%96%E5%95%A1",
+    "instagram": "https://www.instagram.com/explore/tags/Cafejiasong%E5%92%96%E5%A4%AE%E6%9D%B1%E5%8D%80%E5%92%96%E5%95%A1/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-177",
@@ -10416,7 +10628,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Cozy%20Quail%20%E8%87%BA%E5%8C%97%E5%B8%82%E6%9D%BE%E5%B1%B1%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=Cozy%20Quail",
+    "instagram": "https://www.instagram.com/explore/tags/CozyQuail/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-178",
@@ -10443,7 +10659,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E5%B7%A8%E6%98%9F%E6%B8%AF%E5%BC%8F%E9%A3%B2%E8%8C%B6%E9%A4%90%E9%85%92%E9%A4%A8%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%BF%A1%E7%BE%A9%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%A4%A7%E5%B7%A8%E6%98%9F%E6%B8%AF%E5%BC%8F%E9%A3%B2%E8%8C%B6%E9%A4%90%E9%85%92%E9%A4%A8",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%A4%A7%E5%B7%A8%E6%98%9F%E6%B8%AF%E5%BC%8F%E9%A3%B2%E8%8C%B6%E9%A4%90%E9%85%92%E9%A4%A8/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-179",
@@ -10470,7 +10690,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=TOK%E7%9B%A1%E8%88%88%E9%A3%9F%E5%85%89%20%E9%81%A0%E6%9D%B1Garden%20City%E5%A4%A7%E5%B7%A8%E8%9B%8B%E5%BA%97%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%BF%A1%E7%BE%A9%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=TOK%E7%9B%A1%E8%88%88%E9%A3%9F%E5%85%89%20%E9%81%A0%E6%9D%B1Garden%20City%E5%A4%A7%E5%B7%A8%E8%9B%8B%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/TOK%E7%9B%A1%E8%88%88%E9%A3%9F%E5%85%89%E9%81%A0%E6%9D%B1GardenCity%E5%A4%A7%E5%B7%A8%E8%9B%8B%E5%BA%97/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-180",
@@ -10497,7 +10721,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=PRESERVE%20%E5%A4%A7%E5%B7%A8%E8%9B%8B%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%BF%A1%E7%BE%A9%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=PRESERVE%20%E5%A4%A7%E5%B7%A8%E8%9B%8B",
+    "instagram": "https://www.instagram.com/explore/tags/PRESERVE%E5%A4%A7%E5%B7%A8%E8%9B%8B/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-181",
@@ -10524,7 +10752,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=1975%20Antique%E2%80%99s%20Cafe%20Tea%20Room%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%8C%97%E6%8A%95%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=1975%20Antique%E2%80%99s%20Cafe%20Tea%20Room",
+    "instagram": "https://www.instagram.com/explore/tags/1975AntiquesCafeTeaRoom/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-182",
@@ -10551,7 +10783,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%85%94Dreams%E5%85%94%E5%AD%90%E9%A4%90%E5%BB%B3%20Bunny%20Cafe%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%85%94Dreams%E5%85%94%E5%AD%90%E9%A4%90%E5%BB%B3%20Bunny%20Cafe",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%85%94Dreams%E5%85%94%E5%AD%90%E9%A4%90%E5%BB%B3BunnyCafe/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-183",
@@ -10578,7 +10814,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=The%20zoo%20%E8%94%AC%E9%A3%9F%E4%B8%BB%E7%BE%A9%20vegan%20food%20and%20beverage%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%BF%A1%E7%BE%A9%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=The%20zoo%20%E8%94%AC%E9%A3%9F%E4%B8%BB%E7%BE%A9%20vegan%20food%20and%20beverage",
+    "instagram": "https://www.instagram.com/explore/tags/Thezoo%E8%94%AC%E9%A3%9F%E4%B8%BB%E7%BE%A9veganfoodandbeverage/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-184",
@@ -10605,7 +10845,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B5%B7%E7%B5%B2%E8%BF%AA%E4%BA%9E%E5%BB%9A%E6%88%BF%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%8C%97%E6%8A%95%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%B5%B7%E7%B5%B2%E8%BF%AA%E4%BA%9E%E5%BB%9A%E6%88%BF",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%B5%B7%E7%B5%B2%E8%BF%AA%E4%BA%9E%E5%BB%9A%E6%88%BF/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-185",
@@ -10632,7 +10876,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%88%92%E6%9B%BC%E5%85%AD%E8%99%9F%E9%A4%90%E9%A4%A8%20%E5%B0%8F%E5%B7%A8%E8%9B%8B%E5%8D%97%E4%BA%AC%E5%BA%97%20%E8%87%BA%E5%8C%97%E5%B8%82%E6%9D%BE%E5%B1%B1%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E8%88%92%E6%9B%BC%E5%85%AD%E8%99%9F%E9%A4%90%E9%A4%A8%20%E5%B0%8F%E5%B7%A8%E8%9B%8B%E5%8D%97%E4%BA%AC%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E8%88%92%E6%9B%BC%E5%85%AD%E8%99%9F%E9%A4%90%E9%A4%A8%E5%B0%8F%E5%B7%A8%E8%9B%8B%E5%8D%97%E4%BA%AC%E5%BA%97/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-186",
@@ -10659,7 +10907,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%88%92%E6%9B%BC%E5%85%AD%E8%99%9F%E9%A4%90%E9%A4%A8%20%E5%8B%95%E7%89%A9%E5%9C%92%E6%94%BF%E5%A4%A7%E5%BA%97%20%E8%87%BA%E5%8C%97%E5%B8%82%E6%96%87%E5%B1%B1%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E8%88%92%E6%9B%BC%E5%85%AD%E8%99%9F%E9%A4%90%E9%A4%A8%20%E5%8B%95%E7%89%A9%E5%9C%92%E6%94%BF%E5%A4%A7%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E8%88%92%E6%9B%BC%E5%85%AD%E8%99%9F%E9%A4%90%E9%A4%A8%E5%8B%95%E7%89%A9%E5%9C%92%E6%94%BF%E5%A4%A7%E5%BA%97/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-187",
@@ -10686,7 +10938,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%87%B9%E5%B1%8B%E7%8F%88%E7%90%B2Awoo%20Kohii%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A3%AB%E6%9E%97%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%87%B9%E5%B1%8B%E7%8F%88%E7%90%B2Awoo%20Kohii",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%87%B9%E5%B1%8B%E7%8F%88%E7%90%B2AwooKohii/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-188",
@@ -10713,7 +10969,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%A3%9B%E8%B5%B7%E5%92%96%E5%92%96Fly%20High%20CURRY%C3%97CAF%C3%89%20%E5%92%96%E5%93%A9%C3%97%E5%92%96%E5%95%A1%20%E8%87%BA%E5%8C%97%E5%B8%82%E6%96%87%E5%B1%B1%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E9%A3%9B%E8%B5%B7%E5%92%96%E5%92%96Fly%20High%20CURRY%C3%97CAF%C3%89%20%E5%92%96%E5%93%A9%C3%97%E5%92%96%E5%95%A1",
+    "instagram": "https://www.instagram.com/explore/tags/%E9%A3%9B%E8%B5%B7%E5%92%96%E5%92%96FlyHighCURRYCAF%C3%89%E5%92%96%E5%93%A9%E5%92%96%E5%95%A1/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-189",
@@ -10742,7 +11002,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=80%E5%BE%8C%E7%A2%BC%E9%A0%AD%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%8C%97%E6%8A%95%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=80%E5%BE%8C%E7%A2%BC%E9%A0%AD",
+    "instagram": "https://www.instagram.com/explore/tags/80%E5%BE%8C%E7%A2%BC%E9%A0%AD/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-190",
@@ -10771,7 +11035,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%89%9B%E6%9C%AC%E8%89%B2%20%E6%BA%AB%E9%AB%94%E7%89%9B%E7%81%AB%E9%8D%8B%20%E8%87%BA%E5%8C%97%E5%B8%82%E6%9D%BE%E5%B1%B1%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E7%89%9B%E6%9C%AC%E8%89%B2%20%E6%BA%AB%E9%AB%94%E7%89%9B%E7%81%AB%E9%8D%8B",
+    "instagram": "https://www.instagram.com/explore/tags/%E7%89%9B%E6%9C%AC%E8%89%B2%E6%BA%AB%E9%AB%94%E7%89%9B%E7%81%AB%E9%8D%8B/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-191",
@@ -10800,7 +11068,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%98%AD%E4%BA%AD%E7%87%92%E8%82%89%20%E5%92%8C%E7%89%9B%E6%A5%B5%E7%B7%BB%E6%96%99%E7%90%86%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E8%98%AD%E4%BA%AD%E7%87%92%E8%82%89%20%E5%92%8C%E7%89%9B%E6%A5%B5%E7%B7%BB%E6%96%99%E7%90%86",
+    "instagram": "https://www.instagram.com/explore/tags/%E8%98%AD%E4%BA%AD%E7%87%92%E8%82%89%E5%92%8C%E7%89%9B%E6%A5%B5%E7%B7%BB%E6%96%99%E7%90%86/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-192",
@@ -10829,7 +11101,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%97%A5%E6%B7%AC%20Sun%20Drip%20Coffee%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%97%A5%E6%B7%AC%20Sun%20Drip%20Coffee",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%97%A5%E6%B7%ACSunDripCoffee/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-193",
@@ -10858,7 +11134,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BC%8D%E9%A3%9F%20No.510%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%85%A7%E6%B9%96%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E4%BC%8D%E9%A3%9F%20No.510",
+    "instagram": "https://www.instagram.com/explore/tags/%E4%BC%8D%E9%A3%9FNo510/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-194",
@@ -10885,7 +11165,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B0%8F%E9%8D%8B%E5%B7%B4%20%E8%87%BA%E5%8C%97%E5%B8%82%E8%90%AC%E8%8F%AF%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%B0%8F%E9%8D%8B%E5%B7%B4",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%B0%8F%E9%8D%8B%E5%B7%B4/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-195",
@@ -10913,7 +11197,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9C%AC%E9%A1%98%E8%B1%86%E8%8A%B1%E5%BA%97-%E6%99%B4%E5%85%89%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%B8%AD%E5%B1%B1%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%9C%AC%E9%A1%98%E8%B1%86%E8%8A%B1%E5%BA%97-%E6%99%B4%E5%85%89",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%9C%AC%E9%A1%98%E8%B1%86%E8%8A%B1%E5%BA%97%E6%99%B4%E5%85%89/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-196",
@@ -10940,7 +11228,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9C%AC%E9%A1%98%E8%B1%86%E8%8A%B1%E5%BA%97-%E6%BC%A2%E4%B8%AD%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%9C%AC%E9%A1%98%E8%B1%86%E8%8A%B1%E5%BA%97-%E6%BC%A2%E4%B8%AD",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%9C%AC%E9%A1%98%E8%B1%86%E8%8A%B1%E5%BA%97%E6%BC%A2%E4%B8%AD/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-197",
@@ -10967,7 +11259,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%96%9C%E5%AF%B6%E6%A3%A7%20%E5%92%96%E5%95%A1%E9%85%92%E9%A4%A8%20%26%20%E8%B2%93%E6%97%85%E9%A4%A8%20HIPP%20CAFE%20%26%20CATEL%20%E8%87%BA%E5%8C%97%E5%B8%82%E8%90%AC%E8%8F%AF%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%96%9C%E5%AF%B6%E6%A3%A7%20%E5%92%96%E5%95%A1%E9%85%92%E9%A4%A8%20%26%20%E8%B2%93%E6%97%85%E9%A4%A8%20HIPP%20CAFE%20%26%20CATEL",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%96%9C%E5%AF%B6%E6%A3%A7%E5%92%96%E5%95%A1%E9%85%92%E9%A4%A8%E8%B2%93%E6%97%85%E9%A4%A8HIPPCAFECATEL/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-198",
@@ -10995,7 +11291,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=CHAO%20%E7%82%92%E7%82%92%E6%96%B0%E4%BA%9E%E6%B4%B2%E8%94%AC%E9%A3%9F%20-%20%E6%9D%B1%E5%8D%80%E7%BE%8E%E9%A3%9F%E7%86%B1%E7%82%92%20%E5%85%AC%E5%8F%B8%E8%81%9A%E9%A4%90%20%E5%89%B5%E6%84%8F%E7%B4%A0%E9%A3%9F%E6%96%99%E7%90%86%20%E5%AF%B5%E7%89%A9%E5%8F%8B%E5%96%84%20%E4%BA%BA%E6%B0%A3%E6%8E%A8%E8%96%A6%E5%BF%85%E5%90%83%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=CHAO%20%E7%82%92%E7%82%92%E6%96%B0%E4%BA%9E%E6%B4%B2%E8%94%AC%E9%A3%9F%20-%20%E6%9D%B1%E5%8D%80%E7%BE%8E%E9%A3%9F%E7%86%B1%E7%82%92%20%E5%85%AC%E5%8F%B8%E8%81%9A%E9%A4%90%20%E5%89%B5%E6%84%8F%E7%B4%A0%E9%A3%9F%E6%96%99%E7%90%86%20%E5%AF%B5%E7%89%A9%E5%8F%8B%E5%96%84%20%E4%BA%BA%E6%B0%A3%E6%8E%A8%E8%96%A6%E5%BF%85%E5%90%83",
+    "instagram": "https://www.instagram.com/explore/tags/CHAO%E7%82%92%E7%82%92%E6%96%B0%E4%BA%9E%E6%B4%B2%E8%94%AC%E9%A3%9F%E6%9D%B1%E5%8D%80%E7%BE%8E%E9%A3%9F%E7%86%B1%E7%82%92%E5%85%AC%E5%8F%B8%E8%81%9A%E9%A4%90%E5%89%B5%E6%84%8F%E7%B4%A0%E9%A3%9F%E6%96%99%E7%90%86%E5%AF%B5%E7%89%A9%E5%8F%8B%E5%96%84%E4%BA%BA%E6%B0%A3%E6%8E%A8%E8%96%A6%E5%BF%85%E5%90%83/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-199",
@@ -11023,7 +11323,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Mixigan%20%E7%BE%8E%E5%A2%A8%E5%89%B5%E6%84%8F%E8%94%AC%E9%A3%9F%E6%96%99%E7%90%86%20-%E6%8E%A8%E8%96%A6%E7%95%B0%E5%9C%8B%E6%96%99%E7%90%86%20%E4%BA%BA%E6%B0%A3%E7%BE%8E%E5%BC%8F%E6%BC%A2%E5%A0%A1%E9%A4%90%E5%BB%B3%20%E5%BF%85%E5%90%83%E7%BE%8E%E9%A3%9FVegan%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%BF%A1%E7%BE%A9%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=Mixigan%20%E7%BE%8E%E5%A2%A8%E5%89%B5%E6%84%8F%E8%94%AC%E9%A3%9F%E6%96%99%E7%90%86%20-%E6%8E%A8%E8%96%A6%E7%95%B0%E5%9C%8B%E6%96%99%E7%90%86%20%E4%BA%BA%E6%B0%A3%E7%BE%8E%E5%BC%8F%E6%BC%A2%E5%A0%A1%E9%A4%90%E5%BB%B3%20%E5%BF%85%E5%90%83%E7%BE%8E%E9%A3%9FVegan",
+    "instagram": "https://www.instagram.com/explore/tags/Mixigan%E7%BE%8E%E5%A2%A8%E5%89%B5%E6%84%8F%E8%94%AC%E9%A3%9F%E6%96%99%E7%90%86%E6%8E%A8%E8%96%A6%E7%95%B0%E5%9C%8B%E6%96%99%E7%90%86%E4%BA%BA%E6%B0%A3%E7%BE%8E%E5%BC%8F%E6%BC%A2%E5%A0%A1%E9%A4%90%E5%BB%B3%E5%BF%85%E5%90%83%E7%BE%8E%E9%A3%9FVegan/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-200",
@@ -11053,7 +11357,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%A8%82%E5%AD%90%E7%91%9E%E5%AE%89%E5%BA%97%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%A8%82%E5%AD%90%E7%91%9E%E5%AE%89%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%A8%82%E5%AD%90%E7%91%9E%E5%AE%89%E5%BA%97/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-201",
@@ -11082,7 +11390,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%94%9F%E8%A0%94%E5%93%A5%20%E8%87%BA%E5%8C%97%E5%B8%82%E6%9D%BE%E5%B1%B1%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E7%94%9F%E8%A0%94%E5%93%A5",
+    "instagram": "https://www.instagram.com/explore/tags/%E7%94%9F%E8%A0%94%E5%93%A5/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-202",
@@ -11113,7 +11425,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=SHUFFLE%20Brunch%20%26%20Bar%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%BF%A1%E7%BE%A9%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=SHUFFLE%20Brunch%20%26%20Bar",
+    "instagram": "https://www.instagram.com/explore/tags/SHUFFLEBrunchBar/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-203",
@@ -11143,7 +11459,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9D%8E%E8%A8%98%E7%94%9C%E5%93%81%20Lee%20Dessert%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%85%A7%E6%B9%96%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%9D%8E%E8%A8%98%E7%94%9C%E5%93%81%20Lee%20Dessert",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%9D%8E%E8%A8%98%E7%94%9C%E5%93%81LeeDessert/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-204",
@@ -11170,7 +11490,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%A5%BF%E6%B9%96%E5%B8%82%E5%A0%B4%20%E8%87%BA%E5%8C%97%E5%B8%82%E6%9D%BE%E5%B1%B1%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E8%A5%BF%E6%B9%96%E5%B8%82%E5%A0%B4",
+    "instagram": "https://www.instagram.com/explore/tags/%E8%A5%BF%E6%B9%96%E5%B8%82%E5%A0%B4/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-205",
@@ -11205,7 +11529,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%B1%B3%E8%98%87%E4%B9%8B%E9%96%93%E6%97%A9%E9%A4%90%E5%B7%A5%E5%9D%8A%20%E5%8E%9F%E6%9D%B1%E6%96%B9%E7%BE%8E%E6%B0%B8%E5%90%89%E5%BA%97%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%BF%A1%E7%BE%A9%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E7%B1%B3%E8%98%87%E4%B9%8B%E9%96%93%E6%97%A9%E9%A4%90%E5%B7%A5%E5%9D%8A%20%E5%8E%9F%E6%9D%B1%E6%96%B9%E7%BE%8E%E6%B0%B8%E5%90%89%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E7%B1%B3%E8%98%87%E4%B9%8B%E9%96%93%E6%97%A9%E9%A4%90%E5%B7%A5%E5%9D%8A%E5%8E%9F%E6%9D%B1%E6%96%B9%E7%BE%8E%E6%B0%B8%E5%90%89%E5%BA%97/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-206",
@@ -11235,7 +11563,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Modern%20Mode%20%26%20Modern%20Mode%20Caf%C3%A9%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A4%A7%E5%90%8C%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=Modern%20Mode%20%26%20Modern%20Mode%20Caf%C3%A9",
+    "instagram": "https://www.instagram.com/explore/tags/ModernModeModernModeCaf%C3%A9/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-207",
@@ -11264,7 +11596,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=TUTUKAKI%20%E5%8F%B8%E5%BA%B7%E5%B0%8F%E5%A3%B2%E6%89%80%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=TUTUKAKI%20%E5%8F%B8%E5%BA%B7%E5%B0%8F%E5%A3%B2%E6%89%80",
+    "instagram": "https://www.instagram.com/explore/tags/TUTUKAKI%E5%8F%B8%E5%BA%B7%E5%B0%8F%E5%A3%B2%E6%89%80/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-208",
@@ -11294,7 +11630,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=CRO%23FEE%20%E5%92%96%E5%95%A1%E4%BA%95%20-%20%E5%BE%A9%E8%88%88%E5%BA%97%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=CRO%23FEE%20%E5%92%96%E5%95%A1%E4%BA%95%20-%20%E5%BE%A9%E8%88%88%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/CROFEE%E5%92%96%E5%95%A1%E4%BA%95%E5%BE%A9%E8%88%88%E5%BA%97/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-209",
@@ -11325,7 +11665,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B0%8F%E5%8D%97%E9%A2%A8%E5%92%96%E5%95%A1Minami%20cafe%20%EF%BB%BF%20%E5%92%96%E5%95%A1%E8%B1%86%E6%89%B9%E7%99%BC%E9%9B%B6%E5%94%AE%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%B0%8F%E5%8D%97%E9%A2%A8%E5%92%96%E5%95%A1Minami%20cafe%20%EF%BB%BF%20%E5%92%96%E5%95%A1%E8%B1%86%E6%89%B9%E7%99%BC%E9%9B%B6%E5%94%AE",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%B0%8F%E5%8D%97%E9%A2%A8%E5%92%96%E5%95%A1Minamicafe%E5%92%96%E5%95%A1%E8%B1%86%E6%89%B9%E7%99%BC%E9%9B%B6%E5%94%AE/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-210",
@@ -11356,7 +11700,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%EC%A2%8B%EC%9D%80%20%EB%82%A0%20%E5%A5%BD%E6%97%A5%E5%AD%90%E5%92%96%E5%95%A1%20%E8%87%BA%E5%8C%97%E5%B8%82%E6%9D%BE%E5%B1%B1%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%EC%A2%8B%EC%9D%80%20%EB%82%A0%20%E5%A5%BD%E6%97%A5%E5%AD%90%E5%92%96%E5%95%A1",
+    "instagram": "https://www.instagram.com/explore/tags/%EC%A2%8B%EC%9D%80%EB%82%A0%E5%A5%BD%E6%97%A5%E5%AD%90%E5%92%96%E5%95%A1/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-211",
@@ -11386,7 +11734,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%9B%A2%E5%9F%8E%E6%94%BE%E6%84%9F%E6%83%85%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E9%9B%A2%E5%9F%8E%E6%94%BE%E6%84%9F%E6%83%85",
+    "instagram": "https://www.instagram.com/explore/tags/%E9%9B%A2%E5%9F%8E%E6%94%BE%E6%84%9F%E6%83%85/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-212",
@@ -11420,7 +11772,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%80%E9%B7%BA%E4%B8%B2%E7%87%92%E5%B1%85%E9%85%92%E5%B1%8B%20%E6%9D%BE%E6%B1%9F%E6%9C%AC%E5%BA%97%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%B8%AD%E5%B1%B1%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E4%B8%80%E9%B7%BA%E4%B8%B2%E7%87%92%E5%B1%85%E9%85%92%E5%B1%8B%20%E6%9D%BE%E6%B1%9F%E6%9C%AC%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E4%B8%80%E9%B7%BA%E4%B8%B2%E7%87%92%E5%B1%85%E9%85%92%E5%B1%8B%E6%9D%BE%E6%B1%9F%E6%9C%AC%E5%BA%97/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-213",
@@ -11451,7 +11807,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Rainma%20Caf%C3%A9%20Bistro%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%BF%A1%E7%BE%A9%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=Rainma%20Caf%C3%A9%20Bistro",
+    "instagram": "https://www.instagram.com/explore/tags/RainmaCaf%C3%A9Bistro/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-214",
@@ -11483,7 +11843,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Bonica%20P%C3%A2tisserie%20%26%20Caf%C3%A9%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=Bonica%20P%C3%A2tisserie%20%26%20Caf%C3%A9",
+    "instagram": "https://www.instagram.com/explore/tags/BonicaP%C3%A2tisserieCaf%C3%A9/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-215",
@@ -11514,7 +11878,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Riff%20Coffee%20Roasters%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%BF%A1%E7%BE%A9%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=Riff%20Coffee%20Roasters",
+    "instagram": "https://www.instagram.com/explore/tags/RiffCoffeeRoasters/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-216",
@@ -11545,7 +11913,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Space%20Time%20Bistro%26Bar%20%7C%20%E6%9D%B1%E5%8D%80%E8%B2%93%E5%92%AA%E9%A4%90%E9%85%92%E9%A4%A8%EF%BD%9C%E6%9D%B1%E5%8D%80%E8%B2%93%E5%92%AA%E9%85%92%E5%90%A7%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%BF%A1%E7%BE%A9%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=Space%20Time%20Bistro%26Bar%20%7C%20%E6%9D%B1%E5%8D%80%E8%B2%93%E5%92%AA%E9%A4%90%E9%85%92%E9%A4%A8%EF%BD%9C%E6%9D%B1%E5%8D%80%E8%B2%93%E5%92%AA%E9%85%92%E5%90%A7",
+    "instagram": "https://www.instagram.com/explore/tags/SpaceTimeBistroBar%E6%9D%B1%E5%8D%80%E8%B2%93%E5%92%AA%E9%A4%90%E9%85%92%E9%A4%A8%E6%9D%B1%E5%8D%80%E8%B2%93%E5%92%AA%E9%85%92%E5%90%A7/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-217",
@@ -11575,7 +11947,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Vis%20cafe%20%E5%9C%93%E5%B1%B1%E5%BA%97%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A4%A7%E5%90%8C%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=Vis%20cafe%20%E5%9C%93%E5%B1%B1%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/Viscafe%E5%9C%93%E5%B1%B1%E5%BA%97/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-218",
@@ -11610,7 +11986,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%80%E9%B7%BA%E4%B8%B2%E7%87%92%E5%B1%85%E9%85%92%E5%B1%8B%20%E5%A4%A7%E7%9B%B4%E6%97%97%E8%89%A6%E5%BA%97%20%E5%AF%B5%E7%89%A9%E5%8F%8B%E5%96%84%20%E8%87%BA%E5%8C%97%E5%B8%82%E6%9D%BE%E5%B1%B1%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E4%B8%80%E9%B7%BA%E4%B8%B2%E7%87%92%E5%B1%85%E9%85%92%E5%B1%8B%20%E5%A4%A7%E7%9B%B4%E6%97%97%E8%89%A6%E5%BA%97%20%E5%AF%B5%E7%89%A9%E5%8F%8B%E5%96%84",
+    "instagram": "https://www.instagram.com/explore/tags/%E4%B8%80%E9%B7%BA%E4%B8%B2%E7%87%92%E5%B1%85%E9%85%92%E5%B1%8B%E5%A4%A7%E7%9B%B4%E6%97%97%E8%89%A6%E5%BA%97%E5%AF%B5%E7%89%A9%E5%8F%8B%E5%96%84/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-219",
@@ -11641,7 +12021,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B0%B4%E7%BE%BF%E4%BA%91%E9%A3%9B%20Wing%20Prime%20Tea%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A4%A7%E5%90%8C%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%B0%B4%E7%BE%BF%E4%BA%91%E9%A3%9B%20Wing%20Prime%20Tea",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%B0%B4%E7%BE%BF%E4%BA%91%E9%A3%9BWingPrimeTea/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-220",
@@ -11671,7 +12055,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=TAKEFIVE%20%E4%BA%94%E6%96%B9%E9%A3%9F%E8%97%8F%20%E5%BF%A0%E5%AD%9D%E5%BA%97%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%BF%A1%E7%BE%A9%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=TAKEFIVE%20%E4%BA%94%E6%96%B9%E9%A3%9F%E8%97%8F%20%E5%BF%A0%E5%AD%9D%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/TAKEFIVE%E4%BA%94%E6%96%B9%E9%A3%9F%E8%97%8F%E5%BF%A0%E5%AD%9D%E5%BA%97/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-221",
@@ -11703,7 +12091,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=TAKEFIVE%20%E4%BA%94%E6%96%B9%E9%A3%9F%E8%97%8F%20%E9%9D%92%E7%94%B0%E5%BA%97%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=TAKEFIVE%20%E4%BA%94%E6%96%B9%E9%A3%9F%E8%97%8F%20%E9%9D%92%E7%94%B0%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/TAKEFIVE%E4%BA%94%E6%96%B9%E9%A3%9F%E8%97%8F%E9%9D%92%E7%94%B0%E5%BA%97/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-222",
@@ -11733,7 +12125,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=TAKEFIVE%20%E4%BA%94%E6%96%B9%E9%A3%9F%E8%97%8F%20%E5%A4%A7%E7%A8%BB%E5%9F%95%E5%BA%97%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A4%A7%E5%90%8C%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=TAKEFIVE%20%E4%BA%94%E6%96%B9%E9%A3%9F%E8%97%8F%20%E5%A4%A7%E7%A8%BB%E5%9F%95%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/TAKEFIVE%E4%BA%94%E6%96%B9%E9%A3%9F%E8%97%8F%E5%A4%A7%E7%A8%BB%E5%9F%95%E5%BA%97/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-223",
@@ -11761,7 +12157,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9D%BE%E6%9D%BE%E5%92%96%E5%95%A1%20%E9%98%BF%E6%9D%BE%E4%B8%8D%E5%AE%9A%E6%9C%9F%E5%87%BA%E6%B2%92%20%E8%87%BA%E5%8C%97%E5%B8%82%E6%9D%BE%E5%B1%B1%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%9D%BE%E6%9D%BE%E5%92%96%E5%95%A1%20%E9%98%BF%E6%9D%BE%E4%B8%8D%E5%AE%9A%E6%9C%9F%E5%87%BA%E6%B2%92",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%9D%BE%E6%9D%BE%E5%92%96%E5%95%A1%E9%98%BF%E6%9D%BE%E4%B8%8D%E5%AE%9A%E6%9C%9F%E5%87%BA%E6%B2%92/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-224",
@@ -11790,7 +12190,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%AA%AA%E5%A5%BD%E5%92%96%E5%95%A1%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A4%A7%E5%90%8C%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E8%AA%AA%E5%A5%BD%E5%92%96%E5%95%A1",
+    "instagram": "https://www.instagram.com/explore/tags/%E8%AA%AA%E5%A5%BD%E5%92%96%E5%95%A1/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-225",
@@ -11823,7 +12227,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%A5%97%E6%97%AD%E5%92%96%E5%95%A1%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E9%A5%97%E6%97%AD%E5%92%96%E5%95%A1",
+    "instagram": "https://www.instagram.com/explore/tags/%E9%A5%97%E6%97%AD%E5%92%96%E5%95%A1/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-226",
@@ -11854,7 +12262,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%B4%85%E6%9C%A8%E5%B1%8B-%E6%96%87%E5%B1%B1%E7%86%B1%E7%82%92%E6%8E%A8%E8%96%A6%7C%E5%90%88%E8%8F%9C%E8%8F%9C%E5%BB%B3%7C%E5%AE%B6%E6%97%8F%E8%81%9A%E9%A4%90%E6%8E%A8%E8%96%A6%7C%E5%9C%A8%E5%9C%B0%E6%8E%A8%E8%96%A6%7C%E8%B2%93%E7%A9%BA%E7%89%B9%E8%89%B2%E9%A4%90%E5%BB%B3%7C%E7%86%B1%E9%96%80%E9%A4%90%E5%BB%B3%7C%E6%99%AF%E8%A7%80%E9%A4%90%E5%BB%B3%7C%E4%BA%BA%E6%B0%A3%E9%A4%90%E5%BB%B3%20%E8%87%BA%E5%8C%97%E5%B8%82%E6%96%87%E5%B1%B1%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E7%B4%85%E6%9C%A8%E5%B1%8B-%E6%96%87%E5%B1%B1%E7%86%B1%E7%82%92%E6%8E%A8%E8%96%A6%7C%E5%90%88%E8%8F%9C%E8%8F%9C%E5%BB%B3%7C%E5%AE%B6%E6%97%8F%E8%81%9A%E9%A4%90%E6%8E%A8%E8%96%A6%7C%E5%9C%A8%E5%9C%B0%E6%8E%A8%E8%96%A6%7C%E8%B2%93%E7%A9%BA%E7%89%B9%E8%89%B2%E9%A4%90%E5%BB%B3%7C%E7%86%B1%E9%96%80%E9%A4%90%E5%BB%B3%7C%E6%99%AF%E8%A7%80%E9%A4%90%E5%BB%B3%7C%E4%BA%BA%E6%B0%A3%E9%A4%90%E5%BB%B3",
+    "instagram": "https://www.instagram.com/explore/tags/%E7%B4%85%E6%9C%A8%E5%B1%8B%E6%96%87%E5%B1%B1%E7%86%B1%E7%82%92%E6%8E%A8%E8%96%A6%E5%90%88%E8%8F%9C%E8%8F%9C%E5%BB%B3%E5%AE%B6%E6%97%8F%E8%81%9A%E9%A4%90%E6%8E%A8%E8%96%A6%E5%9C%A8%E5%9C%B0%E6%8E%A8%E8%96%A6%E8%B2%93%E7%A9%BA%E7%89%B9%E8%89%B2%E9%A4%90%E5%BB%B3%E7%86%B1%E9%96%80%E9%A4%90%E5%BB%B3%E6%99%AF%E8%A7%80%E9%A4%90%E5%BB%B3%E4%BA%BA%E6%B0%A3%E9%A4%90%E5%BB%B3/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-227",
@@ -11884,7 +12296,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B0%8F%E5%85%AC%E5%AF%93Apt.cafe%20%E8%87%BA%E5%8C%97%E5%B8%82%E6%96%87%E5%B1%B1%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%B0%8F%E5%85%AC%E5%AF%93Apt.cafe",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%B0%8F%E5%85%AC%E5%AF%93Aptcafe/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-228",
@@ -11913,7 +12329,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=INDULGE%20Taipei%20Drinking%20%26%20Eatery%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=INDULGE%20Taipei%20Drinking%20%26%20Eatery",
+    "instagram": "https://www.instagram.com/explore/tags/INDULGETaipeiDrinkingEatery/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-229",
@@ -11945,7 +12365,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%95%B0%E4%B8%96%E7%95%8C%E5%92%96%E5%95%A1%E9%A4%A8%E2%80%A2%E6%BE%90%E6%9C%88%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A4%A7%E5%90%8C%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E7%95%B0%E4%B8%96%E7%95%8C%E5%92%96%E5%95%A1%E9%A4%A8%E2%80%A2%E6%BE%90%E6%9C%88",
+    "instagram": "https://www.instagram.com/explore/tags/%E7%95%B0%E4%B8%96%E7%95%8C%E5%92%96%E5%95%A1%E9%A4%A8%E6%BE%90%E6%9C%88/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-230",
@@ -11973,7 +12397,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B0%8F%E7%B4%85%E8%8A%B1Cafe%EF%BD%9C%E6%97%A9%E5%8D%88%E9%A4%90%EF%BD%9C%E4%B8%8D%E9%99%90%E6%99%82%EF%BD%9C%E6%89%8B%E4%BD%9C%E9%AB%94%E9%A9%97%EF%BD%9C%E6%96%87%E5%89%B5%E9%81%B8%E7%89%A9%E5%BA%97%EF%BD%9C%E9%89%A4%E9%87%9D%EF%BD%9C%E6%AF%9B%E6%A0%B9%E8%8A%B1%EF%BD%9C%E6%8B%BC%E8%B1%86%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%8C%97%E6%8A%95%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%B0%8F%E7%B4%85%E8%8A%B1Cafe%EF%BD%9C%E6%97%A9%E5%8D%88%E9%A4%90%EF%BD%9C%E4%B8%8D%E9%99%90%E6%99%82%EF%BD%9C%E6%89%8B%E4%BD%9C%E9%AB%94%E9%A9%97%EF%BD%9C%E6%96%87%E5%89%B5%E9%81%B8%E7%89%A9%E5%BA%97%EF%BD%9C%E9%89%A4%E9%87%9D%EF%BD%9C%E6%AF%9B%E6%A0%B9%E8%8A%B1%EF%BD%9C%E6%8B%BC%E8%B1%86",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%B0%8F%E7%B4%85%E8%8A%B1Cafe%E6%97%A9%E5%8D%88%E9%A4%90%E4%B8%8D%E9%99%90%E6%99%82%E6%89%8B%E4%BD%9C%E9%AB%94%E9%A9%97%E6%96%87%E5%89%B5%E9%81%B8%E7%89%A9%E5%BA%97%E9%89%A4%E9%87%9D%E6%AF%9B%E6%A0%B9%E8%8A%B1%E6%8B%BC%E8%B1%86/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-231",
@@ -12003,7 +12431,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Mr.%20Light%20%E8%BC%95%E9%A3%9F%E5%85%88%E7%94%9F%20%E8%87%BA%E5%8C%97%E5%B8%82%E6%96%87%E5%B1%B1%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=Mr.%20Light%20%E8%BC%95%E9%A3%9F%E5%85%88%E7%94%9F",
+    "instagram": "https://www.instagram.com/explore/tags/MrLight%E8%BC%95%E9%A3%9F%E5%85%88%E7%94%9F/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-232",
@@ -12030,7 +12462,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%BC%98%E5%BC%98%E6%9C%9D%E9%A3%9F%20%E5%8D%97%E6%B8%AF1%E5%BA%97%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%8D%97%E6%B8%AF%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%BC%98%E5%BC%98%E6%9C%9D%E9%A3%9F%20%E5%8D%97%E6%B8%AF1%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%BC%98%E5%BC%98%E6%9C%9D%E9%A3%9F%E5%8D%97%E6%B8%AF1%E5%BA%97/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-233",
@@ -12057,7 +12493,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%BC%98%E5%BC%98%E6%9C%9D%E9%A3%9F%20%E6%96%B0%E6%B0%912%E5%BA%97%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%8D%97%E6%B8%AF%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%BC%98%E5%BC%98%E6%9C%9D%E9%A3%9F%20%E6%96%B0%E6%B0%912%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%BC%98%E5%BC%98%E6%9C%9D%E9%A3%9F%E6%96%B0%E6%B0%912%E5%BA%97/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-234",
@@ -12084,7 +12524,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Dvibe%20%E8%87%BA%E5%8C%97%E5%B8%82%E8%90%AC%E8%8F%AF%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=Dvibe",
+    "instagram": "https://www.instagram.com/explore/tags/Dvibe/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-235",
@@ -12111,7 +12555,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Fur%20Sure%20Caf%E2%80%99e%EF%BD%9C%E5%AF%B5%E7%89%A9%E5%8F%8B%E5%96%84%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%BF%A1%E7%BE%A9%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=Fur%20Sure%20Caf%E2%80%99e%EF%BD%9C%E5%AF%B5%E7%89%A9%E5%8F%8B%E5%96%84",
+    "instagram": "https://www.instagram.com/explore/tags/FurSureCafe%E5%AF%B5%E7%89%A9%E5%8F%8B%E5%96%84/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-236",
@@ -12138,7 +12586,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Gaia%20Flow%20%E5%85%A8%E6%A4%8D%E6%96%99%E7%90%86%20%7C%20%E7%B4%94%E7%B4%A0%20%7C%20%E7%84%A1%E9%BA%A9%E8%B3%AA%20%7C%20%E6%9C%89%E6%A9%9F%20%7C%20%E8%87%AA%E7%84%B6%20%7C%20%E5%8F%8B%E5%96%84%E8%BE%B2%E6%B3%95%20%7C%20Vegan%20Restaurant%20%7C%20Gluten%20Free%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=Gaia%20Flow%20%E5%85%A8%E6%A4%8D%E6%96%99%E7%90%86%20%7C%20%E7%B4%94%E7%B4%A0%20%7C%20%E7%84%A1%E9%BA%A9%E8%B3%AA%20%7C%20%E6%9C%89%E6%A9%9F%20%7C%20%E8%87%AA%E7%84%B6%20%7C%20%E5%8F%8B%E5%96%84%E8%BE%B2%E6%B3%95%20%7C%20Vegan%20Restaurant%20%7C%20Gluten%20Free",
+    "instagram": "https://www.instagram.com/explore/tags/GaiaFlow%E5%85%A8%E6%A4%8D%E6%96%99%E7%90%86%E7%B4%94%E7%B4%A0%E7%84%A1%E9%BA%A9%E8%B3%AA%E6%9C%89%E6%A9%9F%E8%87%AA%E7%84%B6%E5%8F%8B%E5%96%84%E8%BE%B2%E6%B3%95VeganRestaurantGlutenFree/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-237",
@@ -12165,7 +12617,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%94%98%E8%94%97%E6%B8%A3%E7%94%B7%20%E7%94%98%E6%9D%AFbar%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E7%94%98%E8%94%97%E6%B8%A3%E7%94%B7%20%E7%94%98%E6%9D%AFbar",
+    "instagram": "https://www.instagram.com/explore/tags/%E7%94%98%E8%94%97%E6%B8%A3%E7%94%B7%E7%94%98%E6%9D%AFbar/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-238",
@@ -12192,7 +12648,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%91%89%E7%94%98%E5%96%AE%E8%94%AC%E9%A3%9F%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E8%91%89%E7%94%98%E5%96%AE%E8%94%AC%E9%A3%9F",
+    "instagram": "https://www.instagram.com/explore/tags/%E8%91%89%E7%94%98%E5%96%AE%E8%94%AC%E9%A3%9F/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-239",
@@ -12219,7 +12679,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%A2%8C%E7%A2%8C%E6%B4%8B%E9%A3%9F%20Lulu%20Yoshoku%20%E8%87%BA%E5%8C%97%E5%B8%82%E6%9D%BE%E5%B1%B1%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E7%A2%8C%E7%A2%8C%E6%B4%8B%E9%A3%9F%20Lulu%20Yoshoku",
+    "instagram": "https://www.instagram.com/explore/tags/%E7%A2%8C%E7%A2%8C%E6%B4%8B%E9%A3%9FLuluYoshoku/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-240",
@@ -12246,7 +12710,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%94%B2%E8%9F%B2%E7%A7%98%E5%A2%83%E8%87%AA%E7%84%B6%E7%94%9F%E6%85%8B%E9%A4%A8%20%E8%A6%AA%E5%AD%90%E5%AF%B5%E7%89%A9%E5%8F%8B%E5%96%84%E9%A4%90%E5%BB%B3%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A3%AB%E6%9E%97%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E7%94%B2%E8%9F%B2%E7%A7%98%E5%A2%83%E8%87%AA%E7%84%B6%E7%94%9F%E6%85%8B%E9%A4%A8%20%E8%A6%AA%E5%AD%90%E5%AF%B5%E7%89%A9%E5%8F%8B%E5%96%84%E9%A4%90%E5%BB%B3",
+    "instagram": "https://www.instagram.com/explore/tags/%E7%94%B2%E8%9F%B2%E7%A7%98%E5%A2%83%E8%87%AA%E7%84%B6%E7%94%9F%E6%85%8B%E9%A4%A8%E8%A6%AA%E5%AD%90%E5%AF%B5%E7%89%A9%E5%8F%8B%E5%96%84%E9%A4%90%E5%BB%B3/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-241",
@@ -12273,7 +12741,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%8A%B1%E5%B6%BC%E8%BC%95%E9%A3%9F%E9%A4%A8%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A3%AB%E6%9E%97%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E8%8A%B1%E5%B6%BC%E8%BC%95%E9%A3%9F%E9%A4%A8",
+    "instagram": "https://www.instagram.com/explore/tags/%E8%8A%B1%E5%B6%BC%E8%BC%95%E9%A3%9F%E9%A4%A8/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-242",
@@ -12300,7 +12772,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%95%8A%20PLOW%20Yunong%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A3%AB%E6%9E%97%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E7%95%8A%20PLOW%20Yunong",
+    "instagram": "https://www.instagram.com/explore/tags/%E7%95%8APLOWYunong/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-243",
@@ -12327,7 +12803,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Fur%20Sure%20Caf%E2%80%99e%EF%BD%9C%E5%AF%B5%E7%89%A9%E5%8F%8B%E5%96%84%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%BF%A1%E7%BE%A9%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=Fur%20Sure%20Caf%E2%80%99e%EF%BD%9C%E5%AF%B5%E7%89%A9%E5%8F%8B%E5%96%84",
+    "instagram": "https://www.instagram.com/explore/tags/FurSureCafe%E5%AF%B5%E7%89%A9%E5%8F%8B%E5%96%84/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-244",
@@ -12354,34 +12834,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
-  },
-  {
-    "id": "tpe-245",
-    "name": "甜DD工作室(可以外送)",
-    "legalName": "甜DD工作室(可以外送)",
-    "category": "特色餐廳",
-    "city": "臺北市",
-    "district": "萬華區",
-    "address": "臺北市萬華區（台北動保處登錄動物友善空間）",
-    "phone": "依店家現場公告為準",
-    "lat": 25.047497,
-    "lng": 121.473761,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可入內",
-      "可落地"
-    ],
-    "features": [
-      "臺北市動保處認證動物友善空間"
-    ],
-    "source": "臺北市動物保護處 (官方認證)",
-    "sourceUrl": "https://www.tcapo.gov.taipei/",
-    "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%84%AA%E9%AE%AE%E4%B8%BB%E6%84%8F%20A%C3%A7a%C3%AD%E5%B7%B4%E8%A5%BF%E8%8E%93%20%C2%B7%20Premium%20Fruits%20%C2%B7%20Private%20Members%27%20Club%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%84%AA%E9%AE%AE%E4%B8%BB%E6%84%8F%20A%C3%A7a%C3%AD%E5%B7%B4%E8%A5%BF%E8%8E%93%20%C2%B7%20Premium%20Fruits%20%C2%B7%20Private%20Members%27%20Club",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%84%AA%E9%AE%AE%E4%B8%BB%E6%84%8FA%C3%A7a%C3%AD%E5%B7%B4%E8%A5%BF%E8%8E%93PremiumFruitsPrivateMembersClub/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-246",
@@ -12408,7 +12865,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%8E%AB%E5%8F%A4%E5%92%96%E5%95%A1%20MEET%20GRACE%20COFFEE%20%E8%87%BA%E5%8C%97%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E8%8E%AB%E5%8F%A4%E5%92%96%E5%95%A1%20MEET%20GRACE%20COFFEE",
+    "instagram": "https://www.instagram.com/explore/tags/%E8%8E%AB%E5%8F%A4%E5%92%96%E5%95%A1MEETGRACECOFFEE/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-247",
@@ -12435,7 +12896,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=BACKMOUNT%E5%BE%8C%E5%B1%B1%E5%92%96%E5%95%A1%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%8D%97%E6%B8%AF%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=BACKMOUNT%E5%BE%8C%E5%B1%B1%E5%92%96%E5%95%A1",
+    "instagram": "https://www.instagram.com/explore/tags/BACKMOUNT%E5%BE%8C%E5%B1%B1%E5%92%96%E5%95%A1/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "tpe-248",
@@ -12462,7 +12927,11 @@ window.PET_PLACES_DATA = [
     "source": "臺北市動物保護處 (官方認證)",
     "sourceUrl": "https://www.tcapo.gov.taipei/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Vagus%20%E9%A4%90%E9%85%92%E9%A4%A8%20Lounge%20%E8%87%BA%E5%8C%97%E5%B8%82%E5%A4%A7%E5%90%8C%E5%8D%80%EF%BC%88%E5%8F%B0%E5%8C%97%E5%8B%95%E4%BF%9D%E8%99%95%E7%99%BB%E9%8C%84%E5%8B%95%E7%89%A9%E5%8F%8B%E5%96%84%E7%A9%BA%E9%96%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=Vagus%20%E9%A4%90%E9%85%92%E9%A4%A8%20Lounge",
+    "instagram": "https://www.instagram.com/explore/tags/Vagus%E9%A4%90%E9%85%92%E9%A4%A8Lounge/",
+    "website": "https://www.tcapo.gov.taipei/"
   },
   {
     "id": "curated-1",
@@ -12491,7 +12960,11 @@ window.PET_PLACES_DATA = [
     "source": "基隆海景友善咖啡首選",
     "sourceUrl": "https://data.gov.tw/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%A8%82%E5%93%81%E5%96%9C%E5%A1%98%20%E5%92%8C%E5%B9%B3%E5%B3%B6%E5%9C%B0%E8%B3%AA%E5%85%AC%E5%9C%92%E6%B5%B7%E6%99%AF%E5%92%96%E5%95%A1%20%E5%9F%BA%E9%9A%86%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%8D%80%E5%B9%B3%E4%B8%80%E8%B7%AF360%E8%99%9F%EF%BC%88%E9%81%8A%E5%AE%A2%E4%B8%AD%E5%BF%833%E6%A8%93%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%A8%82%E5%93%81%E5%96%9C%E5%A1%98%20%E5%92%8C%E5%B9%B3%E5%B3%B6%E5%9C%B0%E8%B3%AA%E5%85%AC%E5%9C%92%E6%B5%B7%E6%99%AF%E5%92%96%E5%95%A1",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%A8%82%E5%93%81%E5%96%9C%E5%A1%98%E5%92%8C%E5%B9%B3%E5%B3%B6%E5%9C%B0%E8%B3%AA%E5%85%AC%E5%9C%92%E6%B5%B7%E6%99%AF%E5%92%96%E5%95%A1/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E6%A8%82%E5%93%81%E5%96%9C%E5%A1%98%20%E5%92%8C%E5%B9%B3%E5%B3%B6%E5%9C%B0%E8%B3%AA%E5%85%AC%E5%9C%92%E6%B5%B7%E6%99%AF%E5%92%96%E5%95%A1%20%E5%9F%BA%E9%9A%86%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%8D%80%E5%B9%B3%E4%B8%80%E8%B7%AF360%E8%99%9F%EF%BC%88%E9%81%8A%E5%AE%A2%E4%B8%AD%E5%BF%833%E6%A8%93%EF%BC%89"
   },
   {
     "id": "curated-2",
@@ -12520,7 +12993,11 @@ window.PET_PLACES_DATA = [
     "source": "基隆市區文青友善推薦",
     "sourceUrl": "https://data.gov.tw/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%B8%E8%A7%92%E5%BE%8C%E9%99%A2%20Maru%20Corner%20Cafe%20%E5%9F%BA%E9%9A%86%E5%B8%82%E4%BB%81%E6%84%9B%E5%8D%80%E5%AD%9D%E4%BA%8C%E8%B7%AF28%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E4%B8%B8%E8%A7%92%E5%BE%8C%E9%99%A2%20Maru%20Corner%20Cafe",
+    "instagram": "https://www.instagram.com/explore/tags/%E4%B8%B8%E8%A7%92%E5%BE%8C%E9%99%A2MaruCornerCafe/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E4%B8%B8%E8%A7%92%E5%BE%8C%E9%99%A2%20Maru%20Corner%20Cafe%20%E5%9F%BA%E9%9A%86%E5%B8%82%E4%BB%81%E6%84%9B%E5%8D%80%E5%AD%9D%E4%BA%8C%E8%B7%AF28%E8%99%9F"
   },
   {
     "id": "curated-3",
@@ -12550,7 +13027,11 @@ window.PET_PLACES_DATA = [
     "source": "北海岸知名海景寵物友善餐廳",
     "sourceUrl": "https://data.gov.tw/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%85%AC%E9%9B%9E%E5%92%96%E5%95%A1%20Le%20Coq%20%E6%B7%BA%E6%B0%B4%E7%81%A3%E6%B5%B7%E6%99%AF%E7%AC%AC%E4%B8%80%E6%8E%92%20%E6%96%B0%E5%8C%97%E5%B8%82%E4%B8%89%E8%8A%9D%E5%8D%80%E5%BE%8C%E5%8E%9D%E9%87%8C%E5%8C%97%E5%8B%A2%E5%AD%9045-16%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%85%AC%E9%9B%9E%E5%92%96%E5%95%A1%20Le%20Coq%20%E6%B7%BA%E6%B0%B4%E7%81%A3%E6%B5%B7%E6%99%AF%E7%AC%AC%E4%B8%80%E6%8E%92",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%85%AC%E9%9B%9E%E5%92%96%E5%95%A1LeCoq%E6%B7%BA%E6%B0%B4%E7%81%A3%E6%B5%B7%E6%99%AF%E7%AC%AC%E4%B8%80%E6%8E%92/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E5%85%AC%E9%9B%9E%E5%92%96%E5%95%A1%20Le%20Coq%20%E6%B7%BA%E6%B0%B4%E7%81%A3%E6%B5%B7%E6%99%AF%E7%AC%AC%E4%B8%80%E6%8E%92%20%E6%96%B0%E5%8C%97%E5%B8%82%E4%B8%89%E8%8A%9D%E5%8D%80%E5%BE%8C%E5%8E%9D%E9%87%8C%E5%8C%97%E5%8B%A2%E5%AD%9045-16%E8%99%9F"
   },
   {
     "id": "curated-4",
@@ -12579,7 +13060,11 @@ window.PET_PLACES_DATA = [
     "source": "新北動保海線推薦",
     "sourceUrl": "https://data.gov.tw/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%95%99%E5%A4%8F%20Stay%20Cafe%20%E4%B8%89%E8%8A%9D%E6%B5%B7%E9%82%8A%E8%80%81%E5%AE%85%20%E6%96%B0%E5%8C%97%E5%B8%82%E4%B8%89%E8%8A%9D%E5%8D%80%E5%BE%8C%E5%8E%9D%E9%87%8C%E5%8C%97%E5%8B%A2%E5%AD%9013-3%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E7%95%99%E5%A4%8F%20Stay%20Cafe%20%E4%B8%89%E8%8A%9D%E6%B5%B7%E9%82%8A%E8%80%81%E5%AE%85",
+    "instagram": "https://www.instagram.com/explore/tags/%E7%95%99%E5%A4%8FStayCafe%E4%B8%89%E8%8A%9D%E6%B5%B7%E9%82%8A%E8%80%81%E5%AE%85/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E7%95%99%E5%A4%8F%20Stay%20Cafe%20%E4%B8%89%E8%8A%9D%E6%B5%B7%E9%82%8A%E8%80%81%E5%AE%85%20%E6%96%B0%E5%8C%97%E5%B8%82%E4%B8%89%E8%8A%9D%E5%8D%80%E5%BE%8C%E5%8E%9D%E9%87%8C%E5%8C%97%E5%8B%A2%E5%AD%9013-3%E8%99%9F"
   },
   {
     "id": "curated-5",
@@ -12610,7 +13095,11 @@ window.PET_PLACES_DATA = [
     "source": "新北市動保處友善空間推薦",
     "sourceUrl": "https://data.gov.tw/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%85%9C%20Miao%20%E5%AF%B5%E7%89%A9%E5%8F%8B%E5%96%84%E9%A4%90%E5%BB%B3%20%E6%96%B0%E5%8C%97%E5%B8%82%E6%9D%BF%E6%A9%8B%E5%8D%80%E5%85%89%E6%AD%A6%E8%A1%97119%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%85%9C%20Miao%20%E5%AF%B5%E7%89%A9%E5%8F%8B%E5%96%84%E9%A4%90%E5%BB%B3",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%85%9CMiao%E5%AF%B5%E7%89%A9%E5%8F%8B%E5%96%84%E9%A4%90%E5%BB%B3/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E5%85%9C%20Miao%20%E5%AF%B5%E7%89%A9%E5%8F%8B%E5%96%84%E9%A4%90%E5%BB%B3%20%E6%96%B0%E5%8C%97%E5%B8%82%E6%9D%BF%E6%A9%8B%E5%8D%80%E5%85%89%E6%AD%A6%E8%A1%97119%E8%99%9F"
   },
   {
     "id": "curated-6",
@@ -12640,7 +13129,11 @@ window.PET_PLACES_DATA = [
     "source": "新北市熱門寵物主題餐廳",
     "sourceUrl": "https://data.gov.tw/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%89%BE%E6%9F%B4%E9%A4%90%E5%BB%B3%20%E6%9D%BF%E6%A9%8B%E6%96%87%E5%8C%96%E5%BA%97%20%E6%96%B0%E5%8C%97%E5%B8%82%E6%9D%BF%E6%A9%8B%E5%8D%80%E6%96%87%E5%8C%96%E8%B7%AF%E4%B8%80%E6%AE%B5285%E5%B7%B72%E5%BC%842%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%89%BE%E6%9F%B4%E9%A4%90%E5%BB%B3%20%E6%9D%BF%E6%A9%8B%E6%96%87%E5%8C%96%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%89%BE%E6%9F%B4%E9%A4%90%E5%BB%B3%E6%9D%BF%E6%A9%8B%E6%96%87%E5%8C%96%E5%BA%97/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E6%89%BE%E6%9F%B4%E9%A4%90%E5%BB%B3%20%E6%9D%BF%E6%A9%8B%E6%96%87%E5%8C%96%E5%BA%97%20%E6%96%B0%E5%8C%97%E5%B8%82%E6%9D%BF%E6%A9%8B%E5%8D%80%E6%96%87%E5%8C%96%E8%B7%AF%E4%B8%80%E6%AE%B5285%E5%B7%B72%E5%BC%842%E8%99%9F"
   },
   {
     "id": "curated-7",
@@ -12669,7 +13162,11 @@ window.PET_PLACES_DATA = [
     "source": "新北動保精選水岸餐廳",
     "sourceUrl": "https://data.gov.tw/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%A2%A7%E6%BD%AD%E6%B0%B4%E7%81%A3%E6%99%AF%E8%A7%80%E9%A4%90%E5%BB%B3%20%E6%96%B0%E5%8C%97%E5%B8%82%E6%96%B0%E5%BA%97%E5%8D%80%E7%A2%A7%E6%BD%AD%E8%B7%AF1%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E7%A2%A7%E6%BD%AD%E6%B0%B4%E7%81%A3%E6%99%AF%E8%A7%80%E9%A4%90%E5%BB%B3",
+    "instagram": "https://www.instagram.com/explore/tags/%E7%A2%A7%E6%BD%AD%E6%B0%B4%E7%81%A3%E6%99%AF%E8%A7%80%E9%A4%90%E5%BB%B3/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E7%A2%A7%E6%BD%AD%E6%B0%B4%E7%81%A3%E6%99%AF%E8%A7%80%E9%A4%90%E5%BB%B3%20%E6%96%B0%E5%8C%97%E5%B8%82%E6%96%B0%E5%BA%97%E5%8D%80%E7%A2%A7%E6%BD%AD%E8%B7%AF1%E8%99%9F"
   },
   {
     "id": "curated-8",
@@ -12698,7 +13195,11 @@ window.PET_PLACES_DATA = [
     "source": "新北動保10大寵物旅遊路線",
     "sourceUrl": "https://data.gov.tw/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%B6%A0%E5%85%89%E6%B2%B3%E5%B2%B8%E6%99%AF%E8%A7%80%E5%92%96%E5%95%A1%20%E5%85%AB%E9%87%8C%E5%B7%A6%E5%B2%B8%20%E6%96%B0%E5%8C%97%E5%B8%82%E5%85%AB%E9%87%8C%E5%8D%80%E8%A7%80%E6%B5%B7%E5%A4%A7%E9%81%9339%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E7%B6%A0%E5%85%89%E6%B2%B3%E5%B2%B8%E6%99%AF%E8%A7%80%E5%92%96%E5%95%A1%20%E5%85%AB%E9%87%8C%E5%B7%A6%E5%B2%B8",
+    "instagram": "https://www.instagram.com/explore/tags/%E7%B6%A0%E5%85%89%E6%B2%B3%E5%B2%B8%E6%99%AF%E8%A7%80%E5%92%96%E5%95%A1%E5%85%AB%E9%87%8C%E5%B7%A6%E5%B2%B8/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E7%B6%A0%E5%85%89%E6%B2%B3%E5%B2%B8%E6%99%AF%E8%A7%80%E5%92%96%E5%95%A1%20%E5%85%AB%E9%87%8C%E5%B7%A6%E5%B2%B8%20%E6%96%B0%E5%8C%97%E5%B8%82%E5%85%AB%E9%87%8C%E5%8D%80%E8%A7%80%E6%B5%B7%E5%A4%A7%E9%81%9339%E8%99%9F"
   },
   {
     "id": "curated-9",
@@ -12727,7 +13228,11 @@ window.PET_PLACES_DATA = [
     "source": "新北市文創友善空間",
     "sourceUrl": "https://data.gov.tw/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%94%98%E6%A8%82%E6%96%87%E5%89%B5%E9%A3%9F%E5%A0%82%20%E7%99%BE%E5%B9%B4%E4%B8%89%E5%B3%BD%E5%8F%A4%E5%8E%9D%20%E6%96%B0%E5%8C%97%E5%B8%82%E4%B8%89%E5%B3%BD%E5%8D%80%E6%B8%85%E6%B0%B4%E8%A1%97317%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E7%94%98%E6%A8%82%E6%96%87%E5%89%B5%E9%A3%9F%E5%A0%82%20%E7%99%BE%E5%B9%B4%E4%B8%89%E5%B3%BD%E5%8F%A4%E5%8E%9D",
+    "instagram": "https://www.instagram.com/explore/tags/%E7%94%98%E6%A8%82%E6%96%87%E5%89%B5%E9%A3%9F%E5%A0%82%E7%99%BE%E5%B9%B4%E4%B8%89%E5%B3%BD%E5%8F%A4%E5%8E%9D/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E7%94%98%E6%A8%82%E6%96%87%E5%89%B5%E9%A3%9F%E5%A0%82%20%E7%99%BE%E5%B9%B4%E4%B8%89%E5%B3%BD%E5%8F%A4%E5%8E%9D%20%E6%96%B0%E5%8C%97%E5%B8%82%E4%B8%89%E5%B3%BD%E5%8D%80%E6%B8%85%E6%B0%B4%E8%A1%97317%E8%99%9F"
   },
   {
     "id": "curated-10",
@@ -12757,7 +13262,11 @@ window.PET_PLACES_DATA = [
     "source": "桃園市動保處友善店家",
     "sourceUrl": "https://data.gov.tw/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%B5%B0%E8%B5%B0%E5%92%96%E5%95%A1%20GOGO%20CAFE%20%E6%A1%83%E5%9C%92%E5%B8%82%E6%A1%83%E5%9C%92%E5%8D%80%E5%A4%A7%E8%88%88%E5%8D%81%E4%B8%80%E8%A1%9761%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E8%B5%B0%E8%B5%B0%E5%92%96%E5%95%A1%20GOGO%20CAFE",
+    "instagram": "https://www.instagram.com/explore/tags/%E8%B5%B0%E8%B5%B0%E5%92%96%E5%95%A1GOGOCAFE/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E8%B5%B0%E8%B5%B0%E5%92%96%E5%95%A1%20GOGO%20CAFE%20%E6%A1%83%E5%9C%92%E5%B8%82%E6%A1%83%E5%9C%92%E5%8D%80%E5%A4%A7%E8%88%88%E5%8D%81%E4%B8%80%E8%A1%9761%E8%99%9F"
   },
   {
     "id": "curated-11",
@@ -12786,7 +13295,11 @@ window.PET_PLACES_DATA = [
     "source": "桃園藝文特區友善地標",
     "sourceUrl": "https://data.gov.tw/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=BUNA%20CAF%27E%20%E5%B8%83%E7%B4%8D%E5%92%96%E5%95%A1%E9%A4%A8%20%E8%97%9D%E6%96%87%E5%BA%97%20%E6%A1%83%E5%9C%92%E5%B8%82%E6%A1%83%E5%9C%92%E5%8D%80%E4%B8%AD%E6%AD%A3%E8%B7%AF1061%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=BUNA%20CAF%27E%20%E5%B8%83%E7%B4%8D%E5%92%96%E5%95%A1%E9%A4%A8%20%E8%97%9D%E6%96%87%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/BUNACAFE%E5%B8%83%E7%B4%8D%E5%92%96%E5%95%A1%E9%A4%A8%E8%97%9D%E6%96%87%E5%BA%97/",
+    "website": "https://www.google.com/maps/search/?api=1&query=BUNA%20CAF%27E%20%E5%B8%83%E7%B4%8D%E5%92%96%E5%95%A1%E9%A4%A8%20%E8%97%9D%E6%96%87%E5%BA%97%20%E6%A1%83%E5%9C%92%E5%B8%82%E6%A1%83%E5%9C%92%E5%8D%80%E4%B8%AD%E6%AD%A3%E8%B7%AF1061%E8%99%9F"
   },
   {
     "id": "curated-12",
@@ -12815,7 +13328,11 @@ window.PET_PLACES_DATA = [
     "source": "桃園市寵物友善空間名單",
     "sourceUrl": "https://data.gov.tw/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8F%8B%E7%AB%B9%E5%B1%85%E8%8C%B6%E8%97%9D%E9%A4%A8%20%E8%98%87%E5%B7%9E%E5%9C%92%E6%9E%97%E9%A2%A8%20%E6%A1%83%E5%9C%92%E5%B8%82%E4%B8%AD%E5%A3%A2%E5%8D%80%E4%B8%AD%E5%A4%A7%E8%B7%AF32%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%8F%8B%E7%AB%B9%E5%B1%85%E8%8C%B6%E8%97%9D%E9%A4%A8%20%E8%98%87%E5%B7%9E%E5%9C%92%E6%9E%97%E9%A2%A8",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%8F%8B%E7%AB%B9%E5%B1%85%E8%8C%B6%E8%97%9D%E9%A4%A8%E8%98%87%E5%B7%9E%E5%9C%92%E6%9E%97%E9%A2%A8/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E5%8F%8B%E7%AB%B9%E5%B1%85%E8%8C%B6%E8%97%9D%E9%A4%A8%20%E8%98%87%E5%B7%9E%E5%9C%92%E6%9E%97%E9%A2%A8%20%E6%A1%83%E5%9C%92%E5%B8%82%E4%B8%AD%E5%A3%A2%E5%8D%80%E4%B8%AD%E5%A4%A7%E8%B7%AF32%E8%99%9F"
   },
   {
     "id": "curated-13",
@@ -12844,7 +13361,11 @@ window.PET_PLACES_DATA = [
     "source": "桃園市動保處認證空間",
     "sourceUrl": "https://data.gov.tw/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%9A%B1%E8%8A%B1%E5%9C%92%E6%99%AF%E8%A7%80%E5%92%96%E5%95%A1%20%E6%A1%83%E5%9C%92%E5%B8%82%E5%A4%A7%E6%BA%AA%E5%8D%80%E4%B8%AD%E5%A4%AE%E8%B7%AF48%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E9%9A%B1%E8%8A%B1%E5%9C%92%E6%99%AF%E8%A7%80%E5%92%96%E5%95%A1",
+    "instagram": "https://www.instagram.com/explore/tags/%E9%9A%B1%E8%8A%B1%E5%9C%92%E6%99%AF%E8%A7%80%E5%92%96%E5%95%A1/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E9%9A%B1%E8%8A%B1%E5%9C%92%E6%99%AF%E8%A7%80%E5%92%96%E5%95%A1%20%E6%A1%83%E5%9C%92%E5%B8%82%E5%A4%A7%E6%BA%AA%E5%8D%80%E4%B8%AD%E5%A4%AE%E8%B7%AF48%E8%99%9F"
   },
   {
     "id": "curated-14",
@@ -12873,7 +13394,11 @@ window.PET_PLACES_DATA = [
     "source": "桃園永安漁港熱門重機與寵物咖啡",
     "sourceUrl": "https://data.gov.tw/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%8E%AB%E5%85%A7%E5%92%96%E5%95%A1%20%E6%B0%B8%E5%AE%89%E6%B5%B7%E6%99%AF%E5%8D%97%E6%B4%8B%E9%A2%A8%20%E6%A1%83%E5%9C%92%E5%B8%82%E6%96%B0%E5%B1%8B%E5%8D%80%E8%9A%B5%E9%96%93%E9%87%8C%E8%9A%B5%E5%8B%9222%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E8%8E%AB%E5%85%A7%E5%92%96%E5%95%A1%20%E6%B0%B8%E5%AE%89%E6%B5%B7%E6%99%AF%E5%8D%97%E6%B4%8B%E9%A2%A8",
+    "instagram": "https://www.instagram.com/explore/tags/%E8%8E%AB%E5%85%A7%E5%92%96%E5%95%A1%E6%B0%B8%E5%AE%89%E6%B5%B7%E6%99%AF%E5%8D%97%E6%B4%8B%E9%A2%A8/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E8%8E%AB%E5%85%A7%E5%92%96%E5%95%A1%20%E6%B0%B8%E5%AE%89%E6%B5%B7%E6%99%AF%E5%8D%97%E6%B4%8B%E9%A2%A8%20%E6%A1%83%E5%9C%92%E5%B8%82%E6%96%B0%E5%B1%8B%E5%8D%80%E8%9A%B5%E9%96%93%E9%87%8C%E8%9A%B5%E5%8B%9222%E8%99%9F"
   },
   {
     "id": "curated-15",
@@ -12902,7 +13427,11 @@ window.PET_PLACES_DATA = [
     "source": "新竹竹北極致美學友善咖啡",
     "sourceUrl": "https://data.gov.tw/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%96%9C%E6%9C%A8%E5%92%96%E5%95%A1%20Hsimu%20Cafe%20%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AB%B9%E5%8C%97%E5%B8%82%E9%B3%B3%E5%B2%A1%E8%B7%AF%E4%BA%8C%E6%AE%B5422%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%96%9C%E6%9C%A8%E5%92%96%E5%95%A1%20Hsimu%20Cafe",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%96%9C%E6%9C%A8%E5%92%96%E5%95%A1HsimuCafe/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E5%96%9C%E6%9C%A8%E5%92%96%E5%95%A1%20Hsimu%20Cafe%20%E6%96%B0%E7%AB%B9%E7%B8%A3%E7%AB%B9%E5%8C%97%E5%B8%82%E9%B3%B3%E5%B2%A1%E8%B7%AF%E4%BA%8C%E6%AE%B5422%E8%99%9F"
   },
   {
     "id": "curated-16",
@@ -12931,7 +13460,11 @@ window.PET_PLACES_DATA = [
     "source": "新竹市友善甜點推薦",
     "sourceUrl": "https://data.gov.tw/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%80%E7%99%BE%E7%A8%AE%E5%91%B3%E9%81%93%20%E4%B8%89%E6%B0%91%E5%BA%97%E8%80%81%E5%AE%85%20%E6%96%B0%E7%AB%B9%E5%B8%82%E6%9D%B1%E5%8D%80%E4%B8%89%E6%B0%91%E8%B7%AF35%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E4%B8%80%E7%99%BE%E7%A8%AE%E5%91%B3%E9%81%93%20%E4%B8%89%E6%B0%91%E5%BA%97%E8%80%81%E5%AE%85",
+    "instagram": "https://www.instagram.com/explore/tags/%E4%B8%80%E7%99%BE%E7%A8%AE%E5%91%B3%E9%81%93%E4%B8%89%E6%B0%91%E5%BA%97%E8%80%81%E5%AE%85/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E4%B8%80%E7%99%BE%E7%A8%AE%E5%91%B3%E9%81%93%20%E4%B8%89%E6%B0%91%E5%BA%97%E8%80%81%E5%AE%85%20%E6%96%B0%E7%AB%B9%E5%B8%82%E6%9D%B1%E5%8D%80%E4%B8%89%E6%B0%91%E8%B7%AF35%E8%99%9F"
   },
   {
     "id": "curated-17",
@@ -12960,7 +13493,11 @@ window.PET_PLACES_DATA = [
     "source": "新竹東區友善生活名冊",
     "sourceUrl": "https://data.gov.tw/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B7%B7%E5%BC%84%E8%A3%A1%E7%9A%84%E5%99%A0%E5%99%A0%E8%81%B2%20%E6%96%B0%E7%AB%B9%E5%B8%82%E6%9D%B1%E5%8D%80%E4%B8%AD%E5%A4%AE%E8%B7%AF206%E5%B7%B718%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%B7%B7%E5%BC%84%E8%A3%A1%E7%9A%84%E5%99%A0%E5%99%A0%E8%81%B2",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%B7%B7%E5%BC%84%E8%A3%A1%E7%9A%84%E5%99%A0%E5%99%A0%E8%81%B2/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E5%B7%B7%E5%BC%84%E8%A3%A1%E7%9A%84%E5%99%A0%E5%99%A0%E8%81%B2%20%E6%96%B0%E7%AB%B9%E5%B8%82%E6%9D%B1%E5%8D%80%E4%B8%AD%E5%A4%AE%E8%B7%AF206%E5%B7%B718%E8%99%9F"
   },
   {
     "id": "curated-18",
@@ -12991,7 +13528,11 @@ window.PET_PLACES_DATA = [
     "source": "全台頂級生態自然友善園區",
     "sourceUrl": "https://data.gov.tw/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B1%B1%E9%82%A3%E9%82%8A%EF%BC%8E%E7%B6%A0%E8%91%89%E6%96%B9%E8%88%9F%20Green%20Ark%20%E8%8B%97%E6%A0%97%E7%B8%A3%E4%B8%89%E7%BE%A9%E9%84%89%E5%8B%9D%E8%88%88%E6%9D%9112%E9%84%B0%E7%B6%A0%E8%88%9F%E8%B7%AF1%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%B1%B1%E9%82%A3%E9%82%8A%EF%BC%8E%E7%B6%A0%E8%91%89%E6%96%B9%E8%88%9F%20Green%20Ark",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%B1%B1%E9%82%A3%E9%82%8A%E7%B6%A0%E8%91%89%E6%96%B9%E8%88%9FGreenArk/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E5%B1%B1%E9%82%A3%E9%82%8A%EF%BC%8E%E7%B6%A0%E8%91%89%E6%96%B9%E8%88%9F%20Green%20Ark%20%E8%8B%97%E6%A0%97%E7%B8%A3%E4%B8%89%E7%BE%A9%E9%84%89%E5%8B%9D%E8%88%88%E6%9D%9112%E9%84%B0%E7%B6%A0%E8%88%9F%E8%B7%AF1%E8%99%9F"
   },
   {
     "id": "curated-19",
@@ -13020,13 +13561,17 @@ window.PET_PLACES_DATA = [
     "source": "苗栗三義森林系友善景觀餐廳",
     "sourceUrl": "https://data.gov.tw/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%BC%AB%E6%AD%A5%E9%9B%B2%E7%AB%AF%E6%A3%AE%E6%9E%97%E5%BB%9A%E6%88%BF%20%E8%8B%97%E6%A0%97%E7%B8%A3%E4%B8%89%E7%BE%A9%E9%84%89%E9%9B%99%E6%BD%AD%E6%9D%91%E5%B4%A9%E5%B1%B1%E4%B8%8B22%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%BC%AB%E6%AD%A5%E9%9B%B2%E7%AB%AF%E6%A3%AE%E6%9E%97%E5%BB%9A%E6%88%BF",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%BC%AB%E6%AD%A5%E9%9B%B2%E7%AB%AF%E6%A3%AE%E6%9E%97%E5%BB%9A%E6%88%BF/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E6%BC%AB%E6%AD%A5%E9%9B%B2%E7%AB%AF%E6%A3%AE%E6%9E%97%E5%BB%9A%E6%88%BF%20%E8%8B%97%E6%A0%97%E7%B8%A3%E4%B8%89%E7%BE%A9%E9%84%89%E9%9B%99%E6%BD%AD%E6%9D%91%E5%B4%A9%E5%B1%B1%E4%B8%8B22%E8%99%9F"
   },
   {
     "id": "curated-20",
     "name": "琉璃仙境休閒農場景觀餐廳",
     "legalName": "琉璃仙境休閒農場景觀餐廳",
-    "category": "休閒娛樂/空間",
+    "category": "特色餐廳",
     "city": "彰化縣",
     "district": "員林市",
     "address": "彰化縣員林市香山路87之11號",
@@ -13049,7 +13594,11 @@ window.PET_PLACES_DATA = [
     "source": "彰化員林觀光休閒友善名單",
     "sourceUrl": "https://data.gov.tw/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%90%89%E7%92%83%E4%BB%99%E5%A2%83%E4%BC%91%E9%96%92%E8%BE%B2%E5%A0%B4%E6%99%AF%E8%A7%80%E9%A4%90%E5%BB%B3%20%E5%BD%B0%E5%8C%96%E7%B8%A3%E5%93%A1%E6%9E%97%E5%B8%82%E9%A6%99%E5%B1%B1%E8%B7%AF87%E4%B9%8B11%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E7%90%89%E7%92%83%E4%BB%99%E5%A2%83%E4%BC%91%E9%96%92%E8%BE%B2%E5%A0%B4%E6%99%AF%E8%A7%80%E9%A4%90%E5%BB%B3",
+    "instagram": "https://www.instagram.com/explore/tags/%E7%90%89%E7%92%83%E4%BB%99%E5%A2%83%E4%BC%91%E9%96%92%E8%BE%B2%E5%A0%B4%E6%99%AF%E8%A7%80%E9%A4%90%E5%BB%B3/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E7%90%89%E7%92%83%E4%BB%99%E5%A2%83%E4%BC%91%E9%96%92%E8%BE%B2%E5%A0%B4%E6%99%AF%E8%A7%80%E9%A4%90%E5%BB%B3%20%E5%BD%B0%E5%8C%96%E7%B8%A3%E5%93%A1%E6%9E%97%E5%B8%82%E9%A6%99%E5%B1%B1%E8%B7%AF87%E4%B9%8B11%E8%99%9F"
   },
   {
     "id": "curated-21",
@@ -13078,7 +13627,11 @@ window.PET_PLACES_DATA = [
     "source": "彰化歐風莊園友善推薦",
     "sourceUrl": "https://data.gov.tw/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%94%AF%E6%84%9B%E5%BA%AD%E5%9C%92%20Vigor%20Courtyard%20%E5%BD%B0%E5%8C%96%E7%B8%A3%E5%BD%B0%E5%8C%96%E5%B8%82%E5%BB%B6%E5%92%8C%E9%87%8C%E5%A4%A7%E5%9F%94%E8%B7%AF2%E5%B7%B7126%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%94%AF%E6%84%9B%E5%BA%AD%E5%9C%92%20Vigor%20Courtyard",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%94%AF%E6%84%9B%E5%BA%AD%E5%9C%92VigorCourtyard/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E5%94%AF%E6%84%9B%E5%BA%AD%E5%9C%92%20Vigor%20Courtyard%20%E5%BD%B0%E5%8C%96%E7%B8%A3%E5%BD%B0%E5%8C%96%E5%B8%82%E5%BB%B6%E5%92%8C%E9%87%8C%E5%A4%A7%E5%9F%94%E8%B7%AF2%E5%B7%B7126%E8%99%9F"
   },
   {
     "id": "curated-22",
@@ -13107,7 +13660,11 @@ window.PET_PLACES_DATA = [
     "source": "日月潭必訪人氣友善咖啡地標",
     "sourceUrl": "https://data.gov.tw/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%A0%BB%E8%8D%92%E5%92%96%E5%95%A1%20Desolate%20Coffee%20%E6%97%A5%E6%9C%88%E6%BD%AD%20%E5%8D%97%E6%8A%95%E7%B8%A3%E9%AD%9A%E6%B1%A0%E9%84%89%E4%B8%AD%E6%98%8E%E6%9D%91%E6%96%87%E5%8C%96%E5%B7%B741%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E8%A0%BB%E8%8D%92%E5%92%96%E5%95%A1%20Desolate%20Coffee%20%E6%97%A5%E6%9C%88%E6%BD%AD",
+    "instagram": "https://www.instagram.com/explore/tags/%E8%A0%BB%E8%8D%92%E5%92%96%E5%95%A1DesolateCoffee%E6%97%A5%E6%9C%88%E6%BD%AD/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E8%A0%BB%E8%8D%92%E5%92%96%E5%95%A1%20Desolate%20Coffee%20%E6%97%A5%E6%9C%88%E6%BD%AD%20%E5%8D%97%E6%8A%95%E7%B8%A3%E9%AD%9A%E6%B1%A0%E9%84%89%E4%B8%AD%E6%98%8E%E6%9D%91%E6%96%87%E5%8C%96%E5%B7%B741%E8%99%9F"
   },
   {
     "id": "curated-23",
@@ -13136,7 +13693,11 @@ window.PET_PLACES_DATA = [
     "source": "清境高山景觀友善指標餐廳",
     "sourceUrl": "https://data.gov.tw/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B8%85%E5%A2%83%E9%AD%AF%E5%AA%BD%E5%AA%BD%E9%9B%B2%E5%8D%97%E6%93%BA%E5%A4%B7%E6%96%99%E7%90%86%20%E5%8D%97%E6%8A%95%E7%B8%A3%E4%BB%81%E6%84%9B%E9%84%89%E4%BB%81%E5%92%8C%E8%B7%AF210-2-1%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%B8%85%E5%A2%83%E9%AD%AF%E5%AA%BD%E5%AA%BD%E9%9B%B2%E5%8D%97%E6%93%BA%E5%A4%B7%E6%96%99%E7%90%86",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%B8%85%E5%A2%83%E9%AD%AF%E5%AA%BD%E5%AA%BD%E9%9B%B2%E5%8D%97%E6%93%BA%E5%A4%B7%E6%96%99%E7%90%86/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E6%B8%85%E5%A2%83%E9%AD%AF%E5%AA%BD%E5%AA%BD%E9%9B%B2%E5%8D%97%E6%93%BA%E5%A4%B7%E6%96%99%E7%90%86%20%E5%8D%97%E6%8A%95%E7%B8%A3%E4%BB%81%E6%84%9B%E9%84%89%E4%BB%81%E5%92%8C%E8%B7%AF210-2-1%E8%99%9F"
   },
   {
     "id": "curated-24",
@@ -13165,7 +13726,11 @@ window.PET_PLACES_DATA = [
     "source": "日月潭國家風景區友善推薦",
     "sourceUrl": "https://data.gov.tw/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%9A%B1%E8%8C%B6%20STEAM%20%E8%BB%8A%E5%9F%95%E8%B2%AF%E6%9C%A8%E6%B1%A0%E7%95%94%20%E5%8D%97%E6%8A%95%E7%B8%A3%E6%B0%B4%E9%87%8C%E9%84%89%E6%B0%91%E6%AC%8A%E5%B7%B7101-3%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E9%9A%B1%E8%8C%B6%20STEAM%20%E8%BB%8A%E5%9F%95%E8%B2%AF%E6%9C%A8%E6%B1%A0%E7%95%94",
+    "instagram": "https://www.instagram.com/explore/tags/%E9%9A%B1%E8%8C%B6STEAM%E8%BB%8A%E5%9F%95%E8%B2%AF%E6%9C%A8%E6%B1%A0%E7%95%94/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E9%9A%B1%E8%8C%B6%20STEAM%20%E8%BB%8A%E5%9F%95%E8%B2%AF%E6%9C%A8%E6%B1%A0%E7%95%94%20%E5%8D%97%E6%8A%95%E7%B8%A3%E6%B0%B4%E9%87%8C%E9%84%89%E6%B0%91%E6%AC%8A%E5%B7%B7101-3%E8%99%9F"
   },
   {
     "id": "curated-25",
@@ -13194,7 +13759,11 @@ window.PET_PLACES_DATA = [
     "source": "雲林斗六文創生活聚落友善空間",
     "sourceUrl": "https://data.gov.tw/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%87%B9%E5%87%B8%E5%92%96%E5%95%A1%E9%A4%A8%20%E6%96%97%E5%85%AD%E9%9B%B2%E4%B8%AD%E8%A1%97%E8%80%81%E7%9C%B7%E6%9D%91%20%E9%9B%B2%E6%9E%97%E7%B8%A3%E6%96%97%E5%85%AD%E5%B8%82%E9%9B%B2%E4%B8%AD%E8%A1%979%E5%B7%B712%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%87%B9%E5%87%B8%E5%92%96%E5%95%A1%E9%A4%A8%20%E6%96%97%E5%85%AD%E9%9B%B2%E4%B8%AD%E8%A1%97%E8%80%81%E7%9C%B7%E6%9D%91",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%87%B9%E5%87%B8%E5%92%96%E5%95%A1%E9%A4%A8%E6%96%97%E5%85%AD%E9%9B%B2%E4%B8%AD%E8%A1%97%E8%80%81%E7%9C%B7%E6%9D%91/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E5%87%B9%E5%87%B8%E5%92%96%E5%95%A1%E9%A4%A8%20%E6%96%97%E5%85%AD%E9%9B%B2%E4%B8%AD%E8%A1%97%E8%80%81%E7%9C%B7%E6%9D%91%20%E9%9B%B2%E6%9E%97%E7%B8%A3%E6%96%97%E5%85%AD%E5%B8%82%E9%9B%B2%E4%B8%AD%E8%A1%979%E5%B7%B712%E8%99%9F"
   },
   {
     "id": "curated-26",
@@ -13223,7 +13792,11 @@ window.PET_PLACES_DATA = [
     "source": "雲林虎尾文青友善口袋名單",
     "sourceUrl": "https://data.gov.tw/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%BE%8C%E9%99%A2%20houyuan%20%E8%99%8E%E5%B0%BE%E8%80%81%E5%AE%85%E5%BA%AD%E5%9C%92%20%E9%9B%B2%E6%9E%97%E7%B8%A3%E8%99%8E%E5%B0%BE%E9%8E%AE%E5%BF%A0%E5%AD%9D%E8%B7%AF2%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%BE%8C%E9%99%A2%20houyuan%20%E8%99%8E%E5%B0%BE%E8%80%81%E5%AE%85%E5%BA%AD%E5%9C%92",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%BE%8C%E9%99%A2houyuan%E8%99%8E%E5%B0%BE%E8%80%81%E5%AE%85%E5%BA%AD%E5%9C%92/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E5%BE%8C%E9%99%A2%20houyuan%20%E8%99%8E%E5%B0%BE%E8%80%81%E5%AE%85%E5%BA%AD%E5%9C%92%20%E9%9B%B2%E6%9E%97%E7%B8%A3%E8%99%8E%E5%B0%BE%E9%8E%AE%E5%BF%A0%E5%AD%9D%E8%B7%AF2%E8%99%9F"
   },
   {
     "id": "curated-27",
@@ -13252,7 +13825,11 @@ window.PET_PLACES_DATA = [
     "source": "嘉義市檜意森活村友善熱點",
     "sourceUrl": "https://data.gov.tw/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%A3%AE%E5%92%96%E5%95%A1%20Morikoohii%20%E6%AA%9C%E6%84%8F%E6%A3%AE%E6%B4%BB%E6%9D%91%E6%97%A5%E5%BC%8F%E5%AE%98%E8%88%8D%20%E5%98%89%E7%BE%A9%E5%B8%82%E6%9D%B1%E5%8D%80%E5%85%B1%E5%92%8C%E8%B7%AF199%E5%B7%B71%E8%99%9F%EF%BC%88T12%E9%A4%A8%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%A3%AE%E5%92%96%E5%95%A1%20Morikoohii%20%E6%AA%9C%E6%84%8F%E6%A3%AE%E6%B4%BB%E6%9D%91%E6%97%A5%E5%BC%8F%E5%AE%98%E8%88%8D",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%A3%AE%E5%92%96%E5%95%A1Morikoohii%E6%AA%9C%E6%84%8F%E6%A3%AE%E6%B4%BB%E6%9D%91%E6%97%A5%E5%BC%8F%E5%AE%98%E8%88%8D/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E6%A3%AE%E5%92%96%E5%95%A1%20Morikoohii%20%E6%AA%9C%E6%84%8F%E6%A3%AE%E6%B4%BB%E6%9D%91%E6%97%A5%E5%BC%8F%E5%AE%98%E8%88%8D%20%E5%98%89%E7%BE%A9%E5%B8%82%E6%9D%B1%E5%8D%80%E5%85%B1%E5%92%8C%E8%B7%AF199%E5%B7%B71%E8%99%9F%EF%BC%88T12%E9%A4%A8%EF%BC%89"
   },
   {
     "id": "curated-28",
@@ -13281,7 +13858,11 @@ window.PET_PLACES_DATA = [
     "source": "嘉義老屋美食友善精選",
     "sourceUrl": "https://data.gov.tw/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E4%BA%BA%E5%91%B3%20%E6%97%A5%E2%80%A2%E5%8D%B0%E7%8F%88%E5%93%A9%20%E5%98%89%E7%BE%A9%E5%B8%82%E6%9D%B1%E5%8D%80%E6%88%90%E4%BB%81%E8%A1%9794%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%A4%A7%E4%BA%BA%E5%91%B3%20%E6%97%A5%E2%80%A2%E5%8D%B0%E7%8F%88%E5%93%A9",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%A4%A7%E4%BA%BA%E5%91%B3%E6%97%A5%E5%8D%B0%E7%8F%88%E5%93%A9/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E4%BA%BA%E5%91%B3%20%E6%97%A5%E2%80%A2%E5%8D%B0%E7%8F%88%E5%93%A9%20%E5%98%89%E7%BE%A9%E5%B8%82%E6%9D%B1%E5%8D%80%E6%88%90%E4%BB%81%E8%A1%9794%E8%99%9F"
   },
   {
     "id": "curated-33",
@@ -13313,7 +13894,11 @@ window.PET_PLACES_DATA = [
     "source": "高雄市觀光局寵物特輯推薦",
     "sourceUrl": "https://data.gov.tw/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=MAO%20MAO%20LEE%20%E5%AF%B5%E7%89%A9%E9%A4%90%E5%BB%B3%20%E8%8B%93%E9%9B%85%E6%97%97%E8%89%A6%E5%BA%97%20%E9%AB%98%E9%9B%84%E5%B8%82%E8%8B%93%E9%9B%85%E5%8D%80%E6%96%B0%E5%85%89%E8%B7%AF140%E5%B7%B725%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=MAO%20MAO%20LEE%20%E5%AF%B5%E7%89%A9%E9%A4%90%E5%BB%B3%20%E8%8B%93%E9%9B%85%E6%97%97%E8%89%A6%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/MAOMAOLEE%E5%AF%B5%E7%89%A9%E9%A4%90%E5%BB%B3%E8%8B%93%E9%9B%85%E6%97%97%E8%89%A6%E5%BA%97/",
+    "website": "https://www.google.com/maps/search/?api=1&query=MAO%20MAO%20LEE%20%E5%AF%B5%E7%89%A9%E9%A4%90%E5%BB%B3%20%E8%8B%93%E9%9B%85%E6%97%97%E8%89%A6%E5%BA%97%20%E9%AB%98%E9%9B%84%E5%B8%82%E8%8B%93%E9%9B%85%E5%8D%80%E6%96%B0%E5%85%89%E8%B7%AF140%E5%B7%B725%E8%99%9F"
   },
   {
     "id": "curated-34",
@@ -13343,7 +13928,11 @@ window.PET_PLACES_DATA = [
     "source": "高雄左營熱門友善餐廳",
     "sourceUrl": "https://data.gov.tw/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%AF%9B%E6%AF%9B%E6%9D%8E%E5%AF%B5%E7%89%A9%E5%8F%8B%E5%96%84%E9%A4%90%E5%BB%B3%20%E5%B7%A6%E7%87%9F%E5%B7%A8%E8%9B%8B%E5%BA%97%20%E9%AB%98%E9%9B%84%E5%B8%82%E5%B7%A6%E7%87%9F%E5%8D%80%E5%8D%9A%E6%84%9B%E4%BA%8C%E8%B7%AF777%E8%99%9F%E5%91%A8%E9%82%8A",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%AF%9B%E6%AF%9B%E6%9D%8E%E5%AF%B5%E7%89%A9%E5%8F%8B%E5%96%84%E9%A4%90%E5%BB%B3%20%E5%B7%A6%E7%87%9F%E5%B7%A8%E8%9B%8B%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%AF%9B%E6%AF%9B%E6%9D%8E%E5%AF%B5%E7%89%A9%E5%8F%8B%E5%96%84%E9%A4%90%E5%BB%B3%E5%B7%A6%E7%87%9F%E5%B7%A8%E8%9B%8B%E5%BA%97/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E6%AF%9B%E6%AF%9B%E6%9D%8E%E5%AF%B5%E7%89%A9%E5%8F%8B%E5%96%84%E9%A4%90%E5%BB%B3%20%E5%B7%A6%E7%87%9F%E5%B7%A8%E8%9B%8B%E5%BA%97%20%E9%AB%98%E9%9B%84%E5%B8%82%E5%B7%A6%E7%87%9F%E5%8D%80%E5%8D%9A%E6%84%9B%E4%BA%8C%E8%B7%AF777%E8%99%9F%E5%91%A8%E9%82%8A"
   },
   {
     "id": "curated-35",
@@ -13372,7 +13961,11 @@ window.PET_PLACES_DATA = [
     "source": "高雄三民文青友善空間",
     "sourceUrl": "https://data.gov.tw/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%89%93%E5%8B%BE%E5%8B%BE%E4%BA%BA%E5%AF%B5%E6%85%A2%E6%B4%BB%E6%9C%83%E6%89%80%20DaGogo%20Hygge%20Home%20%E9%AB%98%E9%9B%84%E5%B8%82%E4%B8%89%E6%B0%91%E5%8D%80%E5%85%AD%E5%90%88%E8%B7%AF17%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%89%93%E5%8B%BE%E5%8B%BE%E4%BA%BA%E5%AF%B5%E6%85%A2%E6%B4%BB%E6%9C%83%E6%89%80%20DaGogo%20Hygge%20Home",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%89%93%E5%8B%BE%E5%8B%BE%E4%BA%BA%E5%AF%B5%E6%85%A2%E6%B4%BB%E6%9C%83%E6%89%80DaGogoHyggeHome/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E6%89%93%E5%8B%BE%E5%8B%BE%E4%BA%BA%E5%AF%B5%E6%85%A2%E6%B4%BB%E6%9C%83%E6%89%80%20DaGogo%20Hygge%20Home%20%E9%AB%98%E9%9B%84%E5%B8%82%E4%B8%89%E6%B0%91%E5%8D%80%E5%85%AD%E5%90%88%E8%B7%AF17%E8%99%9F"
   },
   {
     "id": "curated-36",
@@ -13401,7 +13994,11 @@ window.PET_PLACES_DATA = [
     "source": "高雄觀光局特輯景觀推薦",
     "sourceUrl": "https://data.gov.tw/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%99%BD%E8%89%B2%E6%88%80%E4%BA%BA%E6%96%87%E5%89%B5%E5%92%96%E5%95%A1%E9%A4%A8%20%E6%9F%B4%E5%B1%B1%E6%B5%B7%E6%99%AF%E7%AC%AC%E4%B8%80%E6%8E%92%20%E9%AB%98%E9%9B%84%E5%B8%82%E9%BC%93%E5%B1%B1%E5%8D%80%E6%9F%B4%E5%B1%B1%E5%A4%A7%E8%B7%AF91-1%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E7%99%BD%E8%89%B2%E6%88%80%E4%BA%BA%E6%96%87%E5%89%B5%E5%92%96%E5%95%A1%E9%A4%A8%20%E6%9F%B4%E5%B1%B1%E6%B5%B7%E6%99%AF%E7%AC%AC%E4%B8%80%E6%8E%92",
+    "instagram": "https://www.instagram.com/explore/tags/%E7%99%BD%E8%89%B2%E6%88%80%E4%BA%BA%E6%96%87%E5%89%B5%E5%92%96%E5%95%A1%E9%A4%A8%E6%9F%B4%E5%B1%B1%E6%B5%B7%E6%99%AF%E7%AC%AC%E4%B8%80%E6%8E%92/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E7%99%BD%E8%89%B2%E6%88%80%E4%BA%BA%E6%96%87%E5%89%B5%E5%92%96%E5%95%A1%E9%A4%A8%20%E6%9F%B4%E5%B1%B1%E6%B5%B7%E6%99%AF%E7%AC%AC%E4%B8%80%E6%8E%92%20%E9%AB%98%E9%9B%84%E5%B8%82%E9%BC%93%E5%B1%B1%E5%8D%80%E6%9F%B4%E5%B1%B1%E5%A4%A7%E8%B7%AF91-1%E8%99%9F"
   },
   {
     "id": "curated-37",
@@ -13430,7 +14027,11 @@ window.PET_PLACES_DATA = [
     "source": "高雄超人氣寵物火鍋",
     "sourceUrl": "https://data.gov.tw/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E5%A4%A9%E6%B3%B0%E6%B3%B0%E5%BC%8F%E5%80%8B%E4%BA%BA%E7%81%AB%E9%8D%8B%20%E9%AB%98%E9%9B%84%E5%B8%82%E5%89%8D%E9%87%91%E5%8D%80%E4%BA%94%E7%A6%8F%E4%B8%89%E8%B7%AF124%E8%99%9F%EF%BC%88%E9%9B%84%E5%A5%B3%E6%97%81%EF%BC%89",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%A4%A9%E5%A4%A9%E6%B3%B0%E6%B3%B0%E5%BC%8F%E5%80%8B%E4%BA%BA%E7%81%AB%E9%8D%8B",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%A4%A9%E5%A4%A9%E6%B3%B0%E6%B3%B0%E5%BC%8F%E5%80%8B%E4%BA%BA%E7%81%AB%E9%8D%8B/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E5%A4%A9%E6%B3%B0%E6%B3%B0%E5%BC%8F%E5%80%8B%E4%BA%BA%E7%81%AB%E9%8D%8B%20%E9%AB%98%E9%9B%84%E5%B8%82%E5%89%8D%E9%87%91%E5%8D%80%E4%BA%94%E7%A6%8F%E4%B8%89%E8%B7%AF124%E8%99%9F%EF%BC%88%E9%9B%84%E5%A5%B3%E6%97%81%EF%BC%89"
   },
   {
     "id": "curated-38",
@@ -13459,7 +14060,11 @@ window.PET_PLACES_DATA = [
     "source": "墾丁海線友善名店",
     "sourceUrl": "https://data.gov.tw/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%BF%B7%E8%B7%AF%E5%B0%8F%E7%AB%A0%E9%AD%9A%E9%A4%90%E9%85%92%E9%A4%A8%20Piccolo%20Polpo%20Bistro%20%E5%B1%8F%E6%9D%B1%E7%B8%A3%E6%81%86%E6%98%A5%E9%8E%AE%E5%8D%97%E7%81%A3%E8%B7%AF60%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E8%BF%B7%E8%B7%AF%E5%B0%8F%E7%AB%A0%E9%AD%9A%E9%A4%90%E9%85%92%E9%A4%A8%20Piccolo%20Polpo%20Bistro",
+    "instagram": "https://www.instagram.com/explore/tags/%E8%BF%B7%E8%B7%AF%E5%B0%8F%E7%AB%A0%E9%AD%9A%E9%A4%90%E9%85%92%E9%A4%A8PiccoloPolpoBistro/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E8%BF%B7%E8%B7%AF%E5%B0%8F%E7%AB%A0%E9%AD%9A%E9%A4%90%E9%85%92%E9%A4%A8%20Piccolo%20Polpo%20Bistro%20%E5%B1%8F%E6%9D%B1%E7%B8%A3%E6%81%86%E6%98%A5%E9%8E%AE%E5%8D%97%E7%81%A3%E8%B7%AF60%E8%99%9F"
   },
   {
     "id": "curated-39",
@@ -13488,7 +14093,11 @@ window.PET_PLACES_DATA = [
     "source": "恆春古城經典地標",
     "sourceUrl": "https://data.gov.tw/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B3%A2%E6%B3%A2%E5%BB%9A%E6%88%BF%20Kitchen%20Swell%2080%E5%B9%B4%E8%80%81%E9%86%AB%E9%99%A2%E5%8F%A4%E5%AE%85%20%E5%B1%8F%E6%9D%B1%E7%B8%A3%E6%81%86%E6%98%A5%E9%8E%AE%E5%85%89%E6%98%8E%E8%B7%AF88%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%B3%A2%E6%B3%A2%E5%BB%9A%E6%88%BF%20Kitchen%20Swell%2080%E5%B9%B4%E8%80%81%E9%86%AB%E9%99%A2%E5%8F%A4%E5%AE%85",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%B3%A2%E6%B3%A2%E5%BB%9A%E6%88%BFKitchenSwell80%E5%B9%B4%E8%80%81%E9%86%AB%E9%99%A2%E5%8F%A4%E5%AE%85/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E6%B3%A2%E6%B3%A2%E5%BB%9A%E6%88%BF%20Kitchen%20Swell%2080%E5%B9%B4%E8%80%81%E9%86%AB%E9%99%A2%E5%8F%A4%E5%AE%85%20%E5%B1%8F%E6%9D%B1%E7%B8%A3%E6%81%86%E6%98%A5%E9%8E%AE%E5%85%89%E6%98%8E%E8%B7%AF88%E8%99%9F"
   },
   {
     "id": "curated-40",
@@ -13517,7 +14126,11 @@ window.PET_PLACES_DATA = [
     "source": "墾丁最美海景夕陽咖啡",
     "sourceUrl": "https://data.gov.tw/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B1%B1%E7%94%B7%E5%92%96%E5%95%A1%20Yamato%20Coffee%20%E6%87%B8%E5%B4%96%E7%9C%8B%E6%B5%B7%E5%A4%95%E9%99%BD%20%E5%B1%8F%E6%9D%B1%E7%B8%A3%E6%81%86%E6%98%A5%E9%8E%AE%E7%B4%85%E6%9F%B4%E8%B7%AF2-9%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%B1%B1%E7%94%B7%E5%92%96%E5%95%A1%20Yamato%20Coffee%20%E6%87%B8%E5%B4%96%E7%9C%8B%E6%B5%B7%E5%A4%95%E9%99%BD",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%B1%B1%E7%94%B7%E5%92%96%E5%95%A1YamatoCoffee%E6%87%B8%E5%B4%96%E7%9C%8B%E6%B5%B7%E5%A4%95%E9%99%BD/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E5%B1%B1%E7%94%B7%E5%92%96%E5%95%A1%20Yamato%20Coffee%20%E6%87%B8%E5%B4%96%E7%9C%8B%E6%B5%B7%E5%A4%95%E9%99%BD%20%E5%B1%8F%E6%9D%B1%E7%B8%A3%E6%81%86%E6%98%A5%E9%8E%AE%E7%B4%85%E6%9F%B4%E8%B7%AF2-9%E8%99%9F"
   },
   {
     "id": "curated-41",
@@ -13546,7 +14159,11 @@ window.PET_PLACES_DATA = [
     "source": "屏東市區文創友善地標",
     "sourceUrl": "https://data.gov.tw/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%BA%B7%E5%AE%9A%E6%8B%BE%E5%85%AB%20%E5%8B%9D%E5%88%A9%E6%98%9F%E6%9D%91%E6%97%A5%E5%BC%8F%E7%9C%B7%E8%88%8D%E5%92%96%E5%95%A1%20%E5%B1%8F%E6%9D%B1%E7%B8%A3%E5%B1%8F%E6%9D%B1%E5%B8%82%E5%BA%B7%E5%AE%9A%E8%A1%9718%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%BA%B7%E5%AE%9A%E6%8B%BE%E5%85%AB%20%E5%8B%9D%E5%88%A9%E6%98%9F%E6%9D%91%E6%97%A5%E5%BC%8F%E7%9C%B7%E8%88%8D%E5%92%96%E5%95%A1",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%BA%B7%E5%AE%9A%E6%8B%BE%E5%85%AB%E5%8B%9D%E5%88%A9%E6%98%9F%E6%9D%91%E6%97%A5%E5%BC%8F%E7%9C%B7%E8%88%8D%E5%92%96%E5%95%A1/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E5%BA%B7%E5%AE%9A%E6%8B%BE%E5%85%AB%20%E5%8B%9D%E5%88%A9%E6%98%9F%E6%9D%91%E6%97%A5%E5%BC%8F%E7%9C%B7%E8%88%8D%E5%92%96%E5%95%A1%20%E5%B1%8F%E6%9D%B1%E7%B8%A3%E5%B1%8F%E6%9D%B1%E5%B8%82%E5%BA%B7%E5%AE%9A%E8%A1%9718%E8%99%9F"
   },
   {
     "id": "curated-42",
@@ -13575,7 +14192,11 @@ window.PET_PLACES_DATA = [
     "source": "宜蘭最熱門海景友善咖啡",
     "sourceUrl": "https://data.gov.tw/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%BB%BF%E5%B1%B1%E6%9C%9B%E6%B5%B7%E6%99%AF%E8%A7%80%E5%92%96%E5%95%A1%E9%A4%A8%20%E5%AE%9C%E8%98%AD%E7%B8%A3%E9%A0%AD%E5%9F%8E%E9%8E%AE%E5%A4%A7%E5%9D%91%E8%B7%AF197%E5%B7%B72%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%BB%BF%E5%B1%B1%E6%9C%9B%E6%B5%B7%E6%99%AF%E8%A7%80%E5%92%96%E5%95%A1%E9%A4%A8",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%BB%BF%E5%B1%B1%E6%9C%9B%E6%B5%B7%E6%99%AF%E8%A7%80%E5%92%96%E5%95%A1%E9%A4%A8/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E6%BB%BF%E5%B1%B1%E6%9C%9B%E6%B5%B7%E6%99%AF%E8%A7%80%E5%92%96%E5%95%A1%E9%A4%A8%20%E5%AE%9C%E8%98%AD%E7%B8%A3%E9%A0%AD%E5%9F%8E%E9%8E%AE%E5%A4%A7%E5%9D%91%E8%B7%AF197%E5%B7%B72%E8%99%9F"
   },
   {
     "id": "curated-43",
@@ -13604,7 +14225,11 @@ window.PET_PLACES_DATA = [
     "source": "宜蘭稻田美學友善店家",
     "sourceUrl": "https://data.gov.tw/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%BB%91%E5%AE%85%E5%92%96%E5%95%A1%20BLACK%20HOUSE%20%E5%AE%9C%E8%98%AD%E7%B8%A3%E9%A0%AD%E5%9F%8E%E9%8E%AE%E4%B8%89%E5%92%8C%E8%B7%AF616%E5%B7%B7235%E5%BC%8447%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E9%BB%91%E5%AE%85%E5%92%96%E5%95%A1%20BLACK%20HOUSE",
+    "instagram": "https://www.instagram.com/explore/tags/%E9%BB%91%E5%AE%85%E5%92%96%E5%95%A1BLACKHOUSE/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E9%BB%91%E5%AE%85%E5%92%96%E5%95%A1%20BLACK%20HOUSE%20%E5%AE%9C%E8%98%AD%E7%B8%A3%E9%A0%AD%E5%9F%8E%E9%8E%AE%E4%B8%89%E5%92%8C%E8%B7%AF616%E5%B7%B7235%E5%BC%8447%E8%99%9F"
   },
   {
     "id": "curated-44",
@@ -13633,13 +14258,17 @@ window.PET_PLACES_DATA = [
     "source": "宜蘭極致夜景寵物友善推薦",
     "sourceUrl": "https://data.gov.tw/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%A9%BA%E3%84%9F%E8%BE%B2%E5%A0%B4%20%E7%A4%81%E6%BA%AA%E7%99%BE%E8%90%AC%E5%A4%9C%E6%99%AF%E6%8E%92%E9%9A%8A%E6%99%AF%E8%A7%80%E9%A4%90%E5%BB%B3%20%E5%AE%9C%E8%98%AD%E7%B8%A3%E7%A4%81%E6%BA%AA%E9%84%89%E7%99%BD%E7%9F%B3%E8%85%B3%E8%B7%AF157%E5%B7%B731%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E7%A9%BA%E3%84%9F%E8%BE%B2%E5%A0%B4%20%E7%A4%81%E6%BA%AA%E7%99%BE%E8%90%AC%E5%A4%9C%E6%99%AF%E6%8E%92%E9%9A%8A%E6%99%AF%E8%A7%80%E9%A4%90%E5%BB%B3",
+    "instagram": "https://www.instagram.com/explore/tags/%E7%A9%BA%E3%84%9F%E8%BE%B2%E5%A0%B4%E7%A4%81%E6%BA%AA%E7%99%BE%E8%90%AC%E5%A4%9C%E6%99%AF%E6%8E%92%E9%9A%8A%E6%99%AF%E8%A7%80%E9%A4%90%E5%BB%B3/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E7%A9%BA%E3%84%9F%E8%BE%B2%E5%A0%B4%20%E7%A4%81%E6%BA%AA%E7%99%BE%E8%90%AC%E5%A4%9C%E6%99%AF%E6%8E%92%E9%9A%8A%E6%99%AF%E8%A7%80%E9%A4%90%E5%BB%B3%20%E5%AE%9C%E8%98%AD%E7%B8%A3%E7%A4%81%E6%BA%AA%E9%84%89%E7%99%BD%E7%9F%B3%E8%85%B3%E8%B7%AF157%E5%B7%B731%E8%99%9F"
   },
   {
     "id": "curated-45",
     "name": "兔子迷宮景觀餐廳 A-Maze",
     "legalName": "兔子迷宮景觀餐廳 A-Maze",
-    "category": "休閒娛樂/空間",
+    "category": "特色餐廳",
     "city": "宜蘭縣",
     "district": "員山鄉",
     "address": "宜蘭縣員山鄉枕山一村15號",
@@ -13662,13 +14291,17 @@ window.PET_PLACES_DATA = [
     "source": "宜蘭百萬視野友善景觀區",
     "sourceUrl": "https://data.gov.tw/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%85%94%E5%AD%90%E8%BF%B7%E5%AE%AE%E6%99%AF%E8%A7%80%E9%A4%90%E5%BB%B3%20A-Maze%20%E5%AE%9C%E8%98%AD%E7%B8%A3%E5%93%A1%E5%B1%B1%E9%84%89%E6%9E%95%E5%B1%B1%E4%B8%80%E6%9D%9115%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%85%94%E5%AD%90%E8%BF%B7%E5%AE%AE%E6%99%AF%E8%A7%80%E9%A4%90%E5%BB%B3%20A-Maze",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%85%94%E5%AD%90%E8%BF%B7%E5%AE%AE%E6%99%AF%E8%A7%80%E9%A4%90%E5%BB%B3AMaze/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E5%85%94%E5%AD%90%E8%BF%B7%E5%AE%AE%E6%99%AF%E8%A7%80%E9%A4%90%E5%BB%B3%20A-Maze%20%E5%AE%9C%E8%98%AD%E7%B8%A3%E5%93%A1%E5%B1%B1%E9%84%89%E6%9E%95%E5%B1%B1%E4%B8%80%E6%9D%9115%E8%99%9F"
   },
   {
     "id": "curated-46",
     "name": "逗點寵物友善莊園餐廳（花蓮壽豐館）",
     "legalName": "逗點寵物友善莊園餐廳（花蓮壽豐館）",
-    "category": "休閒娛樂/空間",
+    "category": "特色餐廳",
     "city": "花蓮縣",
     "district": "壽豐鄉",
     "address": "花蓮縣壽豐鄉豐坪路二段100號",
@@ -13693,7 +14326,11 @@ window.PET_PLACES_DATA = [
     "source": "花蓮友善寵物旅遊資料集 (官方資料集)",
     "sourceUrl": "https://data.gov.tw/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%80%97%E9%BB%9E%E5%AF%B5%E7%89%A9%E5%8F%8B%E5%96%84%E8%8E%8A%E5%9C%92%E9%A4%90%E5%BB%B3%20%E8%8A%B1%E8%93%AE%E5%A3%BD%E8%B1%90%E9%A4%A8%20%E8%8A%B1%E8%93%AE%E7%B8%A3%E5%A3%BD%E8%B1%90%E9%84%89%E8%B1%90%E5%9D%AA%E8%B7%AF%E4%BA%8C%E6%AE%B5100%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E9%80%97%E9%BB%9E%E5%AF%B5%E7%89%A9%E5%8F%8B%E5%96%84%E8%8E%8A%E5%9C%92%E9%A4%90%E5%BB%B3%20%E8%8A%B1%E8%93%AE%E5%A3%BD%E8%B1%90%E9%A4%A8",
+    "instagram": "https://www.instagram.com/explore/tags/%E9%80%97%E9%BB%9E%E5%AF%B5%E7%89%A9%E5%8F%8B%E5%96%84%E8%8E%8A%E5%9C%92%E9%A4%90%E5%BB%B3%E8%8A%B1%E8%93%AE%E5%A3%BD%E8%B1%90%E9%A4%A8/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E9%80%97%E9%BB%9E%E5%AF%B5%E7%89%A9%E5%8F%8B%E5%96%84%E8%8E%8A%E5%9C%92%E9%A4%90%E5%BB%B3%20%E8%8A%B1%E8%93%AE%E5%A3%BD%E8%B1%90%E9%A4%A8%20%E8%8A%B1%E8%93%AE%E7%B8%A3%E5%A3%BD%E8%B1%90%E9%84%89%E8%B1%90%E5%9D%AA%E8%B7%AF%E4%BA%8C%E6%AE%B5100%E8%99%9F"
   },
   {
     "id": "curated-47",
@@ -13722,7 +14359,11 @@ window.PET_PLACES_DATA = [
     "source": "花蓮七星潭經典友善景點",
     "sourceUrl": "https://data.gov.tw/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8E%9F%E9%87%8E%E7%89%A7%E5%A0%B4%20%E4%B8%83%E6%98%9F%E6%BD%AD%E7%BE%8A%E5%A5%B6%E5%92%96%E5%95%A1%E6%B5%B7%E6%99%AF%E9%A4%90%E5%BB%B3%20%E8%8A%B1%E8%93%AE%E7%B8%A3%E6%96%B0%E5%9F%8E%E9%84%89%E5%A4%A7%E6%BC%A2%E6%9D%91%E4%B8%83%E6%98%9F%E8%A1%979%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%8E%9F%E9%87%8E%E7%89%A7%E5%A0%B4%20%E4%B8%83%E6%98%9F%E6%BD%AD%E7%BE%8A%E5%A5%B6%E5%92%96%E5%95%A1%E6%B5%B7%E6%99%AF%E9%A4%90%E5%BB%B3",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%8E%9F%E9%87%8E%E7%89%A7%E5%A0%B4%E4%B8%83%E6%98%9F%E6%BD%AD%E7%BE%8A%E5%A5%B6%E5%92%96%E5%95%A1%E6%B5%B7%E6%99%AF%E9%A4%90%E5%BB%B3/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E5%8E%9F%E9%87%8E%E7%89%A7%E5%A0%B4%20%E4%B8%83%E6%98%9F%E6%BD%AD%E7%BE%8A%E5%A5%B6%E5%92%96%E5%95%A1%E6%B5%B7%E6%99%AF%E9%A4%90%E5%BB%B3%20%E8%8A%B1%E8%93%AE%E7%B8%A3%E6%96%B0%E5%9F%8E%E9%84%89%E5%A4%A7%E6%BC%A2%E6%9D%91%E4%B8%83%E6%98%9F%E8%A1%979%E8%99%9F"
   },
   {
     "id": "curated-48",
@@ -13751,7 +14392,11 @@ window.PET_PLACES_DATA = [
     "source": "花蓮市區友善好食清單",
     "sourceUrl": "https://data.gov.tw/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%BC%AB%E6%BC%AB%E6%97%A5%E5%92%8C%E6%89%8B%E4%BD%9C%E8%BC%95%E9%A3%9F%20%E8%8A%B1%E8%93%AE%E7%B8%A3%E8%8A%B1%E8%93%AE%E5%B8%82%E4%B8%AD%E7%BE%8E%E8%B7%AF106%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%BC%AB%E6%BC%AB%E6%97%A5%E5%92%8C%E6%89%8B%E4%BD%9C%E8%BC%95%E9%A3%9F",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%BC%AB%E6%BC%AB%E6%97%A5%E5%92%8C%E6%89%8B%E4%BD%9C%E8%BC%95%E9%A3%9F/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E6%BC%AB%E6%BC%AB%E6%97%A5%E5%92%8C%E6%89%8B%E4%BD%9C%E8%BC%95%E9%A3%9F%20%E8%8A%B1%E8%93%AE%E7%B8%A3%E8%8A%B1%E8%93%AE%E5%B8%82%E4%B8%AD%E7%BE%8E%E8%B7%AF106%E8%99%9F"
   },
   {
     "id": "curated-49",
@@ -13780,7 +14425,11 @@ window.PET_PLACES_DATA = [
     "source": "台東在地原鄉風味友善首選",
     "sourceUrl": "https://data.gov.tw/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8E%9F%E5%A7%8B%E9%83%A8%E8%90%BD%E5%B1%B1%E5%9C%B0%E7%BE%8E%E9%A3%9F%20%E5%88%A9%E5%98%89%E5%8D%8A%E5%B1%B1%E8%85%B0%E5%A4%9C%E6%99%AF%20%E8%87%BA%E6%9D%B1%E7%B8%A3%E5%8D%91%E5%8D%97%E9%84%89%E5%88%A9%E5%98%89%E6%9D%91%E5%88%A9%E5%98%89%E8%B7%AF689%E5%B7%B719%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%8E%9F%E5%A7%8B%E9%83%A8%E8%90%BD%E5%B1%B1%E5%9C%B0%E7%BE%8E%E9%A3%9F%20%E5%88%A9%E5%98%89%E5%8D%8A%E5%B1%B1%E8%85%B0%E5%A4%9C%E6%99%AF",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%8E%9F%E5%A7%8B%E9%83%A8%E8%90%BD%E5%B1%B1%E5%9C%B0%E7%BE%8E%E9%A3%9F%E5%88%A9%E5%98%89%E5%8D%8A%E5%B1%B1%E8%85%B0%E5%A4%9C%E6%99%AF/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E5%8E%9F%E5%A7%8B%E9%83%A8%E8%90%BD%E5%B1%B1%E5%9C%B0%E7%BE%8E%E9%A3%9F%20%E5%88%A9%E5%98%89%E5%8D%8A%E5%B1%B1%E8%85%B0%E5%A4%9C%E6%99%AF%20%E8%87%BA%E6%9D%B1%E7%B8%A3%E5%8D%91%E5%8D%97%E9%84%89%E5%88%A9%E5%98%89%E6%9D%91%E5%88%A9%E5%98%89%E8%B7%AF689%E5%B7%B719%E8%99%9F"
   },
   {
     "id": "curated-50",
@@ -13809,7 +14458,11 @@ window.PET_PLACES_DATA = [
     "source": "台東都蘭文藝慢活空間",
     "sourceUrl": "https://data.gov.tw/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%81%A9%E5%A8%9C%E6%AF%94%E4%BA%9E%E5%92%96%E5%95%A1%20Nnabiya%20Coffee%20%E9%83%BD%E8%98%AD%E5%B1%B1%E6%B5%B7%E7%A7%98%E5%A2%83%20%E8%87%BA%E6%9D%B1%E7%B8%A3%E6%9D%B1%E6%B2%B3%E9%84%89%E9%83%BD%E8%98%AD%E6%9D%91%E9%83%BD%E8%98%AD%E5%B1%B1%E9%BA%93",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%81%A9%E5%A8%9C%E6%AF%94%E4%BA%9E%E5%92%96%E5%95%A1%20Nnabiya%20Coffee%20%E9%83%BD%E8%98%AD%E5%B1%B1%E6%B5%B7%E7%A7%98%E5%A2%83",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%81%A9%E5%A8%9C%E6%AF%94%E4%BA%9E%E5%92%96%E5%95%A1NnabiyaCoffee%E9%83%BD%E8%98%AD%E5%B1%B1%E6%B5%B7%E7%A7%98%E5%A2%83/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E6%81%A9%E5%A8%9C%E6%AF%94%E4%BA%9E%E5%92%96%E5%95%A1%20Nnabiya%20Coffee%20%E9%83%BD%E8%98%AD%E5%B1%B1%E6%B5%B7%E7%A7%98%E5%A2%83%20%E8%87%BA%E6%9D%B1%E7%B8%A3%E6%9D%B1%E6%B2%B3%E9%84%89%E9%83%BD%E8%98%AD%E6%9D%91%E9%83%BD%E8%98%AD%E5%B1%B1%E9%BA%93"
   },
   {
     "id": "curated-51",
@@ -13838,7 +14491,11 @@ window.PET_PLACES_DATA = [
     "source": "澎湖港灣友善地標",
     "sourceUrl": "https://data.gov.tw/",
     "verified": true,
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%90%B9%E5%90%B9%E9%A2%A8%E7%B2%BE%E5%93%81%E5%92%96%E5%95%A1%E9%A4%A8%20%E6%BE%8E%E6%B9%96%E7%A2%BC%E9%A0%AD%E6%B5%B7%E6%99%AF%E6%97%97%E8%89%A6%E5%BA%97%20%E6%BE%8E%E6%B9%96%E7%B8%A3%E9%A6%AC%E5%85%AC%E5%B8%82%E8%87%A8%E6%B5%B7%E8%B7%AF6-1%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%90%B9%E5%90%B9%E9%A2%A8%E7%B2%BE%E5%93%81%E5%92%96%E5%95%A1%E9%A4%A8%20%E6%BE%8E%E6%B9%96%E7%A2%BC%E9%A0%AD%E6%B5%B7%E6%99%AF%E6%97%97%E8%89%A6%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%90%B9%E5%90%B9%E9%A2%A8%E7%B2%BE%E5%93%81%E5%92%96%E5%95%A1%E9%A4%A8%E6%BE%8E%E6%B9%96%E7%A2%BC%E9%A0%AD%E6%B5%B7%E6%99%AF%E6%97%97%E8%89%A6%E5%BA%97/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E5%90%B9%E5%90%B9%E9%A2%A8%E7%B2%BE%E5%93%81%E5%92%96%E5%95%A1%E9%A4%A8%20%E6%BE%8E%E6%B9%96%E7%A2%BC%E9%A0%AD%E6%B5%B7%E6%99%AF%E6%97%97%E8%89%A6%E5%BA%97%20%E6%BE%8E%E6%B9%96%E7%B8%A3%E9%A6%AC%E5%85%AC%E5%B8%82%E8%87%A8%E6%B5%B7%E8%B7%AF6-1%E8%99%9F"
   },
   {
     "id": "user-sub-1",
@@ -13867,7 +14524,11 @@ window.PET_PLACES_DATA = [
     "sourceUrl": "https://maps.google.com",
     "verified": true,
     "status": "OPERATIONAL",
-    "highlight": false
+    "highlight": false,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%B1%B3%E5%85%8B%E6%96%AF%E8%88%87%E6%9F%B4%E7%8A%AC%E8%8A%B1%E5%9C%92%E5%92%96%E5%95%A1%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%8D%80%E7%BE%8E%E6%9D%91%E8%B7%AF%E4%B8%80%E6%AE%B5200%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E7%B1%B3%E5%85%8B%E6%96%AF%E8%88%87%E6%9F%B4%E7%8A%AC%E8%8A%B1%E5%9C%92%E5%92%96%E5%95%A1",
+    "instagram": "https://www.instagram.com/explore/tags/%E7%B1%B3%E5%85%8B%E6%96%AF%E8%88%87%E6%9F%B4%E7%8A%AC%E8%8A%B1%E5%9C%92%E5%92%96%E5%95%A1/",
+    "website": "https://maps.google.com"
   },
   {
     "id": "tn-1",
@@ -13894,7 +14555,11 @@ window.PET_PLACES_DATA = [
     "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
     "verified": true,
     "status": "OPERATIONAL",
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%88%9E%E8%91%89%E5%A0%B4%E8%8C%B6%E8%88%96%20%E8%87%BA%E5%8D%97%E5%B8%82%E5%8D%97%E5%8D%80%E6%96%B0%E5%AD%9D%E8%B7%AF80%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E8%88%9E%E8%91%89%E5%A0%B4%E8%8C%B6%E8%88%96",
+    "instagram": "https://www.instagram.com/explore/tags/%E8%88%9E%E8%91%89%E5%A0%B4%E8%8C%B6%E8%88%96/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E8%88%9E%E8%91%89%E5%A0%B4%E8%8C%B6%E8%88%96%20%E8%87%BA%E5%8D%97%E5%B8%82%E5%8D%97%E5%8D%80%E6%96%B0%E5%AD%9D%E8%B7%AF80%E8%99%9F"
   },
   {
     "id": "tn-2",
@@ -13921,7 +14586,11 @@ window.PET_PLACES_DATA = [
     "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
     "verified": true,
     "status": "OPERATIONAL",
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=In%E2%80%99s%E9%A3%B2%E9%A3%9F%E5%9D%8A%20%E8%87%BA%E5%8D%97%E5%B8%82%E6%9D%B1%E5%8D%80%E9%95%B7%E6%A6%AE%E8%B7%AF%E4%B8%89%E6%AE%B566%E5%B7%B737-2%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=In%E2%80%99s%E9%A3%B2%E9%A3%9F%E5%9D%8A",
+    "instagram": "https://www.instagram.com/explore/tags/Ins%E9%A3%B2%E9%A3%9F%E5%9D%8A/",
+    "website": "https://www.google.com/maps/search/?api=1&query=In%E2%80%99s%E9%A3%B2%E9%A3%9F%E5%9D%8A%20%E8%87%BA%E5%8D%97%E5%B8%82%E6%9D%B1%E5%8D%80%E9%95%B7%E6%A6%AE%E8%B7%AF%E4%B8%89%E6%AE%B566%E5%B7%B737-2%E8%99%9F"
   },
   {
     "id": "tn-3",
@@ -13948,7 +14617,11 @@ window.PET_PLACES_DATA = [
     "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
     "verified": true,
     "status": "OPERATIONAL",
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%91%AB%E5%93%81%E5%91%B3%E8%9B%8B%E5%8C%85%E9%A3%AF%20%E8%87%BA%E5%8D%97%E5%B8%82%E6%96%B0%E7%87%9F%E5%8D%80%E5%BB%B6%E5%B9%B3%E8%B7%AF49%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E9%91%AB%E5%93%81%E5%91%B3%E8%9B%8B%E5%8C%85%E9%A3%AF",
+    "instagram": "https://www.instagram.com/explore/tags/%E9%91%AB%E5%93%81%E5%91%B3%E8%9B%8B%E5%8C%85%E9%A3%AF/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E9%91%AB%E5%93%81%E5%91%B3%E8%9B%8B%E5%8C%85%E9%A3%AF%20%E8%87%BA%E5%8D%97%E5%B8%82%E6%96%B0%E7%87%9F%E5%8D%80%E5%BB%B6%E5%B9%B3%E8%B7%AF49%E8%99%9F"
   },
   {
     "id": "tn-4",
@@ -13980,7 +14653,11 @@ window.PET_PLACES_DATA = [
     "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
     "verified": true,
     "status": "OPERATIONAL",
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%82%A5%E7%AA%A9%E5%92%96%E5%95%A1%20%E8%87%BA%E5%8D%97%E5%B8%82%E4%B8%AD%E8%A5%BF%E5%8D%80%E8%87%A8%E5%AE%89%E8%B7%AF%E4%B8%80%E6%AE%B5212%E5%B7%B726%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E8%82%A5%E7%AA%A9%E5%92%96%E5%95%A1",
+    "instagram": "https://www.instagram.com/explore/tags/%E8%82%A5%E7%AA%A9%E5%92%96%E5%95%A1/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E8%82%A5%E7%AA%A9%E5%92%96%E5%95%A1%20%E8%87%BA%E5%8D%97%E5%B8%82%E4%B8%AD%E8%A5%BF%E5%8D%80%E8%87%A8%E5%AE%89%E8%B7%AF%E4%B8%80%E6%AE%B5212%E5%B7%B726%E8%99%9F"
   },
   {
     "id": "tn-5",
@@ -14007,7 +14684,11 @@ window.PET_PLACES_DATA = [
     "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
     "verified": true,
     "status": "OPERATIONAL",
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%9C%B2%E6%AF%94%E6%B2%99%E6%8B%89%E8%BC%95%E9%A3%9F%20%E8%87%BA%E5%8D%97%E5%B8%82%E6%9D%B1%E5%8D%80%E5%A4%A7%E5%90%8C%E8%B7%AF%E4%BA%8C%E6%AE%B561%E5%B7%B716%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E9%9C%B2%E6%AF%94%E6%B2%99%E6%8B%89%E8%BC%95%E9%A3%9F",
+    "instagram": "https://www.instagram.com/explore/tags/%E9%9C%B2%E6%AF%94%E6%B2%99%E6%8B%89%E8%BC%95%E9%A3%9F/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E9%9C%B2%E6%AF%94%E6%B2%99%E6%8B%89%E8%BC%95%E9%A3%9F%20%E8%87%BA%E5%8D%97%E5%B8%82%E6%9D%B1%E5%8D%80%E5%A4%A7%E5%90%8C%E8%B7%AF%E4%BA%8C%E6%AE%B561%E5%B7%B716%E8%99%9F"
   },
   {
     "id": "tn-6",
@@ -14034,7 +14715,11 @@ window.PET_PLACES_DATA = [
     "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
     "verified": true,
     "status": "OPERATIONAL",
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B2%9B%E9%87%8C%E6%AD%90%E4%BC%81%E6%A5%AD%E7%A4%BE%20%E8%87%BA%E5%8D%97%E5%B8%82%E4%B8%AD%E8%A5%BF%E5%8D%80%E6%A8%B9%E6%9E%97%E8%A1%97%E4%BA%8C%E6%AE%B567%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%B2%9B%E9%87%8C%E6%AD%90%E4%BC%81%E6%A5%AD%E7%A4%BE",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%B2%9B%E9%87%8C%E6%AD%90%E4%BC%81%E6%A5%AD%E7%A4%BE/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E6%B2%9B%E9%87%8C%E6%AD%90%E4%BC%81%E6%A5%AD%E7%A4%BE%20%E8%87%BA%E5%8D%97%E5%B8%82%E4%B8%AD%E8%A5%BF%E5%8D%80%E6%A8%B9%E6%9E%97%E8%A1%97%E4%BA%8C%E6%AE%B567%E8%99%9F"
   },
   {
     "id": "tn-7",
@@ -14061,7 +14746,11 @@ window.PET_PLACES_DATA = [
     "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
     "verified": true,
     "status": "OPERATIONAL",
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%88%9D%E9%A3%9F%E6%89%8B%E4%BD%9C%E5%BB%9A%E6%88%BF%20%E8%87%BA%E5%8D%97%E5%B8%82%E4%B8%AD%E8%A5%BF%E5%8D%80%E6%A8%B9%E6%9E%97%E8%A1%97%E4%BA%8C%E6%AE%B542%E8%99%9F1%E6%A8%93",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%88%9D%E9%A3%9F%E6%89%8B%E4%BD%9C%E5%BB%9A%E6%88%BF",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%88%9D%E9%A3%9F%E6%89%8B%E4%BD%9C%E5%BB%9A%E6%88%BF/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E5%88%9D%E9%A3%9F%E6%89%8B%E4%BD%9C%E5%BB%9A%E6%88%BF%20%E8%87%BA%E5%8D%97%E5%B8%82%E4%B8%AD%E8%A5%BF%E5%8D%80%E6%A8%B9%E6%9E%97%E8%A1%97%E4%BA%8C%E6%AE%B542%E8%99%9F1%E6%A8%93"
   },
   {
     "id": "tn-8",
@@ -14088,7 +14777,11 @@ window.PET_PLACES_DATA = [
     "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
     "verified": true,
     "status": "OPERATIONAL",
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%89%E5%BC%98%E5%95%86%E8%99%9F%20%E8%87%BA%E5%8D%97%E5%B8%82%E5%AE%89%E5%B9%B3%E5%8D%80%E6%96%87%E5%B9%B3%E8%B7%AF408%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E4%B8%89%E5%BC%98%E5%95%86%E8%99%9F",
+    "instagram": "https://www.instagram.com/explore/tags/%E4%B8%89%E5%BC%98%E5%95%86%E8%99%9F/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E4%B8%89%E5%BC%98%E5%95%86%E8%99%9F%20%E8%87%BA%E5%8D%97%E5%B8%82%E5%AE%89%E5%B9%B3%E5%8D%80%E6%96%87%E5%B9%B3%E8%B7%AF408%E8%99%9F"
   },
   {
     "id": "tn-9",
@@ -14115,7 +14808,11 @@ window.PET_PLACES_DATA = [
     "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
     "verified": true,
     "status": "OPERATIONAL",
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%97%A5%E9%8A%98%E6%89%8B%E4%BD%9C%E5%A3%BD%E5%8F%B8%20%E8%87%BA%E5%8D%97%E5%B8%82%E5%AE%89%E5%B9%B3%E5%8D%80%E6%96%87%E5%B9%B3%E8%B7%AF441%E8%99%9F1%E6%A8%93",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%97%A5%E9%8A%98%E6%89%8B%E4%BD%9C%E5%A3%BD%E5%8F%B8",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%97%A5%E9%8A%98%E6%89%8B%E4%BD%9C%E5%A3%BD%E5%8F%B8/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E6%97%A5%E9%8A%98%E6%89%8B%E4%BD%9C%E5%A3%BD%E5%8F%B8%20%E8%87%BA%E5%8D%97%E5%B8%82%E5%AE%89%E5%B9%B3%E5%8D%80%E6%96%87%E5%B9%B3%E8%B7%AF441%E8%99%9F1%E6%A8%93"
   },
   {
     "id": "tn-10",
@@ -14142,7 +14839,11 @@ window.PET_PLACES_DATA = [
     "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
     "verified": true,
     "status": "OPERATIONAL",
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%88%B9%E9%95%B7%E5%85%88%E7%94%9F%E9%A4%90%E9%85%92%E9%A4%A8%20%E8%87%BA%E5%8D%97%E5%B8%82%E5%8D%97%E5%8D%80%E9%AB%94%E8%82%B2%E8%B7%AF5%E5%B7%B76%E8%99%9F1%E6%A8%93",
+    "facebook": "https://www.facebook.com/search/top?q=%E8%88%B9%E9%95%B7%E5%85%88%E7%94%9F%E9%A4%90%E9%85%92%E9%A4%A8",
+    "instagram": "https://www.instagram.com/explore/tags/%E8%88%B9%E9%95%B7%E5%85%88%E7%94%9F%E9%A4%90%E9%85%92%E9%A4%A8/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E8%88%B9%E9%95%B7%E5%85%88%E7%94%9F%E9%A4%90%E9%85%92%E9%A4%A8%20%E8%87%BA%E5%8D%97%E5%B8%82%E5%8D%97%E5%8D%80%E9%AB%94%E8%82%B2%E8%B7%AF5%E5%B7%B76%E8%99%9F1%E6%A8%93"
   },
   {
     "id": "tn-11",
@@ -14170,7 +14871,11 @@ window.PET_PLACES_DATA = [
     "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
     "verified": true,
     "status": "OPERATIONAL",
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%9A%87%E7%BF%8A%E9%A3%9F%E5%93%81%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%20%E8%87%BA%E5%8D%97%E5%B8%82%E4%B8%AD%E8%A5%BF%E5%8D%80%E6%B5%B7%E5%AE%89%E8%B7%AF%E4%BA%8C%E6%AE%B5125%E8%99%9F1%E6%A8%93",
+    "facebook": "https://www.facebook.com/search/top?q=%E7%9A%87%E7%BF%8A%E9%A3%9F%E5%93%81%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+    "instagram": "https://www.instagram.com/explore/tags/%E7%9A%87%E7%BF%8A%E9%A3%9F%E5%93%81%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E7%9A%87%E7%BF%8A%E9%A3%9F%E5%93%81%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%20%E8%87%BA%E5%8D%97%E5%B8%82%E4%B8%AD%E8%A5%BF%E5%8D%80%E6%B5%B7%E5%AE%89%E8%B7%AF%E4%BA%8C%E6%AE%B5125%E8%99%9F1%E6%A8%93"
   },
   {
     "id": "tn-12",
@@ -14200,7 +14905,11 @@ window.PET_PLACES_DATA = [
     "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
     "verified": true,
     "status": "OPERATIONAL",
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%A3%AE%E5%91%BC%E5%90%B8%E4%BC%91%E9%96%92%E5%BB%A3%E5%A0%B4%20%E8%87%BA%E5%8D%97%E5%B8%82%E9%97%9C%E5%BB%9F%E5%8D%80%E6%9D%B1%E6%98%8C%E8%A1%97123%E5%B7%B73%E8%99%9F1%E6%A8%93",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%A3%AE%E5%91%BC%E5%90%B8%E4%BC%91%E9%96%92%E5%BB%A3%E5%A0%B4",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%A3%AE%E5%91%BC%E5%90%B8%E4%BC%91%E9%96%92%E5%BB%A3%E5%A0%B4/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E6%A3%AE%E5%91%BC%E5%90%B8%E4%BC%91%E9%96%92%E5%BB%A3%E5%A0%B4%20%E8%87%BA%E5%8D%97%E5%B8%82%E9%97%9C%E5%BB%9F%E5%8D%80%E6%9D%B1%E6%98%8C%E8%A1%97123%E5%B7%B73%E8%99%9F1%E6%A8%93"
   },
   {
     "id": "tn-13",
@@ -14227,7 +14936,11 @@ window.PET_PLACES_DATA = [
     "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
     "verified": true,
     "status": "OPERATIONAL",
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%AE%A5%E6%9B%A6%E5%95%86%E8%A1%8C%20%E8%87%BA%E5%8D%97%E5%B8%82%E4%B8%AD%E8%A5%BF%E5%8D%80%E6%96%B0%E7%BE%8E%E8%A1%97160%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%AE%A5%E6%9B%A6%E5%95%86%E8%A1%8C",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%AE%A5%E6%9B%A6%E5%95%86%E8%A1%8C/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E5%AE%A5%E6%9B%A6%E5%95%86%E8%A1%8C%20%E8%87%BA%E5%8D%97%E5%B8%82%E4%B8%AD%E8%A5%BF%E5%8D%80%E6%96%B0%E7%BE%8E%E8%A1%97160%E8%99%9F"
   },
   {
     "id": "tn-14",
@@ -14254,7 +14967,11 @@ window.PET_PLACES_DATA = [
     "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
     "verified": true,
     "status": "OPERATIONAL",
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%8A%AF%E8%8A%99%E9%A4%90%E6%A1%8C%20%E8%87%BA%E5%8D%97%E5%B8%82%E4%B8%AD%E8%A5%BF%E5%8D%80%E5%A4%A7%E5%9F%94%E8%A1%9730%E8%99%9F1-2%E6%A8%93",
+    "facebook": "https://www.facebook.com/search/top?q=%E8%8A%AF%E8%8A%99%E9%A4%90%E6%A1%8C",
+    "instagram": "https://www.instagram.com/explore/tags/%E8%8A%AF%E8%8A%99%E9%A4%90%E6%A1%8C/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E8%8A%AF%E8%8A%99%E9%A4%90%E6%A1%8C%20%E8%87%BA%E5%8D%97%E5%B8%82%E4%B8%AD%E8%A5%BF%E5%8D%80%E5%A4%A7%E5%9F%94%E8%A1%9730%E8%99%9F1-2%E6%A8%93"
   },
   {
     "id": "tn-15",
@@ -14281,7 +14998,11 @@ window.PET_PLACES_DATA = [
     "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
     "verified": true,
     "status": "OPERATIONAL",
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E6%AD%A3%E5%86%B7%E9%A3%B2%E5%BA%97%20%E8%87%BA%E5%8D%97%E5%B8%82%E6%96%B0%E5%8C%96%E5%8D%80%E4%B8%AD%E6%AD%A3%E8%B7%AF345%E8%99%9F1%E6%A8%93",
+    "facebook": "https://www.facebook.com/search/top?q=%E4%B8%AD%E6%AD%A3%E5%86%B7%E9%A3%B2%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E4%B8%AD%E6%AD%A3%E5%86%B7%E9%A3%B2%E5%BA%97/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E6%AD%A3%E5%86%B7%E9%A3%B2%E5%BA%97%20%E8%87%BA%E5%8D%97%E5%B8%82%E6%96%B0%E5%8C%96%E5%8D%80%E4%B8%AD%E6%AD%A3%E8%B7%AF345%E8%99%9F1%E6%A8%93"
   },
   {
     "id": "tn-16",
@@ -14308,7 +15029,11 @@ window.PET_PLACES_DATA = [
     "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
     "verified": true,
     "status": "OPERATIONAL",
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B9%A7%E9%A3%AF%E6%B5%B7%E5%8D%97%E9%9B%9E%E9%A3%AF%20%E8%87%BA%E5%8D%97%E5%B8%82%E5%8C%97%E5%8D%80%E6%B5%B7%E5%AE%89%E8%B7%AF%E4%B8%89%E6%AE%B545%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%B9%A7%E9%A3%AF%E6%B5%B7%E5%8D%97%E9%9B%9E%E9%A3%AF",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%B9%A7%E9%A3%AF%E6%B5%B7%E5%8D%97%E9%9B%9E%E9%A3%AF/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E6%B9%A7%E9%A3%AF%E6%B5%B7%E5%8D%97%E9%9B%9E%E9%A3%AF%20%E8%87%BA%E5%8D%97%E5%B8%82%E5%8C%97%E5%8D%80%E6%B5%B7%E5%AE%89%E8%B7%AF%E4%B8%89%E6%AE%B545%E8%99%9F"
   },
   {
     "id": "tn-17",
@@ -14335,7 +15060,11 @@ window.PET_PLACES_DATA = [
     "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
     "verified": true,
     "status": "OPERATIONAL",
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%80%81%E5%A1%98%E6%B9%96%E8%97%9D%E8%A1%93%E5%9D%8A%20%E8%87%BA%E5%8D%97%E5%B8%82%E5%AD%B8%E7%94%B2%E5%8D%80%E8%B1%90%E5%92%8C%E9%87%8C%E7%BE%8E%E8%B1%9049%E4%B9%8B26%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E8%80%81%E5%A1%98%E6%B9%96%E8%97%9D%E8%A1%93%E5%9D%8A",
+    "instagram": "https://www.instagram.com/explore/tags/%E8%80%81%E5%A1%98%E6%B9%96%E8%97%9D%E8%A1%93%E5%9D%8A/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E8%80%81%E5%A1%98%E6%B9%96%E8%97%9D%E8%A1%93%E5%9D%8A%20%E8%87%BA%E5%8D%97%E5%B8%82%E5%AD%B8%E7%94%B2%E5%8D%80%E8%B1%90%E5%92%8C%E9%87%8C%E7%BE%8E%E8%B1%9049%E4%B9%8B26%E8%99%9F"
   },
   {
     "id": "tn-18",
@@ -14362,7 +15091,11 @@ window.PET_PLACES_DATA = [
     "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
     "verified": true,
     "status": "OPERATIONAL",
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%B5%A4%E5%AE%A2%E7%87%92%E8%82%89%E5%BA%97%20%E8%87%BA%E5%8D%97%E5%B8%82%E5%8C%97%E5%8D%80%E5%85%AC%E5%9C%92%E5%8D%97%E8%B7%AF385%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E8%B5%A4%E5%AE%A2%E7%87%92%E8%82%89%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E8%B5%A4%E5%AE%A2%E7%87%92%E8%82%89%E5%BA%97/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E8%B5%A4%E5%AE%A2%E7%87%92%E8%82%89%E5%BA%97%20%E8%87%BA%E5%8D%97%E5%B8%82%E5%8C%97%E5%8D%80%E5%85%AC%E5%9C%92%E5%8D%97%E8%B7%AF385%E8%99%9F"
   },
   {
     "id": "tn-19",
@@ -14389,7 +15122,11 @@ window.PET_PLACES_DATA = [
     "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
     "verified": true,
     "status": "OPERATIONAL",
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8F%B0%E7%81%A3%E9%BB%83%E9%87%91%E8%95%8E%E9%BA%A5%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%20%E8%87%BA%E5%8D%97%E5%B8%82%E7%8E%89%E4%BA%95%E5%8D%80%E7%8E%89%E7%94%B0%E9%87%8C%E4%B8%AD%E5%B1%B1%E8%B7%AF228%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%8F%B0%E7%81%A3%E9%BB%83%E9%87%91%E8%95%8E%E9%BA%A5%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%8F%B0%E7%81%A3%E9%BB%83%E9%87%91%E8%95%8E%E9%BA%A5%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E5%8F%B0%E7%81%A3%E9%BB%83%E9%87%91%E8%95%8E%E9%BA%A5%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%20%E8%87%BA%E5%8D%97%E5%B8%82%E7%8E%89%E4%BA%95%E5%8D%80%E7%8E%89%E7%94%B0%E9%87%8C%E4%B8%AD%E5%B1%B1%E8%B7%AF228%E8%99%9F"
   },
   {
     "id": "tn-20",
@@ -14416,7 +15153,11 @@ window.PET_PLACES_DATA = [
     "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
     "verified": true,
     "status": "OPERATIONAL",
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%BA%BB%E8%B1%86%E7%BF%94%E7%BE%8E%E9%9B%AA%E8%8A%B1%E5%86%B0%E5%9F%8E%20%E8%87%BA%E5%8D%97%E5%B8%82%E9%BA%BB%E8%B1%86%E5%8D%80%E5%B7%B7%E5%8F%A3%E9%87%8C1%E9%84%B0%E6%B0%91%E6%97%8F%E8%B7%AF4-3%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E9%BA%BB%E8%B1%86%E7%BF%94%E7%BE%8E%E9%9B%AA%E8%8A%B1%E5%86%B0%E5%9F%8E",
+    "instagram": "https://www.instagram.com/explore/tags/%E9%BA%BB%E8%B1%86%E7%BF%94%E7%BE%8E%E9%9B%AA%E8%8A%B1%E5%86%B0%E5%9F%8E/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E9%BA%BB%E8%B1%86%E7%BF%94%E7%BE%8E%E9%9B%AA%E8%8A%B1%E5%86%B0%E5%9F%8E%20%E8%87%BA%E5%8D%97%E5%B8%82%E9%BA%BB%E8%B1%86%E5%8D%80%E5%B7%B7%E5%8F%A3%E9%87%8C1%E9%84%B0%E6%B0%91%E6%97%8F%E8%B7%AF4-3%E8%99%9F"
   },
   {
     "id": "tn-21",
@@ -14443,7 +15184,11 @@ window.PET_PLACES_DATA = [
     "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
     "verified": true,
     "status": "OPERATIONAL",
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%99%BD%E8%89%B2%E6%95%99%E5%A0%82%E5%9D%8A%20%E8%87%BA%E5%8D%97%E5%B8%82%E7%8E%89%E4%BA%95%E5%8D%80%E5%B1%A4%E6%9E%97%E9%87%8C%E5%B1%A4%E6%9E%971-7%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E7%99%BD%E8%89%B2%E6%95%99%E5%A0%82%E5%9D%8A",
+    "instagram": "https://www.instagram.com/explore/tags/%E7%99%BD%E8%89%B2%E6%95%99%E5%A0%82%E5%9D%8A/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E7%99%BD%E8%89%B2%E6%95%99%E5%A0%82%E5%9D%8A%20%E8%87%BA%E5%8D%97%E5%B8%82%E7%8E%89%E4%BA%95%E5%8D%80%E5%B1%A4%E6%9E%97%E9%87%8C%E5%B1%A4%E6%9E%971-7%E8%99%9F"
   },
   {
     "id": "tn-22",
@@ -14470,7 +15215,11 @@ window.PET_PLACES_DATA = [
     "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
     "verified": true,
     "status": "OPERATIONAL",
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%91%AA%E8%8E%8E%E5%95%86%E8%A1%8C%20%E8%87%BA%E5%8D%97%E5%B8%82%E7%8E%89%E4%BA%95%E5%8D%80%E6%B2%99%E7%94%B0%E9%87%8C%E6%B2%99%E7%94%B025-66%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E7%91%AA%E8%8E%8E%E5%95%86%E8%A1%8C",
+    "instagram": "https://www.instagram.com/explore/tags/%E7%91%AA%E8%8E%8E%E5%95%86%E8%A1%8C/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E7%91%AA%E8%8E%8E%E5%95%86%E8%A1%8C%20%E8%87%BA%E5%8D%97%E5%B8%82%E7%8E%89%E4%BA%95%E5%8D%80%E6%B2%99%E7%94%B0%E9%87%8C%E6%B2%99%E7%94%B025-66%E8%99%9F"
   },
   {
     "id": "tn-23",
@@ -14497,7 +15246,11 @@ window.PET_PLACES_DATA = [
     "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
     "verified": true,
     "status": "OPERATIONAL",
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%99%A8%E7%BF%8A%E6%97%A9%E9%A4%90%E9%BB%9E%20%E8%87%BA%E5%8D%97%E5%B8%82%E5%8C%97%E5%8D%80%E5%AF%A6%E8%B8%90%E8%A1%97100%E5%B7%B72%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%99%A8%E7%BF%8A%E6%97%A9%E9%A4%90%E9%BB%9E",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%99%A8%E7%BF%8A%E6%97%A9%E9%A4%90%E9%BB%9E/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E6%99%A8%E7%BF%8A%E6%97%A9%E9%A4%90%E9%BB%9E%20%E8%87%BA%E5%8D%97%E5%B8%82%E5%8C%97%E5%8D%80%E5%AF%A6%E8%B8%90%E8%A1%97100%E5%B7%B72%E8%99%9F"
   },
   {
     "id": "tn-24",
@@ -14524,7 +15277,11 @@ window.PET_PLACES_DATA = [
     "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
     "verified": true,
     "status": "OPERATIONAL",
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%BE%A0%E6%BA%A2%E9%9A%86%E9%A4%90%E9%A3%B2%E5%BA%97%20%E8%87%BA%E5%8D%97%E5%B8%82%E9%BA%BB%E8%B1%86%E5%8D%80%E8%88%88%E4%B8%AD%E8%B7%AF164-4%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%BE%A0%E6%BA%A2%E9%9A%86%E9%A4%90%E9%A3%B2%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%BE%A0%E6%BA%A2%E9%9A%86%E9%A4%90%E9%A3%B2%E5%BA%97/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E5%BE%A0%E6%BA%A2%E9%9A%86%E9%A4%90%E9%A3%B2%E5%BA%97%20%E8%87%BA%E5%8D%97%E5%B8%82%E9%BA%BB%E8%B1%86%E5%8D%80%E8%88%88%E4%B8%AD%E8%B7%AF164-4%E8%99%9F"
   },
   {
     "id": "tn-25",
@@ -14551,7 +15308,11 @@ window.PET_PLACES_DATA = [
     "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
     "verified": true,
     "status": "OPERATIONAL",
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%BE%A0%E7%9B%8A%E9%9A%86%E9%A4%90%E9%A3%B2%E5%BA%97%20%E8%87%BA%E5%8D%97%E5%B8%82%E5%96%84%E5%8C%96%E5%8D%80%E5%85%89%E6%96%87%E9%87%8C%E4%B8%AD%E5%B1%B1%E8%B7%AF229%E4%B9%8B2%E8%99%9F1%E6%A8%93",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%BE%A0%E7%9B%8A%E9%9A%86%E9%A4%90%E9%A3%B2%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%BE%A0%E7%9B%8A%E9%9A%86%E9%A4%90%E9%A3%B2%E5%BA%97/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E5%BE%A0%E7%9B%8A%E9%9A%86%E9%A4%90%E9%A3%B2%E5%BA%97%20%E8%87%BA%E5%8D%97%E5%B8%82%E5%96%84%E5%8C%96%E5%8D%80%E5%85%89%E6%96%87%E9%87%8C%E4%B8%AD%E5%B1%B1%E8%B7%AF229%E4%B9%8B2%E8%99%9F1%E6%A8%93"
   },
   {
     "id": "tn-26",
@@ -14578,7 +15339,11 @@ window.PET_PLACES_DATA = [
     "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
     "verified": true,
     "status": "OPERATIONAL",
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%89%93%E7%BF%BB%E6%B3%A1%E8%8F%9C%E9%9F%93%E5%BC%8F%E6%96%99%E7%90%86%20%E8%87%BA%E5%8D%97%E5%B8%82%E5%8D%97%E5%8D%80%E5%A4%8F%E6%9E%97%E8%B7%AF118%E8%99%9F2%E6%A8%93",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%89%93%E7%BF%BB%E6%B3%A1%E8%8F%9C%E9%9F%93%E5%BC%8F%E6%96%99%E7%90%86",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%89%93%E7%BF%BB%E6%B3%A1%E8%8F%9C%E9%9F%93%E5%BC%8F%E6%96%99%E7%90%86/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E6%89%93%E7%BF%BB%E6%B3%A1%E8%8F%9C%E9%9F%93%E5%BC%8F%E6%96%99%E7%90%86%20%E8%87%BA%E5%8D%97%E5%B8%82%E5%8D%97%E5%8D%80%E5%A4%8F%E6%9E%97%E8%B7%AF118%E8%99%9F2%E6%A8%93"
   },
   {
     "id": "tn-27",
@@ -14605,615 +15370,11 @@ window.PET_PLACES_DATA = [
     "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
     "verified": true,
     "status": "OPERATIONAL",
-    "highlight": true
-  },
-  {
-    "id": "tn-28",
-    "name": "寵物業營業場所名稱",
-    "legalName": "寵物業營業場所名稱",
-    "category": "特色餐廳",
-    "city": "臺南市",
-    "district": "中西區",
-    "address": "地址",
-    "phone": "電話",
-    "lat": 22.9932,
-    "lng": 120.2012,
-    "petsAllowed": [
-      "允許入內之寵物"
-    ],
-    "rules": [
-      "牽繩可落地"
-    ],
-    "features": [
-      "提供友善措施"
-    ],
-    "source": "臺南市動物防疫保護處 (官方標章認證)",
-    "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
-    "verified": true,
-    "status": "OPERATIONAL",
-    "highlight": true
-  },
-  {
-    "id": "tn-29",
-    "name": "東森寵物雲股份有限公司麻豆興中分公司",
-    "legalName": "東森寵物雲股份有限公司麻豆興中分公司",
-    "category": "特色餐廳",
-    "city": "臺南市",
-    "district": "麻豆區",
-    "address": "臺南市麻豆區晉江里8鄰興中路164號",
-    "phone": "06-7836501",
-    "lat": 23.183544,
-    "lng": 120.252845,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地"
-    ],
-    "features": [
-      "賣場空間均有定期消毒",
-      "整理"
-    ],
-    "source": "臺南市動物防疫保護處 (官方標章認證)",
-    "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
-    "verified": true,
-    "status": "OPERATIONAL",
-    "highlight": true
-  },
-  {
-    "id": "tn-30",
-    "name": "東森寵物雲股份有限公司善化光復分公司",
-    "legalName": "東森寵物雲股份有限公司善化光復分公司",
-    "category": "特色餐廳",
-    "city": "臺南市",
-    "district": "善化區",
-    "address": "臺南市善化區文昌里7鄰光復路66號1樓",
-    "phone": "06-5815852",
-    "lat": 23.128397,
-    "lng": 120.291847,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地"
-    ],
-    "features": [
-      "賣場空間均有定期消毒",
-      "整理"
-    ],
-    "source": "臺南市動物防疫保護處 (官方標章認證)",
-    "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
-    "verified": true,
-    "status": "OPERATIONAL",
-    "highlight": true
-  },
-  {
-    "id": "tn-31",
-    "name": "東森寵物雲股份有限公司安平建平分公司",
-    "legalName": "東森寵物雲股份有限公司安平建平分公司",
-    "category": "特色餐廳",
-    "city": "臺南市",
-    "district": "安平區",
-    "address": "臺南市安平區建平路271號",
-    "phone": "06-2935252",
-    "lat": 22.988344,
-    "lng": 120.182107,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地"
-    ],
-    "features": [
-      "賣場空間均有定期消毒",
-      "整理"
-    ],
-    "source": "臺南市動物防疫保護處 (官方標章認證)",
-    "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
-    "verified": true,
-    "status": "OPERATIONAL",
-    "highlight": true
-  },
-  {
-    "id": "tn-32",
-    "name": "東森寵物雲股份有限公司新營民生分公司",
-    "legalName": "東森寵物雲股份有限公司新營民生分公司",
-    "category": "特色餐廳",
-    "city": "臺南市",
-    "district": "新營區",
-    "address": "臺南市新營區新北里2鄰民生路167號",
-    "phone": "06-6562220",
-    "lat": 23.30989,
-    "lng": 120.307593,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地"
-    ],
-    "features": [
-      "賣場空間均有定期消毒",
-      "整理"
-    ],
-    "source": "臺南市動物防疫保護處 (官方標章認證)",
-    "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
-    "verified": true,
-    "status": "OPERATIONAL",
-    "highlight": true
-  },
-  {
-    "id": "tn-33",
-    "name": "東森寵物雲股份有限公司安南海佃分公司",
-    "legalName": "東森寵物雲股份有限公司安南海佃分公司",
-    "category": "特色餐廳",
-    "city": "臺南市",
-    "district": "安南區",
-    "address": "臺南市安南區海佃路二段58、60、62、66號",
-    "phone": "06-2455666",
-    "lat": 23.030833,
-    "lng": 120.190414,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地"
-    ],
-    "features": [
-      "賣場空間均有定期消毒",
-      "整理"
-    ],
-    "source": "臺南市動物防疫保護處 (官方標章認證)",
-    "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
-    "verified": true,
-    "status": "OPERATIONAL",
-    "highlight": true
-  },
-  {
-    "id": "tn-34",
-    "name": "東森寵物雲股份有限公司佳里新生分公司",
-    "legalName": "東森寵物雲股份有限公司佳里新生分公司",
-    "category": "特色餐廳",
-    "city": "臺南市",
-    "district": "佳里區",
-    "address": "臺南市佳里區建南里5鄰新生路357號",
-    "phone": "06-7217202",
-    "lat": 23.159647,
-    "lng": 120.173843,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地"
-    ],
-    "features": [
-      "賣場空間均有定期消毒",
-      "整理"
-    ],
-    "source": "臺南市動物防疫保護處 (官方標章認證)",
-    "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
-    "verified": true,
-    "status": "OPERATIONAL",
-    "highlight": true
-  },
-  {
-    "id": "tn-35",
-    "name": "東森寵物雲股份有限公司北區西門分公司",
-    "legalName": "東森寵物雲股份有限公司北區西門分公司",
-    "category": "特色餐廳",
-    "city": "臺南市",
-    "district": "北區",
-    "address": "臺南市北區西門路四段268號",
-    "phone": "06-2813222",
-    "lat": 23.012143,
-    "lng": 120.209149,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地"
-    ],
-    "features": [
-      "賣場空間均有定期消毒",
-      "整理"
-    ],
-    "source": "臺南市動物防疫保護處 (官方標章認證)",
-    "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
-    "verified": true,
-    "status": "OPERATIONAL",
-    "highlight": true
-  },
-  {
-    "id": "tn-36",
-    "name": "東森寵物雲股份有限公司東區中華東分公司",
-    "legalName": "東森寵物雲股份有限公司東區中華東分公司",
-    "category": "特色餐廳",
-    "city": "臺南市",
-    "district": "東區",
-    "address": "臺南市東區中華東路三段193號",
-    "phone": "06-2909996",
-    "lat": 22.97641,
-    "lng": 120.22566,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地"
-    ],
-    "features": [
-      "賣場空間均有定期消毒",
-      "整理"
-    ],
-    "source": "臺南市動物防疫保護處 (官方標章認證)",
-    "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
-    "verified": true,
-    "status": "OPERATIONAL",
-    "highlight": true
-  },
-  {
-    "id": "tn-37",
-    "name": "東森寵物雲股份有限公司仁德中山分公司",
-    "legalName": "東森寵物雲股份有限公司仁德中山分公司",
-    "category": "特色餐廳",
-    "city": "臺南市",
-    "district": "仁德區",
-    "address": "臺南市仁德區仁義里22鄰中山路491號",
-    "phone": "06-2708339*",
-    "lat": 22.971046,
-    "lng": 120.255043,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地"
-    ],
-    "features": [
-      "賣場空間均有定期消毒",
-      "整理"
-    ],
-    "source": "臺南市動物防疫保護處 (官方標章認證)",
-    "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
-    "verified": true,
-    "status": "OPERATIONAL",
-    "highlight": true
-  },
-  {
-    "id": "tn-38",
-    "name": "東森寵物雲股份有限公司永康中華分公司",
-    "legalName": "東森寵物雲股份有限公司永康中華分公司",
-    "category": "特色餐廳",
-    "city": "臺南市",
-    "district": "永康區",
-    "address": "臺南市永康區安康里17鄰中華路651、653、657號",
-    "phone": "06-3023456",
-    "lat": 23.015273,
-    "lng": 120.22947,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地"
-    ],
-    "features": [
-      "賣場空間均有定期消毒",
-      "整理"
-    ],
-    "source": "臺南市動物防疫保護處 (官方標章認證)",
-    "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
-    "verified": true,
-    "status": "OPERATIONAL",
-    "highlight": true
-  },
-  {
-    "id": "tn-39",
-    "name": "大魚寵物有限公司永康分公司",
-    "legalName": "大魚寵物有限公司永康分公司",
-    "category": "特色餐廳",
-    "city": "臺南市",
-    "district": "永康區",
-    "address": "臺南市永康區安康里13鄰中華路707號",
-    "phone": "06-3038906",
-    "lat": 23.016812,
-    "lng": 120.228152,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地"
-    ],
-    "features": [
-      "規劃寵物便溺區",
-      "定期消毒",
-      "不定期寵物健檢"
-    ],
-    "source": "臺南市動物防疫保護處 (官方標章認證)",
-    "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
-    "verified": true,
-    "status": "OPERATIONAL",
-    "highlight": true
-  },
-  {
-    "id": "tn-40",
-    "name": "永魚寵物有限公司安平分公司",
-    "legalName": "永魚寵物有限公司安平分公司",
-    "category": "特色餐廳",
-    "city": "臺南市",
-    "district": "安平區",
-    "address": "臺南市安平區中華西路二段55號",
-    "phone": "06-2977999",
-    "lat": 22.989842,
-    "lng": 120.186623,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地"
-    ],
-    "features": [
-      "貓咪寄養",
-      "安親",
-      "美容等活動空間"
-    ],
-    "source": "臺南市動物防疫保護處 (官方標章認證)",
-    "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
-    "verified": true,
-    "status": "OPERATIONAL",
-    "highlight": true
-  },
-  {
-    "id": "tn-41",
-    "name": "喵森有限公司",
-    "legalName": "喵森有限公司",
-    "category": "特色餐廳",
-    "city": "臺南市",
-    "district": "東區",
-    "address": "臺南市東區裕農路375號地下層",
-    "phone": "06-2085461",
-    "lat": 22.987516,
-    "lng": 12.230155,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地"
-    ],
-    "features": [
-      "賣場空間均有定期消毒",
-      "整理"
-    ],
-    "source": "臺南市動物防疫保護處 (官方標章認證)",
-    "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
-    "verified": true,
-    "status": "OPERATIONAL",
-    "highlight": true
-  },
-  {
-    "id": "tn-42",
-    "name": "東森寵物雲股份有限公司新營中山分公司",
-    "legalName": "東森寵物雲股份有限公司新營中山分公司",
-    "category": "特色餐廳",
-    "city": "臺南市",
-    "district": "新營區",
-    "address": "臺南市新營區民權里15鄰中山路300號",
-    "phone": "06-6350031",
-    "lat": 23.306715,
-    "lng": 120.321708,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地"
-    ],
-    "features": [
-      "友善空間之定期消毒"
-    ],
-    "source": "臺南市動物防疫保護處 (官方標章認證)",
-    "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
-    "verified": true,
-    "status": "OPERATIONAL",
-    "highlight": true
-  },
-  {
-    "id": "tn-43",
-    "name": "美自愛犬整容屋",
-    "legalName": "美自愛犬整容屋",
-    "category": "特色餐廳",
-    "city": "臺南市",
-    "district": "關廟區",
-    "address": "臺南市關廟區東勢里9鄰東安街248號",
-    "phone": "0919-631066",
-    "lat": 22.954045,
-    "lng": 120.333098,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地"
-    ],
-    "features": [
-      "友善空間之定期消毒"
-    ],
-    "source": "臺南市動物防疫保護處 (官方標章認證)",
-    "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
-    "verified": true,
-    "status": "OPERATIONAL",
-    "highlight": true
-  },
-  {
-    "id": "tn-44",
-    "name": "聯進專業育種犬舍",
-    "legalName": "聯進專業育種犬舍",
-    "category": "特色餐廳",
-    "city": "臺南市",
-    "district": "七股區",
-    "address": "臺南市七股區大埕里11鄰大埕431號之12",
-    "phone": "0919-631066",
-    "lat": 23.139966,
-    "lng": 120.143567,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地"
-    ],
-    "features": [
-      "友善空間之定期消毒"
-    ],
-    "source": "臺南市動物防疫保護處 (官方標章認證)",
-    "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
-    "verified": true,
-    "status": "OPERATIONAL",
-    "highlight": true
-  },
-  {
-    "id": "tn-45",
-    "name": "東森寵物雲股份有限公司歸仁中山分公司",
-    "legalName": "東森寵物雲股份有限公司歸仁中山分公司",
-    "category": "特色餐廳",
-    "city": "臺南市",
-    "district": "歸仁區",
-    "address": "臺南市歸仁區南保里25鄰中山路三段97號1樓",
-    "phone": "06-2390133",
-    "lat": 23.009754,
-    "lng": 120.19388,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地"
-    ],
-    "features": [
-      "友善空間之定期消毒"
-    ],
-    "source": "臺南市動物防疫保護處 (官方標章認證)",
-    "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
-    "verified": true,
-    "status": "OPERATIONAL",
-    "highlight": true
-  },
-  {
-    "id": "tn-46",
-    "name": "太妃狗寵物澡堂",
-    "legalName": "太妃狗寵物澡堂",
-    "category": "特色餐廳",
-    "city": "臺南市",
-    "district": "東區",
-    "address": "臺南市東區東安路82號1樓",
-    "phone": "06-2083315",
-    "lat": 22.96758,
-    "lng": 120.285538,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地"
-    ],
-    "features": [
-      "友善空間之定期消毒"
-    ],
-    "source": "臺南市動物防疫保護處 (官方標章認證)",
-    "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
-    "verified": true,
-    "status": "OPERATIONAL",
-    "highlight": true
-  },
-  {
-    "id": "tn-47",
-    "name": "雪莉寵物生活館",
-    "legalName": "雪莉寵物生活館",
-    "category": "特色餐廳",
-    "city": "臺南市",
-    "district": "東區",
-    "address": "臺南市東區崇德路785之8、9號",
-    "phone": "06-2679799",
-    "lat": 22.966379,
-    "lng": 120.227614,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地"
-    ],
-    "features": [
-      "友善空間之定期消毒"
-    ],
-    "source": "臺南市動物防疫保護處 (官方標章認證)",
-    "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
-    "verified": true,
-    "status": "OPERATIONAL",
-    "highlight": true
-  },
-  {
-    "id": "tn-48",
-    "name": "愛享家寵物樂活館",
-    "legalName": "愛享家寵物樂活館",
-    "category": "特色餐廳",
-    "city": "臺南市",
-    "district": "東區",
-    "address": "臺南市東區東門路二段158巷16號",
-    "phone": "06-2088899",
-    "lat": 22.985232,
-    "lng": 120.220982,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地"
-    ],
-    "features": [
-      "友善空間之定期消毒"
-    ],
-    "source": "臺南市動物防疫保護處 (官方標章認證)",
-    "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
-    "verified": true,
-    "status": "OPERATIONAL",
-    "highlight": true
-  },
-  {
-    "id": "tn-49",
-    "name": "愛諾寵物生活館",
-    "legalName": "愛諾寵物生活館",
-    "category": "特色餐廳",
-    "city": "臺南市",
-    "district": "中西區",
-    "address": "臺南市中西區臨安路一段16號",
-    "phone": "06-2412242",
-    "lat": 22.997858,
-    "lng": 120.189597,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地"
-    ],
-    "features": [
-      "友善空間之定期消毒"
-    ],
-    "source": "臺南市動物防疫保護處 (官方標章認證)",
-    "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
-    "verified": true,
-    "status": "OPERATIONAL",
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%98%8E%E7%B2%A5%E5%86%B7%E9%A3%B2%E5%BA%97%20%E8%87%BA%E5%8D%97%E5%B8%82%E4%B8%AD%E8%A5%BF%E5%8D%80%E5%8D%97%E9%96%80%E8%B7%AF46%E4%B9%8B2%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%98%8E%E7%B2%A5%E5%86%B7%E9%A3%B2%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%98%8E%E7%B2%A5%E5%86%B7%E9%A3%B2%E5%BA%97/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E6%98%8E%E7%B2%A5%E5%86%B7%E9%A3%B2%E5%BA%97%20%E8%87%BA%E5%8D%97%E5%B8%82%E4%B8%AD%E8%A5%BF%E5%8D%80%E5%8D%97%E9%96%80%E8%B7%AF46%E4%B9%8B2%E8%99%9F"
   },
   {
     "id": "tn-50",
@@ -15240,948 +15401,11 @@ window.PET_PLACES_DATA = [
     "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
     "verified": true,
     "status": "OPERATIONAL",
-    "highlight": true
-  },
-  {
-    "id": "tn-51",
-    "name": "東森寵物雲股份有限公司南區新興分公司",
-    "legalName": "東森寵物雲股份有限公司南區新興分公司",
-    "category": "特色餐廳",
-    "city": "臺南市",
-    "district": "南區",
-    "address": "臺南市南區新興路509號之2及509號之3",
-    "phone": "62611161",
-    "lat": 23.001137,
-    "lng": 120.198744,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地"
-    ],
-    "features": [
-      "友善空間之定期消毒"
-    ],
-    "source": "臺南市動物防疫保護處 (官方標章認證)",
-    "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
-    "verified": true,
-    "status": "OPERATIONAL",
-    "highlight": true
-  },
-  {
-    "id": "tn-52",
-    "name": "大都會犬舍",
-    "legalName": "大都會犬舍",
-    "category": "特色餐廳",
-    "city": "臺南市",
-    "district": "南區",
-    "address": "臺南市南區明興路1346號",
-    "phone": "0956-999981",
-    "lat": 22.97476,
-    "lng": 120.187755,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地"
-    ],
-    "features": [
-      "友善空間之定期消毒"
-    ],
-    "source": "臺南市動物防疫保護處 (官方標章認證)",
-    "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
-    "verified": true,
-    "status": "OPERATIONAL",
-    "highlight": true
-  },
-  {
-    "id": "tn-53",
-    "name": "立旺犬舍",
-    "legalName": "立旺犬舍",
-    "category": "特色餐廳",
-    "city": "臺南市",
-    "district": "永康區",
-    "address": "臺南市永康區安康里8鄰中山南路119巷2號",
-    "phone": "06-2227123",
-    "lat": 23.013128,
-    "lng": 120.228985,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地"
-    ],
-    "features": [
-      "友善空間之定期消毒"
-    ],
-    "source": "臺南市動物防疫保護處 (官方標章認證)",
-    "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
-    "verified": true,
-    "status": "OPERATIONAL",
-    "highlight": true
-  },
-  {
-    "id": "tn-54",
-    "name": "燕翬企業社",
-    "legalName": "燕翬企業社",
-    "category": "特色餐廳",
-    "city": "臺南市",
-    "district": "永康區",
-    "address": "臺南市永康區安康里15鄰中華路649之1號",
-    "phone": "06-2227123",
-    "lat": 23.015209,
-    "lng": 120.229404,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地"
-    ],
-    "features": [
-      "友善空間之定期消毒"
-    ],
-    "source": "臺南市動物防疫保護處 (官方標章認證)",
-    "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
-    "verified": true,
-    "status": "OPERATIONAL",
-    "highlight": true
-  },
-  {
-    "id": "tn-55",
-    "name": "熊寶貝寵物用品股份有限公司台南健康分公司",
-    "legalName": "熊寶貝寵物用品股份有限公司台南健康分公司",
-    "category": "特色餐廳",
-    "city": "臺南市",
-    "district": "南區",
-    "address": "臺南市南區健康路二段75號",
-    "phone": "06-2921888",
-    "lat": 22.981277,
-    "lng": 120.250916,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地"
-    ],
-    "features": [
-      "販售犬（貓）鼠兔飼料及生活用品",
-      "寵物可落地",
-      "附設寵物美容"
-    ],
-    "source": "臺南市動物防疫保護處 (官方標章認證)",
-    "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
-    "verified": true,
-    "status": "OPERATIONAL",
-    "highlight": true
-  },
-  {
-    "id": "tn-56",
-    "name": "小品養殖行",
-    "legalName": "小品養殖行",
-    "category": "特色餐廳",
-    "city": "臺南市",
-    "district": "仁德區",
-    "address": "臺南市仁德區中洲路667號1樓",
-    "phone": "0985-121510",
-    "lat": 22.907518,
-    "lng": 120.250916,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地"
-    ],
-    "features": [
-      "友善空間之定期消毒"
-    ],
-    "source": "臺南市動物防疫保護處 (官方標章認證)",
-    "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
-    "verified": true,
-    "status": "OPERATIONAL",
-    "highlight": true
-  },
-  {
-    "id": "tn-57",
-    "name": "大樹寵物新營民治店",
-    "legalName": "大樹寵物新營民治店",
-    "category": "特色餐廳",
-    "city": "臺南市",
-    "district": "新營區",
-    "address": "臺南市新營區民治路234號",
-    "phone": "0933-330726",
-    "lat": 23.307774,
-    "lng": 120.304215,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "需穿禮貌帶/生理褲"
-    ],
-    "features": [
-      "免費提供禮貌帶",
-      "寵物推車",
-      "提供動物美容",
-      "動物用品販售"
-    ],
-    "source": "臺南市動物防疫保護處 (官方標章認證)",
-    "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
-    "verified": true,
-    "status": "OPERATIONAL",
-    "highlight": true
-  },
-  {
-    "id": "tn-58",
-    "name": "大魚寵物有限公司崇明分公司",
-    "legalName": "大魚寵物有限公司崇明分公司",
-    "category": "特色餐廳",
-    "city": "臺南市",
-    "district": "東區",
-    "address": "臺南市東區崇明路511號",
-    "phone": "06-2672728",
-    "lat": 22.97191,
-    "lng": 120.225885,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地"
-    ],
-    "features": [
-      "動物入內可落地",
-      "提供寵物美容",
-      "用品販售之服務"
-    ],
-    "source": "臺南市動物防疫保護處 (官方標章認證)",
-    "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
-    "verified": true,
-    "status": "OPERATIONAL",
-    "highlight": true
-  },
-  {
-    "id": "tn-59",
-    "name": "大魚寵物有限公司永大分公司",
-    "legalName": "大魚寵物有限公司永大分公司",
-    "category": "特色餐廳",
-    "city": "臺南市",
-    "district": "永康區",
-    "address": "臺南市永康區永大路二段245號",
-    "phone": "06-2722866",
-    "lat": 23.008391,
-    "lng": 120.262154,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地"
-    ],
-    "features": [
-      "動物入內可落地",
-      "提供寵物用品販售之服務"
-    ],
-    "source": "臺南市動物防疫保護處 (官方標章認證)",
-    "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
-    "verified": true,
-    "status": "OPERATIONAL",
-    "highlight": true
-  },
-  {
-    "id": "tn-60",
-    "name": "五代寵物沙龍",
-    "legalName": "五代寵物沙龍",
-    "category": "特色餐廳",
-    "city": "臺南市",
-    "district": "北區",
-    "address": "臺南市北區和緯路四段362號",
-    "phone": "06 252 3819",
-    "lat": 23.00607,
-    "lng": 120.18986,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地"
-    ],
-    "features": [
-      "友善空間之定期消毒",
-      "犬貓活動區"
-    ],
-    "source": "臺南市動物防疫保護處 (官方標章認證)",
-    "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
-    "verified": true,
-    "status": "OPERATIONAL",
-    "highlight": true
-  },
-  {
-    "id": "tn-61",
-    "name": "旅宿業營業場所名稱",
-    "legalName": "旅宿業營業場所名稱",
-    "category": "特色餐廳",
-    "city": "臺南市",
-    "district": "中西區",
-    "address": "地址",
-    "phone": "電話",
-    "lat": 22.9932,
-    "lng": 120.2012,
-    "petsAllowed": [
-      "允許入內之寵物"
-    ],
-    "rules": [
-      "牽繩可落地"
-    ],
-    "features": [
-      "提供友善措施"
-    ],
-    "source": "臺南市動物防疫保護處 (官方標章認證)",
-    "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
-    "verified": true,
-    "status": "OPERATIONAL",
-    "highlight": true
-  },
-  {
-    "id": "tn-62",
-    "name": "太陽慢慢走民宿",
-    "legalName": "太陽慢慢走民宿",
-    "category": "特色餐廳",
-    "city": "臺南市",
-    "district": "中西區",
-    "address": "臺南市中西區大埔街89巷35號",
-    "phone": "0933-806349",
-    "lat": 22.986885,
-    "lng": 120.20829,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地"
-    ],
-    "features": [
-      "寵物友善民宿",
-      "可帶寵物入內/可同住房間/提供食碗睡床"
-    ],
-    "source": "臺南市動物防疫保護處 (官方標章認證)",
-    "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
-    "verified": true,
-    "status": "OPERATIONAL",
-    "highlight": true
-  },
-  {
-    "id": "tn-63",
-    "name": "藍舍民宿",
-    "legalName": "藍舍民宿",
-    "category": "特色餐廳",
-    "city": "臺南市",
-    "district": "中西區",
-    "address": "臺南市中西區忠孝街93巷25號",
-    "phone": "0905-528629",
-    "lat": 23.000468,
-    "lng": 120.196916,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地"
-    ],
-    "features": [
-      "露台空間",
-      "用水杯",
-      "飼料杯"
-    ],
-    "source": "臺南市動物防疫保護處 (官方標章認證)",
-    "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
-    "verified": true,
-    "status": "OPERATIONAL",
-    "highlight": true
-  },
-  {
-    "id": "tn-64",
-    "name": "月亮慢慢走民宿",
-    "legalName": "月亮慢慢走民宿",
-    "category": "特色餐廳",
-    "city": "臺南市",
-    "district": "中西區",
-    "address": "臺南市中西區衛民街106號之21",
-    "phone": "0933-806349",
-    "lat": 22.993144,
-    "lng": 120.209272,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地"
-    ],
-    "features": [
-      "寵物友善民宿",
-      "可帶寵物入內",
-      "可同住房間",
-      "提供食碗睡床"
-    ],
-    "source": "臺南市動物防疫保護處 (官方標章認證)",
-    "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
-    "verified": true,
-    "status": "OPERATIONAL",
-    "highlight": true
-  },
-  {
-    "id": "tn-65",
-    "name": "山慢慢走旅宿",
-    "legalName": "山慢慢走旅宿",
-    "category": "特色餐廳",
-    "city": "臺南市",
-    "district": "楠西區",
-    "address": "臺南市楠西區中興路78號之1",
-    "phone": "0988-671717",
-    "lat": 23.180048,
-    "lng": 120.484535,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地"
-    ],
-    "features": [
-      "提供寵物食物",
-      "規劃寵物遊戲區",
-      "辦理友善空間之定期消毒"
-    ],
-    "source": "臺南市動物防疫保護處 (官方標章認證)",
-    "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
-    "verified": true,
-    "status": "OPERATIONAL",
-    "highlight": true
-  },
-  {
-    "id": "tn-66",
-    "name": "夏木漱石民宿",
-    "legalName": "夏木漱石民宿",
-    "category": "特色餐廳",
-    "city": "臺南市",
-    "district": "安平區",
-    "address": "臺南市安平區同平路108巷52號",
-    "phone": "0956-167168",
-    "lat": 22.995959,
-    "lng": 120.152124,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地"
-    ],
-    "features": [
-      "友善空間之定期消毒"
-    ],
-    "source": "臺南市動物防疫保護處 (官方標章認證)",
-    "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
-    "verified": true,
-    "status": "OPERATIONAL",
-    "highlight": true
-  },
-  {
-    "id": "tn-67",
-    "name": "臺南樸居民宿",
-    "legalName": "臺南樸居民宿",
-    "category": "特色餐廳",
-    "city": "臺南市",
-    "district": "中西區",
-    "address": "臺南市中西區永華路一段144巷49號",
-    "phone": "0956-167168",
-    "lat": 22.987297,
-    "lng": 120.196133,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地"
-    ],
-    "features": [
-      "友善空間之定期消毒"
-    ],
-    "source": "臺南市動物防疫保護處 (官方標章認證)",
-    "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
-    "verified": true,
-    "status": "OPERATIONAL",
-    "highlight": true
-  },
-  {
-    "id": "tn-68",
-    "name": "湧福驛站民宿",
-    "legalName": "湧福驛站民宿",
-    "category": "特色餐廳",
-    "city": "臺南市",
-    "district": "中西區",
-    "address": "臺南市中西區大福街36巷5號",
-    "phone": "0956-167168",
-    "lat": 22.998514,
-    "lng": 120.193279,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地"
-    ],
-    "features": [
-      "友善空間之定期消毒"
-    ],
-    "source": "臺南市動物防疫保護處 (官方標章認證)",
-    "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
-    "verified": true,
-    "status": "OPERATIONAL",
-    "highlight": true
-  },
-  {
-    "id": "tn-69",
-    "name": "臺南樸美民宿",
-    "legalName": "臺南樸美民宿",
-    "category": "特色餐廳",
-    "city": "臺南市",
-    "district": "中西區",
-    "address": "臺南市中西區永華路一段144巷37號",
-    "phone": "0956-167168",
-    "lat": 22.98724,
-    "lng": 120.19616,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地"
-    ],
-    "features": [
-      "友善空間之定期消毒"
-    ],
-    "source": "臺南市動物防疫保護處 (官方標章認證)",
-    "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
-    "verified": true,
-    "status": "OPERATIONAL",
-    "highlight": true
-  },
-  {
-    "id": "tn-70",
-    "name": "臺南樸宿民宿",
-    "legalName": "臺南樸宿民宿",
-    "category": "特色餐廳",
-    "city": "臺南市",
-    "district": "中西區",
-    "address": "臺南市中西區永華路一段144巷45號",
-    "phone": "0956-167168",
-    "lat": 22.987088,
-    "lng": 120.196129,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地"
-    ],
-    "features": [
-      "友善空間之定期消毒"
-    ],
-    "source": "臺南市動物防疫保護處 (官方標章認證)",
-    "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
-    "verified": true,
-    "status": "OPERATIONAL",
-    "highlight": true
-  },
-  {
-    "id": "tn-71",
-    "name": "臺南蝸聚寵物親子民宿",
-    "legalName": "臺南蝸聚寵物親子民宿",
-    "category": "特色餐廳",
-    "city": "臺南市",
-    "district": "中西區",
-    "address": "臺南市中西區民生路一段157巷12號",
-    "phone": "0956-167168",
-    "lat": 22.993561,
-    "lng": 120.20047,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地"
-    ],
-    "features": [
-      "提供寵物遊戲區及友善空間之定期消毒"
-    ],
-    "source": "臺南市動物防疫保護處 (官方標章認證)",
-    "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
-    "verified": true,
-    "status": "OPERATIONAL",
-    "highlight": true
-  },
-  {
-    "id": "tn-72",
-    "name": "同心旅棧",
-    "legalName": "同心旅棧",
-    "category": "特色餐廳",
-    "city": "臺南市",
-    "district": "中西區",
-    "address": "臺南市中西區忠孝街93巷114-6號",
-    "phone": "0918-999801",
-    "lat": 23.001106,
-    "lng": 120.195657,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地"
-    ],
-    "features": [
-      "友善空間之定期消毒"
-    ],
-    "source": "臺南市動物防疫保護處 (官方標章認證)",
-    "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
-    "verified": true,
-    "status": "OPERATIONAL",
-    "highlight": true
-  },
-  {
-    "id": "tn-73",
-    "name": "林桂園石泉會館",
-    "legalName": "林桂園石泉會館",
-    "category": "特色餐廳",
-    "city": "臺南市",
-    "district": "白河區",
-    "address": "臺南市白河區關領里53之18號",
-    "phone": "06-6823202",
-    "lat": 23.369743,
-    "lng": 120.458044,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地"
-    ],
-    "features": [
-      "可以一同進入房內",
-      "戶外園區散步及大小便"
-    ],
-    "source": "臺南市動物防疫保護處 (官方標章認證)",
-    "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
-    "verified": true,
-    "status": "OPERATIONAL",
-    "highlight": true
-  },
-  {
-    "id": "tn-74",
-    "name": "台南安平雅樂軒酒店",
-    "legalName": "台南安平雅樂軒酒店",
-    "category": "特色餐廳",
-    "city": "臺南市",
-    "district": "安平區",
-    "address": "臺南市安平區光州路108號",
-    "phone": "06-2976161",
-    "lat": 22.99032,
-    "lng": 120.160138,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地"
-    ],
-    "features": [
-      "友善空間之定期消毒"
-    ],
-    "source": "臺南市動物防疫保護處 (官方標章認證)",
-    "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
-    "verified": true,
-    "status": "OPERATIONAL",
-    "highlight": true
-  },
-  {
-    "id": "tn-75",
-    "name": "信然飯店股份有限公司",
-    "legalName": "信然飯店股份有限公司",
-    "category": "特色餐廳",
-    "city": "臺南市",
-    "district": "中西區",
-    "address": "臺南市中西區康樂街148號",
-    "phone": "06-2238999",
-    "lat": 22.994691,
-    "lng": 120.195076,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地"
-    ],
-    "features": [
-      "可以一同進入房內",
-      "提供食碗",
-      "睡床及尿布墊"
-    ],
-    "source": "臺南市動物防疫保護處 (官方標章認證)",
-    "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
-    "verified": true,
-    "status": "OPERATIONAL",
-    "highlight": true
-  },
-  {
-    "id": "tn-76",
-    "name": "交通業營業場所名稱",
-    "legalName": "交通業營業場所名稱",
-    "category": "特色餐廳",
-    "city": "臺南市",
-    "district": "中西區",
-    "address": "地址",
-    "phone": "電話",
-    "lat": 22.9932,
-    "lng": 120.2012,
-    "petsAllowed": [
-      "允許入內之寵物"
-    ],
-    "rules": [
-      "牽繩可落地"
-    ],
-    "features": [
-      "提供友善措施"
-    ],
-    "source": "臺南市動物防疫保護處 (官方標章認證)",
-    "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
-    "verified": true,
-    "status": "OPERATIONAL",
-    "highlight": true
-  },
-  {
-    "id": "tn-77",
-    "name": "港龍大車隊股份有限公司(台一大車隊)",
-    "legalName": "港龍大車隊股份有限公司(台一大車隊)",
-    "category": "特色餐廳",
-    "city": "臺南市",
-    "district": "東區",
-    "address": "臺南市東區裕義路238號",
-    "phone": "06-3000000",
-    "lat": 22.984311,
-    "lng": 120.247744,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地"
-    ],
-    "features": [
-      "友善空間之定期消毒"
-    ],
-    "source": "臺南市動物防疫保護處 (官方標章認證)",
-    "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
-    "verified": true,
-    "status": "OPERATIONAL",
-    "highlight": true
-  },
-  {
-    "id": "tn-78",
-    "name": "營業場所名稱",
-    "legalName": "營業場所名稱",
-    "category": "特色餐廳",
-    "city": "臺南市",
-    "district": "中西區",
-    "address": "地址",
-    "phone": "電話",
-    "lat": 22.9932,
-    "lng": 120.2012,
-    "petsAllowed": [
-      "允許入內之寵物"
-    ],
-    "rules": [
-      "牽繩可落地"
-    ],
-    "features": [
-      "提供友善措施"
-    ],
-    "source": "臺南市動物防疫保護處 (官方標章認證)",
-    "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
-    "verified": true,
-    "status": "OPERATIONAL",
-    "highlight": true
-  },
-  {
-    "id": "tn-79",
-    "name": "花水木新創事業",
-    "legalName": "花水木新創事業",
-    "category": "特色餐廳",
-    "city": "臺南市",
-    "district": "新化區",
-    "address": "臺南市新化區和平街23號",
-    "phone": "0937-300947",
-    "lat": 23.033526,
-    "lng": 120.31037,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地"
-    ],
-    "features": [
-      "寵物室內可落地木地板",
-      "人工草皮",
-      "地墊",
-      "寵物飲水機"
-    ],
-    "source": "臺南市動物防疫保護處 (官方標章認證)",
-    "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
-    "verified": true,
-    "status": "OPERATIONAL",
-    "highlight": true
-  },
-  {
-    "id": "tn-80",
-    "name": "大都會國際髮型",
-    "legalName": "大都會國際髮型",
-    "category": "特色餐廳",
-    "city": "臺南市",
-    "district": "南區",
-    "address": "臺南市南區明興路1346號",
-    "phone": "0956-999981",
-    "lat": 22.922695,
-    "lng": 120.184595,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地"
-    ],
-    "features": [
-      "友善空間之定期消毒"
-    ],
-    "source": "臺南市動物防疫保護處 (官方標章認證)",
-    "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
-    "verified": true,
-    "status": "OPERATIONAL",
-    "highlight": true
-  },
-  {
-    "id": "tn-81",
-    "name": "亞柏琳時尚造型店",
-    "legalName": "亞柏琳時尚造型店",
-    "category": "特色餐廳",
-    "city": "臺南市",
-    "district": "安南區",
-    "address": "臺南市安南區大安街2號1樓",
-    "phone": "0915-095901",
-    "lat": 23.030986,
-    "lng": 120.190693,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地"
-    ],
-    "features": [
-      "友善空間之定期消毒"
-    ],
-    "source": "臺南市動物防疫保護處 (官方標章認證)",
-    "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
-    "verified": true,
-    "status": "OPERATIONAL",
-    "highlight": true
-  },
-  {
-    "id": "tn-82",
-    "name": "政大書城股份有限公司-台南分公司",
-    "legalName": "政大書城股份有限公司-台南分公司",
-    "category": "特色餐廳",
-    "city": "臺南市",
-    "district": "中西區",
-    "address": "臺南市中西區西門路二段120號地下1樓",
-    "phone": "06-2239808",
-    "lat": 22.993595,
-    "lng": 120.19905,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地"
-    ],
-    "features": [
-      "友善空間之定期消毒"
-    ],
-    "source": "臺南市動物防疫保護處 (官方標章認證)",
-    "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
-    "verified": true,
-    "status": "OPERATIONAL",
-    "highlight": true
-  },
-  {
-    "id": "tn-83",
-    "name": "永驊汽車股份有限公司台南分公司",
-    "legalName": "永驊汽車股份有限公司台南分公司",
-    "category": "特色餐廳",
-    "city": "臺南市",
-    "district": "安平區",
-    "address": "臺南市安平區中華西路二段351號",
-    "phone": "06-2974560",
-    "lat": 22.993354,
-    "lng": 120.186579,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地"
-    ],
-    "features": [
-      "提供寵物食物",
-      "遊戲區",
-      "便溺區"
-    ],
-    "source": "臺南市動物防疫保護處 (官方標章認證)",
-    "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
-    "verified": true,
-    "status": "OPERATIONAL",
-    "highlight": true
-  },
-  {
-    "id": "tn-84",
-    "name": "洗滌鹽觀光工廠",
-    "legalName": "洗滌鹽觀光工廠",
-    "category": "特色餐廳",
-    "city": "臺南市",
-    "district": "北門區",
-    "address": "臺南市北門區北門里舊埕194號",
-    "phone": "06-7861515",
-    "lat": 23.267471,
-    "lng": 120.124218,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地"
-    ],
-    "features": [
-      "友善空間之定期消毒"
-    ],
-    "source": "臺南市動物防疫保護處 (官方標章認證)",
-    "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
-    "verified": true,
-    "status": "OPERATIONAL",
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%96%AC%E5%96%84%E8%88%88%E6%A5%AD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%20%E8%87%BA%E5%8D%97%E5%B8%82%E6%96%B0%E5%B8%82%E5%8D%80%E6%B8%AF%E5%A2%98%E9%87%8C6%E9%84%B0%E4%B8%AD%E5%B1%B1%E8%B7%AF13%E5%B7%B737%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%96%AC%E5%96%84%E8%88%88%E6%A5%AD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%96%AC%E5%96%84%E8%88%88%E6%A5%AD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E5%96%AC%E5%96%84%E8%88%88%E6%A5%AD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%20%E8%87%BA%E5%8D%97%E5%B8%82%E6%96%B0%E5%B8%82%E5%8D%80%E6%B8%AF%E5%A2%98%E9%87%8C6%E9%84%B0%E4%B8%AD%E5%B1%B1%E8%B7%AF13%E5%B7%B737%E8%99%9F"
   },
   {
     "id": "hc-gov-1",
@@ -16212,7 +15436,11 @@ window.PET_PLACES_DATA = [
     "sourceUrl": "https://puppy.hccg.gov.tw/",
     "verified": true,
     "status": "OPERATIONAL",
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%A7%81%E5%9A%90%E5%90%83%E9%A3%AF%20%E6%96%B0%E7%AB%B9%E5%AF%B5%E7%89%A9%E5%8F%8B%E5%96%84%E5%92%96%E5%93%A9%E6%97%97%E8%89%A6%20%E6%96%B0%E7%AB%B9%E5%B8%82%E6%9D%B1%E5%8D%80%E4%B8%AD%E6%AD%A3%E8%B7%AF96%E5%B7%B716%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E7%A7%81%E5%9A%90%E5%90%83%E9%A3%AF%20%E6%96%B0%E7%AB%B9%E5%AF%B5%E7%89%A9%E5%8F%8B%E5%96%84%E5%92%96%E5%93%A9%E6%97%97%E8%89%A6",
+    "instagram": "https://www.instagram.com/explore/tags/%E7%A7%81%E5%9A%90%E5%90%83%E9%A3%AF%E6%96%B0%E7%AB%B9%E5%AF%B5%E7%89%A9%E5%8F%8B%E5%96%84%E5%92%96%E5%93%A9%E6%97%97%E8%89%A6/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E7%A7%81%E5%9A%90%E5%90%83%E9%A3%AF%20%E6%96%B0%E7%AB%B9%E5%AF%B5%E7%89%A9%E5%8F%8B%E5%96%84%E5%92%96%E5%93%A9%E6%97%97%E8%89%A6%20%E6%96%B0%E7%AB%B9%E5%B8%82%E6%9D%B1%E5%8D%80%E4%B8%AD%E6%AD%A3%E8%B7%AF96%E5%B7%B716%E8%99%9F"
   },
   {
     "id": "hc-gov-2",
@@ -16242,7 +15470,11 @@ window.PET_PLACES_DATA = [
     "sourceUrl": "https://puppy.hccg.gov.tw/",
     "verified": true,
     "status": "OPERATIONAL",
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%A7%81%E5%9A%90%E5%B0%8F%E8%81%9A%E9%A4%90%E9%A3%B2%20%E6%96%B0%E7%AB%B9%E5%B8%82%E6%9D%B1%E5%8D%80%E5%A4%A7%E5%90%8C%E8%B7%AF43%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E7%A7%81%E5%9A%90%E5%B0%8F%E8%81%9A%E9%A4%90%E9%A3%B2",
+    "instagram": "https://www.instagram.com/explore/tags/%E7%A7%81%E5%9A%90%E5%B0%8F%E8%81%9A%E9%A4%90%E9%A3%B2/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E7%A7%81%E5%9A%90%E5%B0%8F%E8%81%9A%E9%A4%90%E9%A3%B2%20%E6%96%B0%E7%AB%B9%E5%B8%82%E6%9D%B1%E5%8D%80%E5%A4%A7%E5%90%8C%E8%B7%AF43%E8%99%9F"
   },
   {
     "id": "hc-gov-3",
@@ -16272,7 +15504,11 @@ window.PET_PLACES_DATA = [
     "sourceUrl": "https://puppy.hccg.gov.tw/",
     "verified": true,
     "status": "OPERATIONAL",
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B9%9D%E6%85%95%E6%89%8B%E7%83%98%E5%92%96%E5%95%A1%E5%B0%88%E9%96%80%E5%BA%97%20%E6%96%B0%E7%AB%B9%E5%B8%82%E6%9D%B1%E5%8D%80%E4%B8%AD%E6%AD%A3%E8%B7%AF86%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E4%B9%9D%E6%85%95%E6%89%8B%E7%83%98%E5%92%96%E5%95%A1%E5%B0%88%E9%96%80%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E4%B9%9D%E6%85%95%E6%89%8B%E7%83%98%E5%92%96%E5%95%A1%E5%B0%88%E9%96%80%E5%BA%97/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E4%B9%9D%E6%85%95%E6%89%8B%E7%83%98%E5%92%96%E5%95%A1%E5%B0%88%E9%96%80%E5%BA%97%20%E6%96%B0%E7%AB%B9%E5%B8%82%E6%9D%B1%E5%8D%80%E4%B8%AD%E6%AD%A3%E8%B7%AF86%E8%99%9F"
   },
   {
     "id": "hc-gov-4",
@@ -16302,7 +15538,11 @@ window.PET_PLACES_DATA = [
     "sourceUrl": "https://puppy.hccg.gov.tw/",
     "verified": true,
     "status": "OPERATIONAL",
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%8E%AC%E7%86%99%E5%95%86%E8%A1%8C%20G-Hee%20Cafe%20%E6%96%B0%E7%AB%B9%E5%B8%82%E5%8C%97%E5%8D%80%E7%BE%8E%E6%9D%91%E8%A1%9720%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%8E%AC%E7%86%99%E5%95%86%E8%A1%8C%20G-Hee%20Cafe",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%8E%AC%E7%86%99%E5%95%86%E8%A1%8CGHeeCafe/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E6%8E%AC%E7%86%99%E5%95%86%E8%A1%8C%20G-Hee%20Cafe%20%E6%96%B0%E7%AB%B9%E5%B8%82%E5%8C%97%E5%8D%80%E7%BE%8E%E6%9D%91%E8%A1%9720%E8%99%9F"
   },
   {
     "id": "hc-gov-5",
@@ -16332,7 +15572,11 @@ window.PET_PLACES_DATA = [
     "sourceUrl": "https://puppy.hccg.gov.tw/",
     "verified": true,
     "status": "OPERATIONAL",
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%8B%9B%E8%B2%A1%E5%92%96%E5%95%A1%20Zhaocai%20Cafe%20%E6%96%B0%E7%AB%B9%E5%B8%82%E5%8C%97%E5%8D%80%E8%8B%B1%E6%98%8E%E8%A1%9717%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E6%8B%9B%E8%B2%A1%E5%92%96%E5%95%A1%20Zhaocai%20Cafe",
+    "instagram": "https://www.instagram.com/explore/tags/%E6%8B%9B%E8%B2%A1%E5%92%96%E5%95%A1ZhaocaiCafe/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E6%8B%9B%E8%B2%A1%E5%92%96%E5%95%A1%20Zhaocai%20Cafe%20%E6%96%B0%E7%AB%B9%E5%B8%82%E5%8C%97%E5%8D%80%E8%8B%B1%E6%98%8E%E8%A1%9717%E8%99%9F"
   },
   {
     "id": "hc-gov-6",
@@ -16362,7 +15606,11 @@ window.PET_PLACES_DATA = [
     "sourceUrl": "https://puppy.hccg.gov.tw/",
     "verified": true,
     "status": "OPERATIONAL",
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%8A%B1%E5%96%B5%E5%90%90%E5%8F%B8%20Brunch%20%E6%96%B0%E7%AB%B9%E5%B8%82%E6%9D%B1%E5%8D%80%E5%BB%BA%E4%B8%AD%E4%B8%80%E8%B7%AF27%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E8%8A%B1%E5%96%B5%E5%90%90%E5%8F%B8%20Brunch",
+    "instagram": "https://www.instagram.com/explore/tags/%E8%8A%B1%E5%96%B5%E5%90%90%E5%8F%B8Brunch/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E8%8A%B1%E5%96%B5%E5%90%90%E5%8F%B8%20Brunch%20%E6%96%B0%E7%AB%B9%E5%B8%82%E6%9D%B1%E5%8D%80%E5%BB%BA%E4%B8%AD%E4%B8%80%E8%B7%AF27%E8%99%9F"
   },
   {
     "id": "ty-gov-1",
@@ -16392,7 +15640,11 @@ window.PET_PLACES_DATA = [
     "sourceUrl": "https://ahpo.tycg.gov.tw/",
     "verified": true,
     "status": "OPERATIONAL",
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%A3%9F%E3%80%82%E5%85%89%E6%A9%9F%20Food%20Machine%20%E6%A1%83%E5%9C%92%E5%B8%82%E4%B8%AD%E5%A3%A2%E5%8D%80%E8%8E%8A%E6%95%AC%E8%B7%AF811%E5%B7%B71%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E9%A3%9F%E3%80%82%E5%85%89%E6%A9%9F%20Food%20Machine",
+    "instagram": "https://www.instagram.com/explore/tags/%E9%A3%9F%E5%85%89%E6%A9%9FFoodMachine/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E9%A3%9F%E3%80%82%E5%85%89%E6%A9%9F%20Food%20Machine%20%E6%A1%83%E5%9C%92%E5%B8%82%E4%B8%AD%E5%A3%A2%E5%8D%80%E8%8E%8A%E6%95%AC%E8%B7%AF811%E5%B7%B71%E8%99%9F"
   },
   {
     "id": "ty-gov-2",
@@ -16422,13 +15674,17 @@ window.PET_PLACES_DATA = [
     "sourceUrl": "https://ahpo.tycg.gov.tw/",
     "verified": true,
     "status": "OPERATIONAL",
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%A6%99%E8%8D%89%E8%9B%8B%E7%B3%95%E8%88%96%20%E8%97%9D%E6%96%87%E7%B8%BD%E5%BA%97%20%E6%A1%83%E5%9C%92%E5%B8%82%E6%A1%83%E5%9C%92%E5%8D%80%E6%B0%91%E6%97%8F%E8%B7%AF193%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E9%A6%99%E8%8D%89%E8%9B%8B%E7%B3%95%E8%88%96%20%E8%97%9D%E6%96%87%E7%B8%BD%E5%BA%97",
+    "instagram": "https://www.instagram.com/explore/tags/%E9%A6%99%E8%8D%89%E8%9B%8B%E7%B3%95%E8%88%96%E8%97%9D%E6%96%87%E7%B8%BD%E5%BA%97/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E9%A6%99%E8%8D%89%E8%9B%8B%E7%B3%95%E8%88%96%20%E8%97%9D%E6%96%87%E7%B8%BD%E5%BA%97%20%E6%A1%83%E5%9C%92%E5%B8%82%E6%A1%83%E5%9C%92%E5%8D%80%E6%B0%91%E6%97%8F%E8%B7%AF193%E8%99%9F"
   },
   {
     "id": "ty-gov-3",
     "name": "狗老大寵物渡假會館（友善水岸）",
     "legalName": "狗老大寵物渡假會館（友善水岸）",
-    "category": "休閒娛樂/空間",
+    "category": "特色餐廳",
     "city": "桃園市",
     "district": "蘆竹區",
     "address": "桃園市蘆竹區新生路290巷148號",
@@ -16452,13 +15708,17 @@ window.PET_PLACES_DATA = [
     "sourceUrl": "https://ahpo.tycg.gov.tw/",
     "verified": true,
     "status": "OPERATIONAL",
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%8B%97%E8%80%81%E5%A4%A7%E5%AF%B5%E7%89%A9%E6%B8%A1%E5%81%87%E6%9C%83%E9%A4%A8%20%E5%8F%8B%E5%96%84%E6%B0%B4%E5%B2%B8%20%E6%A1%83%E5%9C%92%E5%B8%82%E8%98%86%E7%AB%B9%E5%8D%80%E6%96%B0%E7%94%9F%E8%B7%AF290%E5%B7%B7148%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E7%8B%97%E8%80%81%E5%A4%A7%E5%AF%B5%E7%89%A9%E6%B8%A1%E5%81%87%E6%9C%83%E9%A4%A8%20%E5%8F%8B%E5%96%84%E6%B0%B4%E5%B2%B8",
+    "instagram": "https://www.instagram.com/explore/tags/%E7%8B%97%E8%80%81%E5%A4%A7%E5%AF%B5%E7%89%A9%E6%B8%A1%E5%81%87%E6%9C%83%E9%A4%A8%E5%8F%8B%E5%96%84%E6%B0%B4%E5%B2%B8/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E7%8B%97%E8%80%81%E5%A4%A7%E5%AF%B5%E7%89%A9%E6%B8%A1%E5%81%87%E6%9C%83%E9%A4%A8%20%E5%8F%8B%E5%96%84%E6%B0%B4%E5%B2%B8%20%E6%A1%83%E5%9C%92%E5%B8%82%E8%98%86%E7%AB%B9%E5%8D%80%E6%96%B0%E7%94%9F%E8%B7%AF290%E5%B7%B7148%E8%99%9F"
   },
   {
     "id": "ty-gov-4",
     "name": "三號咖啡 No.3 Cafe（草皮跑跑）",
     "legalName": "三號咖啡 No.3 Cafe（草皮跑跑）",
-    "category": "休閒娛樂/空間",
+    "category": "特色餐廳",
     "city": "桃園市",
     "district": "新屋區",
     "address": "桃園市新屋區三民路一段251號",
@@ -16482,10 +15742,108 @@ window.PET_PLACES_DATA = [
     "sourceUrl": "https://ahpo.tycg.gov.tw/",
     "verified": true,
     "status": "OPERATIONAL",
-    "highlight": true
+    "highlight": true,
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%89%E8%99%9F%E5%92%96%E5%95%A1%20No.3%20Cafe%20%E8%8D%89%E7%9A%AE%E8%B7%91%E8%B7%91%20%E6%A1%83%E5%9C%92%E5%B8%82%E6%96%B0%E5%B1%8B%E5%8D%80%E4%B8%89%E6%B0%91%E8%B7%AF%E4%B8%80%E6%AE%B5251%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E4%B8%89%E8%99%9F%E5%92%96%E5%95%A1%20No.3%20Cafe%20%E8%8D%89%E7%9A%AE%E8%B7%91%E8%B7%91",
+    "instagram": "https://www.instagram.com/explore/tags/%E4%B8%89%E8%99%9F%E5%92%96%E5%95%A1No3Cafe%E8%8D%89%E7%9A%AE%E8%B7%91%E8%B7%91/",
+    "website": "https://www.google.com/maps/search/?api=1&query=%E4%B8%89%E8%99%9F%E5%92%96%E5%95%A1%20No.3%20Cafe%20%E8%8D%89%E7%9A%AE%E8%B7%91%E8%B7%91%20%E6%A1%83%E5%9C%92%E5%B8%82%E6%96%B0%E5%B1%8B%E5%8D%80%E4%B8%89%E6%B0%91%E8%B7%AF%E4%B8%80%E6%AE%B5251%E8%99%9F"
+  },
+  {
+    "id": "user-482",
+    "name": "好時光 寵物友善義式廚房",
+    "legalName": "好時光 寵物友善義式廚房",
+    "category": "異國料理/餐酒館",
+    "city": "臺中市",
+    "district": "",
+    "address": "西區公益路一段168號",
+    "phone": "04-23019999",
+    "lat": 24.1437,
+    "lng": 120.6622,
+    "petsAllowed": [
+      "犬",
+      "貓"
+    ],
+    "rules": [
+      "牽繩可落地"
+    ],
+    "features": [
+      "社群推薦友善餐廳"
+    ],
+    "source": "AI 審核通過 (社群推薦: 台中阿福麻)",
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A5%BD%E6%99%82%E5%85%89%20%E5%AF%B5%E7%89%A9%E5%8F%8B%E5%96%84%E7%BE%A9%E5%BC%8F%E5%BB%9A%E6%88%BF%20%E8%A5%BF%E5%8D%80%E5%85%AC%E7%9B%8A%E8%B7%AF%E4%B8%80%E6%AE%B5168%E8%99%9F",
+    "verified": true,
+    "status": "OPERATIONAL",
+    "highlight": false,
+    "website": "https://www.google.com/maps/search/?api=1&query=%E5%A5%BD%E6%99%82%E5%85%89%20%E5%AF%B5%E7%89%A9%E5%8F%8B%E5%96%84%E7%BE%A9%E5%BC%8F%E5%BB%9A%E6%88%BF%20%E8%A5%BF%E5%8D%80%E5%85%AC%E7%9B%8A%E8%B7%AF%E4%B8%80%E6%AE%B5168%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E5%A5%BD%E6%99%82%E5%85%89%20%E5%AF%B5%E7%89%A9%E5%8F%8B%E5%96%84%E7%BE%A9%E5%BC%8F%E5%BB%9A%E6%88%BF",
+    "instagram": "https://www.instagram.com/explore/tags/%E5%A5%BD%E6%99%82%E5%85%89%E5%AF%B5%E7%89%A9%E5%8F%8B%E5%96%84%E7%BE%A9%E5%BC%8F%E5%BB%9A%E6%88%BF/",
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A5%BD%E6%99%82%E5%85%89%20%E5%AF%B5%E7%89%A9%E5%8F%8B%E5%96%84%E7%BE%A9%E5%BC%8F%E5%BB%9A%E6%88%BF%20%E8%A5%BF%E5%8D%80%E5%85%AC%E7%9B%8A%E8%B7%AF%E4%B8%80%E6%AE%B5168%E8%99%9F"
+  },
+  {
+    "id": "user-483",
+    "name": "米克斯與柴犬花園咖啡",
+    "legalName": "米克斯與柴犬花園咖啡",
+    "category": "咖啡/甜點茶館",
+    "city": "臺中市",
+    "district": "西區",
+    "address": "臺中市西區美村路一段200號",
+    "phone": "",
+    "lat": 24.1437,
+    "lng": 120.6622,
+    "petsAllowed": [
+      "犬",
+      "貓"
+    ],
+    "rules": [
+      "牽繩可落地",
+      "公狗需包禮貌帶"
+    ],
+    "features": [
+      "提供寵物鮮食",
+      "有小草皮跑跑"
+    ],
+    "source": "AI 審核通過 (社群推薦: 台中柴柴爸)",
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%E7%B1%B3%E5%85%8B%E6%96%AF%E8%88%87%E6%9F%B4%E7%8A%AC%E8%8A%B1%E5%9C%92%E5%92%96%E5%95%A1%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%8D%80%E7%BE%8E%E6%9D%91%E8%B7%AF%E4%B8%80%E6%AE%B5200%E8%99%9F",
+    "verified": true,
+    "status": "OPERATIONAL",
+    "highlight": false,
+    "website": "https://www.google.com/maps/search/?api=1&query=%E7%B1%B3%E5%85%8B%E6%96%AF%E8%88%87%E6%9F%B4%E7%8A%AC%E8%8A%B1%E5%9C%92%E5%92%96%E5%95%A1%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%8D%80%E7%BE%8E%E6%9D%91%E8%B7%AF%E4%B8%80%E6%AE%B5200%E8%99%9F",
+    "facebook": "https://www.facebook.com/search/top?q=%E7%B1%B3%E5%85%8B%E6%96%AF%E8%88%87%E6%9F%B4%E7%8A%AC%E8%8A%B1%E5%9C%92%E5%92%96%E5%95%A1",
+    "instagram": "https://www.instagram.com/explore/tags/%E7%B1%B3%E5%85%8B%E6%96%AF%E8%88%87%E6%9F%B4%E7%8A%AC%E8%8A%B1%E5%9C%92%E5%92%96%E5%95%A1/",
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%B1%B3%E5%85%8B%E6%96%AF%E8%88%87%E6%9F%B4%E7%8A%AC%E8%8A%B1%E5%9C%92%E5%92%96%E5%95%A1%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%8D%80%E7%BE%8E%E6%9D%91%E8%B7%AF%E4%B8%80%E6%AE%B5200%E8%99%9F"
   }
 ];
 window.PET_MAP_VERSIONS = [
+  {
+    "version": "v1.5.0",
+    "date": "2026-10-21 13:44",
+    "summary": "純餐飲總計 483 家（正常營運 482 家），本版本 AI 審核新增 2 家餐廳，標記 1 家歇業門市。",
+    "closedStores": [
+      {
+        "id": "tc-10",
+        "name": "Gyusya 牛舎炭火漢堡排專門店",
+        "city": "臺中市",
+        "status": "已永久停業",
+        "reason": "Google Maps 標註已永久停業，招牌已拆除"
+      }
+    ],
+    "newStores": [
+      {
+        "id": "user-482",
+        "name": "好時光 寵物友善義式廚房",
+        "city": "臺中市",
+        "category": "異國料理/餐酒館"
+      },
+      {
+        "id": "user-483",
+        "name": "米克斯與柴犬花園咖啡",
+        "city": "臺中市",
+        "category": "咖啡/甜點茶館"
+      }
+    ],
+    "totalStores": 483,
+    "activeStores": 482
+  },
   {
     "version": "v1.4.0",
     "date": "2026-10-21 13:33",
@@ -16540,5 +15898,73 @@ window.PET_MAP_VERSIONS = [
     "newStores": [],
     "totalStores": 485,
     "activeStores": 485
+  }
+];
+window.PET_MAP_FEEDBACKS = [
+  {
+    "id": "fb-6",
+    "userName": "柴犬波波爸",
+    "targetPlace": "肥窩咖啡",
+    "rating": 5,
+    "category": "友善程度讚賞",
+    "comment": "非常親切的店家，店狗店貓相處融洽，大推！",
+    "petType": "柴犬",
+    "date": "2026-10-21 13:44",
+    "likes": 0
+  },
+  {
+    "id": "fb-1",
+    "userName": "柴犬波波爸",
+    "targetPlace": "貳樓 Second Floor Cafe（公館店）",
+    "rating": 5,
+    "category": "友善程度讚賞",
+    "comment": "店員對毛孩超級熱情！一入座就主動送上現炒無調味嫩蛋與乾淨水盆，牽繩落地完全沒壓力，餐點也很美味，是帶狗聚會的首選！",
+    "petType": "中型柴犬",
+    "date": "2026-10-21 11:20",
+    "likes": 24
+  },
+  {
+    "id": "fb-2",
+    "userName": "柯基阿布麻",
+    "targetPlace": "波波廚房 Kitchen Swell（80年老醫院古宅）",
+    "rating": 5,
+    "category": "空間環境舒適",
+    "comment": "老宅空間挑高通風，採光超美！店員會幫忙安排比較寬敞安靜的一樓座位，柯基趴著很舒服，烘焙麵包跟義大利麵水準極高！",
+    "petType": "柯基犬",
+    "date": "2026-10-20 16:45",
+    "likes": 18
+  },
+  {
+    "id": "fb-3",
+    "userName": "米克斯大福家",
+    "targetPlace": "肥窩咖啡",
+    "rating": 5,
+    "category": "餐點美味推薦",
+    "comment": "臺南巷弄內的寶藏咖啡店！店貓店狗都很乖巧，老闆非常懂動物行為，店內還有特製的毛孩健康肉排餐，大福吃得舔盤！",
+    "petType": "米克斯大狗",
+    "date": "2026-10-19 14:15",
+    "likes": 15
+  },
+  {
+    "id": "fb-4",
+    "userName": "布偶貓露露奴才",
+    "targetPlace": "小紅花Cafe｜早午餐｜不限時｜手作體驗",
+    "rating": 4,
+    "category": "空間環境舒適",
+    "comment": "推車進出很順暢，環境乾淨安靜沒有油煙味，帶貓咪外出很安心，早午餐拼盤份量充足，推薦提拉米蘇！",
+    "petType": "布偶貓",
+    "date": "2026-10-18 10:30",
+    "likes": 9
+  },
+  {
+    "id": "fb-5",
+    "userName": "毛孩旅行家 Leo",
+    "targetPlace": "全台寵物友善地圖系統建議",
+    "rating": 5,
+    "category": "系統功能建議",
+    "comment": "這個地圖太方便了！把非餐廳的美容、美髮、旅館過濾得很乾淨，而且每間店都有 IG 跟 Google Map 定位連結，找餐廳超級快速！",
+    "petType": "邊境牧羊犬",
+    "date": "2026-10-21 12:00",
+    "likes": 32
   }
 ];
