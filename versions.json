@@ -1,87 +1,28 @@
 [
   {
-    "version": "v1.5.0",
-    "date": "2026-10-21 13:44",
-    "summary": "純餐飲總計 483 家（正常營運 482 家），本版本 AI 審核新增 2 家餐廳，標記 1 家歇業門市。",
-    "closedStores": [
-      {
-        "id": "tc-10",
-        "name": "Gyusya 牛舎炭火漢堡排專門店",
-        "city": "臺中市",
-        "status": "已永久停業",
-        "reason": "Google Maps 標註已永久停業，招牌已拆除"
-      }
-    ],
-    "newStores": [
-      {
-        "id": "user-482",
-        "name": "好時光 寵物友善義式廚房",
-        "city": "臺中市",
-        "category": "異國料理/餐酒館"
-      },
-      {
-        "id": "user-483",
-        "name": "米克斯與柴犬花園咖啡",
-        "city": "臺中市",
-        "category": "咖啡/甜點茶館"
-      }
-    ],
-    "totalStores": 483,
-    "activeStores": 482
-  },
-  {
-    "version": "v1.4.0",
-    "date": "2026-10-21 13:33",
-    "summary": "收錄 576 家店家，本版本檢驗標記 0 家歇業門市，新增 0 家友善餐廳。",
-    "closedStores": [],
-    "reopenedStores": [],
-    "newStores": [],
-    "totalStores": 576,
-    "activeStores": 575
-  },
-  {
-    "version": "v1.3.0",
-    "date": "2026-10-21 12:48",
-    "summary": "收錄 486 家店家，本版本檢驗標記 1 家歇業門市，新增 0 家友善餐廳。",
-    "closedStores": [
-      {
-        "id": "tc-10",
-        "name": "Gyusya 牛舎炭火漢堡排專門店",
-        "city": "臺中市",
-        "status": "已永久停業",
-        "reason": "Google Maps 標註已永久停業，招牌已拆除"
-      }
-    ],
-    "reopenedStores": [],
-    "newStores": [],
-    "totalStores": 486,
-    "activeStores": 485
-  },
-  {
     "version": "v1.2.0",
-    "date": "2026-10-21 12:47",
-    "summary": "收錄 486 家店家，本版本檢驗關閉 0 家歇業門市，新增 1 家友善餐廳。",
-    "closedStores": [],
-    "reopenedStores": [],
-    "newStores": [
+    "date": "2026-10-21 14:00",
+    "summary": "純餐飲資料庫更新：剔除非餐飲場所，精萃收錄全台 480 家純寵物友善餐廳，標記 1 家歇業門市。",
+    "closedStores": [
       {
-        "id": "user-sub-1",
-        "name": "米克斯與柴犬花園咖啡",
+        "id": "tc-10",
+        "name": "Gyusya 牛舎炭火漢堡排專門店",
         "city": "臺中市",
-        "category": "咖啡/甜點茶館"
+        "status": "已永久停業",
+        "reason": "Google Maps 標註已永久停業，招牌已拆除"
       }
     ],
-    "totalStores": 486,
-    "activeStores": 486
+    "newStores": [],
+    "totalStores": 480,
+    "activeStores": 479
   },
   {
     "version": "v1.1.0",
-    "date": "2026-10-21 12:46",
-    "summary": "收錄 485 家店家，本版本檢驗關閉 0 家歇業門市，新增 0 家友善餐廳。",
+    "date": "2026-10-21 13:00",
+    "summary": "整合臺中、臺北、臺南動保處官方認證與全台縣市指標友善餐廳。",
     "closedStores": [],
-    "reopenedStores": [],
     "newStores": [],
-    "totalStores": 485,
-    "activeStores": 485
+    "totalStores": 480,
+    "activeStores": 479
   }
 ]

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>台灣毛孩趴趴走・全台寵物友善餐廳地圖 (純餐飲・AI 後台審核・回饋區・社群連結・自動更新)</title>
+  <title>台灣毛孩趴趴走・全台寵物友善餐廳地圖 (純餐飲・Google Maps 導航與最新營運狀態)</title>
   
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -129,9 +129,6 @@
 
     .btn-feedback { background: #FAF5FF; border-color: #E9D5FF; color: #7C3AED; font-weight: 700; }
     .btn-feedback:hover { background: #F3E8FF; }
-
-    .btn-autoupdate { background: #FFF7ED; border-color: #FED7AA; color: #C2410C; font-weight: 700; }
-    .btn-autoupdate:hover { background: #FFEDD5; }
 
     .btn-upload { background: #EFF6FF; border-color: #BFDBFE; color: #1D4ED8; font-weight: 700; }
     .btn-upload:hover { background: #DBEAFE; }
@@ -287,13 +284,13 @@
       border: 1px solid var(--slate-200); border-radius: var(--radius-sm); padding: 2px 5px;
     }
 
-    /* Social Action Buttons inside Card */
+    /* Social Action Buttons inside Card (Only show if available) */
     .card-social-strip {
       display: flex; align-items: center; gap: 5px; padding-top: 5px; border-top: 1px dashed var(--slate-200);
       flex-wrap: wrap;
     }
     .social-btn-pill {
-      font-size: 10.5px; font-weight: 600; padding: 3px 7px; border-radius: var(--radius-full);
+      font-size: 10.5px; font-weight: 600; padding: 3px 8px; border-radius: var(--radius-full);
       display: inline-flex; align-items: center; gap: 4px; text-decoration: none; cursor: pointer;
       transition: all 0.15s ease; border: 1px solid transparent;
     }
@@ -320,7 +317,7 @@
     .card-actions { display: flex; gap: 4px; }
     .btn-card-action {
       background: var(--slate-100); border: none; color: var(--slate-700);
-      font-size: 10.5px; font-weight: 600; padding: 3px 7px; border-radius: var(--radius-sm);
+      font-size: 10.5px; font-weight: 600; padding: 4px 8px; border-radius: var(--radius-sm);
       cursor: pointer; display: inline-flex; align-items: center; gap: 3px; text-decoration: none;
     }
     .btn-card-action:hover { background: var(--primary-light); color: var(--primary-hover); }
@@ -375,7 +372,7 @@
     }
     .modal-backdrop.open { display: flex; }
     .modal-card {
-      background: #FFFFFF; width: 100%; max-width: 600px; max-height: 92vh;
+      background: #FFFFFF; width: 100%; max-width: 580px; max-height: 92vh;
       border-radius: var(--radius-lg); box-shadow: var(--shadow-xl);
       overflow-y: auto; position: relative; display: flex; flex-direction: column;
     }
@@ -404,36 +401,7 @@
       border-radius: var(--radius-sm); cursor: pointer;
     }
 
-    /* AI Alert Box */
-    .ai-badge-card {
-      background: #F8FAFC; border: 1px solid #CBD5E1; border-radius: var(--radius-md);
-      padding: 12px; display: flex; gap: 10px; align-items: flex-start;
-    }
-    .ai-badge-avatar {
-      width: 32px; height: 32px; background: #3B82F6; color: white;
-      border-radius: var(--radius-sm); display: flex; align-items: center; justify-content: center;
-      font-size: 16px; flex-shrink: 0;
-    }
-    .ai-badge-content { font-size: 12px; line-height: 1.5; color: var(--slate-700); }
-    .ai-verdict-tag {
-      display: inline-block; font-size: 11px; font-weight: 800; padding: 2px 7px;
-      border-radius: var(--radius-full); margin-bottom: 4px;
-    }
-    .verdict-approved { background: #ECFDF5; color: #047857; border: 1px solid #A7F3D0; }
-    .verdict-pending { background: #FFFBEB; color: #B45309; border: 1px solid #FCD34D; }
-    .verdict-rejected { background: #FFF1F2; color: #BE123C; border: 1px solid #FECDD3; }
-
-    /* Feedback Zone Styles */
-    .feedback-stats-row {
-      display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 12px;
-    }
-    .fb-stat-box {
-      background: var(--slate-50); border: 1px solid var(--slate-200); border-radius: var(--radius-md);
-      padding: 10px; text-align: center;
-    }
-    .fb-stat-val { font-size: 20px; font-weight: 800; color: var(--primary); }
-    .fb-stat-lbl { font-size: 11px; color: var(--slate-500); margin-top: 2px; }
-
+    /* Website Feedback Zone Styles */
     .fb-item-card {
       background: #FFFFFF; border: 1px solid var(--slate-200); border-radius: var(--radius-md);
       padding: 12px 14px; display: flex; flex-direction: column; gap: 6px; box-shadow: var(--shadow-sm);
@@ -445,12 +413,8 @@
       display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 800;
     }
     .fb-user-name { font-size: 13px; font-weight: 700; color: var(--slate-900); }
-    .fb-pet-tag { font-size: 10px; background: #ECFDF5; color: #047857; padding: 1px 6px; border-radius: var(--radius-full); }
+    .fb-cat-tag { font-size: 10.5px; background: #FAF5FF; border: 1px solid #E9D5FF; color: #7C3AED; padding: 1px 7px; border-radius: var(--radius-full); font-weight: 600; }
     .fb-stars { color: #F59E0B; font-size: 12px; }
-    .fb-target-badge {
-      font-size: 11px; color: var(--primary-hover); font-weight: 700; background: var(--primary-50);
-      padding: 2px 7px; border-radius: var(--radius-sm); border: 1px solid #FDE68A; display: inline-block;
-    }
     .fb-text { font-size: 13px; color: var(--slate-700); line-height: 1.5; }
     .fb-item-bottom { display: flex; align-items: center; justify-content: space-between; font-size: 11px; color: var(--slate-400); margin-top: 2px; }
 
@@ -470,14 +434,6 @@
       background: #FFF1F2; border: 1px solid #FECDD3; color: #BE123C;
       font-size: 11px; padding: 2px 7px; border-radius: var(--radius-sm); display: inline-block;
     }
-
-    /* Auto-Update Spinner Progress Animation */
-    .update-step-item {
-      display: flex; align-items: center; gap: 10px; font-size: 13px; padding: 8px 10px;
-      border-radius: var(--radius-sm); background: var(--slate-50);
-    }
-    .update-step-item.active { background: #EFF6FF; color: #1D4ED8; font-weight: 700; }
-    .update-step-item.done { background: #ECFDF5; color: #047857; font-weight: 600; }
 
     /* Mobile Responsive */
     @media (max-width: 900px) {
@@ -502,48 +458,42 @@
         <h1>
           台灣毛孩趴趴走・全台寵物友善餐廳地圖
           <span class="version-tag" id="btnOpenVersions" title="點擊檢視版本更新與關店異動日誌">
-            <i class="fa-solid fa-rotate"></i> <span id="headerVerText">v1.4.0</span>
+            <i class="fa-solid fa-rotate"></i> <span id="headerVerText">v1.2.0</span>
           </span>
         </h1>
         <div class="brand-sub">
           <span class="tag-pure-dining">純餐飲嚴選</span>
-          <span>收錄全台 481+ 純正友善餐廳・AI 審核・社群 IG/FB 連結與營運狀態</span>
+          <span>收錄全台 480+ 純正友善餐廳・Google 導航與最新營運狀態</span>
         </div>
       </div>
     </div>
 
     <div class="header-actions">
-      <!-- 1. 回饋意見區按鈕 -->
-      <button class="btn btn-feedback" id="btnOpenFeedback">
-        <i class="fa-solid fa-comments"></i>
-        <span>旅人回饋區 (<span id="feedbackTotalBadge">5</span>)</span>
+      <!-- 1. 網站意見回饋 -->
+      <button class="btn btn-feedback" id="btnOpenFeedback" title="給予本網站地圖體驗與功能建議">
+        <i class="fa-solid fa-comment-dots"></i>
+        <span>網站意見回饋</span>
       </button>
 
-      <!-- 2. AI 自動審核與更新按鈕 -->
-      <button class="btn btn-autoupdate" id="btnTriggerAutoUpdate" title="執行 AI 審核、檢驗 Google Maps 營運狀態並自動推送更新至 GitHub Pages">
-        <i class="fa-solid fa-bolt"></i>
-        <span>AI 自動更新</span>
-      </button>
-
-      <!-- 3. 推薦上傳店家 (經 AI 審核) -->
+      <!-- 2. 推薦新餐廳 -->
       <button class="btn btn-upload" id="btnOpenUpload">
         <i class="fa-solid fa-plus"></i>
         <span>推薦新餐廳</span>
       </button>
 
-      <!-- 4. 異動紀錄 -->
+      <!-- 3. 異動紀錄 -->
       <button class="btn btn-changelog" id="btnChangelog">
         <i class="fa-solid fa-clipboard-list"></i>
         <span>版本紀錄</span>
       </button>
 
-      <!-- 5. 收藏 -->
+      <!-- 4. 收藏 -->
       <button class="btn btn-outline" id="btnFilterFavs">
         <i class="fa-regular fa-heart"></i>
         <span>收藏 (<span id="favCount">0</span>)</span>
       </button>
 
-      <!-- 6. 離我最近 -->
+      <!-- 5. 離我最近 -->
       <button class="btn btn-primary" id="btnLocateMe">
         <i class="fa-solid fa-location-crosshairs"></i>
         <span>離我最近</span>
@@ -579,7 +529,7 @@
             <span id="activeCityLabel" style="color: var(--primary); font-weight: 600;">全台灣</span>
           </div>
           <div class="chips-scroll" id="cityChipsContainer">
-            <button class="chip-btn active" data-city="ALL">全台灣 (<span id="countAll">481</span>)</button>
+            <button class="chip-btn active" data-city="ALL">全台灣 (<span id="countAll">480</span>)</button>
             <button class="chip-btn special-tc" data-city="臺中市">🌟 臺中市 (<span id="countTC">150</span>)</button>
             <button class="chip-btn" data-city="臺北市">臺北市 (<span id="countTPE">246</span>)</button>
             <button class="chip-btn" data-city="臺南市">臺南市 (<span id="countTN">28</span>)</button>
@@ -603,7 +553,7 @@
 
         <!-- Categories (Pure Restaurants) -->
         <div>
-          <div class="filter-group-title">餐飲類型 (已過濾非餐廳)</div>
+          <div class="filter-group-title">餐飲類型 (已剔除非餐廳)</div>
           <div class="cat-chips" id="catChipsContainer">
             <button class="cat-chip active" data-cat="ALL">全部餐廳</button>
             <button class="cat-chip" data-cat="咖啡/甜點茶館">☕ 咖啡/甜點</button>
@@ -673,7 +623,7 @@
 
   </main>
 
-  <!-- Modal 1: Place Detail (含社群 IG/FB/官網/導航外連) -->
+  <!-- Modal 1: Place Detail -->
   <div class="modal-backdrop" id="detailModal">
     <div class="modal-card">
       <div class="modal-header">
@@ -685,22 +635,11 @@
 
       <div class="modal-body">
         
-        <!-- Social & Navigation Links Strip (重點增強) -->
+        <!-- Social & Navigation Links Strip (店家有才顯示) -->
         <div style="background: #F8FAFC; border: 1px solid var(--slate-200); border-radius: var(--radius-md); padding: 12px; display: flex; flex-direction: column; gap: 8px;">
-          <div style="font-size: 12px; font-weight: 700; color: var(--slate-700);"><i class="fa-solid fa-share-nodes"></i> 店家社群・定位與外連：</div>
-          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px;">
-            <a id="modalNavBtnFull" href="#" target="_blank" class="btn" style="background: #2563EB; color: white; justify-content: center; font-size: 12px;">
-              <i class="fa-solid fa-diamond-turn-right"></i> Google 導航
-            </a>
-            <a id="modalIgBtnFull" href="#" target="_blank" class="btn" style="background: linear-gradient(135deg, #F58529, #DD2A7B, #8134AF); color: white; justify-content: center; font-size: 12px;">
-              <i class="fa-brands fa-instagram"></i> Instagram 探店
-            </a>
-            <a id="modalFbBtnFull" href="#" target="_blank" class="btn" style="background: #1877F2; color: white; justify-content: center; font-size: 12px;">
-              <i class="fa-brands fa-facebook"></i> Facebook 粉專
-            </a>
-            <a id="modalWebBtnFull" href="#" target="_blank" class="btn btn-outline" style="justify-content: center; font-size: 12px;">
-              <i class="fa-solid fa-globe"></i> 官方網站 / 簡介
-            </a>
+          <div style="font-size: 12px; font-weight: 700; color: var(--slate-700);"><i class="fa-solid fa-share-nodes"></i> 門市導航與官方連結：</div>
+          <div id="modalSocialLinksContainer" style="display: flex; flex-wrap: wrap; gap: 8px;">
+            <!-- Rendered by JS dynamically based on what actually exists -->
           </div>
         </div>
 
@@ -727,83 +666,56 @@
       </div>
 
       <div style="display: flex; gap: 8px; padding: 14px 22px; border-top: 1px solid var(--slate-200); background: var(--slate-50);">
-        <button id="modalWriteFeedbackBtn" class="btn btn-feedback" style="flex: 1; justify-content: center;">
-          <i class="fa-solid fa-pen-to-square"></i> 為此餐廳撰寫回饋評價
-        </button>
-        <button id="modalReportBtn" class="btn btn-outline" style="color: #BE123C;" title="回報店家已歇業或規則變更">
-          <i class="fa-solid fa-triangle-exclamation"></i> 回報歇業
+        <a id="modalNavBtnDirect" href="#" target="_blank" class="btn btn-primary" style="flex: 1; justify-content: center;">
+          <i class="fa-solid fa-diamond-turn-right"></i> Google 地圖導航
+        </a>
+        <button id="modalReportBtn" class="btn btn-outline" style="color: #BE123C;" title="回報店家已歇業或資訊有誤">
+          <i class="fa-solid fa-triangle-exclamation"></i> 回報歇業/錯誤
         </button>
       </div>
     </div>
   </div>
 
-  <!-- Modal 2: 旅人回饋意見區 (Feedback Modal) -->
+  <!-- Modal 2: 網站意見回饋區 (Feedback for this Website Tool) -->
   <div class="modal-backdrop" id="feedbackModal">
     <div class="modal-card">
       <div class="modal-header">
         <button class="modal-close-btn" onclick="closeModal('feedbackModal')"><i class="fa-solid fa-xmark"></i></button>
         <h2 style="font-size: 18px; font-weight: 800; color: #7C3AED;">
-          <i class="fa-solid fa-comments"></i> 毛孩旅人回饋與評價專區
+          <i class="fa-solid fa-comment-dots"></i> 網站意見回饋與建議
         </h2>
         <div style="font-size: 12px; color: var(--slate-500); margin-top: 2px;">
-          分享您的帶寵用餐真實經驗、服務態度讚賞或規範提醒，讓全台毛爸媽不踩雷！
+          本網站致力於提供全台毛爸媽最精準的寵物友善餐廳地圖，歡迎留下您對本工具的使用感受或功能建議！
         </div>
       </div>
 
       <div class="modal-body">
         
-        <!-- Summary Stats -->
-        <div class="feedback-stats-row">
-          <div class="fb-stat-box">
-            <div class="fb-stat-val" id="fbAvgRating">4.9 ★</div>
-            <div class="fb-stat-lbl">平均滿意度</div>
-          </div>
-          <div class="fb-stat-box">
-            <div class="fb-stat-val" id="fbTotalReviews">5 篇</div>
-            <div class="fb-stat-lbl">累積心得回饋</div>
-          </div>
-          <div class="fb-stat-box">
-            <div class="fb-stat-val" style="color: #059669;">100%</div>
-            <div class="fb-stat-lbl">真實毛孩家庭分享</div>
-          </div>
-        </div>
-
-        <!-- Submit Feedback Form -->
-        <div style="background: #FDF4FF; border: 1px solid #F0ABFC; border-radius: var(--radius-md); padding: 14px;">
-          <div style="font-size: 13px; font-weight: 700; color: #86198F; margin-bottom: 8px;">
-            <i class="fa-solid fa-pen-nib"></i> 我要發表回饋心得
+        <!-- Feedback Form -->
+        <div style="background: #FAF5FF; border: 1px solid #E9D5FF; border-radius: var(--radius-md); padding: 14px;">
+          <div style="font-size: 13px; font-weight: 700; color: #6B21A8; margin-bottom: 8px;">
+            <i class="fa-solid fa-pen-nib"></i> 填寫網站使用意見
           </div>
           <form id="feedbackForm" style="display: flex; flex-direction: column; gap: 10px;">
             <div class="form-row">
               <div class="form-group">
-                <label class="form-label">您的暱稱 *</label>
-                <input type="text" id="fbUserName" class="form-input" placeholder="例如：柴柴波波麻" required>
+                <label class="form-label">您的稱呼 (選填)</label>
+                <input type="text" id="fbUserName" class="form-input" placeholder="例如：毛孩家長、柴犬阿布麻">
               </div>
               <div class="form-group">
-                <label class="form-label">您的毛孩夥伴</label>
-                <input type="text" id="fbPetType" class="form-input" placeholder="例如：柯基、米克斯、貓咪">
-              </div>
-            </div>
-
-            <div class="form-row">
-              <div class="form-group">
-                <label class="form-label">回饋目標餐廳 *</label>
-                <input type="text" id="fbTargetPlace" class="form-input" placeholder="請填寫餐廳店名（或全站地圖建議）" required>
-              </div>
-              <div class="form-group">
-                <label class="form-label">心得類別</label>
+                <label class="form-label">回饋主題</label>
                 <select id="fbCategory" class="form-select">
-                  <option value="友善程度讚賞">🌟 友善程度讚賞</option>
-                  <option value="餐點美味推薦">🍽️ 餐點美味推薦</option>
-                  <option value="空間環境舒適">🛋️ 空間環境舒適</option>
-                  <option value="規範異動提醒">⚠️ 規範異動提醒</option>
-                  <option value="系統功能建議">💡 系統功能建議</option>
+                  <option value="找餐廳體驗">🗺️ 找餐廳地圖使用體驗</option>
+                  <option value="功能建議">💡 新增篩選/功能建議</option>
+                  <option value="手機版瀏覽">📱 手機版操作體驗</option>
+                  <option value="圖資豐富度">📍 縣市圖資豐富度建議</option>
+                  <option value="其他回饋">💬 其他建議與想法</option>
                 </select>
               </div>
             </div>
 
             <div class="form-group">
-              <label class="form-label">滿意度評分 (1~5 星)</label>
+              <label class="form-label">網站滿意度評分 (1~5 星)</label>
               <div class="star-rating-select" id="starRatingSelect">
                 <i class="fa-solid fa-star active" data-rating="1"></i>
                 <i class="fa-solid fa-star active" data-rating="2"></i>
@@ -815,19 +727,19 @@
             </div>
 
             <div class="form-group">
-              <label class="form-label">心得與建議內容 *</label>
-              <textarea id="fbComment" class="form-textarea" rows="3" placeholder="例如：店員主動給水盆跟炒蛋，落地非常友善，空間寬敞，推車也很好進出！" required></textarea>
+              <label class="form-label">具體建議或想法 *</label>
+              <textarea id="fbComment" class="form-textarea" rows="3" placeholder="例如：希望可以新增可不可以帶推車的快速篩選標籤，地圖讀取非常順暢！" required></textarea>
             </div>
 
             <button type="submit" class="btn" style="background: #7C3AED; color: white; justify-content: center; font-weight: 700; padding: 9px;">
-              <i class="fa-solid fa-paper-plane"></i> 立即送出回饋
+              <i class="fa-solid fa-paper-plane"></i> 送出網站回饋
             </button>
           </form>
         </div>
 
         <!-- Feedbacks List -->
         <div style="font-size: 13px; font-weight: 700; color: var(--slate-700); margin-top: 6px;">
-          <i class="fa-solid fa-list-check"></i> 最新旅人心得分享
+          <i class="fa-solid fa-comments"></i> 訪客最新回饋
         </div>
         <div id="feedbackListContainer" style="display: flex; flex-direction: column; gap: 10px;">
           <!-- Rendered by JS -->
@@ -837,73 +749,20 @@
     </div>
   </div>
 
-  <!-- Modal 3: AI 自動審核與更新 (Auto-Update Modal) -->
-  <div class="modal-backdrop" id="autoUpdateModal">
-    <div class="modal-card" style="max-width: 520px;">
-      <div class="modal-header">
-        <button class="modal-close-btn" onclick="closeModal('autoUpdateModal')"><i class="fa-solid fa-xmark"></i></button>
-        <h2 style="font-size: 18px; font-weight: 800; color: #C2410C;">
-          <i class="fa-solid fa-bolt"></i> 執行 AI 自動審核與版本更新
-        </h2>
-        <div style="font-size: 12px; color: var(--slate-500); margin-top: 2px;">
-          自動審核隊列、標記歇業門市、比對 Google Maps 並同步推送到 GitHub Pages。
-        </div>
-      </div>
-
-      <div class="modal-body">
-        <div id="updateStatusSteps" style="display: flex; flex-direction: column; gap: 8px;">
-          <div class="update-step-item" id="step1">
-            <i class="fa-solid fa-robot"></i> <span>1. AI 後台智慧審核待查餐廳佇列</span>
-          </div>
-          <div class="update-step-item" id="step2">
-            <i class="fa-solid fa-map-location-dot"></i> <span>2. 串接 Google Maps 比對營運狀態與關店名冊</span>
-          </div>
-          <div class="update-step-item" id="step3">
-            <i class="fa-solid fa-box-archive"></i> <span>3. 生成版本 Changelog 與純餐飲資料庫</span>
-          </div>
-          <div class="update-step-item" id="step4">
-            <i class="fa-brands fa-github"></i> <span>4. 自動發布推送到 GitHub Pages</span>
-          </div>
-        </div>
-
-        <div id="updateResultArea" style="display: none; padding: 12px; background: #ECFDF5; border: 1px solid #A7F3D0; border-radius: var(--radius-md); font-size: 12.5px; color: #065F46; line-height: 1.5;">
-          <!-- Summary output -->
-        </div>
-
-        <div style="display: flex; gap: 8px; justify-content: flex-end; margin-top: 8px;">
-          <button type="button" class="btn btn-outline" onclick="closeModal('autoUpdateModal')">關閉</button>
-          <button type="button" class="btn btn-autoupdate" id="btnStartUpdateAction">
-            <i class="fa-solid fa-play"></i> 開始執行自動更新
-          </button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Modal 4: User Upload Store (使用者推薦 - 經 AI 後台審核) -->
+  <!-- Modal 3: User Upload Store (使用者推薦新餐廳) -->
   <div class="modal-backdrop" id="uploadModal">
     <div class="modal-card">
       <div class="modal-header">
         <button class="modal-close-btn" onclick="closeModal('uploadModal')"><i class="fa-solid fa-xmark"></i></button>
         <h2 style="font-size: 18px; font-weight: 800; color: #1D4ED8;">
-          <i class="fa-solid fa-plus-circle"></i> 推薦寵物友善餐廳 (AI 後台審核)
+          <i class="fa-solid fa-plus-circle"></i> 推薦寵物友善餐廳
         </h2>
         <div style="font-size: 12px; color: var(--slate-500); margin-top: 2px;">
-          嚴格限定純餐飲店家！提交後由 AI 即時審核餐飲性質、地址格式並自動補全社群外連！
+          本站專注於「純餐飲」空間。提交後將由管理員於 Google Maps 查核確認後正式納入地圖！
         </div>
       </div>
 
       <form id="uploadForm" class="modal-body">
-        
-        <!-- AI Audit Notice Banner -->
-        <div class="ai-badge-card">
-          <div class="ai-badge-avatar"><i class="fa-solid fa-brain"></i></div>
-          <div class="ai-badge-content">
-            <strong>🤖 AI 後台即時審核機制已啟用：</strong>
-            系統將自動剔除非餐飲場所（美髮/旅宿/美容/用品），並檢驗門牌合法性。審核通過後自動發布入庫！
-          </div>
-        </div>
-
         <div class="form-group">
           <label class="form-label">餐廳名稱 *</label>
           <input type="text" id="upName" class="form-input" placeholder="例如：毛毛柴早午餐咖啡館" required>
@@ -952,15 +811,15 @@
           <div style="display: flex; gap: 6px;">
             <input type="text" id="upAddress" class="form-input" placeholder="例如：臺中市西區美村路一段100號" required>
             <button type="button" class="btn btn-outline" id="btnTestGoogleMap" style="padding: 0 10px; font-size: 11px;">
-              <i class="fa-brands fa-google"></i> 驗證
+              <i class="fa-brands fa-google"></i> 在地圖上查看
             </button>
           </div>
         </div>
 
         <div class="form-row">
           <div class="form-group">
-            <label class="form-label">官方粉專或 IG 連結 (選填)</label>
-            <input type="text" id="upSocialLink" class="form-input" placeholder="例如：https://instagram.com/...">
+            <label class="form-label">官方粉專或 IG 連結 (店家有才填，選填)</label>
+            <input type="text" id="upSocialLink" class="form-input" placeholder="例如：https://instagram.com/... (若無可留空)">
           </div>
           <div class="form-group">
             <label class="form-label">連絡電話 (選填)</label>
@@ -990,23 +849,20 @@
 
         <div class="form-group">
           <label class="form-label">推薦人稱呼</label>
-          <input type="text" id="upSubmitter" class="form-input" placeholder="例如：台中黃金獵犬爸比">
+          <input type="text" id="upSubmitter" class="form-input" placeholder="例如：台中毛孩爸媽">
         </div>
-
-        <!-- AI Review Live Feedback Box -->
-        <div id="aiReviewFeedbackBox" style="display: none; padding: 10px; border-radius: 8px;"></div>
 
         <div style="display: flex; gap: 8px; justify-content: flex-end; margin-top: 10px;">
           <button type="button" class="btn btn-outline" onclick="closeModal('uploadModal')">取消</button>
           <button type="submit" class="btn btn-primary" id="btnSubmitUpload">
-            <i class="fa-solid fa-cloud-arrow-up"></i> 送交 AI 後台審核
+            <i class="fa-solid fa-paper-plane"></i> 提交推薦資料
           </button>
         </div>
       </form>
     </div>
   </div>
 
-  <!-- Modal 5: Report Closed or Changed (回報已歇業) -->
+  <!-- Modal 4: Report Closed or Changed (回報已歇業) -->
   <div class="modal-backdrop" id="reportModal">
     <div class="modal-card">
       <div class="modal-header">
@@ -1015,7 +871,7 @@
           <i class="fa-solid fa-triangle-exclamation"></i> 回報店家歇業 / 資訊錯誤
         </h2>
         <div style="font-size: 12px; color: var(--slate-500); margin-top: 2px;">
-          感謝守護！經 AI 後台與 Google Maps 比對後將於版本日誌標註已停業。
+          感謝守護！管理員將比對 Google Maps 營運狀態後進行標記與更新。
         </div>
       </div>
 
@@ -1043,14 +899,14 @@
         <div style="display: flex; gap: 8px; justify-content: flex-end; margin-top: 10px;">
           <button type="button" class="btn btn-outline" onclick="closeModal('reportModal')">取消</button>
           <button type="submit" class="btn btn-primary" style="background: #BE123C;">
-            <i class="fa-solid fa-paper-plane"></i> 提交 AI 查驗
+            <i class="fa-solid fa-paper-plane"></i> 提交查驗回報
           </button>
         </div>
       </form>
     </div>
   </div>
 
-  <!-- Modal 6: Version Changelog (版本異動日誌) -->
+  <!-- Modal 5: Version Changelog (版本異動日誌) -->
   <div class="modal-backdrop" id="versionModal">
     <div class="modal-card">
       <div class="modal-header">
@@ -1059,7 +915,7 @@
           <i class="fa-solid fa-clock-rotate-left" style="color: var(--primary);"></i> 版本異動與歇業檢驗日誌
         </h2>
         <div style="font-size: 12px; color: var(--slate-500); margin-top: 2px;">
-          AI 自動檢驗比對 Google Maps 營運動態，即時公告哪間店家已關店或新上線！
+          定期比對 Google Maps 營運動態與管理員審核，即時公告哪間店家已歇業或新上線！
         </div>
       </div>
 
@@ -1103,7 +959,6 @@
       map = L.map('map', { center: [23.9738, 120.9820], zoom: 8, zoomControl: false });
       L.control.zoom({ position: 'topleft' }).addTo(map);
 
-      // Clean tile layers without watermark
       const osmHot = L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
         attribution: '&copy; OpenStreetMap contributors', maxZoom: 19
       });
@@ -1253,7 +1108,7 @@
                 <i class="fa-solid fa-diamond-turn-right"></i> 導航
               </a>
               <button onclick="openPlaceModal('${place.id}')" style="flex: 1; border: 1px solid var(--slate-200); background: white; padding: 5px; border-radius: 6px; font-size: 11.5px; font-weight: 600; cursor: pointer;">
-                詳情/社群
+                詳情
               </button>
             </div>
           </div>
@@ -1305,12 +1160,39 @@
         }
 
         const phoneDisplay = place.phone && place.phone !== '依店家現場公告為準' ? place.phone : '依現場公告';
-        
-        // Links
         const mapUrl = place.googleMapUrl || `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(place.name + ' ' + place.address)}`;
-        const igUrl = place.instagram || `https://www.instagram.com/explore/tags/${encodeURIComponent(place.name.replace(/[^\w\u4e00-\u9fff]+/g, ''))}/`;
-        const fbUrl = place.facebook || `https://www.facebook.com/search/top?q=${encodeURIComponent(place.name)}`;
-        const webUrl = place.website || mapUrl;
+
+        // Social Links: Only render if genuinely provided by store
+        const hasIg = place.instagram && place.instagram.trim() !== '';
+        const hasFb = place.facebook && place.facebook.trim() !== '';
+        const hasWeb = place.website && place.website.trim() !== '' && !place.website.includes('google.com/maps');
+
+        let socialPillsHtml = `
+          <a class="social-btn-pill social-btn-map" href="${mapUrl}" target="_blank" title="前往 Google Maps 定位與導航">
+            <i class="fa-solid fa-diamond-turn-right"></i> 導航
+          </a>
+        `;
+        if (hasIg) {
+          socialPillsHtml += `
+            <a class="social-btn-pill social-btn-ig" href="${place.instagram}" target="_blank" title="查看 Instagram 專頁">
+              <i class="fa-brands fa-instagram"></i> IG
+            </a>
+          `;
+        }
+        if (hasFb) {
+          socialPillsHtml += `
+            <a class="social-btn-pill social-btn-fb" href="${place.facebook}" target="_blank" title="查看 Facebook 粉絲專頁">
+              <i class="fa-brands fa-facebook"></i> FB
+            </a>
+          `;
+        }
+        if (hasWeb) {
+          socialPillsHtml += `
+            <a class="social-btn-pill social-btn-web" href="${place.website}" target="_blank" title="開啟官方網頁">
+              <i class="fa-solid fa-globe"></i> 官網
+            </a>
+          `;
+        }
 
         return `
           <div class="place-card ${isClosed ? 'is-closed' : ''} ${state.activePlaceId === place.id ? 'active-selected' : ''}" id="card-${place.id}" onclick="selectPlace('${place.id}')">
@@ -1339,28 +1221,14 @@
               ${(place.rules || []).slice(0, 2).map(r => `<span class="feat-tag">${r}</span>`).join('')}
             </div>
 
-            <!-- Social & Map Action Pills -->
+            <!-- Social Action Pills: Only show links that exist -->
             <div class="card-social-strip" onclick="event.stopPropagation()">
-              <a class="social-btn-pill social-btn-map" href="${mapUrl}" target="_blank" title="前往 Google Maps 定位與導航">
-                <i class="fa-solid fa-diamond-turn-right"></i> 導航
-              </a>
-              <a class="social-btn-pill social-btn-ig" href="${igUrl}" target="_blank" title="查看 Instagram 標籤與探店照片">
-                <i class="fa-brands fa-instagram"></i> IG
-              </a>
-              <a class="social-btn-pill social-btn-fb" href="${fbUrl}" target="_blank" title="搜尋 Facebook 粉絲專頁">
-                <i class="fa-brands fa-facebook"></i> FB
-              </a>
-              <a class="social-btn-pill social-btn-web" href="${webUrl}" target="_blank" title="開啟官方網頁/簡介">
-                <i class="fa-solid fa-globe"></i> 官網
-              </a>
+              ${socialPillsHtml}
             </div>
 
             <div class="card-footer">
               <span class="card-phone"><i class="fa-solid fa-phone"></i> ${phoneDisplay}</span>
               <div class="card-actions">
-                <button class="btn-card-action" onclick="openFeedbackFormForStore('${place.name.replace(/'/g, "\\'")}'); event.stopPropagation();" title="撰寫回饋心得" style="color: #7C3AED;">
-                  <i class="fa-solid fa-comment-dots"></i> 評價
-                </button>
                 <button class="btn-card-action" onclick="openReportModal('${place.id}', '${place.name.replace(/'/g, "\\'")}'); event.stopPropagation();" title="回報已關店或資訊變更" style="color: #BE123C;">
                   <i class="fa-solid fa-flag"></i> 回報
                 </button>
@@ -1416,16 +1284,37 @@
       document.getElementById('modalAddress').innerHTML = `${place.address} <button class="btn-card-action" onclick="copyText('${place.address}')"><i class="fa-regular fa-copy"></i> 複製地址</button>`;
       document.getElementById('modalPhone').innerHTML = `<i class="fa-solid fa-phone"></i> ${place.phone || '依現場公告'}`;
 
-      // Social & Navigation Links
+      // Navigation & Social Links (Only render what actually exists)
       const mapUrl = place.googleMapUrl || `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(place.name + ' ' + place.address)}`;
-      const igUrl = place.instagram || `https://www.instagram.com/explore/tags/${encodeURIComponent(place.name.replace(/[^\w\u4e00-\u9fff]+/g, ''))}/`;
-      const fbUrl = place.facebook || `https://www.facebook.com/search/top?q=${encodeURIComponent(place.name)}`;
-      const webUrl = place.website || mapUrl;
+      document.getElementById('modalNavBtnDirect').href = mapUrl;
 
-      document.getElementById('modalNavBtnFull').href = mapUrl;
-      document.getElementById('modalIgBtnFull').href = igUrl;
-      document.getElementById('modalFbBtnFull').href = fbUrl;
-      document.getElementById('modalWebBtnFull').href = webUrl;
+      let linksHtml = `
+        <a href="${mapUrl}" target="_blank" class="btn" style="background: #2563EB; color: white; font-size: 12px;">
+          <i class="fa-solid fa-diamond-turn-right"></i> Google 地圖導航
+        </a>
+      `;
+      if (place.instagram && place.instagram.trim() !== '') {
+        linksHtml += `
+          <a href="${place.instagram}" target="_blank" class="btn" style="background: linear-gradient(135deg, #F58529, #DD2A7B, #8134AF); color: white; font-size: 12px;">
+            <i class="fa-brands fa-instagram"></i> Instagram 專頁
+          </a>
+        `;
+      }
+      if (place.facebook && place.facebook.trim() !== '') {
+        linksHtml += `
+          <a href="${place.facebook}" target="_blank" class="btn" style="background: #1877F2; color: white; font-size: 12px;">
+            <i class="fa-brands fa-facebook"></i> Facebook 粉絲專頁
+          </a>
+        `;
+      }
+      if (place.website && place.website.trim() !== '' && !place.website.includes('google.com/maps')) {
+        linksHtml += `
+          <a href="${place.website}" target="_blank" class="btn btn-outline" style="font-size: 12px;">
+            <i class="fa-solid fa-globe"></i> 官方網站
+          </a>
+        `;
+      }
+      document.getElementById('modalSocialLinksContainer').innerHTML = linksHtml;
 
       // Pets & Rules
       document.getElementById('modalPetsAllowed').innerHTML = (place.petsAllowed || []).map(p => `<span class="feat-tag" style="background: #FEF3C7; color: #92400E;"><i class="fa-solid fa-paw"></i> ${p}</span>`).join('') +
@@ -1440,11 +1329,6 @@
         </a>
       `;
 
-      document.getElementById('modalWriteFeedbackBtn').onclick = () => {
-        closeModal('detailModal');
-        openFeedbackFormForStore(place.name);
-      };
-
       document.getElementById('modalReportBtn').onclick = () => {
         closeModal('detailModal');
         openReportModal(place.id, place.name);
@@ -1457,12 +1341,6 @@
       document.getElementById('repPlaceId').value = id;
       document.getElementById('repPlaceName').textContent = name;
       openModal('reportModal');
-    };
-
-    window.openFeedbackFormForStore = function(storeName) {
-      document.getElementById('fbTargetPlace').value = storeName;
-      openModal('feedbackModal');
-      renderFeedbackList();
     };
 
     window.openModal = function(id) { document.getElementById(id).classList.add('open'); };
@@ -1508,7 +1386,7 @@
         if (v.closedStores && v.closedStores.length > 0) {
           closedHtml = `
             <div style="margin-top: 6px; padding: 8px; background: #FFF1F2; border-radius: 6px;">
-              <div style="font-size: 11.5px; font-weight: 700; color: #BE123C; margin-bottom: 4px;">🔴 經自動檢驗已關店門市 (${v.closedStores.length} 家)：</div>
+              <div style="font-size: 11.5px; font-weight: 700; color: #BE123C; margin-bottom: 4px;">🔴 經檢驗已關店門市 (${v.closedStores.length} 家)：</div>
               <div style="display: flex; flex-wrap: wrap; gap: 4px;">
                 ${v.closedStores.map(c => `<span class="closed-store-tag">${c.name} (${c.city}) - ${c.reason}</span>`).join('')}
               </div>
@@ -1542,7 +1420,7 @@
       }).join('');
     }
 
-    // Render Feedbacks
+    // Render Website Feedbacks
     function renderFeedbackList() {
       fetch('/api/feedback').then(r => r.json()).then(data => {
         state.feedbacks = data;
@@ -1553,37 +1431,36 @@
     }
 
     function updateFeedbackUI(data) {
-      document.getElementById('feedbackTotalBadge').textContent = data.length;
-      document.getElementById('fbTotalReviews').textContent = `${data.length} 篇`;
-
-      if (data.length > 0) {
-        const avg = (data.reduce((sum, item) => sum + (item.rating || 5), 0) / data.length).toFixed(1);
-        document.getElementById('fbAvgRating').textContent = `${avg} ★`;
+      const container = document.getElementById('feedbackListContainer');
+      if (!data || data.length === 0) {
+        container.innerHTML = `
+          <div style="padding: 24px 16px; text-align: center; color: var(--slate-400); font-size: 13px;">
+            <i class="fa-regular fa-comment-dots" style="font-size: 26px; margin-bottom: 6px; display: block;"></i>
+            目前尚無回饋，歡迎點擊上方表單留下您對本網站的第一則寶貴建議！
+          </div>
+        `;
+        return;
       }
 
-      const container = document.getElementById('feedbackListContainer');
       container.innerHTML = data.map(fb => {
         const starsHtml = '★'.repeat(fb.rating || 5) + '☆'.repeat(5 - (fb.rating || 5));
         return `
           <div class="fb-item-card">
             <div class="fb-item-top">
               <div class="fb-user-info">
-                <div class="fb-avatar">${(fb.userName || '毛')[0]}</div>
+                <div class="fb-avatar">${(fb.userName || '訪')[0]}</div>
                 <div>
-                  <div class="fb-user-name">${fb.userName}</div>
-                  <div class="fb-pet-tag">${fb.petType || '毛孩同行'}</div>
+                  <div class="fb-user-name">${fb.userName || '熱心訪客'}</div>
                 </div>
               </div>
               <div class="fb-stars">${starsHtml}</div>
             </div>
             <div>
-              <span class="fb-target-badge"><i class="fa-solid fa-utensils"></i> ${fb.targetPlace}</span>
-              <span style="font-size: 11px; color: var(--slate-400); margin-left: 6px;">[${fb.category || '用餐心得'}]</span>
+              <span class="fb-cat-tag"><i class="fa-solid fa-tag"></i> ${fb.category || '網站體驗'}</span>
             </div>
             <div class="fb-text">${fb.comment}</div>
             <div class="fb-item-bottom">
               <span>${fb.date}</span>
-              <span style="cursor: pointer; color: var(--slate-500);"><i class="fa-regular fa-thumbs-up"></i> ${fb.likes || 0} 認同</span>
             </div>
           </div>
         `;
@@ -1752,11 +1629,8 @@
         renderVersionChangelog();
         openModal('versionModal');
       });
-      document.getElementById('btnTriggerAutoUpdate').addEventListener('click', () => {
-        openModal('autoUpdateModal');
-      });
 
-      // Google Maps quick test
+      // Google Maps quick test in upload form
       document.getElementById('btnTestGoogleMap').addEventListener('click', () => {
         const addr = document.getElementById('upAddress').value.trim();
         const name = document.getElementById('upName').value.trim();
@@ -1764,13 +1638,11 @@
         window.open(`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(name + ' ' + addr)}`, '_blank');
       });
 
-      // Handle Form: Feedback Submission
+      // Handle Form: Feedback Submission (給本網站使用回饋)
       document.getElementById('feedbackForm').addEventListener('submit', function(e) {
         e.preventDefault();
         const payload = {
-          userName: document.getElementById('fbUserName').value.trim(),
-          petType: document.getElementById('fbPetType').value.trim() || '毛孩同行',
-          targetPlace: document.getElementById('fbTargetPlace').value.trim() || '全台寵物友善地圖',
+          userName: document.getElementById('fbUserName').value.trim() || '訪客',
           category: document.getElementById('fbCategory').value,
           rating: parseInt(document.getElementById('fbRatingVal').value || 5),
           comment: document.getElementById('fbComment').value.trim()
@@ -1782,31 +1654,28 @@
           body: JSON.stringify(payload)
         }).then(r => r.json()).then(res => {
           if (res.success) {
-            alert('🎉 感謝回饋！您的寶貴心得已成功發布。');
+            alert('🎉 感謝您的寶貴回饋！意見已成功送達。');
             document.getElementById('fbComment').value = '';
             renderFeedbackList();
           } else {
-            alert('發布失敗：' + res.message);
+            alert('送出失敗：' + res.message);
           }
         }).catch(() => {
           // Local/Offline mode fallback
-          payload.id = `fb-local-${Date.now()}`;
+          payload.id = `fb-${Date.now()}`;
           payload.date = new Date().toLocaleString();
-          payload.likes = 0;
           state.feedbacks.unshift(payload);
           updateFeedbackUI(state.feedbacks);
-          alert('🎉 感謝回饋！您的寶貴心得已成功新增。');
+          alert('🎉 感謝您的寶貴回饋！意見已成功送達。');
           document.getElementById('fbComment').value = '';
         });
       });
 
-      // Handle Form: Upload Store (經由 AI 後台審核)
+      // Handle Form: Upload Store (推薦新餐廳)
       document.getElementById('uploadForm').addEventListener('submit', function(e) {
         e.preventDefault();
         const submitBtn = document.getElementById('btnSubmitUpload');
-        const feedbackBox = document.getElementById('aiReviewFeedbackBox');
         submitBtn.disabled = true;
-        submitBtn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> AI 審核運算中...';
 
         const pets = Array.from(document.querySelectorAll('input[name="upPets"]:checked')).map(x => x.value);
         const rules = Array.from(document.querySelectorAll('input[name="upRules"]:checked')).map(x => x.value);
@@ -1821,7 +1690,7 @@
           petsAllowed: pets.length ? pets : ['犬', '貓'],
           rules: rules.length ? rules : ['牽繩可落地'],
           features: rules,
-          submitter: document.getElementById('upSubmitter').value.trim() || '熱心毛爸媽'
+          submitter: document.getElementById('upSubmitter').value.trim() || '訪客推薦'
         };
 
         fetch('/api/upload', {
@@ -1830,45 +1699,17 @@
           body: JSON.stringify(payload)
         }).then(r => r.json()).then(res => {
           submitBtn.disabled = false;
-          submitBtn.innerHTML = '<i class="fa-solid fa-cloud-arrow-up"></i> 送交 AI 後台審核';
-          
-          feedbackBox.style.display = 'block';
-          if (res.aiVerdict === 'APPROVED') {
-            feedbackBox.style.background = '#ECFDF5';
-            feedbackBox.style.border = '1px solid #A7F3D0';
-            feedbackBox.innerHTML = `
-              <div style="font-weight: 800; color: #047857; margin-bottom: 4px;">
-                <i class="fa-solid fa-circle-check"></i> 【AI 審核通過】信心度 ${Math.round((res.aiConfidence || 1)*100)}%
-              </div>
-              <div style="font-size: 12px; color: #065F46; line-height: 1.5;">${res.aiReasoning}</div>
-              <div style="margin-top: 6px; font-size: 11.5px; color: #047857;">已自動排入本次版本更新隊列！</div>
-            `;
-            setTimeout(() => {
-              closeModal('uploadModal');
-              document.getElementById('uploadForm').reset();
-              feedbackBox.style.display = 'none';
-              // Trigger auto-update
-              document.getElementById('btnStartUpdateAction').click();
-            }, 2500);
-          } else {
-            feedbackBox.style.background = '#FFFBEB';
-            feedbackBox.style.border = '1px solid #FCD34D';
-            feedbackBox.innerHTML = `
-              <div style="font-weight: 800; color: #B45309; margin-bottom: 4px;">
-                <i class="fa-solid fa-circle-exclamation"></i> 【${res.aiVerdict}】審核結果
-              </div>
-              <div style="font-size: 12px; color: #92400E; line-height: 1.5;">${res.aiReasoning}</div>
-            `;
-          }
+          alert('感謝您的推薦！店家資料已提交，管理員將於 Google Maps 查核確認後正式發布入庫。');
+          closeModal('uploadModal');
+          document.getElementById('uploadForm').reset();
         }).catch(err => {
           submitBtn.disabled = false;
-          submitBtn.innerHTML = '<i class="fa-solid fa-cloud-arrow-up"></i> 送交 AI 後台審核';
-          alert('本機離線暫存：已記錄推薦，將由後續批次審核入庫。');
+          alert('感謝推薦！資料已暫存提交。');
           closeModal('uploadModal');
         });
       });
 
-      // Handle Form: Report Closed/Changed (經 AI 審核)
+      // Handle Form: Report Closed/Changed
       document.getElementById('reportForm').addEventListener('submit', function(e) {
         e.preventDefault();
         const payload = {
@@ -1883,72 +1724,12 @@
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(payload)
         }).then(r => r.json()).then(res => {
-          alert(`【AI 審核受理】${res.message}`);
+          alert('感謝守護回報！管理員將比對 Google Maps 營運狀態後進行標記與更新。');
           closeModal('reportModal');
           document.getElementById('reportForm').reset();
         }).catch(() => {
           alert('已記錄您的回報！');
           closeModal('reportModal');
-        });
-      });
-
-      // Handle Action: Trigger Auto-Update
-      document.getElementById('btnStartUpdateAction').addEventListener('click', function() {
-        const btn = this;
-        btn.disabled = true;
-        btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> 正在執行更新...';
-        
-        const s1 = document.getElementById('step1');
-        const s2 = document.getElementById('step2');
-        const s3 = document.getElementById('step3');
-        const s4 = document.getElementById('step4');
-        const resArea = document.getElementById('updateResultArea');
-
-        s1.className = 'update-step-item active';
-
-        setTimeout(() => {
-          s1.className = 'update-step-item done';
-          s2.className = 'update-step-item active';
-        }, 600);
-
-        setTimeout(() => {
-          s2.className = 'update-step-item done';
-          s3.className = 'update-step-item active';
-        }, 1200);
-
-        fetch('/api/auto-update', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ gitPush: true })
-        }).then(r => r.json()).then(res => {
-          s3.className = 'update-step-item done';
-          s4.className = 'update-step-item done';
-          btn.disabled = false;
-          btn.innerHTML = '<i class="fa-solid fa-check"></i> 更新完成！';
-
-          resArea.style.display = 'block';
-          const info = res.result;
-          resArea.innerHTML = `
-            <strong>🎉 自動更新發布成功！</strong><br>
-            📌 當前版本：<strong>${info.version}</strong> (${info.date})<br>
-            🍽️ 全台純餐飲總數：<strong>${info.totalStores}</strong> 家（正常營業 ${info.activeStores} 家）<br>
-            ✨ 新增上線：${info.newStoresCount} 家 ｜ 🔴 標記歇業：${info.closedStoresCount} 家<br>
-            🌐 <strong>${info.gitMessage || '已同步推送至 GitHub Pages'}</strong>
-          `;
-
-          // Refresh map places & changelog
-          fetch('/api/places').then(r => r.json()).then(places => {
-            state.places = places;
-            updateView();
-            renderVersionChangelog();
-          });
-        }).catch(err => {
-          s3.className = 'update-step-item done';
-          s4.className = 'update-step-item done';
-          btn.disabled = false;
-          btn.innerHTML = '<i class="fa-solid fa-rotate"></i> 重新執行';
-          resArea.style.display = 'block';
-          resArea.innerHTML = '已完成資料校正與版本標註。';
         });
       });
 

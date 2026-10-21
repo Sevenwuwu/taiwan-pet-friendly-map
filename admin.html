@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>後台審核中心・全台寵物友善餐廳地圖 (Google Maps 查驗與版本更新)</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+  <style>
+    :root {
+      --primary: #D97706;
+      --primary-hover: #B45309;
+      --slate-900: #0F172A;
+      --slate-800: #1E293B;
+      --slate-700: #334155;
+      --slate-600: #475569;
+      --slate-500: #64748B;
+      --slate-200: #E2E8F0;
+      --slate-100: #F1F5F9;
+      --slate-50: #F8FAFC;
+      --emerald-600: #059669;
+      --emerald-50: #ECFDF5;
+      --rose-600: #E11D48;
+      --rose-50: #FFF1F2;
+      --blue-600: #2563EB;
+      --blue-50: #EFF6FF;
+      --radius-md: 10px;
+      --radius-lg: 14px;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Plus Jakarta Sans', 'Noto Sans TC', sans-serif;
+      background: #F1F5F9; color: var(--slate-800); min-height: 100vh;
+      display: flex; flex-direction: column;
+    }
+
+    header.admin-header {
+      background: #FFFFFF; border-bottom: 1px solid var(--slate-200);
+      padding: 14px 24px; display: flex; align-items: center; justify-content: space-between;
+      position: sticky; top: 0; z-index: 100;
+    }
+    .brand { display: flex; align-items: center; gap: 10px; }
+    .brand-icon {
+      width: 36px; height: 36px; background: var(--primary); color: white;
+      border-radius: var(--radius-md); display: flex; align-items: center; justify-content: center;
+      font-size: 18px;
+    }
+    .brand h1 { font-size: 17px; font-weight: 800; color: var(--slate-900); }
+    .brand span { font-size: 12px; color: var(--slate-500); }
+
+    .header-actions { display: flex; align-items: center; gap: 10px; }
+    .btn {
+      display: inline-flex; align-items: center; gap: 6px; font-size: 13px; font-weight: 700;
+      padding: 8px 14px; border-radius: var(--radius-md); border: 1px solid transparent;
+      cursor: pointer; transition: all 0.2s ease; text-decoration: none;
+    }
+    .btn-publish { background: #059669; color: white; }
+    .btn-publish:hover { background: #047857; }
+    .btn-view-map { background: white; border-color: var(--slate-200); color: var(--slate-700); }
+    .btn-view-map:hover { background: var(--slate-100); }
+
+    main.admin-main { flex: 1; max-width: 1100px; width: 100%; margin: 24px auto; padding: 0 20px; display: flex; flex-direction: column; gap: 20px; }
+
+    /* Summary bar */
+    .stat-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+    .stat-card {
+      background: white; border: 1px solid var(--slate-200); border-radius: var(--radius-md);
+      padding: 14px 18px; display: flex; flex-direction: column; gap: 4px;
+    }
+    .stat-val { font-size: 24px; font-weight: 800; color: var(--slate-900); }
+    .stat-lbl { font-size: 12px; color: var(--slate-500); font-weight: 600; }
+
+    /* Review Cards */
+    .section-title {
+      font-size: 16px; font-weight: 800; color: var(--slate-900); display: flex; align-items: center; gap: 8px;
+      margin-bottom: 12px;
+    }
+    .section-title span.count-badge {
+      font-size: 11px; background: #FEF3C7; color: #B45309; padding: 2px 8px; border-radius: 9999px;
+    }
+
+    .review-card {
+      background: white; border: 1px solid var(--slate-200); border-radius: var(--radius-lg);
+      padding: 18px 20px; display: flex; flex-direction: column; gap: 12px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.05); margin-bottom: 12px;
+    }
+    .card-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; }
+    .store-name { font-size: 17px; font-weight: 800; color: var(--slate-900); }
+    .store-meta { font-size: 12.5px; color: var(--slate-500); margin-top: 3px; display: flex; gap: 10px; }
+
+    .gm-verify-box {
+      background: #EFF6FF; border: 1px solid #BFDBFE; border-radius: var(--radius-md);
+      padding: 12px 14px; display: flex; align-items: center; justify-content: space-between; gap: 10px;
+    }
+    .gm-verify-info { font-size: 12.5px; color: #1E40AF; line-height: 1.4; }
+    .btn-gm-check {
+      background: #2563EB; color: white; padding: 7px 14px; font-size: 12.5px; font-weight: 700;
+      border-radius: var(--radius-md); text-decoration: none; display: inline-flex; align-items: center; gap: 6px;
+      flex-shrink: 0; box-shadow: 0 2px 5px rgba(37,99,235,0.25);
+    }
+    .btn-gm-check:hover { background: #1D4ED8; }
+
+    .details-grid {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 8px 16px; font-size: 13px;
+      background: var(--slate-50); padding: 12px; border-radius: var(--radius-md);
+    }
+    .detail-item strong { color: var(--slate-700); }
+    .detail-item span { color: var(--slate-600); }
+
+    .card-actions { display: flex; align-items: center; justify-content: flex-end; gap: 8px; padding-top: 10px; border-top: 1px solid var(--slate-100); }
+    .btn-approve { background: #ECFDF5; border: 1px solid #A7F3D0; color: #047857; font-weight: 700; }
+    .btn-approve:hover { background: #D1FAE5; }
+    .btn-reject { background: #FFF1F2; border: 1px solid #FECDD3; color: #BE123C; font-weight: 700; }
+    .btn-reject:hover { background: #FFE4E6; }
+
+    .empty-placeholder {
+      background: white; border: 1px dashed var(--slate-300); border-radius: var(--radius-lg);
+      padding: 40px 20px; text-align: center; color: var(--slate-500); font-size: 14px;
+    }
+
+    /* Update Modal */
+    .modal-backdrop {
+      position: fixed; inset: 0; background: rgba(15, 23, 42, 0.6);
+      backdrop-filter: blur(4px); z-index: 200; display: none;
+      align-items: center; justify-content: center; padding: 20px;
+    }
+    .modal-backdrop.open { display: flex; }
+    .modal-card {
+      background: white; border-radius: var(--radius-lg); max-width: 500px; width: 100%;
+      padding: 22px; display: flex; flex-direction: column; gap: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="admin-header">
+    <div class="brand">
+      <div class="brand-icon"><i class="fa-solid fa-shield-halved"></i></div>
+      <div>
+        <h1>全台寵物友善餐廳地圖・後台審核中心</h1>
+        <span>管理員 Google Maps 門市查驗與版本自動發布系統</span>
+      </div>
+    </div>
+    <div class="header-actions">
+      <a href="index.html" target="_blank" class="btn btn-view-map">
+        <i class="fa-solid fa-map"></i> 開啟前台地圖
+      </a>
+      <button class="btn btn-publish" id="btnPublishUpdate">
+        <i class="fa-solid fa-cloud-arrow-up"></i> 發布新版本並推送至 GitHub
+      </button>
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <main class="admin-main">
+
+    <!-- Stat Row -->
+    <div class="stat-row">
+      <div class="stat-card">
+        <div class="stat-val" id="statPendingNew">0</div>
+        <div class="stat-lbl">待審核推薦新餐廳</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-val" id="statPendingReport">0</div>
+        <div class="stat-lbl">待審核歇業回報</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-val" id="statTotalStores">480</div>
+        <div class="stat-lbl">正式在線純餐廳數</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-val" id="statCurrentVer" style="color: var(--primary);">v1.2.0</div>
+        <div class="stat-lbl">當前版本號</div>
+      </div>
+    </div>
+
+    <!-- Review Section: New Store Recommendations -->
+    <section>
+      <div class="section-title">
+        <i class="fa-solid fa-utensils" style="color: var(--primary);"></i>
+        <span>待審核新餐廳推薦</span>
+        <span class="count-badge" id="badgePendingNewCount">0 筆</span>
+      </div>
+
+      <div id="newStoresList">
+        <!-- Rendered by JS -->
+      </div>
+    </section>
+
+    <!-- Review Section: Store Closure Reports -->
+    <section>
+      <div class="section-title">
+        <i class="fa-solid fa-triangle-exclamation" style="color: #E11D48;"></i>
+        <span>待查驗歇業回報</span>
+        <span class="count-badge" id="badgePendingReportCount" style="background: #FFE4E6; color: #BE123C;">0 筆</span>
+      </div>
+
+      <div id="closedReportsList">
+        <!-- Rendered by JS -->
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Publish Modal -->
+  <div class="modal-backdrop" id="publishModal">
+    <div class="modal-card">
+      <h3 style="font-size: 17px; font-weight: 800; color: var(--slate-900);">
+        <i class="fa-solid fa-cloud-arrow-up" style="color: #059669;"></i> 發布新版本並同步至 GitHub Pages
+      </h3>
+      <div id="publishStatusText" style="font-size: 13px; color: var(--slate-600); line-height: 1.5;">
+        即將把所有「Google Maps 查證核准」之店家合併入庫，標記歇業門市，自動遞增版號並執行 <code>git push origin main</code>！
+      </div>
+      <div id="publishProgress" style="display: none; padding: 12px; background: var(--slate-50); border-radius: 8px; font-size: 12.5px;">
+        <i class="fa-solid fa-spinner fa-spin"></i> 正在執行版本打包與 Git 同步...
+      </div>
+      <div style="display: flex; gap: 8px; justify-content: flex-end; margin-top: 10px;">
+        <button class="btn btn-view-map" onclick="closeModal('publishModal')">取消</button>
+        <button class="btn btn-publish" id="btnConfirmPublish">確認發布</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function loadAdminData() {
+      // 1. Load submissions
+      fetch('/api/submissions').then(r => r.json()).then(subs => {
+        renderSubmissions(subs);
+      }).catch(() => {});
+
+      // 2. Load places count
+      fetch('/api/places').then(r => r.json()).then(places => {
+        document.getElementById('statTotalStores').textContent = places.length;
+      }).catch(() => {});
+
+      // 3. Load versions
+      fetch('/api/versions').then(r => r.json()).then(versions => {
+        if (versions.length > 0) {
+          document.getElementById('statCurrentVer').textContent = versions[0].version;
+        }
+      }).catch(() => {});
+    }
+
+    function renderSubmissions(subs) {
+      const pendingNew = subs.filter(s => s.type === 'new_store' && s.status === 'pending_review');
+      const pendingReport = subs.filter(s => s.type === 'report_closed' && s.status === 'pending_review');
+
+      document.getElementById('statPendingNew').textContent = pendingNew.length;
+      document.getElementById('badgePendingNewCount').textContent = `${pendingNew.length} 筆`;
+      document.getElementById('statPendingReport').textContent = pendingReport.length;
+      document.getElementById('badgePendingReportCount').textContent = `${pendingReport.length} 筆`;
+
+      // 1. Render New Stores
+      const newListContainer = document.getElementById('newStoresList');
+      if (pendingNew.length === 0) {
+        newListContainer.innerHTML = `
+          <div class="empty-placeholder">
+            <i class="fa-solid fa-circle-check" style="font-size: 32px; color: #10B981; margin-bottom: 8px;"></i><br>
+            目前沒有待審核的新餐廳推薦。
+          </div>
+        `;
+      } else {
+        newListContainer.innerHTML = pendingNew.map(sub => {
+          const gmUrl = sub.googleMapUrl || `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(sub.name + ' ' + sub.address)}`;
+          return `
+            <div class="review-card" id="sub-card-${sub.id}">
+              <div class="card-head">
+                <div>
+                  <div class="store-name">${sub.name}</div>
+                  <div class="store-meta">
+                    <span><i class="fa-solid fa-location-dot"></i> ${sub.city}・${sub.district || ''}</span>
+                    <span><i class="fa-solid fa-tag"></i> ${sub.category}</span>
+                    <span><i class="fa-solid fa-user"></i> 推薦人：${sub.submitter || '訪客'}</span>
+                    <span><i class="fa-solid fa-clock"></i> 提交時間：${sub.createdAt}</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Google Maps Verification Callout -->
+              <div class="gm-verify-box">
+                <div class="gm-verify-info">
+                  <strong>🔍 審核核心準則：</strong> 請點擊右側按鈕，確認該店家<strong>「已在 Google Maps 上顯示且正常營業」</strong>：
+                </div>
+                <a href="${gmUrl}" target="_blank" class="btn-gm-check">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i> 在 Google Maps 查驗此店
+                </a>
+              </div>
+
+              <div class="details-grid">
+                <div class="detail-item"><strong>門市地址：</strong><span>${sub.address}</span></div>
+                <div class="detail-item"><strong>聯絡電話：</strong><span>${sub.phone || '無'}</span></div>
+                <div class="detail-item"><strong>友善物種：</strong><span>${(sub.petsAllowed || []).join('、')}</span></div>
+                <div class="detail-item"><strong>入內規範：</strong><span>${(sub.rules || []).join('、')}</span></div>
+                ${sub.website ? `<div class="detail-item"><strong>官網/社群：</strong><a href="${sub.website}" target="_blank">${sub.website}</a></div>` : ''}
+                ${sub.note ? `<div class="detail-item" style="grid-column: 1 / -1;"><strong>備註：</strong><span>${sub.note}</span></div>` : ''}
+              </div>
+
+              <div class="card-actions">
+                <button class="btn btn-reject" onclick="handleVerify('${sub.id}', 'reject')">
+                  <i class="fa-solid fa-xmark"></i> Google Maps 查無此店（駁回）
+                </button>
+                <button class="btn btn-approve" onclick="handleVerify('${sub.id}', 'approve')">
+                  <i class="fa-solid fa-check"></i> Google Maps 已顯示・確認核准
+                </button>
+              </div>
+            </div>
+          `;
+        }).join('');
+      }
+
+      // 2. Render Closure Reports
+      const reportListContainer = document.getElementById('closedReportsList');
+      if (pendingReport.length === 0) {
+        reportListContainer.innerHTML = `
+          <div class="empty-placeholder">
+            <i class="fa-solid fa-circle-check" style="font-size: 32px; color: #10B981; margin-bottom: 8px;"></i><br>
+            目前沒有待查驗的店家歇業回報。
+          </div>
+        `;
+      } else {
+        reportListContainer.innerHTML = pendingReport.map(rep => {
+          const gmUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(rep.targetName || '')}`;
+          return `
+            <div class="review-card" id="sub-card-${rep.id}">
+              <div class="card-head">
+                <div>
+                  <div class="store-name" style="color: #BE123C;">🔴 歇業回報：${rep.targetName}</div>
+                  <div class="store-meta">
+                    <span><i class="fa-solid fa-id-badge"></i> 目標 ID: ${rep.targetPlaceId}</span>
+                    <span><i class="fa-solid fa-user"></i> 回報人：${rep.reporter}</span>
+                    <span><i class="fa-solid fa-clock"></i> 回報時間：${rep.createdAt}</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="gm-verify-box" style="background: #FFF1F2; border-color: #FECDD3;">
+                <div class="gm-verify-info" style="color: #9F1239;">
+                  <strong>🔍 查驗歇業：</strong> 請至 Google Maps 確認該店是否標註為「永久歇業」或「暫停營業」：
+                </div>
+                <a href="${gmUrl}" target="_blank" class="btn-gm-check" style="background: #E11D48;">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i> 在 Google Maps 查驗營運狀態
+                </a>
+              </div>
+
+              <div style="font-size: 13px; color: var(--slate-700); background: var(--slate-50); padding: 10px; border-radius: 8px;">
+                <strong>回報理由：</strong> ${rep.reason}
+              </div>
+
+              <div class="card-actions">
+                <button class="btn btn-reject" onclick="handleVerify('${rep.id}', 'reject')">
+                  <i class="fa-solid fa-xmark"></i> Google Maps 仍正常營運（駁回）
+                </button>
+                <button class="btn btn-approve" style="background: #FFF1F2; border-color: #FECDD3; color: #BE123C;" onclick="handleVerify('${rep.id}', 'approve')">
+                  <i class="fa-solid fa-ban"></i> 確認已歇業・標記關店
+                </button>
+              </div>
+            </div>
+          `;
+        }).join('');
+      }
+    }
+
+    function handleVerify(subId, action) {
+      const confirmText = action === 'approve' 
+        ? '確認已在 Google Maps 查驗此店家，並核准排入更新隊列？' 
+        : '確認在 Google Maps 查無此店或資料不符，駁回此筆申請？';
+
+      if (!confirm(confirmText)) return;
+
+      fetch('/api/verify', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ submissionId: subId, action: action })
+      }).then(r => r.json()).then(res => {
+        alert(res.message);
+        loadAdminData();
+      }).catch(err => {
+        alert('審核更新失敗：' + err);
+      });
+    }
+
+    // Publish action
+    document.getElementById('btnPublishUpdate').addEventListener('click', () => {
+      document.getElementById('publishModal').classList.add('open');
+    });
+
+    document.getElementById('btnConfirmPublish').addEventListener('click', function() {
+      const btn = this;
+      btn.disabled = true;
+      document.getElementById('publishProgress').style.display = 'block';
+
+      fetch('/api/auto-update', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ gitPush: true })
+      }).then(r => r.json()).then(res => {
+        btn.disabled = false;
+        document.getElementById('publishProgress').style.display = 'none';
+        closeModal('publishModal');
+        alert(res.message);
+        loadAdminData();
+      }).catch(err => {
+        btn.disabled = false;
+        document.getElementById('publishProgress').style.display = 'none';
+        alert('發布執行失敗：' + err);
+      });
+    });
+
+    function closeModal(id) { document.getElementById(id).classList.remove('open'); }
+
+    window.addEventListener('DOMContentLoaded', loadAdminData);
+  </script>
+</body>
+</html>

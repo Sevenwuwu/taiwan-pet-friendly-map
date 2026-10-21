@@ -3,12 +3,13 @@
 全台寵物友善餐廳地圖 - 後端服務 (Pet Map Backend Server)
 功能：
 - 靜態檔案服務 (HTML/JS/CSS)
-- 意見回饋 API: GET /api/feedback, POST /api/feedback
-- 推薦與上傳 API: POST /api/upload (經由 AI 後台審核)
-- 歇業與錯誤回報 API: POST /api/report (經由 AI 後台審核)
-- 自動更新 API: POST /api/auto-update (AI 批量審核、合併入庫、版本遞增、自動 git push)
+- 網站意見回饋 API: GET /api/feedback, POST /api/feedback (給本網站工具的回饋，無假資料)
+- 推薦新餐廳 API: POST /api/upload (經由後台審核隊列，供管理員至 Google Maps 查驗)
+- 歇業與錯誤回報 API: POST /api/report
+- 管理員審核 API: POST /api/verify (管理員在 Google Maps 查驗後進行核准/駁回)
+- 版本自動更新與同步 API: POST /api/auto-update (管理員專用：合併入庫、版本遞增、自動 git push)
 - 版本歷史查詢 API: GET /api/versions
-- 審核隊列查詢 API: GET /api/submissions
+- 待審核清單 API: GET /api/submissions
 - 餐廳即時資料 API: GET /api/places
 """
 
@@ -46,6 +47,8 @@ def save_json(path, data):
         json.dump(data, f, ensure_ascii=False, indent=2)
 
 class PetMapHandler(http.server.SimpleHTTPRequestHandler):
+    protocol_version = "HTTP/1.1"
+    
     def __init__(self, *args, **kwargs):
         super().__init__(*args, directory=BASE_DIR, **kwargs)
 
@@ -65,19 +68,19 @@ class PetMapHandler(http.server.SimpleHTTPRequestHandler):
             self.send_json_response(submissions)
             return
 
-        # 3. API: 旅人回饋意見清單
+        # 3. API: 網站意見回饋清單 (針對地圖網站本身的使用建議)
         if path == '/api/feedback':
             feedbacks = load_json(FEEDBACK_PATH, [])
             self.send_json_response(feedbacks)
             return
 
-        # 4. API: 即時店家數據
+        # 4. API: 即時店家數據 (純餐飲)
         if path == '/api/places':
             places = load_json(DATA_JSON_PATH, [])
             self.send_json_response(places)
             return
 
-        # 預設靜態檔案服務
+        # 預設靜態檔案服務 (支援 index.html, admin.html, data.js 等)
         return super().do_GET()
 
     def do_POST(self):
@@ -93,9 +96,9 @@ class PetMapHandler(http.server.SimpleHTTPRequestHandler):
 
         now_str = datetime.datetime.now().strftime('%Y-%m-%d %H:%M')
 
-        # 1. 使用者提交回饋意見 (/api/feedback)
+        # 1. 提交「網站意見回饋」 (/api/feedback) - 給網站的體驗與功能建議
         if path == '/api/feedback':
-            user_name = body.get('userName', '毛孩旅人').strip()
+            user_name = body.get('userName', '訪客').strip()
             comment = body.get('comment', '').strip()
             if not comment:
                 self.send_json_response({'success': False, 'message': '請填寫意見回饋內容！'}, status=400)
@@ -104,19 +107,16 @@ class PetMapHandler(http.server.SimpleHTTPRequestHandler):
             feedbacks = load_json(FEEDBACK_PATH, [])
             new_feedback = {
                 'id': f"fb-{len(feedbacks) + 1}",
-                'userName': user_name or '熱心毛孩爸媽',
-                'targetPlace': body.get('targetPlace', '全台寵物友善地圖'),
+                'userName': user_name or '訪客',
+                'category': body.get('category', '網站使用體驗'),
                 'rating': int(body.get('rating', 5)),
-                'category': body.get('category', '友善體驗心得'),
                 'comment': comment,
-                'petType': body.get('petType', '毛孩小夥伴'),
-                'date': now_str,
-                'likes': 0
+                'date': now_str
             }
             feedbacks.insert(0, new_feedback)
             save_json(FEEDBACK_PATH, feedbacks)
             
-            # 更新 data.js 的 window.PET_MAP_FEEDBACKS
+            # 同步至 data.js
             places = load_json(DATA_JSON_PATH, [])
             versions = load_json(VERSIONS_PATH, [])
             with open(DATA_JS_PATH, 'w', encoding='utf-8') as f:
@@ -133,14 +133,18 @@ class PetMapHandler(http.server.SimpleHTTPRequestHandler):
 
             self.send_json_response({
                 'success': True,
-                'message': '感謝您的寶貴回饋！意見已成功發布於旅人回饋區。',
+                'message': '感謝您的寶貴回饋！意見已成功送達。',
                 'feedback': new_feedback
             })
             return
 
-        # 2. 推薦新增餐廳 (/api/upload) -> 經 AI 後台即時審核
+        # 2. 推薦新增餐廳 (/api/upload) -> 進入待審核隊列，建立 Google Maps 查驗連結
         if path == '/api/upload':
-            if not body.get('name') or not body.get('city') or not body.get('address'):
+            name = body.get('name', '').strip()
+            city = body.get('city', '').strip()
+            address = body.get('address', '').strip()
+
+            if not name or not city or not address:
                 self.send_json_response({'success': False, 'message': '請完整填寫店名、縣市與門牌地址！'}, status=400)
                 return
 
@@ -150,50 +154,55 @@ class PetMapHandler(http.server.SimpleHTTPRequestHandler):
             lat = float(body.get('lat') or 24.1437)
             lng = float(body.get('lng') or 120.6622)
 
+            # 社群連結：只有使用者有填寫才保留，不自動塞假資料
+            website = body.get('website', '').strip()
+            facebook = body.get('facebook', '').strip()
+            instagram = body.get('instagram', '').strip()
+
+            google_map_url = f"https://www.google.com/maps/search/?api=1&query={urllib.parse.quote(name + ' ' + address)}"
+
             submission_payload = {
                 'id': sub_id,
                 'type': 'new_store',
-                'name': body['name'],
-                'legalName': body.get('legalName', body['name']),
+                'name': name,
+                'legalName': body.get('legalName', name).strip(),
                 'category': body.get('category', '特色餐廳'),
-                'city': body['city'],
-                'district': body.get('district', ''),
-                'address': body['address'],
-                'phone': body.get('phone', ''),
+                'city': city,
+                'district': body.get('district', '').strip(),
+                'address': address,
+                'phone': body.get('phone', '').strip(),
                 'lat': lat,
                 'lng': lng,
                 'petsAllowed': body.get('petsAllowed', ['犬', '貓']),
                 'rules': body.get('rules', ['牽繩可落地']),
-                'features': body.get('features', ['社群推薦友善餐廳']),
-                'submitter': body.get('submitter', '熱心毛孩爸媽'),
-                'note': body.get('note', ''),
-                'website': body.get('website', ''),
-                'facebook': body.get('facebook', ''),
-                'instagram': body.get('instagram', ''),
-                'googleMapUrl': body.get('googleMapUrl', ''),
+                'features': body.get('features', ['友善餐廳']),
+                'submitter': body.get('submitter', '訪客推薦').strip(),
+                'note': body.get('note', '').strip(),
+                'website': website,
+                'facebook': facebook,
+                'instagram': instagram,
+                'googleMapUrl': google_map_url,
+                'status': 'pending_review',  # 待管理員至 Google Maps 查證
                 'createdAt': now_str
             }
 
-            # 呼叫 AI 後台審核模組
+            # 執行後台 AI 初步格式與餐飲性檢核
             audited_sub, ai_audit_res = audit_submission(submission_payload)
             submissions.insert(0, audited_sub)
             save_json(SUBMISSIONS_PATH, submissions)
 
             self.send_json_response({
                 'success': True,
-                'aiVerdict': ai_audit_res['verdict'],
-                'aiConfidence': ai_audit_res['confidence'],
-                'aiReasoning': ai_audit_res['reasoning'],
                 'submission': audited_sub,
-                'message': f"【AI 審核完成：{ai_audit_res['verdict']}】{ai_audit_res['reasoning']}"
+                'message': '感謝您的推薦！店家資料已提交，管理員將於 Google Maps 查驗確認後正式發布入庫。'
             })
             return
 
-        # 3. 社群回報店家已歇業或資訊有誤 (/api/report) -> 經 AI 後台審核
+        # 3. 社群回報店家歇業 (/api/report)
         if path == '/api/report':
             target_id = body.get('targetPlaceId')
             report_type = body.get('reportType', 'closed')
-            reason = body.get('reason', '')
+            reason = body.get('reason', '').strip()
             
             if not target_id:
                 self.send_json_response({'success': False, 'message': '缺少目標店家 ID'}, status=400)
@@ -209,8 +218,8 @@ class PetMapHandler(http.server.SimpleHTTPRequestHandler):
                 'targetName': body.get('targetName', ''),
                 'reportType': report_type,
                 'reason': reason,
-                'reporter': body.get('reporter', '熱心毛爸媽'),
-                'proofUrl': body.get('proofUrl', ''),
+                'reporter': body.get('reporter', '訪客回報').strip(),
+                'status': 'pending_review',
                 'createdAt': now_str
             }
 
@@ -220,15 +229,47 @@ class PetMapHandler(http.server.SimpleHTTPRequestHandler):
 
             self.send_json_response({
                 'success': True,
-                'aiVerdict': ai_audit_res['verdict'],
-                'aiConfidence': ai_audit_res['confidence'],
-                'aiReasoning': ai_audit_res['reasoning'],
                 'report': audited_report,
-                'message': f"【AI 審核完成：{ai_audit_res['verdict']}】{ai_audit_res['reasoning']}"
+                'message': '感謝您的守護回報！管理員將比對 Google Maps 營運狀態後進行標記與更新。'
             })
             return
 
-        # 4. 觸發 AI 自動審核與版本更新 (/api/auto-update)
+        # 4. 管理員審核店家 (/api/verify) - 以 Google Maps 查核為依據
+        if path == '/api/verify':
+            sub_id = body.get('submissionId')
+            action = body.get('action', 'approve') # 'approve' or 'reject'
+            admin_note = body.get('note', '')
+            
+            submissions = load_json(SUBMISSIONS_PATH, [])
+            target = None
+            for s in submissions:
+                if s.get('id') == sub_id:
+                    target = s
+                    break
+                    
+            if not target:
+                self.send_json_response({'success': False, 'message': '查無此待審核項目'}, status=404)
+                return
+
+            if action == 'approve':
+                target['status'] = 'approved_pending_merge'
+                target['verified'] = True
+                target['adminNote'] = admin_note or 'Google Maps 查證營業中，核准入庫'
+            else:
+                target['status'] = 'rejected'
+                target['verified'] = False
+                target['adminNote'] = admin_note or 'Google Maps 查無此店或已永久歇業'
+
+            save_json(SUBMISSIONS_PATH, submissions)
+
+            self.send_json_response({
+                'success': True,
+                'message': f"審核成功！項目狀態已更新為：{target['status']}",
+                'submission': target
+            })
+            return
+
+        # 5. 管理員專用：觸發自動更新與發布 (/api/auto-update)
         if path == '/api/auto-update':
             auto_git = body.get('gitPush', True)
             try:
@@ -236,12 +277,12 @@ class PetMapHandler(http.server.SimpleHTTPRequestHandler):
                 self.send_json_response({
                     'success': True,
                     'result': update_result,
-                    'message': f"🎉 自動更新成功！已生成新版本 {update_result['version']}，同步維護全台純餐廳 {update_result['totalStores']} 家！"
+                    'message': f"🎉 更新發布成功！當前版本 {update_result['version']}，全台純餐廳共 {update_result['totalStores']} 家！"
                 })
             except Exception as e:
                 self.send_json_response({
                     'success': False,
-                    'message': f"自動更新執行失敗：{str(e)}"
+                    'message': f"更新執行失敗：{str(e)}"
                 }, status=500)
             return
 
@@ -266,9 +307,9 @@ class PetMapHandler(http.server.SimpleHTTPRequestHandler):
         self.end_headers()
 
 def run_server():
-    socketserver.TCPServer.allow_reuse_address = True
-    with socketserver.TCPServer(("", PORT), PetMapHandler) as httpd:
-        print(f"🚀 全台純寵物友善餐廳地圖服務 (含 AI 後台審核、意見回饋、版本自動發布) 啟動於 http://localhost:{PORT}/")
+    server_address = ("127.0.0.1", PORT)
+    with http.server.ThreadingHTTPServer(server_address, PetMapHandler) as httpd:
+        print(f"🚀 全台寵物友善餐廳地圖服務 (含後台 Google Maps 審核與網站意見回饋) 啟動於 http://127.0.0.1:{PORT}/")
         try:
             httpd.serve_forever()
         except KeyboardInterrupt:

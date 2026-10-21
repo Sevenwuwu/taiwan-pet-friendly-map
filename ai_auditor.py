@@ -146,29 +146,20 @@ def audit_submission(data):
     except:
         score -= 10
 
-    # 6. 自動補全社群與導航連結
+    # 6. 設定 Google Maps 查驗連結，社群連結僅於使用者提供時保留
     clean_name = re.sub(r'[\s\(\)（）/]+', ' ', name).strip()
-    tag_name = re.sub(r'[^\w\u4e00-\u9fff]+', '', clean_name)
-    
-    if not data.get('googleMapUrl'):
-        data['googleMapUrl'] = f"https://www.google.com/maps/search/?api=1&query={urllib.parse.quote(clean_name + ' ' + address)}"
-        
-    if not data.get('facebook'):
-        data['facebook'] = f"https://www.facebook.com/search/top?q={urllib.parse.quote(clean_name)}"
-        
-    if not data.get('instagram'):
-        data['instagram'] = f"https://www.instagram.com/explore/tags/{urllib.parse.quote(tag_name)}/"
-        
-    if not data.get('website'):
-        data['website'] = data['googleMapUrl']
+    data['googleMapUrl'] = f"https://www.google.com/maps/search/?api=1&query={urllib.parse.quote(clean_name + ' ' + address)}"
+    data['facebook'] = data.get('facebook', '').strip()
+    data['instagram'] = data.get('instagram', '').strip()
+    data['website'] = data.get('website', '').strip()
 
     # 7. 綜合判決
     confidence = min(1.0, max(0.0, score / 100.0))
     if score >= 70:
         verdict = 'APPROVED'
-        data['status'] = 'approved_pending_merge'
-        data['verified'] = True
-        summary = f"【AI 審核通過（信心度 {int(confidence*100)}%）】確認為真實台灣寵物友善餐飲空間，地址合規，已補全 Google Map/IG/FB 連結，核准進入自動版本更新！"
+        data['status'] = 'pending_review'  # 進入審核隊列，由管理者在 Google Maps 查驗後核准
+        data['verified'] = False
+        summary = f"【初步檢驗合規（信心度 {int(confidence*100)}%）】餐飲屬性與地址合規，已建立 Google Maps 查驗連結，待管理員確認 Google Maps 顯示狀態後核准！"
     elif score >= 45:
         verdict = 'NEEDS_MANUAL_REVIEW'
         data['status'] = 'pending_review'
