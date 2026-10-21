@@ -290,99 +290,6 @@
     "website": ""
   },
   {
-    "id": "tc-11",
-    "name": "HOLA 和樂家居 台中大墩店",
-    "legalName": "HOLA 和樂家居 台中大墩店",
-    "category": "特色餐廳",
-    "city": "臺中市",
-    "district": "南屯區",
-    "address": "臺中市南屯區大墩路533號1F",
-    "phone": "04-23101000",
-    "lat": 24.158165,
-    "lng": 120.65105,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "寵物推車(含尿布墊)"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true,
-    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=HOLA 和樂家居 台中大墩店+臺中市南屯區大墩路533號1F",
-    "facebook": "",
-    "instagram": "",
-    "website": ""
-  },
-  {
-    "id": "tc-12",
-    "name": "HOLA 和樂家居 台中西屯店",
-    "legalName": "HOLA 和樂家居 台中西屯店",
-    "category": "特色餐廳",
-    "city": "臺中市",
-    "district": "西屯區",
-    "address": "臺中市西屯區台灣大道四段528號",
-    "phone": "04-24625518",
-    "lat": 24.16787,
-    "lng": 120.640575,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "寵物推車(含尿布墊)"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true,
-    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=HOLA 和樂家居 台中西屯店+臺中市西屯區台灣大道四段528號",
-    "facebook": "",
-    "instagram": "",
-    "website": ""
-  },
-  {
-    "id": "tc-13",
-    "name": "HOLA台中北屯店",
-    "legalName": "特力屋股份有限公司和樂北屯分公司",
-    "category": "特色餐廳",
-    "city": "臺中市",
-    "district": "北屯區",
-    "address": "臺中市北屯區北屯路407-1號1F",
-    "phone": "04-22478000",
-    "lat": 24.18278,
-    "lng": 120.702425,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "寵物推車"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true,
-    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=HOLA台中北屯店+臺中市北屯區北屯路407-1號1F",
-    "facebook": "",
-    "instagram": "",
-    "website": ""
-  },
-  {
     "id": "tc-14",
     "name": "In Outdoor臥野",
     "legalName": "野蒼蘭咖啡廳",
@@ -410,37 +317,6 @@
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=In Outdoor臥野+臺中市太順二街168號",
-    "facebook": "",
-    "instagram": "",
-    "website": ""
-  },
-  {
-    "id": "tc-15",
-    "name": "It's衣著概念店",
-    "legalName": "伊肆衣著概念店",
-    "category": "特色餐廳",
-    "city": "臺中市",
-    "district": "北區",
-    "address": "臺中市北區一中街177號",
-    "phone": "04-22252219",
-    "lat": 24.149479,
-    "lng": 120.684465,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "飲水"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true,
-    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=It's衣著概念店+臺中市北區一中街177號",
     "facebook": "",
     "instagram": "",
     "website": ""
@@ -676,43 +552,6 @@
     "website": ""
   },
   {
-    "id": "tc-23",
-    "name": "PARK2草悟廣場",
-    "legalName": "行草悟道股份有限公司",
-    "category": "特色餐廳",
-    "city": "臺中市",
-    "district": "西區",
-    "address": "臺中市英才路534號",
-    "phone": "04-23050191",
-    "lat": 24.224582,
-    "lng": 120.569347,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "1.場域內提供寵物友善措施之餐廳",
-      "Molino：水煮蛋與麵包+盆器與寵物友善座位區",
-      "吐司利亞：炒蛋+盆器與寵物座墊",
-      "SUNMAI：寵物狗餅乾",
-      "SUNDAY：炒蛋+盆器",
-      "2.場域內若有寵物便溺於公共區域",
-      "清潔人員會隨時清潔處理。"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true,
-    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=PARK2草悟廣場+臺中市英才路534號",
-    "facebook": "",
-    "instagram": "",
-    "website": ""
-  },
-  {
     "id": "tc-25",
     "name": "Roundabout Cafe 圓環咖啡．大和店",
     "legalName": "圓環咖啡",
@@ -869,102 +708,6 @@
     "website": ""
   },
   {
-    "id": "tc-30",
-    "name": "WensCO文心會議室-共同工作空間",
-    "legalName": "毅達投資有限公司",
-    "category": "特色餐廳",
-    "city": "臺中市",
-    "district": "北屯區",
-    "address": "臺中市北屯區文心路四段936之1號2樓",
-    "phone": "04-22376859",
-    "lat": 24.17163,
-    "lng": 120.693036,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "1歡迎寵物進入並備有貓狗糧",
-      "飼主須自備器皿",
-      "避免衛生問題",
-      "2場地使用完畢會進行清消"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true,
-    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=WensCO文心會議室-共同工作空間+臺中市北屯區文心路四段936之1號2樓",
-    "facebook": "",
-    "instagram": "",
-    "website": ""
-  },
-  {
-    "id": "tc-31",
-    "name": "三澧企業股份有限公司",
-    "legalName": "Molino台中草悟廣場店",
-    "category": "特色餐廳",
-    "city": "臺中市",
-    "district": "西區",
-    "address": "台中市西區英才路534號B1樓(櫃號B102)",
-    "phone": "04-23020269",
-    "lat": 24.225386,
-    "lng": 120.568543,
-    "petsAllowed": [
-      "犬"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "1.提供寵物食物",
-      "2.定期消毒"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true,
-    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=三澧企業股份有限公司+台中市西區英才路534號B1樓(櫃號B102)",
-    "facebook": "",
-    "instagram": "",
-    "website": ""
-  },
-  {
-    "id": "tc-32",
-    "name": "丸文食品",
-    "legalName": "丸文調理食品有限公司光復店",
-    "category": "特色餐廳",
-    "city": "臺中市",
-    "district": "中區",
-    "address": "臺中市中區光復路30-1號",
-    "phone": "04-36086789",
-    "lat": 24.134825,
-    "lng": 120.677255,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "可進入室內空間"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true,
-    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=丸文食品+臺中市中區光復路30-1號",
-    "facebook": "",
-    "instagram": "",
-    "website": ""
-  },
-  {
     "id": "tc-34",
     "name": "井閣鍋物",
     "legalName": "燊咏商行",
@@ -992,43 +735,6 @@
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=井閣鍋物+臺中市美村路一段25號",
-    "facebook": "",
-    "instagram": "",
-    "website": ""
-  },
-  {
-    "id": "tc-35",
-    "name": "交通部觀光署參山國家風景區管理處",
-    "legalName": "交通部觀光署參山國家風景區管理處",
-    "category": "特色餐廳",
-    "city": "臺中市",
-    "district": "霧峰區",
-    "address": "臺中市霧峰區中正路738號",
-    "phone": "04-23312678#540",
-    "lat": 24.05887,
-    "lng": 120.694515,
-    "petsAllowed": [
-      "犬",
-      "貓",
-      "其他"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "1.訂定本處寵物友善職場實施計畫",
-      "開放同仁及洽公民眾攜帶寵物至辦公場所。",
-      "2.每年舉辦1場寵物交流活動",
-      "準備寵物點心",
-      "玩具等",
-      "供同仁攜帶之寵物利用。"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true,
-    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=交通部觀光署參山國家風景區管理處+臺中市霧峰區中正路738號",
     "facebook": "",
     "instagram": "",
     "website": ""
@@ -1161,38 +867,6 @@
     "website": ""
   },
   {
-    "id": "tc-42",
-    "name": "勤美 誠品綠園道",
-    "legalName": "勤美股份有限公司台中分公司",
-    "category": "特色餐廳",
-    "city": "臺中市",
-    "district": "西區",
-    "address": "臺中市公益路68號底二層至三樓",
-    "phone": "04-23281000",
-    "lat": 24.147315,
-    "lng": 120.662395,
-    "petsAllowed": [
-      "犬",
-      "貓",
-      "其他"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "1F戶外廊道設立寵物牽繩把手"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true,
-    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=勤美 誠品綠園道+臺中市公益路68號底二層至三樓",
-    "facebook": "",
-    "instagram": "",
-    "website": ""
-  },
-  {
     "id": "tc-43",
     "name": "北緯二十四 Latitude 24",
     "legalName": "北緯二十四 Latitude 24",
@@ -1222,37 +896,6 @@
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=北緯二十四 Latitude 24+臺中市中區建國路111號1樓",
-    "facebook": "",
-    "instagram": "",
-    "website": ""
-  },
-  {
-    "id": "tc-44",
-    "name": "匯眾租賃有限公司",
-    "legalName": "匯眾租賃有限公司",
-    "category": "特色餐廳",
-    "city": "臺中市",
-    "district": "西屯區",
-    "address": "臺中市西屯區環中路三段762號",
-    "phone": "04-22512542",
-    "lat": 24.168785,
-    "lng": 120.637125,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "消毒車輛"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true,
-    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=匯眾租賃有限公司+臺中市西屯區環中路三段762號",
     "facebook": "",
     "instagram": "",
     "website": ""
@@ -1320,38 +963,6 @@
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=古典小熊屋+臺中市北區三民路三段201巷29號",
-    "facebook": "",
-    "instagram": "",
-    "website": ""
-  },
-  {
-    "id": "tc-47",
-    "name": "台中保時捷中心",
-    "legalName": "汎德永業汽車股份有限公司永業台中分公司",
-    "category": "特色餐廳",
-    "city": "臺中市",
-    "district": "南區",
-    "address": "臺中市南區文心南路545號",
-    "phone": "04-22587911",
-    "lat": 24.124005,
-    "lng": 120.65801,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "寵物食物",
-      "寵物墊"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true,
-    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=台中保時捷中心+臺中市南區文心南路545號",
     "facebook": "",
     "instagram": "",
     "website": ""
@@ -1518,68 +1129,6 @@
     "website": ""
   },
   {
-    "id": "tc-56",
-    "name": "嘉寀萌商務中心",
-    "legalName": "嘉寀萌有限公司",
-    "category": "特色餐廳",
-    "city": "臺中市",
-    "district": "北區",
-    "address": "臺中市北區中清路一段89號15樓",
-    "phone": "04-22021455",
-    "lat": 24.16375,
-    "lng": 120.6796,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "寵物飲水"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true,
-    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=嘉寀萌商務中心+臺中市北區中清路一段89號15樓",
-    "facebook": "",
-    "instagram": "",
-    "website": ""
-  },
-  {
-    "id": "tc-57",
-    "name": "國家自然公園管理處臺中都會公園",
-    "legalName": "國家自然公園管理處臺中都會公園",
-    "category": "特色餐廳",
-    "city": "臺中市",
-    "district": "西屯區",
-    "address": "臺中市西屯區都會園路1215巷140號",
-    "phone": "04-24612483",
-    "lat": 24.175715,
-    "lng": 120.6402,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "允許寵物進入公園"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true,
-    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=國家自然公園管理處臺中都會公園+臺中市西屯區都會園路1215巷140號",
-    "facebook": "",
-    "instagram": "",
-    "website": ""
-  },
-  {
     "id": "tc-58",
     "name": "在來飲食店",
     "legalName": "在來碗粿米糕專門",
@@ -1703,303 +1252,6 @@
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=好果實商行+臺中市南區忠明南路1160號",
-    "facebook": "",
-    "instagram": "",
-    "website": ""
-  },
-  {
-    "id": "tc-65",
-    "name": "好狗命寵物幸福生活城-大墩店",
-    "legalName": "魚中魚樂活有限公司大墩分公司",
-    "category": "特色餐廳",
-    "city": "臺中市",
-    "district": "南屯區",
-    "address": "臺中市南屯區文心路一段385號",
-    "phone": "04-22596659",
-    "lat": 24.146322,
-    "lng": 120.647977,
-    "petsAllowed": [
-      "犬",
-      "貓",
-      "其他"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "1.動物入內可落地",
-      "2.提供寵物美容及寵物用品販售之服務"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true,
-    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=好狗命寵物幸福生活城-大墩店+臺中市南屯區文心路一段385號",
-    "facebook": "",
-    "instagram": "",
-    "website": ""
-  },
-  {
-    "id": "tc-66",
-    "name": "好狗運貓狗福利中心-上石店",
-    "legalName": "大魚寵物有限公司上石分公司",
-    "category": "特色餐廳",
-    "city": "臺中市",
-    "district": "西屯區",
-    "address": "臺中市西屯區上石路190-2號",
-    "phone": "04-27069666",
-    "lat": 24.167166,
-    "lng": 120.645151,
-    "petsAllowed": [
-      "犬",
-      "貓",
-      "其他"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "1.動物入內可落地",
-      "2.提供寵物美容及寵物用品販售之服務"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true,
-    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=好狗運貓狗福利中心-上石店+臺中市西屯區上石路190-2號",
-    "facebook": "",
-    "instagram": "",
-    "website": ""
-  },
-  {
-    "id": "tc-67",
-    "name": "好狗運貓狗福利中心-六順店",
-    "legalName": "大魚寵物有限公司六順分公司",
-    "category": "特色餐廳",
-    "city": "臺中市",
-    "district": "東區",
-    "address": "臺中市東區環中東路五段130號",
-    "phone": "04-24811888",
-    "lat": 24.132915,
-    "lng": 120.693995,
-    "petsAllowed": [
-      "犬",
-      "貓",
-      "其他"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "1.動物入內可落地",
-      "2.提供寵物美容及寵物用品販售之服務"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true,
-    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=好狗運貓狗福利中心-六順店+臺中市東區環中東路五段130號",
-    "facebook": "",
-    "instagram": "",
-    "website": ""
-  },
-  {
-    "id": "tc-68",
-    "name": "好狗運貓狗福利中心-十甲店",
-    "legalName": "大魚寵物有限公司十甲分公司",
-    "category": "特色餐廳",
-    "city": "臺中市",
-    "district": "東區",
-    "address": "臺中市東區十甲東路616號",
-    "phone": "04-22118807",
-    "lat": 24.138945,
-    "lng": 120.70262,
-    "petsAllowed": [
-      "犬",
-      "貓",
-      "其他"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "1.動物入內可落地",
-      "2.提供寵物美容及寵物用品販售之服務"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true,
-    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=好狗運貓狗福利中心-十甲店+臺中市東區十甲東路616號",
-    "facebook": "",
-    "instagram": "",
-    "website": ""
-  },
-  {
-    "id": "tc-69",
-    "name": "好狗運貓狗福利中心-建成店",
-    "legalName": "大魚寵物有限公司建成分公司",
-    "category": "特色餐廳",
-    "city": "臺中市",
-    "district": "東區",
-    "address": "臺中市東區建成路669號",
-    "phone": "04-22118807",
-    "lat": 24.14106,
-    "lng": 120.699335,
-    "petsAllowed": [
-      "犬",
-      "貓",
-      "其他"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "1.動物入內可落地",
-      "2.提供寵物用品販售之服務"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true,
-    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=好狗運貓狗福利中心-建成店+臺中市東區建成路669號",
-    "facebook": "",
-    "instagram": "",
-    "website": ""
-  },
-  {
-    "id": "tc-70",
-    "name": "好狗運貓狗福利中心-潭通店",
-    "legalName": "大魚寵物有限公司 潭通分公司",
-    "category": "特色餐廳",
-    "city": "臺中市",
-    "district": "潭子區",
-    "address": "臺中市潭子區圓通南路176號",
-    "phone": "04-25381888",
-    "lat": 24.21294,
-    "lng": 120.69995,
-    "petsAllowed": [
-      "犬",
-      "貓",
-      "其他"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "1.動物入內可落地",
-      "2.提供寵物用品販售之服務"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true,
-    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=好狗運貓狗福利中心-潭通店+臺中市潭子區圓通南路176號",
-    "facebook": "",
-    "instagram": "",
-    "website": ""
-  },
-  {
-    "id": "tc-71",
-    "name": "好狗運貓狗福利中心–嶺東店",
-    "legalName": "魚中魚樂活有限公司嶺東分公司",
-    "category": "特色餐廳",
-    "city": "臺中市",
-    "district": "南屯區",
-    "address": "臺中市南屯區永春南路1-20號",
-    "phone": "04-23862266",
-    "lat": 24.140026,
-    "lng": 120.586246,
-    "petsAllowed": [
-      "犬",
-      "貓",
-      "其他"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "1.動物入內可落地",
-      "2.提供寵物美容及寵物用品販售之服務"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true,
-    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=好狗運貓狗福利中心–嶺東店+臺中市南屯區永春南路1-20號",
-    "facebook": "",
-    "instagram": "",
-    "website": ""
-  },
-  {
-    "id": "tc-72",
-    "name": "好狗運貓狗福利中心–豐東店",
-    "legalName": "大魚寵物有限公司豐原分公司",
-    "category": "特色餐廳",
-    "city": "臺中市",
-    "district": "豐原區",
-    "address": "臺中市豐原區圓環東路 528 號",
-    "phone": "04-25229666",
-    "lat": 24.248905,
-    "lng": 120.71364,
-    "petsAllowed": [
-      "犬",
-      "貓",
-      "其他"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "1.動物入內可落地",
-      "2.提供寵物美容及寵物用品販售之服務"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true,
-    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=好狗運貓狗福利中心–豐東店+臺中市豐原區圓環東路 528 號",
-    "facebook": "",
-    "instagram": "",
-    "website": ""
-  },
-  {
-    "id": "tc-73",
-    "name": "好狗運貓狗福利中心–雅潭店",
-    "legalName": "大魚寵物有限公司雅潭分公司",
-    "category": "特色餐廳",
-    "city": "臺中市",
-    "district": "潭子區",
-    "address": "臺中市潭子區崇德路四段467-1號",
-    "phone": "04-25315599",
-    "lat": 24.201915,
-    "lng": 120.711455,
-    "petsAllowed": [
-      "犬",
-      "貓",
-      "其他"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "1.動物入內可落地",
-      "2.提供寵物美容及寵物用品販售之服務"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true,
-    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=好狗運貓狗福利中心–雅潭店+臺中市潭子區崇德路四段467-1號",
     "facebook": "",
     "instagram": "",
     "website": ""
@@ -2263,37 +1515,6 @@
     "website": ""
   },
   {
-    "id": "tc-83",
-    "name": "希琪生活館",
-    "legalName": "希琪生活館",
-    "category": "特色餐廳",
-    "city": "臺中市",
-    "district": "南屯區",
-    "address": "臺中市南屯區大業路361號1樓",
-    "phone": "0920-369716",
-    "lat": 24.13188,
-    "lng": 120.638265,
-    "petsAllowed": [
-      "犬"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "寵物飲用水",
-      "定期消毒"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true,
-    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=希琪生活館+臺中市南屯區大業路361號1樓",
-    "facebook": "",
-    "instagram": "",
-    "website": ""
-  },
-  {
     "id": "tc-84",
     "name": "幸福好食咖啡Homecafe",
     "legalName": "幸福好食咖啡Homecafe",
@@ -2352,38 +1573,6 @@
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=庫克美式燒烤Bar+臺中市北區漢口路三段46號",
-    "facebook": "",
-    "instagram": "",
-    "website": ""
-  },
-  {
-    "id": "tc-88",
-    "name": "怡 喵旅",
-    "legalName": "馥浩興業社",
-    "category": "特色餐廳",
-    "city": "臺中市",
-    "district": "西屯區",
-    "address": "臺中市西屯區文心路三段120號",
-    "phone": "04-23157558",
-    "lat": 24.16808,
-    "lng": 120.63663,
-    "petsAllowed": [
-      "犬",
-      "貓",
-      "其他"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "寵物飲水及專用碗"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true,
-    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=怡 喵旅+臺中市西屯區文心路三段120號",
     "facebook": "",
     "instagram": "",
     "website": ""
@@ -2581,37 +1770,6 @@
     "website": ""
   },
   {
-    "id": "tc-95",
-    "name": "日拓不動產有限公司",
-    "legalName": "日拓不動產有限公司",
-    "category": "特色餐廳",
-    "city": "臺中市",
-    "district": "烏日區",
-    "address": "臺中市烏日區中山路三段546-28號",
-    "phone": "04-23385626",
-    "lat": 24.112565,
-    "lng": 120.584597,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "提供寵物食物"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true,
-    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=日拓不動產有限公司+臺中市烏日區中山路三段546-28號",
-    "facebook": "",
-    "instagram": "",
-    "website": ""
-  },
-  {
     "id": "tc-98",
     "name": "望高莊園",
     "legalName": "望高餐飲部",
@@ -2676,7 +1834,7 @@
   },
   {
     "id": "tc-100",
-    "name": "森林小徑餐飲有限公司大墩分公司",
+    "name": "森林小徑-大墩店（親子寵物友善餐廳）",
     "legalName": "森林小徑餐飲有限公司大墩分公司",
     "category": "特色餐廳",
     "city": "臺中市",
@@ -3002,42 +2160,6 @@
     "website": ""
   },
   {
-    "id": "tc-113",
-    "name": "海灣樂世界 HiONE 啵比星球",
-    "legalName": "海灣樂世界股份有限公司",
-    "category": "特色餐廳",
-    "city": "臺中市",
-    "district": "北屯區",
-    "address": "臺中市北屯區東山路二段151-2號",
-    "phone": "04-22399520",
-    "lat": 24.17834,
-    "lng": 120.692195,
-    "petsAllowed": [
-      "犬",
-      "貓",
-      "其他"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "寵物泳池",
-      "寵物放風草原",
-      "寵物餐點",
-      "寵物美容",
-      "寵物寄宿"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true,
-    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=海灣樂世界 HiONE 啵比星球+臺中市北屯區東山路二段151-2號",
-    "facebook": "",
-    "instagram": "",
-    "website": ""
-  },
-  {
     "id": "tc-115",
     "name": "淳垚鍋物",
     "legalName": "港垚有限公司",
@@ -3299,71 +2421,6 @@
     "website": ""
   },
   {
-    "id": "tc-127",
-    "name": "綠光計畫",
-    "legalName": "范特喜微創文化股份有限公司",
-    "category": "特色餐廳",
-    "city": "臺中市",
-    "district": "西區",
-    "address": "臺中市中興一巷19號",
-    "phone": "04-23050519",
-    "lat": 24.14274,
-    "lng": 120.65578,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "定期消毒"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true,
-    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=綠光計畫+臺中市中興一巷19號",
-    "facebook": "",
-    "instagram": "",
-    "website": ""
-  },
-  {
-    "id": "tc-129",
-    "name": "美好年代餐飲顧問有限公司",
-    "legalName": "美好年代餐飲顧問有限公司",
-    "category": "特色餐廳",
-    "city": "臺中市",
-    "district": "西區",
-    "address": "臺中市西區模範街31巷7弄7號",
-    "phone": "04-23020330",
-    "lat": 24.148992,
-    "lng": 120.667142,
-    "petsAllowed": [
-      "犬",
-      "貓",
-      "其他"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "寵物餐",
-      "寵物用水",
-      "有庭院可以散步"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true,
-    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=美好年代餐飲顧問有限公司+臺中市西區模範街31巷7弄7號",
-    "facebook": "",
-    "instagram": "",
-    "website": ""
-  },
-  {
     "id": "tc-138",
     "name": "肉肉燒肉五權店",
     "legalName": "幸福肉肉燒肉店",
@@ -3456,68 +2513,6 @@
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=背包客饞+臺中市南屯區文心南二路396號",
-    "facebook": "",
-    "instagram": "",
-    "website": ""
-  },
-  {
-    "id": "tc-142",
-    "name": "臺中市大雅區公所",
-    "legalName": "臺中市大雅區公所",
-    "category": "特色餐廳",
-    "city": "臺中市",
-    "district": "大雅區",
-    "address": "臺中市大雅區雅環路二段301號",
-    "phone": "04-25663316",
-    "lat": 24.227864,
-    "lng": 120.650687,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "設置狗便袋箱"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true,
-    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=臺中市大雅區公所+臺中市大雅區雅環路二段301號",
-    "facebook": "",
-    "instagram": "",
-    "website": ""
-  },
-  {
-    "id": "tc-143",
-    "name": "臺中市霧峰區公所",
-    "legalName": "臺中市霧峰區公所",
-    "category": "特色餐廳",
-    "city": "臺中市",
-    "district": "霧峰區",
-    "address": "臺中市霧峰區本堂里大同路20號",
-    "phone": "0423397128",
-    "lat": 24.06373,
-    "lng": 120.695925,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "定期消毒"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true,
-    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=臺中市霧峰區公所+臺中市霧峰區本堂里大同路20號",
     "facebook": "",
     "instagram": "",
     "website": ""
@@ -3715,7 +2710,7 @@
   },
   {
     "id": "tc-151",
-    "name": "貓邸老咖有限公司",
+    "name": "貓邸老咖（狐獴貓咪主題餐廳）",
     "legalName": "貓邸老咖有限公司",
     "category": "特色餐廳",
     "city": "臺中市",
@@ -3773,38 +2768,6 @@
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=逗戶雞蛋糕+臺中市西區精誠十五街36號",
-    "facebook": "",
-    "instagram": "",
-    "website": ""
-  },
-  {
-    "id": "tc-153",
-    "name": "運通機車出租",
-    "legalName": "鑫運通小客車租賃有限公司",
-    "category": "特色餐廳",
-    "city": "臺中市",
-    "district": "中區",
-    "address": "臺中市中區建國路212號",
-    "phone": "04-22250698",
-    "lat": 24.134555,
-    "lng": 120.68225,
-    "petsAllowed": [
-      "犬",
-      "貓",
-      "其他"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "室內空間"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true,
-    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=運通機車出租+臺中市中區建國路212號",
     "facebook": "",
     "instagram": "",
     "website": ""
@@ -3869,69 +2832,6 @@
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=野菜共和國+臺中市西區博館路111號",
-    "facebook": "",
-    "instagram": "",
-    "website": ""
-  },
-  {
-    "id": "tc-156",
-    "name": "金典 綠園道商場",
-    "legalName": "日華金典國際酒店股份有限公司中港分公司",
-    "category": "特色餐廳",
-    "city": "臺中市",
-    "district": "西區",
-    "address": "臺中市健行路1049號",
-    "phone": "04-23198000",
-    "lat": 24.1425,
-    "lng": 120.655915,
-    "petsAllowed": [
-      "犬",
-      "貓",
-      "其他"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "館內每月定期消毒2次"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true,
-    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=金典 綠園道商場+臺中市健行路1049號",
-    "facebook": "",
-    "instagram": "",
-    "website": ""
-  },
-  {
-    "id": "tc-157",
-    "name": "金沙時尚有限公司",
-    "legalName": "金沙時尚有限公司",
-    "category": "特色餐廳",
-    "city": "臺中市",
-    "district": "北區",
-    "address": "臺中市北區太平路201號",
-    "phone": "0422083388",
-    "lat": 24.120993,
-    "lng": 120.720071,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "寵物食物"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true,
-    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=金沙時尚有限公司+臺中市北區太平路201號",
     "facebook": "",
     "instagram": "",
     "website": ""
@@ -4031,39 +2931,6 @@
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=阿金食堂+臺中市大雅區雅環路一段154巷18號",
-    "facebook": "",
-    "instagram": "",
-    "website": ""
-  },
-  {
-    "id": "tc-162",
-    "name": "露達寵物生活工坊",
-    "legalName": "露達寵物工坊",
-    "category": "特色餐廳",
-    "city": "臺中市",
-    "district": "霧峰區",
-    "address": "臺中市霧峰區中正路750號1樓",
-    "phone": "0981816720",
-    "lat": 24.05905,
-    "lng": 120.6945,
-    "petsAllowed": [
-      "犬",
-      "貓",
-      "其他"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "提供寵物食物",
-      "定期消毒"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true,
-    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=露達寵物生活工坊+臺中市霧峰區中正路750號1樓",
     "facebook": "",
     "instagram": "",
     "website": ""
@@ -4392,366 +3259,6 @@
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=養鍋水湳經貿店+臺中市西屯區中平路161號",
-    "facebook": "",
-    "instagram": "",
-    "website": ""
-  },
-  {
-    "id": "tc-174",
-    "name": "魔技健康運動休閒用品有限公司",
-    "legalName": "魔技健康運動休閒用品有限公司",
-    "category": "特色餐廳",
-    "city": "臺中市",
-    "district": "西屯區",
-    "address": "臺中市西屯區福星北路31號",
-    "phone": "04-24630152",
-    "lat": 24.187079,
-    "lng": 120.640667,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "遊戲區",
-      "定期消毒"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true,
-    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=魔技健康運動休閒用品有限公司+臺中市西屯區福星北路31號",
-    "facebook": "",
-    "instagram": "",
-    "website": ""
-  },
-  {
-    "id": "tc-175",
-    "name": "魚中魚貓狗水族大賣場-北屯店",
-    "legalName": "魚中魚樂活有限公司北屯分公司",
-    "category": "特色餐廳",
-    "city": "臺中市",
-    "district": "北屯區",
-    "address": "臺中市北屯區文心路四段 319 號",
-    "phone": "04-22478866",
-    "lat": 24.169826,
-    "lng": 120.6927,
-    "petsAllowed": [
-      "犬",
-      "貓",
-      "其他"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "1.動物入內可落地",
-      "2.提供寵物美容及寵物用品販售之服務"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true,
-    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=魚中魚貓狗水族大賣場-北屯店+臺中市北屯區文心路四段 319 號",
-    "facebook": "",
-    "instagram": "",
-    "website": ""
-  },
-  {
-    "id": "tc-176",
-    "name": "魚中魚貓狗水族大賣場-南屯店",
-    "legalName": "魚中魚樂活有限公司南屯分公司",
-    "category": "特色餐廳",
-    "city": "臺中市",
-    "district": "南屯區",
-    "address": "臺中市南屯區五權西路二段80號",
-    "phone": "04-24732266",
-    "lat": 24.13398,
-    "lng": 120.64158,
-    "petsAllowed": [
-      "犬",
-      "貓",
-      "其他"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "1.動物入內可落地",
-      "2.提供寵物美容及寵物用品販售之服務"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true,
-    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=魚中魚貓狗水族大賣場-南屯店+臺中市南屯區五權西路二段80號",
-    "facebook": "",
-    "instagram": "",
-    "website": ""
-  },
-  {
-    "id": "tc-177",
-    "name": "魚中魚貓狗水族大賣場-大里店",
-    "legalName": "大魚寵物有限公司",
-    "category": "特色餐廳",
-    "city": "臺中市",
-    "district": "大里區",
-    "address": "臺中市大里區國光路二段505號",
-    "phone": "04-24073388",
-    "lat": 24.09535,
-    "lng": 120.680695,
-    "petsAllowed": [
-      "犬",
-      "貓",
-      "其他"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "1.動物入內可落地",
-      "2.提供寵物美容及寵物用品販售之服務"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true,
-    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=魚中魚貓狗水族大賣場-大里店+臺中市大里區國光路二段505號",
-    "facebook": "",
-    "instagram": "",
-    "website": ""
-  },
-  {
-    "id": "tc-178",
-    "name": "魚中魚貓狗水族大賣場-文心店",
-    "legalName": "慶福水族有限公司",
-    "category": "特色餐廳",
-    "city": "臺中市",
-    "district": "南屯區",
-    "address": "臺中市南屯區文心路一段372號",
-    "phone": "04-23292999",
-    "lat": 24.14475,
-    "lng": 120.644925,
-    "petsAllowed": [
-      "犬",
-      "貓",
-      "其他"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "1.動物入內可落地",
-      "2.提供寵物美容及寵物用品販售之服務"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true,
-    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=魚中魚貓狗水族大賣場-文心店+臺中市南屯區文心路一段372號",
-    "facebook": "",
-    "instagram": "",
-    "website": ""
-  },
-  {
-    "id": "tc-179",
-    "name": "魚中魚貓狗水族大賣場-文昌店",
-    "legalName": "大魚寵物有限公司文昌分公司",
-    "category": "特色餐廳",
-    "city": "臺中市",
-    "district": "北屯區",
-    "address": "臺中市北屯區文心路四段 806 號",
-    "phone": "04-22368818",
-    "lat": 24.171038,
-    "lng": 120.691948,
-    "petsAllowed": [
-      "犬",
-      "貓",
-      "其他"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "1.動物入內可落地",
-      "2.提供寵物美容及寵物用品販售之服務"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true,
-    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=魚中魚貓狗水族大賣場-文昌店+臺中市北屯區文心路四段 806 號",
-    "facebook": "",
-    "instagram": "",
-    "website": ""
-  },
-  {
-    "id": "tc-180",
-    "name": "魚中魚貓狗水族大賣場-清水店",
-    "legalName": "魚中魚貓狗水族大賣場-清水店",
-    "category": "特色餐廳",
-    "city": "臺中市",
-    "district": "清水區",
-    "address": "臺中市清水區武鹿里五權路63號",
-    "phone": "04-26269977",
-    "lat": 24.268375,
-    "lng": 120.579455,
-    "petsAllowed": [
-      "犬",
-      "貓",
-      "其他"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "寵物飲水",
-      "提供酒精或乾洗手",
-      "協助清潔便溺物"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true,
-    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=魚中魚貓狗水族大賣場-清水店+臺中市清水區武鹿里五權路63號",
-    "facebook": "",
-    "instagram": "",
-    "website": ""
-  },
-  {
-    "id": "tc-181",
-    "name": "魚中魚貓狗水族大賣場–豐原店",
-    "legalName": "魚中魚樂活有限公司豐原分公司",
-    "category": "特色餐廳",
-    "city": "臺中市",
-    "district": "豐原區",
-    "address": "臺中市豐原區豐原大道六段 835 號",
-    "phone": "04-25158666",
-    "lat": 24.259495,
-    "lng": 120.71223,
-    "petsAllowed": [
-      "犬",
-      "貓",
-      "其他"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "1.動物入內可落地",
-      "2.提供寵物美容及寵物用品販售之服務"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true,
-    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=魚中魚貓狗水族大賣場–豐原店+臺中市豐原區豐原大道六段 835 號",
-    "facebook": "",
-    "instagram": "",
-    "website": ""
-  },
-  {
-    "id": "tc-182",
-    "name": "鵝牌氣密窗",
-    "legalName": "鵝牌科技有限公司",
-    "category": "特色餐廳",
-    "city": "臺中市",
-    "district": "沙鹿區",
-    "address": "臺中市沙鹿區東大路二段1536號",
-    "phone": "0426150066",
-    "lat": 24.214356,
-    "lng": 120.613501,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "寵物飲用水",
-      "飲水器"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true,
-    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=鵝牌氣密窗+臺中市沙鹿區東大路二段1536號",
-    "facebook": "",
-    "instagram": "",
-    "website": ""
-  },
-  {
-    "id": "tc-183",
-    "name": "麗寶OutletMall",
-    "legalName": "麗鑫綜合百貨股份有限公司",
-    "category": "特色餐廳",
-    "city": "臺中市",
-    "district": "后里區",
-    "address": "臺中市后里區福容路201號",
-    "phone": "0437022888",
-    "lat": 24.323495,
-    "lng": 120.695606,
-    "petsAllowed": [
-      "犬",
-      "貓",
-      "其他"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "租借寵物推車",
-      "館內有標示可進入之狗狗友善商店"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true,
-    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=麗寶OutletMall+臺中市后里區福容路201號",
-    "facebook": "",
-    "instagram": "",
-    "website": ""
-  },
-  {
-    "id": "tc-184",
-    "name": "麗都賓館",
-    "legalName": "麗都企業社",
-    "category": "特色餐廳",
-    "city": "臺中市",
-    "district": "西屯區",
-    "address": "臺中市西屯區中康街81號",
-    "phone": "04-24250016",
-    "lat": 24.162335,
-    "lng": 120.636915,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地",
-      "遵守動保處友善規範"
-    ],
-    "features": [
-      "寵物可與主人共床"
-    ],
-    "source": "臺中市動物保護防疫處 (官方認證)",
-    "sourceUrl": "https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539",
-    "verified": true,
-    "highlight": true,
-    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=麗都賓館+臺中市西屯區中康街81號",
     "facebook": "",
     "instagram": "",
     "website": ""
@@ -7372,40 +5879,6 @@
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=啼岸VeganResort+臺北市中正區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
-  },
-  {
-    "id": "tpe-80",
-    "name": "台北北投雅樂軒 Aloft Taipei Beitou",
-    "legalName": "台北北投雅樂軒 Aloft Taipei Beitou(聚聚樂餐廳)",
-    "category": "特色餐廳",
-    "city": "臺北市",
-    "district": "北投區",
-    "address": "臺北市北投區（台北動保處登錄動物友善空間）",
-    "phone": "依店家現場公告為準",
-    "lat": 25.128198,
-    "lng": 121.497973,
-    "petsAllowed": [
-      "犬",
-      "(大/中/小型)",
-      "貓"
-    ],
-    "rules": [
-      "不可落地",
-      "僅開放戶外餐廳露臺落地"
-    ],
-    "features": [
-      "寵物餐",
-      "寵物專用餐具",
-      "寵物奔跑空間"
-    ],
-    "source": "臺北市動物保護處 (官方認證)",
-    "sourceUrl": "https://www.tcapo.gov.taipei/",
-    "verified": true,
-    "highlight": false,
-    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=台北北投雅樂軒 Aloft Taipei Beitou+臺北市北投區（台北動保處登錄動物友善空間）",
     "facebook": "",
     "instagram": "",
     "website": "https://www.tcapo.gov.taipei/"
@@ -11465,37 +9938,6 @@
     "website": "https://www.tcapo.gov.taipei/"
   },
   {
-    "id": "tpe-204",
-    "name": "西湖市場",
-    "legalName": "西湖市場",
-    "category": "特色餐廳",
-    "city": "臺北市",
-    "district": "松山區",
-    "address": "臺北市松山區（台北動保處登錄動物友善空間）",
-    "phone": "依店家現場公告為準",
-    "lat": 25.082461,
-    "lng": 121.566558,
-    "petsAllowed": [
-      "犬(大/中/小型)、貓"
-    ],
-    "rules": [
-      "無限制",
-      "可落地"
-    ],
-    "features": [
-      "無",
-      "提供酒精或乾洗手"
-    ],
-    "source": "臺北市動物保護處 (官方認證)",
-    "sourceUrl": "https://www.tcapo.gov.taipei/",
-    "verified": true,
-    "highlight": false,
-    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=西湖市場+臺北市松山區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
-  },
-  {
     "id": "tpe-205",
     "name": "米蘇之間早餐工坊 (原東方美永吉店)",
     "legalName": "米蘇之間早餐工坊 (原東方美永吉店)",
@@ -14657,37 +13099,6 @@
     "website": ""
   },
   {
-    "id": "tn-6",
-    "name": "沛里歐企業社",
-    "legalName": "沛里歐企業社",
-    "category": "特色餐廳",
-    "city": "臺南市",
-    "district": "中西區",
-    "address": "臺南市中西區樹林街二段67號",
-    "phone": "06-2132153",
-    "lat": 22.985555,
-    "lng": 120.205574,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地"
-    ],
-    "features": [
-      "友善空間之定期消毒"
-    ],
-    "source": "臺南市動物防疫保護處 (官方標章認證)",
-    "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
-    "verified": true,
-    "status": "OPERATIONAL",
-    "highlight": true,
-    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=沛里歐企業社+臺南市中西區樹林街二段67號",
-    "facebook": "",
-    "instagram": "",
-    "website": ""
-  },
-  {
     "id": "tn-7",
     "name": "初食手作廚房",
     "legalName": "初食手作廚房",
@@ -14714,37 +13125,6 @@
     "status": "OPERATIONAL",
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=初食手作廚房+臺南市中西區樹林街二段42號1樓",
-    "facebook": "",
-    "instagram": "",
-    "website": ""
-  },
-  {
-    "id": "tn-8",
-    "name": "三弘商號",
-    "legalName": "三弘商號",
-    "category": "特色餐廳",
-    "city": "臺南市",
-    "district": "安平區",
-    "address": "臺南市安平區文平路408號",
-    "phone": "06-2984866",
-    "lat": 22.992423,
-    "lng": 120.17893,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地"
-    ],
-    "features": [
-      "友善空間之定期消毒"
-    ],
-    "source": "臺南市動物防疫保護處 (官方標章認證)",
-    "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
-    "verified": true,
-    "status": "OPERATIONAL",
-    "highlight": true,
-    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=三弘商號+臺南市安平區文平路408號",
     "facebook": "",
     "instagram": "",
     "website": ""
@@ -14812,76 +13192,10 @@
     "website": ""
   },
   {
-    "id": "tn-11",
-    "name": "皇翊食品有限公司",
-    "legalName": "皇翊食品有限公司",
-    "category": "特色餐廳",
-    "city": "臺南市",
-    "district": "中西區",
-    "address": "臺南市中西區海安路二段125號1樓",
-    "phone": "0932-714205",
-    "lat": 22.995933,
-    "lng": 120.196576,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地"
-    ],
-    "features": [
-      "提供一份小零食",
-      "冷氣吹到飽"
-    ],
-    "source": "臺南市動物防疫保護處 (官方標章認證)",
-    "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
-    "verified": true,
-    "status": "OPERATIONAL",
-    "highlight": true,
-    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=皇翊食品有限公司+臺南市中西區海安路二段125號1樓",
-    "facebook": "",
-    "instagram": "",
-    "website": ""
-  },
-  {
-    "id": "tn-12",
-    "name": "森呼吸休閒廣場",
-    "legalName": "森呼吸休閒廣場",
-    "category": "特色餐廳",
-    "city": "臺南市",
-    "district": "關廟區",
-    "address": "臺南市關廟區東昌街123巷3號1樓",
-    "phone": "0986-689866 \\ 06-2150711",
-    "lat": 22.95246,
-    "lng": 120.335525,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地"
-    ],
-    "features": [
-      "寵物餐廳",
-      "寵物游泳池",
-      "寵物商店",
-      "寵物自助洗澡"
-    ],
-    "source": "臺南市動物防疫保護處 (官方標章認證)",
-    "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
-    "verified": true,
-    "status": "OPERATIONAL",
-    "highlight": true,
-    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=森呼吸休閒廣場+臺南市關廟區東昌街123巷3號1樓",
-    "facebook": "",
-    "instagram": "",
-    "website": ""
-  },
-  {
     "id": "tn-13",
-    "name": "宥曦商行",
+    "name": "自己的房間（老宅手作甜點咖啡）",
     "legalName": "宥曦商行",
-    "category": "特色餐廳",
+    "category": "咖啡/甜點茶館",
     "city": "臺南市",
     "district": "中西區",
     "address": "臺南市中西區新美街160號",
@@ -15002,37 +13316,6 @@
     "website": ""
   },
   {
-    "id": "tn-17",
-    "name": "老塘湖藝術坊",
-    "legalName": "老塘湖藝術坊",
-    "category": "特色餐廳",
-    "city": "臺南市",
-    "district": "學甲區",
-    "address": "臺南市學甲區豐和里美豐49之26號",
-    "phone": "06-7813800",
-    "lat": 23.219165,
-    "lng": 120.201265,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地"
-    ],
-    "features": [
-      "友善空間之定期消毒"
-    ],
-    "source": "臺南市動物防疫保護處 (官方標章認證)",
-    "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
-    "verified": true,
-    "status": "OPERATIONAL",
-    "highlight": true,
-    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=老塘湖藝術坊+臺南市學甲區豐和里美豐49之26號",
-    "facebook": "",
-    "instagram": "",
-    "website": ""
-  },
-  {
     "id": "tn-18",
     "name": "赤客燒肉店",
     "legalName": "赤客燒肉店",
@@ -15059,37 +13342,6 @@
     "status": "OPERATIONAL",
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=赤客燒肉店+臺南市北區公園南路385號",
-    "facebook": "",
-    "instagram": "",
-    "website": ""
-  },
-  {
-    "id": "tn-19",
-    "name": "台灣黃金蕎麥有限公司",
-    "legalName": "台灣黃金蕎麥有限公司",
-    "category": "特色餐廳",
-    "city": "臺南市",
-    "district": "玉井區",
-    "address": "臺南市玉井區玉田里中山路228號",
-    "phone": "06-5745610",
-    "lat": 23.120505,
-    "lng": 120.465236,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地"
-    ],
-    "features": [
-      "友善空間之定期消毒"
-    ],
-    "source": "臺南市動物防疫保護處 (官方標章認證)",
-    "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
-    "verified": true,
-    "status": "OPERATIONAL",
-    "highlight": true,
-    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=台灣黃金蕎麥有限公司+臺南市玉井區玉田里中山路228號",
     "facebook": "",
     "instagram": "",
     "website": ""
@@ -15127,9 +13379,9 @@
   },
   {
     "id": "tn-21",
-    "name": "白色教堂坊",
+    "name": "白色教堂 隱田山房（景觀茶席餐廳）",
     "legalName": "白色教堂坊",
-    "category": "特色餐廳",
+    "category": "景觀茶餐廳",
     "city": "臺南市",
     "district": "玉井區",
     "address": "臺南市玉井區層林里層林1-7號",
@@ -15158,9 +13410,9 @@
   },
   {
     "id": "tn-22",
-    "name": "瑪莎商行",
+    "name": "瑪莎園景觀餐廳（玉井虎頭山咖啡餐飲）",
     "legalName": "瑪莎商行",
-    "category": "特色餐廳",
+    "category": "景觀茶餐廳",
     "city": "臺南市",
     "district": "玉井區",
     "address": "臺南市玉井區沙田里沙田25-66號",
@@ -15338,37 +13590,6 @@
     "status": "OPERATIONAL",
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=明粥冷飲店+臺南市中西區南門路46之2號",
-    "facebook": "",
-    "instagram": "",
-    "website": ""
-  },
-  {
-    "id": "tn-50",
-    "name": "喬善興業有限公司",
-    "legalName": "喬善興業有限公司",
-    "category": "特色餐廳",
-    "city": "臺南市",
-    "district": "新市區",
-    "address": "臺南市新市區港墘里6鄰中山路13巷37號",
-    "phone": "06-5899193",
-    "lat": 23.084992,
-    "lng": 120.311079,
-    "petsAllowed": [
-      "犬",
-      "貓"
-    ],
-    "rules": [
-      "牽繩可落地"
-    ],
-    "features": [
-      "友善空間之定期消毒"
-    ],
-    "source": "臺南市動物防疫保護處 (官方標章認證)",
-    "sourceUrl": "https://ahipo.tainan.gov.tw/cp.aspx?n=29475",
-    "verified": true,
-    "status": "OPERATIONAL",
-    "highlight": true,
-    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=喬善興業有限公司+臺南市新市區港墘里6鄰中山路13巷37號",
     "facebook": "",
     "instagram": "",
     "website": ""
@@ -15642,40 +13863,6 @@
     "status": "OPERATIONAL",
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=香草蛋糕舖（藝文總店）+桃園市桃園區民族路193號",
-    "facebook": "",
-    "instagram": "",
-    "website": ""
-  },
-  {
-    "id": "ty-gov-3",
-    "name": "狗老大寵物渡假會館（友善水岸）",
-    "legalName": "狗老大寵物渡假會館（友善水岸）",
-    "category": "特色餐廳",
-    "city": "桃園市",
-    "district": "蘆竹區",
-    "address": "桃園市蘆竹區新生路290巷148號",
-    "phone": "03-3138585",
-    "lat": 25.0285,
-    "lng": 121.2654,
-    "petsAllowed": [
-      "犬 (不限體型)",
-      "貓"
-    ],
-    "rules": [
-      "全草皮自由奔馳",
-      "泳池需依規範使用"
-    ],
-    "features": [
-      "大片全圍籬奔馳草坪",
-      "狗狗專用戲水池與洗狗設備",
-      "人寵共進美味排餐"
-    ],
-    "source": "桃園市政府動保處 (官方認證空間)",
-    "sourceUrl": "https://ahpo.tycg.gov.tw/",
-    "verified": true,
-    "status": "OPERATIONAL",
-    "highlight": true,
-    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=狗老大寵物渡假會館（友善水岸）+桃園市蘆竹區新生路290巷148號",
     "facebook": "",
     "instagram": "",
     "website": ""

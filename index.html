@@ -435,16 +435,202 @@
       font-size: 11px; padding: 2px 7px; border-radius: var(--radius-sm); display: inline-block;
     }
 
-    /* Mobile Responsive */
+    /* Mobile-only elements default hidden on desktop */
+    .sidebar-mobile-header { display: none; }
+    .mobile-bottom-dock { display: none; }
+    .btn-text-short { display: none; }
+    .btn-text-full { display: inline; }
+
+    /* Mobile Responsive Upgrade */
     @media (max-width: 900px) {
-      .app-header { padding: 0 10px; height: 58px; }
-      .brand-sub { display: none; }
-      .sidebar {
-        position: absolute; top: 0; bottom: 0; left: 0; width: 100%;
-        max-width: 100%; z-index: 900; transform: translateX(-100%);
+      body {
+        overflow: hidden;
+        height: 100vh;
+        height: 100dvh;
       }
-      .sidebar.mobile-open { transform: translateX(0); }
-      .quick-view-pills { bottom: 12px; }
+
+      /* Compact mobile header */
+      header.app-header {
+        padding: 0 10px;
+        height: 54px;
+        gap: 8px;
+      }
+      .brand-area { gap: 8px; }
+      .brand-icon { width: 34px; height: 34px; font-size: 16px; border-radius: var(--radius-sm); }
+      .brand-text h1 { font-size: 13.5px; gap: 5px; }
+      .brand-sub { display: none; }
+      .version-tag { font-size: 10px; padding: 1px 6px; }
+
+      .header-actions { gap: 4px; }
+      .header-actions .btn {
+        padding: 6px 9px;
+        font-size: 11px;
+        border-radius: var(--radius-full);
+      }
+      .btn-text-full { display: none; }
+      .btn-text-short { display: inline; }
+      
+      @media (max-width: 480px) {
+        .btn-text-short { display: none; }
+        .header-actions .btn { padding: 7px 8px; min-width: 34px; justify-content: center; }
+      }
+
+      /* Sidebar mobile transformation: full-screen sliding sheet */
+      .sidebar {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        max-width: 100%;
+        z-index: 1050;
+        transform: translateY(100%);
+        transition: transform 0.32s cubic-bezier(0.16, 1, 0.3, 1);
+        box-shadow: 0 -8px 30px rgba(0, 0, 0, 0.2);
+        display: flex;
+        flex-direction: column;
+      }
+      .sidebar.mobile-open {
+        transform: translateY(0);
+      }
+
+      /* Mobile header inside sidebar */
+      .sidebar-mobile-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 11px 16px;
+        background: #0F172A;
+        color: #FFFFFF;
+        flex-shrink: 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      }
+      .sidebar-mobile-title {
+        font-size: 13.5px;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        gap: 7px;
+      }
+      .btn-mobile-close-sheet {
+        background: rgba(255, 255, 255, 0.15);
+        border: 1px solid rgba(255, 255, 255, 0.25);
+        color: #FFFFFF;
+        padding: 5px 12px;
+        border-radius: var(--radius-full);
+        font-size: 12px;
+        font-weight: 700;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        transition: background 0.2s ease;
+      }
+      .btn-mobile-close-sheet:hover, .btn-mobile-close-sheet:active {
+        background: var(--primary);
+        border-color: var(--primary);
+      }
+
+      /* Search & filter tweaks for mobile */
+      .sidebar-filter-section {
+        padding: 10px 14px 8px;
+        gap: 8px;
+        max-height: 48vh;
+        overflow-y: auto;
+      }
+      .search-input {
+        font-size: 14px;
+        height: 40px;
+      }
+
+      /* Floating Switcher Dock at bottom */
+      .mobile-bottom-dock {
+        display: flex;
+        position: absolute;
+        bottom: calc(14px + env(safe-area-inset-bottom, 0px));
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1100;
+        pointer-events: none;
+      }
+      .btn-mobile-pill {
+        pointer-events: auto;
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        background: #0F172A;
+        color: #FFFFFF;
+        border: 2px solid rgba(255, 255, 255, 0.25);
+        padding: 10px 22px;
+        border-radius: var(--radius-full);
+        font-size: 13.5px;
+        font-weight: 700;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+        cursor: pointer;
+        transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+        text-decoration: none;
+        backdrop-filter: blur(10px);
+      }
+      .btn-mobile-pill:active {
+        transform: scale(0.96);
+      }
+      .btn-mobile-pill.in-list-mode {
+        background: var(--primary);
+        border-color: #FCD34D;
+        color: #FFFFFF;
+      }
+
+      /* Adjust quick view pills position above toggle */
+      .quick-view-pills {
+        bottom: calc(68px + env(safe-area-inset-bottom, 0px));
+        max-width: 95vw;
+        overflow-x: auto;
+        white-space: nowrap;
+        padding: 4px 8px;
+      }
+      .quick-view-btn {
+        padding: 4px 10px;
+        font-size: 11.5px;
+      }
+
+      /* Leaflet map container full size */
+      .map-container {
+        width: 100% !important;
+        height: 100% !important;
+      }
+
+      /* Popups on mobile */
+      .leaflet-popup-content-wrapper {
+        border-radius: 14px;
+        padding: 2px;
+        max-width: calc(100vw - 36px);
+      }
+      .leaflet-popup-content {
+        margin: 10px 12px;
+        line-height: 1.4;
+      }
+
+      /* Modals on mobile */
+      .modal-card {
+        width: 94vw;
+        max-width: 94vw;
+        max-height: 88vh;
+        margin: auto;
+        border-radius: 16px;
+      }
+      .modal-header {
+        padding: 14px 16px;
+      }
+      .modal-body {
+        padding: 14px 16px;
+        max-height: calc(88vh - 120px);
+      }
+
+      /* Places list spacing */
+      .places-list {
+        padding: 10px 12px 75px;
+      }
     }
   </style>
 </head>
@@ -458,12 +644,12 @@
         <h1>
           台灣毛孩趴趴走・全台寵物友善餐廳地圖
           <span class="version-tag" id="btnOpenVersions" title="點擊檢視版本更新與關店異動日誌">
-            <i class="fa-solid fa-rotate"></i> <span id="headerVerText">v1.2.0</span>
+            <i class="fa-solid fa-rotate"></i> <span id="headerVerText">v1.3.0</span>
           </span>
         </h1>
         <div class="brand-sub">
           <span class="tag-pure-dining">純餐飲嚴選</span>
-          <span>收錄全台 480+ 純正友善餐廳・Google 導航與最新營運狀態</span>
+          <span>收錄全台 420+ 純正友善餐廳・Google 導航與最新營運狀態</span>
         </div>
       </div>
     </div>
@@ -472,31 +658,35 @@
       <!-- 1. 網站意見回饋 -->
       <button class="btn btn-feedback" id="btnOpenFeedback" title="給予本網站地圖體驗與功能建議">
         <i class="fa-solid fa-comment-dots"></i>
-        <span>網站意見回饋</span>
+        <span class="btn-text-full">網站意見回饋</span>
+        <span class="btn-text-short">回饋</span>
       </button>
 
       <!-- 2. 推薦新餐廳 -->
-      <button class="btn btn-upload" id="btnOpenUpload">
+      <button class="btn btn-upload" id="btnOpenUpload" title="推薦新寵物友善餐廳">
         <i class="fa-solid fa-plus"></i>
-        <span>推薦新餐廳</span>
+        <span class="btn-text-full">推薦新餐廳</span>
+        <span class="btn-text-short">推薦</span>
       </button>
 
       <!-- 3. 異動紀錄 -->
-      <button class="btn btn-changelog" id="btnChangelog">
-        <i class="fa-solid fa-clipboard-list"></i>
-        <span>版本紀錄</span>
+      <button class="btn btn-changelog" id="btnChangelog" title="查看最新版本與關店日誌">
+        <i class="fa-solid fa-clock-rotate-left"></i>
+        <span class="btn-text-full">版本紀錄</span>
+        <span class="btn-text-short">紀錄</span>
       </button>
 
       <!-- 4. 收藏 -->
-      <button class="btn btn-outline" id="btnFilterFavs">
-        <i class="fa-regular fa-heart"></i>
-        <span>收藏 (<span id="favCount">0</span>)</span>
+      <button class="btn btn-outline" id="btnFilterFavs" title="查看已收藏餐廳">
+        <i class="fa-solid fa-heart" style="color: #F43F5E;"></i>
+        <span class="btn-text-full">收藏 (<span id="favCount">0</span>)</span>
+        <span class="btn-text-short"><span id="favCountMobile">0</span></span>
       </button>
 
       <!-- 5. 離我最近 -->
-      <button class="btn btn-primary" id="btnLocateMe">
+      <button class="btn btn-primary" id="btnLocateMe" title="定位離我最近的友善餐廳">
         <i class="fa-solid fa-location-crosshairs"></i>
-        <span>離我最近</span>
+        <span class="btn-text-full">離我最近</span>
       </button>
     </div>
   </header>
@@ -506,6 +696,17 @@
     
     <!-- Left Sidebar -->
     <aside class="sidebar" id="sidebar">
+      
+      <!-- Mobile Bar inside Sidebar (行動版專用頂部關閉導覽) -->
+      <div class="sidebar-mobile-header">
+        <div class="sidebar-mobile-title">
+          <i class="fa-solid fa-utensils" style="color: #F59E0B;"></i>
+          <span>純友善餐廳 (<span id="mobileSidebarCount">424</span>)</span>
+        </div>
+        <button class="btn-mobile-close-sheet" id="btnCloseSidebarMobile" title="切換回地圖視野">
+          <i class="fa-solid fa-map"></i> <span>返回地圖</span>
+        </button>
+      </div>
       
       <div class="sidebar-filter-section">
         
@@ -619,6 +820,14 @@
         <button class="quick-view-btn" id="quickJumpTn"><i class="fa-solid fa-award"></i> 臺南古都</button>
         <button class="quick-view-btn" id="quickJumpAll"><i class="fa-solid fa-expand"></i> 全台視野</button>
       </div>
+    </div>
+
+    <!-- Mobile Bottom Floating View Switcher (手機端核心切換膠囊) -->
+    <div class="mobile-bottom-dock" id="mobileBottomDock">
+      <button class="btn-mobile-pill" id="btnMobileToggleView">
+        <i class="fa-solid fa-list-ul" id="mobileToggleIcon"></i>
+        <span id="mobileToggleLabel">查看餐廳列表 (424)</span>
+      </button>
     </div>
 
   </main>
@@ -1171,6 +1380,9 @@
           <a class="social-btn-pill social-btn-map" href="${mapUrl}" target="_blank" title="前往 Google Maps 定位與導航">
             <i class="fa-solid fa-diamond-turn-right"></i> 導航
           </a>
+          <button class="social-btn-pill" onclick="selectPlace('${place.id}'); event.stopPropagation();" style="background:#FFFBEB; border:1px solid #FCD34D; color:#B45309;" title="在底圖上查看此餐廳標籤">
+            <i class="fa-solid fa-map-location-dot"></i> 看地圖
+          </button>
         `;
         if (hasIg) {
           socialPillsHtml += `
@@ -1227,7 +1439,10 @@
             </div>
 
             <div class="card-footer">
-              <span class="card-phone"><i class="fa-solid fa-phone"></i> ${phoneDisplay}</span>
+              ${(place.phone && place.phone.startsWith('0')) ?
+                `<a href="tel:${place.phone.replace(/[^0-9]/g, '')}" class="card-phone" onclick="event.stopPropagation();" title="點擊撥打電話"><i class="fa-solid fa-phone"></i> ${place.phone}</a>` :
+                `<span class="card-phone"><i class="fa-solid fa-phone"></i> ${phoneDisplay}</span>`
+              }
               <div class="card-actions">
                 <button class="btn-card-action" onclick="openReportModal('${place.id}', '${place.name.replace(/'/g, "\\'")}'); event.stopPropagation();" title="回報已關店或資訊變更" style="color: #BE123C;">
                   <i class="fa-solid fa-flag"></i> 回報
@@ -1242,12 +1457,48 @@
       }).join('');
     }
 
+    // Mobile View Toggle Controller
+    let mobileView = 'map'; // 'map' or 'list'
+
+    function setMobileView(view) {
+      mobileView = view;
+      const sidebar = document.getElementById('sidebar');
+      const toggleBtn = document.getElementById('btnMobileToggleView');
+      const toggleIcon = document.getElementById('mobileToggleIcon');
+      const toggleLabel = document.getElementById('mobileToggleLabel');
+      const count = getFilteredPlaces().length;
+
+      if (view === 'list') {
+        sidebar.classList.add('mobile-open');
+        if (toggleBtn) {
+          toggleBtn.classList.add('in-list-mode');
+          if (toggleIcon) toggleIcon.className = 'fa-solid fa-map-location-dot';
+          if (toggleLabel) toggleLabel.textContent = '返回地圖視野';
+        }
+      } else {
+        sidebar.classList.remove('mobile-open');
+        if (toggleBtn) {
+          toggleBtn.classList.remove('in-list-mode');
+          if (toggleIcon) toggleIcon.className = 'fa-solid fa-list-ul';
+          if (toggleLabel) toggleLabel.textContent = `查看餐廳列表 (${count})`;
+        }
+        if (map) {
+          setTimeout(() => map.invalidateSize(), 320);
+        }
+      }
+    }
+
     function selectPlace(id) {
       state.activePlaceId = id;
       const place = state.places.find(p => p.id === id);
       if (!place) return;
 
       highlightCard(id);
+
+      // On mobile screens, automatically return to map view so the user immediately sees the location and popup!
+      if (window.innerWidth <= 900) {
+        setMobileView('map');
+      }
 
       if (map) {
         map.setView([place.lat, place.lng], 16, { animate: true });
@@ -1355,7 +1606,11 @@
       if (state.favorites.has(id)) state.favorites.delete(id);
       else state.favorites.add(id);
       localStorage.setItem('tw_pet_favs', JSON.stringify(Array.from(state.favorites)));
-      document.getElementById('favCount').textContent = state.favorites.size;
+      const favSize = state.favorites.size;
+      const favEl = document.getElementById('favCount');
+      if (favEl) favEl.textContent = favSize;
+      const favMobileEl = document.getElementById('favCountMobile');
+      if (favMobileEl) favMobileEl.textContent = favSize;
       updateView();
     };
 
@@ -1364,6 +1619,16 @@
       const sorted = sortPlaces(filtered);
       renderList(sorted);
       renderMarkers(sorted);
+
+      const count = filtered.length;
+      const filterResultCount = document.getElementById('filterResultCount');
+      if (filterResultCount) filterResultCount.textContent = count;
+      const mobileSidebarCount = document.getElementById('mobileSidebarCount');
+      if (mobileSidebarCount) mobileSidebarCount.textContent = count;
+      const toggleLabel = document.getElementById('mobileToggleLabel');
+      if (toggleLabel && mobileView === 'map') {
+        toggleLabel.textContent = `查看餐廳列表 (${count})`;
+      }
     }
 
     // Render Version Changelog Modal
@@ -1524,10 +1789,53 @@
       updateView();
     };
 
+    // Dynamically calculate and display city chip counts
+    function updateCityChipCounts() {
+      const counts = {};
+      state.places.forEach(p => {
+        counts[p.city] = (counts[p.city] || 0) + 1;
+      });
+
+      const countAll = document.getElementById('countAll');
+      if (countAll) countAll.textContent = state.places.length;
+      const countTC = document.getElementById('countTC');
+      if (countTC) countTC.textContent = counts['臺中市'] || 0;
+      const countTPE = document.getElementById('countTPE');
+      if (countTPE) countTPE.textContent = counts['臺北市'] || 0;
+      const countTN = document.getElementById('countTN');
+      if (countTN) countTN.textContent = counts['臺南市'] || 0;
+
+      // Update remaining chips dynamically
+      document.querySelectorAll('#cityChipsContainer .chip-btn').forEach(btn => {
+        const cityKey = btn.dataset.city;
+        if (cityKey && cityKey !== 'ALL') {
+          const cities = cityKey.split(',');
+          let sum = 0;
+          cities.forEach(c => sum += (counts[c] || 0));
+          const nameOnly = btn.textContent.split('(')[0].trim();
+          btn.innerHTML = `${nameOnly} (${sum})`;
+        }
+      });
+    }
+
     // Setup Form Submissions & Events
     function setupApp() {
       initMap();
       setupStarRating();
+
+      // Mobile Toggle View Buttons
+      const toggleBtn = document.getElementById('btnMobileToggleView');
+      if (toggleBtn) {
+        toggleBtn.addEventListener('click', () => {
+          setMobileView(mobileView === 'map' ? 'list' : 'map');
+        });
+      }
+      const closeSidebarBtn = document.getElementById('btnCloseSidebarMobile');
+      if (closeSidebarBtn) {
+        closeSidebarBtn.addEventListener('click', () => {
+          setMobileView('map');
+        });
+      }
 
       // Search
       const searchInput = document.getElementById('searchInput');
@@ -1733,8 +2041,16 @@
         });
       });
 
+      // Initialize Dynamic City Chip Counts
+      updateCityChipCounts();
+
       // Load initial view
-      document.getElementById('favCount').textContent = state.favorites.size;
+      const favSize = state.favorites.size;
+      const favEl = document.getElementById('favCount');
+      if (favEl) favEl.textContent = favSize;
+      const favMobileEl = document.getElementById('favCountMobile');
+      if (favMobileEl) favMobileEl.textContent = favSize;
+
       updateView();
       renderVersionChangelog();
       renderFeedbackList();
