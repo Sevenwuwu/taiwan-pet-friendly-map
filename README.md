@@ -1,94 +1,99 @@
-# 台灣毛孩趴趴走・全台寵物友善地圖 🐾
-### （支援使用者上傳、社群檢驗審核、Google Maps 自動串接與關店版本追蹤）
+# 台灣毛孩趴趴走・全台寵物友善餐廳地圖 🐾
+### （純餐飲嚴選・AI 後台審核・旅人回饋專區・社群 IG/FB 串接・Google Maps 自動更新發布）
 
-專為全台毛爸媽設計的現代化**寵物友善空間平台**。除了完整同步**臺中市動保處 186 處官方認證空間**與臺北市動保處 248 處認證店家外，更全面具備**使用者上傳**、**社群回報檢驗**、**Google Maps 營運動態自動檢驗**與**關店異動版本歷史追蹤 (Version Changelog)**！
+🔗 **線上即時體驗（GitHub Pages）**：[https://sevenwuwu.github.io/taiwan-pet-friendly-map/](https://sevenwuwu.github.io/taiwan-pet-friendly-map/)  
+📦 **GitHub 開源倉庫**：[https://github.com/Sevenwuwu/taiwan-pet-friendly-map](https://github.com/Sevenwuwu/taiwan-pet-friendly-map)
 
 ---
 
-## 🌟 四大進階升級核心架構
+## 🌟 五大核心升級亮點
+
+### 1. 🍽️ 嚴格剔除非餐廳門市（純餐飲空間嚴選）
+* 全面過濾並剔除非餐飲機構：美髮造型沙龍、純住宿旅宿/飯店/民宿、寵物美容用品店、五金家具賣場、客運計程車行、觀光工廠與行政表格標題。
+* **保留全台 480+ 家純正寵物友善餐飲空間**（涵蓋早午餐、咖啡館、甜點、義式餐酒館、日式拉麵/居酒屋、火鍋燒肉及特色美食）。
+
+### 2. 💬 毛孩旅人回饋與評價專區（Feedback Zone）
+* **旅人經驗分享瀑布流**：顯示家長暱稱、毛孩品種標籤（柴犬、柯基、米克斯、貓咪等）、用餐滿意星級（1~5 星）、心得標籤與真實探店反饋。
+* **線上即時發表**：
+  - 支援針對特定餐廳撰寫回饋（於店家卡片或詳情點擊「✍️ 評價」自動帶入店名）。
+  - 亦可發表全台地圖功能建議。
+  - 完整串接 `/api/feedback` 並具備離線暫存機制，GitHub Pages 靜態環境無縫支援。
+
+### 3. 🤖 AI 後台智慧審核引擎（AI Restaurant Auditor）
+* 使用者推薦新餐廳 (`/api/upload`) 或回報歇業 (`/api/report`) 時，自動觸發 `ai_auditor.py`：
+  - **餐飲性質檢驗**：自動比對餐飲關鍵字與非餐飲黑名單，嚴格杜絕沙龍、旅店與用品店混入。
+  - **地理門牌合法性**：檢驗台灣 22 縣市行政區、路街段與門牌號結構，驗證經緯度在台灣有效範圍內。
+  - **寵物友善合理性**：檢驗牽繩、提籠、推車、水碗與寵物餐等規範。
+  - **AI 即時判決**：產出 `APPROVED` / `NEEDS_MANUAL_REVIEW` / `REJECTED`、信心分數與詳細中文審核說明。審核通過之店家自動排入版本更新佇列！
+
+### 4. ⚡ 一鍵與排程自動更新發布（Auto-Update & Git Push）
+* 支援前端按鈕 **「⚡ AI 自動更新」** 或後端 CLI 執行 `python auto_update.py`。
+* **全自動化流水線**：
+  1. 🤖 執行 AI 後台佇列審核。
+  2. 🗺️ 比對 Google Maps 營運動態與歇業回報，標記關店門市 (`CLOSED_PERMANENTLY`)。
+  3. 📦 合併審核通過的餐廳入庫，自動遞增版本號（如 `v1.4.0` -> `v1.5.0`）並生成 Changelog。
+  4. 🚀 **自動執行 `git commit` 與 `git push origin main`**，GitHub Pages 於數秒內全網同步發布上線！
+
+### 5. 🌐 每家餐廳皆具備四大社群與定位外連
+* 📍 **Google Maps 定位與即時導航**：一鍵開啟手機 Google 地圖 App 或網頁版規劃路線。
+* 📸 **Instagram 探店打卡標籤**：一鍵查看 IG 上的網友實拍美照、菜單與毛孩打卡動態。
+* 📘 **Facebook 官方粉專搜尋**：快速查詢店家最新公休公告與私訊訂位。
+* 🌐 **官方網站 / 訂位連結**：快速瀏覽完整菜單與門市資訊。
+
+---
+
+## 🏗️ 系統運作架構圖
 
 ```
 ┌────────────────────────────────────────────────────────────────────────┐
-│                        毛孩趴趴走 自動化閉環體系                         │
+│                        全台寵物友善地圖 自動化閉環體系                   │
 ├─────────────────┬──────────────────────┬───────────────────────────────┤
-│ 1. 使用者上傳   │ 2. 社群檢驗與審核    │ 3. Google Maps 自動檢驗更新   │
-│ • 線上表單提交  │ • 群眾回報規範異動   │ • Google Places API 自動掃描  │
-│ • 規範與照片備註│ • 一鍵回報已歇業門市 │ • 辨識 OPERATIONAL vs CLOSED  │
-│ • Google 地圖   │ • 管理員/社群多重審核│ • 自動發布新 Version Changelog│
+│ 1. 前端社群推薦 │ 2. AI 後台智慧審核   │ 3. 自動更新與 GitHub 同步     │
+│ • 推薦純餐飲店家│ • 餐飲屬性深度驗證   │ • Google Maps 營運比對 (關店) │
+│ • 旅人意見與評分│ • 門牌與地理座標校驗 │ • 版本號遞增與 Changelog 產出  │
+│ • 店家歇業回報  │ • 自動補全 IG/FB/定位│ • 自動 git commit & git push   │
 └─────────────────┴──────────────────────┴───────────────────────────────┘
                                    │
                                    ▼
 ┌────────────────────────────────────────────────────────────────────────┐
-│ 4. 版本異動日誌 (Version Changelog)                                     │
-│ • 每個版本自動公告：哪些店家已關店 (🔴 已永久歇業)、哪些是新審核上線 (🟢) │
-│ • 地圖即時連動：已歇業店家自動灰階標註，可勾選「隱藏已歇業」維持最新清單│
+│ 4. 成果即時發布                                                        │
+│ • GitHub Pages 靜態網站自動重新構建上線                                  │
+│ • 本地 Python 輕量服務即時更新 (http://localhost:8088/)                 │
+│ • 地圖自動更新餐廳狀態，已歇業店家標示灰階或隱藏                        │
 └────────────────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## 🚀 核心模組與功能說明
+## 💻 本地啟動與操作指南
 
-### 1. 讓人上傳與推薦（Crowdsourced Upload）
-* 點擊頂端 **「➕ 推薦/上傳店家」** 按鈕，彈出結構化表單。
-* 填寫：店名、縣市行政區、門市地址、電話、允許寵物種類（犬、貓、大型犬、特寵）及友善規範（牽繩落地、禮貌帶、寵物餐、水碗、草坪）。
-* 支援 **「Google 地圖一鍵驗證」**，在提交前先預覽 Google Maps 門市地標。
-* 提交後寫入 `submissions.json` 進入檢驗審核隊列。
-
-### 2. 檢驗與回報機制（Verification & Reporting）
-* 每張店家卡片與詳情彈窗皆提供 **「⚠️ 回報歇業/錯誤」** 按鈕。
-* 民眾可即時通報：
-  - 店家已永久停業或搬遷
-  - 友善規範變更（例如原可落地改為需推車）
-  - 電話或門牌地址有誤
-
-### 3. 自動更新與關店版本追蹤（Auto-audit & Version Changelog）
-* 執行自動化檢驗程式：`python check_stores_google_maps.py [GOOGLE_API_KEY]`
-* 運作邏輯：
-  1. 自動讀取資料庫與待審核回報。
-  2. 串接 Google Places API 檢查店家 `business_status`：
-     - 若為 `CLOSED_PERMANENTLY`（永久停業），系統自動標記為 `CLOSED_PERMANENTLY`。
-     - 若為 `CLOSED_TEMPORARILY`，標記為暫時停業。
-  3. 自動遞增版本號（如 `v1.2.0` -> `v1.3.0`），產生結構化版本歷史紀錄：
-     - **🔴 經自動檢驗已關店門市清單**（明確記錄店名、所在縣市、關店原因）
-     - **🟢 本版本新審核上線店家**
-  4. 自動同步編譯最新版 `data.json` 與 `data.js`，讓地圖使用者立即看到最新營運動態！
-
-### 4. 自動串接 Google Map
-* **門市導航**：每家餐廳皆可一鍵呼叫 Google Maps 進行即時導航規劃。
-* **Google Places API 自動查核**：可自動取得 Google 評分、Place ID 及最新營業時間。
-
----
-
-## 💻 快速啟動與使用指南
-
-### 啟動完整後端 API 與前端地圖服務
-專案目錄中已內建輕量化後端伺服器（零外部套件依賴，標準 Python 即可執行）：
+### 1. 啟動本機伺服器
 ```bash
-python C:\Users\HP\.gemini\antigravity\scratch\taiwan-pet-friendly-map\server.py
+cd C:\Users\HP\.gemini\antigravity\scratch\taiwan-pet-friendly-map
+python server.py
 ```
-* **瀏覽器直接開啟**：[**http://127.0.0.1:8088/**](http://127.0.0.1:8088/)
-* **測試手動執行 Google Maps 營運動態自動檢測**：
+啟動後瀏覽器開啟：[**http://localhost:8088/**](http://localhost:8088/)
+
+### 2. 手動觸發 AI 自動審核與發布更新
 ```bash
-python check_stores_google_maps.py
-# 若有 Google Cloud Places API Key 可帶入參數自動聯網比對：
-# python check_stores_google_maps.py YOUR_GOOGLE_PLACES_API_KEY
+python auto_update.py
 ```
 
 ---
 
-## 📁 檔案架構
+## 📁 專案檔案結構
 
 ```
 taiwan-pet-friendly-map/
-├── index.html                  # 完整現代化前端 (含上傳、回報、版本日誌彈窗)
-├── server.py                   # 零依賴 Python API 後端 (提供靜態服務與 REST API)
-├── check_stores_google_maps.py # Google Maps 狀態自動檢驗與版本日誌生成腳本
-├── data.js                     # 編譯後免跨域資料庫 (含歷史版本 PET_MAP_VERSIONS)
-├── data.json                   # 結構化主資料庫 (含各店家 status 營運狀態)
-├── versions.json               # 版本異動歷史紀錄 (記錄每次更新關閉哪間店、新增哪間店)
-├── submissions.json            # 社群上傳與回報檢驗待審核隊列
-├── build_database.py           # 臺中官方與全台數據抓取編譯器
-├── start_map.bat               # Windows 一鍵啟動批次檔
-└── README.md                   # 專案詳細說明與架構手冊
+├── index.html                  # 現代化響應式前端 (含地圖、社群按鈕、回饋專區、AI審核彈窗)
+├── server.py                   # 零依賴 Python 後端 (提供靜態服務與完整 RESTful API)
+├── ai_auditor.py               # AI 後台智慧審核引擎 (餐飲屬性/地址校驗/社群連結補全)
+├── auto_update.py              # 自動更新發布引擎 (AI 審核合併/關店標記/版本遞增/git push)
+├── check_stores_google_maps.py # Google Maps 狀態查核輔助腳本
+├── data.js                     # 編譯後前端免跨域資料庫 (含 PET_PLACES_DATA, VERSIONS, FEEDBACKS)
+├── data.json                   # 480+ 家純正寵物友善餐廳主資料庫
+├── feedback.json               # 旅人回饋心得與星級評價資料庫
+├── versions.json               # 完整版本歷史與歇業/新上線門市 Changelog
+├── submissions.json            # 待審核與已合併之社群回報/推薦隊列
+└── README.md                   # 系統技術文件與架構說明手冊
 ```
