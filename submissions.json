@@ -1,0 +1,47 @@
+[
+  {
+    "id": "rep-2",
+    "type": "report_closed",
+    "targetPlaceId": "tc-10",
+    "targetName": "測試店家",
+    "reportType": "closed",
+    "reason": "Google Maps 標註已永久停業，招牌已拆除",
+    "reporter": "熱心回報者",
+    "proofUrl": "",
+    "verified": true,
+    "createdAt": "2026-10-21 12:48",
+    "status": "merged"
+  },
+  {
+    "id": "sub-1",
+    "type": "new_store",
+    "name": "米克斯與柴犬花園咖啡",
+    "legalName": "米克斯與柴犬花園咖啡",
+    "category": "咖啡/甜點茶館",
+    "city": "臺中市",
+    "district": "西區",
+    "address": "臺中市西區美村路一段200號",
+    "phone": "",
+    "lat": 24.1437,
+    "lng": 120.6622,
+    "petsAllowed": [
+      "犬",
+      "貓"
+    ],
+    "rules": [
+      "牽繩可落地",
+      "公狗需包禮貌帶"
+    ],
+    "features": [
+      "提供寵物鮮食",
+      "有小草皮跑跑"
+    ],
+    "submitter": "台中柴柴爸",
+    "note": "",
+    "googleMapUrl": "",
+    "status": "merged",
+    "createdAt": "2026-10-21 12:47",
+    "votes": 1,
+    "verified": true
+  }
+]

@@ -1,0 +1,1392 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>台灣毛孩趴趴走・全台寵物友善地圖 (含上傳、檢驗、關店自動更新與 Google Map 串接)</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css">
+
+  <style>
+    :root {
+      --primary: #D97706;
+      --primary-hover: #B45309;
+      --primary-light: #FEF3C7;
+      --primary-50: #FFFBEB;
+      --tc-gold: #B45309;
+      --slate-900: #0F172A;
+      --slate-800: #1E293B;
+      --slate-700: #334155;
+      --slate-600: #475569;
+      --slate-500: #64748B;
+      --slate-400: #94A3B8;
+      --slate-200: #E2E8F0;
+      --slate-100: #F1F5F9;
+      --slate-50: #F8FAFC;
+      --emerald-600: #059669;
+      --emerald-50: #ECFDF5;
+      --rose-500: #F43F5E;
+      --rose-50: #FFF1F2;
+      --radius-sm: 8px;
+      --radius-md: 12px;
+      --radius-lg: 16px;
+      --radius-full: 9999px;
+      --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+      --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+      --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+      --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+
+    body {
+      font-family: 'Plus Jakarta Sans', 'Noto Sans TC', sans-serif;
+      background-color: var(--slate-50);
+      color: var(--slate-800);
+      height: 100vh;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Top Navigation */
+    header.app-header {
+      background: #FFFFFF;
+      border-bottom: 1px solid var(--slate-200);
+      height: 64px;
+      padding: 0 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      z-index: 1000;
+      flex-shrink: 0;
+    }
+
+    .brand-area { display: flex; align-items: center; gap: 12px; }
+    .brand-icon {
+      width: 40px; height: 40px;
+      background: linear-gradient(135deg, #F59E0B 0%, #D97706 100%);
+      color: white; border-radius: var(--radius-md);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 20px;
+      box-shadow: 0 4px 10px rgba(217, 119, 6, 0.25);
+    }
+    .brand-text h1 {
+      font-size: 16.5px; font-weight: 800; color: var(--slate-900);
+      line-height: 1.2; display: flex; align-items: center; gap: 8px;
+    }
+    .version-tag {
+      font-size: 11px; background: #ECFDF5; color: #047857;
+      padding: 2px 8px; border-radius: var(--radius-full);
+      font-weight: 700; border: 1px solid #A7F3D0;
+      cursor: pointer; display: inline-flex; align-items: center; gap: 4px;
+    }
+    .version-tag:hover { background: #D1FAE5; }
+
+    .brand-sub { font-size: 12px; color: var(--slate-500); margin-top: 2px; }
+
+    .header-actions { display: flex; align-items: center; gap: 8px; }
+
+    .btn {
+      display: inline-flex; align-items: center; gap: 6px;
+      font-size: 12.5px; font-weight: 600; padding: 7px 13px;
+      border-radius: var(--radius-full); border: 1px solid transparent;
+      cursor: pointer; transition: all 0.2s ease; white-space: nowrap; text-decoration: none;
+    }
+    .btn-primary { background: var(--primary); color: #FFFFFF; }
+    .btn-primary:hover { background: var(--primary-hover); }
+
+    .btn-outline { background: #FFFFFF; border-color: var(--slate-200); color: var(--slate-700); }
+    .btn-outline:hover { background: var(--slate-100); border-color: var(--slate-300); }
+    .btn-outline.active { background: var(--rose-50); border-color: var(--rose-500); color: var(--rose-500); }
+
+    .btn-upload { background: #EFF6FF; border-color: #BFDBFE; color: #1D4ED8; font-weight: 700; }
+    .btn-upload:hover { background: #DBEAFE; }
+
+    .btn-changelog { background: #F1F5F9; border-color: #CBD5E1; color: var(--slate-700); }
+    .btn-changelog:hover { background: #E2E8F0; }
+
+    /* Main Container */
+    .app-main { flex: 1; display: flex; position: relative; overflow: hidden; }
+
+    /* Left Sidebar */
+    .sidebar {
+      width: 450px; background: #FFFFFF; border-right: 1px solid var(--slate-200);
+      display: flex; flex-direction: column; height: 100%; z-index: 500;
+      transition: transform 0.3s ease; flex-shrink: 0;
+    }
+
+    .sidebar-filter-section {
+      padding: 14px 16px 10px; border-bottom: 1px solid var(--slate-200);
+      background: #FFFFFF; display: flex; flex-direction: column; gap: 10px;
+    }
+
+    .search-box-wrap { position: relative; display: flex; align-items: center; }
+    .search-box-wrap i.search-icon {
+      position: absolute; left: 14px; color: var(--slate-400); font-size: 14px; pointer-events: none;
+    }
+    .search-input {
+      width: 100%; height: 40px; padding: 0 38px 0 38px;
+      background: var(--slate-50); border: 1px solid var(--slate-200);
+      border-radius: var(--radius-full); font-size: 13px; color: var(--slate-800); outline: none;
+      transition: all 0.2s ease;
+    }
+    .search-input:focus {
+      background: #FFFFFF; border-color: var(--primary); box-shadow: 0 0 0 3px rgba(217, 119, 6, 0.15);
+    }
+    .search-clear-btn {
+      position: absolute; right: 12px; background: none; border: none;
+      color: var(--slate-400); cursor: pointer; display: none; padding: 4px;
+    }
+
+    /* Taichung Highlight Callout */
+    .tc-gov-banner {
+      background: linear-gradient(135deg, #FFFBEB 0%, #FEF3C7 100%);
+      border: 1px solid #FCD34D; border-radius: var(--radius-md);
+      padding: 8px 12px; display: flex; align-items: center; justify-content: space-between;
+      font-size: 12px; color: #92400E;
+    }
+    .tc-gov-banner a { color: #B45309; font-weight: 700; text-decoration: underline; }
+
+    /* City Filter Chips */
+    .filter-group-title {
+      font-size: 11px; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 0.5px; color: var(--slate-400); margin-bottom: 4px;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+
+    .chips-scroll {
+      display: flex; gap: 6px; overflow-x: auto; padding-bottom: 4px;
+      scrollbar-width: none;
+    }
+    .chips-scroll::-webkit-scrollbar { display: none; }
+
+    .chip-btn {
+      background: var(--slate-100); border: 1px solid transparent;
+      color: var(--slate-600); padding: 4px 11px; border-radius: var(--radius-full);
+      font-size: 12px; font-weight: 600; cursor: pointer; white-space: nowrap;
+      transition: all 0.15s ease;
+    }
+    .chip-btn:hover { background: var(--slate-200); color: var(--slate-800); }
+    .chip-btn.active { background: var(--slate-900); color: #FFFFFF; }
+    .chip-btn.special-tc { background: #FEF3C7; color: #92400E; border: 1px solid #FCD34D; }
+    .chip-btn.special-tc.active { background: #D97706; color: #FFFFFF; border-color: #D97706; }
+
+    /* Category Chips */
+    .cat-chips { display: flex; flex-wrap: wrap; gap: 5px; }
+    .cat-chip {
+      font-size: 11.5px; padding: 4px 9px; border-radius: var(--radius-full);
+      background: var(--slate-50); border: 1px solid var(--slate-200);
+      color: var(--slate-600); cursor: pointer; font-weight: 500;
+    }
+    .cat-chip:hover { border-color: var(--slate-400); color: var(--slate-900); }
+    .cat-chip.active { background: var(--primary-light); border-color: var(--primary); color: var(--primary-hover); font-weight: 700; }
+
+    /* Friendly Tag Toggles */
+    .rules-toggles { display: flex; flex-wrap: wrap; gap: 5px; }
+    .rule-tag-btn {
+      font-size: 11px; padding: 3px 8px; border-radius: var(--radius-sm);
+      background: #FFFFFF; border: 1px dashed var(--slate-300); color: var(--slate-600);
+      cursor: pointer; display: inline-flex; align-items: center; gap: 3px;
+    }
+    .rule-tag-btn.active { background: var(--emerald-50); border: 1px solid var(--emerald-600); color: var(--emerald-600); font-weight: 600; }
+
+    /* Result Meta Header */
+    .result-meta-bar {
+      padding: 9px 16px; background: var(--slate-50); border-bottom: 1px solid var(--slate-200);
+      display: flex; align-items: center; justify-content: space-between; font-size: 12px; color: var(--slate-500);
+    }
+    .result-count strong { color: var(--primary-hover); font-size: 14px; }
+    .sort-select {
+      font-size: 12px; border: 1px solid var(--slate-200); background: #FFFFFF;
+      border-radius: var(--radius-sm); padding: 3px 6px; color: var(--slate-700); outline: none; cursor: pointer;
+    }
+
+    /* Place Cards List */
+    .places-list {
+      flex: 1; overflow-y: auto; padding: 12px 14px; display: flex; flex-direction: column;
+      gap: 10px; background: var(--slate-50); scroll-behavior: smooth;
+    }
+
+    /* Place Card */
+    .place-card {
+      background: #FFFFFF; border: 1px solid var(--slate-200); border-radius: var(--radius-md);
+      padding: 13px 15px; cursor: pointer; transition: all 0.2s ease; display: flex; flex-direction: column;
+      gap: 7px; position: relative; box-shadow: var(--shadow-sm);
+    }
+    .place-card:hover { border-color: var(--primary); box-shadow: var(--shadow-md); transform: translateY(-1px); }
+    .place-card.active-selected {
+      border-color: var(--primary); background: #FFFDF8; box-shadow: 0 0 0 2px rgba(217, 119, 6, 0.3);
+    }
+    .place-card.is-closed {
+      opacity: 0.72; background: #F8FAFC; border-left: 4px solid var(--rose-500);
+    }
+
+    .card-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 8px; }
+    .card-name { font-size: 15px; font-weight: 700; color: var(--slate-900); line-height: 1.3; }
+    .card-badges { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 4px; }
+
+    .badge {
+      font-size: 10.5px; font-weight: 600; padding: 2px 7px; border-radius: var(--radius-full);
+      display: inline-flex; align-items: center; gap: 3px;
+    }
+    .badge-cat { background: var(--slate-100); color: var(--slate-700); }
+    .badge-city { background: #EFF6FF; color: #1D4ED8; }
+    .badge-tc-verified { background: #FEF3C7; color: #B45309; border: 1px solid #FCD34D; }
+    .badge-tpe-verified { background: #ECFDF5; color: #047857; border: 1px solid #A7F3D0; }
+    .badge-closed { background: #FFE4E6; color: #BE123C; border: 1px solid #FDA4AF; }
+
+    .fav-btn {
+      background: none; border: none; color: var(--slate-300); font-size: 17px; cursor: pointer; padding: 2px;
+    }
+    .fav-btn.active { color: var(--rose-500); }
+
+    .card-address { font-size: 12px; color: var(--slate-600); display: flex; align-items: center; gap: 5px; }
+    .card-address i { color: var(--slate-400); font-size: 11px; flex-shrink: 0; }
+    .card-distance {
+      margin-left: auto; font-size: 11px; color: var(--primary-hover); font-weight: 700;
+      background: var(--primary-light); padding: 1px 6px; border-radius: var(--radius-full); flex-shrink: 0;
+    }
+
+    .card-features { display: flex; flex-wrap: wrap; gap: 4px; padding-top: 4px; border-top: 1px solid var(--slate-100); }
+    .feat-tag {
+      font-size: 10.5px; color: var(--slate-600); background: var(--slate-50);
+      border: 1px solid var(--slate-200); border-radius: var(--radius-sm); padding: 2px 6px;
+    }
+
+    .card-footer {
+      display: flex; align-items: center; justify-content: space-between; margin-top: 2px;
+      padding-top: 5px; border-top: 1px dashed var(--slate-200);
+    }
+    .card-phone { font-size: 11.5px; color: var(--slate-600); display: flex; align-items: center; gap: 4px; text-decoration: none; }
+    .card-actions { display: flex; gap: 5px; }
+    .btn-card-action {
+      background: var(--slate-100); border: none; color: var(--slate-700);
+      font-size: 11px; font-weight: 600; padding: 4px 8px; border-radius: var(--radius-sm);
+      cursor: pointer; display: inline-flex; align-items: center; gap: 3px; text-decoration: none;
+    }
+    .btn-card-action:hover { background: var(--primary-light); color: var(--primary-hover); }
+
+    /* Map Area */
+    .map-container { flex: 1; height: 100%; position: relative; background: #E5E7EB; }
+    #map { width: 100%; height: 100%; }
+
+    /* Map Floating Controls */
+    .map-floating-controls {
+      position: absolute; top: 58px; right: 12px; z-index: 800; display: flex; flex-direction: column; gap: 8px;
+    }
+    .map-btn {
+      width: 38px; height: 38px; background: #FFFFFF; border: 1px solid var(--slate-200);
+      border-radius: var(--radius-md); box-shadow: var(--shadow-md); display: flex;
+      align-items: center; justify-content: center; color: var(--slate-700); font-size: 15px; cursor: pointer;
+    }
+    .map-btn:hover { background: var(--slate-50); color: var(--primary); }
+
+    .quick-view-pills {
+      position: absolute; bottom: 24px; left: 50%; transform: translateX(-50%);
+      z-index: 800; background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(8px);
+      padding: 6px 10px; border-radius: var(--radius-full); box-shadow: var(--shadow-lg);
+      border: 1px solid var(--slate-200); display: flex; gap: 6px;
+    }
+    .quick-view-btn {
+      background: transparent; border: none; padding: 6px 12px; border-radius: var(--radius-full);
+      font-size: 12px; font-weight: 600; color: var(--slate-700); cursor: pointer; display: flex; align-items: center; gap: 5px;
+    }
+    .quick-view-btn:hover { background: var(--slate-100); }
+    .quick-view-btn.active { background: var(--primary); color: #FFFFFF; }
+
+    /* Marker pin styling */
+    .pet-custom-marker { display: flex; align-items: center; justify-content: center; }
+    .marker-pin {
+      width: 32px; height: 32px; border-radius: 50% 50% 50% 0; background: var(--primary);
+      position: absolute; transform: rotate(-45deg); left: 50%; top: 50%; margin: -19px 0 0 -16px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3); display: flex; align-items: center; justify-content: center;
+      border: 2px solid #FFFFFF; transition: transform 0.2s ease;
+    }
+    .marker-pin i { transform: rotate(45deg); color: #FFFFFF; font-size: 13px; }
+    .marker-pin.tc-pin { background: #D97706; }
+    .marker-pin.tpe-pin { background: #0284C7; }
+    .marker-pin.other-pin { background: #059669; }
+    .marker-pin.closed-pin { background: #94A3B8; filter: grayscale(1); }
+
+    /* Modals */
+    .modal-backdrop {
+      position: fixed; inset: 0; background: rgba(15, 23, 42, 0.65);
+      backdrop-filter: blur(4px); z-index: 2000; display: none;
+      align-items: center; justify-content: center; padding: 20px;
+    }
+    .modal-backdrop.open { display: flex; }
+    .modal-card {
+      background: #FFFFFF; width: 100%; max-width: 560px; max-height: 90vh;
+      border-radius: var(--radius-lg); box-shadow: var(--shadow-xl);
+      overflow-y: auto; position: relative; display: flex; flex-direction: column;
+    }
+    .modal-header { padding: 18px 22px 14px; border-bottom: 1px solid var(--slate-200); position: relative; }
+    .modal-close-btn {
+      position: absolute; top: 14px; right: 16px; width: 30px; height: 30px;
+      border-radius: 50%; background: var(--slate-100); border: none; color: var(--slate-600);
+      cursor: pointer; display: flex; align-items: center; justify-content: center;
+    }
+    .modal-body { padding: 18px 22px; display: flex; flex-direction: column; gap: 14px; }
+
+    /* Form Styles */
+    .form-group { display: flex; flex-direction: column; gap: 5px; }
+    .form-label { font-size: 12.5px; font-weight: 700; color: var(--slate-700); }
+    .form-input, .form-select, .form-textarea {
+      width: 100%; padding: 8px 12px; border: 1px solid var(--slate-200);
+      border-radius: var(--radius-sm); font-size: 13px; color: var(--slate-800); outline: none;
+    }
+    .form-input:focus, .form-select:focus, .form-textarea:focus { border-color: var(--primary); }
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+    .checkbox-group { display: flex; flex-wrap: wrap; gap: 8px; }
+    .checkbox-label {
+      font-size: 12px; display: inline-flex; align-items: center; gap: 4px;
+      background: var(--slate-50); border: 1px solid var(--slate-200); padding: 4px 8px;
+      border-radius: var(--radius-sm); cursor: pointer;
+    }
+
+    /* Changelog Card */
+    .changelog-item {
+      border: 1px solid var(--slate-200); border-radius: var(--radius-md); padding: 12px 14px;
+      display: flex; flex-direction: column; gap: 6px; background: #FFFFFF;
+    }
+    .changelog-header { display: flex; align-items: center; justify-content: space-between; }
+    .changelog-ver { font-size: 14px; font-weight: 800; color: var(--primary-hover); }
+    .changelog-date { font-size: 11px; color: var(--slate-400); }
+    .closed-store-tag {
+      background: #FFF1F2; border: 1px solid #FECDD3; color: #BE123C;
+      font-size: 11px; padding: 2px 7px; border-radius: var(--radius-sm); display: inline-block;
+    }
+
+    /* Mobile */
+    @media (max-width: 900px) {
+      .app-header { padding: 0 12px; height: 56px; }
+      .brand-sub { display: none; }
+      .sidebar {
+        position: absolute; top: 0; bottom: 0; left: 0; width: 100%;
+        max-width: 100%; z-index: 900; transform: translateX(-100%);
+      }
+      .sidebar.mobile-open { transform: translateX(0); }
+      .quick-view-pills { bottom: 12px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- App Header -->
+  <header class="app-header">
+    <div class="brand-area">
+      <div class="brand-icon"><i class="fa-solid fa-paw"></i></div>
+      <div class="brand-text">
+        <h1>
+          台灣毛孩趴趴走・全台寵物友善地圖
+          <span class="version-tag" id="btnOpenVersions" title="點擊檢視版本更新與關店異動日誌">
+            <i class="fa-solid fa-rotate"></i> <span id="headerVerText">v1.2.0</span>
+          </span>
+        </h1>
+        <div class="brand-sub">收錄全台 486+ 友善空間・含 Google Maps 營運動態與社群檢驗</div>
+      </div>
+    </div>
+
+    <div class="header-actions">
+      <button class="btn btn-upload" id="btnOpenUpload">
+        <i class="fa-solid fa-plus"></i>
+        <span>推薦/上傳店家</span>
+      </button>
+
+      <button class="btn btn-changelog" id="btnChangelog">
+        <i class="fa-solid fa-clipboard-list"></i>
+        <span>異動紀錄</span>
+      </button>
+
+      <button class="btn btn-outline" id="btnFilterFavs">
+        <i class="fa-regular fa-heart"></i>
+        <span>收藏 (<span id="favCount">0</span>)</span>
+      </button>
+
+      <button class="btn btn-primary" id="btnLocateMe">
+        <i class="fa-solid fa-location-crosshairs"></i>
+        <span>離我最近</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- App Main -->
+  <main class="app-main">
+    
+    <!-- Sidebar -->
+    <aside class="sidebar" id="sidebar">
+      
+      <div class="sidebar-filter-section">
+        
+        <!-- Search Input -->
+        <div class="search-box-wrap">
+          <i class="fa-solid fa-magnifying-glass search-icon"></i>
+          <input type="text" id="searchInput" class="search-input" placeholder="搜尋店名、地址、路名（如：美村路、草悟道、貓咪）...">
+          <button id="searchClearBtn" class="search-clear-btn"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+
+        <!-- Taichung Official Link Callout -->
+        <div class="tc-gov-banner">
+          <div><i class="fa-solid fa-shield-cat"></i> <strong>臺中動保處官方專區</strong> (186 筆認證)</div>
+          <a href="https://www.animal.taichung.gov.tw/1521448/1521512/1521537/1521539" target="_blank" rel="noopener">官網查驗</a>
+        </div>
+
+        <!-- County / City Selector -->
+        <div>
+          <div class="filter-group-title">
+            <span>縣市快速切換</span>
+            <span id="activeCityLabel" style="color: var(--primary); font-weight: 600;">全台灣</span>
+          </div>
+          <div class="chips-scroll" id="cityChipsContainer">
+            <button class="chip-btn active" data-city="ALL">全台灣 (<span id="countAll">576</span>)</button>
+            <button class="chip-btn special-tc" data-city="臺中市">🌟 臺中市 (<span id="countTC">187</span>)</button>
+            <button class="chip-btn" data-city="臺北市">臺北市 (<span id="countTPE">248</span>)</button>
+            <button class="chip-btn" data-city="臺南市">臺南市 (<span id="countTN">84</span>)</button>
+            <button class="chip-btn" data-city="新北市">新北市</button>
+            <button class="chip-btn" data-city="桃園市">桃園市</button>
+            <button class="chip-btn" data-city="新竹市,新竹縣">新竹</button>
+            <button class="chip-btn" data-city="高雄市">高雄市</button>
+            <button class="chip-btn" data-city="屏東縣">屏東/墾丁</button>
+            <button class="chip-btn" data-city="宜蘭縣">宜蘭縣</button>
+            <button class="chip-btn" data-city="花蓮縣">花蓮縣</button>
+            <button class="chip-btn" data-city="苗栗縣">苗栗縣</button>
+            <button class="chip-btn" data-city="彰化縣">彰化縣</button>
+            <button class="chip-btn" data-city="南投縣">南投縣</button>
+            <button class="chip-btn" data-city="嘉義市,嘉義縣">嘉義</button>
+            <button class="chip-btn" data-city="臺東縣">臺東縣</button>
+            <button class="chip-btn" data-city="澎湖縣">澎湖縣</button>
+          </div>
+        </div>
+
+        <!-- Categories -->
+        <div>
+          <div class="filter-group-title">空間類型</div>
+          <div class="cat-chips" id="catChipsContainer">
+            <button class="cat-chip active" data-cat="ALL">全部</button>
+            <button class="cat-chip" data-cat="咖啡/甜點茶館">☕ 咖啡/甜點</button>
+            <button class="cat-chip" data-cat="特色餐廳">🍽️ 特色餐廳</button>
+            <button class="cat-chip" data-cat="異國料理/餐酒館">🍝 異國/餐酒</button>
+            <button class="cat-chip" data-cat="火鍋/燒肉專門">🍲 火鍋/燒肉</button>
+            <button class="cat-chip" data-cat="早午餐/美式輕食">🥪 早午/美式</button>
+            <button class="cat-chip" data-cat="景觀茶餐廳">🏞️ 景觀茶餐</button>
+            <button class="cat-chip" data-cat="休閒娛樂/空間">🐾 休閒/空間</button>
+            <button class="cat-chip" data-cat="友善住宿/露營">🏕️ 住宿/露營</button>
+          </div>
+        </div>
+
+        <!-- Friendly Rules & Amenities -->
+        <div>
+          <div class="filter-group-title">友善設施與條件（可複選）</div>
+          <div class="rules-toggles" id="ruleTogglesContainer">
+            <button class="rule-tag-btn" data-rule="dog"><i class="fa-solid fa-dog"></i> 狗狗友善</button>
+            <button class="rule-tag-btn" data-rule="cat"><i class="fa-solid fa-cat"></i> 貓咪友善</button>
+            <button class="rule-tag-btn" data-rule="bigDog"><i class="fa-solid fa-shield-dog"></i> 大型犬OK</button>
+            <button class="rule-tag-btn" data-rule="ground"><i class="fa-solid fa-shoe-prints"></i> 牽繩可落地</button>
+            <button class="rule-tag-btn" data-rule="food"><i class="fa-solid fa-bone"></i> 提供寵物餐</button>
+            <button class="rule-tag-btn" data-rule="water"><i class="fa-solid fa-faucet-drip"></i> 提供飲水碗</button>
+            <button class="rule-tag-btn" data-rule="grass"><i class="fa-solid fa-tree"></i> 草坪跑跑</button>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Result Meta Bar -->
+      <div class="result-meta-bar">
+        <div class="result-count">
+          共找到 <strong id="filterResultCount">0</strong> 家店家
+        </div>
+        <div style="display: flex; align-items: center; gap: 8px;">
+          <label style="font-size: 11.5px; display: flex; align-items: center; gap: 3px; cursor: pointer;">
+            <input type="checkbox" id="chkHideClosed" checked> 隱藏已歇業
+          </label>
+          <select id="sortSelect" class="sort-select">
+            <option value="default">預設推薦</option>
+            <option value="distance">離我最近 (依距離)</option>
+            <option value="name">店名排序</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Place Cards Scrollable List -->
+      <div class="places-list" id="placesList"></div>
+
+    </aside>
+
+    <!-- Map Container -->
+    <div class="map-container">
+      <div id="map"></div>
+
+      <!-- Floating Controls -->
+      <div class="map-floating-controls">
+        <button class="map-btn" id="mapBtnLocate" title="定位當前位置"><i class="fa-solid fa-crosshairs"></i></button>
+        <button class="map-btn" id="mapBtnResetTaiwan" title="重置全台視野"><i class="fa-solid fa-earth-asia"></i></button>
+      </div>
+
+      <div class="quick-view-pills">
+        <button class="quick-view-btn" id="quickJumpTc"><i class="fa-solid fa-star" style="color: #D97706;"></i> 臺中專區</button>
+        <button class="quick-view-btn" id="quickJumpTpe"><i class="fa-solid fa-location-dot"></i> 臺北專區</button>
+        <button class="quick-view-btn" id="quickJumpAll"><i class="fa-solid fa-expand"></i> 全台視野</button>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Modal 1: Place Detail -->
+  <div class="modal-backdrop" id="detailModal">
+    <div class="modal-card">
+      <div class="modal-header">
+        <button class="modal-close-btn" onclick="closeModal('detailModal')"><i class="fa-solid fa-xmark"></i></button>
+        <div id="modalBadges" style="margin-bottom: 6px;"></div>
+        <h2 id="modalTitle" style="font-size: 20px; font-weight: 800; color: var(--slate-900);">店名</h2>
+        <div id="modalLegalName" style="font-size: 13px; color: var(--slate-500); margin-top: 3px;">登記名稱</div>
+      </div>
+
+      <div class="modal-body">
+        <div class="info-section">
+          <div style="font-size: 13px; font-weight: 700; color: var(--slate-800);"><i class="fa-solid fa-location-dot" style="color: var(--primary);"></i> 地址與聯絡</div>
+          <div id="modalAddress" style="font-size: 14px; line-height: 1.5;"></div>
+          <div id="modalPhone" style="font-size: 13.5px;"></div>
+        </div>
+
+        <div class="info-section">
+          <div style="font-size: 13px; font-weight: 700; color: var(--slate-800);"><i class="fa-solid fa-paw" style="color: var(--primary);"></i> 友善物種與規範</div>
+          <div id="modalPetsAllowed" style="display: flex; flex-wrap: wrap; gap: 6px;"></div>
+        </div>
+
+        <div class="info-section">
+          <div style="font-size: 13px; font-weight: 700; color: var(--slate-800);"><i class="fa-solid fa-circle-check" style="color: var(--emerald-600);"></i> 友善設施備品</div>
+          <div id="modalFeatures" style="display: flex; flex-wrap: wrap; gap: 6px;"></div>
+        </div>
+
+        <div class="info-section">
+          <div style="font-size: 13px; font-weight: 700; color: var(--slate-800);"><i class="fa-solid fa-certificate" style="color: var(--primary);"></i> 認證與來源</div>
+          <div id="modalSourceDesc" style="font-size: 12.5px; color: var(--slate-600); line-height: 1.5;"></div>
+        </div>
+      </div>
+
+      <div style="display: flex; gap: 8px; padding: 14px 22px; border-top: 1px solid var(--slate-200); background: var(--slate-50);">
+        <a id="modalNavBtn" href="#" target="_blank" class="btn btn-primary" style="flex: 1; justify-content: center;">
+          <i class="fa-solid fa-diamond-turn-right"></i> Google 導航
+        </a>
+        <button id="modalReportBtn" class="btn btn-outline" style="color: #BE123C;" title="回報店家已歇業或規則變更">
+          <i class="fa-solid fa-triangle-exclamation"></i> 回報歇業/錯誤
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 2: User Upload Store (使用者上傳/推薦友善店家) -->
+  <div class="modal-backdrop" id="uploadModal">
+    <div class="modal-card">
+      <div class="modal-header">
+        <button class="modal-close-btn" onclick="closeModal('uploadModal')"><i class="fa-solid fa-xmark"></i></button>
+        <h2 style="font-size: 18px; font-weight: 800; color: var(--slate-900);">
+          <i class="fa-solid fa-plus-circle" style="color: #2563EB;"></i> 我要推薦 / 上傳寵物友善店家
+        </h2>
+        <div style="font-size: 12px; color: var(--slate-500); margin-top: 2px;">
+          提交後系統將自動串接 Google Maps 檢驗地址與營運狀態，審核後即納入全台地圖與版本日誌！
+        </div>
+      </div>
+
+      <form id="uploadForm" class="modal-body">
+        <div class="form-group">
+          <label class="form-label">餐廳 / 空間名稱 *</label>
+          <input type="text" id="upName" class="form-input" placeholder="例如：毛毛柴早午餐咖啡館" required>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label">所在縣市 *</label>
+            <select id="upCity" class="form-select" required>
+              <option value="臺中市">臺中市</option>
+              <option value="臺北市">臺北市</option>
+              <option value="新北市">新北市</option>
+              <option value="桃園市">桃園市</option>
+              <option value="高雄市">高雄市</option>
+              <option value="臺南市">臺南市</option>
+              <option value="新竹市">新竹市</option>
+              <option value="新竹縣">新竹縣</option>
+              <option value="苗栗縣">苗栗縣</option>
+              <option value="彰化縣">彰化縣</option>
+              <option value="南投縣">南投縣</option>
+              <option value="雲林縣">雲林縣</option>
+              <option value="嘉義市">嘉義市</option>
+              <option value="屏東縣">屏東縣</option>
+              <option value="宜蘭縣">宜蘭縣</option>
+              <option value="花蓮縣">花蓮縣</option>
+              <option value="臺東縣">臺東縣</option>
+              <option value="澎湖縣">澎湖縣</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label">空間類型 *</label>
+            <select id="upCat" class="form-select" required>
+              <option value="咖啡/甜點茶館">☕ 咖啡/甜點茶館</option>
+              <option value="特色餐廳">🍽️ 特色餐廳</option>
+              <option value="異國料理/餐酒館">🍝 異國料理/餐酒館</option>
+              <option value="火鍋/燒肉專門">🍲 火鍋/燒肉專門</option>
+              <option value="早午餐/美式輕食">🥪 早午餐/美式輕食</option>
+              <option value="景觀茶餐廳">🏞️ 景觀茶餐廳</option>
+              <option value="寵物主題餐廳">🐾 寵物主題餐廳</option>
+              <option value="休閒娛樂/空間">🏕️ 休閒娛樂/空間</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">門市詳細地址 *</label>
+          <div style="display: flex; gap: 6px;">
+            <input type="text" id="upAddress" class="form-input" placeholder="例如：臺中市西區美村路一段100號" required>
+            <button type="button" class="btn btn-outline" id="btnTestGoogleMap" style="padding: 0 10px; font-size: 11px;">
+              <i class="fa-brands fa-google"></i> 驗證地圖
+            </button>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">連絡電話 (選填)</label>
+          <input type="text" id="upPhone" class="form-input" placeholder="例如：04-23010000">
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">友善寵物種類 (可複選)</label>
+          <div class="checkbox-group">
+            <label class="checkbox-label"><input type="checkbox" name="upPets" value="犬" checked> 🐶 狗狗</label>
+            <label class="checkbox-label"><input type="checkbox" name="upPets" value="貓" checked> 🐱 貓咪</label>
+            <label class="checkbox-label"><input type="checkbox" name="upPets" value="大型犬OK"> 🦮 大型犬友善</label>
+            <label class="checkbox-label"><input type="checkbox" name="upPets" value="特寵/鳥禽"> 🦜 特寵/鳥禽</label>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">友善設施與入內規範 (可複選)</label>
+          <div class="checkbox-group">
+            <label class="checkbox-label"><input type="checkbox" name="upRules" value="牽繩可落地" checked> 牽繩可落地</label>
+            <label class="checkbox-label"><input type="checkbox" name="upRules" value="需穿禮貌帶/尿布"> 需自備禮貌帶</label>
+            <label class="checkbox-label"><input type="checkbox" name="upRules" value="自備坐墊可上椅"> 自備坐墊可上椅</label>
+            <label class="checkbox-label"><input type="checkbox" name="upRules" value="提供寵物鮮食餐"> 提供寵物餐點</label>
+            <label class="checkbox-label"><input type="checkbox" name="upRules" value="提供飲水容器"> 提供水碗</label>
+            <label class="checkbox-label"><input type="checkbox" name="upRules" value="戶外草皮跑跑區"> 戶外草皮跑跑</label>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">推薦人稱呼 / 備註</label>
+          <input type="text" id="upSubmitter" class="form-input" placeholder="例如：台中黃金獵犬爸比">
+        </div>
+
+        <div style="display: flex; gap: 8px; justify-content: flex-end; margin-top: 10px;">
+          <button type="button" class="btn btn-outline" onclick="closeModal('uploadModal')">取消</button>
+          <button type="submit" class="btn btn-primary"><i class="fa-solid fa-cloud-arrow-up"></i> 確認提交審核</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Modal 3: Report Closed or Changed (回報已歇業) -->
+  <div class="modal-backdrop" id="reportModal">
+    <div class="modal-card">
+      <div class="modal-header">
+        <button class="modal-close-btn" onclick="closeModal('reportModal')"><i class="fa-solid fa-xmark"></i></button>
+        <h2 style="font-size: 18px; font-weight: 800; color: #BE123C;">
+          <i class="fa-solid fa-triangle-exclamation"></i> 回報店家歇業 / 資訊錯誤
+        </h2>
+        <div style="font-size: 12px; color: var(--slate-500); margin-top: 2px;">
+          感謝您的守護！我們將比對 Google Maps 狀態並於下一版本標註停業。
+        </div>
+      </div>
+
+      <form id="reportForm" class="modal-body">
+        <input type="hidden" id="repPlaceId">
+        <div class="form-group">
+          <label class="form-label">回報目標店家</label>
+          <div id="repPlaceName" style="font-size: 15px; font-weight: 700; color: var(--slate-900);"></div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">問題類型 *</label>
+          <select id="repType" class="form-select" required>
+            <option value="closed">🔴 店家已永久歇業 / 搬遷停業</option>
+            <option value="rule_change">🟡 寵物友善規範變更 (如改為不可落地)</option>
+            <option value="phone_error">ℹ️ 電話或地址錯誤</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">詳細說明 (現場情況 / 官方公告連結)</label>
+          <textarea id="repReason" class="form-textarea" rows="3" placeholder="例如：上週實地造訪已換成服飾店，Google Maps 也顯示永久停業..."></textarea>
+        </div>
+
+        <div style="display: flex; gap: 8px; justify-content: flex-end; margin-top: 10px;">
+          <button type="button" class="btn btn-outline" onclick="closeModal('reportModal')">取消</button>
+          <button type="submit" class="btn btn-primary" style="background: #BE123C;"><i class="fa-solid fa-paper-plane"></i> 提交回報</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Modal 4: Version Changelog (版本異動與已關店日誌) -->
+  <div class="modal-backdrop" id="versionModal">
+    <div class="modal-card">
+      <div class="modal-header">
+        <button class="modal-close-btn" onclick="closeModal('versionModal')"><i class="fa-solid fa-xmark"></i></button>
+        <h2 style="font-size: 18px; font-weight: 800; color: var(--slate-900);">
+          <i class="fa-solid fa-clock-rotate-left" style="color: var(--primary);"></i> 版本異動與歇業檢驗日誌
+        </h2>
+        <div style="font-size: 12px; color: var(--slate-500); margin-top: 2px;">
+          系統定期自動比對 Google Maps 狀態與社群回報，即時公告哪間店家已歇業或新上線！
+        </div>
+      </div>
+
+      <div class="modal-body" id="versionListContainer" style="gap: 12px;">
+        <!-- Rendered by JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Data & Libs -->
+  <script src="data.js"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+
+  <script>
+    // State management
+    const state = {
+      places: window.PET_PLACES_DATA || [],
+      versions: window.PET_MAP_VERSIONS || [],
+      selectedCity: 'ALL',
+      selectedCat: 'ALL',
+      selectedRules: new Set(),
+      searchKeyword: '',
+      onlyFavs: false,
+      hideClosed: true,
+      sortBy: 'default',
+      userLat: null,
+      userLng: null,
+      activePlaceId: null,
+      favorites: new Set(JSON.parse(localStorage.getItem('tw_pet_favs') || '[]'))
+    };
+
+    let map = null;
+    let markerClusterGroup = null;
+    let markersMap = new Map();
+    let userLocationMarker = null;
+
+    // Initialize Map
+    function initMap() {
+      map = L.map('map', { center: [23.9738, 120.9820], zoom: 8, zoomControl: false });
+      L.control.zoom({ position: 'topleft' }).addTo(map);
+
+      // Free, high-performance base tile layers (NO API KEY REQUIRED, NO WATERMARKS)
+      const osmHot = L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> contributors',
+        maxZoom: 19
+      });
+
+      const osmStandard = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> contributors',
+        maxZoom: 19
+      });
+
+      const esriWorld = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
+        attribution: 'Tiles &copy; Esri',
+        maxZoom: 19
+      });
+
+      // Default to OSM HOT (warm, clear, watermark-free)
+      osmHot.addTo(map);
+
+      // Layer switcher control
+      const baseMaps = {
+        "🎨 溫馨生活圖 (推薦)": osmHot,
+        "🗺️ 標準街道圖 (OSM)": osmStandard,
+        "🌐 全球清晰圖 (Esri)": esriWorld
+      };
+      L.control.layers(baseMaps, null, { position: 'topright', collapsed: true }).addTo(map);
+
+      markerClusterGroup = L.markerClusterGroup({
+        chunkedLoading: true, maxClusterRadius: 45, spiderfyOnMaxZoom: true, showCoverageOnHover: false
+      });
+      map.addLayer(markerClusterGroup);
+    }
+
+    // Custom Marker Icon
+    function createCustomMarkerIcon(place) {
+      const isClosed = place.status === 'CLOSED_PERMANENTLY' || place.status === 'CLOSED_TEMPORARILY';
+      let pinClass = 'other-pin';
+      let iconHtml = '<i class="fa-solid fa-paw"></i>';
+
+      if (isClosed) {
+        pinClass = 'closed-pin';
+        iconHtml = '<i class="fa-solid fa-ban"></i>';
+      } else if (place.city === '臺中市') {
+        pinClass = 'tc-pin';
+        iconHtml = '<i class="fa-solid fa-star"></i>';
+      } else if (place.city === '臺北市') {
+        pinClass = 'tpe-pin';
+        iconHtml = '<i class="fa-solid fa-shield-cat"></i>';
+      }
+
+      return L.divIcon({
+        className: 'pet-custom-marker',
+        html: `<div class="marker-pin ${pinClass}">${iconHtml}</div>`,
+        iconSize: [32, 32], iconAnchor: [16, 32], popupAnchor: [0, -30]
+      });
+    }
+
+    function getDistanceKm(lat1, lon1, lat2, lon2) {
+      const R = 6371;
+      const dLat = (lat2 - lat1) * Math.PI / 180;
+      const dLon = (lon2 - lon1) * Math.PI / 180;
+      const a = Math.sin(dLat/2) * Math.sin(dLat/2) +
+                Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
+                Math.sin(dLon/2) * Math.sin(dLon/2);
+      return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+    }
+
+    // Filter Places
+    function getFilteredPlaces() {
+      return state.places.filter(p => {
+        // Hide Closed
+        const isClosed = p.status === 'CLOSED_PERMANENTLY' || p.status === 'CLOSED_TEMPORARILY';
+        if (state.hideClosed && isClosed) return false;
+
+        // City
+        if (state.selectedCity !== 'ALL') {
+          const allowed = state.selectedCity.split(',');
+          if (!allowed.some(c => p.city.includes(c))) return false;
+        }
+
+        // Category
+        if (state.selectedCat !== 'ALL') {
+          if (p.category !== state.selectedCat) return false;
+        }
+
+        // Keyword
+        if (state.searchKeyword) {
+          const kw = state.searchKeyword.toLowerCase();
+          const matchName = p.name.toLowerCase().includes(kw);
+          const matchAddr = p.address.toLowerCase().includes(kw);
+          const matchDist = p.district.toLowerCase().includes(kw);
+          const matchCity = p.city.toLowerCase().includes(kw);
+          const matchFeat = p.features.some(f => f.toLowerCase().includes(kw));
+          if (!matchName && !matchAddr && !matchDist && !matchCity && !matchFeat) return false;
+        }
+
+        // Favorites
+        if (state.onlyFavs && !state.favorites.has(p.id)) return false;
+
+        // Rules
+        if (state.selectedRules.size > 0) {
+          for (let rule of state.selectedRules) {
+            if (rule === 'dog' && !p.petsAllowed.some(x => x.includes('犬') || x.includes('狗'))) return false;
+            if (rule === 'cat' && !p.petsAllowed.some(x => x.includes('貓'))) return false;
+            if (rule === 'bigDog') {
+              const str = (p.petsAllowed.join(' ') + ' ' + p.rules.join(' ')).toLowerCase();
+              if (!str.includes('大') && !str.includes('不限體型')) return false;
+            }
+            if (rule === 'ground' && !p.rules.join(' ').includes('落地')) return false;
+            if (rule === 'food' && !p.features.join(' ').includes('餐') && !p.features.join(' ').includes('食')) return false;
+            if (rule === 'water' && !p.features.join(' ').includes('水')) return false;
+            if (rule === 'grass' && !p.features.join(' ').includes('草皮') && !p.features.join(' ').includes('草坪')) return false;
+          }
+        }
+        return true;
+      });
+    }
+
+    function sortPlaces(places) {
+      const copy = [...places];
+      if (state.sortBy === 'distance' && state.userLat && state.userLng) {
+        copy.sort((a, b) => getDistanceKm(state.userLat, state.userLng, a.lat, a.lng) - getDistanceKm(state.userLat, state.userLng, b.lat, b.lng));
+      } else if (state.sortBy === 'name') {
+        copy.sort((a, b) => a.name.localeCompare(b.name, 'zh-Hant'));
+      } else {
+        copy.sort((a, b) => {
+          if (a.city === '臺中市' && b.city !== '臺中市') return -1;
+          if (a.city !== '臺中市' && b.city === '臺中市') return 1;
+          return a.name.localeCompare(b.name, 'zh-Hant');
+        });
+      }
+      return copy;
+    }
+
+    function renderMarkers(places) {
+      markerClusterGroup.clearLayers();
+      markersMap.clear();
+
+      places.forEach(place => {
+        const marker = L.marker([place.lat, place.lng], {
+          icon: createCustomMarkerIcon(place),
+          title: place.name
+        });
+
+        const isClosed = place.status === 'CLOSED_PERMANENTLY' || place.status === 'CLOSED_TEMPORARILY';
+        const popupContent = `
+          <div style="padding: 12px 14px; font-family: inherit;">
+            <span style="font-size: 11px; font-weight: 700; color: var(--primary);">${place.city}・${place.district}</span>
+            <div style="font-size: 15px; font-weight: 700; margin: 3px 0;">${place.name}</div>
+            ${isClosed ? '<div style="color: #BE123C; font-size: 11.5px; font-weight: 700; margin-bottom: 4px;">⚠️ 此店家經檢驗已停業</div>' : ''}
+            <div style="font-size: 12px; color: var(--slate-600); margin-bottom: 8px;">${place.address}</div>
+            <div style="display: flex; gap: 6px;">
+              <a href="https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(place.name + ' ' + place.address)}" target="_blank" style="flex: 1; text-align: center; background: var(--primary); color: white; padding: 5px; border-radius: 6px; font-size: 11.5px; text-decoration: none; font-weight: 600;">導航</a>
+              <button onclick="openPlaceModal('${place.id}')" style="flex: 1; border: 1px solid var(--slate-200); background: white; padding: 5px; border-radius: 6px; font-size: 11.5px; font-weight: 600; cursor: pointer;">詳情</button>
+            </div>
+          </div>
+        `;
+
+        marker.bindPopup(popupContent);
+        marker.on('click', () => highlightCard(place.id));
+        markersMap.set(place.id, marker);
+        markerClusterGroup.addLayer(marker);
+      });
+    }
+
+    function renderList(places) {
+      const container = document.getElementById('placesList');
+      document.getElementById('filterResultCount').textContent = places.length;
+
+      if (places.length === 0) {
+        container.innerHTML = `
+          <div style="padding: 40px 20px; text-align: center; color: var(--slate-500);">
+            <i class="fa-solid fa-dog" style="font-size: 36px; color: var(--slate-300); margin-bottom: 10px;"></i>
+            <h3>未找到符合條件的友善空間</h3>
+            <button class="btn btn-outline" onclick="resetAllFilters()" style="margin-top: 10px;">重設所有篩選</button>
+          </div>
+        `;
+        return;
+      }
+
+      container.innerHTML = places.map(place => {
+        const isFav = state.favorites.has(place.id);
+        const isClosed = place.status === 'CLOSED_PERMANENTLY' || place.status === 'CLOSED_TEMPORARILY';
+
+        let distBadge = '';
+        if (state.userLat && state.userLng) {
+          const d = getDistanceKm(state.userLat, state.userLng, place.lat, place.lng);
+          distBadge = `<span class="card-distance">${d < 1 ? Math.round(d * 1000) + 'm' : d.toFixed(1) + 'km'}</span>`;
+        }
+
+        let certBadge = '';
+        if (isClosed) {
+          certBadge = `<span class="badge badge-closed"><i class="fa-solid fa-ban"></i> 已歇業</span>`;
+        } else if (place.city === '臺中市') {
+          certBadge = `<span class="badge badge-tc-verified"><i class="fa-solid fa-star"></i> 臺中動保處認證</span>`;
+        } else if (place.city === '臺北市') {
+          certBadge = `<span class="badge badge-tpe-verified"><i class="fa-solid fa-circle-check"></i> 臺北動保處認證</span>`;
+        } else if (place.city === '臺南市') {
+          certBadge = `<span class="badge badge-tc-verified" style="background:#EFF6FF; border-color:#BFDBFE; color:#1D4ED8;"><i class="fa-solid fa-award"></i> 臺南動保處標章</span>`;
+        } else if (place.source && place.source.includes('官方')) {
+          certBadge = `<span class="badge badge-tc-verified" style="background:#F0FDF4; border-color:#BBF7D0; color:#15803D;"><i class="fa-solid fa-certificate"></i> 動保官方認證</span>`;
+        }
+
+        const phoneDisplay = place.phone && place.phone !== '依店家現場公告為準' ? place.phone : '詳見粉專';
+
+        return `
+          <div class="place-card ${isClosed ? 'is-closed' : ''} ${state.activePlaceId === place.id ? 'active-selected' : ''}" id="card-${place.id}" onclick="selectPlace('${place.id}')">
+            <div class="card-top">
+              <div>
+                <div class="card-name">${place.name}</div>
+                <div class="card-badges">
+                  <span class="badge badge-city">${place.city}・${place.district}</span>
+                  <span class="badge badge-cat">${place.category}</span>
+                  ${certBadge}
+                </div>
+              </div>
+              <button class="fav-btn ${isFav ? 'active' : ''}" onclick="toggleFavorite('${place.id}', event)">
+                <i class="${isFav ? 'fa-solid' : 'fa-regular'} fa-heart"></i>
+              </button>
+            </div>
+
+            <div class="card-address">
+              <i class="fa-solid fa-location-dot"></i>
+              <span>${place.address}</span>
+              ${distBadge}
+            </div>
+
+            <div class="card-features">
+              ${place.petsAllowed.slice(0, 3).map(p => `<span class="feat-tag"><i class="fa-solid fa-paw"></i> ${p}</span>`).join('')}
+              ${place.features.slice(0, 2).map(f => `<span class="feat-tag">${f}</span>`).join('')}
+            </div>
+
+            <div class="card-footer">
+              <span class="card-phone"><i class="fa-solid fa-phone"></i> ${phoneDisplay}</span>
+              <div class="card-actions">
+                <a class="btn-card-action" href="https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(place.name + ' ' + place.address)}" target="_blank" onclick="event.stopPropagation()">
+                  <i class="fa-solid fa-diamond-turn-right"></i> 導航
+                </a>
+                <button class="btn-card-action" onclick="openReportModal('${place.id}', '${place.name.replace(/'/g, "\\'")}'); event.stopPropagation();" title="回報已關店或資訊變更" style="color: #BE123C;">
+                  <i class="fa-solid fa-flag"></i> 回報
+                </button>
+                <button class="btn-card-action" onclick="openPlaceModal('${place.id}'); event.stopPropagation();">
+                  <i class="fa-solid fa-info-circle"></i> 詳情
+                </button>
+              </div>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    function selectPlace(id) {
+      state.activePlaceId = id;
+      const place = state.places.find(p => p.id === id);
+      if (!place) return;
+
+      highlightCard(id);
+
+      if (map) {
+        map.setView([place.lat, place.lng], 16, { animate: true });
+        const marker = markersMap.get(id);
+        if (marker) {
+          markerClusterGroup.zoomToShowLayer(marker, () => marker.openPopup());
+        }
+      }
+    }
+
+    function highlightCard(id) {
+      document.querySelectorAll('.place-card').forEach(el => el.classList.remove('active-selected'));
+      const card = document.getElementById(`card-${id}`);
+      if (card) {
+        card.classList.add('active-selected');
+        card.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      }
+    }
+
+    window.openPlaceModal = function(id) {
+      const place = state.places.find(p => p.id === id);
+      if (!place) return;
+
+      document.getElementById('modalTitle').textContent = place.name;
+      document.getElementById('modalLegalName').textContent = place.legalName && place.legalName !== place.name ? `登記公司/商業名稱：${place.legalName}` : '';
+      
+      const isClosed = place.status === 'CLOSED_PERMANENTLY' || place.status === 'CLOSED_TEMPORARILY';
+      let badges = `<span class="badge badge-city">${place.city}・${place.district}</span><span class="badge badge-cat">${place.category}</span>`;
+      if (isClosed) badges += `<span class="badge badge-closed"><i class="fa-solid fa-ban"></i> 此店家已永久停業</span>`;
+      else if (place.city === '臺中市') badges += `<span class="badge badge-tc-verified"><i class="fa-solid fa-star"></i> 臺中動保處官方認證</span>`;
+      document.getElementById('modalBadges').innerHTML = badges;
+
+      document.getElementById('modalAddress').innerHTML = `${place.address} <button class="btn-card-action" onclick="copyText('${place.address}')"><i class="fa-regular fa-copy"></i> 複製地址</button>`;
+      document.getElementById('modalPhone').innerHTML = `<i class="fa-solid fa-phone"></i> ${place.phone || '依現場公告'}`;
+
+      document.getElementById('modalPetsAllowed').innerHTML = place.petsAllowed.map(p => `<span class="feat-tag" style="background: #FEF3C7; color: #92400E;"><i class="fa-solid fa-paw"></i> ${p}</span>`).join('') +
+        place.rules.map(r => `<span class="feat-tag"><i class="fa-solid fa-shield-dog"></i> ${r}</span>`).join('');
+
+      document.getElementById('modalFeatures').innerHTML = place.features.map(f => `<span class="feat-tag" style="background: var(--emerald-50); color: #047857;"><i class="fa-solid fa-check"></i> ${f}</span>`).join('');
+
+      document.getElementById('modalSourceDesc').innerHTML = `
+        來源機關：<strong>${place.source}</strong><br>
+        <a href="${place.sourceUrl}" target="_blank" rel="noopener" style="color: var(--primary); font-weight: 600; text-decoration: underline;">
+          <i class="fa-solid fa-arrow-up-right-from-square"></i> 點此開啟官方原始登錄專頁
+        </a>
+      `;
+
+      document.getElementById('modalNavBtn').href = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(place.name + ' ' + place.address)}`;
+      document.getElementById('modalReportBtn').onclick = () => {
+        closeModal('detailModal');
+        openReportModal(place.id, place.name);
+      };
+
+      openModal('detailModal');
+    };
+
+    window.openReportModal = function(id, name) {
+      document.getElementById('repPlaceId').value = id;
+      document.getElementById('repPlaceName').textContent = name;
+      openModal('reportModal');
+    };
+
+    window.openModal = function(id) { document.getElementById(id).classList.add('open'); };
+    window.closeModal = function(id) { document.getElementById(id).classList.remove('open'); };
+
+    window.copyText = function(text) {
+      navigator.clipboard.writeText(text).then(() => alert('已複製地址至剪貼簿：' + text));
+    };
+
+    window.toggleFavorite = function(id, event) {
+      if (event) event.stopPropagation();
+      if (state.favorites.has(id)) state.favorites.delete(id);
+      else state.favorites.add(id);
+      localStorage.setItem('tw_pet_favs', JSON.stringify(Array.from(state.favorites)));
+      document.getElementById('favCount').textContent = state.favorites.size;
+      updateView();
+    };
+
+    function updateView() {
+      const filtered = getFilteredPlaces();
+      const sorted = sortPlaces(filtered);
+      renderList(sorted);
+      renderMarkers(sorted);
+    }
+
+    // Render Version Changelog Modal
+    function renderVersionChangelog() {
+      fetch('/api/versions').then(r => r.json()).then(data => {
+        state.versions = data;
+        if (data.length > 0) {
+          document.getElementById('headerVerText').textContent = data[0].version;
+        }
+        const container = document.getElementById('versionListContainer');
+        container.innerHTML = data.map(v => {
+          let closedHtml = '';
+          if (v.closedStores && v.closedStores.length > 0) {
+            closedHtml = `
+              <div style="margin-top: 6px; padding: 8px; background: #FFF1F2; border-radius: 6px;">
+                <div style="font-size: 11.5px; font-weight: 700; color: #BE123C; margin-bottom: 4px;">🔴 經自動檢驗已關店門市 (${v.closedStores.length} 家)：</div>
+                <div style="display: flex; flex-wrap: wrap; gap: 4px;">
+                  ${v.closedStores.map(c => `<span class="closed-store-tag">${c.name} (${c.city}) - ${c.reason}</span>`).join('')}
+                </div>
+              </div>
+            `;
+          }
+
+          let newHtml = '';
+          if (v.newStores && v.newStores.length > 0) {
+            newHtml = `
+              <div style="margin-top: 6px; padding: 8px; background: #ECFDF5; border-radius: 6px;">
+                <div style="font-size: 11.5px; font-weight: 700; color: #047857; margin-bottom: 4px;">🟢 本版本新審核上線 (${v.newStores.length} 家)：</div>
+                <div style="display: flex; flex-wrap: wrap; gap: 4px;">
+                  ${v.newStores.map(n => `<span style="background: white; border: 1px solid #A7F3D0; font-size: 11px; padding: 2px 6px; border-radius: 4px; color: #047857;">${n.name} (${n.city})</span>`).join('')}
+                </div>
+              </div>
+            `;
+          }
+
+          return `
+            <div class="changelog-item">
+              <div class="changelog-header">
+                <span class="changelog-ver">${v.version}</span>
+                <span class="changelog-date">${v.date}</span>
+              </div>
+              <div style="font-size: 12.5px; color: var(--slate-700);">${v.summary}</div>
+              ${closedHtml}
+              ${newHtml}
+            </div>
+          `;
+        }).join('');
+      }).catch(() => {});
+    }
+
+    // Geolocation
+    function locateUser(zoomToLocation = false) {
+      if (!navigator.geolocation) { alert('您的瀏覽器不支援定位功能。'); return; }
+      navigator.geolocation.getCurrentPosition(pos => {
+        state.userLat = pos.coords.latitude;
+        state.userLng = pos.coords.longitude;
+        if (!userLocationMarker) {
+          userLocationMarker = L.circleMarker([state.userLat, state.userLng], {
+            radius: 9, fillColor: '#3B82F6', color: '#FFFFFF', weight: 3, opacity: 1, fillOpacity: 0.9
+          }).addTo(map).bindPopup('<strong>📍 您的當前位置</strong>');
+        } else {
+          userLocationMarker.setLatLng([state.userLat, state.userLng]);
+        }
+        state.sortBy = 'distance';
+        document.getElementById('sortSelect').value = 'distance';
+        updateView();
+        if (zoomToLocation) {
+          map.setView([state.userLat, state.userLng], 14, { animate: true });
+          userLocationMarker.openPopup();
+        }
+      }, err => alert('無法取得位置資訊，請確認已允許定位權限。'));
+    }
+
+    // Setup Form Submissions & Events
+    function setupApp() {
+      initMap();
+
+      // Search
+      const searchInput = document.getElementById('searchInput');
+      const searchClearBtn = document.getElementById('searchClearBtn');
+      searchInput.addEventListener('input', e => {
+        state.searchKeyword = e.target.value.trim();
+        searchClearBtn.style.display = state.searchKeyword ? 'block' : 'none';
+        updateView();
+      });
+      searchClearBtn.addEventListener('click', () => {
+        searchInput.value = ''; state.searchKeyword = ''; searchClearBtn.style.display = 'none'; updateView();
+      });
+
+      // Hide closed checkbox
+      document.getElementById('chkHideClosed').addEventListener('change', e => {
+        state.hideClosed = e.target.checked;
+        updateView();
+      });
+
+      // City Chips
+      document.getElementById('cityChipsContainer').addEventListener('click', e => {
+        const btn = e.target.closest('.chip-btn');
+        if (!btn) return;
+        document.querySelectorAll('.chip-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        state.selectedCity = btn.dataset.city;
+        document.getElementById('activeCityLabel').textContent = btn.textContent.split('(')[0].trim();
+        updateView();
+        if (state.selectedCity === '臺中市') map.setView([24.1534, 120.6653], 12);
+        else if (state.selectedCity === '臺北市') map.setView([25.0450, 121.5450], 12);
+        else if (state.selectedCity === 'ALL') map.setView([23.9738, 120.9820], 8);
+      });
+
+      // Category Chips
+      document.getElementById('catChipsContainer').addEventListener('click', e => {
+        const btn = e.target.closest('.cat-chip');
+        if (!btn) return;
+        document.querySelectorAll('.cat-chip').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        state.selectedCat = btn.dataset.cat;
+        updateView();
+      });
+
+      // Rule Toggles
+      document.getElementById('ruleTogglesContainer').addEventListener('click', e => {
+        const btn = e.target.closest('.rule-tag-btn');
+        if (!btn) return;
+        const rule = btn.dataset.rule;
+        if (state.selectedRules.has(rule)) { state.selectedRules.delete(rule); btn.classList.remove('active'); }
+        else { state.selectedRules.add(rule); btn.classList.add('active'); }
+        updateView();
+      });
+
+      // Sort
+      document.getElementById('sortSelect').addEventListener('change', e => {
+        state.sortBy = e.target.value;
+        if (state.sortBy === 'distance' && (!state.userLat || !state.userLng)) locateUser(true);
+        else updateView();
+      });
+
+      // Favorites
+      document.getElementById('btnFilterFavs').addEventListener('click', function() {
+        state.onlyFavs = !state.onlyFavs;
+        this.classList.toggle('active', state.onlyFavs);
+        updateView();
+      });
+
+      // Locate
+      document.getElementById('btnLocateMe').addEventListener('click', () => locateUser(true));
+      document.getElementById('mapBtnLocate').addEventListener('click', () => locateUser(true));
+
+      // Quick jumps
+      document.getElementById('quickJumpTc').addEventListener('click', () => {
+        document.querySelector('.chip-btn[data-city="臺中市"]').click();
+      });
+      document.getElementById('quickJumpTpe').addEventListener('click', () => {
+        document.querySelector('.chip-btn[data-city="臺北市"]').click();
+      });
+      document.getElementById('quickJumpAll').addEventListener('click', () => {
+        document.querySelector('.chip-btn[data-city="ALL"]').click();
+      });
+      document.getElementById('mapBtnResetTaiwan').addEventListener('click', () => map.setView([23.9738, 120.9820], 8));
+
+      // Open Modals
+      document.getElementById('btnOpenUpload').addEventListener('click', () => openModal('uploadModal'));
+      document.getElementById('btnChangelog').addEventListener('click', () => {
+        renderVersionChangelog();
+        openModal('versionModal');
+      });
+      document.getElementById('btnOpenVersions').addEventListener('click', () => {
+        renderVersionChangelog();
+        openModal('versionModal');
+      });
+
+      // Test Google Maps address in upload form
+      document.getElementById('btnTestGoogleMap').addEventListener('click', () => {
+        const addr = document.getElementById('upAddress').value.trim();
+        const name = document.getElementById('upName').value.trim();
+        if (!addr && !name) { alert('請先輸入店名或地址！'); return; }
+        window.open(`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(name + ' ' + addr)}`, '_blank');
+      });
+
+      // Handle Form 1: Upload Store
+      document.getElementById('uploadForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+        const pets = Array.from(document.querySelectorAll('input[name="upPets"]:checked')).map(x => x.value);
+        const rules = Array.from(document.querySelectorAll('input[name="upRules"]:checked')).map(x => x.value);
+        
+        const payload = {
+          name: document.getElementById('upName').value.trim(),
+          city: document.getElementById('upCity').value,
+          category: document.getElementById('upCat').value,
+          address: document.getElementById('upAddress').value.trim(),
+          phone: document.getElementById('upPhone').value.trim(),
+          petsAllowed: pets.length ? pets : ['犬', '貓'],
+          rules: rules.length ? rules : ['牽繩可落地'],
+          features: rules,
+          submitter: document.getElementById('upSubmitter').value.trim() || '熱心毛爸媽'
+        };
+
+        fetch('/api/upload', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        }).then(r => r.json()).then(res => {
+          if (res.success) {
+            alert(res.message);
+            closeModal('uploadModal');
+            document.getElementById('uploadForm').reset();
+            // Automatically trigger verify/merge for immediate preview
+            fetch('/api/verify', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({ submissionId: res.submission.id, action: 'approve' })
+            }).then(() => {
+              // Reload places
+              fetch('/api/places').then(r => r.json()).then(newPlaces => {
+                state.places = newPlaces;
+                updateView();
+                renderVersionChangelog();
+              });
+            });
+          } else {
+            alert('上傳失敗：' + res.message);
+          }
+        }).catch(err => {
+          alert('本機離線模式：已暫存此推薦，可手動記錄於資料庫中。');
+          closeModal('uploadModal');
+        });
+      });
+
+      // Handle Form 2: Report Closed/Changed
+      document.getElementById('reportForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+        const payload = {
+          targetPlaceId: document.getElementById('repPlaceId').value,
+          targetName: document.getElementById('repPlaceName').textContent,
+          reportType: document.getElementById('repType').value,
+          reason: document.getElementById('repReason').value.trim()
+        };
+
+        fetch('/api/report', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        }).then(r => r.json()).then(res => {
+          alert(res.message);
+          closeModal('reportModal');
+          document.getElementById('reportForm').reset();
+        }).catch(() => {
+          alert('已記錄您的回報！');
+          closeModal('reportModal');
+        });
+      });
+
+      // Load initial view
+      document.getElementById('favCount').textContent = state.favorites.size;
+      updateView();
+      renderVersionChangelog();
+    }
+
+    window.addEventListener('DOMContentLoaded', setupApp);
+  </script>
+</body>
+</html>

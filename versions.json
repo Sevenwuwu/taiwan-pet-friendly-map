@@ -1,0 +1,57 @@
+[
+  {
+    "version": "v1.4.0",
+    "date": "2026-10-21 13:33",
+    "summary": "收錄 576 家店家，本版本檢驗標記 0 家歇業門市，新增 0 家友善餐廳。",
+    "closedStores": [],
+    "reopenedStores": [],
+    "newStores": [],
+    "totalStores": 576,
+    "activeStores": 575
+  },
+  {
+    "version": "v1.3.0",
+    "date": "2026-10-21 12:48",
+    "summary": "收錄 486 家店家，本版本檢驗標記 1 家歇業門市，新增 0 家友善餐廳。",
+    "closedStores": [
+      {
+        "id": "tc-10",
+        "name": "Gyusya 牛舎炭火漢堡排專門店",
+        "city": "臺中市",
+        "status": "已永久停業",
+        "reason": "Google Maps 標註已永久停業，招牌已拆除"
+      }
+    ],
+    "reopenedStores": [],
+    "newStores": [],
+    "totalStores": 486,
+    "activeStores": 485
+  },
+  {
+    "version": "v1.2.0",
+    "date": "2026-10-21 12:47",
+    "summary": "收錄 486 家店家，本版本檢驗關閉 0 家歇業門市，新增 1 家友善餐廳。",
+    "closedStores": [],
+    "reopenedStores": [],
+    "newStores": [
+      {
+        "id": "user-sub-1",
+        "name": "米克斯與柴犬花園咖啡",
+        "city": "臺中市",
+        "category": "咖啡/甜點茶館"
+      }
+    ],
+    "totalStores": 486,
+    "activeStores": 486
+  },
+  {
+    "version": "v1.1.0",
+    "date": "2026-10-21 12:46",
+    "summary": "收錄 485 家店家，本版本檢驗關閉 0 家歇業門市，新增 0 家友善餐廳。",
+    "closedStores": [],
+    "reopenedStores": [],
+    "newStores": [],
+    "totalStores": 485,
+    "activeStores": 485
+  }
+]
