@@ -27,8 +27,8 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=255 LAB café+臺中市南屯區大墩十一街392號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/255lab/",
+    "instagram": "https://www.instagram.com/_255lab/",
     "website": ""
   },
   {
@@ -58,8 +58,8 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=3Four 水某人文茶館+臺中市東區三賢街2號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/3Fourtea/",
+    "instagram": "https://www.instagram.com/3fourtea/",
     "website": ""
   },
   {
@@ -90,7 +90,7 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=501休閒輕食館-鳳凰飛鏢旗艦32店+臺中市西屯區青海路一段82之1號2F",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/Darts32/",
     "instagram": "",
     "website": ""
   },
@@ -122,8 +122,8 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Bullet Burger+臺中市美村路一段164巷17號1樓",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/bullettruck/",
+    "instagram": "https://www.instagram.com/bullet_burger_shop/",
     "website": ""
   },
   {
@@ -156,9 +156,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Campaholic 露營家+臺中市北屯區舊社里長富街310號1樓",
-    "facebook": "",
-    "instagram": "",
-    "website": ""
+    "facebook": "https://www.facebook.com/Campaholic/",
+    "instagram": "https://www.instagram.com/campaholic.tc/",
+    "website": "https://www.campaholic.net/"
   },
   {
     "id": "tc-6",
@@ -187,8 +187,8 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Cuppa VV Cafe+臺中市西區博館三街103號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/p/Cuppa-VV-Cafe-100063919548114/",
+    "instagram": "https://www.instagram.com/cuppa.vv/",
     "website": ""
   },
   {
@@ -221,7 +221,7 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Eartha燒肉餐酒館+臺中市北區德化街457號",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/Eartha%25E7%2587%2592%25E8%2582%2589%25E9%25A4%2590%25E9%2585%2592%25E9%25A4%25A8-109048954613404/",
     "instagram": "",
     "website": ""
   },
@@ -253,7 +253,7 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Gray House灰房子義式餐廳+臺中市北區三民路三段201巷30號",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/grayhouse.30/",
     "instagram": "",
     "website": ""
   },
@@ -286,8 +286,8 @@ window.PET_PLACES_DATA = [
     "status": "CLOSED_PERMANENTLY",
     "statusUpdatedAt": "2026-10-21 13:44",
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Gyusya 牛舎炭火漢堡排專門店+臺中市南屯區大英街440號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/gyusya2018/",
+    "instagram": "https://www.instagram.com/gyusya_official/",
     "website": ""
   },
   {
@@ -319,7 +319,7 @@ window.PET_PLACES_DATA = [
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=In Outdoor臥野+臺中市太順二街168號",
     "facebook": "",
-    "instagram": "",
+    "instagram": "https://www.instagram.com/inoutdoor.taiwan/",
     "website": ""
   },
   {
@@ -382,8 +382,8 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Mh juicery&cafe+臺中市北屯區興安路一段238號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/mhjuicerycafe/",
+    "instagram": "https://www.instagram.com/mh_juicerycafe/",
     "website": ""
   },
   {
@@ -416,8 +416,8 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Momori Café & Bar+臺中市西區臺灣大道二段222號一樓",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/100090168547856/",
+    "instagram": "https://www.instagram.com/momori.space/",
     "website": ""
   },
   {
@@ -449,9 +449,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Mr.Mantter 曼特先生+臺中市中區台灣大道一段271號",
-    "facebook": "",
-    "instagram": "",
-    "website": ""
+    "facebook": "https://www.facebook.com/mrmantter/",
+    "instagram": "https://www.instagram.com/mrmantter/",
+    "website": "https://www.mrmantter.com/"
   },
   {
     "id": "tc-20",
@@ -481,8 +481,8 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=NO.19 Restaurant+臺中市西屯區何厝街146號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/p/No19-Restaurant-100063792341090/",
+    "instagram": "https://www.instagram.com/no.19_restaurant/",
     "website": ""
   },
   {
@@ -514,7 +514,7 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=NanBoo 南部人製菓+臺中市西區大和路63號",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/p/Nanboo%E5%8D%97%E9%83%A8%E4%BA%BA-61581853867392/",
     "instagram": "",
     "website": ""
   },
@@ -548,8 +548,8 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=PANO 24+臺中市中區綠川里建國路111號24樓",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/p/PANO-24-61556019065534/",
+    "instagram": "https://www.instagram.com/pano24_bar/",
     "website": ""
   },
   {
@@ -579,8 +579,8 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Roundabout Cafe 圓環咖啡．大和店+臺中市大和路73號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/roundaboutcoffee/",
+    "instagram": "https://www.instagram.com/roundaboutcoffee/",
     "website": ""
   },
   {
@@ -610,8 +610,8 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Roundabout Cafe 圓環咖啡．梅川店+臺中市梅川東路三段207號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/roundaboutcoffee/",
+    "instagram": "https://www.instagram.com/roundaboutcoffee/",
     "website": ""
   },
   {
@@ -642,8 +642,8 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Tamp Temper+臺中市西區民權路286號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/TampTemperTaichungCoffee/",
+    "instagram": "https://www.instagram.com/tamptempercoffee/",
     "website": ""
   },
   {
@@ -673,9 +673,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=UZO+臺中市精誠五街22號",
-    "facebook": "",
-    "instagram": "",
-    "website": ""
+    "facebook": "https://www.facebook.com/uzobarandgrill/",
+    "instagram": "https://www.instagram.com/uzobar_grill/",
+    "website": "https://inline.app/booking/-OfxOlB7-ysx3e_3Y1sF:inline-live-3/-OfxOlGvVcPVHU9_RseF"
   },
   {
     "id": "tc-29",
@@ -704,8 +704,8 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Uni café 與你咖啡+臺中市西屯區漢翔北街37號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/unicafe0408/",
+    "instagram": "https://www.instagram.com/uni_cafe__/",
     "website": ""
   },
   {
@@ -736,8 +736,8 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=井閣鍋物+臺中市美村路一段25號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/chingko.tc/",
+    "instagram": "https://www.instagram.com/chingko.tc/",
     "website": ""
   },
   {
@@ -769,7 +769,7 @@ window.PET_PLACES_DATA = [
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=仁將咖啡館+臺中市西區五權西五街61號",
     "facebook": "",
-    "instagram": "",
+    "instagram": "https://www.instagram.com/caffeterry61/",
     "website": ""
   },
   {
@@ -800,8 +800,8 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=倫家Café+臺中市太平區中山路二段138號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/lunahousecafe/",
+    "instagram": "https://www.instagram.com/lunshousecafe_meow/",
     "website": ""
   },
   {
@@ -832,8 +832,8 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=凡日bread & meal+臺中市昇平街75號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/fundaybreadnmeal/",
+    "instagram": "https://www.instagram.com/fundaybreadnmeal/",
     "website": ""
   },
   {
@@ -897,7 +897,7 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=北緯二十四 Latitude 24+臺中市中區建國路111號1樓",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/LMLatitude24/",
     "instagram": "",
     "website": ""
   },
@@ -933,9 +933,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=千汌日本料理+臺中市西區存中街61巷1號",
-    "facebook": "",
-    "instagram": "",
-    "website": ""
+    "facebook": "https://www.facebook.com/%E5%8D%83%E6%B1%8C-107231151697000/",
+    "instagram": "https://www.instagram.com/chien.chuan_1018/",
+    "website": "https://inline.app/booking/-MkCO029K9XtQtz5fulv:inline-live-2/-MkCO0l4c0nBe_DD4jMw"
   },
   {
     "id": "tc-46",
@@ -964,7 +964,7 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=古典小熊屋+臺中市北區三民路三段201巷29號",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/p/%E5%B0%8F%E7%86%8A%E5%B1%8B-bear-house%E4%B8%AD%E5%8F%8B%E5%BA%97-100069284564541/",
     "instagram": "",
     "website": ""
   },
@@ -997,8 +997,8 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=合作咖啡商行+臺中市南區福田三街165號1樓",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/cooperationcoffee/",
+    "instagram": "https://www.instagram.com/cooperation.coffee/",
     "website": ""
   },
   {
@@ -1029,7 +1029,7 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=咕咕morning早午餐+臺中市大里區國光里文隆街25號1樓",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/%E5%92%95%E5%92%95morning%E6%97%A9%E5%8D%88%E9%A4%90-1468475223463074/",
     "instagram": "",
     "website": ""
   },
@@ -1061,8 +1061,8 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=咖啡罵哥+臺中市北區三民路三段295號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/cafemuug/",
+    "instagram": "https://www.instagram.com/cafemuug/",
     "website": ""
   },
   {
@@ -1093,8 +1093,8 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=咖啡葉烘焙坊+臺中市豐原區西安街95-5號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/coffeeyeh116/",
+    "instagram": "https://www.instagram.com/lumkafe/",
     "website": ""
   },
   {
@@ -1125,7 +1125,7 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=咖萃咖啡廚房 台中西屯寵物友善餐廳+臺中市西屯區大墩二十街128號",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/cafeconleche23231668.tw/",
     "instagram": "",
     "website": ""
   },
@@ -1157,8 +1157,8 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=在來飲食店+臺中市向上路一段231號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/yolailairestaurant/",
+    "instagram": "https://www.instagram.com/foodtaichung_teddy/",
     "website": ""
   },
   {
@@ -1189,8 +1189,8 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=地芋添糖&包心粉圓專賣+臺中市北屯區旅順路二段143號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/heavenlysweet2015/",
+    "instagram": "https://www.instagram.com/heavenlysweet2015/",
     "website": ""
   },
   {
@@ -1220,7 +1220,7 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=大花朵朵主題餐廳-學士店+臺中市北區學士路98號",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/BurstWithJoyRestaurant/",
     "instagram": "",
     "website": ""
   },
@@ -1253,8 +1253,8 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=好果實商行+臺中市南區忠明南路1160號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/goodfruit.com.tw/",
+    "instagram": "https://www.instagram.com/fruit.good.31/",
     "website": ""
   },
   {
@@ -1318,8 +1318,8 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=安妮公主花園餐廳+臺中市新社區中興街223號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/annies0425931567/",
+    "instagram": "https://www.instagram.com/annie0425931567/",
     "website": ""
   },
   {
@@ -1349,8 +1349,8 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=安妮廚房+臺中市大里區大里路107號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/profile.php/",
+    "instagram": "https://www.instagram.com/annie_24860787/",
     "website": ""
   },
   {
@@ -1382,9 +1382,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=容燒居酒屋－北屯二店+臺中市北屯區文心路四段504之1號",
-    "facebook": "",
-    "instagram": "",
-    "website": ""
+    "facebook": "https://www.facebook.com/Rongshao0605/",
+    "instagram": "https://www.instagram.com/rongshao0605/",
+    "website": "https://inline.app/booking/-NxS67B5FpV5WewSbVYJ:inline-live-3"
   },
   {
     "id": "tc-78",
@@ -1415,9 +1415,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=容燒居酒屋－南屯文心總店+臺中市南屯區文心路一段530號1樓",
-    "facebook": "",
-    "instagram": "",
-    "website": ""
+    "facebook": "https://www.facebook.com/Rongshao0605/",
+    "instagram": "https://www.instagram.com/rongshao0605/",
+    "website": "https://inline.app/booking/-NxS67B5FpV5WewSbVYJ:inline-live-3"
   },
   {
     "id": "tc-80",
@@ -1448,7 +1448,7 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=小王子的花園餐廳+臺中市西屯區中平路178號",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/YesWeCanYesVegan/",
     "instagram": "",
     "website": ""
   },
@@ -1479,7 +1479,7 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=尚品港式甜湯+臺中市西屯區大墩路1001號",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/p/%E5%B0%9A%E5%93%81%E6%B8%AF%E5%BC%8F%E7%94%9C%E6%B9%AF-100057241038760/",
     "instagram": "",
     "website": ""
   },
@@ -1511,8 +1511,8 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=屋七咖啡所+臺中市西區向上南路一段32號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/uji.cafe.2022/",
+    "instagram": "https://www.instagram.com/ujicafe.2022/",
     "website": ""
   },
   {
@@ -1542,8 +1542,8 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=幸福好食咖啡Homecafe+臺中市北區興進路58號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/homecafe58/",
+    "instagram": "https://www.instagram.com/homecafe.tw/",
     "website": ""
   },
   {
@@ -1574,8 +1574,8 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=庫克美式燒烤Bar+臺中市北區漢口路三段46號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/cookbbq/",
+    "instagram": "https://www.instagram.com/new_cookbar/",
     "website": ""
   },
   {
@@ -1607,8 +1607,8 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=拉亞漢堡台中美村店+臺中市南區福平里美村路二段99號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/layaburger2002/",
+    "instagram": "https://www.instagram.com/layaburger/",
     "website": ""
   },
   {
@@ -1642,8 +1642,8 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=攜旺cafe台中寵物友善餐廳＆浪浪中途學校+臺中市北屯區興安路一段128巷13號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/hopecafe2016/",
+    "instagram": "https://www.instagram.com/hopecafe2016/",
     "website": ""
   },
   {
@@ -1704,7 +1704,7 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=方吐司早餐+臺中市南屯區大墩11街348-1號",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/%E6%96%B9%E5%90%90%E5%8F%B8%E6%97%A9%E9%A4%90%E5%BA%97-291442201759830/",
     "instagram": "",
     "website": ""
   },
@@ -1735,8 +1735,8 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=方正谷眷村味+臺中市北屯區天祥街19號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/FJGMTR/",
+    "instagram": "https://www.instagram.com/fangzhenggu_mtr/",
     "website": ""
   },
   {
@@ -1767,7 +1767,7 @@ window.PET_PLACES_DATA = [
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=日安87-9 Good Day+臺中市豐原區府前街87-9號",
     "facebook": "",
-    "instagram": "",
+    "instagram": "https://www.instagram.com/goodday87_9_restaurant/",
     "website": ""
   },
   {
@@ -1797,8 +1797,8 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=望高莊園+臺中市南屯區中台路398號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/%E6%9C%9B%E9%AB%98%E8%8E%8A%E5%9C%92-122022241215041/",
+    "instagram": "https://www.instagram.com/viewtaichung/",
     "website": ""
   },
   {
@@ -1829,7 +1829,7 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=森林小徑-文心店+臺中市北屯區文心路四段131號",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/forestpath.cafe3/",
     "instagram": "",
     "website": ""
   },
@@ -1862,7 +1862,7 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=森林小徑餐飲有限公司大墩分公司+臺中市西屯區大容西街53號",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/forestpath.cafe3/",
     "instagram": "",
     "website": ""
   },
@@ -1894,7 +1894,7 @@ window.PET_PLACES_DATA = [
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=森歐美食坊+臺中市西區模範街19-4號",
     "facebook": "",
-    "instagram": "",
+    "instagram": "https://www.instagram.com/mori.ou_risotto.pasta/",
     "website": ""
   },
   {
@@ -1924,8 +1924,8 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=森沐 Sun Moon+臺中市北區益華街79號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/story.php/",
+    "instagram": "https://www.instagram.com/msm_brunch/",
     "website": ""
   },
   {
@@ -1989,7 +1989,7 @@ window.PET_PLACES_DATA = [
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=模範貝果+臺中市模範街1巷1號",
     "facebook": "",
-    "instagram": "",
+    "instagram": "https://www.instagram.com/mofanbagels/",
     "website": ""
   },
   {
@@ -2026,8 +2026,8 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=橘光呼嚕ｘ背包Cat咖啡館+臺中市龍井區東海里藝術街85號1樓",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/orangecatcoffee/",
+    "instagram": "https://www.instagram.com/rucksack.cat.cafe/",
     "website": ""
   },
   {
@@ -2058,8 +2058,8 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=此木二水+臺中市西區長春街49號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/shibakori929/",
+    "instagram": "https://www.instagram.com/shiba.kori/",
     "website": ""
   },
   {
@@ -2092,7 +2092,7 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=沐心泉休閒農場+臺中市新社區中和里中興街60號",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/springmountain0425931201/",
     "instagram": "",
     "website": ""
   },
@@ -2125,8 +2125,8 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=洄流餐食+臺中市北區雙十路二段21巷16號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/p/%25E6%25B4%2584%25E6%25B5%2581Stream%25E9%25A4%2590%25E9%25A3%259F-100083359531558/",
+    "instagram": "https://www.instagram.com/huiliu_2022/",
     "website": ""
   },
   {
@@ -2156,8 +2156,8 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=浪浪別哭+臺中市干城街214巷1號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/langlangdontcry/",
+    "instagram": "https://www.instagram.com/langlangdontcry/",
     "website": ""
   },
   {
@@ -2188,7 +2188,7 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=淳垚鍋物+臺中市南屯區大墩13街2號",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/p/%E6%B7%B3%E5%9E%9A%E9%8D%8B%E7%89%A9-61577390652704/",
     "instagram": "",
     "website": ""
   },
@@ -2220,9 +2220,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=溫久熬老火鍋館+臺中市中區台灣大道一段138號1樓",
-    "facebook": "",
-    "instagram": "",
-    "website": ""
+    "facebook": "https://www.facebook.com/p/%E6%BA%AB%E4%B9%85%E7%86%AC%E8%80%81%E7%81%AB%E9%8D%8B%E9%A4%A8-61572638496796/",
+    "instagram": "https://www.instagram.com/van.joao2025/",
+    "website": "https://inline.app/booking/-OIDrEFSFA54s--LlB9P:inline-live-3/-OIDrE_pTYjdtHjB6uKK"
   },
   {
     "id": "tc-117",
@@ -2257,9 +2257,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=無理 WULI+臺中市公正路156巷4號",
-    "facebook": "",
-    "instagram": "",
-    "website": ""
+    "facebook": "https://www.facebook.com/Wulihotpot/",
+    "instagram": "https://www.instagram.com/wuli_hotpot/",
+    "website": "https://inline.app/booking/-Lz7i2wHZgR1qshhhw0i:inline-live-1/-Lz7i3-QqQBojLQqICHj"
   },
   {
     "id": "tc-121",
@@ -2288,8 +2288,8 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=玩具車庫咖啡店+臺中市長壽路北三巷19號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/ToysGarageCafe/",
+    "instagram": "https://www.instagram.com/toysgarage.cafe/",
     "website": ""
   },
   {
@@ -2321,8 +2321,8 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=甜罄工作坊+臺中市后里區民生路57巷1號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/permalink.php/",
+    "instagram": "https://www.instagram.com/tianching_dessert/",
     "website": ""
   },
   {
@@ -2352,8 +2352,8 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=用上自然膳食堂+臺中市大肚區大肚藍色公路51號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/USENATURE2022/",
+    "instagram": "https://www.instagram.com/use_nature2022/",
     "website": ""
   },
   {
@@ -2386,8 +2386,8 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=米克C房 C+Kitchen 港式私房料理+臺中市祥順路一段91號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/mixckitchen/",
+    "instagram": "https://www.instagram.com/mix_c_kitchen/",
     "website": ""
   },
   {
@@ -2417,8 +2417,8 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=紙箱王創意園區+臺中市北屯區東山路二段二巷2號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/CartonKing.FB/",
+    "instagram": "https://www.instagram.com/cartonking.tw/",
     "website": ""
   },
   {
@@ -2450,7 +2450,7 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=肉肉燒肉五權店+臺中市南屯區五權西路二段223號",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/nikuniku0120.com.tw/",
     "instagram": "",
     "website": ""
   },
@@ -2483,7 +2483,7 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=肉肉燒肉朝馬店+臺中市西屯區朝馬路70號",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/nikuniku2311.com.tw/",
     "instagram": "",
     "website": ""
   },
@@ -2514,8 +2514,8 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=背包客饞+臺中市南屯區文心南二路396號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/profile.php/",
+    "instagram": "https://www.instagram.com/backpackermeal/",
     "website": ""
   },
   {
@@ -2576,8 +2576,8 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=莫尼早餐北屯和順店+臺中市北屯區和順路497號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/Morni.TC.HeShun/",
+    "instagram": "https://www.instagram.com/morni_breakfast.tcheshun/",
     "website": ""
   },
   {
@@ -2608,8 +2608,8 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=薰衣草森林+臺中市新社區中興街20號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/lavenderforest.tw/",
+    "instagram": "https://www.instagram.com/lavenderforest.tw/",
     "website": ""
   },
   {
@@ -2642,7 +2642,7 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=製餃研所+臺中市西區中興一巷12號",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/dmplab/",
     "instagram": "",
     "website": ""
   },
@@ -2673,8 +2673,8 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=貓老闆+臺中市大里區大里路109號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/Cat.Boss.coffee/",
+    "instagram": "https://www.instagram.com/catboss0424851983/",
     "website": ""
   },
   {
@@ -2705,8 +2705,8 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=貓起來吃+臺中市西區台灣大道二段522號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/catice522/",
+    "instagram": "https://www.instagram.com/cat_ice522/",
     "website": ""
   },
   {
@@ -2737,8 +2737,8 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=貓邸老咖有限公司+臺中市北區東光一街21號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/catnestcoffee/",
+    "instagram": "https://www.instagram.com/cat_nest_coffee/",
     "website": ""
   },
   {
@@ -2769,8 +2769,8 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=逗戶雞蛋糕+臺中市西區精誠十五街36號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/p/%E9%80%97%E6%88%B6%E9%9B%9E%E8%9B%8B%E7%B3%95-100071878446489/",
+    "instagram": "https://www.instagram.com/doghooood/",
     "website": ""
   },
   {
@@ -2802,8 +2802,8 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=野沐私房菜+臺中市北屯區南興北二路111號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/p/%E9%87%8E%E6%B2%90%E7%A7%81%E6%88%BF%E6%96%99%E7%90%86-%E5%AF%B5%E7%89%A9%E5%8F%8B%E5%96%84%E9%A4%90%E5%BB%B3-100089339634877/",
+    "instagram": "https://www.instagram.com/yemu_2023/",
     "website": ""
   },
   {
@@ -2833,7 +2833,7 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=野菜共和國+臺中市西區博館路111號",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/veggiewonderland/",
     "instagram": "",
     "website": ""
   },
@@ -2865,7 +2865,7 @@ window.PET_PLACES_DATA = [
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=阿利珈多咖啡館+臺中市北區永興街98巷14號1樓",
     "facebook": "",
-    "instagram": "",
+    "instagram": "https://www.instagram.com/arigato_coffee9814/",
     "website": ""
   },
   {
@@ -2896,8 +2896,8 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=阿義鳳梨冰-梧棲店+臺中市梧棲區民生街28號1樓",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/1995AYI/",
+    "instagram": "https://www.instagram.com/1955ayi_sfcl/",
     "website": ""
   },
   {
@@ -2932,7 +2932,7 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=阿金食堂+臺中市大雅區雅環路一段154巷18號",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/108257564170163/",
     "instagram": "",
     "website": ""
   },
@@ -2964,7 +2964,7 @@ window.PET_PLACES_DATA = [
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=順咖啡+臺中市中區市府路107巷1-2號",
     "facebook": "",
-    "instagram": "",
+    "instagram": "https://www.instagram.com/soon.cafe/",
     "website": ""
   },
   {
@@ -2998,9 +2998,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=飪室咖哩-公正店+臺中市公正路168號",
-    "facebook": "",
-    "instagram": "",
-    "website": ""
+    "facebook": "https://www.facebook.com/Renshicurry/",
+    "instagram": "https://www.instagram.com/renshicurry/",
+    "website": "https://inline.app/booking/-Lz7lGxil_kOpCjZ4e2A:inline-live-1/-Lz7lH0qWzlmTuxWBPUD"
   },
   {
     "id": "tc-165",
@@ -3033,9 +3033,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=飪室咖哩-勤美店+臺中市美村路一段149巷19號",
-    "facebook": "",
-    "instagram": "",
-    "website": ""
+    "facebook": "https://www.facebook.com/Renshicurry/",
+    "instagram": "https://www.instagram.com/renshicurry/",
+    "website": "https://inline.app/booking/-Lz7lGxil_kOpCjZ4e2A:inline-live-1/-Lz7lH0qWzlmTuxWBPUD"
   },
   {
     "id": "tc-167",
@@ -3066,7 +3066,7 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=養鍋中科店+臺中市西屯區西屯路三段95-1號",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/yangguo95/",
     "instagram": "",
     "website": ""
   },
@@ -3097,7 +3097,7 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=養鍋南屯黎明店+臺中市南屯區干城街309號",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/yangguo309/",
     "instagram": "",
     "website": ""
   },
@@ -3163,7 +3163,7 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=養鍋大雅店+臺中市大雅區中清東路271號",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/yangguo271/",
     "instagram": "",
     "website": ""
   },
@@ -3196,7 +3196,7 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=養鍋忠孝夜市店+臺中市南區忠孝路208號",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/yangguo208/",
     "instagram": "",
     "website": ""
   },
@@ -3228,7 +3228,7 @@ window.PET_PLACES_DATA = [
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=養鍋文心店+臺中市北屯區文心路四段679號",
     "facebook": "",
-    "instagram": "",
+    "instagram": "https://www.instagram.com/theguowenxin/",
     "website": ""
   },
   {
@@ -3260,7 +3260,7 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=養鍋水湳經貿店+臺中市西屯區中平路161號",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/yangguo1611/",
     "instagram": "",
     "website": ""
   },
@@ -3293,8 +3293,8 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=黑虎的肉肉食堂+臺中市梧棲區建國北街259巷70號1樓",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/hiyakiniku2/",
+    "instagram": "https://www.instagram.com/heihurourou1229/",
     "website": ""
   },
   {
@@ -3327,8 +3327,8 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=𝐇𝐎𝐖𝐖𝐎𝐖 ᵕ̈ 好喔+臺中市北屯區軍福十六路177號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/howwowlife/",
+    "instagram": "https://www.instagram.com/howwow2020/",
     "website": ""
   },
   {
@@ -3364,8 +3364,8 @@ window.PET_PLACES_DATA = [
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Well Done Space+臺北市松山區（台北動保處登錄動物友善空間）",
     "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "instagram": "https://www.instagram.com/welldone_welldone_space/",
+    "website": ""
   },
   {
     "id": "tpe-2",
@@ -3395,9 +3395,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=BaganHood 蔬食餐酒館-市政府站+臺北市信義區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/BaganHood/",
+    "instagram": "https://www.instagram.com/baganhood/",
+    "website": ""
   },
   {
     "id": "tpe-3",
@@ -3428,9 +3428,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=月光賞茶故事館+臺北市文山區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/p/%E6%9C%88%E5%85%89%E8%B3%9E%E8%8C%B6%E6%95%85%E4%BA%8B%E9%A4%A8-100054461829235/",
+    "instagram": "https://www.instagram.com/isekaicafe_ungetsu/",
+    "website": ""
   },
   {
     "id": "tpe-4",
@@ -3462,9 +3462,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=阿義師的大茶壺茶餐廳+臺北市文山區（台北動保處登錄動物友善空間）",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/p/%E8%B2%93%E7%A9%BA%E9%98%BF%E7%BE%A9%E5%B8%AB%E7%9A%84%E5%A4%A7%E8%8C%B6%E5%A3%BA%E8%8C%B6%E9%A4%90%E5%BB%B3-100064171235460/",
     "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "website": ""
   },
   {
     "id": "tpe-5",
@@ -3493,9 +3493,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=貓空閒咖啡+臺北市文山區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/p/%E8%B2%93%E7%A9%BA%E9%96%92-cats-cafe-100063606447127/",
+    "instagram": "https://www.instagram.com/catscafe2003/",
+    "website": ""
   },
   {
     "id": "tpe-6",
@@ -3525,9 +3525,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=貓空清泉廣場+臺北市文山區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/QingquanSquare/",
+    "instagram": "https://www.instagram.com/maokongqingquansquare/",
+    "website": ""
   },
   {
     "id": "tpe-7",
@@ -3558,9 +3558,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Purrson 呼嚕小酒館+臺北市文山區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/purrsonbistro/",
+    "instagram": "https://www.instagram.com/purrson_bistro/",
+    "website": "https://inline.app/booking/-OVLuBfnmiYYKJTrsuvs:inline-live-3/-OVLuBnbrr2xgr4lUIbs"
   },
   {
     "id": "tpe-8",
@@ -3593,9 +3593,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=正大休閒茶園+臺北市文山區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/707135276081775/",
+    "instagram": "https://www.instagram.com/jheng_da_official/",
+    "website": ""
   },
   {
     "id": "tpe-9",
@@ -3626,9 +3626,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=貓空雙橡園茶坊+臺北市文山區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/ShuangHsiangYuan/",
+    "instagram": "https://www.instagram.com/s.s.yuan_tea/",
+    "website": ""
   },
   {
     "id": "tpe-10",
@@ -3657,9 +3657,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=心丰御膳日式料理+臺北市萬華區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/Sifong.Healthy.Yummy/",
+    "instagram": "https://www.instagram.com/xin_feng_qb/",
+    "website": ""
   },
   {
     "id": "tpe-12",
@@ -3688,9 +3688,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Verona創義廚房+臺北市信義區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/veronafood/",
+    "instagram": "https://www.instagram.com/veronataipei/",
+    "website": ""
   },
   {
     "id": "tpe-13",
@@ -3719,9 +3719,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=吐司股長+臺北市信義區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/toastchief/",
+    "instagram": "https://www.instagram.com/toast_chief/",
+    "website": ""
   },
   {
     "id": "tpe-14",
@@ -3752,9 +3752,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=加爾第咖啡 莊敬店+臺北市信義區（台北動保處登錄動物友善空間）",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/KaldiCoffee1989JJ/",
     "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "website": ""
   },
   {
     "id": "tpe-15",
@@ -3785,9 +3785,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=加爾第咖啡 吳興店+臺北市信義區（台北動保處登錄動物友善空間）",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/WXLane600/",
     "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "website": ""
   },
   {
     "id": "tpe-16",
@@ -3818,9 +3818,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=MJ's Pizza Bar 瑪莉珍披薩-信義店+臺北市信義區（台北動保處登錄動物友善空間）",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/maryjanepizza2004/",
     "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "website": "https://www.maryjanepizza.com/"
   },
   {
     "id": "tpe-17",
@@ -3850,9 +3850,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=曰曰cafe+臺北市信義區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/loosedaycafe/",
+    "instagram": "https://www.instagram.com/the.poet.taipei/",
+    "website": ""
   },
   {
     "id": "tpe-18",
@@ -3882,9 +3882,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=午后,日光drink&food+臺北市信義區（台北動保處登錄動物友善空間）",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/%E5%8D%88%E5%90%8E-%E6%97%A5%E5%85%89drink-Food-279940725476333/",
     "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "website": ""
   },
   {
     "id": "tpe-19",
@@ -3913,9 +3913,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=June Burger 啾漢堡店+臺北市信義區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/juneburger82/",
+    "instagram": "https://www.instagram.com/juneburger2020/",
+    "website": ""
   },
   {
     "id": "tpe-20",
@@ -3944,9 +3944,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=阿公的汪喵厝-寵物友善餐廳+臺北市信義區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/wolfmeowhouse/",
+    "instagram": "https://www.instagram.com/wolfmeowhouse/",
+    "website": ""
   },
   {
     "id": "tpe-21",
@@ -3976,9 +3976,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=胖老爹美式炸雞(台北松山店)+臺北市信義區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/100054495997829/",
+    "instagram": "https://www.instagram.com/fat_daddy_no.1/",
+    "website": ""
   },
   {
     "id": "tpe-22",
@@ -4012,8 +4012,8 @@ window.PET_PLACES_DATA = [
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=榕 RON Xinyi+臺北市信義區（台北動保處登錄動物友善空間）",
     "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "instagram": "https://www.instagram.com/ronxinyi/",
+    "website": ""
   },
   {
     "id": "tpe-23",
@@ -4048,9 +4048,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=小春日和 動物雜貨‧珈琲+臺北市松山區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/SpringDayPetShopCafe/",
+    "instagram": "https://www.instagram.com/springday_petcafe/",
+    "website": ""
   },
   {
     "id": "tpe-24",
@@ -4079,9 +4079,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=嶼人Café-松山必喝咖啡|打卡咖啡|手作甜點|必吃甜點|人氣料理|蔬食咖啡廳+臺北市松山區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/p/%E5%B6%BC%E4%BA%BACaf%C3%A9-100063628946963/",
+    "instagram": "https://www.instagram.com/about_islander/",
+    "website": ""
   },
   {
     "id": "tpe-25",
@@ -4110,9 +4110,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=角落酒吧The Corner One+臺北市松山區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/MusicCorner.tw/",
+    "instagram": "https://www.instagram.com/the_corner_one_bar/",
+    "website": ""
   },
   {
     "id": "tpe-26",
@@ -4148,9 +4148,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=四目咖啡寵物美學+臺北市松山區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/FourEyesPetShopCafe/",
+    "instagram": "https://www.instagram.com/yotsumecafe/",
+    "website": ""
   },
   {
     "id": "tpe-27",
@@ -4183,9 +4183,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Style Steak 世代歐陸牛排西餐廳+臺北市松山區（台北動保處登錄動物友善空間）",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/stylesteak/",
     "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "website": ""
   },
   {
     "id": "tpe-28",
@@ -4217,7 +4217,7 @@ window.PET_PLACES_DATA = [
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=大烹小饌/胖子八德/台菜/熱炒/聚餐+臺北市松山區（台北動保處登錄動物友善空間）",
     "facebook": "",
     "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "website": ""
   },
   {
     "id": "tpe-29",
@@ -4249,9 +4249,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=獺空間 Aotter Space+臺北市松山區（台北動保處登錄動物友善空間）",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/aotter.space/",
     "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "website": "https://space.aotter.net/"
   },
   {
     "id": "tpe-30",
@@ -4283,9 +4283,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=金屋藏車食堂+臺北市士林區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/PSBUBU/",
+    "instagram": "https://www.instagram.com/psbubu_dogcatrestaurant/",
+    "website": ""
   },
   {
     "id": "tpe-31",
@@ -4316,9 +4316,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=BRICK YARD 33 1+臺北市北投區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/BY33TeenClub/",
+    "instagram": "https://www.instagram.com/brickyardby33/",
+    "website": ""
   },
   {
     "id": "tpe-32",
@@ -4348,9 +4348,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=AN58西班牙創意料理+臺北市士林區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/an58tapas/",
+    "instagram": "https://www.instagram.com/an58tapas/",
+    "website": "https://www.an58.com.tw/"
   },
   {
     "id": "tpe-33",
@@ -4382,9 +4382,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=森林派對咖啡館+臺北市士林區（台北動保處登錄動物友善空間）",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/1949505941752577/",
     "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "website": ""
   },
   {
     "id": "tpe-34",
@@ -4414,9 +4414,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=茶咖+臺北市士林區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/teacoffee133/",
+    "instagram": "https://www.instagram.com/tezaoka/",
+    "website": ""
   },
   {
     "id": "tpe-35",
@@ -4446,8 +4446,8 @@ window.PET_PLACES_DATA = [
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=璦的小廚 Ann's Kitchen+臺北市士林區（台北動保處登錄動物友善空間）",
     "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "instagram": "https://www.instagram.com/annskitchen.tw/",
+    "website": ""
   },
   {
     "id": "tpe-36",
@@ -4476,9 +4476,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=貳樓餐廳Second Floor Cafe 師大店+臺北市中正區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/2floorshida/",
+    "instagram": "https://www.instagram.com/secondfloorcafe/",
+    "website": "https://www.secondfloorcafe.com/"
   },
   {
     "id": "tpe-37",
@@ -4508,9 +4508,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=貳樓餐廳Second Floor Cafe+臺北市大安區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/p/Second-Floor-Cafe-%E8%B2%B3%E6%A8%93%E9%A4%90%E9%A3%B2-100057517845151/",
+    "instagram": "https://www.instagram.com/secondfloorcafe/",
+    "website": "https://www.secondfloorcafe.com/"
   },
   {
     "id": "tpe-38",
@@ -4540,9 +4540,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=吐司利亞TOASTERiA Cafe-永康店+臺北市中正區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/toasteriacafe/",
+    "instagram": "https://www.instagram.com/toasteriacafe/",
+    "website": "https://www.toasteriacafe.com/"
   },
   {
     "id": "tpe-39",
@@ -4575,9 +4575,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=吐司利亞TOASTERiA Cafe-三號敦南店+臺北市信義區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/toasteriacafe/",
+    "instagram": "https://www.instagram.com/toasteriacafe/",
+    "website": "https://www.toasteriacafe.com/"
   },
   {
     "id": "tpe-40",
@@ -4610,9 +4610,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=yoh曜日義式餐酒館+臺北市大安區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/yoh.taipei/",
+    "instagram": "https://www.instagram.com/yoh_taipei/",
+    "website": ""
   },
   {
     "id": "tpe-41",
@@ -4642,9 +4642,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=MissGreen+臺北市大安區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/missgreenlocaltw/",
+    "instagram": "https://www.instagram.com/missgreentpe/",
+    "website": ""
   },
   {
     "id": "tpe-42",
@@ -4675,8 +4675,8 @@ window.PET_PLACES_DATA = [
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=TakeOut Burger&Cafe 通化店+臺北市信義區（台北動保處登錄動物友善空間）",
     "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "instagram": "https://www.instagram.com/take_out_burger/",
+    "website": "https://takeoutburger.tw/"
   },
   {
     "id": "tpe-43",
@@ -4705,9 +4705,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=餵我早餐 The Whale+臺北市大安區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/TheWhaleDaan/",
+    "instagram": "https://www.instagram.com/thewhalebreakfast/",
+    "website": ""
   },
   {
     "id": "tpe-44",
@@ -4742,9 +4742,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Woodid 우리手作韓食+臺北市信義區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/woodidwoodid/",
+    "instagram": "https://www.instagram.com/woodidwoodid/",
+    "website": ""
   },
   {
     "id": "tpe-45",
@@ -4773,9 +4773,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Maryjane Pizza 瑪莉珍比薩 台大店+臺北市大安區（台北動保處登錄動物友善空間）",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/maryjanepizza2004/",
     "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "website": ""
   },
   {
     "id": "tpe-46",
@@ -4806,9 +4806,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Maryjane Pizza 瑪莉珍比薩 師大店+臺北市中正區（台北動保處登錄動物友善空間）",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/maryjanepizza2004/",
     "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "website": ""
   },
   {
     "id": "tpe-47",
@@ -4838,9 +4838,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Ooh Cha Cha 自然食科技大樓 & Hooch+臺北市大安區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/OohChaCha/",
+    "instagram": "https://www.instagram.com/oohchacha/",
+    "website": ""
   },
   {
     "id": "tpe-48",
@@ -4873,9 +4873,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=PORCO 咖啡、舊物、寵物行為教室+臺北市大安區（台北動保處登錄動物友善空間）",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/Porcoalmighty/",
     "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "website": ""
   },
   {
     "id": "tpe-49",
@@ -4906,9 +4906,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Plants+臺北市大安區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/plantseatery/",
+    "instagram": "https://www.instagram.com/plantseatery/",
+    "website": "https://www.plantseatery.com.tw/"
   },
   {
     "id": "tpe-50",
@@ -4940,8 +4940,8 @@ window.PET_PLACES_DATA = [
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=來吧Cafe'+臺北市大安區（台北動保處登錄動物友善空間）",
     "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "instagram": "https://www.instagram.com/lightbarcafe/",
+    "website": ""
   },
   {
     "id": "tpe-51",
@@ -4975,8 +4975,8 @@ window.PET_PLACES_DATA = [
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Mianto 艾果豐+臺北市大安區（台北動保處登錄動物友善空間）",
     "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "instagram": "https://www.instagram.com/mianto.tw/",
+    "website": "https://mianto.com.tw/"
   },
   {
     "id": "tpe-52",
@@ -5005,9 +5005,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=光一肆號+臺北市大安區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/guangyino4/",
+    "instagram": "https://www.instagram.com/guangyicafe/",
+    "website": "https://inline.app/booking/-MSQhrebYRcJaztDqr2w:inline-live-2"
   },
   {
     "id": "tpe-53",
@@ -5037,9 +5037,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=NoName無名咖哩 台大店+臺北市大安區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/NoNameCurry/",
+    "instagram": "https://www.instagram.com/noname68_2/",
+    "website": "https://nonamecurryntu.oddle.me/"
   },
   {
     "id": "tpe-54",
@@ -5069,9 +5069,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=璞豆咖啡.日常+臺北市大安區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/Dripurecafe/",
+    "instagram": "https://www.instagram.com/dripure_cafe/",
+    "website": ""
   },
   {
     "id": "tpe-55",
@@ -5101,8 +5101,8 @@ window.PET_PLACES_DATA = [
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=慢步調 咖啡館+臺北市大安區（台北動保處登錄動物友善空間）",
     "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "instagram": "https://www.instagram.com/slowpacecafe/",
+    "website": ""
   },
   {
     "id": "tpe-56",
@@ -5130,9 +5130,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=冰淇淋機場+臺北市大安區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/icairporticairport/",
+    "instagram": "https://www.instagram.com/ic_airport/",
+    "website": ""
   },
   {
     "id": "tpe-57",
@@ -5163,9 +5163,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=dee 好得生活 / 餐酒館+臺北市松山區（台北動保處登錄動物友善空間）",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/%40dee.taiwan/",
     "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "website": ""
   },
   {
     "id": "tpe-58",
@@ -5198,9 +5198,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Loving Hut 愛家國際餐飲 台北 和平店+臺北市大安區（台北動保處登錄動物友善空間）",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/p/Loving-Hut-%E6%84%9B%E5%AE%B6-%E5%92%8C%E5%B9%B3%E5%BA%97-100063811611973/",
     "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "website": "https://lovinghut.com/"
   },
   {
     "id": "tpe-59",
@@ -5232,9 +5232,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=兜味咖啡+臺北市大同區（台北動保處登錄動物友善空間）",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/shoppingradardoorway/",
     "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "website": ""
   },
   {
     "id": "tpe-60",
@@ -5270,9 +5270,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Her Rose 玫瑰系甜點專賣店+臺北市大同區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/HERROSE.TW/",
+    "instagram": "https://www.instagram.com/herrose.tw/",
+    "website": ""
   },
   {
     "id": "tpe-61",
@@ -5300,9 +5300,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=21工房手工酵素涼麵+臺北市大同區（台北動保處登錄動物友善空間）",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/homemadestylefreshnoodles/",
     "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "website": ""
   },
   {
     "id": "tpe-62",
@@ -5338,9 +5338,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=A.K.12 美式小館+臺北市中正區（台北動保處登錄動物友善空間）",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/2015ak12/",
     "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "website": ""
   },
   {
     "id": "tpe-63",
@@ -5369,9 +5369,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=台北城人文茶館+臺北市萬華區（台北動保處登錄動物友善空間）",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/100064089481261/",
     "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "website": ""
   },
   {
     "id": "tpe-64",
@@ -5402,9 +5402,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Flux(富樂市)+臺北市萬華區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/fluxhairboutique/",
+    "instagram": "https://www.instagram.com/fluxtaipei/",
+    "website": ""
   },
   {
     "id": "tpe-65",
@@ -5435,9 +5435,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=金輪轉甜水堂+臺北市萬華區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/jiij12345678/",
+    "instagram": "https://www.instagram.com/jiij12345678/",
+    "website": ""
   },
   {
     "id": "tpe-66",
@@ -5466,9 +5466,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=本願豆花店 Origin Tofu Pudding+臺北市中正區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/Origintofupudding/",
+    "instagram": "https://www.instagram.com/origin_tofu_pudding/",
+    "website": ""
   },
   {
     "id": "tpe-67",
@@ -5499,9 +5499,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=兩喜號 Liang Xi Hao - 總店+臺北市萬華區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/liangxihao/",
+    "instagram": "https://www.instagram.com/liangxihao1921/",
+    "website": ""
   },
   {
     "id": "tpe-68",
@@ -5532,9 +5532,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=兩喜號 Liang Xi Hao - 西園店+臺北市萬華區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/liangxihao/",
+    "instagram": "https://www.instagram.com/liangxihao1921/",
+    "website": ""
   },
   {
     "id": "tpe-69",
@@ -5565,9 +5565,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=小王煮瓜+臺北市萬華區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/wangs.broth/",
+    "instagram": "https://www.instagram.com/wangs_broth/",
+    "website": ""
   },
   {
     "id": "tpe-70",
@@ -5598,9 +5598,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=THE garden+臺北市中正區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/thegardentw/",
+    "instagram": "https://www.instagram.com/thegardenofficials/",
+    "website": ""
   },
   {
     "id": "tpe-71",
@@ -5631,9 +5631,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=喜舍居酒屋+臺北市萬華區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/likeIzakaya/",
+    "instagram": "https://www.instagram.com/likelzakaya/",
+    "website": ""
   },
   {
     "id": "tpe-72",
@@ -5663,9 +5663,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=貳樓餐廳 Second Floor Cafe 微風台北車站店+臺北市中正區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/p/Second-Floor-Cafe-%E8%B2%B3%E6%A8%93%E9%A4%90%E9%A3%B2-100089361402574/",
+    "instagram": "https://www.instagram.com/secondfloorcafe/",
+    "website": "https://www.secondfloorcafe.com/"
   },
   {
     "id": "tpe-73",
@@ -5694,9 +5694,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=貳樓餐廳 Second Floor Cafe 公館店+臺北市大安區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/2floor/",
+    "instagram": "https://www.instagram.com/secondfloorcafe/",
+    "website": "https://www.secondfloorcafe.com/"
   },
   {
     "id": "tpe-74",
@@ -5726,9 +5726,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Mr. 雪腐 公館店+臺北市大安區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/p/Mr%E9%9B%AA%E8%85%90-%E5%85%AC%E9%A4%A8%E5%BA%97-100063484283907/",
+    "instagram": "https://www.instagram.com/mrchef0415/",
+    "website": ""
   },
   {
     "id": "tpe-75",
@@ -5756,9 +5756,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=沐樂咖啡 新生店+臺北市中正區（台北動保處登錄動物友善空間）",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/mooooler/",
     "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "website": ""
   },
   {
     "id": "tpe-76",
@@ -5787,9 +5787,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=OOH CHA CHA自然食-南昌店+臺北市中正區（台北動保處登錄動物友善空間）",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/OohChaCha/",
     "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "website": ""
   },
   {
     "id": "tpe-77",
@@ -5818,9 +5818,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=貳樓餐廳 Second Floor Cafe 仁愛店+臺北市大安區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/Second-Floor-Cafe-%E8%B2%B3%E6%A8%93%E4%BB%81%E6%84%9B%E5%BA%97-107875090602837/",
+    "instagram": "https://www.instagram.com/secondfloorcafe/",
+    "website": "https://www.secondfloorcafe.com/"
   },
   {
     "id": "tpe-78",
@@ -5849,9 +5849,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Easy coffee+臺北市中正區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/easycoffeetpmra/",
+    "instagram": "https://www.instagram.com/easy._.coffee/",
+    "website": "https://easycoffee.mystrikingly.com/"
   },
   {
     "id": "tpe-79",
@@ -5880,9 +5880,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=啼岸VeganResort+臺北市中正區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/veganresort/",
+    "instagram": "https://www.instagram.com/veganresort/",
+    "website": ""
   },
   {
     "id": "tpe-81",
@@ -5915,7 +5915,7 @@ window.PET_PLACES_DATA = [
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=正當冰 北投家旁店+臺北市北投區（台北動保處登錄動物友善空間）",
     "facebook": "",
     "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "website": ""
   },
   {
     "id": "tpe-82",
@@ -5944,9 +5944,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=有間鐵板+臺北市北投區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/p/%E6%9C%89%E9%96%93%E9%90%B5%E6%9D%BF-100075877337417/",
+    "instagram": "https://www.instagram.com/an_ironplate/",
+    "website": ""
   },
   {
     "id": "tpe-83",
@@ -5981,9 +5981,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=陽明山竹子湖故鄉海芋農園-附設餐廳+臺北市北投區（台北動保處登錄動物友善空間）",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/BLHHR/",
     "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "website": ""
   },
   {
     "id": "tpe-84",
@@ -6016,9 +6016,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Slipper Cafe 拖鞋咖啡+臺北市北投區（台北動保處登錄動物友善空間）",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/p/%E6%8B%96%E9%9E%8B%E5%92%96%E5%95%A1Slipper-Cafe-100063775189604/",
     "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "website": ""
   },
   {
     "id": "tpe-85",
@@ -6048,7 +6048,7 @@ window.PET_PLACES_DATA = [
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=爐鍋咖啡 Luguo Cafe小藝埕artyard+臺北市大同區（台北動保處登錄動物友善空間）",
     "facebook": "",
     "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "website": ""
   },
   {
     "id": "tpe-86",
@@ -6079,9 +6079,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=撲囉咖啡廳 Procaffeinating Cafe+臺北市南港區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/100063577131177/",
+    "instagram": "https://www.instagram.com/procaffeinatingcafe/",
+    "website": ""
   },
   {
     "id": "tpe-87",
@@ -6112,8 +6112,8 @@ window.PET_PLACES_DATA = [
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=咕咕咕嚕 日式昆布火鍋 | 韓式銅盤烤肉 - 南港店+臺北市南港區（台北動保處登錄動物友善空間）",
     "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "instagram": "https://www.instagram.com/gugugulu_officially/",
+    "website": ""
   },
   {
     "id": "tpe-88",
@@ -6146,8 +6146,8 @@ window.PET_PLACES_DATA = [
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Real café南港展覽館+臺北市南港區（台北動保處登錄動物友善空間）",
     "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "instagram": "https://www.instagram.com/realcafebread/",
+    "website": "https://www.realforreal.com.tw/"
   },
   {
     "id": "tpe-89",
@@ -6179,9 +6179,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=陶膳日本料理（商業午晚餐/宵夜場）+臺北市南港區（台北動保處登錄動物友善空間）",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/taoshanfood/",
     "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "website": "https://inline.app/booking/-NButq5puR0sOBdGEfYq:inline-live-1"
   },
   {
     "id": "tpe-90",
@@ -6213,9 +6213,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=TUMAZ 黑熊咖啡+臺北市南港區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/tumazcoffee/",
+    "instagram": "https://www.instagram.com/tumazcoffee/",
+    "website": "https://www.tumazcoffee.com/"
   },
   {
     "id": "tpe-91",
@@ -6244,9 +6244,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=兔兔日子 Tu's Day+臺北市內湖區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/tusdaytusday/",
+    "instagram": "https://www.instagram.com/yaping.tusday/",
+    "website": ""
   },
   {
     "id": "tpe-92",
@@ -6275,9 +6275,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=貳樓餐廳Second Floor Cafe西湖店+臺北市內湖區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/2floor/",
+    "instagram": "https://www.instagram.com/secondfloorcafe/",
+    "website": "https://www.secondfloorcafe.com/"
   },
   {
     "id": "tpe-93",
@@ -6308,9 +6308,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=金鍋盃小火鍋-職人 肉品 海鮮+臺北市內湖區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/JinGuoBeiXiaoHuoGuo/",
+    "instagram": "https://www.instagram.com/jinguobei/",
+    "website": ""
   },
   {
     "id": "tpe-94",
@@ -6345,9 +6345,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=金烤盃+臺北市內湖區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/100064054300821/",
+    "instagram": "https://www.instagram.com/jinkawbei/",
+    "website": ""
   },
   {
     "id": "tpe-95",
@@ -6382,9 +6382,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=肥婆 Cafe+臺北市內湖區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/fatconnie03/",
+    "instagram": "https://www.instagram.com/fatconnie_/",
+    "website": ""
   },
   {
     "id": "tpe-96",
@@ -6413,9 +6413,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=白菜小姐義式坊+臺北市內湖區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/LadyLadyPasta/",
+    "instagram": "https://www.instagram.com/lady_lady_pasta/",
+    "website": ""
   },
   {
     "id": "tpe-97",
@@ -6444,9 +6444,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Coffee lndustry-Café champ+臺北市內湖區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/coffee.taipei2025/",
+    "instagram": "https://www.instagram.com/coffee_taipei/",
+    "website": ""
   },
   {
     "id": "tpe-98",
@@ -6480,9 +6480,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Bombay 1987 印度咖哩+臺北市內湖區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/bombay_1987-100975765196615/",
+    "instagram": "https://www.instagram.com/tajtaiwan/",
+    "website": ""
   },
   {
     "id": "tpe-99",
@@ -6511,9 +6511,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=福容燒肉丼+臺北市內湖區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/719pgugz/",
+    "instagram": "https://www.instagram.com/furong1110122/",
+    "website": ""
   },
   {
     "id": "tpe-100",
@@ -6544,9 +6544,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=貳樓餐廳 Second Floor Cafe 南港車站店+臺北市南港區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/p/Second-Floor-Cafe-%E8%B2%B3%E6%A8%93%E9%A4%90%E9%A3%B2-100069724134149/",
+    "instagram": "https://www.instagram.com/secondfloorcafe/",
+    "website": "https://www.secondfloorcafe.com/"
   },
   {
     "id": "tpe-101",
@@ -6577,9 +6577,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=越界茶 YUE JIE CHA精品手搖飲茶品飲料店，好調酒也能外帶！網美拍照嚴選場地，聚會談心首選店家+臺北市南港區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/YUEJIECHA/",
+    "instagram": "https://www.instagram.com/yue_jie_cha/",
+    "website": ""
   },
   {
     "id": "tpe-102",
@@ -6609,8 +6609,8 @@ window.PET_PLACES_DATA = [
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Uncles two 兩位大叔(無訂位服務）+臺北市南港區（台北動保處登錄動物友善空間）",
     "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "instagram": "https://www.instagram.com/uncles.tw/",
+    "website": ""
   },
   {
     "id": "tpe-103",
@@ -6643,9 +6643,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=苒冉小食光+臺北市南港區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/ranran2019/",
+    "instagram": "https://www.instagram.com/ran_ran2019/",
+    "website": ""
   },
   {
     "id": "tpe-104",
@@ -6677,8 +6677,8 @@ window.PET_PLACES_DATA = [
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Hungry Dogs 二犬廚房+臺北市南港區（台北動保處登錄動物友善空間）",
     "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "instagram": "https://www.instagram.com/_hungry.dogs_/",
+    "website": ""
   },
   {
     "id": "tpe-105",
@@ -6710,9 +6710,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=涓邸居酒屋+臺北市南港區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/1560502847515799/",
+    "instagram": "https://www.instagram.com/jan27832022/",
+    "website": ""
   },
   {
     "id": "tpe-106",
@@ -6741,9 +6741,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=棧-直火廚房+臺北市大同區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/eatfreshtaiwanesefood/",
+    "instagram": "https://www.instagram.com/checkintaipeihk/",
+    "website": ""
   },
   {
     "id": "tpe-107",
@@ -6780,9 +6780,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=HOUSE CAFE+臺北市大同區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/p/HOUSE-CAFE-100063686363446/",
+    "instagram": "https://www.instagram.com/house_tpe/",
+    "website": ""
   },
   {
     "id": "tpe-108",
@@ -6814,7 +6814,7 @@ window.PET_PLACES_DATA = [
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=喝什麼Ka Pi+臺北市大同區（台北動保處登錄動物友善空間）",
     "facebook": "",
     "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "website": "https://inline.app/booking/-M5a_tit90J6LbXrWKbG:inline-live-1"
   },
   {
     "id": "tpe-109",
@@ -6845,8 +6845,8 @@ window.PET_PLACES_DATA = [
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=TakeOut Burger&Cafe 忠孝新生店+臺北市中正區（台北動保處登錄動物友善空間）",
     "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "instagram": "https://www.instagram.com/takeoutburger2/",
+    "website": "https://takeoutburger.tw/"
   },
   {
     "id": "tpe-110",
@@ -6875,9 +6875,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=面對面Face to Face Noodle House+臺北市中山區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/facetofacetw/",
+    "instagram": "https://www.instagram.com/facetofacetw/",
+    "website": ""
   },
   {
     "id": "tpe-111",
@@ -6906,9 +6906,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Olá C.C. Cafe & Eatery+臺北市中山區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/p/Ola%CC%80-CC-Cafe-Eatery-100089833610828/",
+    "instagram": "https://www.instagram.com/cccafezhaoka/",
+    "website": ""
   },
   {
     "id": "tpe-112",
@@ -6937,9 +6937,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=父母 - FuMu - COME TO MAMA & PAPA+臺北市松山區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/FuMuTaipei/",
+    "instagram": "https://www.instagram.com/fumu_taipei/",
+    "website": ""
   },
   {
     "id": "tpe-113",
@@ -6968,9 +6968,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=TUTUKAKI 司康小売所+臺北市大同區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/tutukakiscone/",
+    "instagram": "https://www.instagram.com/tutukakiscone/",
+    "website": "https://tutukakiscone.com/"
   },
   {
     "id": "tpe-114",
@@ -7000,8 +7000,8 @@ window.PET_PLACES_DATA = [
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=OSKAFE Coffee Wine Sandwich+臺北市松山區（台北動保處登錄動物友善空間）",
     "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "instagram": "https://www.instagram.com/oskafe/",
+    "website": ""
   },
   {
     "id": "tpe-115",
@@ -7029,9 +7029,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=HUKI富氣水產 丼飯+臺北市松山區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/p/%E5%AF%8C%E6%B0%A3%E6%B0%B4%E7%94%A2-100057144232616/",
+    "instagram": "https://www.instagram.com/huki_aquatic/",
+    "website": ""
   },
   {
     "id": "tpe-116",
@@ -7060,9 +7060,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=嬉皮麵包 HIP PUN+臺北市中山區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/HipPunBakery/",
+    "instagram": "https://www.instagram.com/hip_pun/",
+    "website": ""
   },
   {
     "id": "tpe-117",
@@ -7092,8 +7092,8 @@ window.PET_PLACES_DATA = [
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=營養思廚·餐盒+臺北市中山區（台北動保處登錄動物友善空間）",
     "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "instagram": "https://www.instagram.com/i_nutreetion/",
+    "website": ""
   },
   {
     "id": "tpe-118",
@@ -7131,9 +7131,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=處方株式會社+臺北市大同區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/%E8%99%95%E6%96%B9%E6%A0%AA%E5%BC%8F%E6%9C%83%E7%A4%BE-115921984430529/",
+    "instagram": "https://www.instagram.com/the_formula_bar/",
+    "website": ""
   },
   {
     "id": "tpe-119",
@@ -7161,9 +7161,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=邀月茶坊Yaoyue Teahouse+臺北市文山區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/yyteahouse/",
+    "instagram": "https://www.instagram.com/yaoyue_teahouse/",
+    "website": "https://yaoyue.tw/"
   },
   {
     "id": "tpe-120",
@@ -7192,9 +7192,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=豐味亭異國素食餐廳+臺北市中山區（台北動保處登錄動物友善空間）",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/p/%E8%B1%90%E5%91%B3%E4%BA%AD%E7%95%B0%E5%9C%8B%E7%B4%A0%E9%A3%9F%E6%96%99%E7%90%86%E9%A4%90%E5%BB%B3-100063996254097/",
     "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "website": ""
   },
   {
     "id": "tpe-121",
@@ -7225,9 +7225,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=HBJ kitchen 舒肥健康餐+臺北市松山區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/hbjkitchen/",
+    "instagram": "https://www.instagram.com/hbj_kitchen/",
+    "website": ""
   },
   {
     "id": "tpe-122",
@@ -7261,8 +7261,8 @@ window.PET_PLACES_DATA = [
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=小朝日和+臺北市松山區（台北動保處登錄動物友善空間）",
     "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "instagram": "https://www.instagram.com/1095food/",
+    "website": ""
   },
   {
     "id": "tpe-123",
@@ -7290,9 +7290,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=陽光廚坊+臺北市內湖區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/p/%E9%99%BD%E5%85%89%E5%BB%9A%E5%9D%8A-100064287691033/",
+    "instagram": "https://www.instagram.com/sunshine__kitchen/",
+    "website": ""
   },
   {
     "id": "tpe-124",
@@ -7322,9 +7322,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=拾米屋+臺北市北投區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/ShemeHouse/",
+    "instagram": "https://www.instagram.com/shemehouse/",
+    "website": ""
   },
   {
     "id": "tpe-125",
@@ -7355,9 +7355,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=TMJ_TAIPEI+臺北市大安區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/p/TMJ-100069300487424/",
+    "instagram": "https://www.instagram.com/tmj_taipei/",
+    "website": ""
   },
   {
     "id": "tpe-126",
@@ -7388,9 +7388,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Nekko Bar 貓吧+臺北市大安區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/NekkoBar/",
+    "instagram": "https://www.instagram.com/nekko.bar/",
+    "website": ""
   },
   {
     "id": "tpe-127",
@@ -7425,9 +7425,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Breakfirst Cafe&Studio+臺北市中山區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/breakfirst.place/",
+    "instagram": "https://www.instagram.com/breakfirst_cafe/",
+    "website": ""
   },
   {
     "id": "tpe-128",
@@ -7460,9 +7460,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=夜酌居酒屋+臺北市松山區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/p/%E5%A4%9C%E9%85%8C%E5%B1%85%E9%85%92%E5%B1%8B-%E5%B8%82%E6%B0%91%E5%BA%97-100054260180442/",
+    "instagram": "https://www.instagram.com/night.drinking/",
+    "website": ""
   },
   {
     "id": "tpe-129",
@@ -7497,9 +7497,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=沐沐家+臺北市大同區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/mumujiasince2019/",
+    "instagram": "https://www.instagram.com/m.jia/",
+    "website": ""
   },
   {
     "id": "tpe-130",
@@ -7537,9 +7537,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Lazzy cafe+臺北市信義區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/LAZZYCAFE/",
+    "instagram": "https://www.instagram.com/lazzycafe_official/",
+    "website": ""
   },
   {
     "id": "tpe-131",
@@ -7571,9 +7571,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=ㄉㄧㄢˇㄉㄧㄢ+臺北市北投區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/dotscake/",
+    "instagram": "https://www.instagram.com/dotdotcake/",
+    "website": ""
   },
   {
     "id": "tpe-132",
@@ -7605,9 +7605,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=AL REVÉS 顛倒餐廳+臺北市萬華區（台北動保處登錄動物友善空間）",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/AlrevesTAIWAN/",
     "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "website": ""
   },
   {
     "id": "tpe-133",
@@ -7641,9 +7641,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=艾迪瓦屋+臺北市信義區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/eddiewowcoffee/",
+    "instagram": "https://www.instagram.com/eddiewowcoffee/",
+    "website": ""
   },
   {
     "id": "tpe-134",
@@ -7672,9 +7672,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Haooyun Station 好運站+臺北市萬華區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/p/Haooyun-Station-%E5%A5%BD%E9%81%8B%E7%AB%99-100084422512034/",
+    "instagram": "https://www.instagram.com/haooyun/",
+    "website": ""
   },
   {
     "id": "tpe-135",
@@ -7710,9 +7710,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=杯子裡的貓+臺北市信義區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/61576979504313/",
+    "instagram": "https://www.instagram.com/acupofcat97/",
+    "website": ""
   },
   {
     "id": "tpe-136",
@@ -7743,9 +7743,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=東風饌麻辣燙大直店+臺北市松山區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/p/%E6%9D%B1%E9%A2%A8%E9%A5%8C%E9%BA%BB%E8%BE%A3%E7%87%99%E5%B0%88%E8%B3%A3-%E5%A4%A7%E7%9B%B4-100064163730068/",
+    "instagram": "https://www.instagram.com/dong_fengzhuang/",
+    "website": ""
   },
   {
     "id": "tpe-137",
@@ -7777,9 +7777,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=樂野食+臺北市中正區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/le.yeshi.cafe/",
+    "instagram": "https://www.instagram.com/leyeshi.cafe/",
+    "website": "https://inline.app/booking/-OhAEuPygKJL-XtwTvxj:inline-live-4/-OhAEuVkfB6en2DcKZxX"
   },
   {
     "id": "tpe-138",
@@ -7811,9 +7811,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=思沐咖啡+臺北市萬華區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/CaffeDearlandMuse/",
+    "instagram": "https://www.instagram.com/thinkthough_coffee/",
+    "website": ""
   },
   {
     "id": "tpe-139",
@@ -7844,9 +7844,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Bear Junkies熊飲+臺北市萬華區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/Bearjunkies/",
+    "instagram": "https://www.instagram.com/bearjunkies/",
+    "website": "https://www.bear-junkies.com/"
   },
   {
     "id": "tpe-140",
@@ -7875,9 +7875,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=旭牧高纖沙拉輕食-台北松江店+臺北市中山區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/BelleMatineeTaipei202303/",
+    "instagram": "https://www.instagram.com/bellematinee2022/",
+    "website": ""
   },
   {
     "id": "tpe-141",
@@ -7906,9 +7906,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=早樂子手作早午餐+臺北市內湖區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/morningfunbrunch/",
+    "instagram": "https://www.instagram.com/morningfunbrunch/",
+    "website": ""
   },
   {
     "id": "tpe-142",
@@ -7937,9 +7937,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=CHOiCE Gelato義式手工冰淇淋+臺北市中山區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/choice.gelato/",
+    "instagram": "https://www.instagram.com/choice.gelato/",
+    "website": ""
   },
   {
     "id": "tpe-143",
@@ -7968,9 +7968,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=小珊食堂+臺北市大同區（台北動保處登錄動物友善空間）",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/p/%25E5%25B0%258F%25E7%258F%258A%25E9%25A3%259F%25E5%25A0%2582-100071489202546/",
     "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "website": ""
   },
   {
     "id": "tpe-144",
@@ -7999,9 +7999,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=勺日日好空間店+臺北市大安區（台北動保處登錄動物友善空間）",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/zhuo.ri.206/",
     "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "website": ""
   },
   {
     "id": "tpe-145",
@@ -8031,9 +8031,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=JB’S Diner+臺北市士林區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/579656278721904/",
+    "instagram": "https://www.instagram.com/judyandbert/",
+    "website": "https://inline.app/booking/-M4w765VSD7vBLswU4dQ:inline-live-1/-M4w769XRiY81ghfjhlT"
   },
   {
     "id": "tpe-146",
@@ -8065,9 +8065,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=MUY 莯以咖啡+臺北市中山區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/muy.cafebar/",
+    "instagram": "https://www.instagram.com/muy.cafebar/",
+    "website": ""
   },
   {
     "id": "tpe-147",
@@ -8096,9 +8096,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=WOYAO Burger+臺北市北投區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/woyaoburger/",
+    "instagram": "https://www.instagram.com/woyao_burger/",
+    "website": ""
   },
   {
     "id": "tpe-148",
@@ -8130,8 +8130,8 @@ window.PET_PLACES_DATA = [
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Yellow Lemon+臺北市松山區（台北動保處登錄動物友善空間）",
     "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "instagram": "https://www.instagram.com/yellowlemonrestaurant/",
+    "website": ""
   },
   {
     "id": "tpe-149",
@@ -8162,9 +8162,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Labu cafe+臺北市中正區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/LabuCafe/",
+    "instagram": "https://www.instagram.com/labucafe/",
+    "website": "https://inline.app/booking/-MSSx21yh4LTYYytvVEj:inline-live-2/-MSSx2BMRRYBxu5J2zVL"
   },
   {
     "id": "tpe-150",
@@ -8194,9 +8194,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=克爾咖啡內湖店+臺北市內湖區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/100094640229314/",
+    "instagram": "https://www.instagram.com/quelcafe_neihu/",
+    "website": ""
   },
   {
     "id": "tpe-151",
@@ -8227,9 +8227,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=創義麵 萬芳店+臺北市文山區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/100064020814267/",
+    "instagram": "https://www.instagram.com/creativepasta/",
+    "website": ""
   },
   {
     "id": "tpe-152",
@@ -8260,9 +8260,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=創義麵 信義店+臺北市信義區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/creativepasta01/",
+    "instagram": "https://www.instagram.com/creativepasta/",
+    "website": ""
   },
   {
     "id": "tpe-153",
@@ -8293,9 +8293,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=創義麵 錦州店+臺北市中山區（台北動保處登錄動物友善空間）",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/p/Creative-Pasta-%E5%89%B5%E7%BE%A9%E9%BA%B5%E9%8C%A6%E5%B7%9E%E5%BA%97-100063979386069/",
     "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "website": ""
   },
   {
     "id": "tpe-154",
@@ -8326,9 +8326,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=創義麵 忠孝店+臺北市大安區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/100064187972785/",
+    "instagram": "https://www.instagram.com/creativepasta00/",
+    "website": ""
   },
   {
     "id": "tpe-155",
@@ -8359,9 +8359,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=創義麵 松山店+臺北市信義區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/100065203081808/",
+    "instagram": "https://www.instagram.com/creativepasta00/",
+    "website": ""
   },
   {
     "id": "tpe-156",
@@ -8392,9 +8392,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=創義麵 石牌店+臺北市北投區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/p/Creative-Pasta-%E5%89%B5%E7%BE%A9%E9%BA%B5%E7%9F%B3%E7%89%8C%E5%BA%97-61581523356009/",
+    "instagram": "https://www.instagram.com/creativepasta/",
+    "website": ""
   },
   {
     "id": "tpe-157",
@@ -8425,9 +8425,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=創義麵 東湖店+臺北市內湖區（台北動保處登錄動物友善空間）",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/creativepasta/",
     "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "website": ""
   },
   {
     "id": "tpe-158",
@@ -8458,9 +8458,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=創義麵 士林店+臺北市士林區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/CreativePastaSL/",
+    "instagram": "https://www.instagram.com/creativepasta/",
+    "website": ""
   },
   {
     "id": "tpe-159",
@@ -8492,9 +8492,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=cafe BOMBOM+臺北市松山區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/cafebombom386/",
+    "instagram": "https://www.instagram.com/cafe_bombom386_official/",
+    "website": ""
   },
   {
     "id": "tpe-160",
@@ -8525,9 +8525,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=戲咖啡 ‧ Cine cafe+臺北市北投區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/mycinecafe/",
+    "instagram": "https://www.instagram.com/mycinecafe/",
+    "website": ""
   },
   {
     "id": "tpe-161",
@@ -8558,9 +8558,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=夏綠蒂 · 小私廚 | 私房義麵燉飯 | 甜點下午茶 | 寵物友善 | 台北松山機場美食 Charlotte | Taipei Airport Cuisine | Pasta Spaghetti Risotto Bistro台北の料理 타이베이 요리+臺北市松山區（台北動保處登錄動物友善空間）",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/IMcharlotte2021/",
     "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "website": ""
   },
   {
     "id": "tpe-162",
@@ -8590,9 +8590,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=大山昆陽咖啡+臺北市南港區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/100090790758892/",
+    "instagram": "https://www.instagram.com/yongjiacoffee/",
+    "website": ""
   },
   {
     "id": "tpe-163",
@@ -8625,9 +8625,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=PapàRoy 義式手作料理+臺北市信義區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/paparoyitalian/",
+    "instagram": "https://www.instagram.com/paparoytaipei/",
+    "website": ""
   },
   {
     "id": "tpe-164",
@@ -8657,9 +8657,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=木咖 Horoka+臺北市萬華區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/Horoka.cafe/",
+    "instagram": "https://www.instagram.com/horoka_cafe/",
+    "website": ""
   },
   {
     "id": "tpe-165",
@@ -8689,8 +8689,8 @@ window.PET_PLACES_DATA = [
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=時々珈琲+臺北市中正區（台北動保處登錄動物友善空間）",
     "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "instagram": "https://www.instagram.com/tokidoki.tw/",
+    "website": ""
   },
   {
     "id": "tpe-166",
@@ -8722,9 +8722,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Compas Pasta House 康帕斯義麵屋 | 手工義大利麵+臺北市信義區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/CompasPastaHouse/",
+    "instagram": "https://www.instagram.com/compas.pasta.house/",
+    "website": "https://compas-official-site.compaspastahouse.workers.dev/"
   },
   {
     "id": "tpe-167",
@@ -8753,9 +8753,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=鼠皮soopi cafe+臺北市大同區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/soopicafe/",
+    "instagram": "https://www.instagram.com/soopi_cafe/",
+    "website": ""
   },
   {
     "id": "tpe-168",
@@ -8795,9 +8795,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=朱里昂廚房+臺北市北投區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/%E6%9C%B1%E9%87%8C%E6%98%82%E7%9A%84%E5%BB%9A%E6%88%BF-Julienkitchen-1402517770012238/",
+    "instagram": "https://www.instagram.com/julienkitchen/",
+    "website": "https://inline.app/booking/-MO_T6ktJsXUIV2sdYz7:inline-live-2/-MO_T6uxxwKHFc82xqZe"
   },
   {
     "id": "tpe-169",
@@ -8832,9 +8832,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=無眠workshop+臺北市北投區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/sleeplessworkshop/",
+    "instagram": "https://www.instagram.com/sleeplessworkshop/",
+    "website": ""
   },
   {
     "id": "tpe-170",
@@ -8871,9 +8871,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=他。植物咖啡+臺北市松山區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/hecoffee.story/",
+    "instagram": "https://www.instagram.com/hecoffee.story/",
+    "website": ""
   },
   {
     "id": "tpe-171",
@@ -8912,8 +8912,8 @@ window.PET_PLACES_DATA = [
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=冬湖火鍋+臺北市內湖區（台北動保處登錄動物友善空間）",
     "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "instagram": "https://www.instagram.com/touko_shabu/",
+    "website": ""
   },
   {
     "id": "tpe-172",
@@ -8948,9 +8948,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=森林善意廚房 內湖店+臺北市內湖區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/p/%E6%A3%AE%E6%9E%97%E5%96%84%E6%84%8F%E5%BB%9A%E6%88%BFKitchen-of-kindness-100071235391395/",
+    "instagram": "https://www.instagram.com/kitchen_of_kindness/",
+    "website": ""
   },
   {
     "id": "tpe-173",
@@ -8979,9 +8979,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=飲飽食醉+臺北市南港區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/452692834869465/",
+    "instagram": "https://www.instagram.com/taiwandrunkdrunkder/",
+    "website": ""
   },
   {
     "id": "tpe-174",
@@ -9011,8 +9011,8 @@ window.PET_PLACES_DATA = [
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=點八小食 臺北車站店（K區地下街）+臺北市中正區（台北動保處登錄動物友善空間）",
     "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "instagram": "https://www.instagram.com/dimsum8_tw/",
+    "website": ""
   },
   {
     "id": "tpe-175",
@@ -9041,9 +9041,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=家香味食堂+臺北市萬華區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/p/%E5%AE%B6%E9%A6%99%E5%91%B3%E9%A3%9F%E5%A0%82-100063733728985/",
+    "instagram": "https://www.instagram.com/jiaxiangwayloobahpng/",
+    "website": ""
   },
   {
     "id": "tpe-176",
@@ -9072,9 +9072,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Cafejiasong 咖央 | 東區咖啡+臺北市大安區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/cafejiasong/",
+    "instagram": "https://www.instagram.com/cafejiasong/",
+    "website": ""
   },
   {
     "id": "tpe-177",
@@ -9103,9 +9103,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Cozy Quail+臺北市松山區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/cozyquail.tw/",
+    "instagram": "https://www.instagram.com/cozyquail_tw/",
+    "website": "https://www.cozyquailcafe.com/"
   },
   {
     "id": "tpe-178",
@@ -9134,9 +9134,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=大巨星港式飲茶餐酒館+臺北市信義區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/p/%25E5%25A4%25A7%25E5%25B7%25A8%25E6%2598%259F%25E6%25B8%25AF%25E5%25BC%258F%25E9%25A3%25B2%25E8%258C%25B6%25E9%25A4%2590%25E9%2585%2592%25E9%25A4%25A8-61561651193325/",
+    "instagram": "https://www.instagram.com/superstar24h/",
+    "website": ""
   },
   {
     "id": "tpe-179",
@@ -9165,9 +9165,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=TOK盡興食光 遠東Garden City大巨蛋店+臺北市信義區（台北動保處登錄動物友善空間）",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/p/TOK-%E7%9B%A1%E8%88%88%E9%A3%9F%E5%85%89-%E5%A4%A7%E5%B7%A8%E8%9B%8B%E5%BA%97-Taipei-dome-61558610060221/",
     "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "website": ""
   },
   {
     "id": "tpe-180",
@@ -9197,8 +9197,8 @@ window.PET_PLACES_DATA = [
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=PRESERVE 大巨蛋+臺北市信義區（台北動保處登錄動物友善空間）",
     "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "instagram": "https://www.instagram.com/preserve__tw/",
+    "website": "https://inline.app/booking/-NJ52ydOg_JGysSYmwyl:inline-live-3/-NwJf5uCCXfb6XiHAR_u"
   },
   {
     "id": "tpe-181",
@@ -9227,9 +9227,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=1975 Antique’s Cafe Tea Room+臺北市北投區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/p/1975-Antiques-Cafe-Tea-Room-100063806659883/",
+    "instagram": "https://www.instagram.com/1975antiquescafetearoom/",
+    "website": ""
   },
   {
     "id": "tpe-182",
@@ -9258,9 +9258,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=兔Dreams兔子餐廳 Bunny Cafe+臺北市大安區（台北動保處登錄動物友善空間）",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/todreams2019/",
     "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "website": ""
   },
   {
     "id": "tpe-183",
@@ -9289,9 +9289,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=The zoo 蔬食主義 vegan food and beverage+臺北市信義區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/p/The-zoo-%E8%94%AC%E9%A3%9F%E4%B8%BB%E7%BE%A9vegan-food-beverage%E5%92%96%E5%95%A1-%E8%BC%95%E9%A3%9F-%E7%94%9C%E9%BB%9E-61562858981863/",
+    "instagram": "https://www.instagram.com/thezoo.ig/",
+    "website": ""
   },
   {
     "id": "tpe-184",
@@ -9320,9 +9320,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=海絲迪亞廚房+臺北市北投區（台北動保處登錄動物友善空間）",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/110650995156495/",
     "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "website": ""
   },
   {
     "id": "tpe-185",
@@ -9351,9 +9351,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=舒曼六號餐館 小巨蛋南京店+臺北市松山區（台北動保處登錄動物友善空間）",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/SchumannsBistroNo6Nanjing/",
     "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "website": "https://inline.app/booking/-MQtm-5njJu5hpH0TtXI:inline-live-2/-MQtm-GB26iGAkXDilM5"
   },
   {
     "id": "tpe-186",
@@ -9383,8 +9383,8 @@ window.PET_PLACES_DATA = [
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=舒曼六號餐館 動物園政大店+臺北市文山區（台北動保處登錄動物友善空間）",
     "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "instagram": "https://www.instagram.com/schumannsbistrono6/",
+    "website": ""
   },
   {
     "id": "tpe-187",
@@ -9413,9 +9413,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=凹屋珈琲Awoo Kohii+臺北市士林區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/awookohii/",
+    "instagram": "https://www.instagram.com/awoo_kohii/",
+    "website": ""
   },
   {
     "id": "tpe-188",
@@ -9444,9 +9444,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=飛起咖咖Fly High CURRY×CAFÉ 咖哩×咖啡+臺北市文山區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/p/%E9%A3%9B%E8%B5%B7%E5%92%96%E5%92%96Fly-High-CurryCaf%C3%A9-%E5%92%96%E5%93%A9%E5%92%96%E5%95%A1-61556251734735/",
+    "instagram": "https://www.instagram.com/flyhigh.curry/",
+    "website": ""
   },
   {
     "id": "tpe-189",
@@ -9477,9 +9477,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=80後碼頭+臺北市北投區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/80sharbor/",
+    "instagram": "https://www.instagram.com/80sharbor/",
+    "website": ""
   },
   {
     "id": "tpe-190",
@@ -9510,9 +9510,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=牛本色 溫體牛火鍋+臺北市松山區（台北動保處登錄動物友善空間）",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/taiwanbeefpot/",
     "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "website": ""
   },
   {
     "id": "tpe-191",
@@ -9543,9 +9543,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=蘭亭燒肉 和牛極緻料理+臺北市大安區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/Lanting2017/",
+    "instagram": "https://www.instagram.com/lanting_wagyu/",
+    "website": ""
   },
   {
     "id": "tpe-192",
@@ -9576,9 +9576,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=日淬 Sun Drip Coffee+臺北市大安區（台北動保處登錄動物友善空間）",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/p/%E6%97%A5%E6%B7%AC-Sun-Drip-61555716202242/",
     "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "website": ""
   },
   {
     "id": "tpe-193",
@@ -9609,9 +9609,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=伍食 No.510+臺北市內湖區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/no.510sweet/",
+    "instagram": "https://www.instagram.com/no.510brunch/",
+    "website": ""
   },
   {
     "id": "tpe-194",
@@ -9640,9 +9640,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=小鍋巴+臺北市萬華區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/p/%E5%B0%8F%E9%8D%8B%E5%B7%B4-61568410131321/",
+    "instagram": "https://www.instagram.com/xiao_guoba/",
+    "website": ""
   },
   {
     "id": "tpe-195",
@@ -9672,9 +9672,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=本願豆花店-晴光+臺北市中山區（台北動保處登錄動物友善空間）",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/profile.php/",
     "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "website": ""
   },
   {
     "id": "tpe-196",
@@ -9703,9 +9703,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=本願豆花店-漢中+臺北市中正區（台北動保處登錄動物友善空間）",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/profile.php/",
     "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "website": ""
   },
   {
     "id": "tpe-197",
@@ -9736,7 +9736,7 @@ window.PET_PLACES_DATA = [
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=喜寶棧 咖啡酒館 & 貓旅館 HIPP CAFE & CATEL+臺北市萬華區（台北動保處登錄動物友善空間）",
     "facebook": "",
     "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "website": ""
   },
   {
     "id": "tpe-198",
@@ -9766,9 +9766,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=CHAO 炒炒新亞洲蔬食 - 東區美食熱炒 公司聚餐 創意素食料理 寵物友善 人氣推薦必吃+臺北市大安區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/ChaoChaoStirFry/",
+    "instagram": "https://www.instagram.com/chao_stir_fry/",
+    "website": "https://inline.app/booking/-MVzwY4qZf6uH0kSn2KX:inline-live-2/-MVzwYKUbWbonWbMeVmm"
   },
   {
     "id": "tpe-199",
@@ -9798,9 +9798,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Mixigan 美墨創意蔬食料理 -推薦異國料理 人氣美式漢堡餐廳 必吃美食Vegan+臺北市信義區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/mixigan2023/",
+    "instagram": "https://www.instagram.com/mixigan.tw/",
+    "website": ""
   },
   {
     "id": "tpe-200",
@@ -9832,9 +9832,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=樂子瑞安店+臺北市大安區（台北動保處登錄動物友善空間）",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/theDiner.Taipei/",
     "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "website": "https://inline.app/booking/-KJJSvnMqP2ZECa6JwWY/-KJJSvnMqP2ZECa6JwWZ"
   },
   {
     "id": "tpe-201",
@@ -9865,9 +9865,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=生蠔哥+臺北市松山區（台北動保處登錄動物友善空間）",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/p/%E9%A5%92%E6%B2%B3%E8%A1%97%E7%94%9F%E8%A0%94%E5%93%A5-100063611457319/",
     "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "website": ""
   },
   {
     "id": "tpe-202",
@@ -9900,9 +9900,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=SHUFFLE Brunch & Bar+臺北市信義區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/shuffle.shot4/",
+    "instagram": "https://www.instagram.com/shuffle.brunch.bar/",
+    "website": ""
   },
   {
     "id": "tpe-203",
@@ -9934,9 +9934,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=李記甜品 Lee Dessert+臺北市內湖區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/LeeDessert/",
+    "instagram": "https://www.instagram.com/leedessertfoodie/",
+    "website": ""
   },
   {
     "id": "tpe-205",
@@ -9975,7 +9975,7 @@ window.PET_PLACES_DATA = [
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=米蘇之間早餐工坊 (原東方美永吉店)+臺北市信義區（台北動保處登錄動物友善空間）",
     "facebook": "",
     "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "website": ""
   },
   {
     "id": "tpe-206",
@@ -10007,9 +10007,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Modern Mode & Modern Mode Café+臺北市大同區（台北動保處登錄動物友善空間）",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/modernmode11/",
     "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "website": ""
   },
   {
     "id": "tpe-207",
@@ -10040,9 +10040,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=TUTUKAKI 司康小売所+臺北市中正區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/tutukakiscone/",
+    "instagram": "https://www.instagram.com/tutukakiscone/",
+    "website": "https://tutukakiscone.com/"
   },
   {
     "id": "tpe-208",
@@ -10074,9 +10074,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=CRO#FEE 咖啡井 - 復興店+臺北市大安區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/crofee.dunnan/",
+    "instagram": "https://www.instagram.com/cro_fee/",
+    "website": ""
   },
   {
     "id": "tpe-209",
@@ -10109,9 +10109,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=小南風咖啡Minami cafe ﻿ 咖啡豆批發零售+臺北市大安區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/minamizephyr/",
+    "instagram": "https://www.instagram.com/minamicafe_taipei/",
+    "website": ""
   },
   {
     "id": "tpe-210",
@@ -10144,9 +10144,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=좋은 날 好日子咖啡+臺北市松山區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/p/%EC%A2%8B%EC%9D%80-%EB%82%A0-%E5%A5%BD%E6%97%A5%E5%AD%90%E5%92%96%E5%95%A1-61556883504151/",
+    "instagram": "https://www.instagram.com/joeunnalcafe/",
+    "website": ""
   },
   {
     "id": "tpe-211",
@@ -10178,9 +10178,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=離城放感情+臺北市大安區（台北動保處登錄動物友善空間）",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/cityleaving/",
     "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "website": ""
   },
   {
     "id": "tpe-212",
@@ -10216,9 +10216,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=一鷺串燒居酒屋 松江本店+臺北市中山區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/IRUYAKITORI/",
+    "instagram": "https://www.instagram.com/iru.yakitori/",
+    "website": "https://inline.app/booking/-Ldax2x0NSE-E9cHw_oZ:inline-live-2a466/-Ldax30XCCCZYZ6cDShH"
   },
   {
     "id": "tpe-213",
@@ -10251,9 +10251,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Rainma Café Bistro+臺北市信義區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/p/Rainma-Caf%25C3%25A9-bistro-100074884803319/",
+    "instagram": "https://www.instagram.com/rainma_bistro/",
+    "website": ""
   },
   {
     "id": "tpe-214",
@@ -10287,9 +10287,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Bonica Pâtisserie & Café+臺北市大安區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/bonicacafe/",
+    "instagram": "https://www.instagram.com/bonicacafe/",
+    "website": ""
   },
   {
     "id": "tpe-215",
@@ -10322,9 +10322,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Riff Coffee Roasters+臺北市信義區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/profile.php/",
+    "instagram": "https://www.instagram.com/riffcoffee.roasters/",
+    "website": ""
   },
   {
     "id": "tpe-216",
@@ -10357,9 +10357,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Space Time Bistro&Bar | 東區貓咪餐酒館｜東區貓咪酒吧+臺北市信義區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/profile.php/",
+    "instagram": "https://www.instagram.com/space.time_bistro/",
+    "website": ""
   },
   {
     "id": "tpe-217",
@@ -10391,9 +10391,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Vis cafe 圓山店+臺北市大同區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/Vis-cafe-%E8%A6%93%E6%99%82%E5%92%96%E5%95%A1-%E5%9C%93%E5%B1%B1%E8%8A%B1%E5%8D%9A%E5%BA%97-475075462845039/",
+    "instagram": "https://www.instagram.com/viscafe201303/",
+    "website": ""
   },
   {
     "id": "tpe-218",
@@ -10430,9 +10430,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=一鷺串燒居酒屋 大直旗艦店 （寵物友善）+臺北市松山區（台北動保處登錄動物友善空間）",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/IRUYAKITORI/",
     "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "website": ""
   },
   {
     "id": "tpe-219",
@@ -10465,9 +10465,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=水羿云飛 Wing Prime Tea+臺北市大同區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/%E7%99%25/",
+    "instagram": "https://www.instagram.com/wing_prime_tea/",
+    "website": ""
   },
   {
     "id": "tpe-220",
@@ -10499,9 +10499,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=TAKEFIVE 五方食藏 忠孝店+臺北市信義區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/Take5delitw/",
+    "instagram": "https://www.instagram.com/take5deli_tw/",
+    "website": ""
   },
   {
     "id": "tpe-221",
@@ -10535,9 +10535,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=TAKEFIVE 五方食藏 青田店+臺北市大安區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/Take5delitw/",
+    "instagram": "https://www.instagram.com/take5deli_tw/",
+    "website": "https://inline.app/booking/-Ni2lSUfmtUzYU38IBXw:inline-live-3/-Ni2lTQpPTM1YILWVQcE"
   },
   {
     "id": "tpe-222",
@@ -10569,9 +10569,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=TAKEFIVE 五方食藏 大稻埕店+臺北市大同區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/Take5delitw/",
+    "instagram": "https://www.instagram.com/take5deli_tw/",
+    "website": ""
   },
   {
     "id": "tpe-223",
@@ -10601,9 +10601,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=松松咖啡（阿松不定期出沒）+臺北市松山區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/p/%E6%9D%BE%E6%9D%BE%E5%92%96%E5%95%A1-61572601996394/",
+    "instagram": "https://www.instagram.com/song_song1023/",
+    "website": "https://inline.app/booking/-OMGeE6z_W-oHjDCOM7Q:inline-live-3/-OMGeEDah0C2c4o5UsYU"
   },
   {
     "id": "tpe-224",
@@ -10634,9 +10634,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=說好咖啡+臺北市大同區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/sayyescafe.taipei/",
+    "instagram": "https://www.instagram.com/sayyescafe.tpe/",
+    "website": ""
   },
   {
     "id": "tpe-225",
@@ -10671,9 +10671,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=饗旭咖啡+臺北市大安區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/100090948100974/",
+    "instagram": "https://www.instagram.com/egg_hoya.cafe/",
+    "website": ""
   },
   {
     "id": "tpe-226",
@@ -10706,9 +10706,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=紅木屋-文山熱炒推薦|合菜菜廳|家族聚餐推薦|在地推薦|貓空特色餐廳|熱門餐廳|景觀餐廳|人氣餐廳+臺北市文山區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/redwooden/",
+    "instagram": "https://www.instagram.com/maokongredwoodhouse/",
+    "website": ""
   },
   {
     "id": "tpe-227",
@@ -10740,9 +10740,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=小公寓Apt.cafe+臺北市文山區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/profile.php/",
+    "instagram": "https://www.instagram.com/apt_cafe/",
+    "website": ""
   },
   {
     "id": "tpe-228",
@@ -10773,9 +10773,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=INDULGE Taipei Drinking & Eatery+臺北市大安區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/Indulge-%E5%AF%A6%E9%A9%97%E5%89%B5%E6%96%B0%E9%A4%90%E9%85%92%E9%A4%A8-212746458756427/",
+    "instagram": "https://www.instagram.com/indulgetaipei/",
+    "website": "https://inline.app/booking/-Ld2dlDqgqwvsxi4MbmN:inline-live-2a466/-Ld2dlIASGKygSQa_Dgp"
   },
   {
     "id": "tpe-229",
@@ -10809,9 +10809,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=異世界咖啡館•澐月+臺北市大同區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/p/%E7%95%B0%E4%B8%96%E7%95%8C%E5%92%96%E5%95%A1%E9%A4%A8%E6%BE%90%E6%9C%88-61560602801603/",
+    "instagram": "https://www.instagram.com/isekaicafe_ungetsu/",
+    "website": ""
   },
   {
     "id": "tpe-230",
@@ -10842,8 +10842,8 @@ window.PET_PLACES_DATA = [
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=小紅花Cafe｜早午餐｜不限時｜手作體驗｜文創選物店｜鉤針｜毛根花｜拼豆+臺北市北投區（台北動保處登錄動物友善空間）",
     "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "instagram": "https://www.instagram.com/littleredfafa_cafe/",
+    "website": ""
   },
   {
     "id": "tpe-231",
@@ -10875,9 +10875,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Mr. Light 輕食先生+臺北市文山區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/Mr-Light-%E8%BC%95%E9%A3%9F%E5%85%88%E7%94%9F-109382534011292/",
+    "instagram": "https://www.instagram.com/mr.light2020/",
+    "website": ""
   },
   {
     "id": "tpe-232",
@@ -10907,8 +10907,8 @@ window.PET_PLACES_DATA = [
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=弘弘朝食（南港1店）+臺北市南港區（台北動保處登錄動物友善空間）",
     "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "instagram": "https://www.instagram.com/nx.01_888/",
+    "website": ""
   },
   {
     "id": "tpe-233",
@@ -10938,8 +10938,8 @@ window.PET_PLACES_DATA = [
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=弘弘朝食（新民2店）+臺北市南港區（台北動保處登錄動物友善空間）",
     "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "instagram": "https://www.instagram.com/nx.01_888/",
+    "website": ""
   },
   {
     "id": "tpe-234",
@@ -10968,9 +10968,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Dvibe+臺北市萬華區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/p/Dvibe-61564858513894/",
+    "instagram": "https://www.instagram.com/_d.vibe_/",
+    "website": ""
   },
   {
     "id": "tpe-235",
@@ -10999,9 +10999,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Fur Sure Caf’e｜寵物友善+臺北市信義區（台北動保處登錄動物友善空間）",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/p/Fur-Sure-Cafe-61587065049005/",
     "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "website": ""
   },
   {
     "id": "tpe-236",
@@ -11030,9 +11030,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Gaia Flow 全植料理 | 純素 | 無麩質 | 有機 | 自然 | 友善農法 | Vegan Restaurant | Gluten Free+臺北市中正區（台北動保處登錄動物友善空間）",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/p/Gaia-Flow-%E5%85%A8%E6%A4%8D%E6%96%99%E7%90%86-61577664761920/",
     "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "website": "https://inline.app/booking/-OfOEO-VZrclYE1HmtYy:inline-live-3/-OfOEO5seN3ehc-GNLeR"
   },
   {
     "id": "tpe-237",
@@ -11061,9 +11061,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=甘蔗渣男(甘杯bar)+臺北市大安區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/sugarcaneboi/",
+    "instagram": "https://www.instagram.com/sugarcane__boy/",
+    "website": ""
   },
   {
     "id": "tpe-238",
@@ -11092,9 +11092,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=葉甘單蔬食+臺北市大安區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/p/%E8%91%89%E7%94%98%E5%96%AE%E8%94%AC%E9%A3%9F-61564100859777/",
+    "instagram": "https://www.instagram.com/yeyeshushi/",
+    "website": ""
   },
   {
     "id": "tpe-239",
@@ -11125,7 +11125,7 @@ window.PET_PLACES_DATA = [
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=碌碌洋食 Lulu Yoshoku+臺北市松山區（台北動保處登錄動物友善空間）",
     "facebook": "",
     "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "website": ""
   },
   {
     "id": "tpe-240",
@@ -11154,9 +11154,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=甲蟲秘境自然生態館（親子寵物友善餐廳）+臺北市士林區（台北動保處登錄動物友善空間）",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/BEETLESINWONDERLANDZHISHAN/",
     "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "website": ""
   },
   {
     "id": "tpe-241",
@@ -11185,9 +11185,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=花嶼輕食館+臺北市士林區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/flowerislandbrunch/",
+    "instagram": "https://www.instagram.com/flower_island_brunch/",
+    "website": "https://inline.app/booking/-OTjdr6Ddu2a3lfWIpHF:inline-live-3/-OTjdrDvurhfd4qcr0-n"
   },
   {
     "id": "tpe-242",
@@ -11216,9 +11216,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=畊 PLOW Yunong+臺北市士林區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/plowtaipei/",
+    "instagram": "https://www.instagram.com/plowtaipei/",
+    "website": ""
   },
   {
     "id": "tpe-243",
@@ -11247,9 +11247,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Fur Sure Caf’e｜寵物友善+臺北市信義區（台北動保處登錄動物友善空間）",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/p/Fur-Sure-Cafe-61587065049005/",
     "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "website": ""
   },
   {
     "id": "tpe-244",
@@ -11280,7 +11280,7 @@ window.PET_PLACES_DATA = [
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=優鮮主意 Açaí巴西莓 · Premium Fruits · Private Members' Club+臺北市大安區（台北動保處登錄動物友善空間）",
     "facebook": "",
     "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "website": ""
   },
   {
     "id": "tpe-246",
@@ -11309,9 +11309,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=莫古咖啡 MEET GRACE COFFEE+臺北市中正區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/p/%E8%8E%AB%E5%8F%A4%E5%92%96%E5%95%A1-61551919754617/",
+    "instagram": "https://www.instagram.com/mogu_.coffee/",
+    "website": ""
   },
   {
     "id": "tpe-247",
@@ -11340,9 +11340,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=BACKMOUNT後山咖啡+臺北市南港區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/backmount.coffee.food/",
+    "instagram": "https://www.instagram.com/backmount.coffee/",
+    "website": "https://backmount.weebly.com/"
   },
   {
     "id": "tpe-248",
@@ -11371,9 +11371,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Vagus 餐酒館 Lounge+臺北市大同區（台北動保處登錄動物友善空間）",
-    "facebook": "",
-    "instagram": "",
-    "website": "https://www.tcapo.gov.taipei/"
+    "facebook": "https://www.facebook.com/vagus.tw/",
+    "instagram": "https://www.instagram.com/vagus.tw/",
+    "website": "https://vagus.tw/"
   },
   {
     "id": "curated-1",
@@ -11404,8 +11404,8 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=樂品喜塘（和平島地質公園海景咖啡）+基隆市中正區平一路360號（遊客中心3樓）",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/lovepin2018/",
+    "instagram": "https://www.instagram.com/lovepin2018/",
     "website": ""
   },
   {
@@ -11437,8 +11437,8 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=丸角後院 Maru Corner Cafe+基隆市仁愛區孝二路28號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/MaruCorner.Backyard/",
+    "instagram": "https://www.instagram.com/marucornerbackyard/",
     "website": ""
   },
   {
@@ -11471,8 +11471,8 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=公雞咖啡 Le Coq（淺水灣海景第一排）+新北市三芝區後厝里北勢子45-16號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/LeCoqcafe/",
+    "instagram": "https://www.instagram.com/lecoq2009/",
     "website": ""
   },
   {
@@ -11540,7 +11540,7 @@ window.PET_PLACES_DATA = [
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=兜 Miao 寵物友善餐廳+新北市板橋區光武街119號",
     "facebook": "",
-    "instagram": "",
+    "instagram": "https://www.instagram.com/pawscafe.tw/",
     "website": ""
   },
   {
@@ -11573,7 +11573,7 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=找柴餐廳（板橋文化店）+新北市板橋區文化路一段285巷2弄2號",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/188Shiba/",
     "instagram": "",
     "website": ""
   },
@@ -11606,7 +11606,7 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=碧潭水灣景觀餐廳+新北市新店區碧潭路1號",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/%E7%A2%A7%E6%BD%AD%E6%B0%B4%E7%81%A3%E9%A4%90%E5%BB%B3-390453327712383/",
     "instagram": "",
     "website": ""
   },
@@ -11639,7 +11639,7 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=綠光河岸景觀咖啡（八里左岸）+新北市八里區觀海大道39號",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/greenriverroastery/",
     "instagram": "",
     "website": ""
   },
@@ -11672,9 +11672,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=甘樂文創食堂（百年三峽古厝）+新北市三峽區清水街317號",
-    "facebook": "",
-    "instagram": "",
-    "website": ""
+    "facebook": "https://www.facebook.com/205671809456535/",
+    "instagram": "https://www.instagram.com/thecan2010/",
+    "website": "https://inline.app/booking/-MQjGdrbfdrg3cngYfSO:inline-live-2/-MQjGvS8199dCMgmZBjS"
   },
   {
     "id": "curated-10",
@@ -11706,8 +11706,8 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=走走咖啡 GOGO CAFE+桃園市桃園區大興十一街61號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/goaroundwithus/",
+    "instagram": "https://www.instagram.com/walkwalkcoffee/",
     "website": ""
   },
   {
@@ -11739,9 +11739,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=BUNA CAF'E 布納咖啡館（藝文店）+桃園市桃園區中正路1061號",
-    "facebook": "",
-    "instagram": "",
-    "website": ""
+    "facebook": "https://www.facebook.com/bunacafe1061/",
+    "instagram": "https://www.instagram.com/buna.cafe/",
+    "website": "https://www.buna.com.tw/"
   },
   {
     "id": "curated-12",
@@ -11772,7 +11772,7 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=友竹居茶藝館（蘇州園林風）+桃園市中壢區中大路32號",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/p/%E5%8F%8B%E7%AB%B9%E5%B1%85%E8%8C%B6%E8%97%9D%E9%A4%A8-100064085109802/",
     "instagram": "",
     "website": ""
   },
@@ -11805,8 +11805,8 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=隱花園景觀咖啡+桃園市大溪區中央路48號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/p/%E9%9A%B1%E8%8A%B1%E5%9C%92%E6%99%AF%E8%A7%80%E5%92%96%E5%95%A1%E9%A4%90%E5%BB%B3-100070116063057/",
+    "instagram": "https://www.instagram.com/in_garden_coffe/",
     "website": ""
   },
   {
@@ -11838,8 +11838,8 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=莫內咖啡（永安海景南洋風）+桃園市新屋區蚵間里蚵勒22號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/p/%E8%8E%AB%E5%85%A7%E5%92%96%E5%95%A1-%EF%BC%ADONET-CAFE-61552860487390/",
+    "instagram": "https://www.instagram.com/monetgarden.cafe/",
     "website": ""
   },
   {
@@ -11904,8 +11904,8 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=一百種味道（三民店老宅）+新竹市東區三民路35號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/100tastes/",
+    "instagram": "https://www.instagram.com/100tastes/",
     "website": ""
   },
   {
@@ -11937,7 +11937,7 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=巷弄裡的噠噠聲+新竹市東區中央路206巷18號",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/%E5%B7%B7%E5%BC%84%E8%A3%A1%E7%9A%84%E5%99%A0%E5%99%A0%E8%81%B2-560422761006659/",
     "instagram": "",
     "website": ""
   },
@@ -11972,8 +11972,8 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=山那邊．綠葉方舟 Green Ark+苗栗縣三義鄉勝興村12鄰綠舟路1號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/greenarksun/",
+    "instagram": "https://www.instagram.com/greenark_greenark/",
     "website": ""
   },
   {
@@ -12005,8 +12005,8 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=漫步雲端森林廚房+苗栗縣三義鄉雙潭村崩山下22號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/WalkCloudsRestaurant/",
+    "instagram": "https://www.instagram.com/walkclouds_restaurant/",
     "website": ""
   },
   {
@@ -12038,7 +12038,7 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=琉璃仙境休閒農場景觀餐廳+彰化縣員林市香山路87之11號",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/Color.glass.fairyland/",
     "instagram": "",
     "website": ""
   },
@@ -12071,8 +12071,8 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=唯愛庭園 Vigor Courtyard+彰化縣彰化市延和里大埔路2巷126號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/venamanor/",
+    "instagram": "https://www.instagram.com/vena_manor/",
     "website": ""
   },
   {
@@ -12104,8 +12104,8 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=蠻荒咖啡 Desolate Coffee（日月潭）+南投縣魚池鄉中明村文化巷41號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/desolatecoffee/",
+    "instagram": "https://www.instagram.com/desolate_coffee/",
     "website": ""
   },
   {
@@ -12137,7 +12137,7 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=清境魯媽媽雲南擺夷料理+南投縣仁愛鄉仁和路210-2-1號",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/QingJingLuMaMaYunNanBaiYiLiaoLi/",
     "instagram": "",
     "website": ""
   },
@@ -12170,9 +12170,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=隱茶 STEAM（車埕貯木池畔）+南投縣水里鄉民權巷101-3號",
-    "facebook": "",
-    "instagram": "",
-    "website": ""
+    "facebook": "https://www.facebook.com/steam.grove/",
+    "instagram": "https://www.instagram.com/steam.grove/",
+    "website": "https://www.steam-tea.com/"
   },
   {
     "id": "curated-25",
@@ -12203,7 +12203,7 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=凹凸咖啡館（斗六雲中街老眷村）+雲林縣斗六市雲中街9巷12號",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/ottocoffe/",
     "instagram": "",
     "website": ""
   },
@@ -12237,7 +12237,7 @@ window.PET_PLACES_DATA = [
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=後院 houyuan（虎尾老宅庭園）+雲林縣虎尾鎮忠孝路2號",
     "facebook": "",
-    "instagram": "",
+    "instagram": "https://www.instagram.com/houyuan__/",
     "website": ""
   },
   {
@@ -12269,8 +12269,8 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=森咖啡 Morikoohii（檜意森活村日式官舍）+嘉義市東區共和路199巷1號（T12館）",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/morikoohii/",
+    "instagram": "https://www.instagram.com/morikoohii/",
     "website": ""
   },
   {
@@ -12302,7 +12302,7 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=大人味 日•印珈哩+嘉義市東區成仁街94號",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/p/%E5%A4%A7%E4%BA%BA%E5%91%B3-%E6%97%A5%E5%8D%B0%E7%8F%88%E5%93%A9-100063657625576/",
     "instagram": "",
     "website": ""
   },
@@ -12338,7 +12338,7 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=MAO MAO LEE 寵物餐廳（苓雅旗艦店）+高雄市苓雅區新光路140巷25號",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/maomaolee666/",
     "instagram": "",
     "website": ""
   },
@@ -12372,7 +12372,7 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=毛毛李寵物友善餐廳（左營巨蛋店）+高雄市左營區博愛二路777號周邊",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/maomaolee666/",
     "instagram": "",
     "website": ""
   },
@@ -12405,8 +12405,8 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=打勾勾人寵慢活會所 DaGogo Hygge Home+高雄市三民區六合路17號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/dagogohyggehome/",
+    "instagram": "https://www.instagram.com/dagogo_hygge_home/",
     "website": ""
   },
   {
@@ -12438,8 +12438,8 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=白色戀人文創咖啡館（柴山海景第一排）+高雄市鼓山區柴山大路91-1號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/WhiteLoverCafe/",
+    "instagram": "https://www.instagram.com/whitelovercafe/",
     "website": ""
   },
   {
@@ -12471,8 +12471,8 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=天天泰泰式個人火鍋+高雄市前金區五福三路124號（雄女旁）",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/EveryThai.tw/",
+    "instagram": "https://www.instagram.com/everythai/",
     "website": ""
   },
   {
@@ -12504,8 +12504,8 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=迷路小章魚餐酒館 Piccolo Polpo Bistro+屏東縣恆春鎮南灣路60號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/PiccoloPolpoBistro/",
+    "instagram": "https://www.instagram.com/piccolo_polpo_kenting/",
     "website": ""
   },
   {
@@ -12537,8 +12537,8 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=波波廚房 Kitchen Swell（80年老醫院古宅）+屏東縣恆春鎮光明路88號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/p/%E6%B3%A2%E6%B3%A2%E5%BB%9A%E6%88%BF-Kitchen-Swell-100064826379178/",
+    "instagram": "https://www.instagram.com/kitchenswell_2015/",
     "website": ""
   },
   {
@@ -12570,7 +12570,7 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=山男咖啡 Yamato Coffee（懸崖看海夕陽）+屏東縣恆春鎮紅柴路2-9號",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/sannancafe/",
     "instagram": "",
     "website": ""
   },
@@ -12603,8 +12603,8 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=康定拾八（勝利星村日式眷舍咖啡）+屏東縣屏東市康定街18號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/WKitchen0966809688/",
+    "instagram": "https://www.instagram.com/kd18_wkitchen/",
     "website": ""
   },
   {
@@ -12636,8 +12636,8 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=滿山望海景觀咖啡館+宜蘭縣頭城鎮大坑路197巷2號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/mansiontaiwan.toucheng/",
+    "instagram": "https://www.instagram.com/ms.wh.tc/",
     "website": ""
   },
   {
@@ -12669,9 +12669,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=黑宅咖啡 BLACK HOUSE+宜蘭縣頭城鎮三和路616巷235弄47號",
-    "facebook": "",
-    "instagram": "",
-    "website": ""
+    "facebook": "https://www.facebook.com/blackhousecafe/",
+    "instagram": "https://www.instagram.com/blackhouse_cafe/",
+    "website": "https://www.blackhouse.tw/"
   },
   {
     "id": "curated-44",
@@ -12702,7 +12702,7 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=空ㄟ農場（礁溪百萬夜景排隊景觀餐廳）+宜蘭縣礁溪鄉白石腳路157巷31號",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/kongpizzacafe/",
     "instagram": "",
     "website": ""
   },
@@ -12735,7 +12735,7 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=兔子迷宮景觀餐廳 A-Maze+宜蘭縣員山鄉枕山一村15號",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/maze3399/",
     "instagram": "",
     "website": ""
   },
@@ -12803,9 +12803,9 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=原野牧場（七星潭羊奶咖啡海景餐廳）+花蓮縣新城鄉大漢村七星街9號",
-    "facebook": "",
-    "instagram": "",
-    "website": ""
+    "facebook": "https://www.facebook.com/yuanyeh.com.tw/",
+    "instagram": "https://www.instagram.com/yuanyeh1988/",
+    "website": "https://inline.app/booking/-MvM9-YAUTWBnX98kSrw:inline-live-2/-MvM9-mqwIXdFz3X4hb1"
   },
   {
     "id": "curated-48",
@@ -12836,8 +12836,8 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=漫漫日和手作輕食+花蓮縣花蓮市中美路106號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/412168285622158/",
+    "instagram": "https://www.instagram.com/beforesunrisebnb/",
     "website": ""
   },
   {
@@ -12870,7 +12870,7 @@ window.PET_PLACES_DATA = [
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=原始部落山地美食（利嘉半山腰夜景）+臺東縣卑南鄉利嘉村利嘉路689巷19號",
     "facebook": "",
-    "instagram": "",
+    "instagram": "https://www.instagram.com/tribe20001010/",
     "website": ""
   },
   {
@@ -12903,7 +12903,7 @@ window.PET_PLACES_DATA = [
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=恩娜比亞咖啡 Nnabiya Coffee（都蘭山海秘境）+臺東縣東河鄉都蘭村都蘭山麓",
     "facebook": "",
-    "instagram": "",
+    "instagram": "https://www.instagram.com/nnabiya_coffee/",
     "website": ""
   },
   {
@@ -12935,7 +12935,7 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "highlight": false,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=吹吹風精品咖啡館（澎湖碼頭海景旗艦店）+澎湖縣馬公市臨海路6-1號",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/BartistaXBistro/",
     "instagram": "",
     "website": ""
   },
@@ -12966,8 +12966,8 @@ window.PET_PLACES_DATA = [
     "status": "OPERATIONAL",
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=舞葉場茶舖+臺南市南區新孝路80號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/WuYeChang/",
+    "instagram": "https://www.instagram.com/uraha_iro_10/",
     "website": ""
   },
   {
@@ -12997,7 +12997,7 @@ window.PET_PLACES_DATA = [
     "status": "OPERATIONAL",
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=In’s飲食坊+臺南市東區長榮路三段66巷37-2號",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/INSFOOD/",
     "instagram": "",
     "website": ""
   },
@@ -13029,7 +13029,7 @@ window.PET_PLACES_DATA = [
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=鑫品味蛋包飯+臺南市新營區延平路49號",
     "facebook": "",
-    "instagram": "",
+    "instagram": "https://www.instagram.com/sundayomeletterice/",
     "website": ""
   },
   {
@@ -13064,8 +13064,8 @@ window.PET_PLACES_DATA = [
     "status": "OPERATIONAL",
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=肥窩咖啡+臺南市中西區臨安路一段212巷26號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/p/%E8%82%A5%E7%AA%A9%E5%92%96%E5%95%A1-100064034921821/",
+    "instagram": "https://www.instagram.com/feiwokapei/",
     "website": ""
   },
   {
@@ -13095,7 +13095,7 @@ window.PET_PLACES_DATA = [
     "status": "OPERATIONAL",
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=露比沙拉輕食+臺南市東區大同路二段61巷16號",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/p/%E9%9C%B2%E6%AF%94%E6%B2%99%E6%8B%89%E8%BC%95%E9%A3%9F%E6%BD%9B%E8%89%87%E5%A0%A1%E6%97%A9%E5%8D%88%E9%A4%90%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5%E7%81%AB%E9%8D%8B%E5%A4%A7%E5%90%8C%E5%BA%97-100063936522423/",
     "instagram": "",
     "website": ""
   },
@@ -13126,7 +13126,7 @@ window.PET_PLACES_DATA = [
     "status": "OPERATIONAL",
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=初食手作廚房+臺南市中西區樹林街二段42號1樓",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/ourkitchen2013/",
     "instagram": "",
     "website": ""
   },
@@ -13157,8 +13157,8 @@ window.PET_PLACES_DATA = [
     "status": "OPERATIONAL",
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=日銘手作壽司+臺南市安平區文平路441號1樓",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/p/%E6%97%A5%E9%8A%98%E9%AE%A8-%E6%9D%BF%E5%89%8D%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%E6%96%99%E7%90%86-100063984665944/",
+    "instagram": "https://www.instagram.com/rimingshouzuoshousi/",
     "website": ""
   },
   {
@@ -13188,8 +13188,8 @@ window.PET_PLACES_DATA = [
     "status": "OPERATIONAL",
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=船長先生餐酒館+臺南市南區體育路5巷6號1樓",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/senorcapitan/",
+    "instagram": "https://www.instagram.com/senorcapitan2019/",
     "website": ""
   },
   {
@@ -13219,8 +13219,8 @@ window.PET_PLACES_DATA = [
     "status": "OPERATIONAL",
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=宥曦商行+臺南市中西區新美街160號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/p/%E8%87%AA%E5%B7%B1%E7%9A%84%E6%88%BF%E9%96%93-%E5%9C%A8%E5%8F%B0%E5%8D%97-100063665299535/",
+    "instagram": "https://www.instagram.com/jojofizz/",
     "website": ""
   },
   {
@@ -13281,7 +13281,7 @@ window.PET_PLACES_DATA = [
     "status": "OPERATIONAL",
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=中正冷飲店+臺南市新化區中正路345號1樓",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/p/%E7%B6%A0%E8%89%B2%E5%82%B3%E5%A5%87%E5%86%B7%E9%A3%B2-100042368006407/",
     "instagram": "",
     "website": ""
   },
@@ -13312,7 +13312,7 @@ window.PET_PLACES_DATA = [
     "status": "OPERATIONAL",
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=湧飯海南雞飯+臺南市北區海安路三段45號",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/wakurice/",
     "instagram": "",
     "website": ""
   },
@@ -13343,8 +13343,8 @@ window.PET_PLACES_DATA = [
     "status": "OPERATIONAL",
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=赤客燒肉店+臺南市北區公園南路385號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/chike788/",
+    "instagram": "https://www.instagram.com/flameker4/",
     "website": ""
   },
   {
@@ -13374,8 +13374,8 @@ window.PET_PLACES_DATA = [
     "status": "OPERATIONAL",
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=麻豆翔美雪花冰城+臺南市麻豆區巷口里1鄰民族路4-3號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/Charmymadou/",
+    "instagram": "https://www.instagram.com/snowicemadou/",
     "website": ""
   },
   {
@@ -13405,7 +13405,7 @@ window.PET_PLACES_DATA = [
     "status": "OPERATIONAL",
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=白色教堂坊+臺南市玉井區層林里層林1-7號",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/onden.house/",
     "instagram": "",
     "website": ""
   },
@@ -13436,8 +13436,8 @@ window.PET_PLACES_DATA = [
     "status": "OPERATIONAL",
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=瑪莎商行+臺南市玉井區沙田里沙田25-66號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/masa.coffee/",
+    "instagram": "https://www.instagram.com/masacafe_065746809/",
     "website": ""
   },
   {
@@ -13467,8 +13467,8 @@ window.PET_PLACES_DATA = [
     "status": "OPERATIONAL",
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=晨翊早餐點+臺南市北區實踐街100巷2號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/GoodmorningCHEN.YI/",
+    "instagram": "https://www.instagram.com/goodmorningmaymay/",
     "website": ""
   },
   {
@@ -13498,7 +13498,7 @@ window.PET_PLACES_DATA = [
     "status": "OPERATIONAL",
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=徠溢隆餐飲店+臺南市麻豆區興中路164-4號",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/61552467308717/",
     "instagram": "",
     "website": ""
   },
@@ -13529,8 +13529,8 @@ window.PET_PLACES_DATA = [
     "status": "OPERATIONAL",
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=徠益隆餐飲店+臺南市善化區光文里中山路229之2號1樓",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/p/%E5%BE%A0%E7%9B%8A%E9%9A%86-%E5%B0%8F%E7%B1%A0%E6%B9%AF%E9%A4%83%E9%BA%BB%E8%B1%86%E5%BA%97-100064020606348/",
+    "instagram": "https://www.instagram.com/foodintainan/",
     "website": ""
   },
   {
@@ -13560,7 +13560,7 @@ window.PET_PLACES_DATA = [
     "status": "OPERATIONAL",
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=打翻泡菜韓式料理+臺南市南區夏林路118號2樓",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/p/%E6%89%93%E7%BF%BB%E6%B3%A1%E8%8F%9C%E3%85%A1%EA%B9%80%EC%B9%98-%EC%97%8E%EC%96%B4-100067025796634/",
     "instagram": "",
     "website": ""
   },
@@ -13591,8 +13591,8 @@ window.PET_PLACES_DATA = [
     "status": "OPERATIONAL",
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=明粥冷飲店+臺南市中西區南門路46之2號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/p/%E6%98%8E%E7%B2%A5%E9%9F%93%E5%BC%8F%E6%96%99%E7%90%86-100063748584315/",
+    "instagram": "https://www.instagram.com/ming_zhou_/",
     "website": ""
   },
   {
@@ -13626,9 +13626,9 @@ window.PET_PLACES_DATA = [
     "status": "OPERATIONAL",
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=私嚐吃飯（新竹寵物友善咖哩旗艦）+新竹市東區中正路96巷16號",
-    "facebook": "",
-    "instagram": "",
-    "website": ""
+    "facebook": "https://www.facebook.com/eat20170319/",
+    "instagram": "https://www.instagram.com/eat20170319/",
+    "website": "https://inline.app/booking/-MhWP4H0itK_8opj_HqO:inline-live-2/-MhWP4RELJxqmZVVfQJ8"
   },
   {
     "id": "hc-gov-2",
@@ -13660,7 +13660,7 @@ window.PET_PLACES_DATA = [
     "status": "OPERATIONAL",
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=私嚐小聚餐飲+新竹市東區大同路43號",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/100069220486836/",
     "instagram": "",
     "website": ""
   },
@@ -13694,8 +13694,8 @@ window.PET_PLACES_DATA = [
     "status": "OPERATIONAL",
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=九慕手烘咖啡專門店+新竹市東區中正路86號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/JiumuCoffeeRoasters/",
+    "instagram": "https://www.instagram.com/jiumu_coffee_roasters/",
     "website": ""
   },
   {
@@ -13728,7 +13728,7 @@ window.PET_PLACES_DATA = [
     "status": "OPERATIONAL",
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=掬熙商行 G-Hee Cafe+新竹市北區美村街20號",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/GC.Brunch/",
     "instagram": "",
     "website": ""
   },
@@ -13762,9 +13762,9 @@ window.PET_PLACES_DATA = [
     "status": "OPERATIONAL",
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=招財咖啡 Zhaocai Cafe+新竹市北區英明街17號",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/successcafe21/",
     "instagram": "",
-    "website": ""
+    "website": "https://inline.app/booking/-Mtzt-ua60-H69xtv-9o:inline-live-2/-Mtzt07e6zaky3nEcqx0"
   },
   {
     "id": "hc-gov-6",
@@ -13796,8 +13796,8 @@ window.PET_PLACES_DATA = [
     "status": "OPERATIONAL",
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=花喵吐司 Brunch+新竹市東區建中一路27號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/%E8%8A%B1%E5%96%B5%E5%90%90%E5%8F%B8-119045921153919/",
+    "instagram": "https://www.instagram.com/cactus_brunch/",
     "website": ""
   },
   {
@@ -13830,8 +13830,8 @@ window.PET_PLACES_DATA = [
     "status": "OPERATIONAL",
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=食。光機 Food Machine+桃園市中壢區莊敬路811巷1號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/likefoodmachine/",
+    "instagram": "https://www.instagram.com/ilovefoodmachine/",
     "website": ""
   },
   {
@@ -13864,8 +13864,8 @@ window.PET_PLACES_DATA = [
     "status": "OPERATIONAL",
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=香草蛋糕舖（藝文總店）+桃園市桃園區民族路193號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/vanilla193/",
+    "instagram": "https://www.instagram.com/vanilla.pastry.house.tw/",
     "website": ""
   },
   {
@@ -13898,8 +13898,8 @@ window.PET_PLACES_DATA = [
     "status": "OPERATIONAL",
     "highlight": true,
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=三號咖啡 No.3 Cafe（草皮跑跑）+桃園市新屋區三民路一段251號",
-    "facebook": "",
-    "instagram": "",
+    "facebook": "https://www.facebook.com/no3kafe/",
+    "instagram": "https://www.instagram.com/no.3_cafe_/",
     "website": ""
   }
 ];

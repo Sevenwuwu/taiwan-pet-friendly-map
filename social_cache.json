@@ -1,0 +1,2970 @@
+{
+  "tc-1": {
+    "name": "255 LAB café",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/255lab/",
+    "instagram": "https://www.instagram.com/_255lab/",
+    "website": ""
+  },
+  "tc-2": {
+    "name": "3Four 水某人文茶館",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/3Fourtea/",
+    "instagram": "https://www.instagram.com/3fourtea/",
+    "website": ""
+  },
+  "tc-3": {
+    "name": "501休閒輕食館-鳳凰飛鏢旗艦32店",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/Darts32/",
+    "instagram": "",
+    "website": ""
+  },
+  "tc-4": {
+    "name": "Bullet Burger",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/bullettruck/",
+    "instagram": "https://www.instagram.com/bullet_burger_shop/",
+    "website": ""
+  },
+  "tc-5": {
+    "name": "Campaholic 露營家",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/Campaholic/",
+    "instagram": "https://www.instagram.com/campaholic.tc/",
+    "website": "https://www.campaholic.net/"
+  },
+  "tc-6": {
+    "name": "Cuppa VV Cafe",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/p/Cuppa-VV-Cafe-100063919548114/",
+    "instagram": "https://www.instagram.com/cuppa.vv/",
+    "website": ""
+  },
+  "tc-7": {
+    "name": "Eartha燒肉餐酒館",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/Eartha%25E7%2587%2592%25E8%2582%2589%25E9%25A4%2590%25E9%2585%2592%25E9%25A4%25A8-109048954613404/",
+    "instagram": "",
+    "website": ""
+  },
+  "tc-9": {
+    "name": "Gray House灰房子義式餐廳",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/grayhouse.30/",
+    "instagram": "",
+    "website": ""
+  },
+  "tc-10": {
+    "name": "Gyusya 牛舎炭火漢堡排專門店",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/gyusya2018/",
+    "instagram": "https://www.instagram.com/gyusya_official/",
+    "website": ""
+  },
+  "tc-14": {
+    "name": "In Outdoor臥野",
+    "city": "臺中市",
+    "facebook": "",
+    "instagram": "https://www.instagram.com/inoutdoor.taiwan/",
+    "website": ""
+  },
+  "tc-16": {
+    "name": "MAGiC TOUCH点爭鮮勤美店",
+    "city": "臺中市",
+    "facebook": "",
+    "instagram": "",
+    "website": ""
+  },
+  "tc-17": {
+    "name": "Mh juicery&cafe",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/mhjuicerycafe/",
+    "instagram": "https://www.instagram.com/mh_juicerycafe/",
+    "website": ""
+  },
+  "tc-18": {
+    "name": "Momori Café & Bar",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/100090168547856/",
+    "instagram": "https://www.instagram.com/momori.space/",
+    "website": ""
+  },
+  "tc-19": {
+    "name": "Mr.Mantter 曼特先生",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/mrmantter/",
+    "instagram": "https://www.instagram.com/mrmantter/",
+    "website": "https://www.mrmantter.com/"
+  },
+  "tc-20": {
+    "name": "NO.19 Restaurant",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/p/No19-Restaurant-100063792341090/",
+    "instagram": "https://www.instagram.com/no.19_restaurant/",
+    "website": ""
+  },
+  "tc-21": {
+    "name": "NanBoo 南部人製菓",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/p/Nanboo%E5%8D%97%E9%83%A8%E4%BA%BA-61581853867392/",
+    "instagram": "",
+    "website": ""
+  },
+  "tc-22": {
+    "name": "PANO 24",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/p/PANO-24-61556019065534/",
+    "instagram": "https://www.instagram.com/pano24_bar/",
+    "website": ""
+  },
+  "tc-25": {
+    "name": "Roundabout Cafe 圓環咖啡．大和店",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/roundaboutcoffee/",
+    "instagram": "https://www.instagram.com/roundaboutcoffee/",
+    "website": ""
+  },
+  "tc-26": {
+    "name": "Roundabout Cafe 圓環咖啡．梅川店",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/roundaboutcoffee/",
+    "instagram": "https://www.instagram.com/roundaboutcoffee/",
+    "website": ""
+  },
+  "tc-27": {
+    "name": "Tamp Temper",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/TampTemperTaichungCoffee/",
+    "instagram": "https://www.instagram.com/tamptempercoffee/",
+    "website": ""
+  },
+  "tc-28": {
+    "name": "UZO",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/uzobarandgrill/",
+    "instagram": "https://www.instagram.com/uzobar_grill/",
+    "website": "https://inline.app/booking/-OfxOlB7-ysx3e_3Y1sF:inline-live-3/-OfxOlGvVcPVHU9_RseF"
+  },
+  "tc-29": {
+    "name": "Uni café 與你咖啡",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/unicafe0408/",
+    "instagram": "https://www.instagram.com/uni_cafe__/",
+    "website": ""
+  },
+  "tc-34": {
+    "name": "井閣鍋物",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/chingko.tc/",
+    "instagram": "https://www.instagram.com/chingko.tc/",
+    "website": ""
+  },
+  "tc-36": {
+    "name": "仁將咖啡館",
+    "city": "臺中市",
+    "facebook": "",
+    "instagram": "https://www.instagram.com/caffeterry61/",
+    "website": ""
+  },
+  "tc-37": {
+    "name": "倫家Café",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/lunahousecafe/",
+    "instagram": "https://www.instagram.com/lunshousecafe_meow/",
+    "website": ""
+  },
+  "tc-39": {
+    "name": "凡日bread & meal",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/fundaybreadnmeal/",
+    "instagram": "https://www.instagram.com/fundaybreadnmeal/",
+    "website": ""
+  },
+  "tc-40": {
+    "name": "函館和風火鍋店",
+    "city": "臺中市",
+    "facebook": "",
+    "instagram": "",
+    "website": ""
+  },
+  "tc-43": {
+    "name": "北緯二十四 Latitude 24",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/LMLatitude24/",
+    "instagram": "",
+    "website": ""
+  },
+  "tc-45": {
+    "name": "千汌日本料理",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/%E5%8D%83%E6%B1%8C-107231151697000/",
+    "instagram": "https://www.instagram.com/chien.chuan_1018/",
+    "website": "https://inline.app/booking/-MkCO029K9XtQtz5fulv:inline-live-2/-MkCO0l4c0nBe_DD4jMw"
+  },
+  "tc-46": {
+    "name": "古典小熊屋",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/p/%E5%B0%8F%E7%86%8A%E5%B1%8B-bear-house%E4%B8%AD%E5%8F%8B%E5%BA%97-100069284564541/",
+    "instagram": "",
+    "website": ""
+  },
+  "tc-50": {
+    "name": "合作咖啡商行",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/cooperationcoffee/",
+    "instagram": "https://www.instagram.com/cooperation.coffee/",
+    "website": ""
+  },
+  "tc-52": {
+    "name": "咕咕morning早午餐",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/%E5%92%95%E5%92%95morning%E6%97%A9%E5%8D%88%E9%A4%90-1468475223463074/",
+    "instagram": "",
+    "website": ""
+  },
+  "tc-53": {
+    "name": "咖啡罵哥",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/cafemuug/",
+    "instagram": "https://www.instagram.com/cafemuug/",
+    "website": ""
+  },
+  "tc-54": {
+    "name": "咖啡葉烘焙坊",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/coffeeyeh116/",
+    "instagram": "https://www.instagram.com/lumkafe/",
+    "website": ""
+  },
+  "tc-55": {
+    "name": "咖萃咖啡廚房 台中西屯寵物友善餐廳",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/cafeconleche23231668.tw/",
+    "instagram": "",
+    "website": ""
+  },
+  "tc-58": {
+    "name": "在來飲食店",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/yolailairestaurant/",
+    "instagram": "https://www.instagram.com/foodtaichung_teddy/",
+    "website": ""
+  },
+  "tc-59": {
+    "name": "地芋添糖&包心粉圓專賣",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/heavenlysweet2015/",
+    "instagram": "https://www.instagram.com/heavenlysweet2015/",
+    "website": ""
+  },
+  "tc-61": {
+    "name": "大花朵朵主題餐廳-學士店",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/BurstWithJoyRestaurant/",
+    "instagram": "",
+    "website": ""
+  },
+  "tc-64": {
+    "name": "好果實商行",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/goodfruit.com.tw/",
+    "instagram": "https://www.instagram.com/fruit.good.31/",
+    "website": ""
+  },
+  "tc-74": {
+    "name": "孔雀咖啡",
+    "city": "臺中市",
+    "facebook": "",
+    "instagram": "",
+    "website": ""
+  },
+  "tc-75": {
+    "name": "安妮公主花園餐廳",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/annies0425931567/",
+    "instagram": "https://www.instagram.com/annie0425931567/",
+    "website": ""
+  },
+  "tc-76": {
+    "name": "安妮廚房",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/profile.php/",
+    "instagram": "https://www.instagram.com/annie_24860787/",
+    "website": ""
+  },
+  "tc-77": {
+    "name": "容燒居酒屋－北屯二店",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/Rongshao0605/",
+    "instagram": "https://www.instagram.com/rongshao0605/",
+    "website": "https://inline.app/booking/-NxS67B5FpV5WewSbVYJ:inline-live-3"
+  },
+  "tc-78": {
+    "name": "容燒居酒屋－南屯文心總店",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/Rongshao0605/",
+    "instagram": "https://www.instagram.com/rongshao0605/",
+    "website": "https://inline.app/booking/-NxS67B5FpV5WewSbVYJ:inline-live-3"
+  },
+  "tc-80": {
+    "name": "小王子的花園餐廳",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/YesWeCanYesVegan/",
+    "instagram": "",
+    "website": ""
+  },
+  "tc-81": {
+    "name": "尚品港式甜湯",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/p/%E5%B0%9A%E5%93%81%E6%B8%AF%E5%BC%8F%E7%94%9C%E6%B9%AF-100057241038760/",
+    "instagram": "",
+    "website": ""
+  },
+  "tc-82": {
+    "name": "屋七咖啡所",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/uji.cafe.2022/",
+    "instagram": "https://www.instagram.com/ujicafe.2022/",
+    "website": ""
+  },
+  "tc-84": {
+    "name": "幸福好食咖啡Homecafe",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/homecafe58/",
+    "instagram": "https://www.instagram.com/homecafe.tw/",
+    "website": ""
+  },
+  "tc-85": {
+    "name": "庫克美式燒烤Bar",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/cookbbq/",
+    "instagram": "https://www.instagram.com/new_cookbar/",
+    "website": ""
+  },
+  "tc-89": {
+    "name": "拉亞漢堡台中美村店",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/layaburger2002/",
+    "instagram": "https://www.instagram.com/layaburger/",
+    "website": ""
+  },
+  "tc-90": {
+    "name": "攜旺cafe台中寵物友善餐廳＆浪浪中途學校",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/hopecafe2016/",
+    "instagram": "https://www.instagram.com/hopecafe2016/",
+    "website": ""
+  },
+  "tc-91": {
+    "name": "斐比樂斯咖啡甜點",
+    "city": "臺中市",
+    "facebook": "",
+    "instagram": "",
+    "website": ""
+  },
+  "tc-92": {
+    "name": "方吐司早餐",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/%E6%96%B9%E5%90%90%E5%8F%B8%E6%97%A9%E9%A4%90%E5%BA%97-291442201759830/",
+    "instagram": "",
+    "website": ""
+  },
+  "tc-93": {
+    "name": "方正谷眷村味",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/FJGMTR/",
+    "instagram": "https://www.instagram.com/fangzhenggu_mtr/",
+    "website": ""
+  },
+  "tc-94": {
+    "name": "日安87-9 Good Day",
+    "city": "臺中市",
+    "facebook": "",
+    "instagram": "https://www.instagram.com/goodday87_9_restaurant/",
+    "website": ""
+  },
+  "tc-98": {
+    "name": "望高莊園",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/%E6%9C%9B%E9%AB%98%E8%8E%8A%E5%9C%92-122022241215041/",
+    "instagram": "https://www.instagram.com/viewtaichung/",
+    "website": ""
+  },
+  "tc-99": {
+    "name": "森林小徑-文心店",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/forestpath.cafe3/",
+    "instagram": "",
+    "website": ""
+  },
+  "tc-100": {
+    "name": "森林小徑-大墩店（親子寵物友善餐廳）",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/forestpath.cafe3/",
+    "instagram": "",
+    "website": ""
+  },
+  "tc-101": {
+    "name": "森歐美食坊",
+    "city": "臺中市",
+    "facebook": "",
+    "instagram": "https://www.instagram.com/mori.ou_risotto.pasta/",
+    "website": ""
+  },
+  "tc-102": {
+    "name": "森沐 Sun Moon",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/story.php/",
+    "instagram": "https://www.instagram.com/msm_brunch/",
+    "website": ""
+  },
+  "tc-103": {
+    "name": "樂湜cafe早午餐手作料理",
+    "city": "臺中市",
+    "facebook": "",
+    "instagram": "",
+    "website": ""
+  },
+  "tc-104": {
+    "name": "模範貝果",
+    "city": "臺中市",
+    "facebook": "",
+    "instagram": "https://www.instagram.com/mofanbagels/",
+    "website": ""
+  },
+  "tc-105": {
+    "name": "橘光呼嚕ｘ背包Cat咖啡館",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/orangecatcoffee/",
+    "instagram": "https://www.instagram.com/rucksack.cat.cafe/",
+    "website": ""
+  },
+  "tc-106": {
+    "name": "此木二水",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/shibakori929/",
+    "instagram": "https://www.instagram.com/shiba.kori/",
+    "website": ""
+  },
+  "tc-108": {
+    "name": "沐心泉休閒農場",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/springmountain0425931201/",
+    "instagram": "",
+    "website": ""
+  },
+  "tc-109": {
+    "name": "洄流餐食",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/p/%25E6%25B4%2584%25E6%25B5%2581Stream%25E9%25A4%2590%25E9%25A3%259F-100083359531558/",
+    "instagram": "https://www.instagram.com/huiliu_2022/",
+    "website": ""
+  },
+  "tc-111": {
+    "name": "浪浪別哭",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/langlangdontcry/",
+    "instagram": "https://www.instagram.com/langlangdontcry/",
+    "website": ""
+  },
+  "tc-115": {
+    "name": "淳垚鍋物",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/p/%E6%B7%B3%E5%9E%9A%E9%8D%8B%E7%89%A9-61577390652704/",
+    "instagram": "",
+    "website": ""
+  },
+  "tc-116": {
+    "name": "溫久熬老火鍋館",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/p/%E6%BA%AB%E4%B9%85%E7%86%AC%E8%80%81%E7%81%AB%E9%8D%8B%E9%A4%A8-61572638496796/",
+    "instagram": "https://www.instagram.com/van.joao2025/",
+    "website": "https://inline.app/booking/-OIDrEFSFA54s--LlB9P:inline-live-3/-OIDrE_pTYjdtHjB6uKK"
+  },
+  "tc-117": {
+    "name": "無理 WULI",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/Wulihotpot/",
+    "instagram": "https://www.instagram.com/wuli_hotpot/",
+    "website": "https://inline.app/booking/-Lz7i2wHZgR1qshhhw0i:inline-live-1/-Lz7i3-QqQBojLQqICHj"
+  },
+  "tc-121": {
+    "name": "玩具車庫咖啡店",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/ToysGarageCafe/",
+    "instagram": "https://www.instagram.com/toysgarage.cafe/",
+    "website": ""
+  },
+  "tc-122": {
+    "name": "甜罄工作坊",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/permalink.php/",
+    "instagram": "https://www.instagram.com/tianching_dessert/",
+    "website": ""
+  },
+  "tc-123": {
+    "name": "用上自然膳食堂",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/USENATURE2022/",
+    "instagram": "https://www.instagram.com/use_nature2022/",
+    "website": ""
+  },
+  "tc-124": {
+    "name": "米克C房 C+Kitchen 港式私房料理",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/mixckitchen/",
+    "instagram": "https://www.instagram.com/mix_c_kitchen/",
+    "website": ""
+  },
+  "tc-126": {
+    "name": "紙箱王創意園區",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/CartonKing.FB/",
+    "instagram": "https://www.instagram.com/cartonking.tw/",
+    "website": ""
+  },
+  "tc-138": {
+    "name": "肉肉燒肉五權店",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/nikuniku0120.com.tw/",
+    "instagram": "",
+    "website": ""
+  },
+  "tc-139": {
+    "name": "肉肉燒肉朝馬店",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/nikuniku2311.com.tw/",
+    "instagram": "",
+    "website": ""
+  },
+  "tc-140": {
+    "name": "背包客饞",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/profile.php/",
+    "instagram": "https://www.instagram.com/backpackermeal/",
+    "website": ""
+  },
+  "tc-145": {
+    "name": "茶馬司訪山茶店: TEAMARS",
+    "city": "臺中市",
+    "facebook": "",
+    "instagram": "",
+    "website": ""
+  },
+  "tc-146": {
+    "name": "莫尼早餐北屯和順店",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/Morni.TC.HeShun/",
+    "instagram": "https://www.instagram.com/morni_breakfast.tcheshun/",
+    "website": ""
+  },
+  "tc-147": {
+    "name": "薰衣草森林",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/lavenderforest.tw/",
+    "instagram": "https://www.instagram.com/lavenderforest.tw/",
+    "website": ""
+  },
+  "tc-148": {
+    "name": "製餃研所",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/dmplab/",
+    "instagram": "",
+    "website": ""
+  },
+  "tc-149": {
+    "name": "貓老闆",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/Cat.Boss.coffee/",
+    "instagram": "https://www.instagram.com/catboss0424851983/",
+    "website": ""
+  },
+  "tc-150": {
+    "name": "貓起來吃",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/catice522/",
+    "instagram": "https://www.instagram.com/cat_ice522/",
+    "website": ""
+  },
+  "tc-151": {
+    "name": "貓邸老咖（狐獴貓咪主題餐廳）",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/catnestcoffee/",
+    "instagram": "https://www.instagram.com/cat_nest_coffee/",
+    "website": ""
+  },
+  "tc-152": {
+    "name": "逗戶雞蛋糕",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/p/%E9%80%97%E6%88%B6%E9%9B%9E%E8%9B%8B%E7%B3%95-100071878446489/",
+    "instagram": "https://www.instagram.com/doghooood/",
+    "website": ""
+  },
+  "tc-154": {
+    "name": "野沐私房菜",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/p/%E9%87%8E%E6%B2%90%E7%A7%81%E6%88%BF%E6%96%99%E7%90%86-%E5%AF%B5%E7%89%A9%E5%8F%8B%E5%96%84%E9%A4%90%E5%BB%B3-100089339634877/",
+    "instagram": "https://www.instagram.com/yemu_2023/",
+    "website": ""
+  },
+  "tc-155": {
+    "name": "野菜共和國",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/veggiewonderland/",
+    "instagram": "",
+    "website": ""
+  },
+  "tc-159": {
+    "name": "阿利珈多咖啡館",
+    "city": "臺中市",
+    "facebook": "",
+    "instagram": "https://www.instagram.com/arigato_coffee9814/",
+    "website": ""
+  },
+  "tc-160": {
+    "name": "阿義鳳梨冰-梧棲店",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/1995AYI/",
+    "instagram": "https://www.instagram.com/1955ayi_sfcl/",
+    "website": ""
+  },
+  "tc-161": {
+    "name": "阿金食堂",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/108257564170163/",
+    "instagram": "",
+    "website": ""
+  },
+  "tc-163": {
+    "name": "順咖啡",
+    "city": "臺中市",
+    "facebook": "",
+    "instagram": "https://www.instagram.com/soon.cafe/",
+    "website": ""
+  },
+  "tc-164": {
+    "name": "飪室咖哩-公正店",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/Renshicurry/",
+    "instagram": "https://www.instagram.com/renshicurry/",
+    "website": "https://inline.app/booking/-Lz7lGxil_kOpCjZ4e2A:inline-live-1/-Lz7lH0qWzlmTuxWBPUD"
+  },
+  "tc-165": {
+    "name": "飪室咖哩-勤美店",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/Renshicurry/",
+    "instagram": "https://www.instagram.com/renshicurry/",
+    "website": "https://inline.app/booking/-Lz7lGxil_kOpCjZ4e2A:inline-live-1/-Lz7lH0qWzlmTuxWBPUD"
+  },
+  "tc-167": {
+    "name": "養鍋中科店",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/yangguo95/",
+    "instagram": "",
+    "website": ""
+  },
+  "tc-168": {
+    "name": "養鍋南屯黎明店",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/yangguo309/",
+    "instagram": "",
+    "website": ""
+  },
+  "tc-169": {
+    "name": "養鍋大里店",
+    "city": "臺中市",
+    "facebook": "",
+    "instagram": "",
+    "website": ""
+  },
+  "tc-170": {
+    "name": "養鍋大雅店",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/yangguo271/",
+    "instagram": "",
+    "website": ""
+  },
+  "tc-171": {
+    "name": "養鍋忠孝夜市店",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/yangguo208/",
+    "instagram": "",
+    "website": ""
+  },
+  "tc-172": {
+    "name": "養鍋文心店",
+    "city": "臺中市",
+    "facebook": "",
+    "instagram": "https://www.instagram.com/theguowenxin/",
+    "website": ""
+  },
+  "tc-173": {
+    "name": "養鍋水湳經貿店",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/yangguo1611/",
+    "instagram": "",
+    "website": ""
+  },
+  "tc-185": {
+    "name": "黑虎的肉肉食堂",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/hiyakiniku2/",
+    "instagram": "https://www.instagram.com/heihurourou1229/",
+    "website": ""
+  },
+  "tc-186": {
+    "name": "𝐇𝐎𝐖𝐖𝐎𝐖 ᵕ̈ 好喔",
+    "city": "臺中市",
+    "facebook": "https://www.facebook.com/howwowlife/",
+    "instagram": "https://www.instagram.com/howwow2020/",
+    "website": ""
+  },
+  "tpe-1": {
+    "name": "Well Done Space",
+    "city": "臺北市",
+    "facebook": "",
+    "instagram": "https://www.instagram.com/welldone_welldone_space/",
+    "website": ""
+  },
+  "tpe-2": {
+    "name": "BaganHood 蔬食餐酒館-市政府站",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/BaganHood/",
+    "instagram": "https://www.instagram.com/baganhood/",
+    "website": ""
+  },
+  "tpe-3": {
+    "name": "月光賞茶故事館",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/p/%E6%9C%88%E5%85%89%E8%B3%9E%E8%8C%B6%E6%95%85%E4%BA%8B%E9%A4%A8-100054461829235/",
+    "instagram": "https://www.instagram.com/isekaicafe_ungetsu/",
+    "website": ""
+  },
+  "tpe-4": {
+    "name": "阿義師的大茶壺茶餐廳",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/p/%E8%B2%93%E7%A9%BA%E9%98%BF%E7%BE%A9%E5%B8%AB%E7%9A%84%E5%A4%A7%E8%8C%B6%E5%A3%BA%E8%8C%B6%E9%A4%90%E5%BB%B3-100064171235460/",
+    "instagram": "",
+    "website": ""
+  },
+  "tpe-5": {
+    "name": "貓空閒咖啡",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/p/%E8%B2%93%E7%A9%BA%E9%96%92-cats-cafe-100063606447127/",
+    "instagram": "https://www.instagram.com/catscafe2003/",
+    "website": ""
+  },
+  "tpe-6": {
+    "name": "貓空清泉廣場",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/QingquanSquare/",
+    "instagram": "https://www.instagram.com/maokongqingquansquare/",
+    "website": ""
+  },
+  "tpe-7": {
+    "name": "Purrson 呼嚕小酒館",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/purrsonbistro/",
+    "instagram": "https://www.instagram.com/purrson_bistro/",
+    "website": "https://inline.app/booking/-OVLuBfnmiYYKJTrsuvs:inline-live-3/-OVLuBnbrr2xgr4lUIbs"
+  },
+  "tpe-8": {
+    "name": "正大休閒茶園",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/707135276081775/",
+    "instagram": "https://www.instagram.com/jheng_da_official/",
+    "website": ""
+  },
+  "tpe-9": {
+    "name": "貓空雙橡園茶坊",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/ShuangHsiangYuan/",
+    "instagram": "https://www.instagram.com/s.s.yuan_tea/",
+    "website": ""
+  },
+  "tpe-10": {
+    "name": "心丰御膳日式料理",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/Sifong.Healthy.Yummy/",
+    "instagram": "https://www.instagram.com/xin_feng_qb/",
+    "website": ""
+  },
+  "tpe-12": {
+    "name": "Verona創義廚房",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/veronafood/",
+    "instagram": "https://www.instagram.com/veronataipei/",
+    "website": ""
+  },
+  "tpe-13": {
+    "name": "吐司股長",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/toastchief/",
+    "instagram": "https://www.instagram.com/toast_chief/",
+    "website": ""
+  },
+  "tpe-14": {
+    "name": "加爾第咖啡 莊敬店",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/KaldiCoffee1989JJ/",
+    "instagram": "",
+    "website": ""
+  },
+  "tpe-15": {
+    "name": "加爾第咖啡 吳興店",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/WXLane600/",
+    "instagram": "",
+    "website": ""
+  },
+  "tpe-16": {
+    "name": "MJ's Pizza Bar 瑪莉珍披薩-信義店",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/maryjanepizza2004/",
+    "instagram": "",
+    "website": "https://www.maryjanepizza.com/"
+  },
+  "tpe-17": {
+    "name": "曰曰cafe",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/loosedaycafe/",
+    "instagram": "https://www.instagram.com/the.poet.taipei/",
+    "website": ""
+  },
+  "tpe-18": {
+    "name": "午后,日光drink&food",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/%E5%8D%88%E5%90%8E-%E6%97%A5%E5%85%89drink-Food-279940725476333/",
+    "instagram": "",
+    "website": ""
+  },
+  "tpe-19": {
+    "name": "June Burger 啾漢堡店",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/juneburger82/",
+    "instagram": "https://www.instagram.com/juneburger2020/",
+    "website": ""
+  },
+  "tpe-20": {
+    "name": "阿公的汪喵厝-寵物友善餐廳",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/wolfmeowhouse/",
+    "instagram": "https://www.instagram.com/wolfmeowhouse/",
+    "website": ""
+  },
+  "tpe-21": {
+    "name": "胖老爹美式炸雞(台北松山店)",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/100054495997829/",
+    "instagram": "https://www.instagram.com/fat_daddy_no.1/",
+    "website": ""
+  },
+  "tpe-22": {
+    "name": "榕 RON Xinyi",
+    "city": "臺北市",
+    "facebook": "",
+    "instagram": "https://www.instagram.com/ronxinyi/",
+    "website": ""
+  },
+  "tpe-23": {
+    "name": "小春日和 動物雜貨‧珈琲",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/SpringDayPetShopCafe/",
+    "instagram": "https://www.instagram.com/springday_petcafe/",
+    "website": ""
+  },
+  "tpe-24": {
+    "name": "嶼人Café-松山必喝咖啡|打卡咖啡|手作甜點|必吃甜點|人氣料理|蔬食咖啡廳",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/p/%E5%B6%BC%E4%BA%BACaf%C3%A9-100063628946963/",
+    "instagram": "https://www.instagram.com/about_islander/",
+    "website": ""
+  },
+  "tpe-25": {
+    "name": "角落酒吧The Corner One",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/MusicCorner.tw/",
+    "instagram": "https://www.instagram.com/the_corner_one_bar/",
+    "website": ""
+  },
+  "tpe-26": {
+    "name": "四目咖啡寵物美學",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/FourEyesPetShopCafe/",
+    "instagram": "https://www.instagram.com/yotsumecafe/",
+    "website": ""
+  },
+  "tpe-27": {
+    "name": "Style Steak 世代歐陸牛排西餐廳",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/stylesteak/",
+    "instagram": "",
+    "website": ""
+  },
+  "tpe-28": {
+    "name": "大烹小饌/胖子八德/台菜/熱炒/聚餐",
+    "city": "臺北市",
+    "facebook": "",
+    "instagram": "",
+    "website": ""
+  },
+  "tpe-29": {
+    "name": "獺空間 Aotter Space",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/aotter.space/",
+    "instagram": "",
+    "website": "https://space.aotter.net/"
+  },
+  "tpe-30": {
+    "name": "金屋藏車食堂",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/PSBUBU/",
+    "instagram": "https://www.instagram.com/psbubu_dogcatrestaurant/",
+    "website": ""
+  },
+  "tpe-31": {
+    "name": "BRICK YARD 33 1",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/BY33TeenClub/",
+    "instagram": "https://www.instagram.com/brickyardby33/",
+    "website": ""
+  },
+  "tpe-32": {
+    "name": "AN58西班牙創意料理",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/an58tapas/",
+    "instagram": "https://www.instagram.com/an58tapas/",
+    "website": "https://www.an58.com.tw/"
+  },
+  "tpe-33": {
+    "name": "森林派對咖啡館",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/1949505941752577/",
+    "instagram": "",
+    "website": ""
+  },
+  "tpe-34": {
+    "name": "茶咖",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/teacoffee133/",
+    "instagram": "https://www.instagram.com/tezaoka/",
+    "website": ""
+  },
+  "tpe-35": {
+    "name": "璦的小廚 Ann's Kitchen",
+    "city": "臺北市",
+    "facebook": "",
+    "instagram": "https://www.instagram.com/annskitchen.tw/",
+    "website": ""
+  },
+  "tpe-36": {
+    "name": "貳樓餐廳Second Floor Cafe 師大店",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/2floorshida/",
+    "instagram": "https://www.instagram.com/secondfloorcafe/",
+    "website": "https://www.secondfloorcafe.com/"
+  },
+  "tpe-37": {
+    "name": "貳樓餐廳Second Floor Cafe",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/p/Second-Floor-Cafe-%E8%B2%B3%E6%A8%93%E9%A4%90%E9%A3%B2-100057517845151/",
+    "instagram": "https://www.instagram.com/secondfloorcafe/",
+    "website": "https://www.secondfloorcafe.com/"
+  },
+  "tpe-38": {
+    "name": "吐司利亞TOASTERiA Cafe-永康店",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/toasteriacafe/",
+    "instagram": "https://www.instagram.com/toasteriacafe/",
+    "website": "https://www.toasteriacafe.com/"
+  },
+  "tpe-39": {
+    "name": "吐司利亞TOASTERiA Cafe-三號敦南店",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/toasteriacafe/",
+    "instagram": "https://www.instagram.com/toasteriacafe/",
+    "website": "https://www.toasteriacafe.com/"
+  },
+  "tpe-40": {
+    "name": "yoh曜日義式餐酒館",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/yoh.taipei/",
+    "instagram": "https://www.instagram.com/yoh_taipei/",
+    "website": ""
+  },
+  "tpe-41": {
+    "name": "MissGreen",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/missgreenlocaltw/",
+    "instagram": "https://www.instagram.com/missgreentpe/",
+    "website": ""
+  },
+  "tpe-42": {
+    "name": "TakeOut Burger&Cafe 通化店",
+    "city": "臺北市",
+    "facebook": "",
+    "instagram": "https://www.instagram.com/take_out_burger/",
+    "website": "https://takeoutburger.tw/"
+  },
+  "tpe-43": {
+    "name": "餵我早餐 The Whale",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/TheWhaleDaan/",
+    "instagram": "https://www.instagram.com/thewhalebreakfast/",
+    "website": ""
+  },
+  "tpe-44": {
+    "name": "Woodid 우리手作韓食",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/woodidwoodid/",
+    "instagram": "https://www.instagram.com/woodidwoodid/",
+    "website": ""
+  },
+  "tpe-45": {
+    "name": "Maryjane Pizza 瑪莉珍比薩 台大店",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/maryjanepizza2004/",
+    "instagram": "",
+    "website": ""
+  },
+  "tpe-46": {
+    "name": "Maryjane Pizza 瑪莉珍比薩 師大店",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/maryjanepizza2004/",
+    "instagram": "",
+    "website": ""
+  },
+  "tpe-47": {
+    "name": "Ooh Cha Cha 自然食科技大樓 & Hooch",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/OohChaCha/",
+    "instagram": "https://www.instagram.com/oohchacha/",
+    "website": ""
+  },
+  "tpe-48": {
+    "name": "PORCO 咖啡、舊物、寵物行為教室",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/Porcoalmighty/",
+    "instagram": "",
+    "website": ""
+  },
+  "tpe-49": {
+    "name": "Plants",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/plantseatery/",
+    "instagram": "https://www.instagram.com/plantseatery/",
+    "website": "https://www.plantseatery.com.tw/"
+  },
+  "tpe-50": {
+    "name": "來吧Cafe'",
+    "city": "臺北市",
+    "facebook": "",
+    "instagram": "https://www.instagram.com/lightbarcafe/",
+    "website": ""
+  },
+  "tpe-51": {
+    "name": "Mianto 艾果豐",
+    "city": "臺北市",
+    "facebook": "",
+    "instagram": "https://www.instagram.com/mianto.tw/",
+    "website": "https://mianto.com.tw/"
+  },
+  "tpe-52": {
+    "name": "光一肆號",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/guangyino4/",
+    "instagram": "https://www.instagram.com/guangyicafe/",
+    "website": "https://inline.app/booking/-MSQhrebYRcJaztDqr2w:inline-live-2"
+  },
+  "tpe-53": {
+    "name": "NoName無名咖哩 台大店",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/NoNameCurry/",
+    "instagram": "https://www.instagram.com/noname68_2/",
+    "website": "https://nonamecurryntu.oddle.me/"
+  },
+  "tpe-54": {
+    "name": "璞豆咖啡.日常",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/Dripurecafe/",
+    "instagram": "https://www.instagram.com/dripure_cafe/",
+    "website": ""
+  },
+  "tpe-55": {
+    "name": "慢步調 咖啡館",
+    "city": "臺北市",
+    "facebook": "",
+    "instagram": "https://www.instagram.com/slowpacecafe/",
+    "website": ""
+  },
+  "tpe-56": {
+    "name": "冰淇淋機場",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/icairporticairport/",
+    "instagram": "https://www.instagram.com/ic_airport/",
+    "website": ""
+  },
+  "tpe-57": {
+    "name": "dee 好得生活 / 餐酒館",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/%40dee.taiwan/",
+    "instagram": "",
+    "website": ""
+  },
+  "tpe-58": {
+    "name": "Loving Hut 愛家國際餐飲 台北 和平店",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/p/Loving-Hut-%E6%84%9B%E5%AE%B6-%E5%92%8C%E5%B9%B3%E5%BA%97-100063811611973/",
+    "instagram": "",
+    "website": "https://lovinghut.com/"
+  },
+  "tpe-59": {
+    "name": "兜味咖啡",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/shoppingradardoorway/",
+    "instagram": "",
+    "website": ""
+  },
+  "tpe-60": {
+    "name": "Her Rose 玫瑰系甜點專賣店",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/HERROSE.TW/",
+    "instagram": "https://www.instagram.com/herrose.tw/",
+    "website": ""
+  },
+  "tpe-61": {
+    "name": "21工房手工酵素涼麵",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/homemadestylefreshnoodles/",
+    "instagram": "",
+    "website": ""
+  },
+  "tpe-62": {
+    "name": "A.K.12 美式小館",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/2015ak12/",
+    "instagram": "",
+    "website": ""
+  },
+  "tpe-63": {
+    "name": "台北城人文茶館",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/100064089481261/",
+    "instagram": "",
+    "website": ""
+  },
+  "tpe-64": {
+    "name": "Flux(富樂市)",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/fluxhairboutique/",
+    "instagram": "https://www.instagram.com/fluxtaipei/",
+    "website": ""
+  },
+  "tpe-65": {
+    "name": "金輪轉甜水堂",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/jiij12345678/",
+    "instagram": "https://www.instagram.com/jiij12345678/",
+    "website": ""
+  },
+  "tpe-66": {
+    "name": "本願豆花店 Origin Tofu Pudding",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/Origintofupudding/",
+    "instagram": "https://www.instagram.com/origin_tofu_pudding/",
+    "website": ""
+  },
+  "tpe-67": {
+    "name": "兩喜號 Liang Xi Hao - 總店",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/liangxihao/",
+    "instagram": "https://www.instagram.com/liangxihao1921/",
+    "website": ""
+  },
+  "tpe-68": {
+    "name": "兩喜號 Liang Xi Hao - 西園店",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/liangxihao/",
+    "instagram": "https://www.instagram.com/liangxihao1921/",
+    "website": ""
+  },
+  "tpe-69": {
+    "name": "小王煮瓜",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/wangs.broth/",
+    "instagram": "https://www.instagram.com/wangs_broth/",
+    "website": ""
+  },
+  "tpe-70": {
+    "name": "THE garden",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/thegardentw/",
+    "instagram": "https://www.instagram.com/thegardenofficials/",
+    "website": ""
+  },
+  "tpe-71": {
+    "name": "喜舍居酒屋",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/likeIzakaya/",
+    "instagram": "https://www.instagram.com/likelzakaya/",
+    "website": ""
+  },
+  "tpe-72": {
+    "name": "貳樓餐廳 Second Floor Cafe 微風台北車站店",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/p/Second-Floor-Cafe-%E8%B2%B3%E6%A8%93%E9%A4%90%E9%A3%B2-100089361402574/",
+    "instagram": "https://www.instagram.com/secondfloorcafe/",
+    "website": "https://www.secondfloorcafe.com/"
+  },
+  "tpe-73": {
+    "name": "貳樓餐廳 Second Floor Cafe 公館店",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/2floor/",
+    "instagram": "https://www.instagram.com/secondfloorcafe/",
+    "website": "https://www.secondfloorcafe.com/"
+  },
+  "tpe-74": {
+    "name": "Mr. 雪腐 公館店",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/p/Mr%E9%9B%AA%E8%85%90-%E5%85%AC%E9%A4%A8%E5%BA%97-100063484283907/",
+    "instagram": "https://www.instagram.com/mrchef0415/",
+    "website": ""
+  },
+  "tpe-75": {
+    "name": "沐樂咖啡 新生店",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/mooooler/",
+    "instagram": "",
+    "website": ""
+  },
+  "tpe-76": {
+    "name": "OOH CHA CHA自然食-南昌店",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/OohChaCha/",
+    "instagram": "",
+    "website": ""
+  },
+  "tpe-77": {
+    "name": "貳樓餐廳 Second Floor Cafe 仁愛店",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/Second-Floor-Cafe-%E8%B2%B3%E6%A8%93%E4%BB%81%E6%84%9B%E5%BA%97-107875090602837/",
+    "instagram": "https://www.instagram.com/secondfloorcafe/",
+    "website": "https://www.secondfloorcafe.com/"
+  },
+  "tpe-78": {
+    "name": "Easy coffee",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/easycoffeetpmra/",
+    "instagram": "https://www.instagram.com/easy._.coffee/",
+    "website": "https://easycoffee.mystrikingly.com/"
+  },
+  "tpe-79": {
+    "name": "啼岸VeganResort",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/veganresort/",
+    "instagram": "https://www.instagram.com/veganresort/",
+    "website": ""
+  },
+  "tpe-81": {
+    "name": "正當冰 北投家旁店",
+    "city": "臺北市",
+    "facebook": "",
+    "instagram": "",
+    "website": ""
+  },
+  "tpe-82": {
+    "name": "有間鐵板",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/p/%E6%9C%89%E9%96%93%E9%90%B5%E6%9D%BF-100075877337417/",
+    "instagram": "https://www.instagram.com/an_ironplate/",
+    "website": ""
+  },
+  "tpe-83": {
+    "name": "陽明山竹子湖故鄉海芋農園-附設餐廳",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/BLHHR/",
+    "instagram": "",
+    "website": ""
+  },
+  "tpe-84": {
+    "name": "Slipper Cafe 拖鞋咖啡",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/p/%E6%8B%96%E9%9E%8B%E5%92%96%E5%95%A1Slipper-Cafe-100063775189604/",
+    "instagram": "",
+    "website": ""
+  },
+  "tpe-85": {
+    "name": "爐鍋咖啡 Luguo Cafe小藝埕artyard",
+    "city": "臺北市",
+    "facebook": "",
+    "instagram": "",
+    "website": ""
+  },
+  "tpe-86": {
+    "name": "撲囉咖啡廳 Procaffeinating Cafe",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/100063577131177/",
+    "instagram": "https://www.instagram.com/procaffeinatingcafe/",
+    "website": ""
+  },
+  "tpe-87": {
+    "name": "咕咕咕嚕 日式昆布火鍋 | 韓式銅盤烤肉 - 南港店",
+    "city": "臺北市",
+    "facebook": "",
+    "instagram": "https://www.instagram.com/gugugulu_officially/",
+    "website": ""
+  },
+  "tpe-88": {
+    "name": "Real café南港展覽館",
+    "city": "臺北市",
+    "facebook": "",
+    "instagram": "https://www.instagram.com/realcafebread/",
+    "website": "https://www.realforreal.com.tw/"
+  },
+  "tpe-89": {
+    "name": "陶膳日本料理（商業午晚餐/宵夜場）",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/taoshanfood/",
+    "instagram": "",
+    "website": "https://inline.app/booking/-NButq5puR0sOBdGEfYq:inline-live-1"
+  },
+  "tpe-90": {
+    "name": "TUMAZ 黑熊咖啡",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/tumazcoffee/",
+    "instagram": "https://www.instagram.com/tumazcoffee/",
+    "website": "https://www.tumazcoffee.com/"
+  },
+  "tpe-91": {
+    "name": "兔兔日子 Tu's Day",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/tusdaytusday/",
+    "instagram": "https://www.instagram.com/yaping.tusday/",
+    "website": ""
+  },
+  "tpe-92": {
+    "name": "貳樓餐廳Second Floor Cafe西湖店",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/2floor/",
+    "instagram": "https://www.instagram.com/secondfloorcafe/",
+    "website": "https://www.secondfloorcafe.com/"
+  },
+  "tpe-93": {
+    "name": "金鍋盃小火鍋-職人 肉品 海鮮",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/JinGuoBeiXiaoHuoGuo/",
+    "instagram": "https://www.instagram.com/jinguobei/",
+    "website": ""
+  },
+  "tpe-94": {
+    "name": "金烤盃",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/100064054300821/",
+    "instagram": "https://www.instagram.com/jinkawbei/",
+    "website": ""
+  },
+  "tpe-95": {
+    "name": "肥婆 Cafe",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/fatconnie03/",
+    "instagram": "https://www.instagram.com/fatconnie_/",
+    "website": ""
+  },
+  "tpe-96": {
+    "name": "白菜小姐義式坊",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/LadyLadyPasta/",
+    "instagram": "https://www.instagram.com/lady_lady_pasta/",
+    "website": ""
+  },
+  "tpe-97": {
+    "name": "Coffee lndustry-Café champ",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/coffee.taipei2025/",
+    "instagram": "https://www.instagram.com/coffee_taipei/",
+    "website": ""
+  },
+  "tpe-98": {
+    "name": "Bombay 1987 印度咖哩",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/bombay_1987-100975765196615/",
+    "instagram": "https://www.instagram.com/tajtaiwan/",
+    "website": ""
+  },
+  "tpe-99": {
+    "name": "福容燒肉丼",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/719pgugz/",
+    "instagram": "https://www.instagram.com/furong1110122/",
+    "website": ""
+  },
+  "tpe-100": {
+    "name": "貳樓餐廳 Second Floor Cafe 南港車站店",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/p/Second-Floor-Cafe-%E8%B2%B3%E6%A8%93%E9%A4%90%E9%A3%B2-100069724134149/",
+    "instagram": "https://www.instagram.com/secondfloorcafe/",
+    "website": "https://www.secondfloorcafe.com/"
+  },
+  "tpe-101": {
+    "name": "越界茶 YUE JIE CHA精品手搖飲茶品飲料店，好調酒也能外帶！網美拍照嚴選場地，聚會談心首選店家",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/YUEJIECHA/",
+    "instagram": "https://www.instagram.com/yue_jie_cha/",
+    "website": ""
+  },
+  "tpe-102": {
+    "name": "Uncles two 兩位大叔(無訂位服務）",
+    "city": "臺北市",
+    "facebook": "",
+    "instagram": "https://www.instagram.com/uncles.tw/",
+    "website": ""
+  },
+  "tpe-103": {
+    "name": "苒冉小食光",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/ranran2019/",
+    "instagram": "https://www.instagram.com/ran_ran2019/",
+    "website": ""
+  },
+  "tpe-104": {
+    "name": "Hungry Dogs 二犬廚房",
+    "city": "臺北市",
+    "facebook": "",
+    "instagram": "https://www.instagram.com/_hungry.dogs_/",
+    "website": ""
+  },
+  "tpe-105": {
+    "name": "涓邸居酒屋",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/1560502847515799/",
+    "instagram": "https://www.instagram.com/jan27832022/",
+    "website": ""
+  },
+  "tpe-106": {
+    "name": "棧-直火廚房",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/eatfreshtaiwanesefood/",
+    "instagram": "https://www.instagram.com/checkintaipeihk/",
+    "website": ""
+  },
+  "tpe-107": {
+    "name": "HOUSE CAFE",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/p/HOUSE-CAFE-100063686363446/",
+    "instagram": "https://www.instagram.com/house_tpe/",
+    "website": ""
+  },
+  "tpe-108": {
+    "name": "喝什麼Ka Pi",
+    "city": "臺北市",
+    "facebook": "",
+    "instagram": "",
+    "website": "https://inline.app/booking/-M5a_tit90J6LbXrWKbG:inline-live-1"
+  },
+  "tpe-109": {
+    "name": "TakeOut Burger&Cafe 忠孝新生店",
+    "city": "臺北市",
+    "facebook": "",
+    "instagram": "https://www.instagram.com/takeoutburger2/",
+    "website": "https://takeoutburger.tw/"
+  },
+  "tpe-110": {
+    "name": "面對面Face to Face Noodle House",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/facetofacetw/",
+    "instagram": "https://www.instagram.com/facetofacetw/",
+    "website": ""
+  },
+  "tpe-111": {
+    "name": "Olá C.C. Cafe & Eatery",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/p/Ola%CC%80-CC-Cafe-Eatery-100089833610828/",
+    "instagram": "https://www.instagram.com/cccafezhaoka/",
+    "website": ""
+  },
+  "tpe-112": {
+    "name": "父母 - FuMu - COME TO MAMA & PAPA",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/FuMuTaipei/",
+    "instagram": "https://www.instagram.com/fumu_taipei/",
+    "website": ""
+  },
+  "tpe-113": {
+    "name": "TUTUKAKI 司康小売所",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/tutukakiscone/",
+    "instagram": "https://www.instagram.com/tutukakiscone/",
+    "website": "https://tutukakiscone.com/"
+  },
+  "tpe-114": {
+    "name": "OSKAFE Coffee Wine Sandwich",
+    "city": "臺北市",
+    "facebook": "",
+    "instagram": "https://www.instagram.com/oskafe/",
+    "website": ""
+  },
+  "tpe-115": {
+    "name": "HUKI富氣水產 丼飯",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/p/%E5%AF%8C%E6%B0%A3%E6%B0%B4%E7%94%A2-100057144232616/",
+    "instagram": "https://www.instagram.com/huki_aquatic/",
+    "website": ""
+  },
+  "tpe-116": {
+    "name": "嬉皮麵包 HIP PUN",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/HipPunBakery/",
+    "instagram": "https://www.instagram.com/hip_pun/",
+    "website": ""
+  },
+  "tpe-117": {
+    "name": "營養思廚·餐盒",
+    "city": "臺北市",
+    "facebook": "",
+    "instagram": "https://www.instagram.com/i_nutreetion/",
+    "website": ""
+  },
+  "tpe-118": {
+    "name": "處方株式會社",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/%E8%99%95%E6%96%B9%E6%A0%AA%E5%BC%8F%E6%9C%83%E7%A4%BE-115921984430529/",
+    "instagram": "https://www.instagram.com/the_formula_bar/",
+    "website": ""
+  },
+  "tpe-119": {
+    "name": "邀月茶坊Yaoyue Teahouse",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/yyteahouse/",
+    "instagram": "https://www.instagram.com/yaoyue_teahouse/",
+    "website": "https://yaoyue.tw/"
+  },
+  "tpe-120": {
+    "name": "豐味亭異國素食餐廳",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/p/%E8%B1%90%E5%91%B3%E4%BA%AD%E7%95%B0%E5%9C%8B%E7%B4%A0%E9%A3%9F%E6%96%99%E7%90%86%E9%A4%90%E5%BB%B3-100063996254097/",
+    "instagram": "",
+    "website": ""
+  },
+  "tpe-121": {
+    "name": "HBJ kitchen 舒肥健康餐",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/hbjkitchen/",
+    "instagram": "https://www.instagram.com/hbj_kitchen/",
+    "website": ""
+  },
+  "tpe-122": {
+    "name": "小朝日和",
+    "city": "臺北市",
+    "facebook": "",
+    "instagram": "https://www.instagram.com/1095food/",
+    "website": ""
+  },
+  "tpe-123": {
+    "name": "陽光廚坊",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/p/%E9%99%BD%E5%85%89%E5%BB%9A%E5%9D%8A-100064287691033/",
+    "instagram": "https://www.instagram.com/sunshine__kitchen/",
+    "website": ""
+  },
+  "tpe-124": {
+    "name": "拾米屋",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/ShemeHouse/",
+    "instagram": "https://www.instagram.com/shemehouse/",
+    "website": ""
+  },
+  "tpe-125": {
+    "name": "TMJ_TAIPEI",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/p/TMJ-100069300487424/",
+    "instagram": "https://www.instagram.com/tmj_taipei/",
+    "website": ""
+  },
+  "tpe-126": {
+    "name": "Nekko Bar 貓吧",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/NekkoBar/",
+    "instagram": "https://www.instagram.com/nekko.bar/",
+    "website": ""
+  },
+  "tpe-127": {
+    "name": "Breakfirst Cafe&Studio",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/breakfirst.place/",
+    "instagram": "https://www.instagram.com/breakfirst_cafe/",
+    "website": ""
+  },
+  "tpe-128": {
+    "name": "夜酌居酒屋",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/p/%E5%A4%9C%E9%85%8C%E5%B1%85%E9%85%92%E5%B1%8B-%E5%B8%82%E6%B0%91%E5%BA%97-100054260180442/",
+    "instagram": "https://www.instagram.com/night.drinking/",
+    "website": ""
+  },
+  "tpe-129": {
+    "name": "沐沐家",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/mumujiasince2019/",
+    "instagram": "https://www.instagram.com/m.jia/",
+    "website": ""
+  },
+  "tpe-130": {
+    "name": "Lazzy cafe",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/LAZZYCAFE/",
+    "instagram": "https://www.instagram.com/lazzycafe_official/",
+    "website": ""
+  },
+  "tpe-131": {
+    "name": "ㄉㄧㄢˇㄉㄧㄢ",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/dotscake/",
+    "instagram": "https://www.instagram.com/dotdotcake/",
+    "website": ""
+  },
+  "tpe-132": {
+    "name": "AL REVÉS 顛倒餐廳",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/AlrevesTAIWAN/",
+    "instagram": "",
+    "website": ""
+  },
+  "tpe-133": {
+    "name": "艾迪瓦屋",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/eddiewowcoffee/",
+    "instagram": "https://www.instagram.com/eddiewowcoffee/",
+    "website": ""
+  },
+  "tpe-134": {
+    "name": "Haooyun Station 好運站",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/p/Haooyun-Station-%E5%A5%BD%E9%81%8B%E7%AB%99-100084422512034/",
+    "instagram": "https://www.instagram.com/haooyun/",
+    "website": ""
+  },
+  "tpe-135": {
+    "name": "杯子裡的貓",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/61576979504313/",
+    "instagram": "https://www.instagram.com/acupofcat97/",
+    "website": ""
+  },
+  "tpe-136": {
+    "name": "東風饌麻辣燙大直店",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/p/%E6%9D%B1%E9%A2%A8%E9%A5%8C%E9%BA%BB%E8%BE%A3%E7%87%99%E5%B0%88%E8%B3%A3-%E5%A4%A7%E7%9B%B4-100064163730068/",
+    "instagram": "https://www.instagram.com/dong_fengzhuang/",
+    "website": ""
+  },
+  "tpe-137": {
+    "name": "樂野食",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/le.yeshi.cafe/",
+    "instagram": "https://www.instagram.com/leyeshi.cafe/",
+    "website": "https://inline.app/booking/-OhAEuPygKJL-XtwTvxj:inline-live-4/-OhAEuVkfB6en2DcKZxX"
+  },
+  "tpe-138": {
+    "name": "思沐咖啡",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/CaffeDearlandMuse/",
+    "instagram": "https://www.instagram.com/thinkthough_coffee/",
+    "website": ""
+  },
+  "tpe-139": {
+    "name": "Bear Junkies熊飲",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/Bearjunkies/",
+    "instagram": "https://www.instagram.com/bearjunkies/",
+    "website": "https://www.bear-junkies.com/"
+  },
+  "tpe-140": {
+    "name": "旭牧高纖沙拉輕食-台北松江店",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/BelleMatineeTaipei202303/",
+    "instagram": "https://www.instagram.com/bellematinee2022/",
+    "website": ""
+  },
+  "tpe-141": {
+    "name": "早樂子手作早午餐",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/morningfunbrunch/",
+    "instagram": "https://www.instagram.com/morningfunbrunch/",
+    "website": ""
+  },
+  "tpe-142": {
+    "name": "CHOiCE Gelato義式手工冰淇淋",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/choice.gelato/",
+    "instagram": "https://www.instagram.com/choice.gelato/",
+    "website": ""
+  },
+  "tpe-143": {
+    "name": "小珊食堂",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/p/%25E5%25B0%258F%25E7%258F%258A%25E9%25A3%259F%25E5%25A0%2582-100071489202546/",
+    "instagram": "",
+    "website": ""
+  },
+  "tpe-144": {
+    "name": "勺日日好空間店",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/zhuo.ri.206/",
+    "instagram": "",
+    "website": ""
+  },
+  "tpe-145": {
+    "name": "JB’S Diner",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/579656278721904/",
+    "instagram": "https://www.instagram.com/judyandbert/",
+    "website": "https://inline.app/booking/-M4w765VSD7vBLswU4dQ:inline-live-1/-M4w769XRiY81ghfjhlT"
+  },
+  "tpe-146": {
+    "name": "MUY 莯以咖啡",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/muy.cafebar/",
+    "instagram": "https://www.instagram.com/muy.cafebar/",
+    "website": ""
+  },
+  "tpe-147": {
+    "name": "WOYAO Burger",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/woyaoburger/",
+    "instagram": "https://www.instagram.com/woyao_burger/",
+    "website": ""
+  },
+  "tpe-148": {
+    "name": "Yellow Lemon",
+    "city": "臺北市",
+    "facebook": "",
+    "instagram": "https://www.instagram.com/yellowlemonrestaurant/",
+    "website": ""
+  },
+  "tpe-149": {
+    "name": "Labu cafe",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/LabuCafe/",
+    "instagram": "https://www.instagram.com/labucafe/",
+    "website": "https://inline.app/booking/-MSSx21yh4LTYYytvVEj:inline-live-2/-MSSx2BMRRYBxu5J2zVL"
+  },
+  "tpe-150": {
+    "name": "克爾咖啡內湖店",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/100094640229314/",
+    "instagram": "https://www.instagram.com/quelcafe_neihu/",
+    "website": ""
+  },
+  "tpe-151": {
+    "name": "創義麵 萬芳店",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/100064020814267/",
+    "instagram": "https://www.instagram.com/creativepasta/",
+    "website": ""
+  },
+  "tpe-152": {
+    "name": "創義麵 信義店",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/creativepasta01/",
+    "instagram": "https://www.instagram.com/creativepasta/",
+    "website": ""
+  },
+  "tpe-153": {
+    "name": "創義麵 錦州店",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/p/Creative-Pasta-%E5%89%B5%E7%BE%A9%E9%BA%B5%E9%8C%A6%E5%B7%9E%E5%BA%97-100063979386069/",
+    "instagram": "",
+    "website": ""
+  },
+  "tpe-154": {
+    "name": "創義麵 忠孝店",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/100064187972785/",
+    "instagram": "https://www.instagram.com/creativepasta00/",
+    "website": ""
+  },
+  "tpe-155": {
+    "name": "創義麵 松山店",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/100065203081808/",
+    "instagram": "https://www.instagram.com/creativepasta00/",
+    "website": ""
+  },
+  "tpe-156": {
+    "name": "創義麵 石牌店",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/p/Creative-Pasta-%E5%89%B5%E7%BE%A9%E9%BA%B5%E7%9F%B3%E7%89%8C%E5%BA%97-61581523356009/",
+    "instagram": "https://www.instagram.com/creativepasta/",
+    "website": ""
+  },
+  "tpe-157": {
+    "name": "創義麵 東湖店",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/creativepasta/",
+    "instagram": "",
+    "website": ""
+  },
+  "tpe-158": {
+    "name": "創義麵 士林店",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/CreativePastaSL/",
+    "instagram": "https://www.instagram.com/creativepasta/",
+    "website": ""
+  },
+  "tpe-159": {
+    "name": "cafe BOMBOM",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/cafebombom386/",
+    "instagram": "https://www.instagram.com/cafe_bombom386_official/",
+    "website": ""
+  },
+  "tpe-160": {
+    "name": "戲咖啡 ‧ Cine cafe",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/mycinecafe/",
+    "instagram": "https://www.instagram.com/mycinecafe/",
+    "website": ""
+  },
+  "tpe-161": {
+    "name": "夏綠蒂 · 小私廚 | 私房義麵燉飯 | 甜點下午茶 | 寵物友善 | 台北松山機場美食 Charlotte | Taipei Airport Cuisine | Pasta Spaghetti Risotto Bistro台北の料理 타이베이 요리",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/IMcharlotte2021/",
+    "instagram": "",
+    "website": ""
+  },
+  "tpe-162": {
+    "name": "大山昆陽咖啡",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/100090790758892/",
+    "instagram": "https://www.instagram.com/yongjiacoffee/",
+    "website": ""
+  },
+  "tpe-163": {
+    "name": "PapàRoy 義式手作料理",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/paparoyitalian/",
+    "instagram": "https://www.instagram.com/paparoytaipei/",
+    "website": ""
+  },
+  "tpe-164": {
+    "name": "木咖 Horoka",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/Horoka.cafe/",
+    "instagram": "https://www.instagram.com/horoka_cafe/",
+    "website": ""
+  },
+  "tpe-165": {
+    "name": "時々珈琲",
+    "city": "臺北市",
+    "facebook": "",
+    "instagram": "https://www.instagram.com/tokidoki.tw/",
+    "website": ""
+  },
+  "tpe-166": {
+    "name": "Compas Pasta House 康帕斯義麵屋 | 手工義大利麵",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/CompasPastaHouse/",
+    "instagram": "https://www.instagram.com/compas.pasta.house/",
+    "website": "https://compas-official-site.compaspastahouse.workers.dev/"
+  },
+  "tpe-167": {
+    "name": "鼠皮soopi cafe",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/soopicafe/",
+    "instagram": "https://www.instagram.com/soopi_cafe/",
+    "website": ""
+  },
+  "tpe-168": {
+    "name": "朱里昂廚房",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/%E6%9C%B1%E9%87%8C%E6%98%82%E7%9A%84%E5%BB%9A%E6%88%BF-Julienkitchen-1402517770012238/",
+    "instagram": "https://www.instagram.com/julienkitchen/",
+    "website": "https://inline.app/booking/-MO_T6ktJsXUIV2sdYz7:inline-live-2/-MO_T6uxxwKHFc82xqZe"
+  },
+  "tpe-169": {
+    "name": "無眠workshop",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/sleeplessworkshop/",
+    "instagram": "https://www.instagram.com/sleeplessworkshop/",
+    "website": ""
+  },
+  "tpe-170": {
+    "name": "他。植物咖啡",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/hecoffee.story/",
+    "instagram": "https://www.instagram.com/hecoffee.story/",
+    "website": ""
+  },
+  "tpe-171": {
+    "name": "冬湖火鍋",
+    "city": "臺北市",
+    "facebook": "",
+    "instagram": "https://www.instagram.com/touko_shabu/",
+    "website": ""
+  },
+  "tpe-172": {
+    "name": "森林善意廚房 內湖店",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/p/%E6%A3%AE%E6%9E%97%E5%96%84%E6%84%8F%E5%BB%9A%E6%88%BFKitchen-of-kindness-100071235391395/",
+    "instagram": "https://www.instagram.com/kitchen_of_kindness/",
+    "website": ""
+  },
+  "tpe-173": {
+    "name": "飲飽食醉",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/452692834869465/",
+    "instagram": "https://www.instagram.com/taiwandrunkdrunkder/",
+    "website": ""
+  },
+  "tpe-174": {
+    "name": "點八小食 臺北車站店（K區地下街）",
+    "city": "臺北市",
+    "facebook": "",
+    "instagram": "https://www.instagram.com/dimsum8_tw/",
+    "website": ""
+  },
+  "tpe-175": {
+    "name": "家香味食堂",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/p/%E5%AE%B6%E9%A6%99%E5%91%B3%E9%A3%9F%E5%A0%82-100063733728985/",
+    "instagram": "https://www.instagram.com/jiaxiangwayloobahpng/",
+    "website": ""
+  },
+  "tpe-176": {
+    "name": "Cafejiasong 咖央 | 東區咖啡",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/cafejiasong/",
+    "instagram": "https://www.instagram.com/cafejiasong/",
+    "website": ""
+  },
+  "tpe-177": {
+    "name": "Cozy Quail",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/cozyquail.tw/",
+    "instagram": "https://www.instagram.com/cozyquail_tw/",
+    "website": "https://www.cozyquailcafe.com/"
+  },
+  "tpe-178": {
+    "name": "大巨星港式飲茶餐酒館",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/p/%25E5%25A4%25A7%25E5%25B7%25A8%25E6%2598%259F%25E6%25B8%25AF%25E5%25BC%258F%25E9%25A3%25B2%25E8%258C%25B6%25E9%25A4%2590%25E9%2585%2592%25E9%25A4%25A8-61561651193325/",
+    "instagram": "https://www.instagram.com/superstar24h/",
+    "website": ""
+  },
+  "tpe-179": {
+    "name": "TOK盡興食光 遠東Garden City大巨蛋店",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/p/TOK-%E7%9B%A1%E8%88%88%E9%A3%9F%E5%85%89-%E5%A4%A7%E5%B7%A8%E8%9B%8B%E5%BA%97-Taipei-dome-61558610060221/",
+    "instagram": "",
+    "website": ""
+  },
+  "tpe-180": {
+    "name": "PRESERVE 大巨蛋",
+    "city": "臺北市",
+    "facebook": "",
+    "instagram": "https://www.instagram.com/preserve__tw/",
+    "website": "https://inline.app/booking/-NJ52ydOg_JGysSYmwyl:inline-live-3/-NwJf5uCCXfb6XiHAR_u"
+  },
+  "tpe-181": {
+    "name": "1975 Antique’s Cafe Tea Room",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/p/1975-Antiques-Cafe-Tea-Room-100063806659883/",
+    "instagram": "https://www.instagram.com/1975antiquescafetearoom/",
+    "website": ""
+  },
+  "tpe-182": {
+    "name": "兔Dreams兔子餐廳 Bunny Cafe",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/todreams2019/",
+    "instagram": "",
+    "website": ""
+  },
+  "tpe-183": {
+    "name": "The zoo 蔬食主義 vegan food and beverage",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/p/The-zoo-%E8%94%AC%E9%A3%9F%E4%B8%BB%E7%BE%A9vegan-food-beverage%E5%92%96%E5%95%A1-%E8%BC%95%E9%A3%9F-%E7%94%9C%E9%BB%9E-61562858981863/",
+    "instagram": "https://www.instagram.com/thezoo.ig/",
+    "website": ""
+  },
+  "tpe-184": {
+    "name": "海絲迪亞廚房",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/110650995156495/",
+    "instagram": "",
+    "website": ""
+  },
+  "tpe-185": {
+    "name": "舒曼六號餐館 小巨蛋南京店",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/SchumannsBistroNo6Nanjing/",
+    "instagram": "",
+    "website": "https://inline.app/booking/-MQtm-5njJu5hpH0TtXI:inline-live-2/-MQtm-GB26iGAkXDilM5"
+  },
+  "tpe-186": {
+    "name": "舒曼六號餐館 動物園政大店",
+    "city": "臺北市",
+    "facebook": "",
+    "instagram": "https://www.instagram.com/schumannsbistrono6/",
+    "website": ""
+  },
+  "tpe-187": {
+    "name": "凹屋珈琲Awoo Kohii",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/awookohii/",
+    "instagram": "https://www.instagram.com/awoo_kohii/",
+    "website": ""
+  },
+  "tpe-188": {
+    "name": "飛起咖咖Fly High CURRY×CAFÉ 咖哩×咖啡",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/p/%E9%A3%9B%E8%B5%B7%E5%92%96%E5%92%96Fly-High-CurryCaf%C3%A9-%E5%92%96%E5%93%A9%E5%92%96%E5%95%A1-61556251734735/",
+    "instagram": "https://www.instagram.com/flyhigh.curry/",
+    "website": ""
+  },
+  "tpe-189": {
+    "name": "80後碼頭",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/80sharbor/",
+    "instagram": "https://www.instagram.com/80sharbor/",
+    "website": ""
+  },
+  "tpe-190": {
+    "name": "牛本色 溫體牛火鍋",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/taiwanbeefpot/",
+    "instagram": "",
+    "website": ""
+  },
+  "tpe-191": {
+    "name": "蘭亭燒肉 和牛極緻料理",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/Lanting2017/",
+    "instagram": "https://www.instagram.com/lanting_wagyu/",
+    "website": ""
+  },
+  "tpe-192": {
+    "name": "日淬 Sun Drip Coffee",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/p/%E6%97%A5%E6%B7%AC-Sun-Drip-61555716202242/",
+    "instagram": "",
+    "website": ""
+  },
+  "tpe-193": {
+    "name": "伍食 No.510",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/no.510sweet/",
+    "instagram": "https://www.instagram.com/no.510brunch/",
+    "website": ""
+  },
+  "tpe-194": {
+    "name": "小鍋巴",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/p/%E5%B0%8F%E9%8D%8B%E5%B7%B4-61568410131321/",
+    "instagram": "https://www.instagram.com/xiao_guoba/",
+    "website": ""
+  },
+  "tpe-195": {
+    "name": "本願豆花店-晴光",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/profile.php/",
+    "instagram": "",
+    "website": ""
+  },
+  "tpe-196": {
+    "name": "本願豆花店-漢中",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/profile.php/",
+    "instagram": "",
+    "website": ""
+  },
+  "tpe-197": {
+    "name": "喜寶棧 咖啡酒館 & 貓旅館 HIPP CAFE & CATEL",
+    "city": "臺北市",
+    "facebook": "",
+    "instagram": "",
+    "website": ""
+  },
+  "tpe-198": {
+    "name": "CHAO 炒炒新亞洲蔬食 - 東區美食熱炒 公司聚餐 創意素食料理 寵物友善 人氣推薦必吃",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/ChaoChaoStirFry/",
+    "instagram": "https://www.instagram.com/chao_stir_fry/",
+    "website": "https://inline.app/booking/-MVzwY4qZf6uH0kSn2KX:inline-live-2/-MVzwYKUbWbonWbMeVmm"
+  },
+  "tpe-199": {
+    "name": "Mixigan 美墨創意蔬食料理 -推薦異國料理 人氣美式漢堡餐廳 必吃美食Vegan",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/mixigan2023/",
+    "instagram": "https://www.instagram.com/mixigan.tw/",
+    "website": ""
+  },
+  "tpe-200": {
+    "name": "樂子瑞安店",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/theDiner.Taipei/",
+    "instagram": "",
+    "website": "https://inline.app/booking/-KJJSvnMqP2ZECa6JwWY/-KJJSvnMqP2ZECa6JwWZ"
+  },
+  "tpe-201": {
+    "name": "生蠔哥",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/p/%E9%A5%92%E6%B2%B3%E8%A1%97%E7%94%9F%E8%A0%94%E5%93%A5-100063611457319/",
+    "instagram": "",
+    "website": ""
+  },
+  "tpe-202": {
+    "name": "SHUFFLE Brunch & Bar",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/shuffle.shot4/",
+    "instagram": "https://www.instagram.com/shuffle.brunch.bar/",
+    "website": ""
+  },
+  "tpe-203": {
+    "name": "李記甜品 Lee Dessert",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/LeeDessert/",
+    "instagram": "https://www.instagram.com/leedessertfoodie/",
+    "website": ""
+  },
+  "tpe-205": {
+    "name": "米蘇之間早餐工坊 (原東方美永吉店)",
+    "city": "臺北市",
+    "facebook": "",
+    "instagram": "",
+    "website": ""
+  },
+  "tpe-206": {
+    "name": "Modern Mode & Modern Mode Café",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/modernmode11/",
+    "instagram": "",
+    "website": ""
+  },
+  "tpe-207": {
+    "name": "TUTUKAKI 司康小売所",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/tutukakiscone/",
+    "instagram": "https://www.instagram.com/tutukakiscone/",
+    "website": "https://tutukakiscone.com/"
+  },
+  "tpe-208": {
+    "name": "CRO#FEE 咖啡井 - 復興店",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/crofee.dunnan/",
+    "instagram": "https://www.instagram.com/cro_fee/",
+    "website": ""
+  },
+  "tpe-209": {
+    "name": "小南風咖啡Minami cafe ﻿ 咖啡豆批發零售",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/minamizephyr/",
+    "instagram": "https://www.instagram.com/minamicafe_taipei/",
+    "website": ""
+  },
+  "tpe-210": {
+    "name": "좋은 날 好日子咖啡",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/p/%EC%A2%8B%EC%9D%80-%EB%82%A0-%E5%A5%BD%E6%97%A5%E5%AD%90%E5%92%96%E5%95%A1-61556883504151/",
+    "instagram": "https://www.instagram.com/joeunnalcafe/",
+    "website": ""
+  },
+  "tpe-211": {
+    "name": "離城放感情",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/cityleaving/",
+    "instagram": "",
+    "website": ""
+  },
+  "tpe-212": {
+    "name": "一鷺串燒居酒屋 松江本店",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/IRUYAKITORI/",
+    "instagram": "https://www.instagram.com/iru.yakitori/",
+    "website": "https://inline.app/booking/-Ldax2x0NSE-E9cHw_oZ:inline-live-2a466/-Ldax30XCCCZYZ6cDShH"
+  },
+  "tpe-213": {
+    "name": "Rainma Café Bistro",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/p/Rainma-Caf%25C3%25A9-bistro-100074884803319/",
+    "instagram": "https://www.instagram.com/rainma_bistro/",
+    "website": ""
+  },
+  "tpe-214": {
+    "name": "Bonica Pâtisserie & Café",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/bonicacafe/",
+    "instagram": "https://www.instagram.com/bonicacafe/",
+    "website": ""
+  },
+  "tpe-215": {
+    "name": "Riff Coffee Roasters",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/profile.php/",
+    "instagram": "https://www.instagram.com/riffcoffee.roasters/",
+    "website": ""
+  },
+  "tpe-216": {
+    "name": "Space Time Bistro&Bar | 東區貓咪餐酒館｜東區貓咪酒吧",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/profile.php/",
+    "instagram": "https://www.instagram.com/space.time_bistro/",
+    "website": ""
+  },
+  "tpe-217": {
+    "name": "Vis cafe 圓山店",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/Vis-cafe-%E8%A6%93%E6%99%82%E5%92%96%E5%95%A1-%E5%9C%93%E5%B1%B1%E8%8A%B1%E5%8D%9A%E5%BA%97-475075462845039/",
+    "instagram": "https://www.instagram.com/viscafe201303/",
+    "website": ""
+  },
+  "tpe-218": {
+    "name": "一鷺串燒居酒屋 大直旗艦店 （寵物友善）",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/IRUYAKITORI/",
+    "instagram": "",
+    "website": ""
+  },
+  "tpe-219": {
+    "name": "水羿云飛 Wing Prime Tea",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/%E7%99%25/",
+    "instagram": "https://www.instagram.com/wing_prime_tea/",
+    "website": ""
+  },
+  "tpe-220": {
+    "name": "TAKEFIVE 五方食藏 忠孝店",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/Take5delitw/",
+    "instagram": "https://www.instagram.com/take5deli_tw/",
+    "website": ""
+  },
+  "tpe-221": {
+    "name": "TAKEFIVE 五方食藏 青田店",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/Take5delitw/",
+    "instagram": "https://www.instagram.com/take5deli_tw/",
+    "website": "https://inline.app/booking/-Ni2lSUfmtUzYU38IBXw:inline-live-3/-Ni2lTQpPTM1YILWVQcE"
+  },
+  "tpe-222": {
+    "name": "TAKEFIVE 五方食藏 大稻埕店",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/Take5delitw/",
+    "instagram": "https://www.instagram.com/take5deli_tw/",
+    "website": ""
+  },
+  "tpe-223": {
+    "name": "松松咖啡（阿松不定期出沒）",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/p/%E6%9D%BE%E6%9D%BE%E5%92%96%E5%95%A1-61572601996394/",
+    "instagram": "https://www.instagram.com/song_song1023/",
+    "website": "https://inline.app/booking/-OMGeE6z_W-oHjDCOM7Q:inline-live-3/-OMGeEDah0C2c4o5UsYU"
+  },
+  "tpe-224": {
+    "name": "說好咖啡",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/sayyescafe.taipei/",
+    "instagram": "https://www.instagram.com/sayyescafe.tpe/",
+    "website": ""
+  },
+  "tpe-225": {
+    "name": "饗旭咖啡",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/100090948100974/",
+    "instagram": "https://www.instagram.com/egg_hoya.cafe/",
+    "website": ""
+  },
+  "tpe-226": {
+    "name": "紅木屋-文山熱炒推薦|合菜菜廳|家族聚餐推薦|在地推薦|貓空特色餐廳|熱門餐廳|景觀餐廳|人氣餐廳",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/redwooden/",
+    "instagram": "https://www.instagram.com/maokongredwoodhouse/",
+    "website": ""
+  },
+  "tpe-227": {
+    "name": "小公寓Apt.cafe",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/profile.php/",
+    "instagram": "https://www.instagram.com/apt_cafe/",
+    "website": ""
+  },
+  "tpe-228": {
+    "name": "INDULGE Taipei Drinking & Eatery",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/Indulge-%E5%AF%A6%E9%A9%97%E5%89%B5%E6%96%B0%E9%A4%90%E9%85%92%E9%A4%A8-212746458756427/",
+    "instagram": "https://www.instagram.com/indulgetaipei/",
+    "website": "https://inline.app/booking/-Ld2dlDqgqwvsxi4MbmN:inline-live-2a466/-Ld2dlIASGKygSQa_Dgp"
+  },
+  "tpe-229": {
+    "name": "異世界咖啡館•澐月",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/p/%E7%95%B0%E4%B8%96%E7%95%8C%E5%92%96%E5%95%A1%E9%A4%A8%E6%BE%90%E6%9C%88-61560602801603/",
+    "instagram": "https://www.instagram.com/isekaicafe_ungetsu/",
+    "website": ""
+  },
+  "tpe-230": {
+    "name": "小紅花Cafe｜早午餐｜不限時｜手作體驗｜文創選物店｜鉤針｜毛根花｜拼豆",
+    "city": "臺北市",
+    "facebook": "",
+    "instagram": "https://www.instagram.com/littleredfafa_cafe/",
+    "website": ""
+  },
+  "tpe-231": {
+    "name": "Mr. Light 輕食先生",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/Mr-Light-%E8%BC%95%E9%A3%9F%E5%85%88%E7%94%9F-109382534011292/",
+    "instagram": "https://www.instagram.com/mr.light2020/",
+    "website": ""
+  },
+  "tpe-232": {
+    "name": "弘弘朝食（南港1店）",
+    "city": "臺北市",
+    "facebook": "",
+    "instagram": "https://www.instagram.com/nx.01_888/",
+    "website": ""
+  },
+  "tpe-233": {
+    "name": "弘弘朝食（新民2店）",
+    "city": "臺北市",
+    "facebook": "",
+    "instagram": "https://www.instagram.com/nx.01_888/",
+    "website": ""
+  },
+  "tpe-234": {
+    "name": "Dvibe",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/p/Dvibe-61564858513894/",
+    "instagram": "https://www.instagram.com/_d.vibe_/",
+    "website": ""
+  },
+  "tpe-235": {
+    "name": "Fur Sure Caf’e｜寵物友善",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/p/Fur-Sure-Cafe-61587065049005/",
+    "instagram": "",
+    "website": ""
+  },
+  "tpe-236": {
+    "name": "Gaia Flow 全植料理 | 純素 | 無麩質 | 有機 | 自然 | 友善農法 | Vegan Restaurant | Gluten Free",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/p/Gaia-Flow-%E5%85%A8%E6%A4%8D%E6%96%99%E7%90%86-61577664761920/",
+    "instagram": "",
+    "website": "https://inline.app/booking/-OfOEO-VZrclYE1HmtYy:inline-live-3/-OfOEO5seN3ehc-GNLeR"
+  },
+  "tpe-237": {
+    "name": "甘蔗渣男(甘杯bar)",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/sugarcaneboi/",
+    "instagram": "https://www.instagram.com/sugarcane__boy/",
+    "website": ""
+  },
+  "tpe-238": {
+    "name": "葉甘單蔬食",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/p/%E8%91%89%E7%94%98%E5%96%AE%E8%94%AC%E9%A3%9F-61564100859777/",
+    "instagram": "https://www.instagram.com/yeyeshushi/",
+    "website": ""
+  },
+  "tpe-239": {
+    "name": "碌碌洋食 Lulu Yoshoku",
+    "city": "臺北市",
+    "facebook": "",
+    "instagram": "",
+    "website": ""
+  },
+  "tpe-240": {
+    "name": "甲蟲秘境自然生態館（親子寵物友善餐廳）",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/BEETLESINWONDERLANDZHISHAN/",
+    "instagram": "",
+    "website": ""
+  },
+  "tpe-241": {
+    "name": "花嶼輕食館",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/flowerislandbrunch/",
+    "instagram": "https://www.instagram.com/flower_island_brunch/",
+    "website": "https://inline.app/booking/-OTjdr6Ddu2a3lfWIpHF:inline-live-3/-OTjdrDvurhfd4qcr0-n"
+  },
+  "tpe-242": {
+    "name": "畊 PLOW Yunong",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/plowtaipei/",
+    "instagram": "https://www.instagram.com/plowtaipei/",
+    "website": ""
+  },
+  "tpe-243": {
+    "name": "Fur Sure Caf’e｜寵物友善",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/p/Fur-Sure-Cafe-61587065049005/",
+    "instagram": "",
+    "website": ""
+  },
+  "tpe-244": {
+    "name": "優鮮主意 Açaí巴西莓 · Premium Fruits · Private Members' Club",
+    "city": "臺北市",
+    "facebook": "",
+    "instagram": "",
+    "website": ""
+  },
+  "tpe-246": {
+    "name": "莫古咖啡 MEET GRACE COFFEE",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/p/%E8%8E%AB%E5%8F%A4%E5%92%96%E5%95%A1-61551919754617/",
+    "instagram": "https://www.instagram.com/mogu_.coffee/",
+    "website": ""
+  },
+  "tpe-247": {
+    "name": "BACKMOUNT後山咖啡",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/backmount.coffee.food/",
+    "instagram": "https://www.instagram.com/backmount.coffee/",
+    "website": "https://backmount.weebly.com/"
+  },
+  "tpe-248": {
+    "name": "Vagus 餐酒館 Lounge",
+    "city": "臺北市",
+    "facebook": "https://www.facebook.com/vagus.tw/",
+    "instagram": "https://www.instagram.com/vagus.tw/",
+    "website": "https://vagus.tw/"
+  },
+  "curated-1": {
+    "name": "樂品喜塘（和平島地質公園海景咖啡）",
+    "city": "基隆市",
+    "facebook": "https://www.facebook.com/lovepin2018/",
+    "instagram": "https://www.instagram.com/lovepin2018/",
+    "website": ""
+  },
+  "curated-2": {
+    "name": "丸角後院 Maru Corner Cafe",
+    "city": "基隆市",
+    "facebook": "https://www.facebook.com/MaruCorner.Backyard/",
+    "instagram": "https://www.instagram.com/marucornerbackyard/",
+    "website": ""
+  },
+  "curated-3": {
+    "name": "公雞咖啡 Le Coq（淺水灣海景第一排）",
+    "city": "新北市",
+    "facebook": "https://www.facebook.com/LeCoqcafe/",
+    "instagram": "https://www.instagram.com/lecoq2009/",
+    "website": ""
+  },
+  "curated-4": {
+    "name": "留夏 Stay Cafe（三芝海邊老宅）",
+    "city": "新北市",
+    "facebook": "",
+    "instagram": "",
+    "website": ""
+  },
+  "curated-5": {
+    "name": "兜 Miao 寵物友善餐廳",
+    "city": "新北市",
+    "facebook": "",
+    "instagram": "https://www.instagram.com/pawscafe.tw/",
+    "website": ""
+  },
+  "curated-6": {
+    "name": "找柴餐廳（板橋文化店）",
+    "city": "新北市",
+    "facebook": "https://www.facebook.com/188Shiba/",
+    "instagram": "",
+    "website": ""
+  },
+  "curated-7": {
+    "name": "碧潭水灣景觀餐廳",
+    "city": "新北市",
+    "facebook": "https://www.facebook.com/%E7%A2%A7%E6%BD%AD%E6%B0%B4%E7%81%A3%E9%A4%90%E5%BB%B3-390453327712383/",
+    "instagram": "",
+    "website": ""
+  },
+  "curated-8": {
+    "name": "綠光河岸景觀咖啡（八里左岸）",
+    "city": "新北市",
+    "facebook": "https://www.facebook.com/greenriverroastery/",
+    "instagram": "",
+    "website": ""
+  },
+  "curated-9": {
+    "name": "甘樂文創食堂（百年三峽古厝）",
+    "city": "新北市",
+    "facebook": "https://www.facebook.com/205671809456535/",
+    "instagram": "https://www.instagram.com/thecan2010/",
+    "website": "https://inline.app/booking/-MQjGdrbfdrg3cngYfSO:inline-live-2/-MQjGvS8199dCMgmZBjS"
+  },
+  "curated-10": {
+    "name": "走走咖啡 GOGO CAFE",
+    "city": "桃園市",
+    "facebook": "https://www.facebook.com/goaroundwithus/",
+    "instagram": "https://www.instagram.com/walkwalkcoffee/",
+    "website": ""
+  },
+  "curated-11": {
+    "name": "BUNA CAF'E 布納咖啡館（藝文店）",
+    "city": "桃園市",
+    "facebook": "https://www.facebook.com/bunacafe1061/",
+    "instagram": "https://www.instagram.com/buna.cafe/",
+    "website": "https://www.buna.com.tw/"
+  },
+  "curated-12": {
+    "name": "友竹居茶藝館（蘇州園林風）",
+    "city": "桃園市",
+    "facebook": "https://www.facebook.com/p/%E5%8F%8B%E7%AB%B9%E5%B1%85%E8%8C%B6%E8%97%9D%E9%A4%A8-100064085109802/",
+    "instagram": "",
+    "website": ""
+  },
+  "curated-13": {
+    "name": "隱花園景觀咖啡",
+    "city": "桃園市",
+    "facebook": "https://www.facebook.com/p/%E9%9A%B1%E8%8A%B1%E5%9C%92%E6%99%AF%E8%A7%80%E5%92%96%E5%95%A1%E9%A4%90%E5%BB%B3-100070116063057/",
+    "instagram": "https://www.instagram.com/in_garden_coffe/",
+    "website": ""
+  },
+  "curated-14": {
+    "name": "莫內咖啡（永安海景南洋風）",
+    "city": "桃園市",
+    "facebook": "https://www.facebook.com/p/%E8%8E%AB%E5%85%A7%E5%92%96%E5%95%A1-%EF%BC%ADONET-CAFE-61552860487390/",
+    "instagram": "https://www.instagram.com/monetgarden.cafe/",
+    "website": ""
+  },
+  "curated-15": {
+    "name": "喜木咖啡 Hsimu Cafe",
+    "city": "新竹縣",
+    "facebook": "",
+    "instagram": "",
+    "website": ""
+  },
+  "curated-16": {
+    "name": "一百種味道（三民店老宅）",
+    "city": "新竹市",
+    "facebook": "https://www.facebook.com/100tastes/",
+    "instagram": "https://www.instagram.com/100tastes/",
+    "website": ""
+  },
+  "curated-17": {
+    "name": "巷弄裡的噠噠聲",
+    "city": "新竹市",
+    "facebook": "https://www.facebook.com/%E5%B7%B7%E5%BC%84%E8%A3%A1%E7%9A%84%E5%99%A0%E5%99%A0%E8%81%B2-560422761006659/",
+    "instagram": "",
+    "website": ""
+  },
+  "curated-18": {
+    "name": "山那邊．綠葉方舟 Green Ark",
+    "city": "苗栗縣",
+    "facebook": "https://www.facebook.com/greenarksun/",
+    "instagram": "https://www.instagram.com/greenark_greenark/",
+    "website": ""
+  },
+  "curated-19": {
+    "name": "漫步雲端森林廚房",
+    "city": "苗栗縣",
+    "facebook": "https://www.facebook.com/WalkCloudsRestaurant/",
+    "instagram": "https://www.instagram.com/walkclouds_restaurant/",
+    "website": ""
+  },
+  "curated-20": {
+    "name": "琉璃仙境休閒農場景觀餐廳",
+    "city": "彰化縣",
+    "facebook": "https://www.facebook.com/Color.glass.fairyland/",
+    "instagram": "",
+    "website": ""
+  },
+  "curated-21": {
+    "name": "唯愛庭園 Vigor Courtyard",
+    "city": "彰化縣",
+    "facebook": "https://www.facebook.com/venamanor/",
+    "instagram": "https://www.instagram.com/vena_manor/",
+    "website": ""
+  },
+  "curated-22": {
+    "name": "蠻荒咖啡 Desolate Coffee（日月潭）",
+    "city": "南投縣",
+    "facebook": "https://www.facebook.com/desolatecoffee/",
+    "instagram": "https://www.instagram.com/desolate_coffee/",
+    "website": ""
+  },
+  "curated-23": {
+    "name": "清境魯媽媽雲南擺夷料理",
+    "city": "南投縣",
+    "facebook": "https://www.facebook.com/QingJingLuMaMaYunNanBaiYiLiaoLi/",
+    "instagram": "",
+    "website": ""
+  },
+  "curated-24": {
+    "name": "隱茶 STEAM（車埕貯木池畔）",
+    "city": "南投縣",
+    "facebook": "https://www.facebook.com/steam.grove/",
+    "instagram": "https://www.instagram.com/steam.grove/",
+    "website": "https://www.steam-tea.com/"
+  },
+  "curated-25": {
+    "name": "凹凸咖啡館（斗六雲中街老眷村）",
+    "city": "雲林縣",
+    "facebook": "https://www.facebook.com/ottocoffe/",
+    "instagram": "",
+    "website": ""
+  },
+  "curated-26": {
+    "name": "後院 houyuan（虎尾老宅庭園）",
+    "city": "雲林縣",
+    "facebook": "",
+    "instagram": "https://www.instagram.com/houyuan__/",
+    "website": ""
+  },
+  "curated-27": {
+    "name": "森咖啡 Morikoohii（檜意森活村日式官舍）",
+    "city": "嘉義市",
+    "facebook": "https://www.facebook.com/morikoohii/",
+    "instagram": "https://www.instagram.com/morikoohii/",
+    "website": ""
+  },
+  "curated-28": {
+    "name": "大人味 日•印珈哩",
+    "city": "嘉義市",
+    "facebook": "https://www.facebook.com/p/%E5%A4%A7%E4%BA%BA%E5%91%B3-%E6%97%A5%E5%8D%B0%E7%8F%88%E5%93%A9-100063657625576/",
+    "instagram": "",
+    "website": ""
+  },
+  "curated-33": {
+    "name": "MAO MAO LEE 寵物餐廳（苓雅旗艦店）",
+    "city": "高雄市",
+    "facebook": "https://www.facebook.com/maomaolee666/",
+    "instagram": "",
+    "website": ""
+  },
+  "curated-34": {
+    "name": "毛毛李寵物友善餐廳（左營巨蛋店）",
+    "city": "高雄市",
+    "facebook": "https://www.facebook.com/maomaolee666/",
+    "instagram": "",
+    "website": ""
+  },
+  "curated-35": {
+    "name": "打勾勾人寵慢活會所 DaGogo Hygge Home",
+    "city": "高雄市",
+    "facebook": "https://www.facebook.com/dagogohyggehome/",
+    "instagram": "https://www.instagram.com/dagogo_hygge_home/",
+    "website": ""
+  },
+  "curated-36": {
+    "name": "白色戀人文創咖啡館（柴山海景第一排）",
+    "city": "高雄市",
+    "facebook": "https://www.facebook.com/WhiteLoverCafe/",
+    "instagram": "https://www.instagram.com/whitelovercafe/",
+    "website": ""
+  },
+  "curated-37": {
+    "name": "天天泰泰式個人火鍋",
+    "city": "高雄市",
+    "facebook": "https://www.facebook.com/EveryThai.tw/",
+    "instagram": "https://www.instagram.com/everythai/",
+    "website": ""
+  },
+  "curated-38": {
+    "name": "迷路小章魚餐酒館 Piccolo Polpo Bistro",
+    "city": "屏東縣",
+    "facebook": "https://www.facebook.com/PiccoloPolpoBistro/",
+    "instagram": "https://www.instagram.com/piccolo_polpo_kenting/",
+    "website": ""
+  },
+  "curated-39": {
+    "name": "波波廚房 Kitchen Swell（80年老醫院古宅）",
+    "city": "屏東縣",
+    "facebook": "https://www.facebook.com/p/%E6%B3%A2%E6%B3%A2%E5%BB%9A%E6%88%BF-Kitchen-Swell-100064826379178/",
+    "instagram": "https://www.instagram.com/kitchenswell_2015/",
+    "website": ""
+  },
+  "curated-40": {
+    "name": "山男咖啡 Yamato Coffee（懸崖看海夕陽）",
+    "city": "屏東縣",
+    "facebook": "https://www.facebook.com/sannancafe/",
+    "instagram": "",
+    "website": ""
+  },
+  "curated-41": {
+    "name": "康定拾八（勝利星村日式眷舍咖啡）",
+    "city": "屏東縣",
+    "facebook": "https://www.facebook.com/WKitchen0966809688/",
+    "instagram": "https://www.instagram.com/kd18_wkitchen/",
+    "website": ""
+  },
+  "curated-42": {
+    "name": "滿山望海景觀咖啡館",
+    "city": "宜蘭縣",
+    "facebook": "https://www.facebook.com/mansiontaiwan.toucheng/",
+    "instagram": "https://www.instagram.com/ms.wh.tc/",
+    "website": ""
+  },
+  "curated-43": {
+    "name": "黑宅咖啡 BLACK HOUSE",
+    "city": "宜蘭縣",
+    "facebook": "https://www.facebook.com/blackhousecafe/",
+    "instagram": "https://www.instagram.com/blackhouse_cafe/",
+    "website": "https://www.blackhouse.tw/"
+  },
+  "curated-44": {
+    "name": "空ㄟ農場（礁溪百萬夜景排隊景觀餐廳）",
+    "city": "宜蘭縣",
+    "facebook": "https://www.facebook.com/kongpizzacafe/",
+    "instagram": "",
+    "website": ""
+  },
+  "curated-45": {
+    "name": "兔子迷宮景觀餐廳 A-Maze",
+    "city": "宜蘭縣",
+    "facebook": "https://www.facebook.com/maze3399/",
+    "instagram": "",
+    "website": ""
+  },
+  "curated-46": {
+    "name": "逗點寵物友善莊園餐廳（花蓮壽豐館）",
+    "city": "花蓮縣",
+    "facebook": "",
+    "instagram": "",
+    "website": ""
+  },
+  "curated-47": {
+    "name": "原野牧場（七星潭羊奶咖啡海景餐廳）",
+    "city": "花蓮縣",
+    "facebook": "https://www.facebook.com/yuanyeh.com.tw/",
+    "instagram": "https://www.instagram.com/yuanyeh1988/",
+    "website": "https://inline.app/booking/-MvM9-YAUTWBnX98kSrw:inline-live-2/-MvM9-mqwIXdFz3X4hb1"
+  },
+  "curated-48": {
+    "name": "漫漫日和手作輕食",
+    "city": "花蓮縣",
+    "facebook": "https://www.facebook.com/412168285622158/",
+    "instagram": "https://www.instagram.com/beforesunrisebnb/",
+    "website": ""
+  },
+  "curated-49": {
+    "name": "原始部落山地美食（利嘉半山腰夜景）",
+    "city": "臺東縣",
+    "facebook": "",
+    "instagram": "https://www.instagram.com/tribe20001010/",
+    "website": ""
+  },
+  "curated-50": {
+    "name": "恩娜比亞咖啡 Nnabiya Coffee（都蘭山海秘境）",
+    "city": "臺東縣",
+    "facebook": "",
+    "instagram": "https://www.instagram.com/nnabiya_coffee/",
+    "website": ""
+  },
+  "curated-51": {
+    "name": "吹吹風精品咖啡館（澎湖碼頭海景旗艦店）",
+    "city": "澎湖縣",
+    "facebook": "https://www.facebook.com/BartistaXBistro/",
+    "instagram": "",
+    "website": ""
+  },
+  "tn-1": {
+    "name": "舞葉場茶舖",
+    "city": "臺南市",
+    "facebook": "https://www.facebook.com/WuYeChang/",
+    "instagram": "https://www.instagram.com/uraha_iro_10/",
+    "website": ""
+  },
+  "tn-2": {
+    "name": "In’s飲食坊",
+    "city": "臺南市",
+    "facebook": "https://www.facebook.com/INSFOOD/",
+    "instagram": "",
+    "website": ""
+  },
+  "tn-3": {
+    "name": "鑫品味蛋包飯",
+    "city": "臺南市",
+    "facebook": "",
+    "instagram": "https://www.instagram.com/sundayomeletterice/",
+    "website": ""
+  },
+  "tn-4": {
+    "name": "肥窩咖啡",
+    "city": "臺南市",
+    "facebook": "https://www.facebook.com/p/%E8%82%A5%E7%AA%A9%E5%92%96%E5%95%A1-100064034921821/",
+    "instagram": "https://www.instagram.com/feiwokapei/",
+    "website": ""
+  },
+  "tn-5": {
+    "name": "露比沙拉輕食",
+    "city": "臺南市",
+    "facebook": "https://www.facebook.com/p/%E9%9C%B2%E6%AF%94%E6%B2%99%E6%8B%89%E8%BC%95%E9%A3%9F%E6%BD%9B%E8%89%87%E5%A0%A1%E6%97%A9%E5%8D%88%E9%A4%90%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5%E7%81%AB%E9%8D%8B%E5%A4%A7%E5%90%8C%E5%BA%97-100063936522423/",
+    "instagram": "",
+    "website": ""
+  },
+  "tn-7": {
+    "name": "初食手作廚房",
+    "city": "臺南市",
+    "facebook": "https://www.facebook.com/ourkitchen2013/",
+    "instagram": "",
+    "website": ""
+  },
+  "tn-9": {
+    "name": "日銘手作壽司",
+    "city": "臺南市",
+    "facebook": "https://www.facebook.com/p/%E6%97%A5%E9%8A%98%E9%AE%A8-%E6%9D%BF%E5%89%8D%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%E6%96%99%E7%90%86-100063984665944/",
+    "instagram": "https://www.instagram.com/rimingshouzuoshousi/",
+    "website": ""
+  },
+  "tn-10": {
+    "name": "船長先生餐酒館",
+    "city": "臺南市",
+    "facebook": "https://www.facebook.com/senorcapitan/",
+    "instagram": "https://www.instagram.com/senorcapitan2019/",
+    "website": ""
+  },
+  "tn-13": {
+    "name": "自己的房間（老宅手作甜點咖啡）",
+    "city": "臺南市",
+    "facebook": "https://www.facebook.com/p/%E8%87%AA%E5%B7%B1%E7%9A%84%E6%88%BF%E9%96%93-%E5%9C%A8%E5%8F%B0%E5%8D%97-100063665299535/",
+    "instagram": "https://www.instagram.com/jojofizz/",
+    "website": ""
+  },
+  "tn-14": {
+    "name": "芯芙餐桌",
+    "city": "臺南市",
+    "facebook": "",
+    "instagram": "",
+    "website": ""
+  },
+  "tn-15": {
+    "name": "中正冷飲店",
+    "city": "臺南市",
+    "facebook": "https://www.facebook.com/p/%E7%B6%A0%E8%89%B2%E5%82%B3%E5%A5%87%E5%86%B7%E9%A3%B2-100042368006407/",
+    "instagram": "",
+    "website": ""
+  },
+  "tn-16": {
+    "name": "湧飯海南雞飯",
+    "city": "臺南市",
+    "facebook": "https://www.facebook.com/wakurice/",
+    "instagram": "",
+    "website": ""
+  },
+  "tn-18": {
+    "name": "赤客燒肉店",
+    "city": "臺南市",
+    "facebook": "https://www.facebook.com/chike788/",
+    "instagram": "https://www.instagram.com/flameker4/",
+    "website": ""
+  },
+  "tn-20": {
+    "name": "麻豆翔美雪花冰城",
+    "city": "臺南市",
+    "facebook": "https://www.facebook.com/Charmymadou/",
+    "instagram": "https://www.instagram.com/snowicemadou/",
+    "website": ""
+  },
+  "tn-21": {
+    "name": "白色教堂 隱田山房（景觀茶席餐廳）",
+    "city": "臺南市",
+    "facebook": "https://www.facebook.com/onden.house/",
+    "instagram": "",
+    "website": ""
+  },
+  "tn-22": {
+    "name": "瑪莎園景觀餐廳（玉井虎頭山咖啡餐飲）",
+    "city": "臺南市",
+    "facebook": "https://www.facebook.com/masa.coffee/",
+    "instagram": "https://www.instagram.com/masacafe_065746809/",
+    "website": ""
+  },
+  "tn-23": {
+    "name": "晨翊早餐點",
+    "city": "臺南市",
+    "facebook": "https://www.facebook.com/GoodmorningCHEN.YI/",
+    "instagram": "https://www.instagram.com/goodmorningmaymay/",
+    "website": ""
+  },
+  "tn-24": {
+    "name": "徠溢隆餐飲店",
+    "city": "臺南市",
+    "facebook": "https://www.facebook.com/61552467308717/",
+    "instagram": "",
+    "website": ""
+  },
+  "tn-25": {
+    "name": "徠益隆餐飲店",
+    "city": "臺南市",
+    "facebook": "https://www.facebook.com/p/%E5%BE%A0%E7%9B%8A%E9%9A%86-%E5%B0%8F%E7%B1%A0%E6%B9%AF%E9%A4%83%E9%BA%BB%E8%B1%86%E5%BA%97-100064020606348/",
+    "instagram": "https://www.instagram.com/foodintainan/",
+    "website": ""
+  },
+  "tn-26": {
+    "name": "打翻泡菜韓式料理",
+    "city": "臺南市",
+    "facebook": "https://www.facebook.com/p/%E6%89%93%E7%BF%BB%E6%B3%A1%E8%8F%9C%E3%85%A1%EA%B9%80%EC%B9%98-%EC%97%8E%EC%96%B4-100067025796634/",
+    "instagram": "",
+    "website": ""
+  },
+  "tn-27": {
+    "name": "明粥冷飲店",
+    "city": "臺南市",
+    "facebook": "https://www.facebook.com/p/%E6%98%8E%E7%B2%A5%E9%9F%93%E5%BC%8F%E6%96%99%E7%90%86-100063748584315/",
+    "instagram": "https://www.instagram.com/ming_zhou_/",
+    "website": ""
+  },
+  "hc-gov-1": {
+    "name": "私嚐吃飯（新竹寵物友善咖哩旗艦）",
+    "city": "新竹市",
+    "facebook": "https://www.facebook.com/eat20170319/",
+    "instagram": "https://www.instagram.com/eat20170319/",
+    "website": "https://inline.app/booking/-MhWP4H0itK_8opj_HqO:inline-live-2/-MhWP4RELJxqmZVVfQJ8"
+  },
+  "hc-gov-2": {
+    "name": "私嚐小聚餐飲",
+    "city": "新竹市",
+    "facebook": "https://www.facebook.com/100069220486836/",
+    "instagram": "",
+    "website": ""
+  },
+  "hc-gov-3": {
+    "name": "九慕手烘咖啡專門店",
+    "city": "新竹市",
+    "facebook": "https://www.facebook.com/JiumuCoffeeRoasters/",
+    "instagram": "https://www.instagram.com/jiumu_coffee_roasters/",
+    "website": ""
+  },
+  "hc-gov-4": {
+    "name": "掬熙商行 G-Hee Cafe",
+    "city": "新竹市",
+    "facebook": "https://www.facebook.com/GC.Brunch/",
+    "instagram": "",
+    "website": ""
+  },
+  "hc-gov-5": {
+    "name": "招財咖啡 Zhaocai Cafe",
+    "city": "新竹市",
+    "facebook": "https://www.facebook.com/successcafe21/",
+    "instagram": "",
+    "website": "https://inline.app/booking/-Mtzt-ua60-H69xtv-9o:inline-live-2/-Mtzt07e6zaky3nEcqx0"
+  },
+  "hc-gov-6": {
+    "name": "花喵吐司 Brunch",
+    "city": "新竹市",
+    "facebook": "https://www.facebook.com/%E8%8A%B1%E5%96%B5%E5%90%90%E5%8F%B8-119045921153919/",
+    "instagram": "https://www.instagram.com/cactus_brunch/",
+    "website": ""
+  },
+  "ty-gov-1": {
+    "name": "食。光機 Food Machine",
+    "city": "桃園市",
+    "facebook": "https://www.facebook.com/likefoodmachine/",
+    "instagram": "https://www.instagram.com/ilovefoodmachine/",
+    "website": ""
+  },
+  "ty-gov-2": {
+    "name": "香草蛋糕舖（藝文總店）",
+    "city": "桃園市",
+    "facebook": "https://www.facebook.com/vanilla193/",
+    "instagram": "https://www.instagram.com/vanilla.pastry.house.tw/",
+    "website": ""
+  },
+  "ty-gov-4": {
+    "name": "三號咖啡 No.3 Cafe（草皮跑跑）",
+    "city": "桃園市",
+    "facebook": "https://www.facebook.com/no3kafe/",
+    "instagram": "https://www.instagram.com/no.3_cafe_/",
+    "website": ""
+  }
+}
