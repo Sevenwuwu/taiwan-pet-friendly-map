@@ -3,6 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
   <title>台灣毛孩趴趴走・全台寵物友善餐廳地圖 (純餐飲・Google Maps 導航與最新營運狀態)</title>
   
   <!-- Google Fonts -->
@@ -647,7 +650,7 @@
         <h1>
           台灣毛孩趴趴走・全台寵物友善餐廳地圖
           <span class="version-tag" id="btnOpenVersions" title="點擊檢視版本更新與關店異動日誌">
-            <i class="fa-solid fa-rotate"></i> <span id="headerVerText">v1.3.0</span>
+            <i class="fa-solid fa-rotate"></i> <span id="headerVerText">v1.6.0</span>
           </span>
         </h1>
         <div class="brand-sub">
@@ -1641,7 +1644,7 @@
 
     // Render Version Changelog Modal
     function renderVersionChangelog() {
-      fetch('/api/versions').then(r => r.json()).then(data => {
+      fetch(`versions.json?t=${Date.now()}`).then(r => r.json()).then(data => {
         state.versions = data;
         updateVersionDisplay(data);
       }).catch(() => {
@@ -2112,6 +2115,18 @@
       updateView();
       renderVersionChangelog();
       renderFeedbackList();
+
+      // 自動破除快取並抓取雲端最新 data.json
+      fetch(`data.json?t=${Date.now()}`)
+        .then(r => r.json())
+        .then(freshPlaces => {
+          if (Array.isArray(freshPlaces) && freshPlaces.length > 0) {
+            state.places = freshPlaces;
+            updateCityChipCounts();
+            updateView();
+          }
+        })
+        .catch(() => {});
     }
 
     window.addEventListener('DOMContentLoaded', setupApp);
