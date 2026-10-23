@@ -47,8 +47,6 @@ def save_json(path, data):
         json.dump(data, f, ensure_ascii=False, indent=2)
 
 class PetMapHandler(http.server.SimpleHTTPRequestHandler):
-    protocol_version = "HTTP/1.1"
-    
     def __init__(self, *args, **kwargs):
         super().__init__(*args, directory=BASE_DIR, **kwargs)
 
@@ -231,6 +229,30 @@ class PetMapHandler(http.server.SimpleHTTPRequestHandler):
                 'success': True,
                 'report': audited_report,
                 'message': '感謝您的守護回報！管理員將比對 Google Maps 營運狀態後進行標記與更新。'
+            })
+            return
+
+        # 3.5 管理員即時測試 AI 審核引擎 (/api/ai-audit)
+        if path == '/api/ai-audit':
+            name = body.get('name', '').strip()
+            city = body.get('city', '').strip()
+            address = body.get('address', '').strip()
+            category = body.get('category', '特色餐廳').strip()
+            note = body.get('note', '').strip()
+
+            test_payload = {
+                'name': name,
+                'city': city,
+                'address': address,
+                'category': category,
+                'note': note,
+                'type': 'new_store'
+            }
+            audited_data, ai_res = audit_submission(test_payload)
+            self.send_json_response({
+                'success': True,
+                'aiAudit': ai_res,
+                'details': audited_data
             })
             return
 

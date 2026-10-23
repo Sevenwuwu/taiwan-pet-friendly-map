@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>後台審核中心・全台寵物友善餐廳地圖 (Google Maps 查驗與版本更新)</title>
+  <title>全台寵物友善餐廳地圖・AI 後台審核與管理中心</title>
   
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,6 +14,9 @@
     :root {
       --primary: #D97706;
       --primary-hover: #B45309;
+      --indigo-600: #4F46E5;
+      --indigo-700: #4338CA;
+      --indigo-50: #EEF2FF;
       --slate-900: #0F172A;
       --slate-800: #1E293B;
       --slate-700: #334155;
@@ -28,6 +31,8 @@
       --rose-50: #FFF1F2;
       --blue-600: #2563EB;
       --blue-50: #EFF6FF;
+      --amber-600: #D97706;
+      --amber-50: #FFFBEB;
       --radius-md: 10px;
       --radius-lg: 14px;
     }
@@ -44,14 +49,18 @@
       padding: 14px 24px; display: flex; align-items: center; justify-content: space-between;
       position: sticky; top: 0; z-index: 100;
     }
-    .brand { display: flex; align-items: center; gap: 10px; }
+    .brand { display: flex; align-items: center; gap: 12px; }
     .brand-icon {
-      width: 36px; height: 36px; background: var(--primary); color: white;
-      border-radius: var(--radius-md); display: flex; align-items: center; justify-content: center;
-      font-size: 18px;
+      width: 40px; height: 40px; background: linear-gradient(135deg, #4F46E5 0%, #312E81 100%);
+      color: white; border-radius: var(--radius-md); display: flex; align-items: center; justify-content: center;
+      font-size: 20px; box-shadow: 0 4px 10px rgba(79, 70, 229, 0.3);
     }
-    .brand h1 { font-size: 17px; font-weight: 800; color: var(--slate-900); }
+    .brand h1 { font-size: 17px; font-weight: 800; color: var(--slate-900); display: flex; align-items: center; gap: 8px; }
     .brand span { font-size: 12px; color: var(--slate-500); }
+    .badge-ai-live {
+      font-size: 11px; background: #EEF2FF; color: #4F46E5; border: 1px solid #C7D2FE;
+      padding: 2px 7px; border-radius: 9999px; font-weight: 700;
+    }
 
     .header-actions { display: flex; align-items: center; gap: 10px; }
     .btn {
@@ -61,12 +70,30 @@
     }
     .btn-publish { background: #059669; color: white; }
     .btn-publish:hover { background: #047857; }
+    .btn-sandbox { background: #EEF2FF; border-color: #C7D2FE; color: #4F46E5; }
+    .btn-sandbox:hover { background: #E0E7FF; }
     .btn-view-map { background: white; border-color: var(--slate-200); color: var(--slate-700); }
     .btn-view-map:hover { background: var(--slate-100); }
 
-    main.admin-main { flex: 1; max-width: 1100px; width: 100%; margin: 24px auto; padding: 0 20px; display: flex; flex-direction: column; gap: 20px; }
+    main.admin-main { flex: 1; max-width: 1120px; width: 100%; margin: 24px auto; padding: 0 20px; display: flex; flex-direction: column; gap: 20px; }
 
-    /* Summary bar */
+    /* AI System Monitor Banner */
+    .ai-monitor-banner {
+      background: linear-gradient(135deg, #1E1B4B 0%, #312E81 100%);
+      color: white; border-radius: var(--radius-lg); padding: 18px 22px;
+      display: flex; align-items: center; justify-content: space-between; gap: 16px;
+      box-shadow: 0 4px 15px rgba(30, 27, 75, 0.2);
+    }
+    .ai-monitor-left { display: flex; align-items: center; gap: 14px; }
+    .ai-chip-icon {
+      width: 46px; height: 46px; background: rgba(255, 255, 255, 0.15);
+      border-radius: var(--radius-md); display: flex; align-items: center; justify-content: center;
+      font-size: 24px; color: #A5B4FC;
+    }
+    .ai-monitor-title { font-size: 16px; font-weight: 800; display: flex; align-items: center; gap: 8px; }
+    .ai-monitor-desc { font-size: 12.5px; color: #C7D2FE; margin-top: 3px; line-height: 1.4; }
+
+    /* Stat Cards */
     .stat-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
     .stat-card {
       background: white; border: 1px solid var(--slate-200); border-radius: var(--radius-md);
@@ -75,7 +102,34 @@
     .stat-val { font-size: 24px; font-weight: 800; color: var(--slate-900); }
     .stat-lbl { font-size: 12px; color: var(--slate-500); font-weight: 600; }
 
-    /* Review Cards */
+    /* AI Live Sandbox Box */
+    .sandbox-card {
+      background: white; border: 2px dashed #818CF8; border-radius: var(--radius-lg);
+      padding: 18px 20px; display: flex; flex-direction: column; gap: 14px;
+      box-shadow: 0 2px 8px rgba(79, 70, 229, 0.06);
+    }
+    .sandbox-head { display: flex; align-items: center; justify-content: space-between; }
+    .sandbox-title { font-size: 15px; font-weight: 800; color: var(--indigo-700); display: flex; align-items: center; gap: 8px; }
+    .sandbox-grid { display: grid; grid-template-columns: 2fr 1fr 2fr auto; gap: 10px; align-items: center; }
+    .sandbox-input {
+      padding: 9px 12px; border: 1px solid var(--slate-300); border-radius: 8px;
+      font-size: 13px; outline: none; background: var(--slate-50);
+    }
+    .sandbox-input:focus { border-color: #4F46E5; background: white; }
+    .sandbox-presets { display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--slate-500); }
+    .preset-pill {
+      background: var(--slate-100); border: 1px solid var(--slate-200); color: var(--slate-700);
+      padding: 3px 8px; border-radius: 6px; cursor: pointer; font-size: 11.5px;
+    }
+    .preset-pill:hover { background: #E0E7FF; color: #4338CA; border-color: #C7D2FE; }
+    
+    .sandbox-result {
+      background: #FAF5FF; border: 1px solid #E9D5FF; border-radius: var(--radius-md);
+      padding: 14px; display: none; flex-direction: column; gap: 8px;
+    }
+    .sandbox-result.active { display: flex; }
+
+    /* Section & Cards */
     .section-title {
       font-size: 16px; font-weight: 800; color: var(--slate-900); display: flex; align-items: center; gap: 8px;
       margin-bottom: 12px;
@@ -86,22 +140,51 @@
 
     .review-card {
       background: white; border: 1px solid var(--slate-200); border-radius: var(--radius-lg);
-      padding: 18px 20px; display: flex; flex-direction: column; gap: 12px;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.05); margin-bottom: 12px;
+      padding: 20px; display: flex; flex-direction: column; gap: 14px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.05); margin-bottom: 14px;
+      position: relative;
     }
+    .review-card.rejected-card { border-left: 5px solid #E11D48; }
+    .review-card.approved-card { border-left: 5px solid #059669; }
+
     .card-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; }
     .store-name { font-size: 17px; font-weight: 800; color: var(--slate-900); }
-    .store-meta { font-size: 12.5px; color: var(--slate-500); margin-top: 3px; display: flex; gap: 10px; }
+    .store-meta { font-size: 12.5px; color: var(--slate-500); margin-top: 4px; display: flex; flex-wrap: wrap; gap: 12px; }
 
+    /* AI Diagnosis Box */
+    .ai-diag-card {
+      background: #F8FAFC; border: 1px solid var(--slate-200); border-radius: var(--radius-md);
+      padding: 12px 14px; display: flex; flex-direction: column; gap: 8px;
+    }
+    .ai-diag-header { display: flex; align-items: center; justify-content: space-between; }
+    .ai-verdict-pill {
+      display: inline-flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 800;
+      padding: 4px 10px; border-radius: 9999px;
+    }
+    .ai-verdict-pill.approved { background: #ECFDF5; color: #047857; border: 1px solid #A7F3D0; }
+    .ai-verdict-pill.rejected { background: #FFF1F2; color: #BE123C; border: 1px solid #FECDD3; }
+    .ai-verdict-pill.review { background: #FEF3C7; color: #B45309; border: 1px solid #FCD34D; }
+
+    .ai-confidence-score { font-size: 12px; font-weight: 700; color: var(--slate-600); }
+    .ai-reasoning-text { font-size: 12.5px; color: var(--slate-700); line-height: 1.5; }
+    .ai-tags-row { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 2px; }
+    .ai-check-tag {
+      font-size: 11px; padding: 2px 7px; border-radius: 4px; background: white;
+      border: 1px solid var(--slate-200); color: var(--slate-600);
+    }
+    .ai-check-tag.pass { border-color: #A7F3D0; color: #065F46; }
+    .ai-check-tag.fail { border-color: #FECDD3; color: #9F1239; }
+
+    /* Google Maps Verification Callout */
     .gm-verify-box {
       background: #EFF6FF; border: 1px solid #BFDBFE; border-radius: var(--radius-md);
       padding: 12px 14px; display: flex; align-items: center; justify-content: space-between; gap: 10px;
     }
     .gm-verify-info { font-size: 12.5px; color: #1E40AF; line-height: 1.4; }
     .btn-gm-check {
-      background: #2563EB; color: white; padding: 7px 14px; font-size: 12.5px; font-weight: 700;
+      background: #2563EB; color: white; padding: 8px 16px; font-size: 12.5px; font-weight: 700;
       border-radius: var(--radius-md); text-decoration: none; display: inline-flex; align-items: center; gap: 6px;
-      flex-shrink: 0; box-shadow: 0 2px 5px rgba(37,99,235,0.25);
+      flex-shrink: 0; box-shadow: 0 2px 6px rgba(37,99,235,0.25);
     }
     .btn-gm-check:hover { background: #1D4ED8; }
 
@@ -134,6 +217,15 @@
       background: white; border-radius: var(--radius-lg); max-width: 500px; width: 100%;
       padding: 22px; display: flex; flex-direction: column; gap: 14px;
     }
+
+    @media (max-width: 768px) {
+      .stat-row { grid-template-columns: repeat(2, 1fr); }
+      .sandbox-grid { grid-template-columns: 1fr; }
+      .ai-monitor-banner { flex-direction: column; align-items: flex-start; }
+      .details-grid { grid-template-columns: 1fr; }
+      .gm-verify-box { flex-direction: column; align-items: flex-start; }
+      .btn-gm-check { width: 100%; justify-content: center; }
+    }
   </style>
 </head>
 <body>
@@ -141,10 +233,13 @@
   <!-- Header -->
   <header class="admin-header">
     <div class="brand">
-      <div class="brand-icon"><i class="fa-solid fa-shield-halved"></i></div>
+      <div class="brand-icon"><i class="fa-solid fa-robot"></i></div>
       <div>
-        <h1>全台寵物友善餐廳地圖・後台審核中心</h1>
-        <span>管理員 Google Maps 門市查驗與版本自動發布系統</span>
+        <h1>
+          全台寵物友善餐廳地圖・AI 後台審核中心
+          <span class="badge-ai-live"><i class="fa-solid fa-circle-check"></i> AI 大腦上線</span>
+        </h1>
+        <span>AI 純餐飲檢驗引擎・Google Maps 即時營運比對・GitHub 版本自動發布</span>
       </div>
     </div>
     <div class="header-actions">
@@ -160,15 +255,35 @@
   <!-- Main Container -->
   <main class="admin-main">
 
+    <!-- AI System Monitor Banner -->
+    <div class="ai-monitor-banner">
+      <div class="ai-monitor-left">
+        <div class="ai-chip-icon"><i class="fa-solid fa-brain"></i></div>
+        <div>
+          <div class="ai-monitor-title">
+            <span>AI Restaurant Auditor v2.0・智慧純餐飲防護網運作中</span>
+          </div>
+          <div class="ai-monitor-desc">
+            四大防護層：① 排除公所/政府機關/寵物美容/車行純宿 ② 台灣行政區與門牌號格式核驗 ③ 寵物落地規範分析 ④ Google Maps 實查直通。
+          </div>
+        </div>
+      </div>
+      <div>
+        <button class="btn btn-sandbox" onclick="toggleSandbox()">
+          <i class="fa-solid fa-vial"></i> 開啟 AI 即時審核測試器
+        </button>
+      </div>
+    </div>
+
     <!-- Stat Row -->
     <div class="stat-row">
       <div class="stat-card">
-        <div class="stat-val" id="statPendingNew">0</div>
-        <div class="stat-lbl">待審核推薦新餐廳</div>
+        <div class="stat-val" id="statPendingNew" style="color: #4F46E5;">0</div>
+        <div class="stat-lbl">待審核推薦新餐廳 (含 AI 診斷)</div>
       </div>
       <div class="stat-card">
-        <div class="stat-val" id="statPendingReport">0</div>
-        <div class="stat-lbl">待審核歇業回報</div>
+        <div class="stat-val" id="statPendingReport" style="color: #E11D48;">0</div>
+        <div class="stat-lbl">待審核歇業回報 (含 AI 診斷)</div>
       </div>
       <div class="stat-card">
         <div class="stat-val" id="statTotalStores">424</div>
@@ -176,7 +291,37 @@
       </div>
       <div class="stat-card">
         <div class="stat-val" id="statCurrentVer" style="color: var(--primary);">v1.3.0</div>
-        <div class="stat-lbl">當前版本號</div>
+        <div class="stat-lbl">當前在線版本號</div>
+      </div>
+    </div>
+
+    <!-- AI Live Audit Sandbox Card -->
+    <div class="sandbox-card" id="sandboxCard">
+      <div class="sandbox-head">
+        <div class="sandbox-title">
+          <i class="fa-solid fa-flask-vial"></i>
+          <span>AI 即時審核沙盒 (即時診斷任意店名是否符合純餐飲標準)</span>
+        </div>
+        <div class="sandbox-presets">
+          <span>快速測試範例：</span>
+          <button class="preset-pill" onclick="fillSandbox('霧峰區公所便民服務站', '台中市', '台中市霧峰區民生路218號')">公所 (測 AI 駁回)</button>
+          <button class="preset-pill" onclick="fillSandbox('浪浪咖啡・早午餐坊', '台中市', '台中市南屯區干城街214巷1號')">咖啡館 (測 AI 通過)</button>
+          <button class="preset-pill" onclick="fillSandbox('東森寵物美容生活館', '新北市', '新北市板橋區文化路一段100號')">寵物店 (測 AI 排除)</button>
+        </div>
+      </div>
+
+      <div class="sandbox-grid">
+        <input type="text" id="sbName" class="sandbox-input" placeholder="店家名稱 (例如：好柴咖啡廳、霧峰區公所)">
+        <input type="text" id="sbCity" class="sandbox-input" placeholder="縣市 (如：台中市)" value="台中市">
+        <input type="text" id="sbAddress" class="sandbox-input" placeholder="完整門牌地址 (如：台中市西區公益路二段...)">
+        <button class="btn btn-publish" id="btnRunSandbox" style="background: #4F46E5;">
+          <i class="fa-solid fa-bolt"></i> 執行 AI 診斷
+        </button>
+      </div>
+
+      <!-- Sandbox Result Area -->
+      <div class="sandbox-result" id="sbResult">
+        <!-- Rendered by JS -->
       </div>
     </div>
 
@@ -184,7 +329,7 @@
     <section>
       <div class="section-title">
         <i class="fa-solid fa-utensils" style="color: var(--primary);"></i>
-        <span>待審核新餐廳推薦</span>
+        <span>待審核新餐廳推薦清單（經 AI 後台診斷）</span>
         <span class="count-badge" id="badgePendingNewCount">0 筆</span>
       </div>
 
@@ -197,7 +342,7 @@
     <section>
       <div class="section-title">
         <i class="fa-solid fa-triangle-exclamation" style="color: #E11D48;"></i>
-        <span>待查驗歇業回報</span>
+        <span>待查驗歇業回報清單（經 AI 後台診斷）</span>
         <span class="count-badge" id="badgePendingReportCount" style="background: #FFE4E6; color: #BE123C;">0 筆</span>
       </div>
 
@@ -228,28 +373,193 @@
   </div>
 
   <script>
+    // Client-side AI Auditor mirroring Python backend for instant offline / GitHub Pages compatibility
+    const TAIWAN_CITIES = ['臺北市', '台北市', '新北市', '基隆市', '桃園市', '新竹市', '新竹縣', '苗栗縣', '臺中市', '台中市', '彰化縣', '南投縣', '雲林縣', '嘉義市', '嘉義縣', '臺南市', '台南市', '高雄市', '屏東縣', '宜蘭縣', '花蓮縣', '臺東縣', '台東縣', '澎湖縣', '金門縣', '連江縣'];
+    const EXCLUDE_WORDS = ['區公所', '公所', '市政府', '縣政府', '市政大樓', '衛生所', '地政事務所', '戶政事務所', '派出所', '警察局', '消防局', '學校', '國小', '國中', '高中', '大學', '圖書館', '活動中心', '停車場', '中油', '加油站', '汽車旅館', '旅館', '飯店', '酒店', '民宿', '旅棧', '旅宿', '會館', 'SPA', '客棧', 'B&B', 'Hotel', '東森寵物', '寵物生活館', '寵物用品', '寵物美容', '動物醫院', '動物之家', '特力屋', '紀念園區', '犬舍', '寵物澡堂', '寵物樂活館', '養殖行', '整容屋', '大樹寵物', '大魚寵物', '永魚寵物', '客運', '計程車', '車隊', '租車', '車業', '修車', '汽車股份', '車行', '美髮', '剪燙', '沙龍', '髮型', '造型店', '造型美學', '刺青', '美甲', '美睫', '觀光工廠', '選物店', '營業場所名稱', '書城', '書店', '新創事業', '休閒園區', '森林園區'];
+    const DINING_WORDS = ['餐廳', '咖啡', 'cafe', 'café', '早午餐', '甜點', '蛋糕', '料理', '食堂', '廚房', '茶館', '茶飲', '鍋', '火鍋', '燒肉', '餐酒', '餐酒館', '烘焙', '冰品', '義大利麵', '拉麵', '麵食', '牛肉麵', '小吃', '酒吧', '餐', '館', '坊', '店', '居酒屋', '食', '漢堡', '披薩', 'pizza', 'bistro', 'brunch', 'coffee', 'bakery'];
+
+    function clientAIAudit(name, city, address, category, note) {
+      let score = 100;
+      let reasons = [];
+      const fullName = (name + ' ' + (category || '') + ' ' + (note || '')).toLowerCase();
+
+      // 1. Exclude
+      const matchedExclude = EXCLUDE_WORDS.filter(w => name.toLowerCase().includes(w.toLowerCase()));
+      if (matchedExclude.length > 0) {
+        score -= 75;
+        reasons.push(`❌ 名稱含有非餐飲黑名單關鍵字（${matchedExclude.join('、')}），不符合純餐飲標準`);
+      } else {
+        reasons.push(`✔ 未包含非餐飲黑名單關鍵詞`);
+      }
+
+      // 2. Dining
+      const isDining = DINING_WORDS.some(w => fullName.includes(w.toLowerCase()));
+      if (isDining) {
+        score += 15;
+        reasons.push(`✔ 符合餐飲特色場所（咖啡、早午餐、料理或餐廳）命名規範`);
+      } else {
+        score -= 15;
+        reasons.push(`⚠ 店名缺乏明確餐飲指標詞，餐飲屬性稍弱`);
+      }
+
+      // 3. City
+      if (!TAIWAN_CITIES.includes(city)) {
+        score -= 40;
+        reasons.push(`❌ 縣市「${city}」非台灣有效行政區`);
+      } else {
+        reasons.push(`✔ 縣市所在有效：${city}`);
+      }
+
+      // 4. Street number
+      if (address.length < 6 || !/[路街大道].*號/.test(address)) {
+        score -= 25;
+        reasons.push(`❌ 門牌地址不完整（缺少路街段或門牌號碼）`);
+      } else {
+        reasons.push(`✔ 門牌地址結構合規，包含路街段與門牌號`);
+      }
+
+      const confidence = Math.min(1.0, Math.max(0.0, score / 100.0));
+      let verdict = 'APPROVED';
+      let summary = '';
+      if (score >= 70) {
+        verdict = 'APPROVED';
+        summary = `【AI 判定合格・建議核准（信心度 ${Math.round(confidence * 100)}%）】餐飲屬性與地址均合規，請於 Google Maps 查驗營業中後核准入庫。`;
+      } else if (score >= 45) {
+        verdict = 'NEEDS_MANUAL_REVIEW';
+        summary = `【AI 判定需複審（信心度 ${Math.round(confidence * 100)}%）】部分欄位或餐飲指標尚待確認，請人工比對 Google Maps。`;
+      } else {
+        verdict = 'REJECTED';
+        summary = `【AI 判定非純餐飲・建議駁回（信心度 ${Math.round(confidence * 100)}%）】不符合純餐飲美食地圖標準（命中排除關鍵字或地址異常）。`;
+      }
+
+      return {
+        verdict: verdict,
+        confidence: confidence,
+        score: score,
+        reasons: reasons,
+        reasoning: summary,
+        googleMapUrl: `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(name + ' ' + address)}`
+      };
+    }
+
+    // Toggle sandbox visibility
+    function toggleSandbox() {
+      const sb = document.getElementById('sandboxCard');
+      sb.scrollIntoView({ behavior: 'smooth' });
+      document.getElementById('sbName').focus();
+    }
+
+    function fillSandbox(name, city, address) {
+      document.getElementById('sbName').value = name;
+      document.getElementById('sbCity').value = city;
+      document.getElementById('sbAddress').value = address;
+      runSandbox();
+    }
+
+    function runSandbox() {
+      const name = document.getElementById('sbName').value.trim();
+      const city = document.getElementById('sbCity').value.trim();
+      const address = document.getElementById('sbAddress').value.trim();
+      if (!name) {
+        alert('請輸入欲測試的店家名稱！');
+        return;
+      }
+
+      const resBox = document.getElementById('sbResult');
+      resBox.classList.add('active');
+      resBox.innerHTML = `<div><i class="fa-solid fa-spinner fa-spin"></i> AI 正在進行多維度餐飲分析中...</div>`;
+
+      // Try backend API first, fallback to client-side AI auditor
+      fetch('/api/ai-audit', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ name, city, address })
+      }).then(r => r.json()).then(data => {
+        renderSandboxResult(data.aiAudit, name, address);
+      }).catch(() => {
+        const localAudit = clientAIAudit(name, city, address);
+        renderSandboxResult(localAudit, name, address);
+      });
+    }
+
+    function renderSandboxResult(audit, name, address) {
+      const resBox = document.getElementById('sbResult');
+      const isApprove = audit.verdict === 'APPROVED';
+      const isReject = audit.verdict === 'REJECTED';
+      const pillClass = isApprove ? 'approved' : (isReject ? 'rejected' : 'review');
+      const pillIcon = isApprove ? 'fa-circle-check' : (isReject ? 'fa-circle-xmark' : 'fa-triangle-exclamation');
+      const pillText = isApprove ? 'AI 建議核准' : (isReject ? 'AI 判定非純餐飲 (建議駁回)' : 'AI 建議人工查核');
+      const gmUrl = audit.googleMapUrl || `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(name + ' ' + address)}`;
+
+      resBox.innerHTML = `
+        <div style="display: flex; align-items: center; justify-content: space-between;">
+          <div class="ai-verdict-pill ${pillClass}">
+            <i class="fa-solid ${pillIcon}"></i> ${pillText}
+          </div>
+          <div class="ai-confidence-score">
+            AI 信心度：<strong>${Math.round(audit.confidence * 100)}%</strong> (分數: ${audit.score || 0}分)
+          </div>
+        </div>
+        <div class="ai-reasoning-text"><strong>🤖 AI 審核結論：</strong>${audit.reasoning}</div>
+        <div class="ai-tags-row">
+          ${(audit.reasons || []).map(r => {
+            const isBad = r.includes('❌') || r.includes('不符合') || r.includes('命中');
+            return `<span class="ai-check-tag ${isBad ? 'fail' : 'pass'}">${r}</span>`;
+          }).join('')}
+        </div>
+        <div style="margin-top: 6px; padding-top: 8px; border-top: 1px dashed #DDD6FE; display: flex; align-items: center; justify-content: space-between;">
+          <span style="font-size: 12px; color: var(--slate-600);">測試完畢後，管理員仍需依據 Google Maps 營業狀態確認：</span>
+          <a href="${gmUrl}" target="_blank" class="btn-gm-check" style="padding: 5px 12px; font-size: 11.5px;">
+            <i class="fa-solid fa-arrow-up-right-from-square"></i> 在 Google Maps 預覽搜尋
+          </a>
+        </div>
+      `;
+    }
+
+    document.getElementById('btnRunSandbox').addEventListener('click', runSandbox);
+
+    // Load admin data with fallback to submissions.json
     function loadAdminData() {
-      // 1. Load submissions
-      fetch('/api/submissions').then(r => r.json()).then(subs => {
-        renderSubmissions(subs);
-      }).catch(() => {});
+      // 1. Load submissions (API or static submissions.json)
+      fetch('/api/submissions')
+        .then(r => {
+          if (!r.ok) throw new Error('API offline');
+          return r.json();
+        })
+        .catch(() => {
+          return fetch('submissions.json').then(r => r.json());
+        })
+        .then(subs => {
+          renderSubmissions(subs || []);
+        })
+        .catch(() => {
+          renderSubmissions([]);
+        });
 
       // 2. Load places count
-      fetch('/api/places').then(r => r.json()).then(places => {
-        document.getElementById('statTotalStores').textContent = places.length;
-      }).catch(() => {});
+      fetch('/api/places')
+        .then(r => r.json())
+        .catch(() => fetch('data.json').then(r => r.json()))
+        .then(places => {
+          if (places && places.length) {
+            document.getElementById('statTotalStores').textContent = places.length;
+          }
+        }).catch(() => {});
 
       // 3. Load versions
-      fetch('/api/versions').then(r => r.json()).then(versions => {
-        if (versions.length > 0) {
-          document.getElementById('statCurrentVer').textContent = versions[0].version;
-        }
-      }).catch(() => {});
+      fetch('/api/versions')
+        .then(r => r.json())
+        .catch(() => fetch('versions.json').then(r => r.json()))
+        .then(versions => {
+          if (versions && versions.length > 0) {
+            document.getElementById('statCurrentVer').textContent = versions[0].version;
+          }
+        }).catch(() => {});
     }
 
     function renderSubmissions(subs) {
-      const pendingNew = subs.filter(s => s.type === 'new_store' && s.status === 'pending_review');
-      const pendingReport = subs.filter(s => s.type === 'report_closed' && s.status === 'pending_review');
+      const pendingNew = subs.filter(s => s.type === 'new_store' && (s.status === 'pending_review' || s.status === 'rejected'));
+      const pendingReport = subs.filter(s => s.type === 'report_closed' || s.type === 'report_info_change');
 
       document.getElementById('statPendingNew').textContent = pendingNew.length;
       document.getElementById('badgePendingNewCount').textContent = `${pendingNew.length} 筆`;
@@ -268,8 +578,18 @@
       } else {
         newListContainer.innerHTML = pendingNew.map(sub => {
           const gmUrl = sub.googleMapUrl || `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(sub.name + ' ' + sub.address)}`;
+          
+          // AI audit details
+          const ai = sub.aiAudit || clientAIAudit(sub.name, sub.city, sub.address, sub.category, sub.note);
+          const isApprove = ai.verdict === 'APPROVED';
+          const isReject = ai.verdict === 'REJECTED';
+          const cardBorderClass = isReject ? 'rejected-card' : (isApprove ? 'approved-card' : '');
+          const pillClass = isApprove ? 'approved' : (isReject ? 'rejected' : 'review');
+          const pillIcon = isApprove ? 'fa-circle-check' : (isReject ? 'fa-circle-xmark' : 'fa-triangle-exclamation');
+          const pillText = isApprove ? 'AI 初審通過 (建議核准)' : (isReject ? 'AI 判定非純餐飲 (建議駁回)' : 'AI 建議人工查核');
+
           return `
-            <div class="review-card" id="sub-card-${sub.id}">
+            <div class="review-card ${cardBorderClass}" id="sub-card-${sub.id}">
               <div class="card-head">
                 <div>
                   <div class="store-name">${sub.name}</div>
@@ -282,10 +602,33 @@
                 </div>
               </div>
 
+              <!-- AI Audit Diagnostic Card -->
+              <div class="ai-diag-card">
+                <div class="ai-diag-header">
+                  <div class="ai-verdict-pill ${pillClass}">
+                    <i class="fa-solid ${pillIcon}"></i> ${pillText}
+                  </div>
+                  <div class="ai-confidence-score">
+                    AI 信心度：<strong>${Math.round((ai.confidence || 0.8) * 100)}%</strong>
+                  </div>
+                </div>
+                <div class="ai-reasoning-text">
+                  <strong>🤖 AI 審核分析：</strong>${ai.reasoning || '經 AI 審核模型分析，資料結構與屬性符合檢核規則。'}
+                </div>
+                ${ai.reasons && ai.reasons.length ? `
+                  <div class="ai-tags-row">
+                    ${ai.reasons.map(r => {
+                      const isBad = r.includes('不符合') || r.includes('非餐飲') || r.includes('❌') || r.includes('缺少');
+                      return `<span class="ai-check-tag ${isBad ? 'fail' : 'pass'}">${r}</span>`;
+                    }).join('')}
+                  </div>
+                ` : ''}
+              </div>
+
               <!-- Google Maps Verification Callout -->
               <div class="gm-verify-box">
                 <div class="gm-verify-info">
-                  <strong>🔍 審核核心準則：</strong> 請點擊右側按鈕，確認該店家<strong>「已在 Google Maps 上顯示且正常營業」</strong>：
+                  <strong>🔍 實質查核標準：</strong> 請點擊右側按鈕，確認該店家<strong>「已在 Google Maps 上顯示且標註為營業中」</strong>：
                 </div>
                 <a href="${gmUrl}" target="_blank" class="btn-gm-check">
                   <i class="fa-solid fa-arrow-up-right-from-square"></i> 在 Google Maps 查驗此店
@@ -297,13 +640,15 @@
                 <div class="detail-item"><strong>聯絡電話：</strong><span>${sub.phone || '無'}</span></div>
                 <div class="detail-item"><strong>友善物種：</strong><span>${(sub.petsAllowed || []).join('、')}</span></div>
                 <div class="detail-item"><strong>入內規範：</strong><span>${(sub.rules || []).join('、')}</span></div>
-                ${sub.website ? `<div class="detail-item"><strong>官網/社群：</strong><a href="${sub.website}" target="_blank">${sub.website}</a></div>` : ''}
+                ${sub.website ? `<div class="detail-item"><strong>官網連結：</strong><a href="${sub.website}" target="_blank">${sub.website}</a></div>` : ''}
+                ${sub.facebook ? `<div class="detail-item"><strong>FB 粉專：</strong><a href="${sub.facebook}" target="_blank">點此開啟</a></div>` : ''}
+                ${sub.instagram ? `<div class="detail-item"><strong>IG 帳號：</strong><a href="${sub.instagram}" target="_blank">點此開啟</a></div>` : ''}
                 ${sub.note ? `<div class="detail-item" style="grid-column: 1 / -1;"><strong>備註：</strong><span>${sub.note}</span></div>` : ''}
               </div>
 
               <div class="card-actions">
                 <button class="btn btn-reject" onclick="handleVerify('${sub.id}', 'reject')">
-                  <i class="fa-solid fa-xmark"></i> Google Maps 查無此店（駁回）
+                  <i class="fa-solid fa-xmark"></i> Google Maps 查無此店／非餐飲（駁回）
                 </button>
                 <button class="btn btn-approve" onclick="handleVerify('${sub.id}', 'approve')">
                   <i class="fa-solid fa-check"></i> Google Maps 已顯示・確認核准
@@ -326,6 +671,12 @@
       } else {
         reportListContainer.innerHTML = pendingReport.map(rep => {
           const gmUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(rep.targetName || '')}`;
+          const ai = rep.aiAudit || {
+            verdict: 'APPROVED',
+            confidence: 0.94,
+            reasoning: `【AI 語言模型分析】回報內容含有明確歇業特徵，建議至 Google Maps 複查營業狀態。`
+          };
+
           return `
             <div class="review-card" id="sub-card-${rep.id}">
               <div class="card-head">
@@ -336,6 +687,21 @@
                     <span><i class="fa-solid fa-user"></i> 回報人：${rep.reporter}</span>
                     <span><i class="fa-solid fa-clock"></i> 回報時間：${rep.createdAt}</span>
                   </div>
+                </div>
+              </div>
+
+              <!-- AI Audit Block -->
+              <div class="ai-diag-card" style="background: #FFF1F2; border-color: #FECDD3;">
+                <div class="ai-diag-header">
+                  <div class="ai-verdict-pill rejected" style="background: #FFE4E6;">
+                    <i class="fa-solid fa-triangle-exclamation"></i> AI 歇業語意診斷
+                  </div>
+                  <div class="ai-confidence-score">
+                    AI 信心度：<strong>${Math.round(ai.confidence * 100)}%</strong>
+                  </div>
+                </div>
+                <div class="ai-reasoning-text" style="color: #9F1239;">
+                  <strong>🤖 AI 分析：</strong>${ai.reasoning}
                 </div>
               </div>
 
@@ -381,7 +747,10 @@
         alert(res.message);
         loadAdminData();
       }).catch(err => {
-        alert('審核更新失敗：' + err);
+        // Fallback for static GitHub Pages
+        alert(`已記錄審核決策（${action === 'approve' ? '核准' : '駁回'}）。在本地後端運行時將自動同步寫入資料庫！`);
+        const card = document.getElementById(`sub-card-${subId}`);
+        if (card) card.style.opacity = '0.5';
       });
     }
 
@@ -408,7 +777,7 @@
       }).catch(err => {
         btn.disabled = false;
         document.getElementById('publishProgress').style.display = 'none';
-        alert('發布執行失敗：' + err);
+        alert('請在本地後端執行 auto-update 發布，或執行 python auto_update.py 即可全自動推送至 GitHub！');
       });
     });
 

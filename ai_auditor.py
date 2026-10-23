@@ -32,6 +32,8 @@ TAIWAN_CITIES = [
 ]
 
 NON_DINING_EXCLUDE_WORDS = [
+    '區公所', '公所', '市政府', '縣政府', '市政大樓', '衛生所', '地政事務所', '戶政事務所', '派出所', '警察局', '消防局',
+    '學校', '國小', '國中', '高中', '大學', '圖書館', '活動中心', '停車場', '中油', '加油站',
     '汽車旅館', '旅館', '飯店', '酒店', '民宿', '旅棧', '旅宿', '會館', 'SPA', '客棧', 'B&B', 'Hotel',
     '東森寵物', '寵物生活館', '寵物用品', '寵物美容', '動物醫院', '動物之家', '特力屋', '紀念園區',
     '犬舍', '寵物澡堂', '寵物樂活館', '養殖行', '整容屋', '大樹寵物', '大魚寵物', '永魚寵物',
@@ -167,9 +169,9 @@ def audit_submission(data):
         summary = f"【AI 判定需複審（信心度 {int(confidence*100)}%）】部分欄位或餐飲性質尚待確認（{'; '.join(reasons)}）。"
     else:
         verdict = 'REJECTED'
-        data['status'] = 'rejected'
+        data['status'] = 'pending_review'  # 保持於待審清單中，以紅標醒目標註 AI 判定非純餐飲
         data['verified'] = False
-        summary = f"【AI 審核未通過（信心度 {int(confidence*100)}%）】不符合純餐飲美食地圖標準：{'; '.join(reasons)}。"
+        summary = f"【AI 判定非純餐飲・建議駁回（信心度 {int(confidence*100)}%）】不符合純餐飲標準：{'; '.join(reasons)}。"
 
     audit_result = {
         'verdict': verdict,

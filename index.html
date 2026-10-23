@@ -130,6 +130,9 @@
     .btn-feedback { background: #FAF5FF; border-color: #E9D5FF; color: #7C3AED; font-weight: 700; }
     .btn-feedback:hover { background: #F3E8FF; }
 
+    .btn-admin { background: #4F46E5; border-color: #4338CA; color: #FFFFFF; font-weight: 700; box-shadow: 0 2px 6px rgba(79, 70, 229, 0.25); text-decoration: none; }
+    .btn-admin:hover { background: #4338CA; color: #FFFFFF; transform: translateY(-1px); }
+
     .btn-upload { background: #EFF6FF; border-color: #BFDBFE; color: #1D4ED8; font-weight: 700; }
     .btn-upload:hover { background: #DBEAFE; }
 
@@ -655,6 +658,13 @@
     </div>
 
     <div class="header-actions">
+      <!-- 0. AI 後台審核 -->
+      <a href="admin.html" class="btn btn-admin" id="btnOpenAdmin" title="開啟 AI 智慧審核與管理中心">
+        <i class="fa-solid fa-robot"></i>
+        <span class="btn-text-full">AI 後台</span>
+        <span class="btn-text-short">AI</span>
+      </a>
+
       <!-- 1. 網站意見回饋 -->
       <button class="btn btn-feedback" id="btnOpenFeedback" title="給予本網站地圖體驗與功能建議">
         <i class="fa-solid fa-comment-dots"></i>
@@ -1130,6 +1140,12 @@
 
       <div class="modal-body" id="versionListContainer" style="gap: 12px;">
         <!-- Rendered by JS -->
+      </div>
+      <div style="padding: 12px 18px; border-top: 1px solid var(--slate-200); background: var(--slate-50); border-radius: 0 0 var(--radius-lg) var(--radius-lg); display: flex; justify-content: space-between; align-items: center;">
+        <span style="font-size: 12px; color: var(--slate-500);"><i class="fa-solid fa-shield-halved"></i> 店家查核由 AI 診斷與 Google Maps 實查把關</span>
+        <a href="admin.html" target="_blank" style="font-size: 12px; font-weight: 700; color: #4F46E5; text-decoration: none; display: flex; align-items: center; gap: 4px;">
+          <i class="fa-solid fa-robot"></i> 前往 AI 審核中心 &rarr;
+        </a>
       </div>
     </div>
   </div>
