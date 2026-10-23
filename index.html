@@ -658,14 +658,8 @@
     </div>
 
     <div class="header-actions">
-      <!-- 0. AI 後台審核 -->
-      <a href="admin.html" class="btn btn-admin" id="btnOpenAdmin" title="開啟 AI 智慧審核與管理中心">
-        <i class="fa-solid fa-robot"></i>
-        <span class="btn-text-full">AI 後台</span>
-        <span class="btn-text-short">AI</span>
-      </a>
-
       <!-- 1. 網站意見回饋 -->
+      <button class="btn btn-feedback" id="btnOpenFeedback" title="給予本網站地圖體驗與功能建議">
       <button class="btn btn-feedback" id="btnOpenFeedback" title="給予本網站地圖體驗與功能建議">
         <i class="fa-solid fa-comment-dots"></i>
         <span class="btn-text-full">網站意見回饋</span>
@@ -1140,12 +1134,6 @@
 
       <div class="modal-body" id="versionListContainer" style="gap: 12px;">
         <!-- Rendered by JS -->
-      </div>
-      <div style="padding: 12px 18px; border-top: 1px solid var(--slate-200); background: var(--slate-50); border-radius: 0 0 var(--radius-lg) var(--radius-lg); display: flex; justify-content: space-between; align-items: center;">
-        <span style="font-size: 12px; color: var(--slate-500);"><i class="fa-solid fa-shield-halved"></i> 店家查核由 AI 診斷與 Google Maps 實查把關</span>
-        <a href="admin.html" target="_blank" style="font-size: 12px; font-weight: 700; color: #4F46E5; text-decoration: none; display: flex; align-items: center; gap: 4px;">
-          <i class="fa-solid fa-robot"></i> 前往 AI 審核中心 &rarr;
-        </a>
       </div>
     </div>
   </div>
@@ -1953,6 +1941,42 @@
         renderVersionChangelog();
         openModal('versionModal');
       });
+
+      // Secret Admin Entrance: Click brand icon 3 times or press Ctrl+Shift+A
+      let brandClickCount = 0;
+      let brandClickTimer = null;
+      const brandIcon = document.querySelector('.brand-icon');
+      if (brandIcon) {
+        brandIcon.style.cursor = 'pointer';
+        brandIcon.addEventListener('click', () => {
+          brandClickCount++;
+          clearTimeout(brandClickTimer);
+          brandClickTimer = setTimeout(() => { brandClickCount = 0; }, 1500);
+          if (brandClickCount >= 3) {
+            brandClickCount = 0;
+            triggerSecretAdminLogin();
+          }
+        });
+      }
+
+      window.addEventListener('keydown', (e) => {
+        if (e.ctrlKey && e.shiftKey && (e.key === 'A' || e.key === 'a')) {
+          e.preventDefault();
+          triggerSecretAdminLogin();
+        }
+      });
+
+      function triggerSecretAdminLogin() {
+        const inputPin = prompt('🔒 管理員身分驗證：請輸入管理員密碼以進入 AI 後台：');
+        if (!inputPin) return;
+        const correctPin = localStorage.getItem('pet_map_admin_pin') || '8888';
+        if (inputPin === correctPin) {
+          localStorage.setItem('pet_map_admin_auth', 'true');
+          window.location.href = 'admin.html';
+        } else {
+          alert('❌ 密碼錯誤，存取被拒。');
+        }
+      }
 
       // Google Maps quick test in upload form
       document.getElementById('btnTestGoogleMap').addEventListener('click', () => {
