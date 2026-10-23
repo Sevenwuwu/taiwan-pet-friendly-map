@@ -973,8 +973,8 @@
         <div style="font-size: 12px; color: var(--slate-500); margin-top: 2px;">
           本站專注於「純餐飲」空間。提交後將由管理員於 Google Maps 查核確認後正式納入地圖！
         </div>
-        <div style="background: #EFF6FF; border: 1px solid #BFDBFE; border-radius: 6px; padding: 6px 10px; font-size: 11.5px; color: #1E40AF; margin-top: 8px;">
-          <i class="fa-solid fa-cloud-arrow-up"></i> <strong>雲端自動對接：</strong>訪客推薦將生成 GitHub Issue 單，站長地端 AI 審核系統自動排程抓取查驗！
+        <div style="background: #F0FDF4; border: 1px solid #BBF7D0; border-radius: 6px; padding: 6px 10px; font-size: 11.5px; color: #166534; margin-top: 8px;">
+          <i class="fa-solid fa-file-excel" style="color: #16A34A;"></i> <strong>雲端試算表自動同步：</strong>填妥後即時送達 Google 試算表，無需登入帳號，站長查驗後正式收錄！
         </div>
       </div>
 
@@ -1142,6 +1142,7 @@
   </div>
 
   <!-- Data & Libs -->
+  <script src="google_config.js"></script>
   <script src="data.js"></script>
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
@@ -2027,9 +2028,27 @@
 
         const ghIssueUrl = `https://github.com/Sevenwuwu/taiwan-pet-friendly-map/issues/new?title=${encodeURIComponent(issueTitle)}&body=${encodeURIComponent(issueBody)}&labels=visitor-submission`;
 
+        const gSheetUrl = window.GOOGLE_SHEET_WEBAPP_URL || '';
         const isLocalhost = (window.location.hostname === '127.0.0.1' || window.location.hostname === 'localhost') && window.location.port !== '';
 
-        if (isLocalhost) {
+        if (gSheetUrl) {
+          // 1. Google Sheets 雲端無縫寫入 (訪客免登入、免跳轉、零門檻體驗)
+          fetch(gSheetUrl, {
+            method: 'POST',
+            mode: 'no-cors',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(payload)
+          }).then(() => {
+            submitBtn.disabled = false;
+            alert('🎉 感謝您的熱心推薦！\n\n店家資料已即時寫入雲端 Google 試算表，站長將透過地端 AI 審核系統查核 Google Maps 後正式收錄入庫！');
+            closeModal('uploadModal');
+            document.getElementById('uploadForm').reset();
+          }).catch(err => {
+            submitBtn.disabled = false;
+            alert('提交失敗，請檢查網路連線。');
+          });
+        } else if (isLocalhost) {
+          // 2. 本地端開發模式直連
           fetch('/api/upload', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
@@ -2042,12 +2061,12 @@
           }).catch(err => {
             submitBtn.disabled = false;
             window.open(ghIssueUrl, '_blank');
-            alert('本機提交逾時，已為您在新分頁開啟 GitHub Issue 提交頁面！點擊 Submit 即可送出。');
+            alert('已為您前往 GitHub 提交推薦單！');
             closeModal('uploadModal');
             document.getElementById('uploadForm').reset();
           });
         } else {
-          // GitHub Pages 公開環境：一鍵前往 GitHub Issues
+          // 3. 備用方案 (GitHub Issues 轉接)
           submitBtn.disabled = false;
           window.open(ghIssueUrl, '_blank');
           alert('🎉 已為您在新分頁整理好推薦內容！\n\n請在跳出的 GitHub 頁面點擊綠色「Submit new issue」按鈕，站長地端 AI 審核系統就會自動抓取、查驗並核准發布！');
