@@ -1942,42 +1942,6 @@
         openModal('versionModal');
       });
 
-      // Secret Admin Entrance: Click brand icon 3 times or press Ctrl+Shift+A
-      let brandClickCount = 0;
-      let brandClickTimer = null;
-      const brandIcon = document.querySelector('.brand-icon');
-      if (brandIcon) {
-        brandIcon.style.cursor = 'pointer';
-        brandIcon.addEventListener('click', () => {
-          brandClickCount++;
-          clearTimeout(brandClickTimer);
-          brandClickTimer = setTimeout(() => { brandClickCount = 0; }, 1500);
-          if (brandClickCount >= 3) {
-            brandClickCount = 0;
-            triggerSecretAdminLogin();
-          }
-        });
-      }
-
-      window.addEventListener('keydown', (e) => {
-        if (e.ctrlKey && e.shiftKey && (e.key === 'A' || e.key === 'a')) {
-          e.preventDefault();
-          triggerSecretAdminLogin();
-        }
-      });
-
-      function triggerSecretAdminLogin() {
-        const inputPin = prompt('🔒 管理員身分驗證：請輸入管理員密碼以進入 AI 後台：');
-        if (!inputPin) return;
-        const correctPin = localStorage.getItem('pet_map_admin_pin') || '8888';
-        if (inputPin === correctPin) {
-          localStorage.setItem('pet_map_admin_auth', 'true');
-          window.location.href = 'admin.html';
-        } else {
-          alert('❌ 密碼錯誤，存取被拒。');
-        }
-      }
-
       // Google Maps quick test in upload form
       document.getElementById('btnTestGoogleMap').addEventListener('click', () => {
         const addr = document.getElementById('upAddress').value.trim();
