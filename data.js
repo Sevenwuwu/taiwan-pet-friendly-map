@@ -1884,7 +1884,7 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "status": "OPERATIONAL",
     "highlight": false,
-    "website": "",
+    "website": "https://ifoodie.tw/restaurant/6458b1f7faabb431f3ba783f-Momori-Caf-Bar",
     "facebook": "https://www.facebook.com/100090168547856/",
     "instagram": "https://www.instagram.com/momori.space/",
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Momori Café & Bar+臺中市西區臺灣大道二段222號一樓"
@@ -1989,6 +1989,37 @@ window.PET_PLACES_DATA = [
     "facebook": "https://www.facebook.com/p/Nanboo%E5%8D%97%E9%83%A8%E4%BA%BA-61581853867392/",
     "instagram": "",
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=NanBoo 南部人製菓+臺中市西區大和路63號"
+  },
+  {
+    "id": "store-disco-1792746093",
+    "name": "ONE MORE 泰",
+    "legalName": "ONE MORE 泰",
+    "category": "特色餐飲",
+    "city": "臺中市",
+    "district": "西區",
+    "address": "臺中市西區梅川西路一段95號",
+    "phone": "04-2301-3858",
+    "lat": 24.1437,
+    "lng": 120.6622,
+    "petsAllowed": [
+      "犬",
+      "貓"
+    ],
+    "rules": [
+      "牽繩可落地"
+    ],
+    "features": [
+      "AI 全網挖掘友善新店"
+    ],
+    "source": null,
+    "sourceUrl": null,
+    "verified": true,
+    "status": "OPERATIONAL",
+    "highlight": false,
+    "website": "https://ifoodie.tw/restaurant/628a33efbaf6d30b2f47fa84-ONE-MORE-%E6%B3%B0",
+    "facebook": "https://www.facebook.com/103931102260352/",
+    "instagram": "",
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=ONE%20MORE%20%E6%B3%B0%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%8D%80%E6%A2%85%E5%B7%9D%E8%A5%BF%E8%B7%AF%E4%B8%80%E6%AE%B595%E8%99%9F"
   },
   {
     "id": "tc-22",
@@ -2217,6 +2248,37 @@ window.PET_PLACES_DATA = [
     "facebook": "",
     "instagram": "",
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%80%E4%BA%BA%E4%B8%80%E4%BC%B4%20%E8%87%BA%E4%B8%AD%E5%B8%82"
+  },
+  {
+    "id": "store-disco-1792746159",
+    "name": "三口\"ㄜˋ\"了 勤美店",
+    "legalName": "三口\"ㄜˋ\"了 勤美店",
+    "category": "早午餐",
+    "city": "臺中市",
+    "district": "西區",
+    "address": "臺中市西區中興街55號",
+    "phone": "04-2302-8899",
+    "lat": 24.1437,
+    "lng": 120.6622,
+    "petsAllowed": [
+      "犬",
+      "貓"
+    ],
+    "rules": [
+      "牽繩可落地"
+    ],
+    "features": [
+      "AI 全網挖掘友善新店"
+    ],
+    "source": null,
+    "sourceUrl": null,
+    "verified": true,
+    "status": "OPERATIONAL",
+    "highlight": false,
+    "website": "https://ifoodie.tw/restaurant/61dc14b0a6272841fca42b77-%E4%B8%89%E5%8F%A3-%E4%BA%86-%E5%8B%A4%E7%BE%8E%E5%BA%97",
+    "facebook": "https://www.facebook.com/100162731917948/",
+    "instagram": "",
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%89%E5%8F%A3%22%E3%84%9C%CB%8B%22%E4%BA%86%20%E5%8B%A4%E7%BE%8E%E5%BA%97%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%8D%80%E4%B8%AD%E8%88%88%E8%A1%9755%E8%99%9F"
   },
   {
     "id": "tc-34",
@@ -2779,7 +2841,7 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "status": "OPERATIONAL",
     "highlight": false,
-    "website": "",
+    "website": "https://ifoodie.tw/restaurant/607c40967cc7fc75b19667cc-%E5%A5%BD%E6%9E%9C%E5%AF%A6-%E5%A5%BD%E9%A3%9F%E5%92%96%E5%95%A1-good-fruit",
     "facebook": "https://www.facebook.com/goodfruit.com.tw/",
     "instagram": "https://www.instagram.com/fruit.good.31/",
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=好果實商行+臺中市南區忠明南路1160號"
@@ -3346,6 +3408,37 @@ window.PET_PLACES_DATA = [
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=日安87-9 Good Day+臺中市豐原區府前街87-9號"
   },
   {
+    "id": "store-disco-1792746193",
+    "name": "春鯉 咖啡館",
+    "legalName": "春鯉 咖啡館",
+    "category": "特色咖啡",
+    "city": "臺中市",
+    "district": "中區",
+    "address": "臺中市中區大誠街39巷9號",
+    "phone": "探索相似餐廳",
+    "lat": 24.1437,
+    "lng": 120.6622,
+    "petsAllowed": [
+      "犬",
+      "貓"
+    ],
+    "rules": [
+      "牽繩可落地"
+    ],
+    "features": [
+      "AI 全網挖掘友善新店"
+    ],
+    "source": null,
+    "sourceUrl": null,
+    "verified": true,
+    "status": "OPERATIONAL",
+    "highlight": false,
+    "website": "https://ifoodie.tw/restaurant/6554c709927f800fe4f8d7f4-%E6%98%A5%E9%AF%89-%E5%92%96%E5%95%A1%E9%A4%A8",
+    "facebook": "",
+    "instagram": "",
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%98%A5%E9%AF%89%20%E5%92%96%E5%95%A1%E9%A4%A8%20%E8%87%BA%E4%B8%AD%E5%B8%82%E4%B8%AD%E5%8D%80%E5%A4%A7%E8%AA%A0%E8%A1%9739%E5%B7%B79%E8%99%9F"
+  },
+  {
     "id": "tc-98",
     "name": "望高莊園",
     "legalName": "望高餐飲部",
@@ -3376,6 +3469,37 @@ window.PET_PLACES_DATA = [
     "facebook": "https://www.facebook.com/%E6%9C%9B%E9%AB%98%E8%8E%8A%E5%9C%92-122022241215041/",
     "instagram": "https://www.instagram.com/viewtaichung/",
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=望高莊園+臺中市南屯區中台路398號"
+  },
+  {
+    "id": "store-disco-1792746014",
+    "name": "桃李河畔Xanadu",
+    "legalName": "桃李河畔Xanadu",
+    "category": "特色咖啡",
+    "city": "臺中市",
+    "district": "新社區",
+    "address": "臺中市新社區中興街98之1號",
+    "phone": "04-2593-1588",
+    "lat": 24.1437,
+    "lng": 120.6622,
+    "petsAllowed": [
+      "犬",
+      "貓"
+    ],
+    "rules": [
+      "牽繩可落地"
+    ],
+    "features": [
+      "AI 全網挖掘友善新店"
+    ],
+    "source": null,
+    "sourceUrl": null,
+    "verified": true,
+    "status": "OPERATIONAL",
+    "highlight": false,
+    "website": "https://ifoodie.tw/restaurant/582ca0fd2756dd76791fcb3b-%E6%A1%83%E6%9D%8E%E6%B2%B3%E7%95%94Xanadu",
+    "facebook": "https://www.facebook.com/506040369748435/",
+    "instagram": "",
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%A1%83%E6%9D%8E%E6%B2%B3%E7%95%94Xanadu%20%E8%87%BA%E4%B8%AD%E5%B8%82%E6%96%B0%E7%A4%BE%E5%8D%80%E4%B8%AD%E8%88%88%E8%A1%9798%E4%B9%8B1%E8%99%9F"
   },
   {
     "id": "tc-100",
@@ -3777,6 +3901,37 @@ window.PET_PLACES_DATA = [
     "facebook": "https://www.facebook.com/p/%25E6%25B4%2584%25E6%25B5%2581Stream%25E9%25A4%2590%25E9%25A3%259F-100083359531558/",
     "instagram": "https://www.instagram.com/huiliu_2022/",
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=洄流餐食+臺中市北區雙十路二段21巷16號"
+  },
+  {
+    "id": "store-disco-1792746060",
+    "name": "派特寵物友善餐廳",
+    "legalName": "派特寵物友善餐廳",
+    "category": "早午餐",
+    "city": "臺中市",
+    "district": "南屯區",
+    "address": "臺中市南屯區公益路二段959號",
+    "phone": "04-2389-9891",
+    "lat": 24.1437,
+    "lng": 120.6622,
+    "petsAllowed": [
+      "犬",
+      "貓"
+    ],
+    "rules": [
+      "牽繩可落地"
+    ],
+    "features": [
+      "AI 全網挖掘友善新店"
+    ],
+    "source": null,
+    "sourceUrl": null,
+    "verified": true,
+    "status": "OPERATIONAL",
+    "highlight": false,
+    "website": "https://ifoodie.tw/restaurant/62f5091c781cc07dab4a63ab-%E6%B4%BE%E7%89%B9%E5%AF%B5%E7%89%A9%E5%8F%8B%E5%96%84%E9%A4%90%E5%BB%B3",
+    "facebook": "https://www.facebook.com/100860522689653/",
+    "instagram": "",
+    "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B4%BE%E7%89%B9%E5%AF%B5%E7%89%A9%E5%8F%8B%E5%96%84%E9%A4%90%E5%BB%B3%20%E8%87%BA%E4%B8%AD%E5%B8%82%E5%8D%97%E5%B1%AF%E5%8D%80%E5%85%AC%E7%9B%8A%E8%B7%AF%E4%BA%8C%E6%AE%B5959%E8%99%9F"
   },
   {
     "id": "tc-111",
@@ -4502,7 +4657,7 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "status": "OPERATIONAL",
     "highlight": false,
-    "website": "",
+    "website": "https://ifoodie.tw/restaurant/646ded8f33ebbf4bf565a9b5-%E9%87%8E%E6%B2%90%E7%A7%81%E6%88%BF%E6%96%99%E7%90%86-%E5%AF%B5%E7%89%A9%E5%8F%8B%E5%96%84%E9%A4%90%E5%BB%B3",
     "facebook": "https://www.facebook.com/p/%E9%87%8E%E6%B2%90%E7%A7%81%E6%88%BF%E6%96%99%E7%90%86-%E5%AF%B5%E7%89%A9%E5%8F%8B%E5%96%84%E9%A4%90%E5%BB%B3-100089339634877/",
     "instagram": "https://www.instagram.com/yemu_2023/",
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=野沐私房菜+臺中市北屯區南興北二路111號"
@@ -14478,6 +14633,17 @@ window.PET_PLACES_DATA = [
   }
 ];
 window.PET_MAP_VERSIONS = [
+  {
+    "version": "v1.7.0",
+    "date": "2026-10-23 17:04",
+    "title": "版本 v1.7.0・AI 審核中樞同步發布",
+    "description": "自私有 AI 審核中樞同步全台最新純餐飲店家數據，共計 434 間正常營運純餐飲！",
+    "changes": [
+      "正式在線純餐飲店家共 434 家",
+      "歇業標記門市共 1 家",
+      "全面同步社群 (FB/IG) 專頁與 Google Maps 定位連結"
+    ]
+  },
   {
     "version": "v1.6.0",
     "date": "2026-10-23 16:33",
