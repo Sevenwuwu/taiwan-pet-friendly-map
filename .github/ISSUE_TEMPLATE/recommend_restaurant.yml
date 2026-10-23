@@ -1,0 +1,102 @@
+name: 🐾 推薦寵物友善餐廳
+description: 推薦全台純餐飲、適合攜帶毛小孩同行的友善餐廳
+title: "[訪客推薦] "
+labels: ["visitor-submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感謝您協助擴充全台寵物友善餐廳地圖！
+        本站專注於「純餐飲」空間（不收錄寵物美容、住宿或純寵物用品店）。
+        提交後站長將於地端 AI 審核系統查核 Google Maps 營業狀態後正式納入地圖！
+  - type: input
+    id: store_name
+    attributes:
+      label: 店家名稱
+      placeholder: 例如：毛毛柴早午餐咖啡館
+    validations:
+      required: true
+  - type: dropdown
+    id: city
+    attributes:
+      label: 所在縣市
+      options:
+        - 臺中市
+        - 臺北市
+        - 臺南市
+        - 新北市
+        - 桃園市
+        - 新竹市
+        - 新竹縣
+        - 高雄市
+        - 苗栗縣
+        - 彰化縣
+        - 南投縣
+        - 雲林縣
+        - 嘉義市
+        - 屏東縣
+        - 宜蘭縣
+        - 花蓮縣
+        - 臺東縣
+        - 澎湖縣
+    validations:
+      required: true
+  - type: input
+    id: address
+    attributes:
+      label: 門牌地址
+      placeholder: 例如：臺中市西區美村路一段100號
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: 餐飲類型 (純餐飲)
+      options:
+        - 咖啡/甜點茶館
+        - 特色餐廳
+        - 早午餐/美式輕食
+        - 異國料理/餐酒館
+        - 火鍋/燒肉專門
+        - 景觀茶餐廳
+        - 寵物主題餐廳
+    validations:
+      required: true
+  - type: input
+    id: phone
+    attributes:
+      label: 聯絡電話
+      placeholder: 例如：04-23010000 (選填)
+    validations:
+      required: false
+  - type: input
+    id: website
+    attributes:
+      label: 官方粉專或 IG 連結
+      placeholder: 例如：https://instagram.com/... (選填)
+    validations:
+      required: false
+  - type: checkboxes
+    id: rules
+    attributes:
+      label: 用餐規範與友善配套
+      options:
+        - label: 牽繩可落地
+        - label: 需自備禮貌帶/尿布
+        - label: 可上椅需坐墊
+        - label: 提供寵物鮮食餐
+        - label: 提供飲水容器
+  - type: input
+    id: submitter
+    attributes:
+      label: 推薦人稱呼
+      placeholder: 例如：台中柴媽 Emily
+    validations:
+      required: false
+  - type: textarea
+    id: notes
+    attributes:
+      label: 補充備註
+      placeholder: 例如：店裡有戶外大草皮、店長是可愛黃金獵犬
+    validations:
+      required: false
