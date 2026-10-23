@@ -29,9 +29,9 @@
     "facebook": "",
     "instagram": "",
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%AF%9B%E5%AD%A9%E6%97%A5%E5%85%89%E6%BC%AB%E6%AD%A5%E6%97%A9%E5%8D%88%E9%A4%90%20%E8%87%BA%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%8D%80%E5%85%AC%E7%9B%8A%E8%B7%AF155%E8%99%9F",
-    "status": "pending_review",
+    "status": "approved_pending_merge",
     "createdAt": "2026-10-23 15:23",
-    "verified": false,
+    "verified": true,
     "aiAudit": {
       "verdict": "APPROVED",
       "confidence": 1.0,
@@ -43,7 +43,8 @@
         "經緯度座標落在台灣地理有效範圍內"
       ],
       "reasoning": "【初步檢驗合規（信心度 100%）】餐飲屬性與地址合規，已建立 Google Maps 查驗連結，待管理員確認 Google Maps 顯示狀態後核准！"
-    }
+    },
+    "adminNote": ""
   },
   {
     "id": "sub-2",
@@ -73,7 +74,7 @@
     "facebook": "",
     "instagram": "",
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=aaaaa%20ssss",
-    "status": "pending_review",
+    "status": "rejected",
     "createdAt": "2026-10-23 15:15",
     "verified": false,
     "aiAudit": {
@@ -87,7 +88,8 @@
         "經緯度座標落在台灣地理有效範圍內"
       ],
       "reasoning": "【初步檢驗合規（信心度 90%）】餐飲屬性與地址合規，已建立 Google Maps 查驗連結，待管理員確認 Google Maps 顯示狀態後核准！"
-    }
+    },
+    "adminNote": ""
   },
   {
     "id": "sub-1",
@@ -117,7 +119,7 @@
     "facebook": "",
     "instagram": "",
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Test%20aaa",
-    "status": "pending_review",
+    "status": "rejected",
     "createdAt": "2026-10-23 15:14",
     "verified": false,
     "aiAudit": {
@@ -131,6 +133,7 @@
         "經緯度座標落在台灣地理有效範圍內"
       ],
       "reasoning": "【初步檢驗合規（信心度 90%）】餐飲屬性與地址合規，已建立 Google Maps 查驗連結，待管理員確認 Google Maps 顯示狀態後核准！"
-    }
+    },
+    "adminNote": ""
   }
 ]
