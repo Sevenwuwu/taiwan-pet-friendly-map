@@ -93,6 +93,8 @@ class PetMapHandler(http.server.SimpleHTTPRequestHandler):
             body = {}
 
         now_str = datetime.datetime.now().strftime('%Y-%m-%d %H:%M')
+        client_ip = self.client_address[0] if self.client_address else '127.0.0.1'
+        user_agent = self.headers.get('User-Agent', '未知瀏覽器')
 
         # 1. 提交「網站意見回饋」 (/api/feedback) - 給網站的體驗與功能建議
         if path == '/api/feedback':
@@ -175,6 +177,8 @@ class PetMapHandler(http.server.SimpleHTTPRequestHandler):
                 'rules': body.get('rules', ['牽繩可落地']),
                 'features': body.get('features', ['友善餐廳']),
                 'submitter': body.get('submitter', '訪客推薦').strip(),
+                'clientIp': client_ip,
+                'userAgent': user_agent,
                 'note': body.get('note', '').strip(),
                 'website': website,
                 'facebook': facebook,
