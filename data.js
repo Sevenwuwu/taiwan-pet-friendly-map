@@ -3530,7 +3530,7 @@ window.PET_PLACES_DATA = [
     "verified": true,
     "status": "OPERATIONAL",
     "highlight": false,
-    "website": "",
+    "website": "https://ifoodie.tw/restaurant/5ff0c60922613902293c9185-%E6%A3%AE%E6%9E%97%E5%B0%8F%E5%BE%91-%E5%A4%A7%E5%A2%A9%E5%BA%97",
     "facebook": "https://www.facebook.com/forestpath.cafe3/",
     "instagram": "",
     "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=森林小徑餐飲有限公司大墩分公司+臺中市西屯區大容西街53號"
@@ -14633,6 +14633,17 @@ window.PET_PLACES_DATA = [
   }
 ];
 window.PET_MAP_VERSIONS = [
+  {
+    "version": "v1.8.0",
+    "date": "2026-10-25 00:10",
+    "title": "版本 v1.8.0・AI 審核中樞同步發布",
+    "description": "自私有 AI 審核中樞同步全台最新純餐飲店家數據，共計 434 間正常營運純餐飲！",
+    "changes": [
+      "正式在線純餐飲店家共 434 家",
+      "歇業標記門市共 1 家",
+      "全面同步社群 (FB/IG) 專頁與 Google Maps 定位連結"
+    ]
+  },
   {
     "version": "v1.7.0",
     "date": "2026-10-23 17:04",
