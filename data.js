@@ -60398,6 +60398,17 @@ window.PET_PLACES_DATA = [
 ];
 window.PET_MAP_VERSIONS = [
   {
+    "version": "v1.11.0",
+    "date": "2026-10-25 23:12",
+    "title": "版本 v1.11.0・AI 審核中樞同步發布",
+    "description": "自私有 AI 審核中樞同步全台最新純餐飲店家數據，共計 1859 間正常營運純餐飲！",
+    "changes": [
+      "正式在線純餐飲店家共 1859 家",
+      "歇業標記門市共 1 家",
+      "全面同步社群 (FB/IG) 專頁與 Google Maps 定位連結"
+    ]
+  },
+  {
     "version": "v1.10.0",
     "date": "2026-10-25 13:25",
     "title": "版本 v1.10.0・AI 審核中樞同步發布",
